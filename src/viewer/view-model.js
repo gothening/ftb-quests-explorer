@@ -4,6 +4,10 @@ import {
   mapNodesToObjects,
   normalizeId
 } from "../core/model/common.js";
+import {
+  rewardDisplayName,
+  taskDisplayName
+} from "../core/model/display-name.js";
 import { nodeToJs, serializeSnbt } from "../core/parser/snbt.js";
 
 function textToJson(text) {
@@ -72,6 +76,8 @@ function rewardToJson(reward, book) {
     rewardTableId: table?.id ?? null,
     rewardTableTitle: table ? textToJson(table.title) : null,
     weight: reward.weight,
+    hasCustomTitle: reward.hasCustomTitle,
+    displayName: rewardDisplayName(reward.type),
     title: textToJson(reward.title),
     item: itemToJson(reward.item),
     data: mapNodesToObjects(reward.raw),
@@ -87,6 +93,8 @@ function taskToJson(task, book) {
     type: task.type,
     questId: task.questId,
     optional: task.optional,
+    hasCustomTitle: task.hasCustomTitle,
+    displayName: taskDisplayName(task.type),
     title: textToJson(task.title),
     item: itemToJson(task.item),
     data: mapNodesToObjects(task.raw),

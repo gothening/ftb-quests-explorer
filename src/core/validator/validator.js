@@ -214,6 +214,14 @@ export function validate(book) {
           sourceFile: task.sourceFile
         });
       }
+      if (task.hasCustomTitle && task.title?.missing) {
+        result.add(SEVERITY.INFO, "MISSING_TRANSLATION", `Task ${task.id} has missing custom title text`, {
+          taskId: task.id,
+          questId: quest.id,
+          chapterId: quest.chapterId,
+          sourceFile: task.sourceFile
+        });
+      }
     }
     for (const reward of quest.rewards) {
       checkItem(result, reward.item, `reward ${reward.id}`, reward.sourceFile);
@@ -228,6 +236,14 @@ export function validate(book) {
       }
       if (!reward.id || !reward.type) {
         result.add(SEVERITY.ERROR, "INVALID_REWARD", `Reward ${reward.id || "<missing>"} is not structurally valid`, {
+          rewardId: reward.id,
+          questId: quest.id,
+          chapterId: quest.chapterId,
+          sourceFile: reward.sourceFile
+        });
+      }
+      if (reward.hasCustomTitle && reward.title?.missing) {
+        result.add(SEVERITY.INFO, "MISSING_TRANSLATION", `Reward ${reward.id} has missing custom title text`, {
           rewardId: reward.id,
           questId: quest.id,
           chapterId: quest.chapterId,
@@ -274,7 +290,9 @@ export function validate(book) {
     ...book.chapters,
     ...book.chapterGroups,
     ...book.quests,
-    ...book.rewardTables
+    ...book.rewardTables,
+    ...book.tasks.filter((task) => task.hasCustomTitle),
+    ...book.rewards.filter((reward) => reward.hasCustomTitle)
   ].filter((object) => object.title?.missing).length;
   if (missingTitleCount > 0) {
     result.add(SEVERITY.INFO, "MISSING_TRANSLATION_SUMMARY", `${missingTitleCount} objects have no translated title`, {

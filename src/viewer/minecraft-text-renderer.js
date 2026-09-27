@@ -26,6 +26,12 @@ const EMPTY_STYLE = Object.freeze({
   obfuscated: false
 });
 
+let missingTranslationDiagnostics = false;
+
+export function setMissingTranslationDiagnostics(enabled) {
+  missingTranslationDiagnostics = Boolean(enabled);
+}
+
 export function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
@@ -123,7 +129,9 @@ function renderJsonComponent(component) {
 
   let text = "";
   if (typeof component.text === "string") text += renderLegacyLine(component.text);
-  if (component.translate) {
+  if (component._resolvedTranslation != null) {
+    text += renderLegacyLine(component._resolvedTranslation);
+  } else if (component.translate) {
     const args = Array.isArray(component.with) ? component.with.map(renderJsonComponent).join("") : "";
     text += `${escapeHtml(component.translate)}${args ? ` ${args}` : ""}`;
   }
@@ -152,16 +160,20 @@ function renderJsonComponent(component) {
   return `<span ${attributes.join(" ")}${styleAttributes(style)}>${text}</span>`;
 }
 
-export function renderMinecraftText(textValue) {
+export function renderMinecraftText(textValue, options = {}) {
   if (!textValue) return "";
   const resolved = textValue.resolvedText ?? textValue;
-  const missing = textValue.missing ? `<span class="missing-translation">[Missing translation]</span> ` : "";
-  const key = textValue.translationKey && textValue.missing
+  const showMissing = options.showMissingTranslations ?? missingTranslationDiagnostics;
+  if (textValue.missing && !showMissing) return "";
+  const missing = showMissing && textValue.missing
+    ? `<span class="missing-translation">[Missing translation]</span> `
+    : "";
+  const key = showMissing && textValue.translationKey && textValue.missing
     ? `<code class="translation-key">${escapeHtml(textValue.translationKey)}</code>`
     : "";
 
-  if (resolved?.json != null) {
-    return `${missing}${renderJsonComponent(resolved.json)}${key ? ` ${key}` : ""}`;
+  if (resolved?.resolvedJson != null || resolved?.json != null) {
+    return `${missing}${renderJsonComponent(resolved.resolvedJson ?? resolved.json)}${key ? ` ${key}` : ""}`;
   }
 
   const raw = resolved?.raw ?? resolved?.rawText ?? textValue.raw ?? textValue.rawText;
@@ -183,5 +195,6 @@ export function renderMinecraftText(textValue) {
 
 export function plainMinecraftText(textValue) {
   if (!textValue) return "";
+  if (textValue.missing) return "";
   return textValue.plainText ?? textValue.resolvedText?.plainText ?? String(textValue);
 }

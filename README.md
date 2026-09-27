@@ -98,6 +98,11 @@ the manifest and model load, checks chapter selection and quest details,
 searches, diagnostics, item components, quest links, reward tables, and
 asserts that no `/api/` request or browser console error occurs.
 
+Normal Viewer rendering suppresses the `[Missing translation]` marker for
+true missing quest/chapter text and falls back to IDs or type names where
+appropriate. Open `?missingTranslations=1` to enable the explicit translation
+diagnostic rendering mode.
+
 ## GitHub Pages
 
 The published site is:

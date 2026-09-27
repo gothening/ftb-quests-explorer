@@ -43,7 +43,8 @@ export class TextValue {
     resolvedValue = null,
     locale = null,
     resolvedLocale = null,
-    missing = false
+    missing = false,
+    resolveTranslation = null
   }) {
     this.translationKey = translationKey;
     this.rawText = rawText;
@@ -54,7 +55,8 @@ export class TextValue {
     this.missing = missing;
     this.resolvedText = new MinecraftText(resolvedValue ?? rawText ?? translationKey, {
       translationKey,
-      locale: resolvedLocale ?? locale
+      locale: resolvedLocale ?? locale,
+      resolveTranslation
     });
   }
 
@@ -115,15 +117,27 @@ export class TranslationResolver {
     const legacyValue = decodeTranslationNode(legacyNode);
     const rawValue = entry?.value ?? legacyValue;
     const resolvedValue = entry?.value ?? legacyValue ?? key;
+    const resolvedLocale = entry?.locale ?? null;
     return new TextValue({
       translationKey: key,
       rawText: rawValue,
       rawNode: entry?.node ?? legacyNode,
       resolvedValue,
       locale,
-      resolvedLocale: entry?.locale ?? null,
+      resolvedLocale,
+      resolveTranslation: (translationKey) => {
+        const translation = this.resolveEntry(translationKey, resolvedLocale ?? locale);
+        return translation?.value ?? null;
+      },
       missing: entry == null && legacyValue == null
     });
+  }
+
+  resolveOptionalObjectText(type, id, subKey, locale, legacyNode = null) {
+    const key = this.makeKey(type, id, subKey);
+    const entry = this.resolveEntry(key, locale);
+    if (entry == null && legacyNode == null) return null;
+    return this.resolveText(key, locale, legacyNode);
   }
 
   resolveObjectText(type, id, subKey, locale, legacyNode = null) {

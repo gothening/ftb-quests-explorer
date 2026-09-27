@@ -1,7 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
-  renderMinecraftText
+  renderMinecraftText,
+  setMissingTranslationDiagnostics
 } from "../../src/viewer/minecraft-text-renderer.js";
 
 test("renders legacy colors and formatting without leaving raw section codes", () => {
@@ -37,15 +38,35 @@ test("renders JSON text and click events", () => {
   assert.equal(html.includes("page"), true);
 });
 
-test("renders missing translation key explicitly", () => {
-  const html = renderMinecraftText({
+test("hides missing translation output by default and enables it in diagnostic mode", () => {
+  const value = {
     translationKey: "quest.MISSING.title",
     missing: true,
     resolvedText: {
       raw: "",
       plainText: ""
     }
+  };
+  assert.equal(renderMinecraftText(value).includes("[Missing translation]"), false);
+
+  setMissingTranslationDiagnostics(true);
+  try {
+    const diagnosticHtml = renderMinecraftText(value);
+    assert.equal(diagnosticHtml.includes("[Missing translation]"), true);
+    assert.equal(diagnosticHtml.includes("quest.MISSING.title"), true);
+  } finally {
+    setMissingTranslationDiagnostics(false);
+  }
+});
+
+test("renders a resolved JSON translation component", () => {
+  const html = renderMinecraftText({
+    resolvedText: {
+      resolvedJson: {
+        _resolvedTranslation: "Fallback value"
+      },
+      plainText: "Fallback value"
+    }
   });
-  assert.equal(html.includes("[Missing translation]"), true);
-  assert.equal(html.includes("quest.MISSING.title"), true);
+  assert.equal(html.includes("Fallback value"), true);
 });

@@ -93,16 +93,18 @@ export function createSearchIndex(model) {
     });
 
     for (const task of tasksByQuest.get(quest.id) ?? []) {
+      const label = textValueText(task.title) || task.displayName || task.type;
       addEntry(entries, {
         kind: "task",
         id: task.id,
         chapterId: quest.chapterId,
         questId: quest.id,
-        label: task.type,
+        label,
         match: task.type,
         fields: [
           task.id,
           task.type,
+          task.displayName,
           task.sourceFile,
           textValueText(task.title),
           task.title?.translationKey,
@@ -115,16 +117,18 @@ export function createSearchIndex(model) {
     }
 
     for (const reward of rewardsByQuest.get(quest.id) ?? []) {
+      const label = textValueText(reward.title) || reward.displayName || reward.type;
       addEntry(entries, {
         kind: "reward",
         id: reward.id,
         chapterId: quest.chapterId,
         questId: quest.id,
-        label: reward.type,
+        label,
         match: reward.type,
         fields: [
           reward.id,
           reward.type,
+          reward.displayName,
           reward.sourceFile,
           textValueText(reward.title),
           reward.title?.translationKey,

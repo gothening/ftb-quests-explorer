@@ -59,17 +59,21 @@ export class Reward {
     this.tableId = isCompound(raw) ? readLongId(raw, "table_id") : null;
     this.item = isCompound(raw) && raw.has("item") ? new ItemStack(raw.get("item")) : null;
     this.title = null;
+    this.hasCustomTitle = false;
 
     if (isCompound(raw)) {
       this.unknownFields = collectUnknownFields(raw, KNOWN_REWARD_KEYS);
+      const legacyTitle = raw.get("title") ?? null;
+      this.hasCustomTitle = legacyTitle != null;
       if (options.translationResolver) {
-        this.title = options.translationResolver.resolveObjectText(
+        this.title = options.translationResolver.resolveOptionalObjectText(
           "reward",
           this.id,
           "title",
           options.locale,
-          raw.get("title") ?? null
+          legacyTitle
         );
+        this.hasCustomTitle = this.title != null;
       }
     }
   }
@@ -101,6 +105,7 @@ export class Reward {
       type: this.type,
       weight: this.weight,
       item: this.item?.toJSON() ?? null,
+      hasCustomTitle: this.hasCustomTitle,
       title: this.title?.toJSON() ?? null,
       sourceFile: this.sourceFile,
       unknownFields: [...this.unknownFields.keys()],

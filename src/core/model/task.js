@@ -72,17 +72,21 @@ export class Task {
     this.optional = isCompound(raw) ? readBoolean(raw, "optional_task", false) : false;
     this.item = isCompound(raw) && raw.has("item") ? new ItemStack(raw.get("item")) : null;
     this.title = null;
+    this.hasCustomTitle = false;
 
     if (isCompound(raw)) {
       this.unknownFields = collectUnknownFields(raw, KNOWN_TASK_KEYS);
+      const legacyTitle = raw.get("title") ?? null;
+      this.hasCustomTitle = legacyTitle != null;
       if (options.translationResolver) {
-        this.title = options.translationResolver.resolveObjectText(
+        this.title = options.translationResolver.resolveOptionalObjectText(
           "task",
           this.id,
           "title",
           options.locale,
-          raw.get("title") ?? null
+          legacyTitle
         );
+        this.hasCustomTitle = this.title != null;
       }
     }
   }
@@ -112,6 +116,7 @@ export class Task {
       type: this.type,
       optional: this.optional,
       item: this.item?.toJSON() ?? null,
+      hasCustomTitle: this.hasCustomTitle,
       title: this.title?.toJSON() ?? null,
       sourceFile: this.sourceFile,
       unknownFields: [...this.unknownFields.keys()],

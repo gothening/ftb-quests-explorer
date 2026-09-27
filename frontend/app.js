@@ -4,7 +4,8 @@ import {
 import {
   escapeHtml,
   plainMinecraftText,
-  renderMinecraftText
+  renderMinecraftText,
+  setMissingTranslationDiagnostics
 } from "./src/viewer/minecraft-text-renderer.js";
 import {
   FTB_THEME,
@@ -56,6 +57,9 @@ function init() {
   }
 
   viewerMode = resolveViewerMode();
+  setMissingTranslationDiagnostics(
+    new URLSearchParams(window.location.search).get("missingTranslations") === "1"
+  );
   if (viewerMode === "online") {
     document.documentElement.classList.add("online-mode");
     el.readonlyBadge.textContent = "Online Demo / Read Only";
@@ -723,7 +727,7 @@ function renderReferenceMenu(quest, type) {
 function renderTaskButton(task) {
   const count = task.item?.count ?? task.data?.count ?? task.data?.value;
   const tooltip = {
-    title: task.title ?? task.type,
+    title: task.title ?? task.displayName ?? task.type,
     meta: [
       task.id,
       task.type,
@@ -746,7 +750,7 @@ function renderTaskButton(task) {
 function renderRewardButton(reward) {
   const count = reward.item?.count ?? reward.data?.xp ?? reward.data?.xp_levels;
   const tooltip = {
-    title: reward.title ?? reward.type,
+    title: reward.title ?? reward.displayName ?? reward.type,
     meta: [
       reward.id,
       reward.type,
@@ -832,7 +836,7 @@ function renderRewardDialog() {
       <div class="ftbq-list-entry">
         <div class="ftbq-list-kind">weight ${Number(entry.weight ?? 1)}</div>
         <div class="ftbq-list-match">
-          ${entry.reward.item ? escapeHtml(entry.reward.item.id) : escapeHtml(entry.reward.type)}
+          ${entry.reward.item ? escapeHtml(entry.reward.item.id) : escapeHtml(entry.reward.displayName ?? entry.reward.type)}
           ${entry.reward.item?.count ? ` × ${entry.reward.item.count}` : ""}
         </div>
       </div>
