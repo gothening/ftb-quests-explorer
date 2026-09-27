@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0b07eb66101f01b1"
+	group: "512B54981EE0D939"
+	id: "0B07EB66101F01B1"
+	images: [ ]
+	order_index: 9
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "16689EF35758E854"
+			tasks: [{
+				id: "157B8000B38A5932"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 64000L, id: "mekanism:hydrogen" }] }, "mekanism:owner": [I; 840324790, 121981138, -2058317167, -1345357906 ], "minecraft:block_entity_data": { chemical_tanks: [{ stored: { amount: 64000L, id: "mekanism:hydrogen" }, tank: 0 }], dumping: 0, id: "mekanism:basic_chemical_tank" } }, count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5A880F72946C2D6A"
+			tasks: [{
+				id: "0C643E1FD21521C4"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 64000L, id: "mekanism:lithium" }] }, "mekanism:owner": [I; 840324790, 121981138, -2058317167, -1345357906 ], "minecraft:block_entity_data": { chemical_tanks: [{ stored: { amount: 64000L, id: "mekanism:lithium" }, tank: 0 }], dumping: 0, id: "mekanism:basic_chemical_tank" } }, count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2808B2FADE4C7CF4"
+			tasks: [{
+				id: "6B68A0DA580DFCE5"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 64000L, id: "mekanism:sodium" }] }, "mekanism:owner": [I; 840324790, 121981138, -2058317167, -1345357906 ], "minecraft:block_entity_data": { chemical_tanks: [{ stored: { amount: 64000L, id: "mekanism:sodium" }, tank: 0 }], dumping: 0, id: "mekanism:basic_chemical_tank" } }, count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "300F1BC5F21D85E9"
+			tasks: [{
+				id: "7302F13F696D98BF"
+				item: { count: 1, id: "chemlib:beryllium" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "029ED8FA12828245"
+			tasks: [{
+				id: "0166464BF5DD3584"
+				item: { count: 1, id: "chemlib:magnesium" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "550B52C5353010B6"
+			tasks: [{
+				id: "2527663F408C9472"
+				item: { count: 1, id: "chemlib:potassium" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D4D04931B36118D"
+			tasks: [{
+				id: "4FFE178F792668E4"
+				item: { count: 1, id: "chemlib:calcium" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "299F704B60D21747"
+			tasks: [{
+				id: "6342457F09F96425"
+				item: { count: 1, id: "chemlib:scandium" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "085B565B7C5B8F9C"
+			tasks: [{
+				id: "42C184D6F6819AEE"
+				item: { count: 1, id: "chemlib:titanium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "59C7C4B1F8483033"
+			tasks: [{
+				id: "34D050B4BB9D688B"
+				item: { count: 1, id: "chemlib:vanadium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6276EFB93F68002D"
+			tasks: [{
+				id: "41CD0197B2CB26AD"
+				item: { count: 1, id: "chemlib:chromium" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "09DB423467B073BE"
+			tasks: [{
+				id: "39305181D99E0C60"
+				item: { count: 1, id: "chemlib:manganese" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "596082803A1C6220"
+			tasks: [{
+				id: "62B9727DF9E9E949"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "459B881A86C0E6C9"
+			tasks: [{
+				id: "4F3379694C45F724"
+				item: { count: 1, id: "chemlib:cobalt" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "435E29B4A71A0BEB"
+			tasks: [{
+				id: "21E99F9BEDC95E88"
+				item: { count: 1, id: "oritech:nickel_ingot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "27531F74F38CD0CD"
+			tasks: [{
+				id: "12556865BFEC620A"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5BADAAD16CAD65EF"
+			tasks: [{
+				id: "5179A1959A273A61"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6CC4EC6612714FBD"
+			tasks: [{
+				id: "57E5AA5D17E110A4"
+				item: { count: 1, id: "chemlib:gallium" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0FA273BA457E35AC"
+			tasks: [{
+				id: "5FAC4C2D7D5D2FC5"
+				item: { count: 1, id: "chemlib:aluminum" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4FCD2EBD3DCE3687"
+			tasks: [{
+				id: "144E28DD901531B5"
+				item: { count: 1, id: "oritech:silicon" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "079C97936C407C34"
+			tasks: [{
+				id: "222E2A6CE2825ED0"
+				item: { count: 1, id: "chemlib:boron" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E9B5F2814B902C4"
+			tasks: [{
+				id: "673E8853EF1530B7"
+				item: { count: 1, id: "mekanism:enriched_carbon" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E071FA2242E44BD"
+			tasks: [{
+				id: "283F9454A9AC604B"
+				item: { count: 1, id: "chemlib:nitrogen" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65445032CF2B5938"
+			tasks: [{
+				id: "57F2875A9D4F3245"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 64000L, id: "mekanism:oxygen" }] }, "mekanism:owner": [I; 840324790, 121981138, -2058317167, -1345357906 ], "minecraft:block_entity_data": { chemical_tanks: [{ stored: { amount: 64000L, id: "mekanism:oxygen" }, tank: 0 }], dumping: 0, id: "mekanism:basic_chemical_tank" } }, count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "42C3EB3A6171163D"
+			tasks: [{
+				id: "38A6D121AA4B1897"
+				item: { count: 1, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "47CA863FBD84F3D4"
+			tasks: [{
+				id: "03C03AF3459E430C"
+				item: { count: 1, id: "chemlib:neon" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0887ABF6A6B4647A"
+			tasks: [{
+				id: "22084D360942AB5F"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 64000L, id: "mekanismsun:helium" }] }, "mekanism:owner": [I; 840324790, 121981138, -2058317167, -1345357906 ], "minecraft:block_entity_data": { chemical_tanks: [{ stored: { amount: 64000L, id: "mekanismsun:helium" }, tank: 0 }], dumping: 0, id: "mekanism:basic_chemical_tank" } }, count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7D81A421F7021179"
+			tasks: [{
+				id: "228E31ADC3A575AD"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 64000L, id: "mekanism:chlorine" }] }, "mekanism:owner": [I; 840324790, 121981138, -2058317167, -1345357906 ], "minecraft:block_entity_data": { chemical_tanks: [{ stored: { amount: 64000L, id: "mekanism:chlorine" }, tank: 0 }], dumping: 0, id: "mekanism:basic_chemical_tank" } }, count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "07E16257F85933D6"
+			tasks: [{
+				id: "0C34C1E59B2339DC"
+				item: { count: 1, id: "chemlib:phosphorus" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "27DCCFB74AC5ED2D"
+			tasks: [{
+				id: "1F874458E4D8993D"
+				item: { count: 1, id: "mekanism:dust_sulfur" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "49FD6497B3FF7192"
+			tasks: [{
+				id: "4951EBC9E2E6C8CC"
+				item: { count: 1, id: "chemlib:argon" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "52F7CE6A485B7A7F"
+			tasks: [{
+				id: "4E32DA2A3CDF88B4"
+				item: { count: 1, id: "chemlib:germanium" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6191CB7CEFC5A503"
+			tasks: [{
+				id: "53386CC8AAFD7B8D"
+				item: { count: 1, id: "chemlib:arsenic" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5DB3192B38A18269"
+			tasks: [{
+				id: "7B2C6B8C8E5CA4E4"
+				item: { count: 1, id: "chemlib:selenium" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61C8002506FD238B"
+			tasks: [{
+				id: "2157777CDD5E008F"
+				item: { count: 1, id: "chemlib:bromine" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "25B3F9BB92274A60"
+			tasks: [{
+				id: "4C9AEB61B4B8EE25"
+				item: { count: 1, id: "chemlib:krypton" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "682088B09EE00FAE"
+			tasks: [{
+				id: "61E392418CD3AA2C"
+				item: { count: 1, id: "mekmm:ingot_silver" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6FBA640FE9B59FA9"
+			tasks: [{
+				id: "626CE7A2C89143DC"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "215B79F86DAFA5BF"
+			tasks: [{
+				id: "6622775372969062"
+				item: { count: 1, id: "alltheores:platinum_ingot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "140C6B5E6EF7B77D"
+			tasks: [{
+				id: "254C6929CCEEB084"
+				item: { count: 1, id: "chemlib:iridium" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1EC698295A379285"
+			tasks: [{
+				id: "414CA5445F9EFB53"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7D7966A0799CB988"
+			tasks: [{
+				id: "51AA13C62E8EC7D7"
+				item: { count: 1, id: "chemlib:rhenium" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "484C6BB4A211A42A"
+			tasks: [{
+				id: "6EB4A4194F6485FB"
+				item: { count: 1, id: "chemlib:tungsten" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3D12DAE8EBCFE594"
+			tasks: [{
+				id: "4B7A170BB76A0912"
+				item: { count: 1, id: "mekanism:ingot_tin" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3FA2448C3BB800A3"
+			tasks: [{
+				id: "1E9535B0DE87ECE9"
+				item: { count: 1, id: "mekanism:ingot_lead" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "778532C4D6B2C63C"
+			tasks: [{
+				id: "64732D98AD93D332"
+				item: { count: 1, id: "alltheores:cinnabar" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5AD397911F0C1219"
+			tasks: [{
+				id: "195A2CF0DA3F1B01"
+				item: { count: 1, id: "chemlib:rubidium" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+	]
+}

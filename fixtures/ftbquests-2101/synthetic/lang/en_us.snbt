@@ -1,0 +1,27 @@
+{
+	chapter_group.1111111111111111.title: "Fixture Group"
+	chapter.2222222222222222.title: "Fixture Chapter"
+	chapter.2222222222222222.chapter_subtitle: ["Fixture chapter subtitle"]
+	quest.3333333333333333.title: "Root Quest"
+	quest.3333333333333333.quest_subtitle: "Root subtitle"
+	quest.3333333333333333.quest_desc: [
+		"Root description with &6gold&r and &lformatting&r."
+		""
+		"Unicode: 中文测试"
+	]
+	quest.4444444444444444.title: "Dependent A"
+	quest.4444444444444444.quest_desc: ["Depends on the root quest."]
+	quest.5555555555555555.title: "Dependent B"
+	quest.5555555555555555.quest_desc: ["Also depends on the root quest."]
+	quest.6666666666666666.title: "Hidden Merge"
+	quest.6666666666666666.quest_desc: ["Requires both branches."]
+	quest.7777777777777777.title: "Orphan"
+	quest.7777777777777777.quest_desc: ["No dependencies; should be reported by the analyzer."]
+	task.aaaa000000000001.title: "Collect component item"
+	task.aaaa000000000002.title: "Manual confirmation"
+	reward.bbbb000000000001.title: "Component reward"
+	reward.bbbb000000000002.title: "Command reward"
+	reward.bbbb000000000003.title: "XP levels reward"
+	reward.bbbb000000000004.title: "Loot table reward"
+	reward_table.cccc000000000001.title: "Fixture reward table"
+}

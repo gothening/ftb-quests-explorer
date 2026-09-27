@@ -1,0 +1,59 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "23a713ec9c0e1129"
+	group: "387494013EF92831"
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/netherrack"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "23A713EC9C0E1129"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FD3A7C398580722"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "3A7B07F98FC282AD"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "374BC30C4B16DA69"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7B07F98FC282AD"]
+			entity_vis_size: 1.0f
+			id: "295DDCF9A45C4253"
+			rewards: [{
+				id: "4AB2C95A8A925C11"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:polished_blackstone_bricks"
+				}
+				id: "584F358B5899E798"
+				structure: "#minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+}

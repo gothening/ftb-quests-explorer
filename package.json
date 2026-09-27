@@ -1,0 +1,28 @@
+{
+  "name": "ftb-quests-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "FTB Quests 2101.1.x core data layer",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "start": "node dev-server.mjs",
+    "build:demo-data": "node tools/build-online-demo.mjs",
+    "build:demo-data:ci": "node tools/build-online-demo.mjs --reuse-existing",
+    "build:static": "node tools/build-static.mjs",
+    "build": "npm run build:demo-data && npm run build:static",
+    "preview": "node tools/preview-static.mjs",
+    "test": "node --test tests/*/*.test.mjs",
+    "test:snbt": "node --test tests/snbt/*.test.mjs",
+    "test:core": "node --test tests/model/*.test.mjs tests/translations/*.test.mjs tests/components/*.test.mjs tests/dependencies/*.test.mjs tests/validation/*.test.mjs tests/roundtrip/*.test.mjs",
+    "test:viewer": "node --test tests/viewer/*.test.mjs",
+    "smoke:viewer": "node tools/viewer-smoke.mjs",
+    "smoke:online": "node tools/smoke-online.mjs",
+    "audit": "node tools/audit-snbt.mjs ..\\config\\ftbquests\\quests --out tools\\audit-summary.json",
+    "roundtrip": "node tools/roundtrip-check.mjs ..\\config\\ftbquests\\quests",
+    "verify": "node tools/phase1-verify.mjs ..\\config\\ftbquests\\quests"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ftbq-mode" content="local">
+    <title>FTB Quests Viewer - Read Only</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="ftbq-screen">
+      <header class="ftbq-topbar">
+        <div class="ftbq-brand">
+          <img id="bookIcon" class="ftbq-brand-icon" alt="">
+          <strong>FTB Quests</strong>
+          <span id="readonlyBadge" class="ftbq-readonly">PREVIEW / READ ONLY</span>
+        </div>
+        <div class="ftbq-toolbar">
+          <button id="openInstanceBtn" type="button">Open Instance</button>
+          <button id="openQuestDirBtn" type="button">Open Quest Directory</button>
+          <button id="reloadBtn" type="button">Reload</button>
+          <button id="searchBtn" type="button">Search</button>
+          <button id="diagnosticsBtn" type="button">Diagnostics</button>
+        </div>
+        <div class="ftbq-meta">
+          <span id="demoInfo" hidden></span>
+          <span id="mcVersion">Minecraft 1.21.1</span>
+          <span id="ftbqVersion">FTB Quests 2101.1.x</span>
+        </div>
+      </header>
+
+      <div class="ftbq-main">
+        <aside class="ftbq-chapter-panel">
+          <div class="ftbq-chapter-panel-header">
+            <div class="ftbq-panel-title" id="chapterPanelTitle">Quest Book</div>
+            <img id="pinIcon" class="ftbq-panel-icon" alt="">
+          </div>
+          <label class="ftbq-search-field">
+            <img id="searchIcon" alt="">
+            <input id="chapterFilter" type="search" placeholder="Search chapters" autocomplete="off">
+          </label>
+          <div id="chapterTree" class="ftbq-chapter-tree" aria-label="Chapter tree"></div>
+        </aside>
+
+        <main class="ftbq-quest-panel">
+          <div class="ftbq-quest-panel-header">
+            <div>
+              <div id="questPanelTitle" class="ftbq-quest-panel-title">Select a chapter</div>
+              <div id="questPanelSubtitle" class="ftbq-quest-panel-subtitle"></div>
+            </div>
+            <div class="ftbq-zoom-controls">
+              <button id="fitBtn" type="button" title="Fit quests">Fit</button>
+              <button id="zoomOutBtn" type="button" title="Zoom out">-</button>
+              <input id="zoomRange" type="range" min="25" max="175" value="100" aria-label="Zoom">
+              <button id="zoomInBtn" type="button" title="Zoom in">+</button>
+            </div>
+          </div>
+          <div id="questViewport" class="ftbq-quest-viewport">
+            <div id="questWorld" class="ftbq-quest-world">
+              <svg id="linkLayer" class="ftbq-link-layer" aria-hidden="true"></svg>
+              <div id="imageLayer" class="ftbq-image-layer"></div>
+              <div id="linkButtonLayer" class="ftbq-link-button-layer"></div>
+              <div id="questLayer" class="ftbq-quest-layer"></div>
+              <div id="externalLayer" class="ftbq-external-layer"></div>
+            </div>
+            <div id="tooltip" class="ftbq-tooltip" hidden></div>
+          </div>
+          <div class="ftbq-quest-panel-footer">
+            <span id="questPanelStatus">Waiting for data</span>
+            <span class="ftbq-hint">Drag to pan · Ctrl+Wheel to zoom · Fit to reset</span>
+          </div>
+        </main>
+      </div>
+
+      <section id="viewQuestPanel" class="ftbq-view-quest-panel" hidden>
+        <div class="ftbq-view-quest-header">
+          <img id="viewQuestIcon" class="ftbq-view-quest-icon" alt="">
+          <div id="viewQuestTitle" class="ftbq-view-quest-title"></div>
+          <button id="closeViewQuestBtn" class="ftbq-icon-button" type="button" title="Close">×</button>
+        </div>
+        <div id="viewQuestContent" class="ftbq-view-quest-content"></div>
+      </section>
+
+      <footer class="ftbq-statusbar">
+        <span id="statusText">Read-only preview</span>
+        <span id="diagnosticsSummary" class="ftbq-diagnostics-summary">ERROR 0 / WARNING 0 / INFO 0</span>
+      </footer>
+    </div>
+
+    <dialog id="pathDialog" class="ftbq-dialog">
+      <form method="dialog" class="ftbq-dialog-content">
+        <div class="ftbq-dialog-header">
+          <h2 id="pathDialogTitle">Open Quest Directory</h2>
+          <button type="button" id="cancelPathBtn" class="ftbq-icon-button">×</button>
+        </div>
+        <p>输入整合包根目录或 <code>config/ftbquests/quests</code> 路径。Viewer 只读取文件。</p>
+        <input id="pathInput" type="text" autocomplete="off" placeholder="D:\...\MyModpack">
+        <div class="ftbq-dialog-actions">
+          <button id="useCurrentBtn" type="button">Use Current Instance</button>
+          <button id="confirmPathBtn" type="submit">Open</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="searchDialog" class="ftbq-dialog ftbq-search-dialog">
+      <div class="ftbq-dialog-content">
+        <div class="ftbq-dialog-header">
+          <h2>Global Search</h2>
+          <button id="closeSearchBtn" type="button" class="ftbq-icon-button">×</button>
+        </div>
+        <input id="searchInput" type="search" autocomplete="off" placeholder="Search chapters, quests, tasks, rewards, items">
+        <div id="searchResults" class="ftbq-list-results"></div>
+      </div>
+    </dialog>
+
+    <dialog id="diagnosticsDialog" class="ftbq-dialog ftbq-diagnostics-dialog">
+      <div class="ftbq-dialog-content">
+        <div class="ftbq-dialog-header">
+          <h2>Diagnostics</h2>
+          <button id="closeDiagnosticsBtn" type="button" class="ftbq-icon-button">×</button>
+        </div>
+        <div id="diagnosticsContent" class="ftbq-list-results"></div>
+      </div>
+    </dialog>
+
+    <dialog id="rewardDialog" class="ftbq-dialog ftbq-reward-dialog">
+      <div class="ftbq-dialog-content">
+        <div class="ftbq-dialog-header">
+          <h2 id="rewardDialogTitle">Reward Table</h2>
+          <button id="closeRewardBtn" type="button" class="ftbq-icon-button">×</button>
+        </div>
+        <div id="rewardDialogContent" class="ftbq-list-results"></div>
+      </div>
+    </dialog>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

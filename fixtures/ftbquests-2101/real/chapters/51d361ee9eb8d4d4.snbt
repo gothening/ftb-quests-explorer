@@ -1,0 +1,510 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "51d361ee9eb8d4d4"
+	group: "374F9CF3808ED22B"
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "51D361EE9EB8D4D4"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E1F83DDCEB714B5"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "7FAA4AA67EEAEA0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0903F8FA26D775F9"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "744D6D79F11173A4"
+					stage: "1"
+					type: "gamestage"
+				}
+				{
+					id: "07A0F7E1FB89E4E1"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7AE6F61276BFB5CD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			id: "1E1F83DDCEB714B5"
+			rewards: [
+				{
+					description: "商店已解锁！可查看任务书！"
+					id: "7B5409F427C370A0"
+					type: "toast"
+				}
+				{
+					id: "2EDAAD1A60CA5B38"
+					item: {
+						count: 1
+						id: "philiaamulet:philia_amulet"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "75D4C6DDA11B8DA1"
+					stage: "1"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "1499D9617E715207"
+				item: { count: 1, id: "prefab:item_house" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "477F78F062B3C7D2"
+			rewards: [{
+				id: "4180E0EDD9A7FEC1"
+				item: {
+					components: {
+						"minecraft:block_entity_data": {
+							echo_id: "gothening:l0_enter_world"
+							id: "ftbechoes:core"
+							worker_id: [I;
+								970673775
+								46613981
+								-1713842410
+								657797865
+							]
+						}
+					}
+					count: 1
+					id: "ftbechoes:echo_projector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A037699ABEEDE9"
+				item: { count: 1, id: "ftbechoes:echo_projector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FAA4AA67EEAEA0C"]
+			entity_vis_size: 1.0f
+			id: "31320B9CE61A7177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A64F4D21EC36134"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3A3617DC3E7254F2"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:block/iron_ore"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "19E2A394DAB07D3D"
+					observation_type: "block"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "minecraft:iron_ore"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31320B9CE61A7177"]
+			entity_vis_size: 1.0f
+			id: "1F3414BD8C65AEBF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AF55D218893F010"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "311B9EA44F742CBB"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/paxel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "78A25439FDBCF71D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:chest_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1DA2D63831090F48"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/shield)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5467754DEFAED893"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:head_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4148DD5E44351B65"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leg_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3CEA7BA04FCA6A0C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:foot_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "404BFF22CCF4BABF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether:accessories_gloves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31320B9CE61A7177"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "14F4B25CE74E3A5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "379C6B093B09306C"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "21399A13115CFC2E"
+					item: { components: { "sophisticatedcore:number_of_inventory_slots": 54, "sophisticatedcore:number_of_upgrade_slots": 2, "sophisticatedcore:render_info_tag": { upgradeItems: [ { }, { } ] }, "sophisticatedcore:storage_uuid": [I; -1211604424, 1973371193, -1960001022, 1276398119 ] }, count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "001D22C1ADC4B263"
+					item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_chest" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14B852958A08221B"
+					item: { count: 1, id: "minecraft:bucket" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31320B9CE61A7177"]
+			entity_vis_size: 1.0f
+			id: "22F1F5F59DD38D29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3289D49E58E66209"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4C79BC16850BA636"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F5FE4C424BDF560"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_meats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34230B828E5A59B5"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/fruit)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01E93003516F53BE"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AAA21CD6A25C6A0"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/faces/alexsmobs/raccoon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "669304A7F0D0FA7F"
+			rewards: [{
+				id: "3345C74871309367"
+				item: {
+					count: 1
+					id: "primogemcraft:hhaokandelaji"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:textures/faces/alexsmobs/raccoon.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "24F3FA3DC97B7A63"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:raccoon"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1F3414BD8C65AEBF"
+				"7641C28434802B50"
+				"14F4B25CE74E3A5B"
+				"22F1F5F59DD38D29"
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "create:block/train_door_top"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "681E559D3F2A5D4F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ftbechoes gamestage @s add gothening_l0_stage_2"
+					id: "323E8550DD0F47EE"
+					silent: true
+					type: "command"
+				}
+				{
+					description: ""
+					id: "41204BC5E6D407BE"
+					type: "toast"
+				}
+				{
+					id: "5D4EA2DAE62EAC87"
+					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								echo_id: "gothening:chapter_1_end"
+								id: "ftbechoes:core"
+								worker_id: [I;
+									1307484398
+									-488944141
+									-1928602316
+									-571554784
+								]
+							}
+						}
+						count: 1
+						id: "ftbechoes:echo_projector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0828E6EEDD943D39"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31320B9CE61A7177"]
+			entity_vis_size: 1.0f
+			id: "7641C28434802B50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27D9EEFB9D8C1778"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "4F73FC6A08EC8E7B"
+					item: { count: 1, id: "minecraft:shears" }
+					type: "item"
+				}
+				{
+					id: "39937F9D5F32CEA9"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:wools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "20272EAE662EAAF8"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FAA4AA67EEAEA0C"]
+			entity_vis_size: 1.0f
+			id: "5F0AE7F3663765F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5556E115E8DC2EF9"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34B6F057213A8A21"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FAA4AA67EEAEA0C"]
+			entity_vis_size: 1.0f
+			id: "6E4E24DA3C08689C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C46793C20AEF8AE"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "336BEC01BD987A48"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					id: "0EC3C7FF05A24F0E"
+					item: { count: 1, id: "twilightforest:oak_drying_rack" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E1F83DDCEB714B5"]
+			entity_vis_size: 1.0f
+			id: "4D87F8C0C7CE8475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069EDB2F0D2FE483"
+				table_id: 342224790532069426L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3B1A0DE4876256DE"
+					item: { components: { "minecraft:custom_data": { biologydictionary: "1.2.1" }, "minecraft:custom_model_data": 14489768, "minecraft:item_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"title.biologydictionary\"}", "minecraft:lore": ["{\"bold\":false,\"color\":\"dark_aqua\",\"italic\":false,\"translate\":\"description.biologydictionary\"}"], "minecraft:writable_book_content": { pages: [{ raw: "§ltext.biologydictionary.mod_name_is§2§lbiologydictionary\n\n§r§0text.biologydictionary.mod_not_installed\n\nModrinth: §9§nhttps://modrinth.com/mod/biology-dictionary\n\nCurseForge: §9§nhttps://www.curseforge.com/minecraft/mc-mods/biology-dictionary\n\nGitHub: §9§nhttps://github.com/xienaoban/minecraft-biology-dictionary\n" }] } }, count: 1, id: "minecraft:writable_book" }
+					type: "item"
+				}
+				{
+					id: "5BC4D520B7140564"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6759189332E3EBDB"
+			rewards: [{
+				id: "6D7F4167BF53304F"
+				item: {
+					count: 1
+					id: "primogemcraft:ljtg_02"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2740BDCE0353D361"
+				item: { count: 1, id: "kaleidoscope_cookery:trash_can" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+}

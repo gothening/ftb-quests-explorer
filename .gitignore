@@ -1,0 +1,16 @@
+node_modules/
+dist/
+tmp/
+*.log
+.DS_Store
+Thumbs.db
+mods/
+saves/
+logs/
+crash-reports/
+screenshots/
+cache/
+.cache/
+.env
+.env.*
+reference/

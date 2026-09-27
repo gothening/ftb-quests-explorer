@@ -1,0 +1,211 @@
+{
+	id: "2222222222222222"
+	group: "1111111111111111"
+	order_index: 0
+	filename: "2222222222222222"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	future_chapter_field: {
+		value: "preserve"
+	}
+	images: [
+		{
+			id: "DDDD000000000001"
+			x: 0.0d
+			y: 0.0d
+			width: 2.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/stone.png"
+			click_action: "none"
+			dependency: "3333333333333333"
+			position_locked: true
+			text_on_image: true
+			text_shadow: true
+			text_inset: 4
+			text_h_align: "center"
+			text_v_align: "middle"
+			future_image_field: "preserve"
+		}
+	]
+	quest_links: [
+		{
+			id: "EEEE000000000001"
+			linked_quest: "6666666666666666"
+			x: 3.0d
+			y: 0.0d
+			shape: "circle"
+			size: 1.25d
+			future_link_field: "preserve"
+		}
+	]
+	quests: [
+		{
+			id: "3333333333333333"
+			x: -1.0d
+			y: 0.0d
+			size: 1.5d
+			shape: "diamond"
+			icon: {
+				id: "minecraft:crafting_table"
+				count: 1
+				components: {
+					"minecraft:custom_name": "{\"text\":\"Root\"}"
+				}
+			}
+			tags: ["fixture", "root"]
+			tasks: [
+				{
+					id: "AAAA000000000001"
+					type: "item"
+					item: {
+						id: "minecraft:stone"
+						count: 1
+						components: {
+							"minecraft:custom_data": {
+								fixture_value: 1b
+							}
+							"futuremod:component": {
+								keep: "raw"
+							}
+						}
+					}
+					count: 2L
+					optional_task: true
+					match_components: "strict"
+					only_from_crafting: true
+					task_screen_only: true
+					future_task_field: {
+						nested: [I; 1, 2, 3]
+					}
+				}
+				{
+					id: "AAAA000000000002"
+					type: "checkmark"
+					future_checkmark_field: "preserve"
+				}
+			]
+			rewards: [
+				{
+					id: "BBBB000000000001"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						count: 1
+						components: {
+							"minecraft:custom_name": "{\"text\":\"Fixture reward\"}"
+						}
+					}
+					count: 3
+					exclude_from_claim_all: true
+					future_reward_field: "preserve"
+				}
+				{
+					id: "BBBB000000000002"
+					type: "command"
+					command: "say fixture"
+					permission_level: 2
+					silent: true
+					feedback_message: "fixture command ran"
+				}
+				{
+					id: "BBBB000000000003"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "BBBB000000000004"
+					type: "loot"
+					table_id: "CCCC000000000001"
+				}
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			min_required_dependencies: 1
+			dependency_requirement: "one_completed"
+			max_completable_dependents: 1
+			repeat_cooldown: 30
+			invisible: true
+			invisible_until_tasks: 1
+			hide_lock_icon: true
+			future_quest_field: {
+				typed_long: [L; 1L, 2L, 3L]
+				escaped_unicode: "\u4e2d\u6587"
+				escaped_string: "quote: \"fixture\" tab:\t backslash:\\"
+			}
+		}
+		{
+			id: "4444444444444444"
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["3333333333333333"]
+			dependency_requirement: "all_started"
+			tasks: [
+				{
+					id: "AAAA000000000003"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "BBBB000000000005"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			id: "5555555555555555"
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["3333333333333333"]
+			tasks: [
+				{
+					id: "AAAA000000000004"
+					type: "biome"
+					biome: "minecraft:plains"
+				}
+			]
+		}
+		{
+			id: "6666666666666666"
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"4444444444444444"
+				"5555555555555555"
+			]
+			tasks: [
+				{
+					id: "AAAA000000000005"
+					type: "future_task_type"
+					rawData: {
+						keep: "raw"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "BBBB000000000006"
+					type: "future_reward_type"
+					rawData: {
+						keep: "raw"
+					}
+				}
+			]
+		}
+		{
+			id: "7777777777777777"
+			x: -3.0d
+			y: 3.0d
+			tasks: [
+				{
+					id: "AAAA000000000006"
+					type: "checkmark"
+				}
+			]
+		}
+	]
+}

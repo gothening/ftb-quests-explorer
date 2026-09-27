@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{
+			id: "1111111111111111"
+			future_group_field: "preserve"
+		}
+	]
+}

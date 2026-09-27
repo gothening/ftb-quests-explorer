@@ -1,0 +1,380 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0edcdada1a29519d"
+	group: "64455473278BA5BB"
+	id: "0EDCDADA1A29519D"
+	images: [ ]
+	order_index: 7
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "150375462619B16D"
+			rewards: [
+				{
+					id: "52BFA1F45E72BA66"
+					item: {
+						count: 1
+						id: "ultramarine:plated_ham"
+					}
+					type: "item"
+				}
+				{
+					id: "4AF5A91026082977"
+					item: {
+						components: {
+							"quark:item_count": 640
+							"quark:stored_item": {
+								stack: {
+									count: 1
+									id: "minecraft:bone_meal"
+								}
+							}
+						}
+						count: 1
+						id: "quark:seed_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "51A044F76324FD45"
+					item: {
+						count: 1
+						id: "twilightforest:sorting_log_core"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 10L
+				id: "6B1C5F6378E5B25F"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "118F5A33B7776C47"
+			rewards: [
+				{
+					id: "1C094F430E5A63C1"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:fortune": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "7599273300B12DEF"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 10
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 25L
+				id: "17AC9B591ED5F745"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1F8BF4F42B5C41DB"
+			rewards: [
+				{
+					id: "06595138E49FD5DD"
+					item: {
+						count: 1
+						id: "prefab:item_modern_buildings_advanced"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "55FACE35EA1EC048"
+					item: {
+						count: 1
+						id: "mekanismgenerators:advanced_solar_generator"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 50L
+				id: "48D9564CBF011D87"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5D3738A1192E6588"
+			rewards: [{
+				id: "3568EF685DB6A61A"
+				item: {
+					count: 1
+					id: "artifacts:eternal_steak"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 75L
+				id: "0A2280839262F957"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7C2992F5EDAF3620"
+			rewards: [
+				{
+					id: "1764DEC006174708"
+					item: {
+						count: 1
+						id: "projecte:harvest_goddess_band"
+					}
+					type: "item"
+				}
+				{
+					id: "1BC5FB4C99D905C1"
+					item: {
+						count: 1
+						id: "projecte:dm_pedestal"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 100L
+				id: "63DCCB4493FC9E9D"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "362B752A77DD0FBE"
+			rewards: [
+				{
+					id: "7BA20AD4C84F8715"
+					item: {
+						count: 1
+						id: "projecte:body_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "71C8FA1066399154"
+					item: {
+						components: {
+							"projecte:stored_emc": 50000L
+						}
+						count: 1
+						id: "projecte:klein_star_ein"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 150L
+				id: "6CDDD5919EB93DF7"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40B2E7028072CFD7"
+			rewards: [{
+				id: "69CEA28E4C0BFC40"
+				item: {
+					count: 1
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 200L
+				id: "209021EDBF1DAA7F"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "487F150464EA8795"
+			rewards: [{
+				count: 10
+				id: "02ACA0136BCC0661"
+				item: {
+					count: 1
+					id: "avaritia:cosmic_meatballs"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 250L
+				id: "2D66894C51086BB9"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "098CDF4B05C829B1"
+			rewards: [
+				{
+					id: "6A757F337A85D26B"
+					item: {
+						count: 1
+						id: "projecte:life_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "1D6ECDE370F83365"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 300L
+				id: "560F5D177E999A44"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			hide_lock_icon: true
+			id: "3FDB12A75E04E8D4"
+			ignore_reward_blocking: true
+			optional: true
+			repeat_cooldown: 10
+			rewards: [
+				{
+					id: "064E641CFACEF5FE"
+					item: {
+						count: 1
+						id: "avaritia:endless_cake"
+					}
+					type: "item"
+				}
+				{
+					id: "57E896DEBA22B493"
+					item: {
+						count: 1
+						id: "avaritia:cosmic_meatballs"
+					}
+					type: "item"
+				}
+				{
+					id: "4B95FA43936C778B"
+					item: {
+						count: 1
+						id: "avaritia:ultimate_stew"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 400L
+				id: "64AD2C260F08D9D8"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			entity_vis_size: 1.0f
+			hide_lock_icon: true
+			id: "18636B12B55F689E"
+			ignore_reward_blocking: true
+			repeat_cooldown: 10
+			rewards: [{
+				id: "19C76DC52AFB7E9E"
+				item: {
+					count: 1
+					id: "ae2lt:creative_pigmee_fumo"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 5.0d
+			tasks: [{
+				count: 600L
+				id: "2724E2FD7C52D10F"
+				item: { count: 1, id: "trailblazer:chefs_certificate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "snapshot": "Phase 0",
+  "sourceRoot": "..\\config\\ftbquests\\quests",
+  "counts": {
+    "files": 59,
+    "parsed": 59,
+    "chapters": 38,
+    "quests": 1660,
+    "tasks": 1983,
+    "rewards": 1371,
+    "questLinks": 0,
+    "images": 0,
+    "chapterGroups": 5,
+    "rewardTables": 17,
+    "rewardTableEntries": 209,
+    "langEntries": 920,
+    "typedArrays": 27
+  },
+  "note": "Historical Phase 0 audit baseline. The live config directory was rewritten later and must be compared against the live audit result, not assumed to match this snapshot."
+}
