@@ -48,8 +48,12 @@ local `/api/load` service, so it must be opened through `npm run dev`.
 
 ## Online Demo
 
+[Open FTB Quests Explorer Online](https://gothening.github.io/ftb-quests-explorer/)
+
 The Online Demo is a completely static, read-only build. End users only need a
 browser; they do not need Node.js, Minecraft, project source, or a local path.
+This is a read-only online preview of the current
+`[开拓者日志]As we trailblaze` FTB Quests data.
 
 Generate the demo data from the live quest directory:
 
@@ -95,6 +99,12 @@ searches, diagnostics, item components, quest links, reward tables, and
 asserts that no `/api/` request or browser console error occurs.
 
 ## GitHub Pages
+
+The published site is:
+
+```text
+https://gothening.github.io/ftb-quests-explorer/
+```
 
 `.github/workflows/deploy-pages.yml` builds and deploys `dist/` on pushes to
 `main`. The repository contains only the generated demo data under
