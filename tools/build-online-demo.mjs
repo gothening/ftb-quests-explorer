@@ -150,6 +150,41 @@ function stripOfflineOnlyFields(model) {
   }
 }
 
+function applySourceProvenance(item) {
+  const resolution = item?.resolution;
+  if (!resolution?.itemId) return;
+  const sourceEntry = sourceAssetByKey.get(`${resolution.itemId}|${resolution.iconRef ?? ""}`)
+    ?? sourceAssetByKey.get(`${resolution.itemId}|`);
+  if (!sourceEntry) return;
+  resolution.status = sourceEntry.status ?? resolution.status;
+  resolution.reason = sourceEntry.reason ?? resolution.reason;
+  resolution.sourceType = sourceEntry.resourceType ?? resolution.sourceType;
+  resolution.sourceMod = sourceEntry.sourceMod ?? resolution.sourceMod;
+  resolution.modelPath = sourceEntry.modelPath ?? resolution.modelPath;
+  resolution.modelPaths = sourceEntry.modelPaths ?? resolution.modelPaths;
+  resolution.texturePath = sourceEntry.texturePath ?? resolution.texturePath;
+  resolution.license = sourceEntry.license ?? null;
+}
+
+function enrichModelSourceProvenance(model) {
+  for (const task of model.tasks) {
+    applySourceProvenance(task.item);
+    applySourceProvenance(task.icon);
+  }
+  for (const reward of model.rewards) {
+    applySourceProvenance(reward.item);
+    applySourceProvenance(reward.icon);
+  }
+  for (const table of model.rewardTables) {
+    for (const entry of table.entries) {
+      applySourceProvenance(entry.reward.item);
+      applySourceProvenance(entry.reward.icon);
+    }
+  }
+  for (const quest of model.quests) applySourceProvenance(quest.icon);
+  for (const chapter of model.chapters) applySourceProvenance(chapter.icon);
+}
+
 assertInside(projectRoot, outputRoot);
 if (!fs.existsSync(questRoot)) {
   if (reuseExisting) {
@@ -193,6 +228,7 @@ const model = buildViewerModel(book, validation, {
     ftbQuestsVersion: sourceManifest?.ftbQuestsVersion ?? null
   }
 });
+enrichModelSourceProvenance(model);
 stripOfflineOnlyFields(model);
 
 const assetMap = {};
