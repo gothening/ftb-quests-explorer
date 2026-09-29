@@ -185,15 +185,25 @@ async function loadOnlineDemo() {
   setStatus("Loading Online Demo");
   try {
     const demoBase = new URL("./demo/", document.baseURI).toString();
-    const [manifestResponse, modelResponse, assetMapResponse] = await Promise.all([
-      fetch(new URL("manifest.json", demoBase), { cache: "no-store" }),
-      fetch(new URL("view-model.json", demoBase), { cache: "no-store" }),
-      fetch(new URL("asset-map.json", demoBase), { cache: "no-store" })
-    ]);
-    if (!manifestResponse.ok || !modelResponse.ok || !assetMapResponse.ok) {
+    const manifestUrl = new URL("manifest.json", demoBase);
+    manifestUrl.searchParams.set("v", String(Date.now()));
+    const manifestResponse = await fetch(manifestUrl, { cache: "no-store" });
+    if (!manifestResponse.ok) {
       throw new Error("Online Demo data is missing. Run npm run build:demo-data.");
     }
     const manifest = await manifestResponse.json();
+    const demoVersion = manifest.generatedAt ?? manifestUrl.searchParams.get("v");
+    const modelUrl = new URL("view-model.json", demoBase);
+    modelUrl.searchParams.set("v", demoVersion);
+    const assetMapUrl = new URL("asset-map.json", demoBase);
+    assetMapUrl.searchParams.set("v", demoVersion);
+    const [modelResponse, assetMapResponse] = await Promise.all([
+      fetch(modelUrl, { cache: "no-store" }),
+      fetch(assetMapUrl, { cache: "no-store" })
+    ]);
+    if (!modelResponse.ok || !assetMapResponse.ok) {
+      throw new Error("Online Demo data is missing. Run npm run build:demo-data.");
+    }
     const model = await modelResponse.json();
     const assetMap = await assetMapResponse.json();
     configureResourceUrls({
