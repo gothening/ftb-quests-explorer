@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kaleidoscope_end:item/raw_ender_dragon_meat"
+  }
+}

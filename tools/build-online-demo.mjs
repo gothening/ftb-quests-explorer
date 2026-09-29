@@ -15,8 +15,12 @@ import {
 import {
   createResourceResolver
 } from "../src/server/resource-resolver.js";
+import {
+  createItemResolver
+} from "../src/core/resolve/item-resolver.js";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const sourceRoot = path.join(projectRoot, "source");
 const outputRoot = path.join(projectRoot, "public", "demo");
 const cliArgs = new Set(process.argv.slice(2));
 const reuseExisting = cliArgs.has("--reuse-existing");
@@ -34,10 +38,10 @@ function inferInstanceRoot(questRoot) {
 
 const questRoot = process.env.FTBQ_QUEST_ROOT
   ? path.resolve(process.env.FTBQ_QUEST_ROOT)
-  : path.resolve(projectRoot, "..", "config", "ftbquests", "quests");
+  : path.join(sourceRoot, "quests");
 const instanceRoot = process.env.FTBQ_INSTANCE_ROOT
   ? path.resolve(process.env.FTBQ_INSTANCE_ROOT)
-  : inferInstanceRoot(questRoot);
+  : sourceRoot;
 
 function directoryBytes(directory) {
   let total = 0;
@@ -78,6 +82,27 @@ function readExistingDemo() {
   };
 }
 
+function readSourceManifest() {
+  const filePath = path.join(sourceRoot, "manifest.json");
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function readSourceAssetManifest() {
+  const filePath = path.join(sourceRoot, "assets", "manifest.json");
+  if (!fs.existsSync(filePath)) return [];
+  try {
+    const manifest = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    return Array.isArray(manifest.items) ? manifest.items : [];
+  } catch {
+    return [];
+  }
+}
+
 function assertInside(root, target) {
   const resolvedRoot = path.resolve(root);
   const resolvedTarget = path.resolve(target);
@@ -94,6 +119,7 @@ function extensionForMime(mime) {
 }
 
 function writeJson(filePath, value) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
@@ -105,10 +131,12 @@ function stripOfflineOnlyFields(model) {
       delete task.raw;
       delete task.rawSnbt;
       if (task.item) delete task.item.raw;
+      if (task.icon) delete task.icon.raw;
     }
     for (const reward of quest.rewards) {
       delete reward.raw;
       if (reward.item) delete reward.item.raw;
+      if (reward.icon) delete reward.icon.raw;
     }
   }
   for (const link of model.questLinks) delete link.raw;
@@ -117,6 +145,7 @@ function stripOfflineOnlyFields(model) {
     for (const entry of table.entries) {
       delete entry.reward.raw;
       if (entry.reward.item) delete entry.reward.item.raw;
+      if (entry.reward.icon) delete entry.reward.icon.raw;
     }
   }
 }
@@ -140,12 +169,31 @@ if (book.metadata.parseErrors.length > 0) {
   throw new Error(`Quest data contains parse errors: ${JSON.stringify(book.metadata.parseErrors)}`);
 }
 const validation = validate(book);
-const model = buildViewerModel(book, validation, { locale: "zh_cn" });
-stripOfflineOnlyFields(model);
-const resolver = createResourceResolver(
-  model.metadata.instanceRoot ?? instanceRoot,
-  model.metadata.minecraftVersion
+const sourceManifest = readSourceManifest();
+const sourceAssetItems = readSourceAssetManifest();
+const sourceAssetByKey = new Map(sourceAssetItems.map((item) => [
+  `${item.itemId}|${item.iconRef ?? ""}`,
+  item
+]));
+const assetResolver = createResourceResolver(
+  sourceRoot,
+  sourceManifest?.minecraftVersion ?? "1.21.1",
+  { assetRoots: [sourceRoot] }
 );
+const itemResolver = createItemResolver(assetResolver, {
+  locale: "zh_cn",
+  fallbackLocale: book.data?.fallbackLocale ?? "en_us"
+});
+const model = buildViewerModel(book, validation, {
+  locale: "zh_cn",
+  itemResolver,
+  metadata: {
+    instanceRoot: null,
+    minecraftVersion: sourceManifest?.minecraftVersion ?? "1.21.1",
+    ftbQuestsVersion: sourceManifest?.ftbQuestsVersion ?? null
+  }
+});
+stripOfflineOnlyFields(model);
 
 const assetMap = {};
 const writtenAssets = new Map();
@@ -166,20 +214,108 @@ function writeAsset(asset) {
 
 for (const asset of collectAssetRefs(model)) {
   const resolved = asset.kind === "item"
-    ? resolver.resolveItemIcon(asset.ref)
-    : resolver.resolveImage(asset.ref);
-  const data = resolved ?? resolver.fallbackImage();
+    ? assetResolver.resolveItemIcon(asset.ref)
+    : assetResolver.resolveImage(asset.ref);
+  const data = resolved ?? assetResolver.fallbackImage();
   assetMap[`${asset.kind}:${asset.ref}`] = writeAsset(data);
 }
 
-const fallback = writeAsset(resolver.fallbackImage());
+const fallback = writeAsset(assetResolver.fallbackImage());
+const itemEntries = new Map();
+function addItemEntry(item) {
+  if (!item?.id) return;
+  const resolved = item.resolution ?? itemResolver.resolve(item);
+  const sourceEntry = sourceAssetByKey.get(`${item.id}|${resolved.iconRef ?? ""}`)
+    ?? sourceAssetByKey.get(`${item.id}|`);
+  const resolution = sourceEntry
+    ? {
+      ...resolved,
+      displayName: sourceEntry.displayName ?? resolved.displayName,
+      status: sourceEntry.status ?? resolved.status,
+      reason: sourceEntry.reason ?? resolved.reason,
+      sourceType: sourceEntry.resourceType ?? resolved.sourceType,
+      sourceMod: sourceEntry.sourceMod ?? resolved.sourceMod,
+      modelPath: sourceEntry.modelPath ?? resolved.modelPath,
+      modelPaths: sourceEntry.modelPaths ?? resolved.modelPaths,
+      texturePath: sourceEntry.texturePath ?? resolved.texturePath
+    }
+    : resolved;
+  const key = resolution.iconRef
+    ? `${item.id}|${resolution.iconRef}`
+    : item.id;
+  if (!itemEntries.has(key)) {
+    itemEntries.set(key, {
+      item,
+      resolution,
+      sourceEntry: sourceEntry ?? null,
+      taskIds: [],
+      rewardIds: [],
+      questIds: [],
+      chapterIds: []
+    });
+  }
+  return itemEntries.get(key);
+}
+
+for (const task of model.tasks) {
+  const entry = addItemEntry(task.icon ?? task.item);
+  if (entry) entry.taskIds.push(task.id);
+}
+for (const reward of model.rewards) {
+  const entry = addItemEntry(reward.icon ?? reward.item);
+  if (entry) entry.rewardIds.push(reward.id);
+}
+for (const table of model.rewardTables) {
+  for (const entry of table.entries) {
+    const itemEntry = addItemEntry(entry.reward.icon ?? entry.reward.item);
+    if (itemEntry) itemEntry.rewardIds.push(entry.reward.id);
+  }
+}
+for (const quest of model.quests) {
+  const entry = addItemEntry(quest.icon);
+  if (entry) entry.questIds.push(quest.id);
+}
+for (const chapter of model.chapters) {
+  const entry = addItemEntry(chapter.icon);
+  if (entry) entry.chapterIds.push(chapter.id);
+}
+const itemManifest = [];
+for (const entry of [...itemEntries.values()].sort((left, right) => left.item.id.localeCompare(right.item.id))) {
+  const { item, resolution } = entry;
+  const iconPath = resolution.iconRef
+    ? assetMap[`image:${resolution.iconRef}`]
+    : assetMap[`item:${item.id}`];
+  itemManifest.push({
+    itemId: item.id,
+    displayName: resolution.displayName,
+    iconPath: iconPath ?? fallback,
+    status: resolution.status,
+    source: resolution.sourceType ?? null,
+    namespace: resolution.namespace ?? null,
+    sourceMod: resolution.sourceMod ?? null,
+    modelPath: resolution.modelPath ?? null,
+    modelPaths: resolution.modelPaths ?? [],
+    texturePath: resolution.texturePath ?? null,
+    reason: resolution.reason ?? null,
+    license: entry.sourceEntry?.license ?? null,
+    taskIds: [...new Set(entry.taskIds)].sort(),
+    rewardIds: [...new Set(entry.rewardIds)].sort(),
+    questIds: [...new Set(entry.questIds)].sort(),
+    chapterIds: [...new Set(entry.chapterIds)].sort()
+  });
+}
+const generatedAt = new Date().toISOString();
+writeJson(path.join(outputRoot, "items", "manifest.json"), {
+  generatedAt,
+  items: itemManifest
+});
 const manifest = {
-  generatedAt: new Date().toISOString(),
+  generatedAt,
   dataVersion: book.data?.version ?? null,
-  ftbQuestsVersion: model.metadata.ftbQuestsVersion ?? null,
-  minecraftVersion: model.metadata.minecraftVersion ?? "1.21.1",
-  sourceInstance: path.basename(instanceRoot),
-  sourceQuestRoot: path.relative(instanceRoot, questRoot).split(path.sep).join("/"),
+  ftbQuestsVersion: sourceManifest?.ftbQuestsVersion ?? model.metadata.ftbQuestsVersion ?? null,
+  minecraftVersion: sourceManifest?.minecraftVersion ?? model.metadata.minecraftVersion ?? "1.21.1",
+  sourceInstance: sourceManifest?.sourceInstance ?? path.basename(instanceRoot),
+  sourceQuestRoot: "source/quests",
   locale: "zh_cn",
   snbtFiles: book.metadata.fileCount,
   chapters: model.chapters.length,
@@ -190,6 +326,12 @@ const manifest = {
   rewardTables: model.rewardTables.length,
   translations: model.metadata.counts.translations,
   assets: Object.keys(assetMap).length,
+  itemResolution: {
+    items: itemManifest.length,
+    resolved: itemManifest.filter((entry) => entry.status === "resolved").length,
+    missing: itemManifest.filter((entry) => entry.status === "missing").length,
+    invalid: itemManifest.filter((entry) => entry.status === "invalid").length
+  },
   validation: {
     errors: validation.errors.length,
     warnings: validation.warnings.length,

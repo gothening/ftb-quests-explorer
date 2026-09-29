@@ -1,0 +1,8 @@
+{
+  "parent": "chisel:block/futura/ae2_controller_base",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "block": "chisel:block/futura/ae2_controller",
+    "lights": "chisel:block/futura/ae2_controller_lights"
+  }
+}

@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0bc0c621f5e877a5"
+	group: "512B54981EE0D939"
+	icon: {
+		id: "projecte:transmutation_tablet"
+	}
+	id: "0BC0C621F5E877A5"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		entity_vis_size: 1.0f
+		id: "3B64B1643A48640A"
+		tasks: [{
+			id: "6C060C1849AD4709"
+			item: { count: 1, id: "projecte:philosophers_stone" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

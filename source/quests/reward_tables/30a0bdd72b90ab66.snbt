@@ -1,0 +1,134 @@
+{
+	id: "30A0BDD72B90AB66"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 32
+			id: "47FF58BE97C1F7CC"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			random_bonus: 16
+			weight: 0.3f
+		}
+		{
+			count: 4
+			id: "61F39334234C2792"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			random_bonus: 4
+			weight: 0.1f
+		}
+		{
+			count: 4
+			id: "0CA3F80218E53655"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			random_bonus: 4
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "50FA00DB3FFD6EA9"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			random_bonus: 2
+			weight: 0.05f
+		}
+		{
+			count: 12
+			id: "01668052DE2B32A7"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			random_bonus: 12
+			weight: 0.15f
+		}
+		{
+			count: 2
+			id: "5B022724015C53C3"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			random_bonus: 2
+			weight: 0.4f
+		}
+		{
+			count: 8
+			id: "2F8FDA2C59872E53"
+			item: {
+				count: 1
+				id: "mekanism:ingot_steel"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "5526B11669F7B827"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "70B12A1EF64D8763"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;4000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:basic_energy_cube"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 32
+			id: "2B72581D4B04BDDE"
+			item: {
+				count: 1
+				id: "minecraft:wheat"
+			}
+			weight: 0.66f
+		}
+		{
+			count: 10
+			id: "370073EF7C6E38C7"
+			item: {
+				count: 1
+				id: "minecraft:beef"
+			}
+		}
+		{
+			count: 2
+			id: "12957D5230EF68BD"
+			item: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				count: 1
+				id: "sophisticatedstorage:netherite_barrel"
+			}
+		}
+		{
+			id: "4C345D7C3B3A92D1"
+			item: {
+				count: 1
+				id: "primogemcraft:ydfms"
+			}
+			weight: 0.5f
+		}
+	]
+}

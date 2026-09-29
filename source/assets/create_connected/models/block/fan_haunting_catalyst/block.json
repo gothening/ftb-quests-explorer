@@ -1,0 +1,7 @@
+{
+  "parent": "create_connected:block/fan_catalyst/with_fire",
+  "textures": {
+    "base": "block/soul_sand",
+    "fire": "block/soul_campfire_fire"
+  }
+}

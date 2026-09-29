@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3f55c241aab4f414"
+	group: "7E18D2B281281CE2"
+	id: "3F55C241AAB4F414"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "19B7315905803466"
+			tasks: [{
+				id: "0FC1BBCCB61CB554"
+				item: { count: 1, id: "minecraft:iron_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "49DEA09201A65D7D"
+			tasks: [{
+				id: "1BD4FAC7800E1313"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "00ACF900BAF010B9"
+			tasks: [{
+				id: "39CF6D03141603D7"
+				item: { count: 1, id: "minecraft:iron_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D6881F7B10DB255"
+			tasks: [{
+				id: "371614C4180806CC"
+				item: { count: 1, id: "minecraft:iron_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

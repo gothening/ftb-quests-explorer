@@ -1,0 +1,8289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7b0037de7acb254d"
+	group: "64455473278BA5BB"
+	id: "7B0037DE7ACB254D"
+	images: [ ]
+	order_index: 5
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "4F340A6990D2D7DC"
+			tasks: [{
+				id: "7FAB39120D6BFBFA"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4A9A3274C9142F88"
+			rewards: [{
+				id: "4CD065FE99F609BE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2384BD59A0EA9C72"
+					item: { count: 1, id: "kaleidoscope_cookery:baozi" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64AEDD97B80A6A21"
+					item: { count: 1, id: "kaleidoscope_cookery:samsa" }
+					type: "item"
+				}
+				{
+					id: "73B9B32369E62DF4"
+					item: { count: 1, id: "moderndelight:vegetable_steamed_stuffed_bun" }
+					type: "item"
+				}
+				{
+					id: "5FD6F7FF68AB20F5"
+					item: { count: 1, id: "kaleidoscope_cookery:baozi_plate" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3CF7ECC9D1A123C0"
+			rewards: [{
+				id: "667286F69DEE9487"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "762AF88201804254"
+				item: { count: 1, id: "moderndelight:crystal_dumpling" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1B0174EB1F02980E"
+			rewards: [{
+				id: "267013A5510BB64B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0435DE21810A1270"
+					item: { count: 1, id: "kaleidoscope_cookery:zongzi" }
+					type: "item"
+				}
+				{
+					id: "735F5869E856E7A4"
+					item: { count: 1, id: "kaleidoscope_cookery:zongzi_plate" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "10ECFB51E04BF1E3"
+			rewards: [{
+				id: "7324970431C72A0A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "396B214B23751C17"
+					item: { count: 1, id: "farmersdelight:dumplings" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B7DBC39DBAA8384"
+					item: { count: 1, id: "rusticdelight:fried_dumplings" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71760D562E9065D3"
+					item: { count: 1, id: "kaleidoscope_cookery:dumpling" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1CC97783089CB62B"
+			rewards: [{
+				id: "40C4A5D1B93030BE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "44811A93EF0EB2E9"
+					item: { count: 1, id: "gan_delight_reborn:you_tiao" }
+					type: "item"
+				}
+				{
+					id: "4D2CF9A3C5A5E4D9"
+					item: { count: 1, id: "gan_delight_reborn:youtiao_with_mashed_rice_cake" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "549F136BCC4417C9"
+			rewards: [{
+				id: "4FE32E0875BDF251"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FAB51C466F8CB7B"
+				item: { count: 1, id: "flavor_immersed_daily:soyamilk" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "712ED21F7E95AC83"
+			rewards: [{
+				id: "2DE5C8EBA157B5AC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F9F1552AD9218D1"
+				item: { count: 1, id: "flavor_immersed_daily:rice_porridge" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "675A8C1876E683D2"
+			rewards: [{
+				id: "391105F32582DF5A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EEDE6F22DFA0CA5"
+				item: { count: 1, id: "kaleidoscope_chinesefood:century_egg_congee" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "46439A8A8BB4D422"
+			rewards: [{
+				id: "79DEE29A0D417217"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B3DFABF36BFD101"
+				item: { count: 1, id: "kaleidoscope_chinesefood:salted_egg" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "474E64659D6ABEB2"
+			rewards: [{
+				id: "1B64D9AEC85528A7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3E0A263735B781E0"
+					item: { count: 1, id: "kaleidoscope_cookery:mantou" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03BCB8E91CC7D062"
+					item: { count: 1, id: "flavor_immersed_daily:drieddicedsteamedbread" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C61BD993D152521"
+			rewards: [{
+				id: "71BA7B9410C0F201"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69296A2CA2A80228"
+				item: { count: 1, id: "flavor_immersed_daily:steamedtwistedroll" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3291662B15A7EA15"
+			rewards: [{
+				id: "76AF511B7942F569"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A7BC87724205CD"
+				item: { count: 1, id: "flavor_immersed_daily:sweetmilk" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7D3DDBD21520DEC4"
+			rewards: [{
+				id: "14628C435E97335A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "567E4C70100E3CD6"
+					item: { count: 1, id: "flavor_immersed_daily:grainspancake" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34AFEE7477DFAF39"
+					item: { count: 1, id: "flavor_immersed_daily:yimengpancakes" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2AC842BCF8A2300A"
+			rewards: [{
+				id: "4B5E517BCE3FC5A5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14F541F99BE276E4"
+				item: { count: 1, id: "flavor_immersed_daily:scallionoilpancake" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "46B23902F0365699"
+			rewards: [{
+				id: "1CD900F87408A00D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E0A7F49508FBACD"
+				item: { count: 1, id: "flavor_immersed_daily:pie" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0C6655B33E49909C"
+			rewards: [{
+				id: "6C420EC59A6CF6CA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F4C185E98B9297F"
+				item: { count: 1, id: "flavor_immersed_daily:eggpancake" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4D8ECB5045748DB5"
+			rewards: [{
+				id: "5BB7BF1CDF8896DD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66A739F5D83A3093"
+				item: { count: 1, id: "flavor_immersed_daily:handgrabbedpancake" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1961E99F55D93705"
+			rewards: [{
+				id: "63CF848E8A0534B7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6084D0493475265E"
+				item: { count: 1, id: "flavor_immersed_daily:millietporridge" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "722C394E53A736EE"
+			rewards: [{
+				id: "100D104EDECD1867"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "284D4685133D9C4C"
+				item: { count: 1, id: "flavor_immersed_daily:cookedvermicelli" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3B45A7547111E552"
+			rewards: [{
+				id: "16E8B874E5B42787"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B4113E7E9D99482"
+					item: { count: 1, id: "flavor_immersed_daily:sweettoufucurd" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "265F8310BBC9FACF"
+					item: { count: 1, id: "flavor_immersed_daily:salttofucurd" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1F4FBF7F89C08F32"
+			rewards: [{
+				id: "7BF57798CBBDF2B1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2003AEC3809B25EE"
+				item: { count: 1, id: "flavor_immersed_daily:shelledboiledegg" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E705C0561A51F60"
+			rewards: [{
+				id: "736A5ABA0EC5FD3D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A033DBA59D54BBD"
+					item: { count: 1, id: "kaleidoscope_cookery:shengjian_mantou" }
+					type: "item"
+				}
+				{
+					id: "46DED107B47B31A9"
+					item: { count: 1, id: "kaleidoscope_cookery:shengjian_mantou_plate" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "08FBC34F01765578"
+			rewards: [{
+				id: "5B9503C539AB81E2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1575E79512DDB66F"
+				item: { count: 1, id: "flavor_immersed_daily:wonton" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40D1D1EC8DC9CA6B"
+			rewards: [{
+				id: "3627C8244B1F1F01"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C0159DF26C5416"
+				item: { count: 1, id: "flavor_immersed_daily:tangyuan" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B94D6B98475A2BC"
+			rewards: [{
+				id: "4FC3EC8CEEBF09EF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18ACA7BB3DFE7AE0"
+				item: { count: 1, id: "flavor_immersed_daily:shumai" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4F5D98176D3B1544"
+			rewards: [{
+				id: "59BAF96EB786F908"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26AB27E5F4BEE337"
+				item: { count: 1, id: "flavor_immersed_daily:steamedricebrick" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "767CA2830FA340D6"
+			rewards: [{
+				id: "0C8252DB46F1E048"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B22916169144C06"
+				item: { count: 1, id: "flavor_immersed_daily:noiledricenoodle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "124A874F8AEE6119"
+			rewards: [{
+				id: "1F7595F3C70E7672"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0405904B0FFAF311"
+				item: { count: 1, id: "flavor_immersed_daily:boiledriceflournoodles" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7A599507B7CDDB4C"
+			rewards: [{
+				id: "3B33ECD11A954974"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BE6DEBA3F84D8F9"
+				item: { count: 1, id: "flavor_immersed_daily:ricepastesoup" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6712020F41738917"
+			rewards: [{
+				id: "10EB9981E7F589C8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33FC621225737EC0"
+				item: { count: 1, id: "kaleidoscope_chinesefood:steamed_rice_rolls" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61001F7D0CD607B2"
+			rewards: [{
+				id: "7B07C4EBAEB0761F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A548FECE8A08ACB"
+				item: { count: 1, id: "ultramarine:xiaolongbao" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3562A5D8144D204C"
+			rewards: [{
+				id: "166E3EE864D74B87"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A3F68448176A700"
+				item: { count: 1, id: "flavor_immersed_daily:newyearcake" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "368CD46BC036047A"
+			rewards: [{
+				id: "7F59C8323FA9BD1E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F8EA4F4E1D4552C"
+				item: { count: 1, id: "flavor_immersed_daily:cookedvermicelli_0" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6C92BDE294B8A097"
+			rewards: [{
+				id: "37B417E071E8D2FC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B615A0514BBD190"
+				item: { count: 1, id: "flavor_immersed_daily:cookedglutinousrice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3D65BAEB6E491AD7"
+			rewards: [{
+				id: "78CF6D91C58C74DD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27ACDCC9CD7B9023"
+				item: { count: 1, id: "kaleidoscope_cookery:sticky_rice_cake" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1F6565C2C0DA9BEA"
+			rewards: [{
+				id: "0EBC7E2D4CF6E78C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "084C38E955308892"
+				item: { count: 1, id: "kaleidoscope_chinesefood:red_rice_roll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "581CA655D2CB5E1C"
+			tasks: [{
+				id: "031E3120ACAFC715"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4A0921FA1993601D"
+			rewards: [{
+				id: "4325150F1EBD73F9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "199045F05E3B2E49"
+				item: { count: 1, id: "flavor_immersed_daily:buckwheatrice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "06B55326F523F5E3"
+			rewards: [{
+				id: "334A7F7A21EB2740"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E1C54F6D7B94AB4"
+				item: { count: 1, id: "flavor_immersed_daily:kaoliangrice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7DE6AD1682F24E19"
+			rewards: [{
+				id: "4C0E3382B0C20360"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13422A0911A30646"
+				item: { count: 1, id: "flavor_immersed_daily:millietrice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7FA6B5D6A3DD9D65"
+			rewards: [{
+				id: "22CBC8B1954E6E75"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66DB344693D1C416"
+				item: { count: 1, id: "flavor_immersed_daily:oakrice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "554A5889EC45F121"
+			rewards: [{
+				id: "48679E464B9DC54A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C38CA0639B1F043"
+				item: { count: 1, id: "flavor_immersed_daily:rice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "71226D075CE6C5B8"
+			rewards: [{
+				id: "27021B8A9C47D070"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5D422649963ECF"
+				item: { count: 1, id: "farmersdelight:fried_rice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4076F9F468E33CE7"
+			rewards: [{
+				id: "0404CF7E76F94DB3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7383B529A58181D9"
+				item: { count: 1, id: "kaleidoscope_chinesefood:twice_cooked_pork_rice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "78F33654F11B1137"
+			rewards: [{
+				id: "4312E318D289774D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CE6DD270957D349"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stir_fried_yellow_beef_rice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "431F18244343B484"
+			rewards: [{
+				id: "497FAC8AED892F61"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A75BDBFAEAB54E3"
+				item: { count: 1, id: "kaleidoscope_chinesefood:beef_with_scrambled_eggs_rice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "592FBB22A20D74E7"
+			rewards: [{
+				id: "3848A902DD47B69B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "211497FC51FE4BF8"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stir_fried_three_fresh_vegetables_rice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "60CF74514B8D8A24"
+			rewards: [{
+				id: "553B26EBDA95D63E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "218387B5B345A79F"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yangzhou_fried_rice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5C0AF7C1163A2A51"
+			rewards: [{
+				id: "5316A2F632437015"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1538C19FD0867ECE"
+				item: { count: 1, id: "kaleidoscope_chinesefood:lamb_pilaf" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5F4512C8C15F00F3"
+			rewards: [{
+				id: "4E2D7B92E29D6C5B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FA8E9E60AC9EE24"
+				item: { count: 1, id: "kaleidoscope_nether:spicy_pot_rice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6BD8A43918A32881"
+			rewards: [{
+				id: "250DD48135AA558D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65C73BD8B951FC78"
+				item: { count: 1, id: "kaleidoscope_nether:mapo_tofu_rice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "30FD50170A867AB9"
+			rewards: [{
+				id: "688078CD321AB7F1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D71D6A846C1131B"
+				item: { count: 1, id: "kaleidoscope_nether:braised_pork_rice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62C542DD983C8CD6"
+			rewards: [{
+				id: "3523D62D28CCD694"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C892F60D472FD93"
+				item: { count: 1, id: "kaleidoscope_cookery:bamboo_tube_rice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64F12537B4B19D57"
+			rewards: [{
+				id: "7EACBA8D9A445628"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C52AE7423FA1E84"
+				item: { count: 1, id: "kaleidoscope_cookery:egg_fried_rice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7964B0B80F0F9236"
+			rewards: [{
+				id: "7B90A05D921D88E5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B5FBFCF52CB6ACD"
+				item: { count: 1, id: "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "293D739F225BDDB6"
+			rewards: [{
+				id: "488359BD6AEF6111"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61B3947BC6F7CD4C"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_rice_bowl" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "417451763D5E524B"
+			rewards: [{
+				id: "4708EA22B541F9D7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "516347E6EDF96EE5"
+				item: { count: 1, id: "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "50D12961201A92A8"
+			rewards: [{
+				id: "76B6704F03809DE3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DA4A90C7C8CDCB6"
+				item: { count: 1, id: "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62F5BCD5814ADF71"
+			rewards: [{
+				id: "070619B2B12629D8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "183F54B2304637EA"
+				item: { count: 1, id: "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "63B32088652CC7BC"
+			tasks: [{
+				id: "6C39DB9EC6F842E7"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3EA128A6F26077E9"
+			rewards: [{
+				id: "1D474CE905FA447B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B3448C99DA61E56"
+				item: { count: 1, id: "moderndelight:cooked_portable_pot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6A14DCD4B5F3C27C"
+			rewards: [{
+				id: "35DBC558C8F55155"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5380E2F549E5CDD2"
+				item: { count: 1, id: "farmersdelight:noodle_soup" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0136DF73F1D091A2"
+			rewards: [{
+				id: "7E88E7D46723E0B9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB14406F4BEC6AE"
+				item: { count: 1, id: "gan_delight_reborn:ping_xiang_rice_noodles" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "155C73DD20B5CACD"
+			rewards: [{
+				id: "4DA0A1BC0997E1C5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E9CAF00C656F289"
+				item: { count: 1, id: "kaleidoscope_chinesefood:wonton_noodles" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "427C7D22E50FF489"
+			rewards: [{
+				id: "17BC16953EE7FBE7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1277BE168BA3D1BD"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sauerkraut_beef_noodles" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "15008C4E5CCFA7B0"
+			rewards: [{
+				id: "4A821B763FFAB044"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4165E390706B6B1E"
+				item: { count: 1, id: "kaleidoscope_chinesefood:big_plate_chicken_noodles" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "56F1E07174988219"
+			rewards: [{
+				id: "7E951AE5A67A978F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B7662135B8E95CD"
+				item: { count: 1, id: "kaleidoscope_chinesefood:tomato_egg_noodles" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0DDB670CE0F10816"
+			rewards: [{
+				id: "26418532FBF2BB43"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37CFB35DEB46A43C"
+				item: { count: 1, id: "kaleidoscope_chinesefood:pork_chili_noodles" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0E81FC82620FFBAC"
+			rewards: [{
+				id: "23BEFAAC5D863F70"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EBFE8E0C1598357"
+				item: { count: 1, id: "kaleidoscope_nether:chongqing_noodles" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1607413B0BB829CE"
+			rewards: [{
+				id: "6BF2AE9A7A318288"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "706EA48388AEB986"
+				item: { count: 1, id: "kaleidoscope_nether:spicy_hoglin_ramen" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "773859583026DDB8"
+			rewards: [{
+				id: "0F573904F7238E28"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CFD54D0E7AB287E"
+				item: { count: 1, id: "kaleidoscope_cookery:beef_noodle" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40F40EA1A8C3FEF8"
+			rewards: [{
+				id: "4AA0B63BB354AEBC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "729F8FBFDB3FF713"
+				item: { count: 1, id: "kaleidoscope_cookery:hui_noodle" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5788E1C1BC9FB185"
+			rewards: [{
+				id: "0EC5CBDE58B9D4F7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "339A8F894C7AC95E"
+				item: { count: 1, id: "kaleidoscope_cookery:udon_noodle" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1E1984C69167194F"
+			rewards: [{
+				id: "0547EB1AB3ADB060"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "261B596AD26625F4"
+				item: { count: 1, id: "kaleidoscope_cookery:hot_dry_noodles" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "778B43591FDEBF15"
+			tasks: [{
+				id: "457B13050A6D8EE5"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6FED726BF710C85A"
+			tasks: [{
+				id: "667C5731EA67A376"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4F13929014BABE7C"
+			tasks: [{
+				id: "530C7A6DD4E38955"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61EF32363631E6C3"
+			rewards: [{
+				id: "47BE435C6F91748E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE62D350A77B274"
+				item: { count: 1, id: "flavor_immersed_daily:meatballsoup" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4CC726891F95088E"
+			rewards: [{
+				id: "0385C7B56AB67F6E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30949D4339A75F8E"
+				item: { count: 1, id: "flavor_immersed_daily:gumbosoup" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6B168DA5F5A14120"
+			rewards: [{
+				id: "54F1D79115C1C297"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30780AF3D8931846"
+				item: { count: 1, id: "flavor_immersed_daily:sheepgibletssoup" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "333A69F240A4864C"
+			rewards: [{
+				id: "264ADD6DB5FA0D8D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64E85BCD16552757"
+				item: { count: 1, id: "flavor_immersed_daily:stewedchickensoupwithmushrooms" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2AEF0CB7AFD7035E"
+			rewards: [{
+				id: "1383BD3CB4CE1F00"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6732B06973DF5BA4"
+				item: { count: 1, id: "flavor_immersed_daily:winterjujubeandwaxgourdsoup" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "170F775EFC28C016"
+			rewards: [{
+				id: "0D6BB4D4F66679B8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41D396C4953D2B8C"
+				item: { count: 1, id: "gan_delight_reborn:laobiao_chicken_soup" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0C6E4FF1325E6751"
+			rewards: [{
+				id: "465DB1C476E32827"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F1BBE9BA4C1E34"
+				item: { count: 1, id: "gan_delight_reborn:fresh_silver_fish_in_golden_soup" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "563F0578F42A02ED"
+			rewards: [{
+				id: "3E1EA84C56AA9CC1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CD0C304891B2F49"
+				item: { count: 1, id: "gan_delight_reborn:ham_and_wax_gourd_soup" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2244EF93194109D8"
+			rewards: [{
+				id: "07EDE7AE01DAAB3D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D80321A68834E97"
+				item: { count: 1, id: "gan_delight_reborn:fish_soup" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F2C6F14327F8D3D"
+			rewards: [{
+				id: "33B2BDD541A27FE4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E69D63AAA0F208E"
+				item: { count: 1, id: "kaleidoscope_chinesefood:seaweed_egg_drop_soup" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2FB8C8E81CEC3FA2"
+			rewards: [{
+				id: "02310BBCF0545240"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "227BC3FEC4A0CDFC"
+				item: { count: 1, id: "kaleidoscope_chinesefood:tomato_egg_drop_soup" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "781A3F4D2D028AD8"
+			rewards: [{
+				id: "132ECD294CCD2C47"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "719B8D9CBEF93D18"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yellow_croaker_soup" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "47E1D0BBDAB89E5B"
+			rewards: [{
+				id: "575DF36353D9FF6E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "740E307394E0DD3E"
+				item: { count: 1, id: "kaleidoscope_nether:corn_carrot_pork_rib_soup" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5ECA27B53E4F339F"
+			rewards: [{
+				id: "7434414628C79BC0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B0A860318898909"
+				item: { count: 1, id: "kaleidoscope_nether:pepper_pork_belly_chicken_soup" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "532860F2064C2AD2"
+			rewards: [{
+				id: "741BBB98B2846358"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "670617F3A7FA614F"
+				item: { count: 1, id: "kaleidoscope_cookery:lamb_and_radish_soup" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "68A880BCE2CD4AC4"
+			rewards: [{
+				id: "340D03028B4C6C36"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7B02B336D172F8"
+				item: { count: 1, id: "kaleidoscope_cookery:wild_mushroom_rabbit_soup" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7233EE157C8C3A2D"
+			rewards: [{
+				id: "2B5A93BC7F55E3D4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D784EB28E39A5C2"
+				item: { count: 1, id: "kaleidoscope_cookery:pufferfish_soup" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "73CFD594AAC77A0D"
+			rewards: [{
+				id: "279E19B683A03FE7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C13F369B69107AE"
+				item: { count: 1, id: "kaleidoscope_cookery:beef_meatball_soup" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "78F7F0EAB5FCC208"
+			rewards: [{
+				id: "3AB80824A89509B8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0421F31A6805687A"
+				item: { count: 1, id: "kaleidoscope_cookery:dough_drop_soup" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "36AE9EAD04035EE2"
+			rewards: [{
+				id: "63BA7496CB17EA78"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59CD6F268B6EE5DB"
+				item: { count: 1, id: "kaleidoscope_cookery:four_joy_meatball_soup" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5B51F09836AF95EA"
+			rewards: [{
+				id: "1B855558EB2C3468"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BF5D3BD9ECC4674"
+				item: { count: 1, id: "kaleidoscope_cookery:brown_mushroom_pot_soup" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "496F5CA4DA6C60B3"
+			rewards: [{
+				id: "3AE5108AB952E47B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1412FFCCCD9031EA"
+				item: { count: 1, id: "kaleidoscope_cookery:red_mushroom_pot_soup" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "205C16D88044F9DB"
+			tasks: [{
+				id: "53B2767E0C521CDC"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C1571B743AC38C2"
+			rewards: [{
+				id: "392CC98F08D1D8CA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04D5EA67C158328B"
+				item: { count: 1, id: "flavor_immersed_daily:lemonredtea" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01B7F5F85295E50B"
+			rewards: [{
+				id: "514899A3124EFCBB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BAE0EE148D21B0C"
+				item: { count: 1, id: "flavor_immersed_daily:lemonteawithglutinousriceflavor" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1B43C8C3917F0A8A"
+			rewards: [{
+				id: "576135A6E5F8380D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6032095CD077AF42"
+				item: { count: 1, id: "flavor_immersed_daily:redtea" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "282651543B197745"
+			rewards: [{
+				id: "78BD1713E33829FF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ECE81C80681A292"
+				item: { count: 1, id: "flavor_immersed_daily:greentea" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "59FF43185F5F7E53"
+			rewards: [{
+				id: "72FB9E4F18ECAA66"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E8A1E64516BB438"
+				item: { count: 1, id: "flavor_immersed_daily:buckwheattea" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "796367045BEEFA61"
+			rewards: [{
+				id: "7F8400C9C822D3A3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "084E487A5DAE5D60"
+				item: { count: 1, id: "flavor_immersed_daily:assammilk_tea" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "790ED80AF5147685"
+			rewards: [{
+				id: "1A263D556891DA91"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15310D2D31F6A9FD"
+				item: { count: 1, id: "flavor_immersed_daily:greenplumtea" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1602F4A30543683E"
+			rewards: [{
+				id: "3039CC9A3DDBDF07"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CFD536E8EAF665"
+				item: { count: 1, id: "flavor_immersed_daily:icedblackteablue" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "15A05F9EF548ECA5"
+			rewards: [{
+				id: "5EE6347BF557C519"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60727855444258A9"
+				item: { count: 1, id: "flavor_immersed_daily:sugarfreicedtea" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E80B470F99F3DD8"
+			rewards: [{
+				id: "48BFB2DADE6CEBBA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "152C3A1B33A64DEB"
+				item: { count: 1, id: "flavor_immersed_daily:icedblacktea" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "350F758C1921B59D"
+			rewards: [{
+				id: "3A322A3DDAA0DB7C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4409626CC06AA4CC"
+				item: { count: 1, id: "kaleidoscope_chinesefood:hk_milk_tea" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4529E92B67E95A51"
+			rewards: [{
+				id: "3E111B809A7747B4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1823EAB46865993A"
+				item: { count: 1, id: "kaleidoscope_cookery:barley_tea" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1BDA1549750F17E6"
+			rewards: [{
+				id: "2F35575939F80D9A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6FA6934281D8D0"
+				item: { count: 1, id: "kaleidoscope_cookery:oolong" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1029E0918FF3DBE1"
+			rewards: [{
+				id: "0DEBAF64EB70A31F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03BD9CE98EFB2739"
+				item: { count: 1, id: "kaleidoscope_cookery:flower_tea" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "58D9EBC7A23CAC1F"
+			rewards: [{
+				id: "244DDCE33B8F185A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21E7D38AFA7B9628"
+				item: { count: 1, id: "kaleidoscope_cookery:tieguanyin" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7DBF303DCF9E1BF1"
+			rewards: [{
+				id: "26F72904DB5F55F0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "445DBF1B6E356AC9"
+				item: { count: 1, id: "kaleidoscope_cookery:biluochun" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4B0EDDF25C564D6E"
+			rewards: [{
+				id: "4FA7CF51A40FF9DC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5382A270A3B838F2"
+				item: { count: 1, id: "kaleidoscope_cookery:sakura_fubuki" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0BF4DB5EABEB12B8"
+			rewards: [{
+				id: "6578C0B1547700AB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB3D1B341597FB9"
+				item: { count: 1, id: "kaleidoscope_cookery:oil_splashed_fish" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "789F2F76E4BECE59"
+			rewards: [{
+				id: "6254C40D2BC9F01E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D7860019321A146"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_with_potatoes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6416C82028BCC5B6"
+			rewards: [{
+				id: "04D907D58A6B0D66"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D5D62A0C5F17E2"
+				item: { count: 1, id: "kaleidoscope_cookery:numbing_spicy_chicken" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7822EE6B78EC876C"
+			rewards: [{
+				id: "4F656E866E018567"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB67BFA741ED80B"
+				item: { count: 1, id: "gan_delight_reborn:pingxiangbacon" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6234A3274DF42539"
+			rewards: [{
+				id: "6005E1207840A7EC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33459E7F31CA63E1"
+				item: { count: 1, id: "gan_delight_reborn:lianhua_blood_duck" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0067431FC43C098F"
+			rewards: [{
+				id: "2CAAF94FBF5B5913"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "065DF8F72CFD2985"
+				item: { count: 1, id: "gan_delight_reborn:yu_gan_harvest_chili_fried_meat" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "46324CE86160E626"
+			rewards: [{
+				id: "66B58FC25CBF7F0B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B6F7AC2A75BA853"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_blood_stew" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4DCB3079F618CE6E"
+			rewards: [{
+				id: "700928F9C290F299"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09C92CA23D2DF1C6"
+				item: { count: 1, id: "gan_delight_reborn:fried_bacon_with_artemisia_selengensis" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "062C63EF7C353E01"
+			rewards: [{
+				id: "7CA015119D2A7391"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25A46379AF4430D4"
+				item: { count: 1, id: "gan_delight_reborn:poyang_fish_head" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1912913564DEDD31"
+			rewards: [{
+				id: "633E9FC3D223209C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0125469CE38117B2"
+				item: { count: 1, id: "kaleidoscope_cookery:buddha_jumps_over_the_wall" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "760DECD1F6B020A7"
+			rewards: [{
+				id: "5A286EA78656D20D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30958DF9E3264ED7"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_pork_ribs" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "77EBA0D68F4C0CAF"
+			rewards: [{
+				id: "4FE273601AB4065F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BC4C5B5E298CD1A"
+				item: { count: 1, id: "kaleidoscope_cookery:fried_spring_roll" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4AC982047FAF7466"
+			rewards: [{
+				id: "38A83B12087DC5AB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0963386119D19CE3"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_rabbit_head" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40EC1A320BEDDFDC"
+			rewards: [{
+				id: "7DF98534767F056C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D6655F181068396"
+				item: { count: 1, id: "kaleidoscope_cookery:stuffed_tiger_skin_pepper" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "357565D95D2A6E12"
+			rewards: [{
+				id: "73417E6E9DE8E18C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A760B547D3B24B0"
+				item: { count: 1, id: "kaleidoscope_cookery:candied_potato" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5519F66C83684AD2"
+			rewards: [{
+				id: "4AF265F51D21342A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "436E8BA844071425"
+				item: { count: 1, id: "kaleidoscope_cookery:spicy_chicken" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F20D8A5CA585487"
+			rewards: [{
+				id: "4041707504E0E462"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5096A2B3A7339922"
+				item: { count: 1, id: "kaleidoscope_cookery:dongpo_pork" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7C1C5F4127BCA059"
+			rewards: [{
+				id: "046746DB88CE0A08"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DBBCD12CA1E0AA0"
+				item: { count: 1, id: "kaleidoscope_cookery:chicken_and_mushroom_stew" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2ED9F98C64891212"
+			tasks: [{
+				id: "3357CFB09FD8DD8A"
+				item: { count: 1, id: "kaleidoscope_cookery:dark_cuisine" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "36A6ECB21E22B83B"
+			rewards: [{
+				id: "6ECF36268CD223E1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D663ED6907CCDBC"
+				item: { count: 1, id: "gan_delight_reborn:zhu_zixing_plays_phoenix" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5FC7A4A16D9248C2"
+			rewards: [{
+				id: "2022B01BA76E4103"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "390B85B2DBE58164"
+				item: { count: 1, id: "gan_delight_reborn:leping_cuts_dog_meat" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "046F7A04D6907508"
+			rewards: [{
+				id: "32EC743E8CBB8F8E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1561690A97B21C8F"
+				item: { count: 1, id: "gan_delight_reborn:dried_bean_curd_wth_celery" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2EA1AD5CD887AAFD"
+			rewards: [{
+				id: "69C2A286DD1AE0A4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "545874D6C12FC747"
+				item: { count: 1, id: "gan_delight_reborn:fried_noodles_with_wild_mandarin_fish_in_pohu_lake" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "651BD8EA9EFF43C0"
+			rewards: [{
+				id: "6A91633E397AF156"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "715C48D76F52DBEC"
+				item: { count: 1, id: "gan_delight_reborn:four_stars_look_at_the_moon" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "57406D559492DE26"
+			rewards: [{
+				id: "3DC2BA5EE7D694BD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E5EDA3F272B3C4"
+				item: { count: 1, id: "gan_delight_reborn:yong_he_tofu" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1C8CA67362D514BA"
+			rewards: [{
+				id: "695ABF7D6B36F210"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46DF270D918BFD31"
+				item: { count: 1, id: "gan_delight_reborn:jing_gang_smoked_dried_bamboo_shoots" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "219F78B601A2D668"
+			rewards: [{
+				id: "2217025C5619543D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63EC2325ADBEB88F"
+				item: { count: 1, id: "gan_delight_reborn:lushan_quasipaa_spinosa" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "780B768E29055865"
+			rewards: [{
+				id: "31D3D71EA009A5B8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AEB4891DE284503"
+				item: { count: 1, id: "gan_delight_reborn:meatball_kuai" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "755F16A34B0D369C"
+			rewards: [{
+				id: "3854D0DEA4C68C51"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D0C0476C5CEF42E"
+				item: { count: 1, id: "gan_delight_reborn:gannan_fish_cake" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "194845C4236F7FF3"
+			rewards: [{
+				id: "25105EC1BF13F908"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18C7A0AB941AB480"
+				item: { count: 1, id: "gan_delight_reborn:homesick_fish" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3E87FDB7A9A41061"
+			rewards: [{
+				id: "2327940062255ED4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "525FCFABEEF32B7A"
+				item: { count: 1, id: "gan_delight_reborn:hondo_chicken" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "336F4DA6CC77C14A"
+			rewards: [{
+				id: "76837591628B19BC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34ACEE97833F7646"
+				item: { count: 1, id: "gan_delight_reborn:roast_duck_with_beer" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65AC2E73C8048806"
+			rewards: [{
+				id: "5D1719060FDD9FDA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB56934E76159E2"
+				item: { count: 1, id: "gan_delight_reborn:nankang_district" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0A16411B973CEA28"
+			rewards: [{
+				id: "3AAE1A884C695DA3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6474EFB5E8C6593E"
+				item: { count: 1, id: "gan_delight_reborn:alkali_rice_cake_fire_eggs" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "572E5866C56C4071"
+			rewards: [{
+				id: "508BD0F37315BD9A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78D36B516E9C608A"
+				item: { count: 1, id: "gan_delight_reborn:wucheng_dog_meat" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65FD1D8C948434AC"
+			rewards: [{
+				id: "59747DABC9683AA3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CD8DA88D1469F46"
+				item: { count: 1, id: "gan_delight_reborn:gannan_stir_fry_fish" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "29B611ACECE4E6BE"
+			rewards: [{
+				id: "6C656CAB0C786F8C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E67D10070F3319"
+				item: { count: 1, id: "gan_delight_reborn:fairy_kiss" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05F3273DB815846C"
+			rewards: [{
+				id: "7602C77D9E47272D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D6BE92E3A2EBF3C"
+				item: { count: 1, id: "gan_delight_reborn:taichi_tofu" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1CCAF99F942428DD"
+			rewards: [{
+				id: "011CADA95AB8A9E0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D9CD9B9CCBF483F"
+				item: { count: 1, id: "gan_delight_reborn:poyang_lion_s_head" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6CA78418C054DDF2"
+			rewards: [{
+				id: "7853BF62CC6FCAE7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A98DAD0478C3D34"
+				item: { count: 1, id: "gan_delight_reborn:yuzhang_crispy_duck" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5E3D6F601CAF7727"
+			rewards: [{
+				id: "2595DFE84B0BCB90"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43633A96F55D3500"
+				item: { count: 1, id: "gan_delight_reborn:baked_chicken_in_clay" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5981134320841ECD"
+			rewards: [{
+				id: "6221067ECD6380A1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19F54A0C3D485892"
+				item: { count: 1, id: "gan_delight_reborn:changnan_a_pot_of_fresh" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "798667EC063827F9"
+			rewards: [{
+				id: "44FDAB8EE57CEC62"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28035CE7FAA21A8A"
+				item: { count: 1, id: "gan_delight_reborn:stewed_meat_in_kaolin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5367B89AC8467441"
+			rewards: [{
+				id: "14D71FEE3C7128D9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48AC2803D49CD029"
+				item: { count: 1, id: "gan_delight_reborn:boiled_turtle_skin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "15C3C35D0E9085A0"
+			rewards: [{
+				id: "7AE9CA9985DB73EA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "526A6D268C540F4E"
+				item: { count: 1, id: "gan_delight_reborn:yongxing_dog_meat" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "159C932AEE0A0340"
+			rewards: [{
+				id: "6EAF1149B9B9E2DC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "399774A5AB52F586"
+				item: { count: 1, id: "gan_delight_reborn:jinggang_bamboo_rat" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "773421ED619324A5"
+			rewards: [{
+				id: "30C381DB2376B59F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4699BDDB4524AC4B"
+				item: { count: 1, id: "gan_delight_reborn:ning_du_triple_chicken" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4C4AE5C7F8D6FFF9"
+			rewards: [{
+				id: "7C85603C8084F122"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7213858D1644FE41"
+				item: { count: 1, id: "gan_delight_reborn:mingyue_hot_spring_tofu" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "753F5532337F1FE1"
+			rewards: [{
+				id: "278A555F01DBC1FB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E3A67DB35ACFAC2"
+				item: { count: 1, id: "gan_delight_reborn:linchuan_district_lotus_root" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1A5EDB20616D6FD8"
+			rewards: [{
+				id: "09BE52D004066B8D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AF99EB3B9E9521D"
+				item: { count: 1, id: "gan_delight_reborn:linchuan_district_tripe" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5794DA236FB5C03A"
+			rewards: [{
+				id: "4CC3A895A29CC8DB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ABE8B3FB848E5B9"
+				item: { count: 1, id: "gan_delight_reborn:steamed_wuyuan_county_red_carp" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5BE8E3F6C3D2A7A1"
+			rewards: [{
+				id: "232FBC5D9B3B49DA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "624FAF56A44FB158"
+				item: { count: 1, id: "gan_delight_reborn:pingxiang_stir_fry" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "41245F345F12044E"
+			rewards: [{
+				id: "341BE45E7DBDC599"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04ACAF0CF2101FF6"
+				item: { count: 1, id: "gan_delight_reborn:country_fried_river_fish" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65F4B25B058DF185"
+			rewards: [{
+				id: "273C997FE3F1787C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "631C4895C07D9D87"
+				item: { count: 1, id: "gan_delight_reborn:xia_jiang_rice_noodles" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "02885982DF401C77"
+			rewards: [{
+				id: "0F36C58AFA1DD532"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A5FB6A60E4EF86"
+				item: { count: 1, id: "gan_delight_reborn:yichun_quail_egg" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "300DD4B659053731"
+			rewards: [{
+				id: "3727F6A0437DC6E5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15ACAC55AEACAFB2"
+				item: { count: 1, id: "gan_delight_reborn:braised_pompous_fish_head" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "36F210355294147A"
+			rewards: [{
+				id: "3FDE7EF2560FC864"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3705A4BEE2B82174"
+				item: { count: 1, id: "gan_delight_reborn:hukou_district_lees" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "18521B4CD7C19BB6"
+			rewards: [{
+				id: "26A09888BA6ADA7A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "423C5CB06CD63667"
+				item: { count: 1, id: "gan_delight_reborn:nankang_district_lees" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "00D7914141009918"
+			rewards: [{
+				id: "55BD644151707C0E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45C4AE33961547D1"
+				item: { count: 1, id: "gan_delight_reborn:sour_cabbage_stir_fried_dong_po" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "09F7429ECF64E226"
+			rewards: [{
+				id: "05D672EEF02A9359"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26068B274974BE20"
+				item: { count: 1, id: "gan_delight_reborn:wan_zai_chopped_meat" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2577091904C7DF17"
+			rewards: [{
+				id: "4370072ADFE540BF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23B49FA64E48CCDC"
+				item: { count: 1, id: "gan_delight_reborn:dayu_scalded_skin" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "22ECC1BF0AC52901"
+			rewards: [{
+				id: "241753330F323318"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49B32A72A98575DA"
+				item: { count: 1, id: "gan_delight_reborn:nan_an_duck" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "56997DFE276A78C8"
+			rewards: [{
+				id: "653B70C4DE36C07B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1026E2F9606377"
+				item: { count: 1, id: "gan_delight_reborn:mix_powder_in_nanchang" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "33105DEFFA2B3C9A"
+			rewards: [{
+				id: "08DEDE4898E3A1F6"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B673DA36CE48575"
+				item: { count: 1, id: "gan_delight_reborn:minced_meat_and_egg_custard" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "08B18659112AE784"
+			rewards: [{
+				id: "6120431C36D30067"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56DE22C345B54987"
+				item: { count: 1, id: "gan_delight_reborn:egg_custard" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "08EF2A459A82DCC5"
+			rewards: [{
+				id: "2B0F5EDCC32CC559"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4300BF926B8A363D"
+				item: { count: 1, id: "gan_delight_reborn:ping_xiang_rice_noodles" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "40395BD211F04B4F"
+			rewards: [{
+				id: "6681350B3DC137C7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CD6EC18B28B0F26"
+				item: { count: 1, id: "gan_delight_reborn:fried_noodles_with_shredded_pork_and_mushrooms" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3FCDBA990CD81861"
+			rewards: [{
+				id: "1494ACDCD8C595BB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31A1AC1F5F326E8D"
+				item: { count: 1, id: "gan_delight_reborn:fried_noodles_with_shrimps_and_pork" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2DFFBFBAEB4025F1"
+			rewards: [{
+				id: "6C09E58649838AC0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A2EAC85E9E74FA7"
+				item: { count: 1, id: "gan_delight_reborn:pan_fried_rice_vermicelli_with_pork" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "158A9B8685883378"
+			rewards: [{
+				id: "4786AC803BF8E1C7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14080805488D5CD3"
+				item: { count: 1, id: "gan_delight_reborn:stir_fried_green_peppers" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3D8457EC568B1C20"
+			rewards: [{
+				id: "69AC0363EFC6C8EF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "587B6892F4316D31"
+				item: { count: 1, id: "gan_delight_reborn:stir_fried_seaweed" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5FA81D6C11DBB9EA"
+			rewards: [{
+				id: "6525C3EB8333E52A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BF517E61D4BC62"
+				item: { count: 1, id: "gan_delight_reborn:fried_eggs_with_chili_green_peppers" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "42FE795C50B19A71"
+			rewards: [{
+				id: "1AA0B1E02FCB397A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42A9E514FB8F15A0"
+				item: { count: 1, id: "gan_delight_reborn:fried_eggs_with_leek" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1BD3FBAF2B05720E"
+			rewards: [{
+				id: "4E3C231E46863C6B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "260E8DE274D30986"
+				item: { count: 1, id: "gan_delight_reborn:fried_eggs_with_chili_peppers" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "364FAADDEBAC6B21"
+			rewards: [{
+				id: "05DF41F8A48472AC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DC39C9DAACFD0C5"
+				item: { count: 1, id: "gan_delight_reborn:steamed_fat_sausage_with_bamboo_flour" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "379D095746515E90"
+			rewards: [{
+				id: "229FA253E865D538"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B27DE3710317079"
+				item: { count: 1, id: "gan_delight_reborn:hu_geng" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F0DD4512AD8BDB6"
+			rewards: [{
+				id: "432F78C18450C371"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "510B1387F513C218"
+				item: { count: 1, id: "gan_delight_reborn:yong_tau_foo" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4839ED04BD71496E"
+			rewards: [{
+				id: "5E58824023F83C3B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "262ED649B2EF589A"
+				item: { count: 1, id: "gan_delight_reborn:loach_drill_bean_curd" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1A5AE487F66A7CF7"
+			rewards: [{
+				id: "553B383289EC588D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "014EDD2B95CCE61B"
+				item: { count: 1, id: "gan_delight_reborn:nanchang_three_cup_chicken" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C4D5E05AAE3F367"
+			rewards: [{
+				id: "327B006E21A84A81"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30010291BDF1ECBA"
+				item: { count: 1, id: "gan_delight_reborn:xiangtang_native_chicken" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0043FE2270823C3B"
+			rewards: [{
+				id: "48E521D80BA2C8B3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18D22A3F3944E181"
+				item: { count: 1, id: "gan_delight_reborn:zhu_du_burger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2ACEC273A266E7D8"
+			rewards: [{
+				id: "22D59F33F16D545A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20848DD6ED7F83D6"
+				item: { count: 1, id: "gan_delight_reborn:ham_and_wax_gourd_soup" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "69F79DAA87657887"
+			rewards: [{
+				id: "1AA8AB53EACD7F27"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E898542B615AA4"
+				item: { count: 1, id: "gan_delight_reborn:shuibei_salt_powder" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "795D135346BD43BD"
+			rewards: [{
+				id: "4B26E4F86DE981CD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46F8A054A0C07E0A"
+				item: { count: 1, id: "gan_delight_reborn:yi_chun_zap_noodles" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "48366BEB534528C3"
+			rewards: [{
+				id: "57827476C7F051C6"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F938EA6BDF5FCF2"
+				item: { count: 1, id: "gan_delight_reborn:leng_fen" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "45AA3F62AFDC4BF7"
+			rewards: [{
+				id: "7A608B305DCB4328"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DB41C2B6CDA186F"
+				item: { count: 1, id: "gan_delight_reborn:fried_noodles_in_nanchang" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "578413370C177A46"
+			rewards: [{
+				id: "446E57FE83D12C52"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64FAC8A02E7CCC84"
+				item: { count: 1, id: "flavor_immersed_daily:tomatosalad" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "67DA27537BBBEB41"
+			rewards: [{
+				id: "0E193D8356A5DBCD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FCF612833DC1686"
+				item: { count: 1, id: "flavor_immersed_daily:preservedeggsalad" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "36D07DFB38306B6F"
+			rewards: [{
+				id: "1A53B723E6C4739B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B4BB9869E17AD4B"
+				item: { count: 1, id: "flavor_immersed_daily:meatballsoup" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "764F4FDBA59A2748"
+			rewards: [{
+				id: "4612CCCB3493147B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D464DF40758F98E"
+				item: { count: 1, id: "flavor_immersed_daily:linyifriedchicken" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "500127B5B7C4D1B4"
+			rewards: [{
+				id: "59058FF56444E92F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "380690CE96794CDA"
+				item: { count: 1, id: "flavor_immersed_daily:drawneggplant" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1409DFB46F009956"
+			rewards: [{
+				id: "13B98D669AC5968B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F57FEA21744724"
+				item: { count: 1, id: "flavor_immersed_daily:boiled_fishwith_pickled_cabbageand_chili" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0B96062266917684"
+			rewards: [{
+				id: "1D54D13668921FFF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D83D4D0D1FFF2BB"
+				item: { count: 1, id: "flavor_immersed_daily:zucchinisnackmeat" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "76EA61DCC5BB5F5E"
+			rewards: [{
+				id: "4AC9BCD135D0D6F9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "266D861A43A1EFAF"
+				item: { count: 1, id: "flavor_immersed_daily:saltedeggyolkfriedcauliflower" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5851DC74BB44F66C"
+			rewards: [{
+				id: "1AA239BBFCEFF424"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "391893492503EF9A"
+				item: { count: 1, id: "flavor_immersed_daily:chickenwith_scallion_oil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "359DA76F57128E1A"
+			rewards: [{
+				id: "155DC05EC67613D4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34532E54802A6ACA"
+				item: { count: 1, id: "flavor_immersed_daily:pineapple_sweetand_sour_pork" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0475B2D2465DC34A"
+			rewards: [{
+				id: "209F4DE072D04DAB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3981060E29812769"
+				item: { count: 1, id: "flavor_immersed_daily:friedlivertipwithspinach" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6A1D52C94FAB7443"
+			rewards: [{
+				id: "05EE84C997BC04B1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E95267E903EDB2D"
+				item: { count: 1, id: "flavor_immersed_daily:stewedporkwithbrownsauce" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "545BFD5E7BF3B7F9"
+			rewards: [{
+				id: "10B27188CB1B3A53"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "091497C02A3B68A7"
+				item: { count: 1, id: "flavor_immersed_daily:stirfriedstringbeans" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05931B4A6856C91A"
+			rewards: [{
+				id: "02E8C125DD611C8B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FF00D77416FF62B"
+				item: { count: 1, id: "flavor_immersed_daily:mixedcolddishes" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "09810A764EFB1EEB"
+			rewards: [{
+				id: "3F7FF76711842572"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CCF3F3FE628AC7D"
+				item: { count: 1, id: "flavor_immersed_daily:japanesebraisedtofu" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2B518BFBC32DFF17"
+			rewards: [{
+				id: "41A832736F58389D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62A50C41E685D414"
+				item: { count: 1, id: "flavor_immersed_daily:scrambledeggswithfungusandcucumber" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3A404F1554BFFE0C"
+			rewards: [{
+				id: "4CA90F3699D64B92"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5466A888F95BBFD2"
+				item: { count: 1, id: "flavor_immersed_daily:pleurotuseryngiiwithsaltandpepper" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "729FB47B1302743B"
+			rewards: [{
+				id: "04EA90E7C538FBA6"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "429E6BFC316AADEC"
+				item: { count: 1, id: "flavor_immersed_daily:poached_spicy_slicesof_pork" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5E646E9DD2767551"
+			rewards: [{
+				id: "53228147917099F0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7986C132A78127C3"
+				item: { count: 1, id: "flavor_immersed_daily:sliced_fishin_hot_chili_oil" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7FA87F59741C0310"
+			rewards: [{
+				id: "1603BB61A0E4B5EA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3872D4861B113A86"
+				item: { count: 1, id: "flavor_immersed_daily:sauteedmushroomswithrapeseed" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0F4556475E954D5E"
+			rewards: [{
+				id: "36E603E69083AE58"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37B2828CF12D0659"
+				item: { count: 1, id: "flavor_immersed_daily:steamedfish" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2C4E3F8738B986F6"
+			rewards: [{
+				id: "3D33AFE0CD846446"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "457FC5594D3885C6"
+				item: { count: 1, id: "flavor_immersed_daily:friedcowpea" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65E7C2D032F13C5C"
+			rewards: [{
+				id: "0DDD9888B9CA2196"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "411D0FE81CD584C1"
+				item: { count: 1, id: "flavor_immersed_daily:friedspicychicken" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "19F1621150114BF2"
+			rewards: [{
+				id: "5523FC356D6C589A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EF8B593909B88A4"
+				item: { count: 1, id: "flavor_immersed_daily:boiled_chickenwith_sauce" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "41BB0D6D6AD9F431"
+			rewards: [{
+				id: "03C376275267C7B9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "584C020E1495443B"
+				item: { count: 1, id: "flavor_immersed_daily:kungpaochicken" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5F5D5989CB78A7B8"
+			rewards: [{
+				id: "7F648A8FC542209F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1676E388BE5E577D"
+				item: { count: 1, id: "flavor_immersed_daily:friedmeatwithcuminonion" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65B6EC74158477C0"
+			rewards: [{
+				id: "117BE0B1C54523A3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "270C99DC3FDD0FB4"
+				item: { count: 1, id: "flavor_immersed_daily:sauteed_potato_green_pepper_eggplant" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "040F16CE34738E75"
+			rewards: [{
+				id: "62B55DD889581C34"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4468342BF4DD2376"
+				item: { count: 1, id: "flavor_immersed_daily:stirfriedboiledporkslicesinhotsauce" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3F4F0CD40A5E1117"
+			rewards: [{
+				id: "2EB5F6B096883CCC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FE8CCD8AD57C24F"
+				item: { count: 1, id: "flavor_immersed_daily:fourjoymeatballs" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3CE6B8C573FDC5E9"
+			rewards: [{
+				id: "50A9B983B09FD514"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB089517319448E"
+				item: { count: 1, id: "flavor_immersed_daily:colachickenwings" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "462A02CBDA6A7D8B"
+			rewards: [{
+				id: "4FF5E8F22C5087B2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5847E62F1B9904A5"
+				item: { count: 1, id: "flavor_immersed_daily:steamed_chickenwith_chili_sauce" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1137CE7C9D0A816B"
+			rewards: [{
+				id: "62D695D0B4050480"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0878EC5C87841EC2"
+				item: { count: 1, id: "kaleidoscope_chinesefood:lapsang" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "201616B2E129BF7C"
+			rewards: [{
+				id: "12C0401B2A1EB850"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0068DF4FE59152ED"
+				item: { count: 1, id: "flavor_immersed_daily:steamedeggcustard" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2C668F8566BB4C84"
+			rewards: [{
+				id: "4F8A97836D1E3196"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74BE7F320FB1C50B"
+				item: { count: 1, id: "flavor_immersed_daily:stewedchickenwithwaxgourd" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2804C2F8C99A5EAD"
+			rewards: [{
+				id: "0BA75B16BC185924"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5281B98043FE9FAC"
+				item: { count: 1, id: "flavor_immersed_daily:stewedeggswithloofah" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0FBAE87386775D74"
+			rewards: [{
+				id: "357A9DA93936AAA9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5765663C328578"
+				item: { count: 1, id: "flavor_immersed_daily:stewedporkoffal" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "343A16FECE013477"
+			rewards: [{
+				id: "2B929D876A3D7FA2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D796D48CE6EF90"
+				item: { count: 1, id: "flavor_immersed_daily:spicycabbage" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1E27689DCA554853"
+			rewards: [{
+				id: "5F8AF824E1178E4B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56C1AB6A641A7BC6"
+				item: { count: 1, id: "flavor_immersed_daily:beanwithsesamesauce" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "132657EAD19205DE"
+			rewards: [{
+				id: "014AB2CB48C58734"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "152465FE0BE33FC4"
+				item: { count: 1, id: "flavor_immersed_daily:spicytofu" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "656E586CA2571E56"
+			rewards: [{
+				id: "71DE2DCAEF958AF2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1872F9F3BFEAE522"
+				item: { count: 1, id: "kaleidoscope_nether:spicy_pot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "36EBAD751726622B"
+			rewards: [{
+				id: "5DA3835D80A97CE0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30756438FF725201"
+				item: { count: 1, id: "kaleidoscope_nether:luosifen" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F11DDC9FB1F2937"
+			rewards: [{
+				id: "79FD548CC7F3350B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6D01F809D06654"
+				item: { count: 1, id: "kaleidoscope_nether:sauerkraut_fish" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "68534D8D0BCF4742"
+			rewards: [{
+				id: "7C0DBF152651952B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "357C199788E906BA"
+				item: { count: 1, id: "kaleidoscope_nether:braised_lion_head" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6960726138C13B15"
+			rewards: [{
+				id: "7231BC434885B801"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A91A330F105DBE8"
+				item: { count: 1, id: "kaleidoscope_nether:garlic_oysters" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1A9E69864A0AC10D"
+			rewards: [{
+				id: "6CD8A5D396A5F611"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06362E0B305E78A4"
+				item: { count: 1, id: "kaleidoscope_nether:couples_lung_slice" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0D5B55E6FEF6E384"
+			rewards: [{
+				id: "408048654BE80C47"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54A4749AFA270D06"
+				item: { count: 1, id: "kaleidoscope_chinesefood:dry_pot_spare_ribs" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "25F7CAC4D03FB0BF"
+			rewards: [{
+				id: "7CBCD26054A164D2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ACDB0033B867049"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sichuan_boiled_pork_slices" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "404F85776B230A0A"
+			rewards: [{
+				id: "28E0CACA8DBA441B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F77F88E6A8C17B8"
+				item: { count: 1, id: "flavor_immersed_daily:braisedbeansproutswithvermicelli" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "425291953B631968"
+			rewards: [{
+				id: "5FD1049C14DE47F8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1869AEEB8C0B038A"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yellow_croaker_tofu_soup" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6354CAA2FE955381"
+			rewards: [{
+				id: "432F7E381FC24089"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E6E32F6AF1B271"
+				item: { count: 1, id: "kaleidoscope_nether:sauerkraut_fish" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "264AC91B478641F9"
+			rewards: [{
+				id: "24C598FAA54B5948"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "331329FCC5C0692C"
+				item: { count: 1, id: "kaleidoscope_twilight:lotus_chicken" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "35B53D4FC0210980"
+			rewards: [{
+				id: "1882D78B5CC76CCA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34C5F623D80D7A1A"
+				item: { count: 1, id: "kaleidoscope_nether:garlic_oysters" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0EB1BB6DB7F35B45"
+			rewards: [{
+				id: "06FBC9F3F6B4B4EF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6642DF5CFD0C3C6C"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sichuan_wonton" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "482B77983A412775"
+			rewards: [{
+				id: "27F04947CB46BE4E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16C24378CB50D069"
+				item: { count: 1, id: "kaleidoscope_chinesefood:yangrou_paomo" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "34CE4DB36FD99CE6"
+			rewards: [{
+				id: "707905AB9747A556"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D67AC3718B2EDA6"
+				item: { count: 1, id: "flavor_immersed_daily:cantonesericerolls" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "63FCB169A6D144EF"
+			rewards: [{
+				id: "149536339F4A9A42"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B6776FDE465DAC6"
+				item: { count: 1, id: "flavor_immersed_daily:hotandsourricenoodles" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64B7018936A35559"
+			rewards: [{
+				id: "7D0C32D4E2F3F4E7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EFEFF97AF981AE7"
+				item: { count: 1, id: "flavor_immersed_daily:sa" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "463F36F046267BDF"
+			rewards: [{
+				id: "2AA9B493BC181E2D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "708E93D9B940E003"
+				item: { count: 1, id: "kaleidoscope_chinesefood:douzhi" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4811D4C9BEC19A91"
+			rewards: [{
+				id: "1C14C9BE4F2AC5A0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A9FF067D6371674"
+				item: { count: 1, id: "flavor_immersed_daily:reddatesandtremellaporridge" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6A0D9662792F85F9"
+			rewards: [{
+				id: "1D6747388FCBD3F8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31EF4D417C0DC564"
+				item: { count: 1, id: "flavor_immersed_daily:scrambledeggwithtomato" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0D3E722E7DE205F6"
+			rewards: [{
+				id: "66912E0CADA216B8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58B2BCE09BC20D96"
+				item: { count: 1, id: "kaleidoscope_chinesefood:dry_pot_chicken" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4D01B856067D6BF5"
+			rewards: [{
+				id: "10B2B0507C88C1D9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B4F195BE98F777B"
+				item: { count: 1, id: "kaleidoscope_chinesefood:dry_pot_potatoes" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "57F7825CCCDB1CAE"
+			rewards: [{
+				id: "437370C88E250383"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CA6525D26A9F9CF"
+				item: { count: 1, id: "kaleidoscope_chinesefood:four_joy_meatballs" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2B4F43ABCB299C92"
+			rewards: [{
+				id: "6EC5B9B4E1354B8D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DB92D5530A1C8C5"
+				item: { count: 1, id: "kaleidoscope_chinesefood:maocai" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4EFCE0A1A43816C1"
+			rewards: [{
+				id: "70526A99B2061840"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F65786FBF23C0E4"
+				item: { count: 1, id: "kaleidoscope_chinesefood:sichuan_boiled_fish" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1C5821AE06C498AB"
+			rewards: [{
+				id: "65324C95B1F2ED1C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53293D9A3694AA47"
+				item: { count: 1, id: "kaleidoscope_chinesefood:stuffed_eggplant" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7FD92E4BD5692642"
+			rewards: [{
+				id: "665CA5C53FB27642"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF7C0E478A67C11"
+				item: { count: 1, id: "kaleidoscope_twilight:cold_tossed_fern" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "52F4FC550252DA57"
+			rewards: [{
+				id: "0B01653103F55528"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A3BC74DD30A353"
+				item: { count: 1, id: "kaleidoscope_cookery:berry_platter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "19343B98EA77A193"
+			rewards: [{
+				id: "46B856A2130684CA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F34ABD8C48C43F6"
+				item: { count: 1, id: "kaleidoscope_cookery:golden_salad" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3D6DE78358F6C8F6"
+			rewards: [{
+				id: "74492207ECD64210"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18383FF78485FB68"
+				item: { count: 1, id: "kaleidoscope_cookery:cold_roasted_meat" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "37C17169450EE0A6"
+			rewards: [{
+				id: "1F7A299C91384C6F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52C3C5C06B8E7857"
+				item: { count: 1, id: "kaleidoscope_cookery:cold_cut_ham_slices" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "11971D8BD5F46550"
+			rewards: [{
+				id: "1128261ABAC24ED8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E85184D732E05CD"
+				item: { count: 1, id: "kaleidoscope_cookery:donkey_burger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "55793E215816B9A4"
+			rewards: [{
+				id: "5BC51E94BA5693F2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F6404CF4CEADE64"
+				item: { count: 1, id: "kaleidoscope_nether:roujiamo" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D45F55705ADC370"
+			rewards: [{
+				id: "35E8D58819285667"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29967858F171FFB3"
+				item: { count: 1, id: "kaleidoscope_cookery:apple_platter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3317629C8076159C"
+			rewards: [{
+				id: "45B2476FB34A0BE6"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52258D9944F58D77"
+				item: { count: 1, id: "kaleidoscope_cookery:tomato_platter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01E3B81A712A7335"
+			rewards: [{
+				id: "01D810E578CD44FF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B0697C6742AC05B"
+				item: { count: 1, id: "kaleidoscope_cookery:watermelon_platter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "70ACE87AC437C4D5"
+			tasks: [{
+				id: "40ADE47F8B198578"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6E70486C8D6AA2A7"
+			rewards: [{
+				id: "1B27B564298870CA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "001AEC9F01DDEA7C"
+				item: { count: 1, id: "flavor_immersed_daily:healthpeanutmilk" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6A4BCF77CEEE39B2"
+			rewards: [{
+				id: "27DB72C52BCE91ED"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2581B119E2A3F67F"
+				item: { count: 1, id: "flavor_immersed_daily:healthloquatcream" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "34C3C9545A4A4145"
+			rewards: [{
+				id: "33EC27F7068956F3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD88CDB2FAC93EC"
+				item: { count: 1, id: "flavor_immersed_daily:electrolytebeverage" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4AC9430D99FB84C8"
+			rewards: [{
+				id: "4902715871D543E5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70EAE6F82CF5C053"
+				item: { count: 1, id: "flavor_immersed_daily:sprite" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5770816B4EB568D6"
+			rewards: [{
+				id: "63E946A2E8E3DD8B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE320377E24B19B"
+				item: { count: 1, id: "flavor_immersed_daily:blue_cola" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6ABF470C391C1808"
+			rewards: [{
+				id: "2FCA41DA11B0DA2B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A7362EBE9E9DB0"
+				item: { count: 1, id: "flavor_immersed_daily:cola" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "781CE341415C93EB"
+			rewards: [{
+				id: "42706D1140629790"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AED05DEEAC1FBAC"
+				item: { count: 1, id: "flavor_immersed_daily:yogurt" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3FFCF07ADB680721"
+			rewards: [{
+				id: "298C93A345006F7B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32F045025BAF376A"
+					item: { count: 1, id: "flavor_immersed_daily:hotwater" }
+					type: "item"
+				}
+				{
+					id: "247FF731C7007324"
+					item: { count: 1, id: "flavor_immersed_daily:drinkingwater" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "00155C2BE3949A11"
+			rewards: [{
+				id: "5AC20EA1E297A49D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "353DE0FDF6052799"
+				item: { count: 1, id: "flavor_immersed_daily:grenteamilkwithpearl" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "326EEC7F214BBE46"
+			rewards: [{
+				id: "4825630826E6DE45"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50149BE841120611"
+				item: { count: 1, id: "flavor_immersed_daily:green_tea_lattes" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "424E767798D5DD64"
+			rewards: [{
+				id: "03D729B672316EF9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6326D80C3C6FCD61"
+				item: { count: 1, id: "flavor_immersed_daily:redteamilkwithpearl" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5E15C5504F404F16"
+			rewards: [{
+				id: "7390BB11BD44B77D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15462844C10DCDF2"
+				item: { count: 1, id: "flavor_immersed_daily:healthwalnutdew" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4C866E77E9537CE3"
+			rewards: [{
+				id: "4970183047EA95DE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F32DDC5FB25DBB"
+				item: { count: 1, id: "flavor_immersed_daily:wheatmilk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1AB8D9558F47BE5E"
+			rewards: [{
+				id: "076A21A45A7C8703"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63E81B3F155A5921"
+				item: { count: 1, id: "flavor_immersed_daily:milkbottle" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "391466BC8D8DD2B4"
+			rewards: [{
+				id: "224077BC2B24C633"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "136767872668F505"
+				item: { count: 1, id: "crabbersdelight:coconut_milk" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "31A24CD9FEB0CD9B"
+			rewards: [{
+				id: "7B879BC584945597"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20599398143BD3B1"
+				item: { count: 1, id: "flavor_immersed_daily:kweichow_moutai" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6EC3528E70A33F6D"
+			rewards: [{
+				id: "23CA2658A66735A5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "423CA4FE2C53FC7D"
+				item: { count: 1, id: "flavor_immersed_daily:tsingtao_beer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7579EFA0A26F185D"
+			rewards: [{
+				id: "71A7F55775899CBB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30C3617144089B76"
+				item: { count: 1, id: "flavor_immersed_daily:kaoliangwine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2A31D1C18A0897BE"
+			tasks: [{
+				id: "03FF9BD586EFC43C"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4B55E223C2964810"
+			tasks: [{
+				id: "40A837BE1381EC87"
+				item: { count: 1, id: "flavor_immersed_daily:sugarcoatedhaws" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64FA20A148BA98F9"
+			rewards: [{
+				id: "309020E56F9A902C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1024DFCCE8C9995D"
+				item: { count: 1, id: "flavor_immersed_daily:ripepearwithrocksugar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4E71EF453E5C48C8"
+			rewards: [{
+				id: "00FF82CB99BB49B9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18663813DAA51587"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsausage" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "24D7C0D3AF02EFDE"
+			rewards: [{
+				id: "4EF15200B1CEF224"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A8A9F1258818174"
+				item: { count: 1, id: "flavor_immersed_daily:spicypeanut" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D0B836E1744A7CF"
+			rewards: [{
+				id: "3CE5E052C3021BE4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ADA5459D075311A"
+				item: { count: 1, id: "flavor_immersed_daily:chinesespicysnackfood" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "47E9F1546E59E3E5"
+			rewards: [{
+				id: "0363C54180C41DAA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24381BC7F74486C2"
+				item: { count: 1, id: "flavor_immersed_daily:tigergreenpepper" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6AE0FA1B8BB24147"
+			rewards: [{
+				id: "537E08BEEE7FE487"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "092EEEE956A818FE"
+				item: { count: 1, id: "flavor_immersed_daily:boiledcorn" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5FB7A46E099F997C"
+			rewards: [{
+				id: "6B9FB07D9AC99E0E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC590DEB503233F"
+				item: { count: 1, id: "flavor_immersed_daily:cookedhawthorn" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6C6DEDA7D0D08225"
+			rewards: [{
+				id: "6F8F36EAD0E0C6B1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1376962B88FEA81F"
+				item: { count: 1, id: "flavor_immersed_daily:chickenfeetwithpeppers" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "48C446434435A50F"
+			rewards: [{
+				id: "5CAB719518942275"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53B40DD47F19655B"
+				item: { count: 1, id: "flavor_immersed_daily:chineseyamandsugar" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "38127CF5AADC573E"
+			rewards: [{
+				id: "2FFA789B69CD67B0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1B57E3B16143E6"
+				item: { count: 1, id: "flavor_immersed_daily:roastedpurplepotato" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "70AD88FF813D11AE"
+			rewards: [{
+				id: "231247F26E03D115"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62074306CDE5FFC7"
+				item: { count: 1, id: "flavor_immersed_daily:meatfloss" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E8093369DD7E6C4"
+			rewards: [{
+				id: "243E643F607A7E87"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F5C40976854591D"
+				item: { count: 1, id: "flavor_immersed_daily:bonelesslemonchickenfeet" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "153912FEF7A4D9F8"
+			rewards: [{
+				id: "45D7420FE00B10E3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4FA7A006480B1F"
+				item: { count: 1, id: "flavor_immersed_daily:sugarcoatedwalnut" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F8677AD0CF1B11E"
+			rewards: [{
+				id: "537C23BBE8F8684A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A14634C48B4E931"
+				item: { count: 1, id: "flavor_immersed_daily:tang_zi_xiao_zao" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62388362C65E8B98"
+			tasks: [{
+				id: "27ADDB7A4CA65BA9"
+				item: { count: 1, id: "flavor_immersed_daily:jelly" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "35593886F1CA8FFF"
+			rewards: [{
+				id: "009B4E941E44C6FF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15C32FFF192652FC"
+				item: { count: 1, id: "flavor_immersed_daily:roastedpeanut" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4D5927464DD6CBC3"
+			rewards: [{
+				id: "0E5490EF36F5BDC9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AAE31DDA523E43D"
+				item: { count: 1, id: "flavor_immersed_daily:steamedblood" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "455E006DC511E510"
+			rewards: [{
+				id: "65BDB8DDFA3333C5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC2E05FAC53CD1F"
+				item: { count: 1, id: "flavor_immersed_daily:goldricecake" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "47F65B3B841E8CC4"
+			rewards: [{
+				id: "5B3AAFA234389CF1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A0F683A4F7113E3"
+				item: { count: 1, id: "flavor_immersed_daily:steamedsaltorange" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "37421BA4C93E65E6"
+			rewards: [{
+				id: "1638DC9CCDBCC545"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31EF59D99996A4A2"
+				item: { count: 1, id: "flavor_immersed_daily:shou_kai_xin_guo" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05F4A38C540D5081"
+			rewards: [{
+				id: "378B112B1FD2B0AC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40B57570D40A1AE4"
+				item: { count: 1, id: "flavor_immersed_daily:eatenpineapple" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "526ACE094E0A1972"
+			rewards: [{
+				id: "472049F8C9718419"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01191D8E30F310D2"
+				item: { count: 1, id: "flavor_immersed_daily:peaflourcake" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1BD83084B898D409"
+			rewards: [{
+				id: "5469F4BD1423AF04"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09960E4783C94410"
+				item: { count: 1, id: "flavor_immersed_daily:roastedsweetpotato" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "656BCC302FA343C2"
+			rewards: [{
+				id: "6389102B90CF3317"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5173E88FA3F916FA"
+				item: { count: 1, id: "flavor_immersed_daily:friedpeanuts" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "432AAB356971F2DE"
+			rewards: [{
+				id: "2DD034E560283003"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52B6BB749A65C592"
+				item: { count: 1, id: "flavor_immersed_daily:friedgultinousricestrips" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3919E8058AD3354B"
+			rewards: [{
+				id: "6E8740DE7BAB5C79"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "714649FAE8550497"
+				item: { count: 1, id: "flavor_immersed_daily:sachima" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7D6E1C2B42C0DCAA"
+			rewards: [{
+				id: "140B172F45B7F500"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C1B2821521E5E23"
+				item: { count: 1, id: "flavor_immersed_daily:eggpuffs" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4BF15535E3EA8F72"
+			rewards: [{
+				id: "6B722DC8D556DBAA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5548C3AF86303FF3"
+				item: { count: 1, id: "flavor_immersed_daily:smallmicedmeatcake" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65C1BF4212702EFD"
+			tasks: [{
+				id: "1C1575D7839226FC"
+				item: { count: 1, id: "flavor_immersed_daily:crispyeggcake" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7D7AE158FD313DCC"
+			rewards: [{
+				id: "5C5EC1255E59FD93"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67E8A8CCD8EF0CF7"
+				item: { count: 1, id: "flavor_immersed_daily:eggcake" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01FD9CD52EE2E195"
+			rewards: [{
+				id: "46F95E53D41CDD76"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A560126C60ECDAE"
+				item: { count: 1, id: "flavor_immersed_daily:walnutshortbread" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "59AD1CA191273ED7"
+			rewards: [{
+				id: "09602C32803ACADD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07CBD9A54298CDB9"
+				item: { count: 1, id: "flavor_immersed_daily:walnutcake" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1F46C5BE06A5C706"
+			rewards: [{
+				id: "74BD4A29B8B3E59B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F5B8446529F776A"
+				item: { count: 1, id: "flavor_immersed_daily:driedlotusroot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4037594DB8EA0832"
+			rewards: [{
+				id: "142AFFFF345F17B7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB85361937FE9D2"
+				item: { count: 1, id: "flavor_immersed_daily:frieddoughstick" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "399DE826BFDD17C3"
+			rewards: [{
+				id: "2A19A29E80202F92"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30912E7321AF5C29"
+				item: { count: 1, id: "flavor_immersed_daily:driedmeatball" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "220A20F228A831CB"
+			rewards: [{
+				id: "36593E3C19959499"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E53858B19ECD32"
+				item: { count: 1, id: "flavor_immersed_daily:drieddicedaubergine" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "67DEFDB5958827AF"
+			rewards: [{
+				id: "41BC37B51CC152B5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "777A88D9A257D522"
+				item: { count: 1, id: "flavor_immersed_daily:firedspringroll" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "031DC836BE8C724A"
+			rewards: [{
+				id: "11DD022FC284AE59"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D53A2CB9188834D"
+				item: { count: 1, id: "flavor_immersed_daily:driedricecake" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "643C82CAD0F00376"
+			rewards: [{
+				id: "47FE0F7A03A9ECA0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1570AA182D3721FD"
+				item: { count: 1, id: "flavor_immersed_daily:stewedhalfchickenleg" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "231877DA89A526F1"
+			rewards: [{
+				id: "39F59A697CB3667D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A95F7A251D9C947"
+				item: { count: 1, id: "flavor_immersed_daily:stewedpigleg" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "53347BBC2B10BE30"
+			rewards: [{
+				id: "436B51E2FCB8F69A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32F740FA970DF0A6"
+				item: { count: 1, id: "flavor_immersed_daily:slicedsaltycucumber" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3EE0A859279B551F"
+			tasks: [{
+				id: "20085B859164FE88"
+				item: { count: 1, id: "flavor_immersed_daily:roastedchinesechives" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "024978EF8F1F8986"
+			rewards: [{
+				id: "1175807FAF6C261C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC5F220F55C0DC4"
+				item: { count: 1, id: "flavor_immersed_daily:roasted_flammulinavelutipes" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "203F7394375812B6"
+			rewards: [{
+				id: "59EE8E4F11E3D733"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0992664B6A061500"
+				item: { count: 1, id: "flavor_immersed_daily:roastedmushroom" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5E573423B520F185"
+			rewards: [{
+				id: "003CF11351340587"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16D5329446F2CAEF"
+				item: { count: 1, id: "flavor_immersed_daily:saltydicedcurumber" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4ED47F04A87BC483"
+			rewards: [{
+				id: "35C6FAFFB3D0733B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAD6C152AF85281"
+				item: { count: 1, id: "flavor_immersed_daily:curedsausage" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6631B1F9FCBFA4CA"
+			rewards: [{
+				id: "66D2917B83B3D02F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "697DDF304DDE096A"
+				item: { count: 1, id: "flavor_immersed_daily:curedmeat" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B677792C53145BB"
+			rewards: [{
+				id: "77F093F90078ABC4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "052BD3F6127D45E3"
+				item: { count: 1, id: "flavor_immersed_daily:dicedpickledvegetable" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "621E58398F3E73B8"
+			rewards: [{
+				id: "2F29989A77C7C394"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ECEDB17C4AFB7E8"
+				item: { count: 1, id: "flavor_immersed_daily:pickledvegetable" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "232252D4F86C3ADF"
+			rewards: [{
+				id: "2A66B84A44711762"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ED61517C24C2E7A"
+				item: { count: 1, id: "flavor_immersed_daily:friedhempball" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B3826BB11919D22"
+			rewards: [{
+				id: "0CC32F957BFD5594"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "105D5985FE241077"
+				item: { count: 1, id: "flavor_immersed_daily:friedsanzi" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "67339E24909E52F4"
+			rewards: [{
+				id: "7973A41AACE3F97E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D7A8C9C8B17AFCE"
+				item: { count: 1, id: "flavor_immersed_daily:friedtoufu" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4B3D0F6710717389"
+			rewards: [{
+				id: "1F6183E3B4BA7C06"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B4528CE828905C"
+				item: { count: 1, id: "flavor_immersed_daily:frieddoughtwist" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "11C31FCB9BE85FF9"
+			rewards: [{
+				id: "1479623CA172290F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71E3AE2D750ED701"
+				item: { count: 1, id: "flavor_immersed_daily:crispypistolleg" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6C62AC1E957BE922"
+			rewards: [{
+				id: "5768620FC38FDA76"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22A983D8999FAE37"
+				item: { count: 1, id: "flavor_immersed_daily:saltyegg" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "53747833C2DC34AF"
+			rewards: [{
+				id: "06D55A05275EF614"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A4FA2B0681866E4"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpreservedegg" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "43E3805BF6B0FADD"
+			rewards: [{
+				id: "1C64E9ECCD76BB12"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C228335216CB018"
+				item: { count: 1, id: "flavor_immersed_daily:saltyraddish" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5D6BE9BB1D41095B"
+			rewards: [{
+				id: "6CD4CF9CEF5BBB76"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F93084A352ECE3"
+				item: { count: 1, id: "flavor_immersed_daily:frieddriedtoufu" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7474146B125E3C8D"
+			tasks: [{
+				id: "318DF2F9EF6374D8"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "245C0AE1AFDC2BB2"
+			rewards: [{
+				id: "31BEB4830EC9A5E2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "370495409C6B883B"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattleliver" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6858C55A22AA628F"
+			rewards: [{
+				id: "50DE256DC4A0ED51"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EF4CCD0138D84E9"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattlelung" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0FAFCC67AB1CF77E"
+			rewards: [{
+				id: "5ACD191DF096ED4E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C2E32D1DC468047"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattlestomach" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "462C83C09DF7646A"
+			rewards: [{
+				id: "03593A9D2701DED3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AF923D5A08D501E"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattlejoint" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "38C315CBE2C67708"
+			rewards: [{
+				id: "301A272DE89B7218"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BE314F90A1821D"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattleheart" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0884521A18F93DE1"
+			rewards: [{
+				id: "71B64249373C9C81"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7649A39034128DAC"
+				item: { count: 1, id: "flavor_immersed_daily:saucingbeef" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "07514FE381654822"
+			rewards: [{
+				id: "2BC3AEBB5418F3E3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2016418B6D1571D4"
+				item: { count: 1, id: "flavor_immersed_daily:stewedchickenleg" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5027FF77DBB5D0C4"
+			rewards: [{
+				id: "49A936717951F690"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11BEAD1CC5E9A28C"
+				item: { count: 1, id: "flavor_immersed_daily:stewedchickenlivers" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "299D460CC03E2DC5"
+			rewards: [{
+				id: "6BFB2EAFA592719A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3916DBE439D1518A"
+				item: { count: 1, id: "flavor_immersed_daily:stewedchickenheart" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2C656D672A334669"
+			rewards: [{
+				id: "526C1946F5DA40B5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31F8E9E5C584BA7D"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepkidney" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F3388F8B533661E"
+			rewards: [{
+				id: "10CC6DB4CE1FF3BA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09FC951C83380E47"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepheart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "14856F59F37FF59B"
+			rewards: [{
+				id: "064AF5B07E584420"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C112F3E077E7564"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepsparerlip" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "138A625B2C948E0A"
+			rewards: [{
+				id: "7A7B9FADBD13190D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6780B9FCA0927848"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigcerebrum" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4D6EA247EF53C4FB"
+			rewards: [{
+				id: "467F8B15195811DB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32CC00836BAD3CBA"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigkidney" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01498E921F5FBC64"
+			rewards: [{
+				id: "7113866720785D73"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C2852DDDA88751B"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigliver" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "63474BDD6C139D27"
+			rewards: [{
+				id: "05DB3203FC3FAC6A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BA7BB9792BD5756"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpiglung" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5799A890DE586765"
+			rewards: [{
+				id: "47C9F7BF501074E7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21AD452566680B16"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigstomach" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7920AFF7E8C21E52"
+			rewards: [{
+				id: "33637E1BD2A1A2B8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ED9D6568D285700"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigfat" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "28F7741D933D5501"
+			rewards: [{
+				id: "4A669554BD660996"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04F5C366E740C7C0"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigfeet" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "67FBCA84FAC4A46B"
+			rewards: [{
+				id: "11DFD132F91F0483"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6270898C012321"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigleg" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6CB5B241061B097D"
+			rewards: [{
+				id: "489F8A62EE6EB65D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16CC6A9EA942177C"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigsparerib" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "305EC5D1268D0C2B"
+			rewards: [{
+				id: "18BC7B5497332AC4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3506F8937F4C2D2C"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigtenderloin" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6D98642201A5F1F2"
+			rewards: [{
+				id: "70AEBDFBEF22294A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7695B440D60BB1AD"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigstreakypork" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "111D77DCA62A3DDA"
+			rewards: [{
+				id: "44C75900098CBADA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AF311527168024B"
+				item: { count: 1, id: "flavor_immersed_daily:cookeddicedcattle" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "500E300C433DA7F6"
+			rewards: [{
+				id: "479C0DB87F2A974E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "381C9FAB52894D4C"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattleface" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5955E77B3D032DFB"
+			rewards: [{
+				id: "295190D03950AFFB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A9A2A9B963945B"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattlemarbledbeef" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6FAA0CD154BEA554"
+			rewards: [{
+				id: "08C1E92BF63BFABE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08BACD676FACF2C3"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattleleg" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "30729AEB27F4782B"
+			rewards: [{
+				id: "00E957B2A837C3B6"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2853B1CE8DBC3594"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattlefeet" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "70C34E475EE2968A"
+			rewards: [{
+				id: "2D82CCF1412CD02F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16C88A9F2E3FF0E6"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattletendon" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "251ED8EB2D73DDEB"
+			rewards: [{
+				id: "4208E59493DC3B75"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21AE31B573C31D16"
+				item: { count: 1, id: "flavor_immersed_daily:cookeddicedpigmeat" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C5AC1C587687D4C"
+			rewards: [{
+				id: "67BAE8BDDACE75D2"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "587473E044D90BC5"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigshreds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B970D30A6D84A02"
+			rewards: [{
+				id: "531AA63A9C701415"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EAAF7AC42196979"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigear" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "63D6DAAC7E2EA2FF"
+			rewards: [{
+				id: "275CA8C10B0E457D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BF6C65C96681A18"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpignose" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5788B62718CAA918"
+			rewards: [{
+				id: "35FF924D2467515D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D4ABC98E4F33F8B"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigtail" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "35971126A857A4C2"
+			rewards: [{
+				id: "323A1C73D70E24F5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F8D3DEAB710B72A"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigskin" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E08D00EA7E895F9"
+			rewards: [{
+				id: "20DD359871BDDF8C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "207ACAAB59BB485E"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcattleintestine" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65D27CCC89A669A7"
+			rewards: [{
+				id: "00B2E681E1427692"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A6197FAED629211"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigface" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1E2BBA4351E19B64"
+			rewards: [{
+				id: "0BBAB8601E379863"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B4057CF6D5B0A26"
+				item: { count: 1, id: "flavor_immersed_daily:cookeddicedsheepmeat" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B59A823104243D1"
+			rewards: [{
+				id: "5E8AC239AE6BF991"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F81E4F788216AC5"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepface" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "18B4EEFA58DD1E3B"
+			rewards: [{
+				id: "07E2EEF02D76D536"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F90461B17FB478B"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepeye" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "43F899E92F9C7B22"
+			rewards: [{
+				id: "10B7D69ACB782D31"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "309A0EF7F292EEB7"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheeptail" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "28F0A3CBD2CC1373"
+			rewards: [{
+				id: "66ED1A2F8DD8E3FF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34396EE82400C2CA"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepstomach" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "688CC601D0375117"
+			rewards: [{
+				id: "18BF0CDDE083656F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C71120665CD52A3"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepliver" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5611B72BD3F33C31"
+			rewards: [{
+				id: "02439F691B561E43"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A484715CC8E60F"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepintestine" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "13BCA1CF64BE1E12"
+			rewards: [{
+				id: "6B404FC336D9BE06"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62610B283C5B3402"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigheart" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "028446FDCDE02855"
+			rewards: [{
+				id: "0E7178B4599141F4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "122C23800AD8B3BC"
+				item: { count: 1, id: "flavor_immersed_daily:cookedflakebeef" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2BBB62A81B1D0339"
+			rewards: [{
+				id: "316C357C4169389E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A1AD827C17D8D2"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenleg" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "60BDE51573E9FCBA"
+			rewards: [{
+				id: "707F7F3D56D8154D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DE8027B7181CD70"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenpiece" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0A9581F5A201160D"
+			rewards: [{
+				id: "26A447E5631F4AB8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22664841EB358087"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickensteak" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F3B920801750C7B"
+			rewards: [{
+				id: "7527F21D3482D1FA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED52562FAAA3E3B"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenfork" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7EE40222107C73D4"
+			rewards: [{
+				id: "52BE93A2797A2B0D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C8B5F9FB605896"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenass" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5427011E9EF80924"
+			rewards: [{
+				id: "720A6D8F460CC6D7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1B38DEF62CE385"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenheart" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5A9B6C984AC761CE"
+			rewards: [{
+				id: "1A937D4D54BF9976"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "408876A7B945F6F5"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenliver" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "501708203985659F"
+			rewards: [{
+				id: "6F876B5778D7A4DF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E9C6569FB43F236"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickengizzard" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0A3E91918CA19243"
+			rewards: [{
+				id: "0728A9258F87BA64"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "710345F3D0D1DEF5"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenbreast" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "69D81D4D28BF6CC0"
+			rewards: [{
+				id: "2AD2FC384DACA9DC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1E09707DE3144F"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenlean" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3785E14086CBEBE3"
+			rewards: [{
+				id: "7B9839E8D218915A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3988DB24D30CCB37"
+				item: { count: 1, id: "flavor_immersed_daily:cookedcrispypork" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2121D4A9D444C23A"
+			rewards: [{
+				id: "4B94E5B66666C65D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4132CA40AF523EF4"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenlegwithleg" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "27230CCCBC2D621F"
+			rewards: [{
+				id: "5A44EF1F4B6BE350"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4409E719212DBB32"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenfeet" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "18297DB14608F5C7"
+			rewards: [{
+				id: "7D9288E36504E7CB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B78D3B5B0938710"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenwingtip" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "261B8A9D9D904C07"
+			rewards: [{
+				id: "7E16ABEC64EF3F81"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A77FEC0F21CE922"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenwing" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3F0AA2565FB645E9"
+			rewards: [{
+				id: "45FEC8901662ED98"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C18095B5828FCA0"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenneck" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "77541CE9BB55EF0D"
+			rewards: [{
+				id: "22DBC54AE8B0B7CF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "518EEF6B804F366F"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenhead" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "547A7DB56950C5CE"
+			rewards: [{
+				id: "7DEAD84EB9DA5531"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4645A6D8DA71698A"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickenpiecepiece" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1D3E8BEAE06799F7"
+			rewards: [{
+				id: "2A1C880621DCFE64"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B9711BCAB749AD1"
+				item: { count: 1, id: "flavor_immersed_daily:cookedchickendiced" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5D5E71841CCDC745"
+			rewards: [{
+				id: "7EE6B008A86F033E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "035C763713BBAC89"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepfat" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4E66DB8BC7474447"
+			rewards: [{
+				id: "408AB8D89DF3C534"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5666C832C872FE60"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepleg" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1AD3D491C94A4BAC"
+			rewards: [{
+				id: "6A432F87CE5DB1A7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "408B97C668E68042"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepfeet" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C31078B99EFDB42"
+			rewards: [{
+				id: "3FB74B4B23DC78C0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "622B1F6AC68AFBB0"
+				item: { count: 1, id: "flavor_immersed_daily:cookedsheepspine" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "69375A73160316B9"
+			rewards: [{
+				id: "42EDF009CD4168EE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17776723EAE10B09"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigintestine" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "37FAF0AED737B42D"
+			rewards: [{
+				id: "6C4E8312248F2F69"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50A38ED9E167F077"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigstreakmeat" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "37B94AC2F9F774F3"
+			rewards: [{
+				id: "48584E1261819EB1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "096C9B8B09D7358F"
+				item: { count: 1, id: "flavor_immersed_daily:cookedpigstreakmeat" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "69726CAEE522870D"
+			rewards: [{
+				id: "291D22187AA51341"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1594B0FF2499B79F"
+				item: { count: 1, id: "flavor_immersed_daily:potatochips" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F277DEDA20A6698"
+			tasks: [{
+				id: "7BDED7F20BA7780F"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "50A808413AA3716D"
+			tasks: [{
+				id: "1B2B04708E7ED72E"
+				item: { count: 1, id: "kaleidoscope_twilight:naga_tea" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "252DDBF315A9FBD7"
+			tasks: [{
+				id: "5D734C632D2C9D78"
+				item: { count: 1, id: "kaleidoscope_twilight:witchcraft_tea" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "102651C1A014762C"
+			tasks: [{
+				id: "3EF81DEDB93D7FDF"
+				item: { count: 1, id: "kaleidoscope_twilight:minotaur_mushroom_tea" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "10F7B36341536B3E"
+			tasks: [{
+				id: "62ABFCCCBBDD421E"
+				item: { count: 1, id: "kaleidoscope_twilight:phantom_tea" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05599AF35D7EC9E0"
+			tasks: [{
+				id: "3EF3D27654346E13"
+				item: { count: 1, id: "kaleidoscope_twilight:fire_tea" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0D225630B8DB62B8"
+			tasks: [{
+				id: "036290DE33B76231"
+				item: { count: 1, id: "kaleidoscope_twilight:hot_tears_tea" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4C066CF16E26981C"
+			tasks: [{
+				id: "42CB3212D6819374"
+				item: { count: 1, id: "kaleidoscope_twilight:ice_crystal_tea" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 17.5d
+		}
+	]
+}

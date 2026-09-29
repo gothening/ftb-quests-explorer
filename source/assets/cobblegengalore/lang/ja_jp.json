@@ -1,0 +1,11 @@
+{
+  "jei.cobblegengalore.blockgen": "ブロック生成機",
+  "block_gen.tooltip": "速度倍率：%s",
+  "block.cobblegengalore.block_gen_stone": "石のブロック生成機",
+  "block.cobblegengalore.block_gen_copper": "銅のブロック生成機",
+  "block.cobblegengalore.block_gen_iron": "鉄のブロック生成機",
+  "block.cobblegengalore.block_gen_gold": "金のブロック生成機",
+  "block.cobblegengalore.block_gen_emerald": "エメラルドのブロック生成機",
+  "block.cobblegengalore.block_gen_diamond": "ダイヤモンドのブロック生成機",
+  "block.cobblegengalore.block_gen_netherite": "ネザライトのブロック生成機"
+}

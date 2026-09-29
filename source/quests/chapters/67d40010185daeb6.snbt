@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "67d40010185daeb6"
+	group: "64455473278BA5BB"
+	id: "67D40010185DAEB6"
+	images: [ ]
+	order_index: 8
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		entity_vis_size: 1.0f
+		id: "6D2D3419998E7746"
+		tasks: [{
+			id: "057CBBEC7190CB32"
+			item: { count: 1, id: "minecraft:jukebox" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

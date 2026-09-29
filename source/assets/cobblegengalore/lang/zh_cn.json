@@ -1,0 +1,10 @@
+{
+  "jei.cobblegengalore.blockgen": "刷石机",
+  "jei.cobblegengalore.consumed": "消耗源方块",
+  "block_gen.tooltip": "速度倍率：%s",
+  "block.cobblegengalore.block_gen_stone": "刷石机",
+  "block.cobblegengalore.block_gen_copper": "基础刷石机",
+  "block.cobblegengalore.block_gen_iron": "中级刷石机",
+  "block.cobblegengalore.block_gen_diamond": "精英刷石机",
+  "block.cobblegengalore.block_gen_netherite": "终极刷石机"
+}

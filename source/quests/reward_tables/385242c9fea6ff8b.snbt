@@ -1,0 +1,147 @@
+{
+	id: "385242C9FEA6FF8B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "seeds"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 64
+			id: "00FBB0BF28A1B322"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "1B3BBDA2C68039E7"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "76765B325B9CB7EC"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "6A7693457C01A3E5"
+			item: {
+				count: 1
+				id: "minecraft:cocoa_beans"
+			}
+		}
+		{
+			count: 64
+			id: "31043F226941BB60"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "0D6C4D70683E25CD"
+			item: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
+		}
+		{
+			count: 64
+			id: "53A3D04A6407A3C0"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+		{
+			count: 64
+			id: "63CFE721C82634C0"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+		}
+		{
+			count: 64
+			id: "456A87181C5F214C"
+			item: {
+				count: 1
+				id: "rusticdelight:cotton_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "1D7921BCD1DD6FDB"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "0A0F593BA7DDD1C0"
+			item: {
+				components: {
+					"ftbquests:missing_item": "deep_aether:squash_seeds"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 64
+			id: "15013A25D4E793AE"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "5D9A47FDF6AC2BFF"
+			item: {
+				count: 1
+				id: "kaleidoscope_cookery:chili_seed"
+			}
+		}
+		{
+			count: 64
+			id: "3C7D7AD5335877E6"
+			item: {
+				count: 1
+				id: "culturaldelights:eggplant_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "45DB9E12CC6CBB57"
+			item: {
+				count: 1
+				id: "culturaldelights:cucumber_seeds"
+			}
+		}
+		{
+			count: 64
+			id: "52DB49C9697EFE31"
+			item: {
+				count: 1
+				id: "rusticdelight:bell_pepper_seeds"
+			}
+		}
+	]
+}

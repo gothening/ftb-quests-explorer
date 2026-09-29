@@ -1,0 +1,166 @@
+{
+	id: "2662D162411067B9"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 2
+			id: "053FC72341B0B9D5"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "6C3362451B407FA8"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "4CB65BE8738A570A"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;16000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:advanced_energy_cube"
+			}
+			weight: 0.7f
+		}
+		{
+			count: 4
+			id: "77BC8E6AC808651A"
+			item: {
+				count: 1
+				id: "projecte:alchemical_chest"
+			}
+			weight: 0.7f
+		}
+		{
+			id: "1E3A2899E60B2F71"
+			item: {
+				count: 1
+				id: "projecte:repair_talisman"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "48AC743215E789A7"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "3CEAAE59DB199F59"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "20C8B35CFCDAB458"
+			item: {
+				count: 1
+				id: "allthemodium:allthemodium_ingot"
+			}
+			weight: 0.5f
+		}
+		{ id: "1D5F033259F14AEA", item: { components: { "minecraft:stored_enchantments": { levels: { "tonsofenchants:enhanced_unbreaking": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{
+			id: "7EFB9C3935C67D6C"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "1C85D8105C30003A"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"indestructible:indestructible": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.05f
+		}
+		{
+			count: 3
+			id: "2F9225754E209B32"
+			item: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
+		}
+		{
+			count: 10
+			id: "4A50C22BE347A51E"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 16
+			id: "327E1B1858F4DCCB"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+		}
+		{
+			count: 2
+			id: "74D6743A0128C7D9"
+			item: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 16
+			id: "621557E344B5F02C"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+		}
+		{
+			id: "47A0C2C644D5A347"
+			item: {
+				count: 1
+				id: "artifacts:eternal_steak"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "6A00346900844FD8"
+			item: {
+				count: 1
+				id: "primogemcraft:ydfms"
+			}
+		}
+	]
+}

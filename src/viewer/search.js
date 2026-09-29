@@ -55,6 +55,9 @@ export function createSearchIndex(model) {
       questId: null,
       label: textValueText(chapter.title) || chapter.id,
       match: "",
+      itemId: chapter.icon?.id ?? null,
+      iconRef: chapter.icon?.resolution?.iconRef ?? null,
+      displayName: chapter.icon?.resolution?.displayName ?? null,
       fields: [
         chapter.id,
         chapter.filename,
@@ -74,6 +77,9 @@ export function createSearchIndex(model) {
       questId: quest.id,
       label: textValueText(quest.title) || quest.id,
       match: "",
+      itemId: quest.icon?.id ?? null,
+      iconRef: quest.icon?.resolution?.iconRef ?? null,
+      displayName: quest.icon?.resolution?.displayName ?? null,
       fields: [
         quest.id,
         textValueText(quest.title),
@@ -101,6 +107,9 @@ export function createSearchIndex(model) {
         questId: quest.id,
         label,
         match: task.type,
+        itemId: task.item?.id ?? null,
+        iconRef: (task.icon ?? task.item)?.resolution?.iconRef ?? null,
+        displayName: task.item?.resolution?.displayName ?? task.displayName ?? null,
         fields: [
           task.id,
           task.type,
@@ -125,6 +134,9 @@ export function createSearchIndex(model) {
         questId: quest.id,
         label,
         match: reward.type,
+        itemId: reward.item?.id ?? null,
+        iconRef: (reward.icon ?? reward.item)?.resolution?.iconRef ?? null,
+        displayName: reward.item?.resolution?.displayName ?? reward.displayName ?? null,
         fields: [
           reward.id,
           reward.type,
@@ -151,6 +163,9 @@ export function createSearchIndex(model) {
       questId: null,
       label: textValueText(rewardTable.title) || rewardTable.id,
       match: "",
+      itemId: null,
+      iconRef: null,
+      displayName: null,
       fields: [
         rewardTable.id,
         rewardTable.numericId,
@@ -167,11 +182,14 @@ export function createSearchIndex(model) {
       addEntry(entries, {
         kind: "translation",
         id: entry.key,
-        chapterId: null,
-        questId: null,
-        label: entry.key,
-        match: entry.value,
-        fields: [entry.key, entry.value, translation.locale]
+      chapterId: null,
+      questId: null,
+      label: entry.key,
+      match: entry.value,
+      itemId: null,
+      iconRef: null,
+      displayName: null,
+      fields: [entry.key, entry.value, translation.locale]
       });
     }
   }
@@ -218,6 +236,9 @@ export function searchViewer(index, rawQuery, limit = 200) {
       chapterId: entry.chapterId,
       questId: entry.questId,
       label: entry.label,
-      match: matchingSnippet(entry, query)
+      match: matchingSnippet(entry, query),
+      itemId: entry.itemId ?? null,
+      iconRef: entry.iconRef ?? null,
+      displayName: entry.displayName ?? null
     }));
 }

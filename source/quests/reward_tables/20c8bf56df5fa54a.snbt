@@ -1,0 +1,164 @@
+{
+	id: "20C8BF56DF5FA54A"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			count: 4
+			id: "6D65D3A38E35DBF2"
+			item: {
+				count: 1
+				id: "oritech:plastic_sheet"
+			}
+		}
+		{
+			count: 8
+			id: "6F436DF639FC1F9B"
+			item: {
+				count: 1
+				id: "oritech:adamant_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "44C8E5DD0C0885E1"
+			item: {
+				count: 1
+				id: "oritech:carbon_fibre_strands"
+			}
+		}
+		{
+			count: 8
+			id: "61C0694CDD112E5B"
+			item: {
+				count: 1
+				id: "oritech:electrum_ingot"
+			}
+		}
+		{
+			count: 8
+			id: "245144083FB0CDE0"
+			item: {
+				count: 1
+				id: "oritech:fluxite"
+			}
+		}
+		{
+			count: 2
+			id: "51A9B7EC546CA413"
+			item: {
+				count: 1
+				id: "oritech:platinum_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "7F3BF1843CA80604"
+			item: {
+				count: 1
+				id: "oritech:flux_gate"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 4
+			id: "7B8FEF00B6B1D939"
+			item: {
+				count: 1
+				id: "oritech:still_oil_bucket"
+			}
+		}
+		{
+			count: 2
+			id: "65F5B05227CFD857"
+			item: {
+				count: 1
+				id: "oritech:still_sulfuric_acid_bucket"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "4B81C10F6295278D"
+			item: {
+				count: 1
+				id: "oritech:nickel_ingot"
+			}
+		}
+		{
+			id: "1A8EF888AA4B5B5A"
+			item: {
+				count: 1
+				id: "oritech:duratium_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "342CE5DB98732F57"
+			item: {
+				count: 1
+				id: "oritech:processing_unit"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "514FBB7281521263"
+			item: {
+				count: 1
+				id: "oritech:enderic_compound"
+			}
+		}
+		{
+			id: "158006C192E6F229"
+			item: {
+				count: 1
+				id: "oritech:dubios_container"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "7991FEB7CA068993"
+			item: {
+				count: 1
+				id: "oritech:overcharged_crystal"
+			}
+			weight: 0.125f
+		}
+		{
+			count: 8
+			id: "0431AB8FD6052F93"
+			item: {
+				count: 1
+				id: "oritech:energite_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "70B8F586570192C2"
+			item: {
+				count: 1
+				id: "oritech:resource_node_nickel"
+			}
+			weight: 0.0625f
+		}
+		{
+			id: "108B635CD2196B95"
+			item: {
+				count: 1
+				id: "oritech:resource_node_platinum"
+			}
+			weight: 0.0625f
+		}
+		{
+			id: "598EBDD4E0B45353"
+			item: {
+				count: 1
+				id: "oritech:superconductor"
+			}
+			weight: 0.125f
+		}
+	]
+}

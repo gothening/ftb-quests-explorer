@@ -779,6 +779,14 @@ input[type="text"] {
   color: #55ffff;
 }
 
+.ftbq-tooltip .tooltip-diagnostics {
+  margin-top: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 3px;
+  color: #d8c28c;
+  font-size: 10px;
+}
+
 .ftbq-dialog {
   width: min(760px, 92vw);
   max-height: 84vh;
@@ -836,6 +844,18 @@ input[type="text"] {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   padding: 3px 2px;
   cursor: pointer;
+}
+
+.ftbq-list-entry.has-icon {
+  grid-template-columns: 20px 72px minmax(0, 1fr);
+  align-items: center;
+}
+
+.ftbq-list-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  image-rendering: pixelated;
 }
 
 .ftbq-list-entry:hover {

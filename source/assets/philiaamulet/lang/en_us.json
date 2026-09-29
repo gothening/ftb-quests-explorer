@@ -1,0 +1,10 @@
+{
+  "item.philiaamulet.philia_amulet": "PhiLia Amulet",
+  "item_group.philiaamulet": "PhiLia Amulet",
+  "item.philiaamulet.philia_amulet.tooltip": "Prevents damage to specific creatures like villagers and iron golems when worn ♪",
+  "item.philiaamulet.philia_amulet.tooltip2": "Right-click an entity to add it to the whitelist; sneak and right-click to remove it from the whitelist.",
+  "item.philiaamulet.message.added": "Added",
+  "item.philiaamulet.message.removed": "Removed",
+  "item.philiaamulet.philia_amulet.whitelist_title": "Whitelisted Entities:",
+  "item.philiaamulet.philia_amulet.hold_shift": "Hold Shift for more info"
+}

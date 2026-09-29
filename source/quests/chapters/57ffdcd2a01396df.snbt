@@ -1,0 +1,1353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "57ffdcd2a01396df"
+	group: "512B54981EE0D939"
+	hide_quest_until_deps_complete: true
+	id: "57FFDCD2A01396DF"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "67911E9D59BABBB9"
+			tasks: [{
+				id: "2C02C21636DD20EB"
+				item: { count: 1, id: "chicken_roost:chicken_stick" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2DE26FED2AAE4108"
+			tasks: [{
+				id: "7B64CD9579DC6326"
+				item: { count: 1, id: "chicken_roost:c_oakwood" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1BD138EC7926C413"
+			tasks: [{
+				id: "04967EE128499EE3"
+				item: { count: 1, id: "chicken_roost:c_ink" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "6C392CC0F2308887"
+			tasks: [{
+				id: "100C76BAACA5FDE0"
+				item: { count: 1, id: "chicken_roost:c_red" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "54A05B290D501ED9"
+			tasks: [{
+				id: "64CEAC28503F86ED"
+				item: { count: 1, id: "chicken_roost:c_yellow" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3467ACD1977788C2"
+			tasks: [{
+				id: "2E57718378D89A11"
+				item: { count: 1, id: "chicken_roost:c_white" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3DA44C420EBF55BF"
+			tasks: [{
+				id: "0CEC4B5471342C26"
+				item: { count: 1, id: "chicken_roost:c_green" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "6830FF2D935937F8"
+			tasks: [{
+				id: "7DB4FBA6961D754A"
+				item: { count: 1, id: "chicken_roost:c_blue" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "7BEF893F07504200"
+			tasks: [{
+				id: "34D6423A5FC280C6"
+				item: { count: 1, id: "chicken_roost:c_orange" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "27E0C2BD38D66A01"
+			tasks: [{
+				id: "157209FBCF338CF8"
+				item: { count: 1, id: "chicken_roost:c_light_blue" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3115CD2DBC368C4A"
+			tasks: [{
+				id: "33FC5E1C98391F5B"
+				item: { count: 1, id: "chicken_roost:c_lime" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5217919079412EAB"
+			tasks: [{
+				id: "0D2844EFEB766A52"
+				item: { count: 1, id: "chicken_roost:c_pink" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "6362F4E3DAB12D30"
+			tasks: [{
+				id: "16C5A6A297EB85C0"
+				item: { count: 1, id: "chicken_roost:c_gray" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "46CBC42B0910C59F"
+			tasks: [{
+				id: "48632E4B0A07A793"
+				item: { count: 1, id: "chicken_roost:c_cyan" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2407E7AF6EB7EB25"
+			tasks: [{
+				id: "4E9991B9BE9D2A98"
+				item: { count: 1, id: "chicken_roost:c_purple" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1DCA1BB8124CD0D3"
+			tasks: [{
+				id: "19FCBD516353113A"
+				item: { count: 1, id: "chicken_roost:c_brown" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5C2FB421BA457EEE"
+			tasks: [{
+				id: "085EC70878CD6BF7"
+				item: { count: 1, id: "chicken_roost:c_light_gray" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "31B8BA4FCA65CBCF"
+			tasks: [{
+				id: "461EE7A3AB46B463"
+				item: { count: 1, id: "chicken_roost:c_magenta" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2DE26FED2AAE4108"
+				"1BD138EC7926C413"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1695389388D1A8C2"
+			tasks: [{
+				id: "09CAE5540F0A94C2"
+				item: { count: 1, id: "chicken_roost:c_string" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "38776E231383D1BD"
+			tasks: [{
+				id: "5C35BB95AD8A7906"
+				item: { count: 1, id: "chicken_roost:c_sand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "18D43699279C7403"
+			tasks: [{
+				id: "580B732277D8592C"
+				item: { count: 1, id: "chicken_roost:c_bone" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "7F19A1A1402F9378"
+			tasks: [{
+				id: "2315A3E55C382070"
+				item: { count: 1, id: "chicken_roost:c_flint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3C6A1A663F756686"
+			tasks: [{
+				id: "77C04DC1CB5F57D3"
+				item: { count: 1, id: "chicken_roost:c_quartz" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4EE1FB56C0A855AF"
+				"777A190701F79723"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "7C095805A801A755"
+			tasks: [{
+				id: "346C125E51B8A04E"
+				item: { count: 1, id: "chicken_roost:c_water" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"38776E231383D1BD"
+				"7F19A1A1402F9378"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "4EE1FB56C0A855AF"
+			tasks: [{
+				id: "6D0D0204C120365B"
+				item: { count: 1, id: "chicken_roost:c_tnt" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"487DFF2640696400"
+				"2DE26FED2AAE4108"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "777A190701F79723"
+			tasks: [{
+				id: "24F4E9AB6FC923FB"
+				item: { count: 1, id: "chicken_roost:c_snow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"38776E231383D1BD"
+				"6C392CC0F2308887"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "122BD04F9D2C166C"
+			tasks: [{
+				id: "02721C76DE26F458"
+				item: { count: 1, id: "chicken_roost:c_redstone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"122BD04F9D2C166C"
+				"6830FF2D935937F8"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "487DFF2640696400"
+			tasks: [{
+				id: "26494858F745D391"
+				item: { count: 1, id: "chicken_roost:c_lapis" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3C6A1A663F756686"
+				"54A05B290D501ED9"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5F4D66652066EE92"
+			tasks: [{
+				id: "42DA75B56867A053"
+				item: { count: 1, id: "chicken_roost:c_glowstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2A69E2699AB69B53"
+				"3C6A1A663F756686"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "73BAA3EE29FCAE72"
+			tasks: [{
+				id: "72DA3D56A5C4689D"
+				item: { count: 1, id: "chicken_roost:c_lava" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2DE26FED2AAE4108"
+				"7F19A1A1402F9378"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2A69E2699AB69B53"
+			tasks: [{
+				id: "460B03EF0B442932"
+				item: { count: 1, id: "chicken_roost:c_coal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1695389388D1A8C2"
+				"1DCA1BB8124CD0D3"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2E8CEF01AA7BD297"
+			tasks: [{
+				id: "4F2BF3A1D58F2FD9"
+				item: { count: 1, id: "chicken_roost:c_leather" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"18D43699279C7403"
+				"7F19A1A1402F9378"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "326281D25C32F1B4"
+			tasks: [{
+				id: "551D6438FE015453"
+				item: { count: 1, id: "chicken_roost:c_iron" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"326281D25C32F1B4"
+				"54A05B290D501ED9"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "30F644665EB20BFB"
+			tasks: [{
+				id: "3A47853AD60F2EBF"
+				item: { count: 1, id: "chicken_roost:c_gold" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"777A190701F79723"
+				"38776E231383D1BD"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "065760E41A8604C1"
+			tasks: [{
+				id: "46171A6AB36A6700"
+				item: { count: 1, id: "chicken_roost:c_clay" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"18D43699279C7403"
+				"3DA44C420EBF55BF"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "0017E6E5A6447747"
+			tasks: [{
+				id: "5700666F5C425E85"
+				item: { count: 1, id: "chicken_roost:c_nickel" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"18D43699279C7403"
+				"326281D25C32F1B4"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "135015CE3A44EEAF"
+			tasks: [{
+				id: "4F15E6C662F970E3"
+				item: { count: 1, id: "chicken_roost:c_silver" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"18D43699279C7403"
+				"065760E41A8604C1"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "0A6E020B75555D93"
+			tasks: [{
+				id: "7187A95D11B180DC"
+				item: { count: 1, id: "chicken_roost:c_zinc" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"18D43699279C7403"
+				"065760E41A8604C1"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "28331871A3AAB7E3"
+			tasks: [{
+				id: "176322E38F767F3B"
+				item: { count: 1, id: "chicken_roost:c_tin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"18D43699279C7403"
+				"723F69DE4EAB08F4"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2BEE8AB115D4218E"
+			tasks: [{
+				id: "11212651AE517990"
+				item: { count: 1, id: "chicken_roost:c_ghasttear" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"30F644665EB20BFB"
+				"73BAA3EE29FCAE72"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "723F69DE4EAB08F4"
+			tasks: [{
+				id: "3D479C6B331813C1"
+				item: { count: 1, id: "chicken_roost:c_blazerod" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3335A8B554B4ECD3"
+			tasks: [{
+				id: "358208BE66168441"
+				item: { count: 1, id: "chicken_roost:c_melon" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "124E10F3199B9DF8"
+			tasks: [{
+				id: "53925155B783AE79"
+				item: { count: 1, id: "chicken_roost:c_sugar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "4C252756088BC488"
+			tasks: [{
+				id: "321D6BF814B3D66E"
+				item: { count: 1, id: "chicken_roost:c_netherrack" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "58ED3C9077906746"
+			tasks: [{
+				id: "40A4CD2629F70599"
+				item: { count: 1, id: "chicken_roost:c_rotten" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"122BD04F9D2C166C"
+				"3C6A1A663F756686"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "375941D096FE7EA4"
+			tasks: [{
+				id: "5C309C637FEC0B20"
+				item: { count: 1, id: "chicken_roost:c_glass" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"54A05B290D501ED9"
+				"1DCA1BB8124CD0D3"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2FB2B6FB7308D638"
+			tasks: [{
+				id: "71CC59E169185B51"
+				item: { count: 1, id: "chicken_roost:c_copper" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"326281D25C32F1B4"
+				"46CBC42B0910C59F"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5817FD52AF33F0B6"
+			tasks: [{
+				id: "410C124C8D7F4F77"
+				item: { count: 1, id: "chicken_roost:c_lead" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5F4D66652066EE92"
+				"1DCA1BB8124CD0D3"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "36BC37CADD8291D7"
+			tasks: [{
+				id: "64AA3B7D1DD3880C"
+				item: { count: 1, id: "chicken_roost:c_netherwart" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"326281D25C32F1B4"
+				"7F19A1A1402F9378"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "4FE5F79087B890B7"
+			tasks: [{
+				id: "3168525EAD2E999F"
+				item: { count: 1, id: "chicken_roost:c_aluminium" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"326281D25C32F1B4"
+				"3C6A1A663F756686"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "50D86C7DDAEC29BB"
+			tasks: [{
+				id: "2FEB96EE0F2C4A56"
+				item: { count: 1, id: "chicken_roost:c_osmium" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2A69E2699AB69B53"
+				"326281D25C32F1B4"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5FA963BC0897F666"
+			tasks: [{
+				id: "30F5A2158E9F6666"
+				item: { count: 1, id: "chicken_roost:c_steel" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"375941D096FE7EA4"
+				"30F644665EB20BFB"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "42E5E6CD3E4E416D"
+			tasks: [{
+				id: "350D098334ADF3A9"
+				item: { count: 1, id: "chicken_roost:c_diamond" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"065760E41A8604C1"
+				"38776E231383D1BD"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "19BBD0E4E234151F"
+			tasks: [{
+				id: "436B017967F964BF"
+				item: { count: 1, id: "chicken_roost:c_silicon" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"065760E41A8604C1"
+				"3DA44C420EBF55BF"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "02EE8BB08A16BC71"
+			tasks: [{
+				id: "275707F905B6C3A8"
+				item: { count: 1, id: "chicken_roost:c_slime" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7C095805A801A755"
+				"73BAA3EE29FCAE72"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5B58783475291A0A"
+			tasks: [{
+				id: "095A6E2F8FFC00A2"
+				item: { count: 1, id: "chicken_roost:c_obsidian" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0017E6E5A6447747"
+				"135015CE3A44EEAF"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5B3D4660001E0138"
+			tasks: [{
+				id: "7039D39919520823"
+				item: { count: 1, id: "chicken_roost:c_platinum" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"487DFF2640696400"
+				"7C095805A801A755"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "23AA40DD9E5444B4"
+			tasks: [{
+				id: "6AD827FDF77CF18B"
+				item: { count: 1, id: "chicken_roost:c_prismarineshard" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7C095805A801A755"
+				"73BAA3EE29FCAE72"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2A2F2617DC33F919"
+			tasks: [{
+				id: "439ADC08A9CEC32F"
+				item: { count: 1, id: "chicken_roost:c_salt" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"02EE8BB08A16BC71"
+				"723F69DE4EAB08F4"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3FA636EE4628FE1B"
+			tasks: [{
+				id: "4FB07446DAEBCE8C"
+				item: { count: 1, id: "chicken_roost:c_magmacream" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"42E5E6CD3E4E416D"
+				"3DA44C420EBF55BF"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "30878979083C909D"
+			tasks: [{
+				id: "2A853186E52E3FE2"
+				item: { count: 1, id: "chicken_roost:c_emerald" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2FB2B6FB7308D638"
+				"28331871A3AAB7E3"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "197F1ADDFD7B24C6"
+			tasks: [{
+				id: "2777BE359911EB4F"
+				item: { count: 1, id: "chicken_roost:c_bronze" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "656D017F942E81B9"
+			tasks: [{
+				id: "1179FCDDB51457E3"
+				item: { count: 1, id: "chicken_roost:c_endstone" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"36BC37CADD8291D7"
+				"42E5E6CD3E4E416D"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "432BD36CFC85B7FC"
+			tasks: [{
+				id: "29B9DE090F0C3E3E"
+				item: { count: 1, id: "chicken_roost:c_enderpearl" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1CD997759306D658"
+			tasks: [{
+				id: "527ABD1D70B5352C"
+				item: { count: 1, id: "chicken_roost:c_chorusfruit" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"30F644665EB20BFB"
+				"5F4D66652066EE92"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "74AF210C3E0CB008"
+			tasks: [{
+				id: "43587989989E773F"
+				item: { count: 1, id: "chicken_roost:c_energeticalloy" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5B3D4660001E0138"
+				"432BD36CFC85B7FC"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "3DA3781FF3833C39"
+			tasks: [{
+				id: "23386EFB4D4104AB"
+				item: { count: 1, id: "chicken_roost:c_enderium" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"0A6E020B75555D93"
+				"2FB2B6FB7308D638"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "77167BF0EF7A84AF"
+			tasks: [{
+				id: "19AAB1815E3953AD"
+				item: { count: 1, id: "chicken_roost:c_brass" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "12D9C48A0B3C3D7C"
+			tasks: [{
+				id: "7D2FBF2F414F15A4"
+				item: { count: 1, id: "chicken_roost:c_certusquartz" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"122BD04F9D2C166C"
+				"432BD36CFC85B7FC"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "51382DEF814BCF2F"
+			tasks: [{
+				id: "6AA731482F4A00E4"
+				item: { count: 1, id: "chicken_roost:c_uranium" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7C095805A801A755"
+				"30878979083C909D"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "374DE6B7E4E78A0E"
+			tasks: [{
+				id: "1A5CEBECE699A008"
+				item: { count: 1, id: "chicken_roost:c_prismarinecrystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"74AF210C3E0CB008"
+				"432BD36CFC85B7FC"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "344AE40CEB9A2354"
+			tasks: [{
+				id: "28CB7BEA1A3AB64F"
+				item: { count: 1, id: "chicken_roost:c_vibrantalloy" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1420C182E2505341"
+			tasks: [{
+				id: "2A9F9DB1FE093FA8"
+				item: { count: 1, id: "chicken_roost:c_allthemodium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2BEE8AB115D4218E"
+				"2407E7AF6EB7EB25"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "4BE1D442964CF6FD"
+			tasks: [{
+				id: "00859068591624CD"
+				item: { count: 1, id: "chicken_roost:c_amethystshard" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"30F644665EB20BFB"
+				"0546C804B88780FE"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "2B6364776C004F86"
+			tasks: [{
+				id: "75028B4B477B56F8"
+				item: { count: 1, id: "chicken_roost:c_netherite" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"36BC37CADD8291D7"
+				"2BEE8AB115D4218E"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "0546C804B88780FE"
+			tasks: [{
+				id: "05A96F7F90B3E384"
+				item: { count: 1, id: "chicken_roost:c_cobald" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B6364776C004F86"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "6E52D67264A8DA45"
+			tasks: [{
+				id: "62AA438B0AE20804"
+				item: { count: 1, id: "chicken_roost:c_netherstar" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5531E2FF0CEA64AA"
+			tasks: [{
+				id: "1474552F033D0CC4"
+				item: { count: 1, id: "chicken_roost:c_vibranium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "09A22975445BB6D8"
+			tasks: [{
+				id: "00A120A6F35E25AF"
+				item: { count: 1, id: "chicken_roost:c_draconium" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "634D3635242AA2C2"
+			tasks: [{
+				id: "0E70A07EDF3363D3"
+				item: { count: 1, id: "chicken_roost:c_titanium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "1C5571999EABD09A"
+			tasks: [{
+				id: "5D3BB008E6612C5C"
+				item: { count: 1, id: "chicken_roost:c_unobtainium" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "4B6E2524322DBB49"
+			tasks: [{
+				id: "2AF93C644F4CA7A2"
+				item: { count: 1, id: "chicken_roost:c_awakeneddraconium" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "5790CB3A7DE2E4E7"
+			tasks: [{
+				id: "2D8746A3E3BB5C46"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_1" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5790CB3A7DE2E4E7"]
+			entity_vis_size: 1.0f
+			id: "3F670E65ABF78CDD"
+			tasks: [{
+				id: "3D9D26ECF47134F4"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_2" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F670E65ABF78CDD"]
+			entity_vis_size: 1.0f
+			id: "18B12260F07FD592"
+			tasks: [{
+				id: "57BB603215D1B594"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_3" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18B12260F07FD592"]
+			entity_vis_size: 1.0f
+			id: "58109B687CC970DB"
+			tasks: [{
+				id: "267F7A3539275EA0"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_4" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58109B687CC970DB"]
+			entity_vis_size: 1.0f
+			id: "3B1E0BBF46825B2B"
+			tasks: [{
+				id: "07BE48AC227A6D01"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_5" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B1E0BBF46825B2B"]
+			entity_vis_size: 1.0f
+			id: "1C7224DC042DCBFB"
+			tasks: [{
+				id: "7E5476D416E081D3"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_6" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1C7224DC042DCBFB"]
+			entity_vis_size: 1.0f
+			id: "4AC412BEA324D333"
+			tasks: [{
+				id: "4D9D3D214B30C88E"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_7" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4AC412BEA324D333"]
+			entity_vis_size: 1.0f
+			id: "4264DCA923668E12"
+			tasks: [{
+				id: "0EB78F7CC17A7EF5"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_8" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4264DCA923668E12"]
+			entity_vis_size: 1.0f
+			id: "7FA6698FA7E0C59E"
+			tasks: [{
+				id: "71365E6897B8B6A5"
+				item: { count: 1, id: "chicken_roost:chicken_food_tier_9" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"122BD04F9D2C166C"
+				"326281D25C32F1B4"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "375FBE7E3B2CB79A"
+			tasks: [{
+				id: "379BC14159CAF492"
+				item: { count: 1, id: "chicken_roost:c_conductiveiron" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5AEB457077347F43"
+			tasks: [{
+				id: "1A74BF920541FEB0"
+				item: { count: 1, id: "chicken_roost:c_soularium" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+	]
+}

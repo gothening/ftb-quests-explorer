@@ -89,16 +89,29 @@ export function itemIconUrl(itemId, options = {}) {
 }
 
 export function taskIconRef(task) {
+  const icon = task?.icon ?? task?.item;
+  if (icon?.id && icon.resolution?.iconRef) {
+    return { kind: "image", ref: icon.resolution.iconRef };
+  }
+  if (task?.icon?.id) return { kind: "item", ref: task.icon.id };
   if (task?.item?.id) return { kind: "item", ref: task.item.id };
   return { kind: "image", ref: TASK_FALLBACKS[task?.type] ?? "ftbquests:textures/gui/info.png" };
 }
 
 export function rewardIconRef(reward) {
+  const icon = reward?.icon ?? reward?.item;
+  if (icon?.id && icon.resolution?.iconRef) {
+    return { kind: "image", ref: icon.resolution.iconRef };
+  }
+  if (reward?.icon?.id) return { kind: "item", ref: reward.icon.id };
   if (reward?.item?.id) return { kind: "item", ref: reward.item.id };
   return { kind: "image", ref: REWARD_FALLBACKS[reward?.type] ?? "ftbquests:textures/gui/chest.png" };
 }
 
 export function questIconRef(quest) {
+  if (quest?.icon?.id && quest.icon.resolution?.iconRef) {
+    return { kind: "image", ref: quest.icon.resolution.iconRef };
+  }
   if (quest?.icon?.id) return { kind: "item", ref: quest.icon.id };
   const taskItem = quest?.tasks?.find((task) => task.item?.id);
   if (taskItem) return { kind: "item", ref: taskItem.item.id };
@@ -106,6 +119,9 @@ export function questIconRef(quest) {
 }
 
 export function chapterIconRef(chapter) {
+  if (chapter?.icon?.id && chapter.icon.resolution?.iconRef) {
+    return { kind: "image", ref: chapter.icon.resolution.iconRef };
+  }
   if (chapter?.icon?.id) return { kind: "item", ref: chapter.icon.id };
   return { kind: "image", ref: "ftbquests:textures/item/book.png" };
 }

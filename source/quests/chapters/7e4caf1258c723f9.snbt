@@ -1,0 +1,1255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7e4caf1258c723f9"
+	group: "387494013EF92831"
+	icon: {
+		id: "twilightforest:lich_trophy"
+	}
+	id: "7E4CAF1258C723F9"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AE51D1D68BA7A85"]
+			entity_vis_size: 1.0f
+			id: "5CD153FB51DDA626"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "0BACD60709D0CB0F"
+				type: "dimension"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CD153FB51DDA626"]
+			entity_vis_size: 1.0f
+			id: "45D054683CBCEC73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40210F045B76A9CE"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5652F8C3E3E9D4DD"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45D054683CBCEC73"]
+			entity_vis_size: 1.0f
+			id: "2AF8925C9151EF83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1035246092D6725C"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "10417BD0CA31192F"
+				structure: "twilightforest:lich_tower"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF8925C9151EF83"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "504F975AE6F9E178"
+			rewards: [
+				{
+					count: 128
+					id: "5BF9AB6171682FFC"
+					item: {
+						count: 1
+						id: "twilightforest:red_thread"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C9B3ACC9AFFFA61"
+					table_id: 1038066006360480407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3A3F835E7B8A6B9F"
+				structure: "twilightforest:labyrinth"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["504F975AE6F9E178"]
+			entity_vis_size: 1.0f
+			id: "1ED7A9A05846632E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62721D01488A8ABD"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E7491E8FB47AD14"
+				structure: "twilightforest:hydra_lair"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AF8925C9151EF83"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "782BECB8F81B72B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B092A1F37F3681D"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C5E1356909C5F4B"
+				structure: "twilightforest:knight_stronghold"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["782BECB8F81B72B2"]
+			entity_vis_size: 1.0f
+			id: "545EB96CDAA87F7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ECE37FB3EB0B84C"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6BC33954FA87AC8D"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF8925C9151EF83"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "5721AEE086A7D905"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A3B9E7CD8547F6D"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6B573EC33D833132"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5721AEE086A7D905"]
+			entity_vis_size: 1.0f
+			id: "52F7AD0C0EDA3D91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "437C57D40E39BD77"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4625CAA8F1AB563C"
+				structure: "twilightforest:aurora_palace"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45D054683CBCEC73"]
+			entity_vis_size: 1.0f
+			id: "206EFB413D836500"
+			rewards: [
+				{
+					id: "7CF2F1C3A915A871"
+					item: {
+						count: 1
+						id: "kaleidoscope_twilight:salt_baked_naga"
+					}
+					type: "item"
+				}
+				{
+					id: "1E09DBB69D0B366D"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72EFF91080DF94F2"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AF8925C9151EF83"]
+			entity_vis_size: 1.0f
+			id: "25C7E6C4C954F758"
+			rewards: [
+				{
+					id: "59E823ADB513FFC5"
+					item: {
+						count: 1
+						id: "kaleidoscope_twilight:witchcraft_croissant"
+					}
+					type: "item"
+				}
+				{
+					id: "406EC082D70295A4"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "351F6DAF9D31EB77"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1ED7A9A05846632E"]
+			entity_vis_size: 1.0f
+			id: "6FFB8EF8012265D0"
+			rewards: [
+				{
+					id: "678ED68B021C490C"
+					item: {
+						count: 1
+						id: "kaleidoscope_twilight:hydra_bolognese"
+					}
+					type: "item"
+				}
+				{
+					id: "65BA728D83BE1C67"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5807C8BFB1022379"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["504F975AE6F9E178"]
+			entity_vis_size: 1.0f
+			id: "64BAB04C54CBB706"
+			rewards: [
+				{
+					id: "63B87081B97809BD"
+					item: {
+						count: 1
+						id: "kaleidoscope_twilight:minotaur_salad_pasta"
+					}
+					type: "item"
+				}
+				{
+					id: "1DB9418A4AFEB1DE"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68930EB86D438B7B"
+				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["782BECB8F81B72B2"]
+			entity_vis_size: 1.0f
+			id: "65CFA25D50515B3D"
+			rewards: [
+				{
+					id: "47475F05BA551C08"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:pan_seared_knight_steak"
+					}
+					type: "item"
+				}
+				{
+					id: "6EFE606F79128559"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D78DC76D8A8240E"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5721AEE086A7D905"]
+			entity_vis_size: 1.0f
+			id: "55F8602B96ED62A9"
+			rewards: [
+				{
+					id: "6D15FC0EABEC5B9C"
+					item: {
+						count: 1
+						id: "flavor_immersed_daily:sprite"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE48089FF6770F1"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19C72F224881B6CB"
+				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["545EB96CDAA87F7E"]
+			entity_vis_size: 1.0f
+			id: "74BB53AB078E8AC3"
+			rewards: [
+				{
+					id: "059F79CF7F05106A"
+					item: {
+						count: 1
+						id: "kaleidoscope_twilight:twilight_ghost_pasta"
+					}
+					type: "item"
+				}
+				{
+					id: "60ED99E3D4973A33"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1345051A9BCE717F"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["52F7AD0C0EDA3D91"]
+			entity_vis_size: 1.0f
+			id: "1FED1A140914F0EE"
+			rewards: [
+				{
+					id: "309F6BE5806D3DFA"
+					item: {
+						count: 1
+						id: "kaleidoscope_twilight:ice_crystal_mousse"
+					}
+					type: "item"
+				}
+				{
+					id: "39C3FC8F7349D802"
+					item: {
+						count: 1
+						id: "trailblazer:adventurers_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50F8EA760FFD8452"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6FFB8EF8012265D0"
+				"1FED1A140914F0EE"
+				"74BB53AB078E8AC3"
+			]
+			entity_vis_size: 1.0f
+			id: "0DFCE38C783B8266"
+			rewards: [{
+				id: "35FB820F0361471E"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "twilightforest:highlands"
+				id: "7D4681A8D0228777"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2BABA15BDA79807F"]
+			entity_vis_size: 1.0f
+			id: "1168D6D7E80EB50F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BE6AE21028BDD9F"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "05308477AA349730"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1168D6D7E80EB50F"
+				"7FEEDA36CB259B09"
+			]
+			entity_vis_size: 1.0f
+			id: "0A35255F1D2ABE78"
+			rewards: [{
+				id: "01F9E6A6EB4228A3"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "twilightforest:thornlands"
+				id: "7DF91579ED7FD968"
+				type: "biome"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A35255F1D2ABE78"]
+			entity_vis_size: 1.0f
+			id: "754765A0F030757E"
+			rewards: [
+				{
+					id: "7426BA961BA82675"
+					item: {
+						count: 1
+						id: "projecte:watch_of_flowing_time"
+					}
+					type: "item"
+				}
+				{
+					id: "6EF35757FC917B13"
+					item: {
+						count: 1
+						id: "minecraft:beacon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67EB036FDE694C4C"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DFCE38C783B8266"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "7FEEDA36CB259B09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3718E06602D208A4"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3940FEDAF320A658"
+				structure: "twilightforest:troll_cave"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FEEDA36CB259B09"]
+			entity_vis_size: 1.0f
+			id: "77120796CFF558F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59BF8FEAD2B69E71"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "114E98A9D1ED01F8"
+				item: { count: 1, id: "twilightforest:magic_beans" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77120796CFF558F3"]
+			entity_vis_size: 1.0f
+			id: "52D6FE5D51CB4787"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D59839CE93B125"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02D141411C01498A"
+				structure: "twilightforest:giant_house"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["52D6FE5D51CB4787"]
+			entity_vis_size: 1.0f
+			id: "2BABA15BDA79807F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11846F46B2FBFCF7"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E8DFCE412D91063"
+				item: { count: 1, id: "twilightforest:giant_pickaxe" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["504F975AE6F9E178"]
+			entity_vis_size: 1.0f
+			id: "3182CB57006A5EFB"
+			rewards: [
+				{
+					count: 6
+					id: "563E3797E2F74019"
+					item: {
+						count: 1
+						id: "twilightforest:meef_stroganoff"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "659E24759EF526E3"
+					table_id: 1038066006360480407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5E821EE819FEEC80"
+				item: { count: 1, id: "twilightforest:meef_stroganoff" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["504F975AE6F9E178"]
+			entity_vis_size: 1.0f
+			id: "597DB1AAE84BA0B9"
+			rewards: [
+				{
+					id: "51CFF55DD0DC88BB"
+					item: {
+						count: 1
+						id: "twilightforest:maze_map"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F75A8AF8DA01C25"
+					table_id: 1038066006360480407L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2AA2A5388284238C"
+				item: { count: 1, id: "twilightforest:maze_map" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504F975AE6F9E178"]
+			entity_vis_size: 1.0f
+			id: "01BF317DD3169148"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30BE156ED8FA1B83"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08343F755A3E70BD"
+				item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 4, "minecraft:fortune": 2, "minecraft:unbreaking": 3 } } }, count: 1, id: "twilightforest:mazebreaker_pickaxe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6FFB8EF8012265D0"]
+			entity_vis_size: 1.0f
+			id: "29E092EE91DFD255"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36D9A477E9445AF1"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A4B234933497ADA"
+				item: { count: 1, id: "twilightforest:hydra_chop" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["782BECB8F81B72B2"]
+			entity_vis_size: 1.0f
+			id: "4D1FD60D43B2D5FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C0BC9FF23177AA"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "437568C744B0F78C"
+				item: { count: 1, id: "twilightforest:knightmetal_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"45D054683CBCEC73"
+				"206EFB413D836500"
+			]
+			entity_vis_size: 1.0f
+			id: "2CE857CE27F265C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02B8DD4ACF2C2A67"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52880BBCDFD96037"
+				item: { count: 1, id: "twilightforest:naga_scale" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25C7E6C4C954F758"]
+			entity_vis_size: 1.0f
+			id: "6DFFEAE326787E90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CBAFFA751A3903C"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "00DDF09BC7A961E4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(twilightforest:scepters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["545EB96CDAA87F7E"]
+			entity_vis_size: 1.0f
+			id: "5D8540A1BDA2D153"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "579FCE715E073B79"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "41B77E73D1F2C05A"
+				item: { count: 1, id: "twilightforest:carminite" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FFB8EF8012265D0"]
+			entity_vis_size: 1.0f
+			id: "12678F75B9B2D16A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FBDC2943957AA1D"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "461D30F37725E2A5"
+				item: { count: 1, id: "twilightforest:fiery_blood" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["545EB96CDAA87F7E"]
+			entity_vis_size: 1.0f
+			id: "24EBEA8B746698E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E5E9CE007F86A89"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1723AFBB559FF2F6"
+				item: { count: 1, id: "twilightforest:fiery_tears" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5721AEE086A7D905"]
+			entity_vis_size: 1.0f
+			id: "052D2C24FDB25363"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "613323F6301DC931"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "154DE31925A29BFF"
+				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52F7AD0C0EDA3D91"]
+			entity_vis_size: 1.0f
+			id: "0187B5823C6448C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "050DF34D7F2D9F7C"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C3B0C8FED577F4F"
+				item: { count: 1, id: "twilightforest:aurora_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FED1A140914F0EE"]
+			entity_vis_size: 1.0f
+			id: "10125F225D443243"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FB46E19AD7A0154"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66D4BCD039447066"
+				item: { count: 1, id: "kaleidoscope_twilight:four_leaf_ice_crystal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52D6FE5D51CB4787"]
+			entity_vis_size: 1.0f
+			id: "01CEDE90BEB65288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DEECC798E5C5D34"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D3AFE73BE973654"
+				item: { count: 1, id: "twilightforest:fluffy_cloud" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0A35255F1D2ABE78"]
+			entity_vis_size: 1.0f
+			id: "74D489611AF7FAA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B680809668BE247"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AB20C9D8F1683B3"
+				item: { count: 1, id: "twilightforest:thorn_rose" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2BABA15BDA79807F"]
+			entity_vis_size: 1.0f
+			id: "5CBE016DAD05E01C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C721076C8EC83CD"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "237DE8037731A015"
+				item: { count: 1, id: "twilightforest:giant_cobblestone" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DFCE38C783B8266"]
+			entity_vis_size: 1.0f
+			id: "1A874E31E8F633DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7365308470058DF9"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "766D6E21F3401FCC"
+				item: { count: 1, id: "twilightforest:uberous_soil" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5721AEE086A7D905"]
+			entity_vis_size: 1.0f
+			id: "7FA2243A4D2E96BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F72D9916FA69CA1"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "75E4E3E379A87D37"
+				item: { count: 1, id: "twilightforest:ice_bomb" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "6713024341F8DFD5"
+			tasks: [{
+				id: "5E90B996143BDDF7"
+				item: { count: 1, id: "twilightforest:moon_dial" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "5723ED95E0703BAC"
+			tasks: [{
+				id: "4A14F2CCAB5AA956"
+				item: { count: 1, id: "twilightforest:pocket_watch" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "36656551C026A8D3"
+			tasks: [{
+				id: "4784621CD747292D"
+				item: { count: 1, id: "twilightforest:crumble_horn" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["444E2E46C5491AD0"]
+			entity_vis_size: 1.0f
+			id: "75487916FC5766C2"
+			rewards: [{
+				id: "131F7D59EFDB73D1"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "490BBEA011D038F5"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "2F9A0A0D6C673C26"
+			tasks: [{
+				id: "1A7ADD757E0ECFD3"
+				item: { count: 1, id: "twilightforest:peacock_feather_fan" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "645DCED75140996D"
+			tasks: [{
+				id: "437B8AD26234649F"
+				item: { count: 1, id: "twilightforest:ore_meter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "24DF5AA75857ED55"
+			tasks: [{
+				id: "2DF0C430AFDCE881"
+				item: { count: 1, id: "twilightforest:ore_magnet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "40AD0929A358D89C"
+			tasks: [{
+				id: "1782E3A19230D7E8"
+				item: { count: 1, id: "twilightforest:moonworm_queen" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "1F583CDC78737812"
+			tasks: [{
+				id: "54E4411DF979A7C9"
+				item: { count: 1, id: "twilightforest:mystic_crown" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "3B544F698188DB2C"
+			tasks: [{
+				id: "1D037D5A923CC305"
+				item: { count: 1, id: "twilightforest:essence_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12678F75B9B2D16A"]
+			entity_vis_size: 1.0f
+			id: "3C54829AB1BF35F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FFF65CC7C9ABFB5"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53220FEA7E4B986D"
+				item: { count: 1, id: "twilightforest:fiery_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5721AEE086A7D905"]
+			entity_vis_size: 1.0f
+			id: "465D5A53F0FD40C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00387A16F9DFECED"
+				table_id: 1038066006360480407L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "10C4D98E661C8614"
+				item: { count: 1, id: "twilightforest:arctic_fur" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "5CFD62BC5C6BDBC5"
+			tasks: [{
+				id: "5F9E3173C81506A9"
+				item: { count: 1, id: "twilightforest:ice_bow" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "13779C2D3C5DF886"
+			tasks: [{
+				id: "1EFBA8A13A48456E"
+				item: { count: 1, id: "twilightforest:triple_bow" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "1120E296270BF021"
+			tasks: [{
+				id: "6336C14F0407FA67"
+				item: { count: 1, id: "twilightforest:ender_bow" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "63B7199606A531F1"
+			tasks: [{
+				id: "345751F50998B256"
+				item: { count: 1, id: "twilightforest:seeker_bow" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CD153FB51DDA626"]
+			entity_vis_size: 1.0f
+			id: "444E2E46C5491AD0"
+			invisible: true
+			tasks: [{
+				biome: "twilightforest:enchanted_forest"
+				id: "24BABBBFDA08BBFD"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "7DF7E1DEA8A8A3FC"
+			tasks: [{
+				id: "698FEAB9BB3C6A17"
+				item: { count: 1, id: "twilightforest:ice_sword" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "689926C5D182D2A7"
+			tasks: [{
+				id: "71782023419BECC5"
+				item: { count: 1, id: "twilightforest:stale_bread" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "588256978C3194DF"
+			tasks: [{
+				id: "49BC47C83C317558"
+				item: { count: 1, id: "twilightforest:transformation_powder" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "585771DEBD7468DB"
+			rewards: [{
+				id: "0361786E7EEDDD48"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:unbreaking": 10
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "749FA7034C3170FE"
+				item: { count: 1, id: "twilightforest:glass_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E61267C5D2BCB16"]
+			entity_vis_size: 1.0f
+			id: "356F8B3657EEB396"
+			tasks: [{
+				id: "63A47E75AC8055A0"
+				item: { count: 1, id: "twilightforest:block_and_chain" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CD153FB51DDA626"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			id: "7E61267C5D2BCB16"
+			tasks: [{
+				id: "36E233C018A242B8"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+	]
+}

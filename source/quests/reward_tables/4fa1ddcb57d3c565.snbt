@@ -1,0 +1,28 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/command_block_back"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4FA1DDCB57D3C565"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			command: "/weather clear"
+			id: "410BFCC224801A7D"
+			type: "command"
+		}
+		{
+			command: "/weather rain"
+			id: "00A07950A251CDCA"
+			type: "command"
+		}
+		{
+			command: "/weather thunder"
+			id: "74F0DC3A163BA154"
+			type: "command"
+		}
+	]
+}

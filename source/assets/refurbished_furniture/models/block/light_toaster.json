@@ -1,0 +1,7 @@
+{
+  "parent": "refurbished_furniture:block/toaster",
+  "textures": {
+    "particle": "refurbished_furniture:block/light_particle",
+    "texture": "refurbished_furniture:block/light_toaster"
+  }
+}

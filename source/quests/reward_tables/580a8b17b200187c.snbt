@@ -1,0 +1,17 @@
+{
+	id: "580A8B17B200187C"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			command: "/gamerule keepInventory true"
+			id: "19C79065606B0A33"
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory false"
+			id: "5DFF39A1FBB06B1F"
+			type: "command"
+		}
+	]
+}

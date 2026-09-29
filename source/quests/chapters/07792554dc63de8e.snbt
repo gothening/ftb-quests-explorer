@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "07792554dc63de8e"
+	group: "64455473278BA5BB"
+	id: "07792554DC63DE8E"
+	images: [ ]
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "297E31F0DFFC1CEB"
+			tasks: [{
+				id: "5D77924DF5B85A15"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "77D14A98F0E662BE"
+			tasks: [
+				{
+					id: "63B6A902684A5330"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "76777BE2AA74A763"
+					item: { count: 1, id: "kaleidoscope_cookery:pot" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22EF9DEFFD31864B"
+					item: { count: 1, id: "fidworkblock:wok" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1A7D451F75D14A46"
+			tasks: [
+				{
+					id: "2B81D47FF706B954"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+					type: "item"
+				}
+				{
+					id: "0C87C8F842B107D8"
+					item: { count: 1, id: "kaleidoscope_cookery:stockpot_lid" }
+					type: "item"
+				}
+				{
+					id: "4DF041B2119074BB"
+					item: { count: 1, id: "fidworkblock:pot" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3924F2AC5A32488F"
+			tasks: [
+				{
+					id: "188672ABCD28B713"
+					item: { count: 1, id: "flavor_immersed_daily:spatula" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41C739F667A93F01"
+					item: { count: 1, id: "kaleidoscope_cookery:kitchen_shovel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "48CF73FDBAAD1B51"
+			tasks: [{
+				id: "0C05F78831B0852E"
+				item: { count: 1, id: "flavor_immersed_daily:eggbreakingmachine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "46413176795AC36A"
+			tasks: [{
+				id: "6282FA81F703D615"
+				item: { count: 1, id: "kaleidoscope_chinesefood:pickle_jar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "78DD6E82BC8A3303"
+			tasks: [
+				{
+					id: "45D2748EC6D8A946"
+					item: { count: 1, id: "kaleidoscope_cookery:steamer" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3ACF717E1238DD21"
+					item: { count: 1, id: "gan_delight_reborn:steamer" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77CCCB92A169B9C2"
+					item: { count: 1, id: "fidworkblock:steambox" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4A532D843D4492EC"
+			tasks: [{
+				id: "5133C48FF56FAF01"
+				item: { count: 1, id: "refurbished_furniture:light_toaster" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "557569FE9A45CDA8"
+			tasks: [{
+				id: "7A6D0C1287C5A83F"
+				item: { count: 1, id: "fidworkblock:squeezingmachine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F036DDB1FEBA984"
+			tasks: [{
+				id: "0CDBE9D317C6FDF5"
+				item: { count: 1, id: "fidworkblock:pressurecooker" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C6B3B0E8D36C92F"
+			tasks: [{
+				id: "078B46DBD9324C31"
+				item: { count: 1, id: "fidworkblock:dryer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "185ECFEA156481DD"
+			tasks: [{
+				id: "7F767AEFDBAFF1C2"
+				item: { count: 1, id: "fidworkblock:jar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "76BAF45B6964E32D"
+			tasks: [
+				{
+					id: "5036956332DC4E98"
+					item: { count: 1, id: "cookingforblockheads:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "517E25E4D980B7E3"
+					item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
+					type: "item"
+				}
+				{
+					id: "22C6466E0B441D17"
+					item: { count: 1, id: "fidworkblock:choppingboard" }
+					type: "item"
+				}
+				{
+					id: "79B2E5BC063FC45D"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "788DACFCC70D1E75"
+			tasks: [{
+				id: "2DEE658ED3815352"
+				item: { count: 1, id: "flavor_immersed_daily:rollingpin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "719433533580F326"
+			tasks: [{
+				id: "42A3232FACD78A05"
+				item: { count: 1, id: "fidworkblock:meatmincer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D3254A0A309548C"
+			tasks: [{
+				id: "61BE7FC738C9E752"
+				item: { count: 1, id: "fidworkblock:teapot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6E57394B99624D62"
+			tasks: [{
+				id: "1E9E802BF7BDCEC2"
+				item: { count: 1, id: "flavor_immersed_daily:agriculturalappraisalmachine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E5625983ADF1169"
+			tasks: [{
+				id: "5EA70A0375D39A43"
+				item: { count: 1, id: "flavor_immersed_daily:coarsecloth" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1B4073C386BFDCB5"
+			tasks: [
+				{
+					id: "624EA8CD86B0D9A2"
+					item: { count: 1, id: "flavor_immersed_daily:kitchenknife" }
+					type: "item"
+				}
+				{
+					id: "1E239E9B0795AD9C"
+					item: { count: 1, id: "kaleidoscope_cookery:iron_kitchen_knife" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "51D003B088CBA8F2"
+					item: { count: 1, id: "flavor_immersed_daily:wideedgedknife" }
+					type: "item"
+				}
+				{
+					id: "4AF5E1B34315B823"
+					item: { count: 1, id: "flavor_immersed_daily:sharpknife" }
+					type: "item"
+				}
+				{
+					id: "78EFAB58AB8682FF"
+					item: { count: 1, id: "flavor_immersed_daily:bonecutterknife" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65B36E6E5491A1EB"
+			tasks: [{
+				id: "5D1A0979FF194940"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4F348B0585340882"
+			tasks: [{
+				id: "78BE2426A403E2A3"
+				item: { count: 1, id: "flavor_immersed_daily:fridge" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "60186174BCC06231"
+			tasks: [{
+				id: "13BAA93E868D4416"
+				item: { count: 1, id: "refurbished_furniture:light_microwave" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0D235DC76575B07D"
+			tasks: [{
+				id: "764D5BA4CE26D3C3"
+				item: { count: 1, id: "refurbished_furniture:light_range_hood" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "46CE317A761F884C"
+			tasks: [{
+				id: "7F1925E04C855EA1"
+				item: { count: 1, id: "refurbished_furniture:white_grill" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "614FAFDB12946174"
+			tasks: [{
+				id: "5704B76AFC3349CF"
+				item: { count: 1, id: "cookingforblockheads:white_oven" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "05859822652CD585"
+			tasks: [{
+				id: "43348072B4DC0F6B"
+				item: { count: 1, id: "kaleidoscope_cookery:shawarma_spit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4822A9B3790E10B2"
+			tasks: [{
+				id: "4009272C5BFDB59D"
+				item: { count: 1, id: "cookingforblockheads:sink" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5630BDF4B1CF8C7F"
+			tasks: [{
+				id: "5AE7A9D433539A20"
+				item: { count: 1, id: "supplementaries:faucet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+}

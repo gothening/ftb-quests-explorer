@@ -58,6 +58,7 @@ export class Reward {
     this.weight = isCompound(raw) ? readNumber(raw, "weight", 1) : 1;
     this.tableId = isCompound(raw) ? readLongId(raw, "table_id") : null;
     this.item = isCompound(raw) && raw.has("item") ? new ItemStack(raw.get("item")) : null;
+    this.icon = isCompound(raw) && raw.has("icon") ? new ItemStack(raw.get("icon")) : null;
     this.title = null;
     this.hasCustomTitle = false;
 
@@ -105,6 +106,7 @@ export class Reward {
       type: this.type,
       weight: this.weight,
       item: this.item?.toJSON() ?? null,
+      icon: this.icon?.toJSON() ?? null,
       hasCustomTitle: this.hasCustomTitle,
       title: this.title?.toJSON() ?? null,
       sourceFile: this.sourceFile,

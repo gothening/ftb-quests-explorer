@@ -1,0 +1,132 @@
+{
+	id: "3B51BD11450DA4CB"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 4
+			id: "74E3AAEE2CA5ECA1"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "3923F6523D9E12BA"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "70DAE3738CBD588B"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "4F13BE8EECAF0D0D"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_mechanical_pipe"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "26C863D1DD27D666"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_pressurized_tube"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "7C787D10F01AFFAE"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_logistical_transporter"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 8
+			id: "35F2524DCDFDBF37"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_thermodynamic_conductor"
+			}
+			weight: 0.25f
+		}
+		{
+			id: "01C0AAAE6E8BC9CA"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;256000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:ultimate_energy_cube"
+			}
+			weight: 0.125f
+		}
+		{
+			count: 2
+			id: "03834DC47CCD4E3D"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+		}
+		{
+			count: 4
+			id: "68B2488429C01E3B"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+		}
+		{
+			count: 8
+			id: "473DAE59564365A7"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+		}
+		{
+			count: 4
+			id: "1ED257FD034C4336"
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
+		}
+		{
+			count: 2
+			id: "4796F7C275EFCD7C"
+			item: {
+				count: 1
+				id: "mekanism:advanced_control_circuit"
+			}
+		}
+		{ id: "7DCD14B22DF87FFE", item: { count: 1, id: "mekanism:elite_control_circuit" } }
+		{
+			id: "6916E599B2B5DE5D"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_control_circuit"
+			}
+			weight: 0.5f
+		}
+	]
+}

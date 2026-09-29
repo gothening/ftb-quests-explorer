@@ -1,0 +1,7 @@
+{
+  "parent": "refurbished_furniture:block/grill",
+  "textures": {
+    "particle": "refurbished_furniture:block/white_particle",
+    "texture": "refurbished_furniture:block/white_grill"
+  }
+}

@@ -20,12 +20,36 @@ function textToJson(text) {
   };
 }
 
-function itemToJson(item) {
+function itemToJson(item, itemResolver = null) {
   if (!item) return null;
+  const resolved = itemResolver?.resolve(item) ?? null;
+  const resolution = resolved
+    ? {
+      itemId: resolved.itemId,
+      namespace: resolved.namespace,
+      displayName: resolved.displayName,
+      nameSource: resolved.nameSource,
+      nameLocale: resolved.nameLocale,
+      translationKey: resolved.translationKey,
+      componentId: resolved.componentId,
+      status: resolved.status,
+      reason: resolved.reason,
+      sourceType: resolved.sourceType,
+      sourceMod: resolved.sourceMod,
+      modelPath: resolved.modelPath,
+      modelPaths: resolved.modelPaths,
+      models: resolved.models,
+      texturePath: resolved.texturePath,
+      texture: resolved.texture,
+      textureKey: resolved.textureKey,
+      iconRef: resolved.iconRef ?? null
+    }
+    : null;
   return {
     ...item.toJSON(),
     components: item.components ? mapNodesToObjects(item.components) : null,
-    raw: item.raw ? nodeToJs(item.raw) : null
+    raw: item.raw ? nodeToJs(item.raw) : null,
+    resolution
   };
 }
 
@@ -66,8 +90,9 @@ function detectInstanceMetadata(questRoot) {
   };
 }
 
-function rewardToJson(reward, book) {
+function rewardToJson(reward, book, itemResolver = null) {
   const table = reward.tableId ? book.getRewardTable(reward.tableId) : null;
+  const item = itemToJson(reward.item, itemResolver);
   return {
     id: reward.id,
     type: reward.type,
@@ -77,9 +102,10 @@ function rewardToJson(reward, book) {
     rewardTableTitle: table ? textToJson(table.title) : null,
     weight: reward.weight,
     hasCustomTitle: reward.hasCustomTitle,
-    displayName: rewardDisplayName(reward.type),
+    displayName: item?.resolution?.displayName ?? rewardDisplayName(reward.type),
     title: textToJson(reward.title),
-    item: itemToJson(reward.item),
+    item,
+    icon: itemToJson(reward.icon, itemResolver),
     data: mapNodesToObjects(reward.raw),
     raw: rawToJson(reward.raw),
     unknownFields: [...reward.unknownFields.keys()],
@@ -87,16 +113,18 @@ function rewardToJson(reward, book) {
   };
 }
 
-function taskToJson(task, book) {
+function taskToJson(task, book, itemResolver = null) {
+  const item = itemToJson(task.item, itemResolver);
   return {
     id: task.id,
     type: task.type,
     questId: task.questId,
     optional: task.optional,
     hasCustomTitle: task.hasCustomTitle,
-    displayName: taskDisplayName(task.type),
+    displayName: item?.resolution?.displayName ?? taskDisplayName(task.type),
     title: textToJson(task.title),
-    item: itemToJson(task.item),
+    item,
+    icon: itemToJson(task.icon, itemResolver),
     data: mapNodesToObjects(task.raw),
     raw: rawToJson(task.raw),
     rawSnbt: task.raw ? serializeSnbt(task.raw) : null,
@@ -105,7 +133,7 @@ function taskToJson(task, book) {
   };
 }
 
-function rewardTableToJson(table, book) {
+function rewardTableToJson(table, book, itemResolver = null) {
   return {
     id: table.id,
     numericId: table.numericId,
@@ -120,12 +148,20 @@ function rewardTableToJson(table, book) {
     entries: table.entries.map((entry) => ({
       id: entry.reward.id,
       weight: entry.weight,
-      reward: rewardToJson(entry.reward, book)
+      reward: rewardToJson(entry.reward, book, itemResolver)
     }))
   };
 }
 
-function questToJson(quest, book, chapter) {
+function questFallbackIcon(quest) {
+  for (const task of quest.tasks) {
+    if (task.icon) return task.icon;
+    if (task.item) return task.item;
+  }
+  return null;
+}
+
+function questToJson(quest, book, chapter, itemResolver = null) {
   const dependencies = quest.dependencies.map((id) => {
     const target = book.getQuest(id);
     return {
@@ -141,6 +177,7 @@ function questToJson(quest, book, chapter) {
     title: textToJson(target.title)
   }));
 
+  const effectiveIcon = quest.icon ?? questFallbackIcon(quest);
   return {
     id: quest.id,
     chapterId: quest.chapterId,
@@ -151,7 +188,8 @@ function questToJson(quest, book, chapter) {
     shape: quest.shape,
     effectiveSize: quest.size > 0 ? quest.size : (chapter?.settings?.defaultQuestSize || 1),
     effectiveShape: quest.shape || chapter?.settings?.defaultQuestShape || "circle",
-    icon: itemToJson(quest.icon),
+    icon: itemToJson(effectiveIcon, itemResolver),
+    iconSource: quest.icon ? "explicit" : (effectiveIcon ? "first-task" : null),
     title: textToJson(quest.title),
     subtitle: textToJson(quest.subtitle),
     description: textToJson(quest.description),
@@ -163,13 +201,32 @@ function questToJson(quest, book, chapter) {
     unknownFields: [...quest.unknownFields.keys()],
     raw: rawToJson(quest.raw),
     rawSnbt: quest.raw ? serializeSnbt(quest.raw) : null,
-    tasks: quest.tasks.map((task) => taskToJson(task, book)),
-    rewards: quest.rewards.map((reward) => rewardToJson(reward, book))
+    tasks: quest.tasks.map((task) => taskToJson(task, book, itemResolver)),
+    rewards: quest.rewards.map((reward) => rewardToJson(reward, book, itemResolver))
   };
 }
 
+function chapterFallbackIcon(chapter) {
+  for (const quest of chapter.quests) {
+    if (quest.icon) return quest.icon;
+    for (const task of quest.tasks) {
+      if (task.icon) return task.icon;
+      if (task.item) return task.item;
+    }
+  }
+  return null;
+}
+
 export function buildViewerModel(book, validation, options = {}) {
-  const metadata = detectInstanceMetadata(book.metadata.root);
+  const itemResolver = options.itemResolver ?? null;
+  const metadata = options.metadata
+    ? {
+      instanceRoot: null,
+      minecraftVersion: "1.21.1",
+      ftbQuestsVersion: null,
+      ...options.metadata
+    }
+    : detectInstanceMetadata(book.metadata.root);
   const chapterMap = new Map(book.chapters.map((chapter) => [normalizeId(chapter.id), chapter]));
 
   const chapters = book.chapters.map((chapter) => ({
@@ -177,6 +234,8 @@ export function buildViewerModel(book, validation, options = {}) {
     filename: chapter.filename,
     groupId: chapter.groupId,
     order: chapter.order,
+    icon: itemToJson(chapter.icon ?? chapterFallbackIcon(chapter), itemResolver),
+    iconSource: chapter.icon ? "explicit" : (chapterFallbackIcon(chapter) ? "first-quest" : null),
     title: textToJson(chapter.title),
     subtitle: textToJson(chapter.subtitle),
     sourceFile: chapter.sourceFile,
@@ -209,11 +268,12 @@ export function buildViewerModel(book, validation, options = {}) {
   const quests = book.quests.map((quest) => questToJson(
     quest,
     book,
-    chapterMap.get(normalizeId(quest.chapterId))
+    chapterMap.get(normalizeId(quest.chapterId)),
+    itemResolver
   ));
-  const tasks = book.tasks.map((task) => taskToJson(task, book));
-  const rewards = book.rewards.map((reward) => rewardToJson(reward, book));
-  const rewardTables = book.rewardTables.map((table) => rewardTableToJson(table, book));
+  const tasks = book.tasks.map((task) => taskToJson(task, book, itemResolver));
+  const rewards = book.rewards.map((reward) => rewardToJson(reward, book, itemResolver));
+  const rewardTables = book.rewardTables.map((table) => rewardTableToJson(table, book, itemResolver));
   const questLinks = book.questLinks.map((link) => {
     const target = book.getQuest(link.targetId);
     return {

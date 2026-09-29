@@ -1,0 +1,1219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32f949eff503757f"
+	group: "64455473278BA5BB"
+	id: "32F949EFF503757F"
+	images: [ ]
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "7E96AA062AD426AE"
+			tasks: [
+				{
+					id: "49312CCE73F2333F"
+					item: { count: 1, id: "minecraft:beef" }
+					type: "item"
+				}
+				{
+					id: "7666C7EA60D0C250"
+					item: { count: 1, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6DEF672D4335457A"
+			tasks: [
+				{
+					id: "58F28210E57A3742"
+					item: { count: 1, id: "minecraft:mutton" }
+					type: "item"
+				}
+				{
+					id: "09E3EBE48A561691"
+					item: { count: 1, id: "minecraft:cooked_mutton" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "583BB916C4EA6487"
+			tasks: [
+				{
+					id: "097CCAD396939350"
+					item: { count: 1, id: "minecraft:porkchop" }
+					type: "item"
+				}
+				{
+					id: "30BDDAF8BBDCA535"
+					item: { count: 1, id: "minecraft:cooked_porkchop" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "70A9A9963680AA94"
+			tasks: [
+				{
+					id: "2636D6D14078DEAB"
+					item: { count: 1, id: "farmersdelight:bacon" }
+					type: "item"
+				}
+				{
+					id: "6A95D8F7812B9BA0"
+					item: { count: 1, id: "farmersdelight:cooked_bacon" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6B2A1352D441AB26"
+			tasks: [
+				{
+					id: "0D9EFA5E8104FFDA"
+					item: { count: 1, id: "kaleidoscope_cookery:raw_lamb_chops" }
+					type: "item"
+				}
+				{
+					id: "4E816DC8213129E5"
+					item: { count: 1, id: "kaleidoscope_cookery:cooked_lamb_chops" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0A0F005819E3AD73"
+			tasks: [
+				{
+					id: "195AF9305AD387F1"
+					item: { count: 1, id: "farmersdelight:mutton_chops" }
+					type: "item"
+				}
+				{
+					id: "3A4BF3F0CD481EF8"
+					item: { count: 1, id: "farmersdelight:cooked_mutton_chops" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2EC7A1569858EBC1"
+			tasks: [
+				{
+					id: "0C3F8915A30673A8"
+					item: { count: 1, id: "kaleidoscope_cookery:raw_pork_belly" }
+					type: "item"
+				}
+				{
+					id: "780D4BD0EF69FF7D"
+					item: { count: 1, id: "kaleidoscope_cookery:cooked_pork_belly" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1814A5FEEDFFB933"
+			tasks: [
+				{
+					id: "02602783B5A44758"
+					item: { count: 1, id: "farmersdelight:minced_beef" }
+					type: "item"
+				}
+				{
+					id: "132E34E19C234726"
+					item: { count: 1, id: "farmersdelight:beef_patty" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "662CCE223014763B"
+			tasks: [{
+				id: "73F78F56D2670AA6"
+				item: { count: 1, id: "twilightforest:beef_jerky" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "355070A4285800E1"
+			tasks: [{
+				id: "409499868E432C9C"
+				item: { count: 1, id: "twilightforest:pork_jerky" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "139CB70BA8080E6E"
+			tasks: [{
+				id: "1D7250D78E4EC81F"
+				item: { count: 1, id: "twilightforest:mutton_jerky" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0BFA19EE785F036D"
+			tasks: [
+				{
+					id: "6DE39035A5EBEBFE"
+					item: { count: 1, id: "minecraft:chicken" }
+					type: "item"
+				}
+				{
+					id: "14F1E380780FB402"
+					item: { count: 1, id: "minecraft:cooked_chicken" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64BB4F678131229D"
+			tasks: [
+				{
+					id: "5F37B4A0E1D99CB6"
+					item: { count: 1, id: "gan_delight_reborn:raw_duck" }
+					type: "item"
+				}
+				{
+					id: "2ABF22E4185979E7"
+					item: { count: 1, id: "gan_delight_reborn:cooked_duck" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5DDF0CCC940FDE78"
+			tasks: [
+				{
+					id: "4B67254E15AE5385"
+					item: { count: 1, id: "kaleidoscope_cookery:raw_cut_small_meats" }
+					type: "item"
+				}
+				{
+					id: "0218905E8D53B07B"
+					item: { count: 1, id: "kaleidoscope_cookery:cooked_cut_small_meats" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "35FFEFFC0B0487FF"
+			tasks: [
+				{
+					id: "1187EFA9DF0A90D6"
+					item: { count: 1, id: "minecraft:rabbit" }
+					type: "item"
+				}
+				{
+					id: "267106CBE12CFE7E"
+					item: { count: 1, id: "minecraft:cooked_rabbit" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4A971CE5256444DB"
+			tasks: [
+				{
+					id: "3E8CF7AAEAF7C72B"
+					item: { count: 1, id: "kaleidoscope_cookery:raw_cow_offal" }
+					type: "item"
+				}
+				{
+					id: "76C8DE6A57FD35CF"
+					item: { count: 1, id: "kaleidoscope_cookery:cooked_cow_offal" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4DA4307165E4482E"
+			tasks: [
+				{
+					id: "14878AD6C2B4AC0B"
+					item: { count: 1, id: "farmersdelight:chicken_cuts" }
+					type: "item"
+				}
+				{
+					id: "18DAD5175498E3E8"
+					item: { count: 1, id: "farmersdelight:cooked_chicken_cuts" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "12F5A601F9CD7DB9"
+			tasks: [{
+				id: "1CAE85EFEF4C86F9"
+				item: { count: 1, id: "twilightforest:chicken_jerky" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1E332C08E5D63A76"
+			tasks: [{
+				id: "3A9D1DEC36F1A396"
+				item: { count: 1, id: "twilightforest:rabbit_jerky" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "421D9A17202B9936"
+			tasks: [
+				{
+					id: "768A478A7F170C2E"
+					item: { count: 1, id: "gan_delight_reborn:raw_dog_meat" }
+					type: "item"
+				}
+				{
+					id: "0DCFFE64AAD017EC"
+					item: { count: 1, id: "gan_delight_reborn:cooked_dog_meat" }
+					type: "item"
+				}
+				{
+					id: "7D037EAA685E8867"
+					item: { count: 1, id: "gan_delight_reborn:tofu_dog_meat" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "72667BEA2ABF6600"
+			tasks: [
+				{
+					id: "528B40DA74456060"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					id: "444C6ED4E73FECA3"
+					item: { count: 1, id: "minecraft:cooked_cod" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "776E2421D956B4DB"
+			tasks: [
+				{
+					id: "709A011E091F1A3F"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					id: "19F31D80C6BC418E"
+					item: { count: 1, id: "minecraft:cooked_salmon" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "15769E53948C60B4"
+			tasks: [{
+				id: "6767CBADFBA09BC8"
+				item: { count: 1, id: "twilightforest:cod_jerky" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "67ADA2F246C14945"
+			tasks: [{
+				id: "5F2C44581C049479"
+				item: { count: 1, id: "twilightforest:salmon_jerky" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6C587C33EE0CBFC6"
+			tasks: [
+				{
+					id: "7259F4019B6756C9"
+					item: { count: 1, id: "farmersdelight:cod_slice" }
+					type: "item"
+				}
+				{
+					id: "4B9118112C980090"
+					item: { count: 1, id: "farmersdelight:cooked_cod_slice" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "34F54AF0052DEAAC"
+			tasks: [
+				{
+					id: "741EF3C5E4B0DA0D"
+					item: { count: 1, id: "farmersdelight:salmon_slice" }
+					type: "item"
+				}
+				{
+					id: "7852534AA452D7DD"
+					item: { count: 1, id: "farmersdelight:cooked_salmon_slice" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "13AA8A0BC6159E89"
+			tasks: [{
+				id: "259E3BDE03084065"
+				item: { count: 1, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "21BA78D1B1787B2B"
+			tasks: [{
+				id: "3F52E93358BF55CF"
+				item: { count: 1, id: "kaleidoscope_cookery:sashimi" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "27C729A19B4AACB8"
+			tasks: [
+				{
+					id: "1D874CC3C784E0E8"
+					item: { count: 1, id: "alexsmobs:raw_catfish" }
+					type: "item"
+				}
+				{
+					id: "4C62C389305A99B2"
+					item: { count: 1, id: "alexsmobs:cooked_catfish" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "752C25FA67ECF638"
+			tasks: [{
+				id: "7C258B6C80A6F931"
+				item: { count: 1, id: "twilightforest:tropical_fish_jerky" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "31DD360274464B00"
+			tasks: [{
+				id: "0EE96186EC4BFFD4"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0CFB67C16E9021CA"
+			tasks: [
+				{
+					id: "6C68404299346E60"
+					item: { count: 1, id: "quark:crab_leg" }
+					type: "item"
+				}
+				{
+					id: "233E5D527CC08625"
+					item: { count: 1, id: "quark:cooked_crab_leg" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "325A7F13BF03994F"
+			tasks: [
+				{
+					id: "684BB40E90FC4F3E"
+					item: { count: 1, id: "kaleidoscope_nether:raw_piglin_meat" }
+					type: "item"
+				}
+				{
+					id: "62379BF05A653553"
+					item: { count: 1, id: "kaleidoscope_nether:cooked_piglin_meat" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3A16FF58BE683458"
+			tasks: [
+				{
+					id: "64B7A6AB5E9D7FAF"
+					item: { count: 1, id: "gan_delight_reborn:raw_quasipaa_spinosa" }
+					type: "item"
+				}
+				{
+					id: "153001641550562C"
+					item: { count: 1, id: "gan_delight_reborn:cooked_quasipaa_spinosa" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4DBCCEDFF14E7EF0"
+			tasks: [
+				{
+					id: "1E394639C0E8AB2C"
+					item: { count: 1, id: "kaleidoscope_nether:raw_strider_meat" }
+					type: "item"
+				}
+				{
+					id: "019AACC5A9129C79"
+					item: { count: 1, id: "kaleidoscope_nether:cooked_strider_meat" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "352C953654BD1E79"
+			tasks: [
+				{
+					id: "3038B31BA23DF3A1"
+					item: { count: 1, id: "alexsmobs:moose_ribs" }
+					type: "item"
+				}
+				{
+					id: "01AC553518C5C6F7"
+					item: { count: 1, id: "alexsmobs:cooked_moose_ribs" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6F918F7C362BDD84"
+			tasks: [
+				{
+					id: "2D8E5F24A8CC161E"
+					item: { count: 1, id: "twilightforest:raw_venison" }
+					type: "item"
+				}
+				{
+					id: "1004CF6B7AC4E8D5"
+					item: { count: 1, id: "twilightforest:cooked_venison" }
+					type: "item"
+				}
+				{
+					id: "5EE45FAA0D8EF238"
+					item: { count: 1, id: "twilightforest:venison_jerky" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "481E7E39BE55398A"
+			tasks: [
+				{
+					id: "11F3B0B37835E8FF"
+					item: { count: 1, id: "twilightforest:raw_meef" }
+					type: "item"
+				}
+				{
+					id: "445CA77B3AFDBB86"
+					item: { count: 1, id: "twilightforest:cooked_meef" }
+					type: "item"
+				}
+				{
+					id: "37F645DB8EC18673"
+					item: { count: 1, id: "twilightforest:meef_jerky" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64EA86F350D3F8EB"
+			tasks: [
+				{
+					id: "32820DCC189CB52D"
+					item: { count: 1, id: "kaleidoscope_twilight:raw_naga_meat" }
+					type: "item"
+				}
+				{
+					id: "312D3C5D5B958923"
+					item: { count: 1, id: "kaleidoscope_twilight:cooked_naga_meat" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0B9D760C063D6227"
+			tasks: [
+				{
+					id: "031E7EE523D7E4AD"
+					item: { count: 1, id: "kaleidoscope_twilight:raw_yeti_meat" }
+					type: "item"
+				}
+				{
+					id: "71C273A0A221D658"
+					item: { count: 1, id: "kaleidoscope_twilight:cooked_yeti_meat" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6ABB3E846EC7ED2E"
+			tasks: [
+				{
+					id: "40A6504B45CB1D21"
+					item: { count: 1, id: "kaleidoscope_twilight:raw_twilight_ghost_tentacle" }
+					type: "item"
+				}
+				{
+					id: "7FF3DC7582ACAEA7"
+					item: { count: 1, id: "kaleidoscope_twilight:cooked_twilight_ghost_tentacle" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "24627E891A7E751D"
+			tasks: [
+				{
+					id: "19834559A47BF3B1"
+					item: { count: 1, id: "kaleidoscope_nether:ghast_tentacle" }
+					type: "item"
+				}
+				{
+					id: "14F7E2244D2EC89B"
+					item: { count: 1, id: "kaleidoscope_nether:roasted_ghast_tentacle" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64E0AD4921A7C7E3"
+			tasks: [
+				{
+					id: "060B41E0132A46EC"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					id: "0F82618764774EFC"
+					item: { count: 1, id: "twilightforest:monster_jerky" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7AD686248C485E2D"
+			tasks: [
+				{
+					id: "30FFDA05EEC1E395"
+					item: { count: 1, id: "alexsmobs:kangaroo_meat" }
+					type: "item"
+				}
+				{
+					id: "06C4B7C741CFAECB"
+					item: { count: 1, id: "alexsmobs:cooked_kangaroo_meat" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3E9C89BA8F8D536C"
+			tasks: [
+				{
+					id: "232EBC538DA013B1"
+					item: { count: 1, id: "rusticdelight:calamari" }
+					type: "item"
+				}
+				{
+					id: "66FF0C5E159C1DDE"
+					item: { count: 1, id: "rusticdelight:cooked_calamari" }
+					type: "item"
+				}
+				{
+					id: "481172203DB22DA9"
+					item: { count: 1, id: "rusticdelight:calamari_slice" }
+					type: "item"
+				}
+				{
+					id: "24F5903C4075370F"
+					item: { count: 1, id: "rusticdelight:cooked_calamari_slice" }
+					type: "item"
+				}
+				{
+					id: "3BB26BE9C94B713C"
+					item: { count: 1, id: "culturaldelights:squid" }
+					type: "item"
+				}
+				{
+					id: "53E7EA2C0A65E02E"
+					item: { count: 1, id: "culturaldelights:cooked_squid" }
+					type: "item"
+				}
+				{
+					id: "4CBE301944B12322"
+					item: { count: 1, id: "culturaldelights:raw_calamari" }
+					type: "item"
+				}
+				{
+					id: "602CD4339A1ED0B8"
+					item: { count: 1, id: "culturaldelights:cooked_calamari" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"583BB916C4EA6487"
+				"0BFA19EE785F036D"
+				"35FFEFFC0B0487FF"
+				"7E96AA062AD426AE"
+				"6DEF672D4335457A"
+				"64E0AD4921A7C7E3"
+				"082E0CD7790759F7"
+			]
+			entity_vis_size: 1.0f
+			id: "201637458329640E"
+			rewards: [
+				{
+					id: "60CFC2F469673FFC"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:shawarma_spit"
+					}
+					type: "item"
+				}
+				{
+					id: "314C0EB7216279A6"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"kaleidoscope_twilight:oil_blade": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AAFE52C262357C9"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6C587C33EE0CBFC6"
+				"776E2421D956B4DB"
+				"72667BEA2ABF6600"
+				"34F54AF0052DEAAC"
+				"21BA78D1B1787B2B"
+				"31DD360274464B00"
+				"13AA8A0BC6159E89"
+				"0CFB67C16E9021CA"
+				"27C729A19B4AACB8"
+				"3E9C89BA8F8D536C"
+				"201637458329640E"
+			]
+			entity_vis_size: 1.0f
+			id: "040F9CD3EB6C5228"
+			rewards: [
+				{
+					id: "2B7F867FEB071835"
+					item: {
+						components: {
+							"ftbquests:missing_item": "aether:neptune_helmet"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "22436A91A81D9520"
+					item: {
+						components: {
+							"ftbquests:missing_item": "aether:neptune_chestplate"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "2F9F5D8B8BCE35B1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "aether:neptune_leggings"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "5FF7870F771F6DC2"
+					item: {
+						components: {
+							"ftbquests:missing_item": "aether:neptune_boots"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "1FA01F9545C4987D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "aether:neptune_gloves"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11C36D7EF9BD275B"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5DDF0CCC940FDE78"
+				"1814A5FEEDFFB933"
+				"0A0F005819E3AD73"
+				"2EC7A1569858EBC1"
+				"70A9A9963680AA94"
+				"4A971CE5256444DB"
+				"6B2A1352D441AB26"
+				"4DA4307165E4482E"
+				"201637458329640E"
+			]
+			entity_vis_size: 1.0f
+			id: "6CF91DBA4A19C8E3"
+			rewards: [
+				{
+					id: "745F8CC3573605DC"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"tonsofenchants:blessed_enchant": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "7885FDEC6F13BF3C"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"jlme:lifesteal": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "720096912B0F2A35"
+					item: {
+						count: 1
+						id: "mekanismtools:diamond_paxel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "064266C6E453791E"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"12F5A601F9CD7DB9"
+				"662CCE223014763B"
+				"139CB70BA8080E6E"
+				"752C25FA67ECF638"
+				"1E332C08E5D63A76"
+				"67ADA2F246C14945"
+				"355070A4285800E1"
+				"15769E53948C60B4"
+				"201637458329640E"
+			]
+			entity_vis_size: 1.0f
+			id: "236299E697664064"
+			rewards: [
+				{
+					id: "712A6060F526815B"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"jlme:adept": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "2F670CFBBA34881B"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"jlme:advanced_looting": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "7E910CD2C2BA6393"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"jlme:envenomed": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28AEF893DE633FE6"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"325A7F13BF03994F"
+				"24627E891A7E751D"
+				"4DBCCEDFF14E7EF0"
+				"201637458329640E"
+				"0AF1213E5B26763C"
+				"382C318B79AAEBFB"
+				"66E48BFE6B22F5FC"
+			]
+			entity_vis_size: 1.0f
+			id: "7CE3341F012F71E2"
+			rewards: [
+				{
+					id: "08F6CE9CCC1AA3DD"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"l2complements:fire_immunity": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "431E982D134AEA56"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"jlme:ash_destroyer": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "540C2A1AA7EB71E8"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"64EA86F350D3F8EB"
+				"6ABB3E846EC7ED2E"
+				"481E7E39BE55398A"
+				"0B9D760C063D6227"
+			]
+			entity_vis_size: 1.0f
+			id: "082E0CD7790759F7"
+			rewards: [
+				{
+					id: "3D6859B9734CF6D4"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"l2complements:friendly_fire_protection": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "0074141E89300B8F"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"tonsofenchants:frostbite": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "2835135BE505A6B3"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"tombstone:spectral_conjurer": 10
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "467360358EC4957F"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"64BB4F678131229D"
+				"6F918F7C362BDD84"
+				"421D9A17202B9936"
+				"7AD686248C485E2D"
+				"3A16FF58BE683458"
+				"352C953654BD1E79"
+			]
+			entity_vis_size: 1.0f
+			id: "6D5FB80E0043E252"
+			rewards: [{
+				count: 10
+				id: "172197E461C772CF"
+				item: {
+					count: 1
+					id: "kaleidoscope_nether:golden_roast"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "615812C5FCDF3079"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0AF1213E5B26763C"
+			tasks: [{
+				id: "4E7766B96C088BCF"
+				item: { count: 1, id: "twilightforest:hydra_chop" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "382C318B79AAEBFB"
+			tasks: [{
+				id: "30DACDABC9D4F33E"
+				item: { count: 1, id: "kaleidoscope_end:raw_ender_dragon_meat" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "66E48BFE6B22F5FC"
+			tasks: [{
+				id: "185B5D52B21625D4"
+				item: { count: 1, id: "kaleidoscope_end:raw_endermite_meat" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+	]
+}

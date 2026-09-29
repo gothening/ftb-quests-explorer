@@ -1,0 +1,119 @@
+{
+	id: "7E0C70488337BA3A"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "gold"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 32
+			id: "5584F1D7A53E388F"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 128
+			id: "7905725317779EAF"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 128
+			id: "5DC1B873A861FDC8"
+			item: {
+				count: 1
+				id: "minecraft:spectral_arrow"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 12
+			id: "520CB6E72B34CDCC"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 18
+			id: "6D73976384195066"
+			item: {
+				count: 1
+				id: "minecraft:crying_obsidian"
+			}
+		}
+		{
+			count: 32
+			id: "257C153F24252798"
+			item: {
+				count: 1
+				id: "minecraft:nether_quartz_ore"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "29ED6F508FBCD76A"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 6
+			id: "15D115CA25E232E1"
+			item: {
+				count: 1
+				id: "minecraft:ghast_tear"
+			}
+			random_bonus: 6
+			weight: 0.4f
+		}
+		{
+			count: 4
+			id: "6A2A7E2B3CE75252"
+			item: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:long_fire_resistance"
+					}
+				}
+				count: 1
+				id: "minecraft:potion"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "6C7B866B188D0FFE"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "12E4A7300E3D5179"
+			item: {
+				count: 1
+				id: "allthemodium:vibranium_ingot"
+			}
+			weight: 0.1f
+		}
+	]
+}

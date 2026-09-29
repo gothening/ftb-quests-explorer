@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:block/block",
+	"loader": "neoforge:composite",
+	"textures": {
+		"particle": "create:block/funnel/brass_funnel_frame"
+	},
+	"children": {
+		"frame": {
+			"render_type": "minecraft:cutout_mipped",
+			"parent": "create_connected:block/fan_catalyst/empty"
+		},
+		"water": {
+			"render_type": "minecraft:translucent",
+			"credit": "Made with Blockbench",
+			"parent": "minecraft:block/block",
+			"textures": {
+				"content": "block/water_still",
+				"particle": "create:block/funnel/brass_funnel_frame"
+			},
+			"elements": [
+				{
+					"from": [2.1, 2.1, 2.1],
+					"to": [13.9, 13.9, 13.9],
+					"faces": {
+						"north": {"uv": [2.1, 2.1, 13.9, 13.9], "texture": "#content", "tintindex": 0},
+						"east": {"uv": [2.1, 2.1, 13.9, 13.9], "texture": "#content", "tintindex": 0},
+						"south": {"uv": [2.1, 2.1, 13.9, 13.9], "texture": "#content", "tintindex": 0},
+						"west": {"uv": [2.1, 2.1, 13.9, 13.9], "texture": "#content", "tintindex": 0},
+						"up": {"uv": [2.1, 2.1, 13.9, 13.9], "texture": "#content", "tintindex": 0},
+						"down": {"uv": [2.1, 2.1, 13.9, 13.9], "texture": "#content", "tintindex": 0}
+					}
+				}
+			]
+		}
+	}
+}

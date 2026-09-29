@@ -1,0 +1,128 @@
+{
+	id: "2D64443716BE8B4A"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ae2"
+	}
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 32
+			id: "1D98DA7AFCBD97D9"
+			item: {
+				count: 1
+				id: "ae2:cell_component_1k"
+			}
+		}
+		{
+			count: 16
+			id: "3CBA085CD860859E"
+			item: {
+				count: 1
+				id: "ae2:cell_component_4k"
+			}
+		}
+		{
+			count: 8
+			id: "69BD43CF4E8096D6"
+			item: {
+				count: 1
+				id: "ae2:cell_component_16k"
+			}
+		}
+		{
+			count: 4
+			id: "0222BCD7630B0A54"
+			item: {
+				count: 1
+				id: "ae2:cell_component_64k"
+			}
+		}
+		{
+			count: 2
+			id: "167B5BC853B51FAD"
+			item: {
+				count: 1
+				id: "ae2:cell_component_256k"
+			}
+		}
+		{
+			count: 64
+			id: "7A77ECEAE678A319"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+		}
+		{
+			count: 32
+			id: "39E0C8317A22390B"
+			item: {
+				count: 1
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+		}
+		{
+			count: 32
+			id: "2B8176E022228BFE"
+			item: {
+				count: 1
+				id: "ae2:fluix_crystal"
+			}
+		}
+		{
+			count: 32
+			id: "17DF209BD53E2BAB"
+			item: {
+				count: 1
+				id: "ae2:blank_pattern"
+			}
+		}
+		{
+			count: 16
+			id: "0259E8A80CE18C21"
+			item: {
+				count: 1
+				id: "ae2:logic_processor"
+			}
+		}
+		{
+			count: 16
+			id: "7AFAD22E46D7BACD"
+			item: {
+				count: 1
+				id: "ae2:calculation_processor"
+			}
+		}
+		{
+			count: 16
+			id: "6D41C5CE641DA2EB"
+			item: {
+				count: 1
+				id: "ae2:engineering_processor"
+			}
+		}
+		{
+			count: 16
+			id: "18EF71AA01E7B0CC"
+			item: {
+				count: 1
+				id: "ae2:crafting_unit"
+			}
+		}
+		{
+			count: 64
+			id: "1009FA1600CA05EE"
+			item: {
+				count: 1
+				id: "ae2:fluix_glass_cable"
+			}
+		}
+	]
+}

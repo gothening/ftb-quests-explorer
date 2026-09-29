@@ -1,0 +1,38 @@
+{
+  "parent": "block/block",
+  "render_type": "cutout",
+  "textures": {
+    "0": "cobblegengalore:block/iron_side",
+    "1": "cobblegengalore:block/iron_top",
+    "2": "cobblegengalore:block/iron_bottom",
+    "particle": "cobblegengalore:iron_block/side"
+  },
+  "elements": [
+    {
+      "name": "shell",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+      }
+    },
+    {
+      "name": "inner",
+      "from": [15.9, 15.9, 15.9],
+      "to": [0.1, 0.1, 0.1],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+      }
+    }
+  ]
+}

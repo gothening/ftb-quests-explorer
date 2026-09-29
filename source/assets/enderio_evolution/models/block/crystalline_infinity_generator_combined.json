@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/block",
+  "children": {
+    "machine": {
+      "parent": "enderio_evolution:block/crystalline_infinity_generator_machine"
+    },
+    "overlay": {
+      "parent": "enderio:block/io_overlay"
+    }
+  },
+  "item_render_order": [
+    "machine",
+    "overlay"
+  ],
+  "loader": "neoforge:composite",
+  "textures": {
+    "particle": "enderio_evolution:block/infinity_gen/crystalline_infinity_generator_front"
+  }
+}

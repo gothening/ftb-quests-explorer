@@ -1,0 +1,3454 @@
+{
+	autofocus_id: "7FD7DA11F06DFDD0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3ccce39be0e7de70"
+	group: "64455473278BA5BB"
+	hide_quest_until_deps_complete: true
+	id: "3CCCE39BE0E7DE70"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "41E1F70AD4D2AD90"
+			invisible: true
+			rewards: [{
+				id: "17CE9DC963F5B286"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EEB95DA9A4F8217"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2B281CD3C318AC76"
+			invisible: true
+			rewards: [{
+				id: "0A272DC40E9F736A"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "488B78ABD65974B4"
+					item: { count: 1, id: "minecraft:carrot" }
+					type: "item"
+				}
+				{
+					id: "59EAC182B608E865"
+					item: { count: 1, id: "minecraft:golden_carrot" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "01EA5B5316B060D4"
+			invisible: true
+			rewards: [{
+				id: "7B49703B4EE17D27"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7798348531E5832F"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "25395FC7CC110821"
+			invisible: true
+			rewards: [{
+				id: "691B0ACBF7167B38"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AFFB282823046D2"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "77FFFEBAB6D4AC34"
+			invisible: true
+			rewards: [{
+				id: "43B0E74005136B1A"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36AA980B08563A06"
+				item: { count: 1, id: "minecraft:melon_slice" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "19E10A1B05A68440"
+			invisible: true
+			rewards: [{
+				id: "0F6B43AC500508EC"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "407566D0B25D5B1C"
+				item: { count: 1, id: "minecraft:pumpkin" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "622AE032E6BD9247"
+			invisible: true
+			rewards: [{
+				id: "448A68FC2386AD8C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E510D5484083F0C"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "74FAFB247C6417B1"
+			invisible: true
+			rewards: [{
+				id: "63AD3E2FBAAA11B3"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "401545EB42E9C499"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6EBB659BECD015C8"
+			invisible: true
+			rewards: [{
+				id: "750430A22FD5F9DE"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A7C5A3A26EFB1E5"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			id: "2D4533A1C737F6AC"
+			rewards: [{
+				id: "03677BA0920063BC"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "593C8B9817C8144B"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "07879BEAC74A7641"
+			invisible: true
+			rewards: [{
+				id: "15D340C99FF17C86"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C137DC91B14603B"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "198FC5EE25BC45E3"
+			invisible: true
+			rewards: [{
+				id: "5A3CA8B07DFFF1E9"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B9792F6814F4529"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "45A8C4A357CD93CE"
+			invisible: true
+			rewards: [{
+				id: "37457A7A594242CC"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "00E45B2CBD848514"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "750E1F0DD0C31351"
+			invisible: true
+			rewards: [{
+				id: "627CFC87503AA69C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5284208A24E4271F"
+				item: { count: 1, id: "culturaldelights:white_eggplant" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2E2F8F9D83E74E1E"
+			invisible: true
+			rewards: [{
+				id: "27893DA56CAB632E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5086859A46BD4792"
+				item: { count: 1, id: "gan_delight_reborn:artemisia_selengensis" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6FE96450487273A7"
+			invisible: true
+			rewards: [{
+				id: "4980E209B466EFE7"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A5F418AFAED4C20"
+				item: { count: 1, id: "gan_delight_reborn:bambooshootitem" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "16AD50F0019390D5"
+			invisible: true
+			rewards: [{
+				id: "1FB03BF169605D83"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3BB4FA3C26F1451B"
+				item: { count: 1, id: "gan_delight_reborn:chilli_pepper" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6475A2F2E3694ABA"
+			invisible: true
+			rewards: [{
+				id: "057CDED1BA6D8B3B"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D6ECE63354BA5D"
+				item: { count: 1, id: "gan_delight_reborn:chinese_wolfberry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "626FCB6BF6A34130"
+			invisible: true
+			rewards: [{
+				id: "0FA19129A9F691B0"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B5EEFDB683C424D"
+				item: { count: 1, id: "gan_delight_reborn:chives" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "20E8A3F037614A20"
+			invisible: true
+			rewards: [{
+				id: "3041858123CBA9A0"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AA34A953BDB43FC"
+				item: { count: 1, id: "gan_delight_reborn:dictyophora" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6A676DB7C1F54D30"
+			invisible: true
+			rewards: [{
+				id: "580A5046BE490257"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "460AE5BD6DA34792"
+				item: { count: 1, id: "gan_delight_reborn:garlic_sprout" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "798370B7CF10DFB8"
+			invisible: true
+			rewards: [{
+				id: "4B370FC9A9498457"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DBC56C82265446F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/ginger)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "585409CA3E5E42F6"
+			invisible: true
+			rewards: [{
+				id: "7537C15DD1B2ED36"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "49EC90FD65D84DDD"
+				item: { count: 1, id: "gan_delight_reborn:green_peppers" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2D28D52CD4894941"
+			invisible: true
+			rewards: [{
+				id: "75718FC09DF2C90C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D9ED123C9BD1BA8"
+				item: { count: 1, id: "gan_delight_reborn:mung_bean" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "71DFD74D560E7CA1"
+			invisible: true
+			rewards: [{
+				id: "24F896B01D389870"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5049B50B94A259AA"
+				item: { count: 1, id: "gan_delight_reborn:mustard" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "71322F5A848C4A61"
+			invisible: true
+			rewards: [{
+				id: "4FE2BA3DCFB19E7F"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "432CB0EEF0BF29E0"
+				item: { count: 1, id: "gan_delight_reborn:soya_bean" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2B1E749498FF4C6D"
+			invisible: true
+			rewards: [{
+				id: "4E80C288BB2EE183"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "41A4B0947C5D7956"
+				item: { count: 1, id: "gan_delight_reborn:taro" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "318D9BBB1EA8B964"
+			invisible: true
+			rewards: [{
+				id: "4A95B2782D86B92F"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AC9A8CB3FAC8BF0"
+				item: { count: 1, id: "gan_delight_reborn:vegetable" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "18B046FA485BBA9C"
+			invisible: true
+			rewards: [{
+				id: "4879071457A98CF7"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "454001B09D0147A2"
+					item: { count: 1, id: "gan_delight_reborn:wintermelon" }
+					type: "item"
+				}
+				{
+					id: "2DD5CD11ED83D415"
+					item: { count: 1, id: "flavor_immersed_daily:waxgourd" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0152A3BFA1A3EB5F"
+			invisible: true
+			rewards: [{
+				id: "26E1CBEC01CD3B84"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "42F2DF26BBCC4A5E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/bell_pepper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4466916053BF45F1"
+			invisible: true
+			rewards: [{
+				id: "1DA60A56B44B7E3E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "683DC148C4E84F37"
+				item: { count: 1, id: "moderndelight:white_truffle" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "76A2C049F87C47F4"
+			invisible: true
+			rewards: [{
+				id: "3AC66B1702478F10"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27948268B2AD23B4"
+				item: { count: 1, id: "kaleidoscope_cookery:green_chili" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7F2C3C551CBECD9D"
+			invisible: true
+			rewards: [{
+				id: "007EF56853200AB3"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53522A4C99754CB1"
+				item: { count: 1, id: "kaleidoscope_cookery:lettuce" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "763123E94464A5D3"
+			invisible: true
+			rewards: [{
+				id: "61C64FFA39695808"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67ED519DF05CC7F1"
+				item: { count: 1, id: "kaleidoscope_twilight:twilight_fern" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "63CA1EBAD2F23651"
+			invisible: true
+			rewards: [{
+				id: "7CFFD41FEA8807B4"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BC3BACD26294FBC"
+				item: { count: 1, id: "kaleidoscope_nether:crimson_fruit" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7BCAD9A8C18B9BF4"
+			invisible: true
+			rewards: [{
+				id: "2878F6E152CCCDF8"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6218897DABAB4FD4"
+				item: { count: 1, id: "kaleidoscope_nether:poisonous_fruit" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0049773F6A554100"
+			invisible: true
+			rewards: [{
+				id: "56B6D572E66714F6"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4EF2BC9811734AC0"
+				item: { count: 1, id: "kaleidoscope_nether:soul_pepper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "19CC8A10B81C4C8C"
+			invisible: true
+			rewards: [{
+				id: "69C83E8E7A409EF6"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "764F317DC5DF4706"
+				item: { count: 1, id: "kaleidoscope_nether:warped_fruit" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "21B9C2F4A55F4429"
+			invisible: true
+			rewards: [{
+				id: "1692FA3B1448B43E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF7F2D506C04601"
+				item: { count: 1, id: "flavor_immersed_daily:banana" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "3E5EA919B4774F17"
+			invisible: true
+			rewards: [{
+				id: "45D768C4BFD89C66"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7806F910B1F244AA"
+				item: { count: 1, id: "flavor_immersed_daily:bloodorange" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4226FDAB1233461F"
+			invisible: true
+			rewards: [{
+				id: "26A1F2FA1AFE5198"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CDF69890A08456E"
+				item: { count: 1, id: "flavor_immersed_daily:carambola" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "41EDE9A80AE24CEC"
+			invisible: true
+			rewards: [{
+				id: "1E82FF2A6D05F1BD"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "191E6064DE624B69"
+				item: { count: 1, id: "flavor_immersed_daily:dragonfruit" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "5413B77C21EB4D2D"
+			invisible: true
+			rewards: [{
+				id: "23C7A3721AE1BDF6"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "770F596ED752A401"
+				item: { count: 1, id: "flavor_immersed_daily:goldengrape" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6921D3940D4A48B3"
+			invisible: true
+			rewards: [{
+				id: "6CFBCF0D7141602D"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50BFA8AA0D6F66C3"
+				item: { count: 1, id: "flavor_immersed_daily:greenapple" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1BFC5B32F4CB0FF3"
+			invisible: true
+			rewards: [{
+				id: "6FC0F7B5D04CA69E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16F09D221CCC4364"
+				item: { count: 1, id: "flavor_immersed_daily:greenmango" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "60F73A999EBF441F"
+			invisible: true
+			rewards: [{
+				id: "083083CB115D41F4"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "257B1336C03EDE82"
+				item: { count: 1, id: "flavor_immersed_daily:hamimelon" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1656F00EF4FE30CA"
+			invisible: true
+			rewards: [{
+				id: "3D8659662CEBF5BF"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC1440703354C75"
+				item: { count: 1, id: "flavor_immersed_daily:hawthorn" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "52C320ACD3A248ED"
+			invisible: true
+			rewards: [{
+				id: "6B4A6356A1859D62"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7A451EB44AC2400E"
+				item: { count: 1, id: "flavor_immersed_daily:honeypeach" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1609CA2D73840DEC"
+			invisible: true
+			rewards: [{
+				id: "2789AB745BCB444A"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E41E5C584BD11FE"
+				item: { count: 1, id: "flavor_immersed_daily:kiwifruit" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "367C4CD0F3C4424B"
+			invisible: true
+			rewards: [{
+				id: "66ADF67B5CE66F17"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0BD00A515D954453"
+				item: { count: 1, id: "flavor_immersed_daily:lemon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "3E390AC00C624202"
+			invisible: true
+			rewards: [{
+				id: "457292BC0337BF61"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37C25A14739EA280"
+				item: { count: 1, id: "flavor_immersed_daily:lifepeach" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2A22E8DDACDB45EA"
+			invisible: true
+			rewards: [{
+				id: "1B64F76253D80276"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E10684184F1508A"
+				item: { count: 1, id: "flavor_immersed_daily:loquat" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6005AFAE90AB4661"
+			invisible: true
+			rewards: [{
+				id: "765E11FE54F7819A"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "586CC08DDDE94BD8"
+				item: { count: 1, id: "flavor_immersed_daily:lychee" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1A2032195307B5A2"
+			invisible: true
+			rewards: [{
+				id: "51541AAAC5E6FC13"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "207A278FCF014905"
+				item: { count: 1, id: "flavor_immersed_daily:mangosteen" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "5633906F3D3C43FB"
+			invisible: true
+			rewards: [{
+				id: "7511FD6F75B0058F"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "304A751F99946937"
+				item: { count: 1, id: "flavor_immersed_daily:nectarine" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "75207F4CF0FF647B"
+			invisible: true
+			rewards: [{
+				id: "02F8BB1BF8D93925"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "559289DDA4229322"
+				item: { count: 1, id: "flavor_immersed_daily:orange" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0B9FEDEE311C4A61"
+			invisible: true
+			rewards: [{
+				id: "620EFD5AD7118039"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "59010760EF184BF1"
+				item: { count: 1, id: "flavor_immersed_daily:pear" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "19F27800EBA70A50"
+			invisible: true
+			rewards: [{
+				id: "04423C96FD2B46D3"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "706F6DDE871FDA0C"
+				item: { count: 1, id: "flavor_immersed_daily:pineapple" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "07B444CFC98B048D"
+			invisible: true
+			rewards: [{
+				id: "0803190739102E18"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EFB243192D74ECD"
+				item: { count: 1, id: "flavor_immersed_daily:pistachionut" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "5757A0935807A82D"
+			invisible: true
+			rewards: [{
+				id: "679CB3261AF300BC"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E8413C87BD94F51"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/plum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "41CECA5C12C44505"
+			invisible: true
+			rewards: [{
+				id: "0BB9703D396B551E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FB7632B371FAE2E"
+				item: { count: 1, id: "flavor_immersed_daily:pomegranate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7F0C923AA9BEC444"
+			invisible: true
+			rewards: [{
+				id: "050C5822CFCAD80F"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "714ADF090D2D4A37"
+				item: { count: 1, id: "flavor_immersed_daily:reddate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6CE2FD0F1AE0441D"
+			invisible: true
+			rewards: [{
+				id: "6A482441C530EDDD"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0CACAE9ACF66428E"
+				item: { count: 1, id: "flavor_immersed_daily:sweetmelon" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "09DCE38EC4E945A2"
+			invisible: true
+			rewards: [{
+				id: "5E741155561B671A"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "117401CEB5904D4D"
+				item: { count: 1, id: "flavor_immersed_daily:sweetmelon_1" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0E31DFB302AE4322"
+			invisible: true
+			rewards: [{
+				id: "13CE3854399FF483"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "197B8D3983775277"
+				item: { count: 1, id: "flavor_immersed_daily:tangerine" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "01556899651D4098"
+			invisible: true
+			rewards: [{
+				id: "07C2B783D6C9080C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "395AB617CD474A0B"
+				item: { count: 1, id: "flavor_immersed_daily:tangerine_1" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4D757F339940944E"
+			invisible: true
+			rewards: [{
+				id: "3596356C5E096C93"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04467FB7204E924F"
+				item: { count: 1, id: "flavor_immersed_daily:uglyorange" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "21758781B64E4EE3"
+			invisible: true
+			rewards: [{
+				id: "31E3F893B78E8184"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "604736C2408A9466"
+				item: { count: 1, id: "flavor_immersed_daily:walnut" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "02ECE01D9E0141C1"
+			invisible: true
+			rewards: [{
+				id: "4FFB58D5B019BEB5"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "62AD5B0DEDCE43CF"
+				item: { count: 1, id: "flavor_immersed_daily:winterjujube" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "52C03089AEC14227"
+			invisible: true
+			rewards: [{
+				id: "459FFE9E1CF3ABEB"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D798BA20316403F"
+				item: { count: 1, id: "flavor_immersed_daily:temperatewildfruit" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0EBC505F004669FC"
+			invisible: true
+			rewards: [{
+				id: "1887D28158883012"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53B6F82AD7C189E9"
+				item: { count: 1, id: "flavor_immersed_daily:tropicalwild_fruit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1058B3B9B84FEDE9"
+			invisible: true
+			rewards: [{
+				id: "4E1A823B8C01CD19"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1440B721DBBA9390"
+				item: { count: 1, id: "flavor_immersed_daily:wildfruitincoldzone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "19C9119B872E3B00"
+			invisible: true
+			rewards: [{
+				id: "6C0FDAD31497AE6C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "679752AD116B4F40"
+				item: { count: 1, id: "flavor_immersed_daily:aniseed_0" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7D3F7052A7264CE4"
+			invisible: true
+			rewards: [{
+				id: "662E943291369021"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EDE0859ECF6DBC9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/eggplant)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "642F850DED4D4AFA"
+			invisible: true
+			rewards: [{
+				id: "4C71CE15245E1E7C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F1A6DFBEDCE2E2B"
+				item: { count: 1, id: "flavor_immersed_daily:beansprout" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "207C40B168F3C79E"
+			invisible: true
+			rewards: [{
+				id: "6898854F23BB7973"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F4549E3B9B74104"
+				item: { count: 1, id: "flavor_immersed_daily:blackfungus" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0EFB0D5897C84FD5"
+			invisible: true
+			rewards: [{
+				id: "11CF841B13418B37"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FEA5E94BCD34A34"
+				item: { count: 1, id: "flavor_immersed_daily:broccoil" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4557F18A1BCF750A"
+			invisible: true
+			rewards: [{
+				id: "38F7B6FAD90AD193"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "61861B31A7F772D7"
+				item: { count: 1, id: "flavor_immersed_daily:buckwheat" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "50F5352FC34C40AD"
+			invisible: true
+			rewards: [{
+				id: "27D098BCFAFC6AFF"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "114148886F274578"
+				item: { count: 1, id: "flavor_immersed_daily:cauliflower" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "50C9631573DF4C91"
+			invisible: true
+			rewards: [{
+				id: "4662DC3AFFBBB701"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4224C8F03A4CAB9C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/celery)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0EA91E6212B04EEB"
+			invisible: true
+			rewards: [{
+				id: "2AA40EB7741D50FE"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23BD079D116043AB"
+				item: { count: 1, id: "flavor_immersed_daily:chinesechives" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "5105347D7682BB43"
+			invisible: true
+			rewards: [{
+				id: "414400A490C7BDCE"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68CDE407808A4973"
+				item: { count: 1, id: "flavor_immersed_daily:chineseyam" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "18F84CCDAB2F4671"
+			invisible: true
+			rewards: [{
+				id: "3D229E6356611E48"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D2430007C514B75"
+				item: { count: 1, id: "flavor_immersed_daily:cowpea" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "53BA5BA1A67B4DC2"
+			invisible: true
+			rewards: [{
+				id: "77509D90568AAD27"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1563774F848B6F59"
+					item: { count: 1, id: "flavor_immersed_daily:cucumber" }
+					type: "item"
+				}
+				{
+					id: "75821010A61469BD"
+					item: { count: 1, id: "culturaldelights:cucumber" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44720A5ACDA1798B"
+					item: { count: 1, id: "gan_delight_reborn:cucumber" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "37BA194C7F049E81"
+			invisible: true
+			rewards: [{
+				id: "01928FA464B1F276"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B517D56B104D15"
+				item: { count: 1, id: "flavor_immersed_daily:cumin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "77DBC9E78CC344EC"
+			invisible: true
+			rewards: [{
+				id: "537663821F145DBA"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "750A5164403F4F0D"
+				item: { count: 1, id: "flavor_immersed_daily:enokimushroom" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "278D77869B8D9F1F"
+			invisible: true
+			rewards: [{
+				id: "6525F54BC1900FB8"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51D432BA71AC46B4"
+				item: { count: 1, id: "flavor_immersed_daily:fennel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "64C766847A9844F7"
+			invisible: true
+			rewards: [{
+				id: "4D3F261DAE7FDB5F"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0AFEA2A349575F5C"
+				item: { count: 1, id: "flavor_immersed_daily:fragrantmushroom" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "560FD5BCD7F2F4A7"
+			invisible: true
+			rewards: [{
+				id: "58FAB6D39EA8F209"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FF12F94FACE462D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/garlic)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "77F341BAB48544D0"
+			invisible: true
+			rewards: [{
+				id: "4E27E9EBC852A0C2"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6001E53278F8518A"
+				item: { count: 1, id: "flavor_immersed_daily:garlicpedicel" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "378BD6E5843B43DD"
+			invisible: true
+			rewards: [{
+				id: "75A07B1FA00C5EA3"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BD672EE7EBE0C10"
+				item: { count: 1, id: "flavor_immersed_daily:greenpepper" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "361FFCB43AED4F17"
+			invisible: true
+			rewards: [{
+				id: "3FEE69B27D88824C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08F1A8ECA77D6A92"
+				item: { count: 1, id: "flavor_immersed_daily:gumbo" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1FDD8EAAC82B4809"
+			invisible: true
+			rewards: [{
+				id: "5EF62A91C9B303F4"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F6C13CB25FB413D"
+				item: { count: 1, id: "flavor_immersed_daily:kaolianggrain" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "391A2BA6AEAFD5EA"
+			invisible: true
+			rewards: [{
+				id: "1F86CED6F4EAA9C5"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5608493C81AC408E"
+				item: { count: 1, id: "flavor_immersed_daily:kidneybean" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1148AFE0C5BE4D8A"
+			invisible: true
+			rewards: [{
+				id: "2B3E7B2B9D34F85F"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D523FABC7A84763"
+				item: { count: 1, id: "flavor_immersed_daily:loofah" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "19BF522160D34BBE"
+			invisible: true
+			rewards: [{
+				id: "47EC034D89257449"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21E70210F49C488A"
+				item: { count: 1, id: "flavor_immersed_daily:mungbean" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6360445961B435B4"
+			invisible: true
+			rewards: [{
+				id: "3855F31F3916CD0C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AAF711FDCFCB8DE"
+				item: { count: 1, id: "flavor_immersed_daily:oat" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6F9E4636D73B4AF9"
+			invisible: true
+			rewards: [{
+				id: "41E315C6E53F9001"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79E439ECE1284E37"
+				item: { count: 1, id: "flavor_immersed_daily:oilseedrape" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "3B954674FDFAF528"
+			invisible: true
+			rewards: [{
+				id: "6A2C4D1ECD3B8E22"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1788CF1F09957759"
+				item: { count: 1, id: "flavor_immersed_daily:paddygrain" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "3AB1499562D0D9BD"
+			invisible: true
+			rewards: [{
+				id: "10847D817C534B1C"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CB00D23A2548F0"
+				item: { count: 1, id: "flavor_immersed_daily:pea" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "77341B165869416C"
+			invisible: true
+			rewards: [{
+				id: "0982295718CCBB7A"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5804021B60D93231"
+				item: { count: 1, id: "flavor_immersed_daily:pleurotuseryngii" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "3EE2BA6288ED4C06"
+			invisible: true
+			rewards: [{
+				id: "4C22C4F56A61CAB3"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2317643045B01DF4"
+				item: { count: 1, id: "flavor_immersed_daily:polishedglutinousrice_2" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "085E4A5BC26A4FCF"
+			invisible: true
+			rewards: [{
+				id: "68FB19899FA66913"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FBA5245484A633F"
+				item: { count: 1, id: "flavor_immersed_daily:purplesweetpotato" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "076A7B9BFBD43154"
+			invisible: true
+			rewards: [{
+				id: "0ED2DC25F2768F90"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26D27CF16ACC4CD1"
+				item: { count: 1, id: "flavor_immersed_daily:red_bean_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "384C821A6206C01D"
+			invisible: true
+			rewards: [{
+				id: "64120D1CC592A4F7"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D21E360272847C6"
+				item: { count: 1, id: "flavor_immersed_daily:redrepper" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "384FCA10EC4649EF"
+			invisible: true
+			rewards: [{
+				id: "1BF080CD5C060086"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D8AEBDD1B474B1C"
+				item: { count: 1, id: "flavor_immersed_daily:sacllion" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "62563665644BD75A"
+			invisible: true
+			rewards: [{
+				id: "6D61D3787916D222"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "05E891D0E5E4CE92"
+				item: { count: 1, id: "flavor_immersed_daily:spinach" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6F508C9F64E74FB7"
+			invisible: true
+			rewards: [{
+				id: "1E524F60839AB420"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33172D2FEE8B4F06"
+				item: { count: 1, id: "flavor_immersed_daily:sweetgreenpepper" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "5A097B824AAB34CA"
+			invisible: true
+			rewards: [{
+				id: "4AE6FB50862B3848"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38CEF8EF0814C435"
+				item: { count: 1, id: "flavor_immersed_daily:tremella" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "04AE63144F2D4D47"
+			invisible: true
+			rewards: [{
+				id: "25A5131014A28923"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30FA488CDEDE4D7A"
+				item: { count: 1, id: "flavor_immersed_daily:zucchini" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6B49BC3228813B56"
+			invisible: true
+			rewards: [{
+				id: "63FA798FA19AFFE7"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3418F1D2EB801DDC"
+				item: { count: 1, id: "flavor_immersed_daily:blueberry" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2B3E163C294655EC"
+			invisible: true
+			rewards: [{
+				id: "5C3AC67A97E50595"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "392339837C7C4F20"
+				item: { count: 1, id: "flavor_immersed_daily:chineseleaves" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "18E24BA6764E4BF6"
+			invisible: true
+			rewards: [{
+				id: "5BB06B568F9C36A5"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75D43A1AA21B45DC"
+				item: { count: 1, id: "flavor_immersed_daily:cassava" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "449D94FCBBB8AC91"
+			invisible: true
+			rewards: [{
+				id: "087A4979AFC25CD7"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C7983B6683E95F5"
+				item: { count: 1, id: "kaleidoscope_cookery:red_chili" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "022DDE4458AC4B1B"
+			invisible: true
+			rewards: [{
+				id: "1C965B97D7FFC237"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40201C0A3BFCE8AB"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/corn)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6247658033DE4302"
+			invisible: true
+			rewards: [{
+				id: "2968E054A6317CAC"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5E92340000234A38"
+				item: { count: 1, id: "flavor_immersed_daily:grape" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "31601421107D4F32"
+			invisible: true
+			rewards: [{
+				id: "556584BA2A0899B1"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3134935D941E4E99"
+				item: { count: 1, id: "flavor_immersed_daily:greengrape" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7650FD8BE7B25404"
+			invisible: true
+			rewards: [{
+				id: "6F1AADE3DB2FA150"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29340D060D434973"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/lotus_root)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6CA6DDDA0BE34019"
+			invisible: true
+			rewards: [{
+				id: "684322EF16DAB2F0"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B1FB28C17674526"
+				item: { count: 1, id: "flavor_immersed_daily:millet_grain" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2641B055A0C34FA2"
+			invisible: true
+			rewards: [{
+				id: "7E01A8BE7F8A12A2"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "242306A1BFA74F34"
+				item: { count: 1, id: "flavor_immersed_daily:mulberry" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "766BA35CF5C74EBB"
+			invisible: true
+			rewards: [{
+				id: "6690D92395D9F468"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "322817C08BB4BD07"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1FC085CC603D49F3"
+			invisible: true
+			rewards: [{
+				id: "40257B3C74769828"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71688F3AB46D4985"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/peanut)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2F7774E1A4E94E0A"
+			invisible: true
+			rewards: [{
+				id: "1441C5D66989F68E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E1B41BBF7D43D3"
+				item: { count: 1, id: "flavor_immersed_daily:radish" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4122B3544747452F"
+			invisible: true
+			rewards: [{
+				id: "5500EDCA3C3C9454"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "39BA7BD5BBB66F16"
+				item: { count: 1, id: "flavor_immersed_daily:soybean" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0D66B9EFB78B4E6D"
+			invisible: true
+			rewards: [{
+				id: "0DECED97F4361E70"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02AA4C7CC0F44213"
+				item: { count: 1, id: "flavor_immersed_daily:strawberry" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4EC7A159DCBD44E4"
+			invisible: true
+			rewards: [{
+				id: "340A009F15DFD4B8"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4778B11E6456918F"
+				item: { count: 1, id: "gan_delight_reborn:sweet_potato" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7D860D611D194C9C"
+			invisible: true
+			rewards: [{
+				id: "790880166DDF9B70"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10F1C4DD722A2D17"
+					item: { count: 1, id: "farmersdelight:tomato" }
+					type: "item"
+				}
+				{
+					id: "6A28A553917D142B"
+					item: { count: 1, id: "kaleidoscope_cookery:tomato" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "312A9763D03E4171"
+			invisible: true
+			rewards: [{
+				id: "6A8C24B820E30DBC"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6C592C52259D4507"
+				item: { count: 1, id: "moderndelight:black_truffle" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "615F980FB5A46CA5"
+			invisible: true
+			rewards: [{
+				id: "4DC9EEB16AA99B0E"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "112DF816621F46E1"
+				item: { count: 1, id: "moderndelight:turnip" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "432905C644E9B57C"
+			invisible: true
+			rewards: [{
+				id: "7F5F07650C741F5B"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58E25DBF4DF943F1"
+				item: { count: 1, id: "gan_delight_reborn:waterchestnu" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4CD1955C44B65496"
+			invisible: true
+			rewards: [{
+				id: "6B591BEA57D9F704"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "196D64E9F54BA0B5"
+				item: { count: 1, id: "flavor_immersed_daily:whitemushroom" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "009B1516B8084105"
+			invisible: true
+			rewards: [{
+				id: "69634994692B0E14"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5377616D02A542C0"
+				item: { count: 1, id: "flavor_immersed_daily:apricot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "6BEA7AB46F34D42D"
+			invisible: true
+			rewards: [{
+				id: "5A9B8BE9B13AA4F9"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C0D965D4C9B4F93"
+				item: { count: 1, id: "culturaldelights:avocado" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "523500B93FF5FACE"
+			invisible: true
+			rewards: [{
+				id: "1E11651C69AA4ADF"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26370205CE8E607C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/cherry)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1C3706BFDA6A1232"
+			invisible: true
+			rewards: [{
+				id: "1B8854222B915AE1"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "772564BEB67A40A6"
+				item: { count: 1, id: "flavor_immersed_daily:coconut" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "7FD7DA11F06DFDD0"
+			invisible: true
+			rewards: [{
+				id: "4BD376837D68B7A7"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7794D78662414872"
+				item: { count: 1, id: "gan_delight_reborn:dates" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "2436E0AF53B7D24F"
+			invisible: true
+			rewards: [{
+				id: "7A562D8574E68211"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DFC2628A2348633"
+				item: { count: 1, id: "flavor_immersed_daily:durian" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "3FC39933E0E4ECFC"
+			invisible: true
+			rewards: [{
+				id: "5636B5CA0928DC90"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C1007C3748EAD19"
+				item: { count: 1, id: "flavor_immersed_daily:mango" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4AE1C073ACFF4F7E"
+			invisible: true
+			rewards: [{
+				id: "7D4947D9F651AF24"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "70472EB450D85F9E"
+				item: { count: 1, id: "flavor_immersed_daily:pawpaw" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "1E3E7C27F2724C35"
+			invisible: true
+			rewards: [{
+				id: "799A3F4273F2F942"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DFF2872DD1681CF"
+				item: { count: 1, id: "flavor_immersed_daily:yellowpeach" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0256EF651CA7ACB5"
+			invisible: true
+			rewards: [{
+				id: "4053206C8EF75721"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3FC768BED22C0ACA"
+				item: { count: 1, id: "gan_delight_reborn:scallion" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			id: "1636E7B782FBEACE"
+			invisible: true
+			rewards: [{
+				id: "7BEBC464ED79B8D8"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17CCAD68E39F22F1"
+				item: { count: 1, id: "gan_delight_reborn:salt_and_pepper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3DF8D983371C2295"
+			rewards: [
+				{
+					id: "3CD1FF7618C669DC"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:straw_hat_flower"
+					}
+					type: "item"
+				}
+				{
+					id: "72FECEEE38DA30CD"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:farmer_chest_plate"
+					}
+					type: "item"
+				}
+				{
+					id: "50FF6F64C1AAD6CF"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:farmer_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "384CCBFC5C532D71"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:farmer_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				count: 5L
+				id: "692488AB89650DD0"
+				item: { count: 1, id: "trailblazer:token_of_abundance" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "077B8F318AFE0F31"
+			rewards: [{
+				count: 64
+				id: "23CA3AB812DC1620"
+				item: {
+					count: 1
+					id: "farmersdelight:rich_soil_farmland"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				count: 10L
+				id: "7885240D793FAC0A"
+				item: { count: 1, id: "trailblazer:token_of_abundance" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "444FFCF7B6AF1B95"
+			rewards: [
+				{
+					id: "1B3E3B922BCCBB9F"
+					item: {
+						count: 1
+						id: "gan_delight_reborn:elias"
+					}
+					type: "item"
+				}
+				{
+					id: "70D3F9EA27B5970D"
+					item: {
+						count: 1
+						id: "gan_delight_reborn:elias_2"
+					}
+					type: "item"
+				}
+				{
+					id: "571F46F145F0C067"
+					item: {
+						count: 1
+						id: "excessive_utilities:reinforced_watering_can"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				count: 20L
+				id: "4C1946D2680B3F37"
+				item: { count: 1, id: "trailblazer:token_of_abundance" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "33E2C58B36E23617"
+			rewards: [
+				{
+					id: "1D424A5E259F4EDF"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "2FF0875875C2972B"
+					item: {
+						count: 1
+						id: "kaleidoscope_cookery:netherite_kitchen_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "2C16D8A808E08A4D"
+					item: {
+						count: 1
+						id: "cookingforblockheads:crafting_book"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "53240769B4AEE1C7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				count: 40L
+				id: "750B152F3EE3DD6A"
+				item: { count: 1, id: "trailblazer:token_of_abundance" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7CD5DE755A53C1DB"
+			rewards: [
+				{
+					id: "1386230CF65F39A6"
+					item: {
+						components: {
+							"excessive_utilities:angel_ring_type": "butterfly"
+						}
+						count: 1
+						id: "excessive_utilities:angel_ring"
+					}
+					type: "item"
+				}
+				{
+					id: "431DB67DF23059B7"
+					item: {
+						components: {
+							"excessive_utilities:angel_ring_type": "feather"
+						}
+						count: 1
+						id: "excessive_utilities:angel_ring"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				count: 80L
+				id: "1352EC139C0DEA4E"
+				item: { count: 1, id: "trailblazer:token_of_abundance" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0405392D2F7D0C19"
+			rewards: [
+				{
+					id: "3878F47DC6FABB94"
+					item: {
+						count: 1
+						id: "primogemcraft:qwkwzg"
+					}
+					type: "item"
+				}
+				{
+					id: "61014FD5785F2B8C"
+					item: {
+						count: 1
+						id: "kaleidoscope_nether:everlasting_flame_steak"
+					}
+					type: "item"
+				}
+				{
+					id: "49C9E068FAF650C4"
+					item: {
+						count: 1
+						id: "avaritia:ultimate_stew"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				count: 120L
+				id: "6B9E18BFA730B577"
+				item: { count: 1, id: "trailblazer:token_of_abundance" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["601B49CF7CF3B85A"]
+			entity_vis_size: 1.0f
+			id: "542755609BA63DB7"
+			tasks: [{
+				id: "017D9065FD05C16A"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -16.5d
+		}
+	]
+}

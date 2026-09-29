@@ -1,0 +1,7 @@
+{
+  "parent": "create_connected:block/fan_catalyst/with_fire",
+  "textures": {
+    "base": "block/netherrack",
+    "fire": "block/campfire_fire"
+  }
+}

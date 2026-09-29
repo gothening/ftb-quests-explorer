@@ -1,0 +1,262 @@
+{
+	autofocus_id: "3DE47B13C353ED97"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "56b8c46dad78634f"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "betteradvancedtooltips:textures/font/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "56B8C46DAD78634F"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "2EDED18B2212702B"
+			tasks: [{
+				id: "3AACD98AC39A82FA"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "kaleidoscope_doll:textures/gui/computer.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42D0AF89B45F204D"
+			tasks: [{
+				id: "4AF1E2A16E50DF82"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/furnace_front"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "34F1BC8478F12914"
+			tasks: [{
+				id: "16AF6640A6D14585"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "2397677C570579A2"
+			rewards: [{
+				count: 4
+				id: "7717747E621C7778"
+				item: {
+					count: 1
+					id: "ftbquests:screen_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CF43030785A08B"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			id: "632FCB7CEFC13783"
+			tasks: [{
+				id: "368FC86177C032A6"
+				item: { count: 1, id: "minecraft:book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "53126FABD2445FDA"
+			rewards: [{
+				id: "6A31A5361790170C"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30BE0A1CBDE1F0B9"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/search.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "16EECA40C3771EC9"
+			tasks: [{
+				id: "362DAF84F81D609E"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2D90808CB71A7044"
+			tasks: [{
+				id: "7C6D01AAC0ED8525"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3DE47B13C353ED97"
+			tasks: [{
+				id: "618B11FC7DF56748"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "lychee:textures/gui/sprites/left_click.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "64A619683CD064F8"
+			tasks: [{
+				id: "7BC0584E513FEC87"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:textures/particle/speaker_sound.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7BED63639BA10A4C"
+			tasks: [{
+				id: "4D8BAEA5097F1196"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0F04F30F4A9951B0"
+			optional: true
+			tasks: [{
+				id: "40368E449960E846"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "55413B31AD6AFFF0"
+			optional: true
+			tasks: [{
+				id: "6BCABEF555933545"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "64D239CC6BD94166"
+			optional: true
+			tasks: [{
+				id: "44601DB4CD71DA31"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3DE47B13C353ED97"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:sky_stone_block"
+			}
+			id: "2C883A969A95CA01"
+			rewards: [{
+				id: "7285FF4BAD6D043F"
+				item: {
+					count: 1
+					id: "ae2:meteorite_compass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28C8447F979E07FC"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+	]
+}

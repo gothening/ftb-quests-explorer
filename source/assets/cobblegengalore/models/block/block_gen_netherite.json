@@ -1,0 +1,9 @@
+{
+  "parent": "cobblegengalore:block/template_block_gen",
+  "textures": {
+    "0": "cobblegengalore:block/netherite_side",
+    "1": "cobblegengalore:block/netherite_top",
+    "2": "cobblegengalore:block/netherite_bottom",
+    "particle": "cobblegengalore:block/netherite_side"
+  }
+}

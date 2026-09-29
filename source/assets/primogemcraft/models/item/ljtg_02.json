@@ -1,0 +1,15 @@
+{
+  "parent": "primogemcraft:custom/lajitong_gai_03",
+  "textures": {
+    "1": "primogemcraft:block/lajitong_gai_02",
+    "particle": "primogemcraft:item/lajitong_gai_02"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "primogemcraft:item/ljtg_02_0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gan_delight_reborn:block/seelias",
+    "up": "gan_delight_reborn:block/seelias",
+    "north": "gan_delight_reborn:block/srelys",
+    "east": "gan_delight_reborn:block/srelys",
+    "south": "gan_delight_reborn:block/srelys",
+    "west": "gan_delight_reborn:block/srelys",
+    "particle": "gan_delight_reborn:block/seelias"
+  },
+  "render_type": "solid"
+}

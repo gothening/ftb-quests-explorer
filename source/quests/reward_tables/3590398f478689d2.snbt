@@ -1,0 +1,27 @@
+{
+	id: "3590398F478689D2"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/gamerule fireDamage false"
+			id: "3B1F02D6B14BF19D"
+			type: "command"
+		}
+		{
+			command: "/gamerule drowningDamage false"
+			id: "465AEC9D7A129D47"
+			type: "command"
+		}
+		{
+			command: "/gamerule fallDamage false"
+			id: "515B5DE5E5B6D418"
+			type: "command"
+		}
+		{
+			command: "/gamerule freezeDamage false"
+			id: "3773B3E5548EFF17"
+			type: "command"
+		}
+	]
+}

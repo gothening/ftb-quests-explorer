@@ -1,6 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
+import {
+  resolveItemIconDetailed
+} from "../core/resolve/model-resolver.js";
 
 const EOCD_SIGNATURE = 0x06054b50;
 const CENTRAL_SIGNATURE = 0x02014b50;
@@ -259,7 +262,7 @@ export class MinecraftAssetResolver {
 }
 
 export class ResourceResolver {
-  constructor({ instanceRoot, minecraftVersion = "1.21.1" }) {
+  constructor({ instanceRoot, minecraftVersion = "1.21.1", assetRoots = [] }) {
     this.instanceRoot = path.resolve(instanceRoot);
     const resourcePackRoots = [
       ...this.enumerateResourcePacks(path.join(this.instanceRoot, "resourcepacks")),
@@ -267,7 +270,8 @@ export class ResourceResolver {
       ...this.enumerateResourcePacks(path.join(this.instanceRoot, "..", "..", "resourcepacks"))
     ];
     this.filesystem = new FilesystemAssetResolver([
-      ...resourcePackRoots
+      ...resourcePackRoots,
+      ...assetRoots
     ]);
     this.modJars = new ModJarAssetResolver(this.findModJars());
     this.minecraft = new MinecraftAssetResolver(this.instanceRoot, minecraftVersion);
@@ -317,24 +321,13 @@ export class ResourceResolver {
 
   resolveItemIcon(itemId) {
     if (this.itemIconCache.has(itemId)) return this.itemIconCache.get(itemId);
-    const parsed = parseResourceRef(itemId);
-    if (!parsed || !parsed.path) return null;
-    const candidates = [
-      `textures/item/${parsed.path}.png`,
-      `textures/block/${parsed.path}.png`
-    ];
-    for (const candidate of candidates) {
-      const resolved = this.resolveAsset(parsed.namespace, candidate);
-      if (resolved) {
-        this.itemIconCache.set(itemId, resolved);
-        return resolved;
-      }
-    }
-
-    const model = this.resolveItemModel(parsed.namespace, parsed.path, new Set());
-    const resolved = model ? this.resolveModelTexture(model, parsed.namespace, new Set()) : null;
+    const resolved = resolveItemIconDetailed(this, itemId).asset ?? null;
     this.itemIconCache.set(itemId, resolved);
     return resolved;
+  }
+
+  resolveItemIconDetails(itemId) {
+    return resolveItemIconDetailed(this, itemId);
   }
 
   readJsonAsset(namespace, resourcePath) {
@@ -434,6 +427,6 @@ export class ResourceResolver {
   }
 }
 
-export function createResourceResolver(instanceRoot, minecraftVersion) {
-  return new ResourceResolver({ instanceRoot, minecraftVersion });
+export function createResourceResolver(instanceRoot, minecraftVersion, options = {}) {
+  return new ResourceResolver({ instanceRoot, minecraftVersion, ...options });
 }

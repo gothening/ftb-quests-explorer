@@ -1,0 +1,199 @@
+{
+	id: "0E28CBB725775811"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 64
+			id: "1606C775D8779246"
+			item: {
+				count: 1
+				id: "minecraft:tuff"
+			}
+		}
+		{
+			count: 64
+			id: "28AC13800C927179"
+			item: {
+				count: 1
+				id: "minecraft:bricks"
+			}
+		}
+		{
+			count: 64
+			id: "538A1245C61B1F78"
+			item: {
+				count: 1
+				id: "minecraft:stripped_spruce_wood"
+			}
+		}
+		{
+			count: 64
+			id: "2B883F831390EBA9"
+			item: {
+				count: 1
+				id: "minecraft:sandstone"
+			}
+		}
+		{
+			count: 64
+			id: "64A7D8787DBA7E85"
+			item: {
+				count: 1
+				id: "minecraft:red_sandstone"
+			}
+		}
+		{
+			count: 64
+			id: "6CCEE89A72E3B5DB"
+			item: {
+				count: 1
+				id: "minecraft:prismarine"
+			}
+		}
+		{
+			count: 64
+			id: "3B9D93C92814864B"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_bricks"
+			}
+		}
+		{
+			count: 64
+			id: "7F90F178665F6497"
+			item: {
+				count: 1
+				id: "minecraft:dark_prismarine"
+			}
+		}
+		{
+			count: 64
+			id: "2B3E99CC5C81F72A"
+			item: {
+				count: 1
+				id: "minecraft:netherrack"
+			}
+		}
+		{
+			count: 64
+			id: "401D60691F16AF95"
+			item: {
+				count: 1
+				id: "minecraft:cobbled_deepslate"
+			}
+		}
+		{
+			count: 64
+			id: "4306FD72D0AC1A7F"
+			item: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+		}
+		{
+			count: 64
+			id: "260566CC783B4879"
+			item: {
+				count: 1
+				id: "minecraft:dripstone_block"
+			}
+		}
+		{
+			count: 64
+			id: "10242C4E4527107F"
+			item: {
+				count: 1
+				id: "minecraft:calcite"
+			}
+		}
+		{
+			count: 64
+			id: "12FE82B33E807B14"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+		}
+		{
+			count: 64
+			id: "0BBC2011B3153D66"
+			item: {
+				count: 1
+				id: "minecraft:diorite"
+			}
+		}
+		{
+			count: 64
+			id: "263BBF4F081690C9"
+			item: {
+				count: 1
+				id: "minecraft:granite"
+			}
+		}
+		{
+			count: 64
+			id: "42AFA0CA06EF1401"
+			item: {
+				count: 1
+				id: "minecraft:smooth_stone"
+			}
+		}
+		{
+			count: 64
+			id: "64A97C6E2CBAC4B7"
+			item: {
+				count: 1
+				id: "minecraft:stone"
+			}
+		}
+		{
+			count: 64
+			id: "249211BCF7DCEE5D"
+			item: {
+				count: 1
+				id: "minecraft:blackstone"
+			}
+		}
+		{
+			count: 64
+			id: "22E6C02829C17F79"
+			item: {
+				count: 1
+				id: "minecraft:nether_bricks"
+			}
+		}
+		{
+			count: 64
+			id: "7E9922743DF1BC30"
+			item: {
+				count: 1
+				id: "minecraft:red_nether_bricks"
+			}
+		}
+		{
+			count: 64
+			id: "292C5C0980703BA9"
+			item: {
+				count: 1
+				id: "minecraft:end_stone"
+			}
+		}
+		{
+			count: 64
+			id: "7D1C79559B14275A"
+			item: {
+				count: 1
+				id: "minecraft:basalt"
+			}
+		}
+		{
+			count: 64
+			id: "3EDB37EA16A4A16B"
+			item: {
+				count: 1
+				id: "minecraft:purpur_block"
+			}
+		}
+	]
+}

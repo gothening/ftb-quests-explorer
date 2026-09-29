@@ -1,0 +1,10 @@
+{
+  "item.philiaamulet.philia_amulet": "友爱护符",
+  "item_group.philiaamulet": "友爱护符",
+  "item.philiaamulet.philia_amulet.tooltip": "佩戴时不再伤害到特定生物如村民和铁傀儡♪",
+  "item.philiaamulet.philia_amulet.tooltip2": "右击生物添加白名单，潜行右击将其撤出白名单",
+  "item.philiaamulet.message.added": "已添加",
+  "item.philiaamulet.message.removed": "已移除",
+  "item.philiaamulet.philia_amulet.whitelist_title": "白名单实体：",
+  "item.philiaamulet.philia_amulet.hold_shift": "按住 Shift 查看更多信息"
+}

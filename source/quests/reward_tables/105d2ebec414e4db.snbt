@@ -1,0 +1,119 @@
+{
+	id: "105D2EBEC414E4DB"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 64
+			id: "28906009EA5ED848"
+			item: {
+				count: 1
+				id: "minecraft:cherry_log"
+			}
+		}
+		{
+			count: 64
+			id: "4B60F2AD8ADAC88D"
+			item: {
+				count: 1
+				id: "minecraft:mangrove_log"
+			}
+		}
+		{
+			count: 64
+			id: "1638BEF1108468AA"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_log"
+			}
+		}
+		{
+			count: 64
+			id: "18E4B49EB8B873E6"
+			item: {
+				count: 1
+				id: "minecraft:acacia_log"
+			}
+		}
+		{
+			count: 64
+			id: "27FA2E576D984702"
+			item: {
+				count: 1
+				id: "minecraft:jungle_log"
+			}
+		}
+		{
+			count: 64
+			id: "05CB8147A7315C15"
+			item: {
+				count: 1
+				id: "minecraft:spruce_log"
+			}
+		}
+		{
+			count: 64
+			id: "5203261FF0A80AED"
+			item: {
+				count: 1
+				id: "minecraft:birch_log"
+			}
+		}
+		{
+			count: 64
+			id: "1BEC90A6B888C4E9"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 64
+			id: "01A3A42A826226A1"
+			item: {
+				count: 1
+				id: "minecraft:warped_stem"
+			}
+		}
+		{
+			count: 64
+			id: "0618DC603D4C5D4B"
+			item: {
+				count: 1
+				id: "minecraft:crimson_stem"
+			}
+		}
+		{
+			count: 64
+			id: "2DDC2176F104B324"
+			item: {
+				count: 1
+				id: "minecraft:bamboo_block"
+			}
+		}
+		{
+			count: 64
+			id: "43A5E6A967F0D703"
+			item: {
+				count: 1
+				id: "quark:blossom_log"
+			}
+		}
+		{
+			count: 64
+			id: "31DCF1601E3D2ECB"
+			item: {
+				count: 1
+				id: "quark:azalea_log"
+			}
+		}
+		{
+			count: 64
+			id: "14A241D2D69B43CA"
+			item: {
+				count: 1
+				id: "quark:ancient_log"
+			}
+		}
+	]
+}

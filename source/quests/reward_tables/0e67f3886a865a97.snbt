@@ -1,0 +1,53 @@
+{
+	id: "0E67F3886A865A97"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ id: "4FA262E1355E8571", item: { count: 1, id: "twilightforest:travellers_goggles" } }
+		{ id: "6536744638867037", item: { count: 1, id: "twilightforest:travellers_wings" } }
+		{ id: "3733BD779ACDC66C", item: { count: 1, id: "twilightforest:travellers_boots" } }
+		{ id: "5DD149752C5260EB", item: { components: { "twilightforest:has_travellers_gloves": { } }, count: 1, id: "twilightforest:travellers_vest" } }
+		{ id: "0FB129C19ABC50DC", item: { count: 1, id: "twilightforest:triple_bow" } }
+		{ id: "5C9595DC82FC2E13", item: { count: 1, id: "twilightforest:seeker_bow" } }
+		{ id: "56DB0E81D09E75B6", item: { count: 1, id: "twilightforest:ender_bow" } }
+		{ id: "518AE09F0CFD47B1", item: { count: 1, id: "twilightforest:ice_bow" } }
+		{ id: "207395F25D1BE1B1", item: { count: 1, id: "twilightforest:mystic_crown" } }
+		{ id: "00D971D27F16C1D8", item: { count: 1, id: "twilightforest:ore_magnet" } }
+		{ id: "5C6D359E98F4C5D4", item: { count: 1, id: "twilightforest:ore_meter" } }
+		{ id: "56C93E0B89B0D979", item: { count: 1, id: "twilightforest:pocket_watch" } }
+		{ id: "47D0463AB793AA61", item: { count: 1, id: "twilightforest:moon_dial" } }
+		{ id: "0C5364B064606DF0", item: { count: 1, id: "twilightforest:crumble_horn" } }
+		{ id: "14CAD59A52428405", item: { count: 1, id: "twilightforest:peacock_feather_fan" } }
+		{ id: "4AD2F0AC0F47ECCA", item: { count: 1, id: "twilightforest:moonworm_queen" } }
+		{
+			count: 10
+			id: "6B4A662BDE8E72E2"
+			item: {
+				count: 1
+				id: "twilightforest:essence_berry"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "6EC6384BAFAA493E"
+			item: {
+				count: 1
+				id: "twilightforest:uncrafting_table"
+			}
+			weight: 1.0E-7f
+		}
+		{ id: "1948E1AB572EBBF1", item: { count: 1, id: "twilightforest:block_and_chain" } }
+		{ id: "5E65E3F8D73B343D", item: { components: { "minecraft:stored_enchantments": { levels: { "twilightforest:destruction": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "73DCB813BC6B8802", item: { count: 1, id: "twilightforest:stale_bread" } }
+		{ id: "0E78D0057B43ACAE", item: { count: 1, id: "twilightforest:ice_sword" } }
+		{ id: "175CD491B50E5A10", item: { count: 1, id: "twilightforest:transformation_powder" } }
+		{
+			count: 4
+			id: "045E8310E335BDF1"
+			item: {
+				count: 1
+				id: "twilightforest:ice_bomb"
+			}
+		}
+	]
+}

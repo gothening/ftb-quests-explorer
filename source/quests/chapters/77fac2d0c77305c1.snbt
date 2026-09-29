@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77fac2d0c77305c1"
+	group: "387494013EF92831"
+	hide_quest_until_deps_complete: true
+	id: "77FAC2D0C77305C1"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54D53F1A8D6C6C7D"]
+			entity_vis_size: 1.0f
+			id: "1631AD10D929D98E"
+			rewards: [{
+				count: 2
+				id: "4ABB2AD5E4674B50"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_night_vision"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EDE48202BE17057"
+				structure: "#minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1631AD10D929D98E"]
+			entity_vis_size: 1.0f
+			id: "44F70C66E53045F5"
+			rewards: [{
+				count: 2
+				id: "06BE690D9B05A4CA"
+				item: {
+					count: 1
+					id: "minecraft:echo_shard"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "70FE31BF5D280CDC"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1631AD10D929D98E"]
+			entity_vis_size: 1.0f
+			id: "12F2731509402725"
+			rewards: [{
+				id: "66FBD57EFA8EAD70"
+				item: {
+					count: 1
+					id: "allthemodium:allthemodium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "115408FFF2755DC0"
+				item: { count: 1, id: "allthemodium:allthemodium_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:sculk_catalyst"
+			}
+			id: "54D53F1A8D6C6C7D"
+			rewards: [{
+				id: "2FED41238F9A2A7C"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "6ACF8C26A5D86366"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54D53F1A8D6C6C7D"]
+			entity_vis_size: 1.0f
+			id: "0F3CD9EBEE4225FD"
+			rewards: [{
+				count: 2
+				id: "7043A721E84BC12C"
+				item: {
+					count: 1
+					id: "minecraft:sculk"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "46B0819A00E2B7B0"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54D53F1A8D6C6C7D"]
+			entity_vis_size: 1.0f
+			id: "7FB1B9761F75702D"
+			rewards: [{
+				id: "737AEEF3F44F2789"
+				item: {
+					count: 1
+					id: "allthemodium:allthemodium_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C84C727870C6226"
+				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44D4711C7C280D36"]
+			entity_vis_size: 1.0f
+			id: "3639341FB297C6CE"
+			tasks: [{
+				id: "74FDD65CF4425E8C"
+				structure: "minecraft:mansion"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:dark_oak_log"
+			}
+			id: "44D4711C7C280D36"
+			rewards: [
+				{
+					id: "148389A2DABA84BE"
+					item: {
+						components: {
+							"sophisticatedstorage:wood_type": "dark_oak"
+						}
+						count: 1
+						id: "sophisticatedstorage:netherite_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "6B44BE8FA91A0613"
+					item: {
+						count: 1
+						id: "trailblazer:trailblaze_record"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				id: "4E813936B9D3E2FC"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			id: "19B33C9F36CD9593"
+			rewards: [{
+				id: "5D6FE85A14DC1F84"
+				item: {
+					count: 1
+					id: "minecraft:map"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/root"
+				criterion: ""
+				id: "78FCAE6D163EF416"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70A620F3139CC50A"]
+			entity_vis_size: 1.0f
+			id: "3D5F0AB9AD93615E"
+			tasks: [{
+				id: "1FBC5FBCC70DE5AA"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "flavor_immersed_daily:block/woodbasinwater"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4DB307C10C0996F5"
+			rewards: [{
+				id: "3D50E68ECF1E626F"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				id: "18C51E00A3BFE7AA"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "3463F2AD31C2B2BA"
+			rewards: [{
+				id: "5535A68F177C8CC7"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_desert"
+				id: "0EA3062142C57EF7"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:jungle_log"
+			}
+			id: "0EE8E7C436C2AD93"
+			rewards: [{
+				id: "3675CCB25097D121"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_jungle"
+				id: "0530BEACB88DD0A1"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4DB307C10C0996F5"]
+			entity_vis_size: 1.0f
+			id: "70A620F3139CC50A"
+			tasks: [{
+				biome: "#c:is_deep_ocean"
+				id: "31A0B48924CC71D3"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0EE8E7C436C2AD93"]
+			entity_vis_size: 1.0f
+			id: "2812302F6B9BA002"
+			tasks: [{
+				id: "497FD981B6480888"
+				structure: "minecraft:jungle_pyramid"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:spruce_log"
+			}
+			id: "67ADB06469EFA7C5"
+			rewards: [{
+				id: "010FFFE06B62FF1F"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_taiga"
+				id: "48C8BC460F8291CC"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "6132FFF68A490487"
+			rewards: [{
+				id: "3D6043E2F592CD60"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_forest"
+				id: "2BC96B33AE687785"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:vine"
+			}
+			id: "2AEF7DB8D485EDE6"
+			rewards: [{
+				id: "49845585F6296F1D"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_swamp"
+				id: "4557E7876E0E6D40"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:acacia_log"
+			}
+			id: "2FBD9AA411E30E00"
+			rewards: [{
+				id: "35A9155255951098"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_savanna"
+				id: "6BE6DED0C973DBB6"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/immersiveoverlays/windswept_gravelly_hills.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "14B976A7B483BB57"
+			rewards: [{
+				id: "4E269EAA3957D3B0"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_hill"
+				id: "26E4F3BB6102469B"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14B976A7B483BB57"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:cherry_leaves"
+			}
+			id: "5F37F34D4F22B532"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				id: "6DFD8FE3B3CE98AD"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:red_terracotta"
+			}
+			id: "4B083A0A5821D7AD"
+			rewards: [{
+				id: "379BD87F845DD367"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_badlands"
+				id: "44E18940433FED48"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:snowball"
+			}
+			id: "186D1F43F6B772E3"
+			rewards: [{
+				id: "3B66BA9EC47BCA57"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_snowy"
+				id: "507F6A4333A7A2EA"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/red_mushroom_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "68021E264E47D288"
+			rewards: [{
+				id: "4359F57880CB16A8"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_mushroom"
+				id: "349204081A6538F9"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3463F2AD31C2B2BA"]
+			entity_vis_size: 1.0f
+			id: "44F4740C025E94A9"
+			tasks: [{
+				id: "74A79ED3BAB7C3F7"
+				structure: "minecraft:desert_pyramid"
+				type: "structure"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19B33C9F36CD9593"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:flowering_azalea_leaves"
+			}
+			id: "2BF07D80085A0A5B"
+			rewards: [{
+				id: "360FC1CE7540C5F6"
+				item: {
+					count: 1
+					id: "trailblazer:trailblaze_record"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				id: "31E67B53759597B3"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3463F2AD31C2B2BA"]
+			entity_vis_size: 1.0f
+			id: "2F5FB8E726B48DDE"
+			tasks: [{
+				id: "087716AC2B062E1A"
+				structure: "idas:labyrinth"
+				type: "structure"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14B976A7B483BB57"]
+			entity_vis_size: 1.0f
+			id: "4F605229CA949A7D"
+			tasks: [{
+				id: "0D33CE7840008CEE"
+				structure: "idas:ancient_mines"
+				type: "structure"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3463F2AD31C2B2BA"]
+			entity_vis_size: 1.0f
+			id: "6743220099BA5A84"
+			tasks: [{
+				id: "3F897F5B1F76FA3D"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+	]
+}

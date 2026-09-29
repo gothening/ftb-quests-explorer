@@ -1,0 +1,249 @@
+{
+	autofocus_id: "07443A3474907A5A"
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	filename: "368c4ce56e4f20bc"
+	group: ""
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "368C4CE56E4F20BC"
+	images: [ ]
+	order_index: 0
+	quest_enhance_chapter_background: "trailblazer:textures/quests/as_we_trailblaze.png"
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xingqiong"
+			}
+			id: "07443A3474907A5A"
+			rewards: [
+				{
+					id: "2802E00E4ACB9B4F"
+					item: {
+						count: 1
+						id: "umapyoi:baseball_bat"
+					}
+					type: "item"
+				}
+				{
+					command: "/curios add back @s 2"
+					id: "78AA52EE5F8BA429"
+					type: "command"
+				}
+			]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				id: "776EB75E5DFF9AFC"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:zombie"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "54292271A50F1CB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "212EF639FC0B9777"
+				table_id: 6344035958991624316L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3E0C8EE7953402D8"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:armor_stand"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4B029A2373BB8A55"
+			rewards: [{
+				command: "/kill @e[type=item]"
+				id: "174AF7FA7AAB5D63"
+				type: "command"
+			}]
+			tasks: [{
+				id: "50D0E766708B8083"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/player_gray"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2413E32ABE8CE689"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/scoreboard objectives add death deathCount"
+					id: "2C345F8E6E463C67"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/scoreboard objectives setdisplay sidebar death"
+					id: "7F2D01A36F433BD8"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/root"
+					criterion: ""
+					id: "39CD48F69623703D"
+					type: "advancement"
+				}
+				{
+					id: "64EC933221DE2542"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "prefab:item/item_house"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "69EEDB0C3CF75E89"
+			rewards: [{
+				command: "/sethome"
+				id: "69E07E0969F72866"
+				type: "command"
+			}]
+			tasks: [{
+				id: "685F9C64B2CF4BED"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "prefab:item/item_house_improved"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0F5E6F166CADF691"
+			rewards: [{
+				command: "/home"
+				id: "2C095F3F5321D90A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "39EE6AAFCA1E08CA"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:textures/gui/sprites/book/page_backward.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "277D50EAB8A2F16E"
+			rewards: [{
+				command: "/back"
+				id: "4562D3F3672D5F06"
+				type: "command"
+			}]
+			tasks: [{
+				id: "09493B313EF321FE"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07443A3474907A5A"]
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/fire_0"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D15236DF4A16C29"
+			rewards: [{
+				command: "/gamerule doFireTick false"
+				id: "1EC80F98C4023C07"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3E8D63E35EA91544"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/faces/minecraft/phantom.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1763F5AB4D647A7D"
+			rewards: [{
+				command: "/gamerule doInsomnia false"
+				id: "4EB69189DFF04046"
+				type: "command"
+			}]
+			tasks: [{
+				id: "042597B561F3F7FB"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+}

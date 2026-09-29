@@ -1,0 +1,616 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "444ebdc4d1ef627c"
+	group: "387494013EF92831"
+	id: "444EBDC4D1EF627C"
+	images: [ ]
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: true
+			id: "3C626E598CBB7E05"
+			tasks: [{
+				id: "125E7FCC30655AF7"
+				stage: "1"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C626E598CBB7E05"]
+			entity_vis_size: 1.0f
+			id: "197DE26F7C31AA7E"
+			rewards: [
+				{
+					count: 10
+					id: "3B3213E75F1961C9"
+					item: {
+						count: 1
+						id: "primogemcraft:xingqiong"
+					}
+					type: "item"
+				}
+				{
+					id: "459598678807B42A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "59DE9454988A8282"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:element_powder)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A82E05839F83C08"
+					item: { count: 1, id: "primogemcraft:ysjsj" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2545872C3D5B0D49"
+					item: { count: 1, id: "primogemcraft:baitiekuang" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["197DE26F7C31AA7E"]
+			entity_vis_size: 1.0f
+			id: "279612CD311A2C1A"
+			rewards: [{
+				id: "4F5D0DA751883FDC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "47BE5610AB925335"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BE0CE8F7FF5B43E"
+					item: { count: 1, id: "minecraft:redstone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55B4FE75AE152126"
+					item: { count: 1, id: "minecraft:quartz" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0427B5C1DC049EB1"
+					item: { count: 1, id: "minecraft:glowstone_dust" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E258E0B062FA5F4"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6F2522327024E05B"
+			rewards: [
+				{
+					command: "/ftbechoes gamestage @s add gothening_l1_danheng_unlocked"
+					id: "6FAA39DD94EB96BC"
+					type: "command"
+				}
+				{
+					id: "541CB313CCF57C72"
+					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								echo_id: "gothening:chapter_2_danheng"
+								id: "ftbechoes:core"
+								worker_id: [I;
+									1307484398
+									-488944141
+									-1928602316
+									-571554784
+								]
+							}
+						}
+						count: 1
+						id: "ftbechoes:echo_projector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66D9CD25C8CF1332"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["197DE26F7C31AA7E"]
+			entity_vis_size: 1.0f
+			id: "552CEE81C1632104"
+			rewards: [{
+				id: "04ECAB00FF1659EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3390FB8BBEDE8A24"
+					item: { count: 1, id: "primogemcraft:mmola_01" }
+					type: "item"
+				}
+				{
+					id: "04FAD4A77C324E35"
+					item: { count: 1, id: "minecraft:stonecutter" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["552CEE81C1632104"]
+			entity_vis_size: 1.0f
+			id: "5A14314F9CE54D35"
+			rewards: [
+				{
+					id: "3F27570D335F333E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5AF8994C931EC053"
+					item: {
+						count: 1
+						id: "primogemcraft:jijiuchanzhiyuan"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43C82BFEC6824866"
+				item: { count: 1, id: "primogemcraft:yuanshi" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A14314F9CE54D35"]
+			entity_vis_size: 1.0f
+			id: "39FE3F84E6E33F75"
+			rewards: [{
+				id: "00D2D9E568CDFCD1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4D2713247B728365"
+					item: { count: 1, id: "primogemcraft:mllp" }
+					type: "item"
+				}
+				{
+					id: "5C70F6960241675A"
+					item: { count: 1, id: "primogemcraft:mllpzs" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19A9915B4AB816EC"
+					item: { count: 1, id: "primogemcraft:mllphj" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F52CEB65B0DAACC"
+					item: { count: 1, id: "primogemcraft:mllpwz" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1D5715AFC173EAF1"
+				"3C626E598CBB7E05"
+			]
+			entity_vis_size: 1.0f
+			id: "75D569500F79FA1B"
+			rewards: [{
+				id: "64F42FCDCE61435A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06CA651564D8D2C8"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75D569500F79FA1B"]
+			entity_vis_size: 1.0f
+			id: "17E47CF1DC3748B4"
+			rewards: [{
+				id: "021255E43F88D23D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2444CA4D7E9CDEF3"
+					item: { count: 1, id: "minecraft:blast_furnace" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B7DA6D09E4F1D10"
+					item: { count: 1, id: "minecraft:smoker" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "425D084ED5CCCACF"
+					item: { count: 1, id: "minecraft:cartography_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AD0235C3F4A00ED"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "54C4D51FAB64E207"
+					item: { count: 1, id: "minecraft:composter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A23FD03E46408ED"
+					item: { count: 1, id: "minecraft:barrel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "234B53B96FEFAA99"
+					item: { count: 1, id: "minecraft:fletching_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "160691C59E477F25"
+					item: { count: 1, id: "minecraft:cauldron" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6CAE16EA82BEBF58"
+					item: { count: 1, id: "minecraft:lectern" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DFD697E1A96D8BF"
+					item: { count: 1, id: "minecraft:stonecutter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0FD7F1B98214739F"
+					item: { count: 1, id: "minecraft:loom" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56CE82DB20F721E7"
+					item: { count: 1, id: "minecraft:smithing_table" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A32AD39ADB48771"
+					item: { count: 1, id: "minecraft:grindstone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4DA0F40AA3909F09"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B35EC763459B8BB"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17E47CF1DC3748B4"]
+			entity_vis_size: 1.0f
+			id: "756B119D5990ABC6"
+			rewards: [{
+				id: "30487918A08F9B25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:emerald"
+				}
+				id: "5E464567AE2579D4"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 50
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F2522327024E05B"]
+			entity_vis_size: 1.0f
+			id: "1D5715AFC173EAF1"
+			tasks: [{
+				id: "32F7D30943CDD125"
+				stage: "gothening_l1_danheng_complete"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D5715AFC173EAF1"]
+			entity_vis_size: 1.0f
+			id: "2142CC80423B1288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4899E36506D40479"
+				table_id: 3504009241940765542L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7557D70703FA63A7"
+				structure: "#minecraft:pillager_outpost"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2142CC80423B1288"]
+			entity_vis_size: 1.0f
+			id: "612CD89A632B5531"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05290F64A8020777"
+				table_id: 3504009241940765542L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F70BCF8B18C613E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:drinks/ominous)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["612CD89A632B5531"]
+			entity_vis_size: 1.0f
+			id: "4EBF357EFAD55DE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74832709000B0953"
+				table_id: 3504009241940765542L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "4AEBB90A384DE8A8"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4EBF357EFAD55DE5"]
+			entity_vis_size: 1.0f
+			id: "7F5D223553FEF566"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E91803804458DC2"
+				table_id: 3504009241940765542L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "tombstone:adventure/village_defender"
+				criterion: ""
+				id: "0DEDB4A8C465708E"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2FDB6F4DFF9ACC5B"
+			rewards: [
+				{
+					command: "/ftbechoes gamestage @s add gothening_l2_danheng_unlocked"
+					id: "156BFFB65DC6CA6F"
+					type: "command"
+				}
+				{
+					id: "1C38830B4387B3CD"
+					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								echo_id: "gothening:chapter_3_danheng"
+								id: "ftbechoes:core"
+								worker_id: [I;
+									-572680791
+									1148208447
+									-1592501322
+									745013722
+								]
+							}
+						}
+						count: 1
+						id: "ftbechoes:echo_projector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A0CE4021F60165D"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3DF6901C42EC2E14"
+			tasks: [{
+				id: "2905B957246D15E1"
+				stage: "gothening_l2_danheng_unlocked"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3DF6901C42EC2E14"]
+			entity_vis_size: 1.0f
+			id: "7AE51D1D68BA7A85"
+			rewards: [{
+				id: "1E060DD339AA6748"
+				item: {
+					count: 1
+					id: "twilightforest:magic_map_focus"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "66AC41344D0904B3"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7AE51D1D68BA7A85"]
+			entity_vis_size: 1.0f
+			id: "0ACA15C580ED7727"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "721ECFC67B255591"
+				table_id: 2766003341087500217L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02475B7A4BB1E93B"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0ACA15C580ED7727"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:beacon"
+			}
+			id: "7801F7E115E9034E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2373BA048F4B4027"
+				table_id: 2766003341087500217L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "67A67CCD71E2B7CB"
+					item: { count: 1, id: "minecraft:beacon" }
+					type: "item"
+				}
+				{
+					id: "2C83AC40F40C2B6F"
+					item: { count: 1, id: "twilightforest:castle_brick" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "3B95FFFFB48A4587"
+			rewards: [
+				{
+					id: "5DE419DCB98FE83F"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+				{
+					id: "1ACF010E08607608"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "3B5B9B3D7B4B34A5"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+	]
+}

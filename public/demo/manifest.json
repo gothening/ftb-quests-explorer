@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-27T17:25:25.003Z",
+  "generatedAt": "2026-09-29T16:34:40.734Z",
   "dataVersion": 13,
   "ftbQuestsVersion": "2101.1.34",
   "minecraftVersion": "1.21.1",
   "sourceInstance": "[开拓者日志]As we trailblaze",
-  "sourceQuestRoot": "config/ftbquests/quests",
+  "sourceQuestRoot": "source/quests",
   "locale": "zh_cn",
   "snbtFiles": 62,
   "chapters": 38,
@@ -14,7 +14,13 @@
   "questLinks": 14,
   "rewardTables": 20,
   "translations": 927,
-  "assets": 2027,
+  "assets": 2055,
+  "itemResolution": {
+    "items": 2007,
+    "resolved": 1847,
+    "missing": 160,
+    "invalid": 0
+  },
   "validation": {
     "errors": 2,
     "warnings": 3,

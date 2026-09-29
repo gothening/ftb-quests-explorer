@@ -14,6 +14,9 @@ import {
 import {
   createResourceResolver
 } from "./src/server/resource-resolver.js";
+import {
+  createItemResolver
+} from "./src/core/resolve/item-resolver.js";
 
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 const frontendRoot = path.join(projectRoot, "frontend");
@@ -58,19 +61,36 @@ function resolveBook(inputPath, locale, refresh = false) {
   if (cache.has(key)) return cache.get(key);
   const book = loadQuestBook(root, { locale });
   const validation = validate(book);
-  const model = buildViewerModel(book, validation, { locale });
+  const instanceRoot = detectInstanceRoot(book.metadata.root);
+  const resolver = createResourceResolver(
+    instanceRoot,
+    "1.21.1"
+  );
+  const itemResolver = createItemResolver(resolver, {
+    locale,
+    fallbackLocale: book.data?.fallbackLocale ?? "en_us"
+  });
+  const model = buildViewerModel(book, validation, { locale, itemResolver });
   const entry = {
     book,
     validation,
     model,
     index: createSearchIndex(model),
-    resolver: createResourceResolver(
-      model.metadata.instanceRoot ?? path.resolve(projectRoot, ".."),
-      model.metadata.minecraftVersion
-    )
+    resolver
   };
   cache.set(key, entry);
   return entry;
+}
+
+function detectInstanceRoot(questRoot) {
+  let current = path.resolve(questRoot);
+  for (let depth = 0; depth < 8; depth++) {
+    if (fs.existsSync(path.join(current, "mods"))) return current;
+    const parent = path.dirname(current);
+    if (parent === current) break;
+    current = parent;
+  }
+  return path.resolve(projectRoot, "..");
 }
 
 function binary(response, status, buffer, mime, source) {

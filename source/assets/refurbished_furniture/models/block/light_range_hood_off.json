@@ -1,0 +1,7 @@
+{
+  "parent": "refurbished_furniture:block/range_hood_off",
+  "textures": {
+    "particle": "refurbished_furniture:block/light_particle",
+    "texture": "refurbished_furniture:block/light_range_hood"
+  }
+}

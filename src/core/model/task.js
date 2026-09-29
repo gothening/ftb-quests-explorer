@@ -71,6 +71,7 @@ export class Task {
     this.type = isCompound(raw) ? readString(raw, "type", "item") : "unknown";
     this.optional = isCompound(raw) ? readBoolean(raw, "optional_task", false) : false;
     this.item = isCompound(raw) && raw.has("item") ? new ItemStack(raw.get("item")) : null;
+    this.icon = isCompound(raw) && raw.has("icon") ? new ItemStack(raw.get("icon")) : null;
     this.title = null;
     this.hasCustomTitle = false;
 
@@ -116,6 +117,7 @@ export class Task {
       type: this.type,
       optional: this.optional,
       item: this.item?.toJSON() ?? null,
+      icon: this.icon?.toJSON() ?? null,
       hasCustomTitle: this.hasCustomTitle,
       title: this.title?.toJSON() ?? null,
       sourceFile: this.sourceFile,

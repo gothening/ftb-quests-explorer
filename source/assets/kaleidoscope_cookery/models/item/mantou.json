@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "eatinganimation:item/mantou_eating_0",
+      "predicate": {
+        "eatinganimation:eat": 0.15,
+        "eatinganimation:eating": 1.0
+      }
+    },
+    {
+      "model": "eatinganimation:item/mantou_eating_1",
+      "predicate": {
+        "eatinganimation:eat": 0.3,
+        "eatinganimation:eating": 1.0
+      }
+    },
+    {
+      "model": "eatinganimation:item/mantou_eating_2",
+      "predicate": {
+        "eatinganimation:eat": 0.4,
+        "eatinganimation:eating": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "kaleidoscope_cookery:item/mantou"
+  }
+}

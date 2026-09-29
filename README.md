@@ -58,14 +58,19 @@ This is a read-only online preview of the current
 Generate the demo data from the live quest directory:
 
 ```text
+npm run sync:source
 npm run build:demo-data
 ```
 
-The script scans the parent instance, parses the data with FTBQ Core, resolves
-translations and assets, writes `public/demo/manifest.json`,
+`sync:source` is the only command that reads the live Minecraft instance. It
+copies the original SNBT tree into `source/quests/`, extracts only the
+referenced item models, textures, and language files into `source/assets/`, and
+writes `source/manifest.json` plus `source/assets/manifest.json`.
+
+`build:demo-data` reads `source/` only. It never reads the live Minecraft
+instance, writes `public/demo/manifest.json`, `public/demo/items/manifest.json`,
 `public/demo/view-model.json`, `public/demo/asset-map.json`, and the referenced
-images. It never writes to the Minecraft instance. A parse failure fails the
-build.
+images. This keeps GitHub Actions independent of the developer machine.
 
 Then build and preview the static site:
 
@@ -97,6 +102,11 @@ starts the static `dist/` output under `/ftb-quests-explorer/`, verifies that
 the manifest and model load, checks chapter selection and quest details,
 searches, diagnostics, item components, quest links, reward tables, and
 asserts that no `/api/` request or browser console error occurs.
+
+`npm run audit:icons` writes `reports/icon-audit.json` with the full
+`item id -> model -> texture -> status/reason` chain. Open
+`?iconDiagnostics=1` in the Viewer to show the same chain in task, reward, and
+quest tooltips.
 
 Normal Viewer rendering suppresses the `[Missing translation]` marker for
 true missing quest/chapter text and falls back to IDs or type names where

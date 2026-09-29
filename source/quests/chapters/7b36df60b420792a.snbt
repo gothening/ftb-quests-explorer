@@ -1,0 +1,736 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7b36df60b420792a"
+	group: "64455473278BA5BB"
+	hide_quest_until_deps_complete: true
+	id: "7B36DF60B420792A"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "6FD43E324F08ACE3"
+			tasks: [
+				{
+					id: "0B2E01E3ACF33E57"
+					item: { count: 1, id: "minecraft:sugar" }
+					type: "item"
+				}
+				{
+					id: "599537CD23463807"
+					item: { count: 1, id: "flavor_immersed_daily:brownsugar" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3DC6B0F960296D18"
+			tasks: [{
+				id: "35AF4F3DCE1D51EC"
+				item: { count: 1, id: "minecraft:egg" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "616E93FB41D71405"
+			tasks: [{
+				id: "1E19A62D1EC2D8A4"
+				item: { count: 1, id: "minecraft:milk_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "71F09EC1287B68C0"
+			tasks: [{
+				id: "5FD43F3407FA6744"
+				item: { count: 1, id: "prefab:item_bundle_of_timber" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "17CB8D1AF94BBD14"
+			tasks: [
+				{
+					id: "7DF4478C30E359BD"
+					item: { count: 1, id: "flavor_immersed_daily:paddygrain" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29E0882433A49E70"
+					item: { count: 1, id: "kaleidoscope_cookery:rice" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "769AB3E530C6867A"
+					item: { count: 1, id: "farmersdelight:rice" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7C45F51C9E1EF8F3"
+			tasks: [
+				{
+					id: "71CDA3D09E11C8A5"
+					item: { count: 1, id: "gan_delight_reborn:cook_oil" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AF558D5156491D4"
+					item: { count: 1, id: "rusticdelight:cooking_oil" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "50EEB7B6019B1902"
+			tasks: [
+				{
+					id: "4A0D3A8C2DF89A44"
+					item: { count: 1, id: "flavor_immersed_daily:salt" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65525E9A7F3837E8"
+					item: { count: 1, id: "gan_delight_reborn:salt" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F5886F3735DB779"
+					item: { count: 1, id: "mekanism:salt" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6031BD4F97489802"
+					item: { count: 1, id: "kaleidoscope_chinesefood:salt" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1635318D92746DCC"
+			tasks: [
+				{
+					id: "6D964070DE4918D3"
+					item: { count: 1, id: "flavor_immersed_daily:soy" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63846C7901E7BEDC"
+					item: { count: 1, id: "gan_delight_reborn:soy_sauce" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "401B432D1F6FBC7E"
+			tasks: [
+				{
+					id: "68EAF295FFC5EC6C"
+					item: { count: 1, id: "flavor_immersed_daily:vinegar" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "518764359C91F799"
+					item: { count: 1, id: "gan_delight_reborn:vinegar" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3A66D0689B3D6CB2"
+			tasks: [
+				{
+					id: "2E53F0DDD851B6A7"
+					item: { count: 1, id: "flavor_immersed_daily:icedblacktea" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1046D4285F9035C6"
+					item: { count: 1, id: "flavor_immersed_daily:redtea" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0201F728A159C34B"
+					item: { count: 1, id: "flavor_immersed_daily:greentea" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1635318D92746DCC"
+				"50EEB7B6019B1902"
+				"3A66D0689B3D6CB2"
+				"7C45F51C9E1EF8F3"
+				"401B432D1F6FBC7E"
+				"71F09EC1287B68C0"
+				"17CB8D1AF94BBD14"
+			]
+			entity_vis_size: 1.0f
+			id: "0FA650117B958BF9"
+			rewards: [{
+				id: "7AD013A9D0F00AA2"
+				item: {
+					count: 1
+					id: "prefab:item_modern_buildings_improved"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00D6729A01E9752E"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2774E104FF441A58"
+			tasks: [
+				{
+					id: "5A4DFD090872C738"
+					item: { count: 1, id: "moderndelight:butter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A85790DFC5FBC9D"
+					item: { count: 1, id: "flavor_immersed_daily:butter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B9DBE97CB649DF3"
+			tasks: [
+				{
+					id: "2A78C905189316E3"
+					item: { count: 1, id: "flavor_immersed_daily:cream" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6AA2558569880609"
+					item: { count: 1, id: "moderndelight:cream" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6664440818232493"
+			tasks: [
+				{
+					id: "635A8C6098A1E23A"
+					item: { count: 1, id: "moderndelight:black_pepper_corn" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "34B4C61EDC837325"
+					item: { count: 1, id: "gan_delight_reborn:black_pepper" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5DA2D7C2C7E14A6A"
+			tasks: [{
+				id: "47F8AF7AFE825B8A"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "08B7D6748FADEC17"
+			tasks: [{
+				id: "27801E921FC5D703"
+				item: { count: 1, id: "moderndelight:sea_salt" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "38C5107E3D85AFC5"
+			tasks: [{
+				id: "3F06C3CE362550D4"
+				item: { count: 1, id: "moderndelight:cheese" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "571B455129172C99"
+			tasks: [
+				{
+					id: "553C3BCA508A8F61"
+					item: { count: 1, id: "flavor_immersed_daily:wheatflour" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4232E5EAD1FE34FC"
+					item: { count: 1, id: "gan_delight_reborn:flour" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FCA1BB72DC72EAE"
+					item: { count: 1, id: "kaleidoscope_cookery:flour" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D9659B06C25FA91"
+					item: { count: 1, id: "create:wheat_flour" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"571B455129172C99"
+				"616E93FB41D71405"
+				"08B7D6748FADEC17"
+				"5DA2D7C2C7E14A6A"
+				"38C5107E3D85AFC5"
+				"2774E104FF441A58"
+				"6664440818232493"
+				"6FD43E324F08ACE3"
+				"7B9DBE97CB649DF3"
+				"3DC6B0F960296D18"
+				"559533C6B5446843"
+				"37EEA0EF781C3B28"
+				"7C840F43630B264B"
+				"6EF4AC62CD5485AD"
+			]
+			entity_vis_size: 1.0f
+			id: "1233D6E9CBBD349A"
+			rewards: [{
+				id: "148D0115781BADF0"
+				item: {
+					count: 1
+					id: "prefab:item_house_advanced"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5032E6EE4D731AFD"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "25F329B7D38840A2"
+			tasks: [{
+				id: "5E72934A0C90DE47"
+				item: { count: 1, id: "flavor_immersed_daily:onionpowder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "25C647C747505ECE"
+			tasks: [{
+				id: "7840C6DBE8BD64AB"
+				item: { count: 1, id: "flavor_immersed_daily:groundpowder" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2657AF569FC91E63"
+			tasks: [{
+				id: "5CE007B84EC63225"
+				item: { count: 1, id: "flavor_immersed_daily:garlicpowder" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "51DDA64DDDA4F56D"
+			tasks: [{
+				id: "2C11D2617CBE74E4"
+				item: { count: 1, id: "flavor_immersed_daily:chinesepicklyashpowder" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "00EA075E16A6D6B1"
+			tasks: [{
+				id: "01FFC14947C79053"
+				item: { count: 1, id: "flavor_immersed_daily:fennelpowder" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "38969186CBFE3151"
+			tasks: [{
+				id: "6FF2D780279759FC"
+				item: { count: 1, id: "flavor_immersed_daily:lilacpowder" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0A8BE49496580189"
+			tasks: [{
+				id: "46C43BDC1E053C75"
+				item: { count: 1, id: "flavor_immersed_daily:pepperedsalt" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "461ADE91545C0DE1"
+			tasks: [{
+				id: "13219D198AED1C5F"
+				item: { count: 1, id: "flavor_immersed_daily:aniseedpowder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4C5630AD3C8A3AA6"
+			tasks: [{
+				id: "248828478AFC2F50"
+				item: { count: 1, id: "flavor_immersed_daily:cinnamonpowder" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "61C393854228C9CE"
+			tasks: [{
+				id: "27FAA266C5413377"
+				item: { count: 1, id: "flavor_immersed_daily:chillipowder" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5560BDD5255E510D"
+			tasks: [{
+				id: "2110D1B536C4A742"
+				item: { count: 1, id: "flavor_immersed_daily:onionpowder_2" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "798C8D3096E762B1"
+			tasks: [{
+				id: "16AF9AFAFF0411D3"
+				item: { count: 1, id: "flavor_immersed_daily:cuminpowder" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "23D4F8793B6AF3FF"
+			tasks: [{
+				id: "154B51C6AFFA7205"
+				item: { count: 1, id: "flavor_immersed_daily:orleanspowder" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5A050BA1F6035493"
+			tasks: [{
+				id: "7B38A48746FAF6E1"
+				item: { count: 1, id: "flavor_immersed_daily:fivespicepowder" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0D31C8C943B9265A"
+			tasks: [{
+				id: "47D530E5E4A4D80C"
+				item: { count: 1, id: "flavor_immersed_daily:thickbroadbeansauce" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1DA34D44CA10283C"
+			tasks: [{
+				id: "6F2DB10F2BF495A8"
+				item: { count: 1, id: "flavor_immersed_daily:sweetflourasuve" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "23B8A714F9C44065"
+			tasks: [{
+				id: "50ACED9776BA2D1F"
+				item: { count: 1, id: "flavor_immersed_daily:halogenbag" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "712D38F1B2E68146"
+			tasks: [{
+				id: "017F3E148B4790F3"
+				item: { count: 1, id: "flavor_immersed_daily:majuice" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "761FA6A81AC9C9EC"
+			tasks: [
+				{
+					id: "532F013B6E0C4F57"
+					item: { count: 1, id: "flavor_immersed_daily:sesameoil" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B015C417D70A52E"
+					item: { count: 1, id: "gan_delight_reborn:sesame_oil" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "559533C6B5446843"
+			tasks: [{
+				id: "37E59B7422D6C434"
+				item: { count: 1, id: "flavor_immersed_daily:sesame" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6EF4AC62CD5485AD"
+			tasks: [{
+				id: "5E95A383DB1512EF"
+				item: { count: 1, id: "flavor_immersed_daily:curry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "37EEA0EF781C3B28"
+			tasks: [{
+				id: "05504477BE6CFF02"
+				item: { count: 1, id: "flavor_immersed_daily:cocoapowder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7DC9F36D7CF52056"
+			tasks: [{
+				id: "3CF3EDAD687AB969"
+				item: { count: 1, id: "flavor_immersed_daily:nahco_3" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7C840F43630B264B"
+			tasks: [{
+				id: "5D535749DD9F0160"
+				item: { count: 1, id: "rusticdelight:batter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "03EDE4CCEE6C061B"
+			tasks: [{
+				id: "01D13C45501D50A5"
+				item: { count: 1, id: "gan_delight_reborn:fish_soup" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "33D4F10DD9960413"
+			tasks: [{
+				id: "6AA7BB605D782D43"
+				item: { count: 1, id: "gan_delight_reborn:stock" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4C52025FE207025F"
+			tasks: [{
+				id: "27A5E59340390AE7"
+				item: { count: 1, id: "gan_delight_reborn:lobster_sauce" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "67B37F5C7FBE19AC"
+			tasks: [{
+				id: "60730C7863FD9003"
+				item: { count: 1, id: "gan_delight_reborn:soya_milk" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "58E22530687BD31B"
+			tasks: [{
+				id: "6BF58A81EBC21C6C"
+				item: { count: 1, id: "gan_delight_reborn:sweet_wine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "32591054E54C91CF"
+			tasks: [{
+				id: "465AB88321B0601A"
+				item: { count: 1, id: "gan_delight_reborn:lu_zhi" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+	]
+}

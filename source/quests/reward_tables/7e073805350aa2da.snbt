@@ -1,0 +1,104 @@
+{
+	id: "7E073805350AA2DA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 8
+			id: "6979CBD98ACED007"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{
+			count: 8
+			id: "0B9F7B20F96F0B03"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 8
+			id: "09E014EAB06870EC"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 16
+			id: "41FDA87C2E29CB08"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			id: "4E7E5697D1F96BAA"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 0.05f
+		}
+		{
+			count: 16
+			id: "5995B4493202F25D"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 32
+			id: "251CFF84B30C1A7E"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{
+			count: 32
+			id: "5E4C08905C1E5C6C"
+			item: {
+				count: 1
+				id: "minecraft:white_wool"
+			}
+		}
+		{
+			count: 16
+			id: "4C5E4005CEAB2058"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "010CF1DEF17E29D5"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{
+			count: 4
+			id: "0278FAD154A48B29"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+		}
+	]
+}

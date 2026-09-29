@@ -1,0 +1,9 @@
+{
+  "parent": "primogemcraft:custom/sanyuegaoqingban",
+  "textures": {
+    "all": "primogemcraft:block/sanyuediaoxiang",
+    "particle": "primogemcraft:block/jiuchanzhiyuan",
+    "0": "primogemcraft:block/sanyuediaoxiang"
+  },
+  "render_type": "solid"
+}

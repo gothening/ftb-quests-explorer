@@ -15,6 +15,7 @@ import {
   assetUrl,
   chapterIconUrl,
   configureResourceUrls,
+  itemIconUrl,
   questIconUrl,
   rewardIconUrl,
   shapeAsset,
@@ -34,6 +35,7 @@ let chapterFilter = "";
 let currentLayout = null;
 let referenceMenuType = null;
 let viewerMode = "local";
+let iconDiagnostics = false;
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -57,6 +59,7 @@ function init() {
   }
 
   viewerMode = resolveViewerMode();
+  iconDiagnostics = new URLSearchParams(window.location.search).get("iconDiagnostics") === "1";
   setMissingTranslationDiagnostics(
     new URLSearchParams(window.location.search).get("missingTranslations") === "1"
   );
@@ -598,7 +601,12 @@ function questTooltip(quest) {
     `${quest.rewards.length} rewards`,
     quest.settings?.optional ? "optional" : ""
   ].filter(Boolean);
-  return { title: quest.title ?? quest.id, subtitle: quest.subtitle, meta };
+  return {
+    title: quest.title ?? quest.id,
+    subtitle: quest.subtitle,
+    meta,
+    diagnostics: quest.icon?.resolution ?? null
+  };
 }
 
 function tooltipJson(data) {
@@ -615,11 +623,25 @@ function handleTooltipOver(event) {
   if (!target) return;
   try {
     const data = JSON.parse(target.dataset.tooltip);
+    const diagnostics = data.diagnostics
+      ? `
+        <div class="tooltip-diagnostics">
+          <div>Item: ${escapeHtml(data.diagnostics.itemId ?? "")}</div>
+          <div>Namespace: ${escapeHtml(data.diagnostics.namespace ?? "")}</div>
+          <div>Source: ${escapeHtml(data.diagnostics.sourceMod ?? "")}</div>
+          <div>Model: ${escapeHtml(data.diagnostics.modelPath ?? "")}</div>
+          <div>Texture: ${escapeHtml(data.diagnostics.texturePath ?? "")}</div>
+          <div>Status: ${escapeHtml(data.diagnostics.status ?? "")}</div>
+          ${data.diagnostics.reason ? `<div>Reason: ${escapeHtml(data.diagnostics.reason)}</div>` : ""}
+        </div>
+      `
+      : "";
     el.tooltip.innerHTML = `
       <div class="tooltip-title">${renderTextValue(data.title)}</div>
       ${data.subtitle ? `<div class="tooltip-subtitle">${renderTextValue(data.subtitle)}</div>` : ""}
       ${(data.meta ?? []).map((line) => `<div class="tooltip-meta">${escapeHtml(line)}</div>`).join("")}
       ${data.item ? `<div class="tooltip-item">${escapeHtml(data.item)}</div>` : ""}
+      ${iconDiagnostics ? diagnostics : ""}
     `;
     const viewportRect = el.questViewport.getBoundingClientRect();
     el.tooltip.style.left = `${Math.max(0, Math.min(viewportRect.width - 220, event.clientX - viewportRect.left + 12))}px`;
@@ -736,7 +758,8 @@ function renderTaskButton(task) {
     ].filter(Boolean),
     item: task.item?.components && Object.keys(task.item.components).length > 0
       ? `components: ${Object.keys(task.item.components).length}`
-      : ""
+      : "",
+    diagnostics: task.item?.resolution ?? null
   };
   return `
     <button type="button" class="ftbq-task-button" data-task-id="${escapeHtml(task.id)}" data-tooltip="${tooltipJson(tooltip)}">
@@ -756,7 +779,8 @@ function renderRewardButton(reward) {
       reward.type,
       reward.item?.id ? `item: ${reward.item.id}` : "",
       reward.rewardTableId ? `table: ${reward.rewardTableId}` : ""
-    ].filter(Boolean)
+    ].filter(Boolean),
+    diagnostics: reward.item?.resolution ?? null
   };
   return `
     <button type="button" class="ftbq-reward-button"
@@ -811,11 +835,12 @@ function renderSearchResults() {
     return;
   }
   el.searchResults.innerHTML = results.map((result) => `
-    <div class="ftbq-list-entry"
+    <div class="ftbq-list-entry${result.itemId ? " has-icon" : ""}"
       data-quest-id="${result.questId ? escapeHtml(result.questId) : ""}"
       data-chapter-id="${result.chapterId ? escapeHtml(result.chapterId) : ""}">
+      ${result.itemId ? `<img class="ftbq-list-icon" src="${escapeHtml(result.iconRef ? assetUrl(result.iconRef) : itemIconUrl(result.itemId))}" alt="">` : ""}
       <div class="ftbq-list-kind">${escapeHtml(result.kind)}</div>
-      <div class="ftbq-list-match">${escapeHtml(result.label)}<br><span>${escapeHtml(result.match)}</span></div>
+      <div class="ftbq-list-match">${escapeHtml(result.label)}${result.displayName && result.displayName !== result.label ? `<br><span>${escapeHtml(result.displayName)}</span>` : ""}<br><span>${escapeHtml(result.match)}</span></div>
     </div>
   `).join("");
 }

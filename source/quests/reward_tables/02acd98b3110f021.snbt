@@ -1,0 +1,14 @@
+{
+	id: "02ACD98B3110F021"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "70A08418F8238597", item: { count: 1, id: "minecraft:axolotl_spawn_egg" } }
+		{ id: "524AD5178C18C4A8", item: { count: 1, id: "minecraft:cat_spawn_egg" } }
+		{ id: "7766C320EEC2CF86", item: { count: 1, id: "minecraft:fox_spawn_egg" } }
+		{ id: "12EA47832E2B7292", item: { count: 1, id: "minecraft:panda_spawn_egg" } }
+		{ id: "3CDC3815A62FDB00", item: { count: 1, id: "minecraft:parrot_spawn_egg" } }
+		{ id: "52C7BA32D6DFE7C7", item: { count: 1, id: "minecraft:rabbit_spawn_egg" } }
+		{ id: "521CF2601AE18706", item: { count: 1, id: "minecraft:wolf_spawn_egg" } }
+	]
+}

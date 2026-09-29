@@ -1,0 +1,30 @@
+{
+	id: "0F7CED0D73039047"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "3D6D470D411ED83C", item: { components: { "minecraft:potion_contents": { potion: "minecraft:healing" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "3AAB7FA6F086B984", item: { components: { "minecraft:potion_contents": { potion: "minecraft:water_breathing" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "29C5FA0F8BB84AB3", item: { components: { "minecraft:potion_contents": { potion: "minecraft:swiftness" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "03CC4DAE55F52F9E", item: { components: { "minecraft:potion_contents": { potion: "minecraft:fire_resistance" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "6D852E67F448BE71", item: { components: { "minecraft:potion_contents": { potion: "minecraft:leaping" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "3DADEB14EC54DB92", item: { components: { "minecraft:potion_contents": { potion: "minecraft:invisibility" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "5F5B6AFD3286E2EF", item: { components: { "minecraft:potion_contents": { potion: "minecraft:night_vision" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "69A0A7BE559824CC", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "4D0CB4CBFBBD5FF3", item: { components: { "minecraft:potion_contents": { potion: "alexsmobs:speed_iii" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "34010E05E0E17A6B", item: { components: { "minecraft:potion_contents": { potion: "alexsmobs:knockback_resistance" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "32A56A5F903AE810", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "2198E4B3FD8B1179", item: { components: { "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "25D9863EE0DF7A2D", item: { components: { "minecraft:potion_contents": { potion: "minecraft:luck" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "7C89BE916B9B39E7", item: { components: { "minecraft:potion_contents": { potion: "minecraft:strength" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "744E9DDBFA63A853", item: { components: { "minecraft:potion_contents": { potion: "minecraft:infested" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "1DF600ABE0EA4486", item: { components: { "minecraft:potion_contents": { potion: "minecraft:turtle_master" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "3DD54CE25448F4B4", item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_healing" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "61A533F4110D0BA0", item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_harming" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "4FF609A051C2D3B6", item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_poison" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "5FBB37A45A492232", item: { components: { "minecraft:potion_contents": { potion: "minecraft:long_weakness" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "57EEBEEE8C344677", item: { components: { "minecraft:potion_contents": { potion: "minecraft:wind_charged" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "3D5BF426183C966A", item: { components: { "minecraft:potion_contents": { potion: "minecraft:weaving" } }, count: 1, id: "minecraft:splash_potion" } }
+		{ id: "3D7254B015B970F2", item: { components: { "minecraft:potion_contents": { potion: "minecraft:oozing" } }, count: 1, id: "minecraft:splash_potion" } }
+	]
+}

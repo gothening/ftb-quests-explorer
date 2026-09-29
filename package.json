@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "node dev-server.mjs",
     "start": "node dev-server.mjs",
+    "sync:source": "node tools/sync-source.mjs",
     "build:demo-data": "node tools/build-online-demo.mjs",
-    "build:demo-data:ci": "node tools/build-online-demo.mjs --reuse-existing",
+    "build:demo-data:ci": "node tools/build-online-demo.mjs",
     "build:static": "node tools/build-static.mjs",
     "build": "npm run build:demo-data && npm run build:static",
     "preview": "node tools/preview-static.mjs",
@@ -18,6 +19,7 @@
     "test:viewer": "node --test tests/viewer/*.test.mjs",
     "smoke:viewer": "node tools/viewer-smoke.mjs",
     "smoke:online": "node tools/smoke-online.mjs",
+    "audit:icons": "node tools/icon-audit.mjs",
     "audit": "node tools/audit-snbt.mjs ..\\config\\ftbquests\\quests --out tools\\audit-summary.json",
     "roundtrip": "node tools/roundtrip-check.mjs ..\\config\\ftbquests\\quests",
     "verify": "node tools/phase1-verify.mjs ..\\config\\ftbquests\\quests"

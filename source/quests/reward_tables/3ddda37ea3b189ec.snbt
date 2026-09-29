@@ -1,0 +1,82 @@
+{
+	id: "3DDDA37EA3B189EC"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			id: "75FCD460B56DCA64"
+			item: {
+				count: 1
+				id: "oritech:prometheum_ingot"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "658AD73298019F6A"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "6D373D47494AA804"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "5E9CE6EED922E7B9"
+			item: {
+				count: 1
+				id: "avaritia:blaze_cube"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "35A4BB5755417598"
+			item: {
+				count: 1
+				id: "mekanism:yellow_cake_uranium"
+			}
+		}
+		{
+			count: 16
+			id: "552BB98F7C0753BE"
+			item: {
+				count: 1
+				id: "mekanism:fluorite_gem"
+			}
+		}
+		{
+			id: "25711903E72D30D1"
+			item: {
+				count: 1
+				id: "mekanism:pellet_polonium"
+			}
+			weight: 0.25f
+		}
+		{
+			id: "429333A5132FAAE4"
+			item: {
+				count: 1
+				id: "mekanism:pellet_plutonium"
+			}
+			weight: 0.25f
+		}
+		{ id: "319EF898242BDB3A", item: { components: { "mekanism:energy": { energy_containers: [L;256000000L] } }, count: 1, id: "mekanism:ultimate_energy_cube" } }
+		{
+			count: 4
+			id: "17CB5AC49849EE8E"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+		}
+	]
+}

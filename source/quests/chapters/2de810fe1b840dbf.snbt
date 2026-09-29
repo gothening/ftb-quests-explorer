@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2de810fe1b840dbf"
+	group: "512B54981EE0D939"
+	id: "2DE810FE1B840DBF"
+	images: [ ]
+	order_index: 10
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "73702D1E44DE0E56"
+			size: 2.0d
+			tasks: [{
+				id: "14426697164B9436"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "28F69D96AC59988E"
+			size: 2.0d
+			tasks: [{
+				id: "1E4AB670BE9DEBAA"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0A91639C2E12C47A"
+			size: 2.0d
+			tasks: [{
+				id: "3E12EC5A13771116"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "19A1243D173C9C97"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4E49ED307F9131AC"
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
+					type: "item"
+				}
+				{
+					id: "2E4384F7B34D7AB5"
+					item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5864EAC57EE164BD"
+			size: 2.0d
+			tasks: [
+				{
+					id: "34D8DFDB298DEF72"
+					item: { count: 1, id: "enderio:stirling_generator" }
+					type: "item"
+				}
+				{
+					id: "64FAE544B60E2956"
+					item: { count: 1, id: "enderio_evolution:simple_stirling_generator" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "53CBA338FDE0E78D"
+			size: 2.0d
+			tasks: [{
+				id: "7B965DFD59B74201"
+				item: { count: 1, id: "enderio_evolution:basic_infinity_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "421472ADA85B501E"
+			size: 2.0d
+			tasks: [{
+				id: "3D2C4DE19B366B5A"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7485601FF02DCA8B"
+			size: 2.0d
+			tasks: [{
+				id: "397C5DC90C15666D"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6505B2B49E04CB64"
+			size: 2.0d
+			tasks: [{
+				id: "6CF970D2FBE0A931"
+				item: { count: 1, id: "mekanismgenerators:bio_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_lock_icon: true
+			icon: {
+				id: "mekanismgenerators:gas_burning_generator"
+			}
+			id: "1603966B172C8EEB"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0C3E1A91442698CE"
+					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					type: "item"
+				}
+				{
+					id: "175AFF76F828E79F"
+					item: { count: 1, id: "mekmm:large_gas_burning_generator" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3665FB88E5B3F64D"
+			size: 2.0d
+			tasks: [{
+				id: "1BDE242534C667D6"
+				item: { count: 1, id: "oritech:bio_generator_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1033D0A5C7681D82"
+			size: 2.0d
+			tasks: [
+				{
+					id: "03CC57AB71D9FE31"
+					item: { count: 1, id: "oritech:lava_generator_block" }
+					type: "item"
+				}
+				{
+					id: "6FE48EA31C23EBA1"
+					item: { count: 1, id: "oritech:pump_block" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53E8EADE98AC90C8"
+					item: { count: 1, id: "oritech:fluid_pipe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5C38B572AFE06070"
+			size: 2.0d
+			tasks: [{
+				id: "2DD0E74C4883A072"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5AF1669DB6F37E0D"
+			size: 2.0d
+			tasks: [{
+				id: "1C851ECADD70FC07"
+				item: { count: 1, id: "enderio_evolution:crystalline_infinity_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "5610DDBBF5E81182"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "010872E0DB0E36C4"
+				table_id: 9081288768631775962L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2843B49759EAF5A5"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					id: "250EE2345BAA220C"
+					item: { count: 1, id: "create:white_sail" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60812C3530CB5751"
+					item: { count: 1, id: "create:sail_frame" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "406FF5FE0000C5EA"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+				{
+					id: "1CC211A2D0D50B68"
+					item: { count: 1, id: "create:water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "60198557314C807A"
+			size: 2.0d
+			tasks: [{
+				id: "017D6C25CC4439D1"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	id: "554C68F5F0D2D514"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			command: "/time set day"
+			id: "274A016FEF517246"
+			type: "command"
+		}
+		{
+			command: "/time set noon"
+			id: "5A79D3745ECBC985"
+			type: "command"
+		}
+		{
+			command: "/time set night"
+			id: "64F3FDA30C11A8C7"
+			type: "command"
+		}
+		{
+			command: "/time set midnight"
+			id: "67EE12F0696CF184"
+			type: "command"
+		}
+	]
+}
