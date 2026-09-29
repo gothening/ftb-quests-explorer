@@ -40,8 +40,11 @@ fs.cpSync(sourceRoot, path.join(distRoot, "src"), { recursive: true });
 fs.cpSync(demoRoot, path.join(distRoot, "demo"), { recursive: true });
 
 const indexPath = path.join(distRoot, "index.html");
+const assetVersion = Date.now();
 const indexHtml = fs.readFileSync(indexPath, "utf8")
-  .replace('content="local"', 'content="online"');
+  .replace('content="local"', 'content="online"')
+  .replace('href="./style.css"', `href="./style.css?v=${assetVersion}"`)
+  .replace('src="./app.js"', `src="./app.js?v=${assetVersion}"`);
 fs.writeFileSync(indexPath, indexHtml, "utf8");
 fs.copyFileSync(indexPath, path.join(distRoot, "404.html"));
 fs.writeFileSync(path.join(distRoot, ".nojekyll"), "", "utf8");
