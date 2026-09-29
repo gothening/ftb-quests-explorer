@@ -123,6 +123,11 @@ function writeJson(filePath, value) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
+function writeJsonCompact(filePath, value) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, `${JSON.stringify(value)}\n`, "utf8");
+}
+
 function stripOfflineOnlyFields(model) {
   for (const quest of model.quests) {
     delete quest.raw;
@@ -341,7 +346,7 @@ for (const entry of [...itemEntries.values()].sort((left, right) => left.item.id
   });
 }
 const generatedAt = new Date().toISOString();
-writeJson(path.join(outputRoot, "items", "manifest.json"), {
+writeJsonCompact(path.join(outputRoot, "items", "manifest.json"), {
   generatedAt,
   items: itemManifest
 });
@@ -381,9 +386,9 @@ model.metadata.sourceInstance = manifest.sourceInstance;
 model.metadata.generatedAt = manifest.generatedAt;
 model.metadata.snbtFiles = manifest.snbtFiles;
 
-writeJson(path.join(outputRoot, "view-model.json"), model);
+writeJsonCompact(path.join(outputRoot, "view-model.json"), model);
 writeJson(path.join(outputRoot, "manifest.json"), manifest);
-writeJson(path.join(outputRoot, "asset-map.json"), {
+writeJsonCompact(path.join(outputRoot, "asset-map.json"), {
   generatedAt: manifest.generatedAt,
   missing: fallback,
   assets: assetMap
