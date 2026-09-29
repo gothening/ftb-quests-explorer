@@ -186,7 +186,17 @@ function enrichModelSourceProvenance(model) {
       applySourceProvenance(entry.reward.icon);
     }
   }
-  for (const quest of model.quests) applySourceProvenance(quest.icon);
+  for (const quest of model.quests) {
+    applySourceProvenance(quest.icon);
+    for (const task of quest.tasks) {
+      applySourceProvenance(task.item);
+      applySourceProvenance(task.icon);
+    }
+    for (const reward of quest.rewards) {
+      applySourceProvenance(reward.item);
+      applySourceProvenance(reward.icon);
+    }
+  }
   for (const chapter of model.chapters) applySourceProvenance(chapter.icon);
 }
 
