@@ -186,9 +186,9 @@ async function loadOnlineDemo() {
   try {
     const demoBase = new URL("./demo/", document.baseURI).toString();
     const [manifestResponse, modelResponse, assetMapResponse] = await Promise.all([
-      fetch(new URL("manifest.json", demoBase)),
-      fetch(new URL("view-model.json", demoBase)),
-      fetch(new URL("asset-map.json", demoBase))
+      fetch(new URL("manifest.json", demoBase), { cache: "no-store" }),
+      fetch(new URL("view-model.json", demoBase), { cache: "no-store" }),
+      fetch(new URL("asset-map.json", demoBase), { cache: "no-store" })
     ]);
     if (!manifestResponse.ok || !modelResponse.ok || !assetMapResponse.ok) {
       throw new Error("Online Demo data is missing. Run npm run build:demo-data.");
