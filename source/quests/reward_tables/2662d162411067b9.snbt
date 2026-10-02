@@ -21,28 +21,6 @@
 			weight: 0.3f
 		}
 		{
-			id: "4CB65BE8738A570A"
-			item: {
-				components: {
-					"mekanism:energy": {
-						energy_containers: [L;16000000L]
-					}
-				}
-				count: 1
-				id: "mekanism:advanced_energy_cube"
-			}
-			weight: 0.7f
-		}
-		{
-			count: 4
-			id: "77BC8E6AC808651A"
-			item: {
-				count: 1
-				id: "projecte:alchemical_chest"
-			}
-			weight: 0.7f
-		}
-		{
 			id: "1E3A2899E60B2F71"
 			item: {
 				count: 1
@@ -51,6 +29,7 @@
 			weight: 0.1f
 		}
 		{
+			count: 4
 			id: "48AC743215E789A7"
 			item: {
 				count: 1
@@ -161,6 +140,43 @@
 				count: 1
 				id: "primogemcraft:ydfms"
 			}
+		}
+		{
+			id: "1E8ACF9753C33CA2"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "0251016317BBAF8F"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;256000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:ultimate_energy_cube"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "07A7F64FC6A02E81"
+			item: {
+				components: {
+					"mekanism:fluids": {
+						fluid_tanks: [{
+							amount: 2147483647
+							id: "oritech:still_oil"
+						}]
+					}
+				}
+				count: 1
+				id: "mekanism:creative_fluid_tank"
+			}
+			weight: 0.05f
 		}
 	]
 }

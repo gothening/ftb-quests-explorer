@@ -56,14 +56,14 @@ test("loads the full real quest directory with global indexes", () => {
   assert.equal(book.chapters.length, 38);
   assert.equal(book.chapterGroups.length, 5);
   assert.equal(book.rewardTables.length, 20);
-  assert.equal(book.quests.length, 1722);
-  assert.equal(book.tasks.length, 2126);
-  assert.equal(book.rewards.length, 1352);
+  assert.equal(book.quests.length, 1914);
+  assert.equal(book.tasks.length, 2356);
+  assert.equal(book.rewards.length, 1335);
   assert.equal(book.questLinks.length, 14);
   assert.equal(book.images.length, 0);
   assert.equal(book.metadata.parseErrors.length, 0);
   assert.equal(book.dependencyGraph.findMissingDependencies().length, 2);
-  assert.equal(book.dependencyGraph.getCrossChapterDependencies().length, 12);
+  assert.equal(book.dependencyGraph.getCrossChapterDependencies().length, 14);
   assert.equal(
     book.getRewardTable("1038066006360480407").id,
     "0E67F3886A865A97"

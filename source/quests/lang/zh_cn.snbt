@@ -3,26 +3,26 @@
 	chapter.04390DE8092EC686.title: "末地"
 	chapter.07792554DC63DE8E.title: "厨房用具"
 	chapter.0B07EB66101F01B1.title: "元素周期表"
-	chapter.0BC0C621F5E877A5.title: "等价交换"
+	chapter.0BC0C621F5E877A5.title: "物质复制"
 	chapter.0EDCDADA1A29519D.title: "厨师之证"
 	chapter.11CD52174D478B9D.title: "西餐"
+	chapter.14675C2C463A709A.title: "奇物"
 	chapter.1B0B450CB9A3322D.title: "三月七的生活建议"
 	chapter.23A713EC9C0E1129.title: "下界"
-	chapter.25EEEA014EE59464.title: "通用机械"
+	chapter.25EEEA014EE59464.title: "机械加工"
 	chapter.2DE810FE1B840DBF.title: "能源生产"
-	chapter.32774C8BD3A4C086.title: "应用能源2"
+	chapter.32774C8BD3A4C086.title: "终端存储"
 	chapter.32F949EFF503757F.title: "肉类"
 	chapter.350ACE64F32FB2C9.title: "悬赏板"
 	chapter.35F707FF5CBCB543.title: "酿造"
 	chapter.360C7028A99B940F.title: "武器"
 	chapter.368C4CE56E4F20BC.title: "&6欢迎游玩整合包！"
-	chapter.3895FD843D836934.title: "星际"
+	chapter.3895FD843D836934.title: "终抵群星"
 	chapter.3BDFA3F494F23874.title: "姬子的生存建议"
-	chapter.3CBB04588F1E84ED.title: "无尽贪婪"
+	chapter.3CBB04588F1E84ED.title: "再创世"
 	chapter.3CCCE39BE0E7DE70.title: "果蔬"
 	chapter.3F55C241AAB4F414.title: "装备"
 	chapter.444EBDC4D1EF627C.title: "丹恒的勘察建议"
-	chapter.45E550AB3F3268E7.title: "奥瑞科技"
 	chapter.479C9AF6E09BB5DA.title: "里程碑"
 	chapter.4A8D4426BF9C8151.title: "科技发展建议"
 	chapter.51D361EE9EB8D4D4.chapter_subtitle: ["Hello, Minecraft!"]
@@ -36,7 +36,7 @@
 	chapter.77FAC2D0C77305C1.title: "主世界"
 	chapter.7B0037DE7ACB254D.title: "中餐"
 	chapter.7B36DF60B420792A.title: "原材料"
-	chapter.7BDCE01336938C8E.title: "机械动力"
+	chapter.7BDCE01336938C8E.title: "动力加工"
 	chapter.7E4CAF1258C723F9.title: "暮色森林"
 	chapter_group.374F9CF3808ED22B.title: "开拓之路"
 	chapter_group.387494013EF92831.title: "丹恒的勘察记录"
@@ -44,10 +44,9 @@
 	chapter_group.64455473278BA5BB.title: "三月七的收藏册"
 	chapter_group.7E18D2B281281CE2.title: "姬子的生存手册"
 	quest.000E84DFDFA923F1.quest_desc: ["&6自动种植植物&r的高级机器。现有的&6营养糊剂&r只能&6种植蘑菇&r。通过&b化学溶解室&r则可以将&6营养糊剂&r转化为&b营养液&r，从而种植更多作物，包括&b鸡饲料&r。"]
+	quest.001A7DAF7ED6D321.quest_desc: ["溶解部分&6唱片&r获得"]
 	quest.01445D67890F2378.title: "塑料工业"
 	quest.014EBAC0A08DD256.quest_desc: ["能进行比&6粉碎轮&r更精细的粉碎加工。其中&b生物燃料&r是&6粉碎植物&r的结果，不仅可以作为&6发电机燃料&r，似乎还有很多的用途."]
-	quest.015AB347D1346267.quest_desc: ["要想泡咖啡当然要&6咖啡豆&r啦，&b野生咖啡&r在稀疏丛林群系分布较多"]
-	quest.0192630647333EB5.quest_subtitle: "制作基础，用途就不基础"
 	quest.01BF317DD3169148.quest_desc: ["迷宫隐藏房间探索获得。"]
 	quest.01BF317DD3169148.quest_subtitle: "我的神镐？"
 	quest.01EA328E0CFEB38D.quest_desc: ["&b量子缠绕态奇点&r用于在两个&b量子网络桥&r之间建立连接，将一对&6量子缠绕态奇点&r中的各一个分别放入两端的&6量子网络桥&r的&bME量子链接仓&r中即可建立远程连接。"]
@@ -62,6 +61,7 @@
 		"&6凋灵&r很不好对付，&6整顿好装备&r再战斗吧，最好准备一把&6弓&r"
 		"{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}"
 	]
+	quest.0369711A0E8C19C6.quest_desc: ["溶解&6紫珀块&r获得"]
 	quest.0380D6BB6857AF97.quest_desc: ["用于&6加速水晶和作物的生长&r"]
 	quest.0405392D2F7D0C19.title: "农学博士"
 	quest.040D80D6B76746B5.quest_desc: [
@@ -77,7 +77,7 @@
 	quest.04298E46AA40D5FF.quest_desc: ["&e家人们发现宝藏好物了&r，这东西右键可以&6升级&r我的大多数机器，&6提高并行数量&r"]
 	quest.04298E46AA40D5FF.title: "工厂"
 	quest.043C016D19708AB6.quest_desc: ["[\"\", { \"text\": \"悬赏板\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64DC596F058FA8B1\" } }, \"上好像有这个奖励，去看看吧\" ]"]
-	quest.04A9BEA98B998F92.quest_desc: ["哈哈，等我成为农场主"]
+	quest.04A9BEA98B998F92.quest_desc: ["记录我收集的农作物"]
 	quest.04B03CE6FE79942D.quest_desc: [""]
 	quest.04B03CE6FE79942D.quest_subtitle: "洗涤&6沙子&r和&6粉碎粗铜&r有概率获得&6黏土&r"
 	quest.0570A8D0AB556324.quest_desc: [
@@ -92,6 +92,7 @@
 		"通过&b无线信号增幅器&r增加访问距离"
 	]
 	quest.05EC96D20F60E31A.quest_desc: ["&d便携升级&r"]
+	quest.067FA8CD98B02731.quest_desc: ["&6深板岩&r的成分之一"]
 	quest.06BAA8AA8053EFBC.quest_desc: [
 		"无论是精炼&6生物燃料&r还是&6石油&r都可以得到&b轻石脑油&r这一重要的化工原料。"
 		""
@@ -103,6 +104,7 @@
 		""
 		"而精炼的副产物&6硫酸&r还可以通过&6气液转换器&r蒸发为&6化学品硫酸&r用于&6矿物处理&r，可谓一举两得"
 	]
+	quest.073B86F25DCA2A76.quest_desc: ["&b磁场&r可以让&6加速器&r在&6小范围内加速到高速&r，用&6目标定位器&r绑定&6加速器&r显示&e“磁场已连接到加速器控制器”&r即可。最好搭配&b速度插件&r并用&b扩展坞&r安装更多插件。"]
 	quest.073D908BC3FFC9F5.quest_desc: [
 		"[ { \"text\": \"搭建教程\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.mcmod.cn/item/7674.html\" } } ]"
 		""
@@ -174,18 +176,25 @@
 	quest.07443A3474907A5A.quest_subtitle: "底下是命令栏"
 	quest.07443A3474907A5A.title: "欢迎来到Minecraft世界！"
 	quest.077B8F318AFE0F31.title: "种植能手"
-	quest.079E04420F7DF2ED.quest_desc: ["&b姬子&r：&6普通的铁制装备&r难以应对这个世界的所有威胁，拥有&6更好的防具、武器&r才能有备无患。"]
+	quest.079E04420F7DF2ED.quest_desc: [
+		"&b姬子&r：&6普通的铁制装备&r难以应对这个世界的所有威胁，拥有&6更好的防具、武器&r才能有备无患。"
+		""
+		"对了，可以的话，帮我&6泡杯咖啡&r"
+	]
 	quest.079E04420F7DF2ED.title: "&6姬子的建议&r"
+	quest.07E16257F85933D6.quest_desc: ["溶解&6下界岩&r获得"]
 	quest.080F3F6DFD70BDAD.quest_desc: ["&m&d超大样板供应器&r&r"]
 	quest.082E0CD7790759F7.title: "暮色肉类"
 	quest.0838AD30463E5FDC.quest_desc: ["&b银狼&r：真搞不懂网络频道有什么好限制的"]
 	quest.0838AD30463E5FDC.title: "为什么要用频道限制？"
-	quest.0887ABF6A6B4647A.quest_desc: ["氦只有化学品形态，需通过&b人造太阳&r聚变&6氢&r获得"]
+	quest.085B565B7C5B8F9C.quest_desc: ["&6墨囊&r的成分之一"]
+	quest.085E75EFDD055160.quest_desc: ["通过&6吸附分离&r空气中的&b氮&r，我就可以制取&b氨&r了。&6氨&r在&6燃气发电机&r中效果拔群，&6发电效率&r远超&6乙烯&r"]
+	quest.0887ABF6A6B4647A.quest_desc: ["&b人造太阳&r聚变&6氢&r获得"]
 	quest.08B0497D8B90E972.quest_desc: [""]
 	quest.08B0497D8B90E972.quest_subtitle: "非常实用"
 	quest.08B7D6748FADEC17.quest_desc: ["海的味道我知道！"]
 	quest.098CDF4B05C829B1.title: "百厨饕餮"
-	quest.09912521746D8711.title: "&b姬子通讯2"
+	quest.09DB423467B073BE.quest_desc: ["溶解&6花岗岩、闪长岩&r获得"]
 	quest.0A0F005819E3AD73.quest_desc: ["这是小腿？"]
 	quest.0A35255F1D2ABE78.quest_desc: ["前往&b终焉城堡&r的最后障碍，遍布的荆棘让人难以行进。"]
 	quest.0A35255F1D2ABE78.title: "荆棘之地"
@@ -199,7 +208,7 @@
 		"把&6热力发电机&r贴着&6岩浆源或流动岩浆&r放置就会自动发电，浸在岩浆中时也计入发电效率。"
 		""
 		"&b主动发电&r"
-		"打开机器界面，将&6煤炭&r等可燃物放入燃料槽即可转为岩浆发电。&6岩浆桶&r也可以直接作为燃料使用。"
+		"&e80FE/t&r,打开机器界面，将&6煤炭&r等可燃物放入燃料槽即可转为岩浆发电。&6岩浆桶&r也可以直接作为燃料使用。"
 		""
 		"各种燃料的&6发电功率&r相同，区别主要在&6持续时间&r。"
 		""
@@ -424,15 +433,14 @@
 	]
 	quest.0F04F30F4A9951B0.title: "Changelog（不用看）"
 	quest.0F3CD9EBEE4225FD.quest_desc: ["仅能通过精准采集镐挖掘"]
-	quest.0F4CCE4C50022D25.title: "&b三月七通讯2"
 	quest.0F5E6F166CADF691.quest_desc: ["都是很好记的指令，可以用起来..."]
 	quest.0F5E6F166CADF691.title: "返回基地"
-	quest.0FA273BA457E35AC.quest_desc: ["铝鸡获得"]
+	quest.0FA273BA457E35AC.quest_desc: ["烧矿获得"]
 	quest.0FA273BA457E35AC.title: "铝"
 	quest.0FA650117B958BF9.quest_desc: ["可以开店了！"]
 	quest.0FA650117B958BF9.title: "中餐"
 	quest.102895F691B654EC.title: "基础装备补充"
-	quest.1033D0A5C7681D82.quest_desc: ["燃烧&6熔岩&r的发电机，如果有&6大片岩浆湖或者无限岩浆源&r，用&6动力泵&r为其提供能源也是不错的选择"]
+	quest.1033D0A5C7681D82.quest_desc: ["&e64FE/t,&r 燃烧&6熔岩&r的发电机，如果有&6大片岩浆湖或者无限岩浆源&r，用&6动力泵&r为其提供能源也是不错的选择"]
 	quest.104D907C47BF39EB.quest_desc: ["用于将部分合成配方所需的&d超高压&r转为&d高压&r"]
 	quest.1072C080F0DACB98.quest_desc: ["&m&d某科学的超电磁炮&r&r"]
 	quest.109C05FD57BE482C.quest_desc: ["&6盐水(NaCl)&r通过&6电解&r可以得到&b钠(Na)&r和&b氯(Cl)&r。&6氯&r再和&6氢&r化合为&b氯化氢&r。"]
@@ -467,11 +475,18 @@
 		""
 		"&b样板管理终端&r用于查看&6已编写的样板&r"
 	]
-	quest.12A5B1D2AAADB1D3.quest_desc: ["是时候考虑存储系统了，这个机器感觉倒是便捷"]
+	quest.12A5B1D2AAADB1D3.quest_desc: [
+		"是时候考虑&6存储系统&r了，这个机器感觉不错。"
+		""
+		"&b螺丝咕姆&r：事实上，主世界存在&b陨石&r结构，内部保留了&6高级文明（应用能源2）的遗迹&r，利用好它们，搭建更强大的&6存储终端吧&r"
+	]
 	quest.12F5A601F9CD7DB9.quest_desc: ["大鸡丝"]
+	quest.132568775026EC7B.quest_desc: ["分离&6海水&r获得"]
+	quest.13735B631C4743B0.quest_desc: ["溶解&6龙息&r获得"]
 	quest.13779C2D3C5DF886.quest_desc: ["&6冰雪女王&r概率掉落，用如其名。"]
 	quest.139CB70BA8080E6E.quest_desc: ["略有膻味"]
 	quest.13AA8A0BC6159E89.quest_desc: ["不用烤，直接做刺身。"]
+	quest.140C6B5E6EF7B77D.quest_desc: ["溶解&6哭泣的黑曜石&r获得"]
 	quest.149D033C5E689A20.quest_desc: [
 		"&b物质聚合器&r可用作&6垃圾桶&r,、制造&b物质球&r和&b奇点&r。"
 		""
@@ -511,7 +526,10 @@
 	quest.156BD89AB35CCE80.title: "宠物店"
 	quest.15769E53948C60B4.quest_desc: ["鱼片？"]
 	quest.1602F4A30543683E.quest_desc: ["神秘料理"]
-	quest.1603966B172C8EEB.quest_desc: ["&6电解分离器&r产生的&b氢气&r可以借助&b燃气发电机&r用来&6发电&r。如果能稳定生产&b乙烯&r则用于发电效率更高"]
+	quest.1603966B172C8EEB.quest_desc: [
+		"氢气&e80FE/mB&r，最大功率&e20480FE/t&r;乙烯&e11280FE/mB&r,最大功率&e72192FE/t&r"
+		" &6电解分离器&r产生的&b氢气&r可以借助&b燃气发电机&r用来&6发电&r。如果能稳定生产&b乙烯&r则用于发电效率更高"
+	]
 	quest.1631AD10D929D98E.quest_desc: [
 		"深藏于地底的&6大型结构&r，内含&6丰富的战利品&r，但在探索中极易引起&b监守者&r的注意，需要倍加小心。"
 		""
@@ -522,6 +540,7 @@
 	quest.16689EF35758E854.quest_desc: ["电解&6水&r获得"]
 	quest.16689EF35758E854.title: "氢"
 	quest.166FF86FEFFEEE42.quest_desc: ["&b5倍矿产线&r的全部材料，只需要在&6化学压射器&r前添加&b溶解、清洗、结晶&r工序并引入&6硫处理&r产线即可"]
+	quest.16B6C85CA02C1682.quest_desc: ["同位素离心&6碘&r获得"]
 	quest.16EECA40C3771EC9.quest_desc: [
 		"在&6物品栏&r底部有一个&6搜索栏&r，它正是&bJEI (Just Enough Item 物品管理器)&r的搜索栏。"
 		""
@@ -544,6 +563,7 @@
 		" "
 	]
 	quest.16EECA40C3771EC9.title: "JEI"
+	quest.1754C5BD8ECA7C81.quest_desc: ["&6核废料&r转化获得"]
 	quest.1758A5773C014ADE.quest_desc: ["通过&6溶解与化合&r再造万物的机器，造价不菲，但功能强悍。"]
 	quest.1763F5AB4D647A7D.quest_desc: ["注意勾选后&6幻翼膜&r的获取方式将较为困难。"]
 	quest.1763F5AB4D647A7D.title: "禁止幻翼生成"
@@ -601,10 +621,7 @@
 	]
 	quest.18D204B99C850153.title: "石头自动化"
 	quest.18D43699279C7403.quest_desc: ["手持&6骨头&r右键&6纯种鸡&r即可得到。"]
-	quest.18DCE8DA33F55177.quest_desc: ["&b姬子&r：要是能喝上新世界的&6咖啡&r就好了。"]
-	quest.18DCE8DA33F55177.title: "&6姬子的建议"
 	quest.18F3B378DBCF4C29.quest_subtitle: "缠魂&6青金石&r获得&r海晶碎片&r"
-	quest.194E3C9C0F41F22B.title: "&b三月七通讯"
 	quest.1950641C3564CD8A.quest_desc: ["驯服一匹马之后，可以为其穿上&6马铠&r来增加其防御力"]
 	quest.197DE26F7C31AA7E.quest_desc: [
 		"&b丹恒&r：看起来，这个世界并非和我们所在的宇宙全无联系。这些宝石或许&6能打造一些趁手的兵器&r。"
@@ -612,7 +629,9 @@
 		"它们在地下与矿物无异，要&6注意分辨&r"
 	]
 	quest.197DE26F7C31AA7E.quest_subtitle: "异世界的力量"
-	quest.19A1243D173C9C97.quest_desc: ["白天工作的免费能源"]
+	quest.1984AF45011F278F.quest_desc: ["&6花岗岩&r的成分之一"]
+	quest.19A1243D173C9C97.quest_desc: ["&e24FE/t&r，高级&e120FE/t, &r白天工作的免费能源"]
+	quest.19B257F7C229CACF.quest_desc: ["可以回收多余的&6基片&r，还可以&6跳过反应堆提炼核废料&r的机器"]
 	quest.19B33C9F36CD9593.title: "现在是，冒险时间！"
 	quest.19E10A1B05A68440.quest_desc: ["&b螺丝咕姆&r先生说，剪刀可以&6雕刻南瓜&r，将&6雕刻南瓜&r放在&6T字形摆放的铁块&r上、&62格高的雪块&r上可以召唤出&b铁傀儡&r和&b雪傀儡&r。还挺好玩的。"]
 	quest.19F0710DE755860F.quest_desc: ["运用&d闪电简化合成&r的机器"]
@@ -630,14 +649,11 @@
 	quest.1BE9A5200C7E02B3.quest_subtitle: "深海的加赠"
 	quest.1BEC2CD027478095.quest_desc: ["储存资源的设备"]
 	quest.1BEC2CD027478095.title: "资源储存"
+	quest.1BF88E02DFB41F27.quest_desc: ["&6石砖&r的成分之一"]
 	quest.1C3D28DDCEC70A37.title: "汤"
-	quest.1D5715AFC173EAF1.quest_desc: [
-		"&b丹恒&r：这个世界并非荒芜人烟，既有&6古代文明遗址&r，也有&6现世文明尚存&r。或许能尝试&b与现有文明建立一联系&r。"
-		""
-		"要小心，&e不是所有文明都以友好相待&r。"
-	]
-	quest.1D5715AFC173EAF1.title: "&6丹恒的建议"
+	quest.1C5CB85494AA3F1F.quest_desc: ["溶解&6淡蓝色染料&r获得"]
 	quest.1D75E121B7C819F4.title: "蜘蛛回收"
+	quest.1D7E5E1669A58232.quest_desc: ["烧矿获得"]
 	quest.1D8095EBB6FAF570.quest_subtitle: "研磨&6羊毛&r得到&6线&r"
 	quest.1D9CFBEABF64AE11.quest_desc: ["用于连接&bAE2&r的机器组成网络"]
 	quest.1DC42217CB4A70EE.quest_desc: [
@@ -651,12 +667,14 @@
 	quest.1E332C08E5D63A76.quest_desc: ["还有这种肉干的"]
 	quest.1E5697C62E16F5D2.quest_desc: ["&b大气电离仪&r是一台&6天气控制设备&r。它通过消耗&6天气凝核&r与&6AE能量&r,强制将世界天气切换为指定状态,从而配合&6闪电收集器&r获得稳定的自然雷击。"]
 	quest.1E78DF97BDA46F3A.title: "生存好物交易"
+	quest.1EC698295A379285.quest_desc: ["烧矿获得"]
 	quest.1ED7A9A05846632E.quest_desc: [
 		"生成于&2火焰沼泽&r的空心半球形洞穴，&b九头蛇&r盘踞于此。"
 		""
 		"从外貌上看，这巨大的巢穴曾是一座&6大型空心矿山&r，现在表面有不少被毁坏，成为了强大的&6九头蛇&r栖息的巢穴。"
 	]
 	quest.1ED7A9A05846632E.title: "九头蛇巢穴"
+	quest.1F33CB4E3D2F856F.quest_desc: ["&6雪块&r塑形而得"]
 	quest.1F3414BD8C65AEBF.quest_desc: [
 		"为了获取这个世界的&6资源&r，我需要一些&6工具&r。"
 		"为了应对这个世界的&6危险&r，我需要一些&6防具和武器&r。"
@@ -664,6 +682,7 @@
 		"其中，将&6盾牌&r放在&6副手&r，&b右键格挡&r时可以有效抵挡住僵尸的攻击，也可以&6防住骷髅射手的弓箭&r"
 	]
 	quest.1F3414BD8C65AEBF.title: "制作装备"
+	quest.1F3CF774C3263412.quest_desc: ["离心&6幽匿块&r可以获得&b经验汁&r，转化出&b自在松石矿&r和&b附魔之瓶&r"]
 	quest.1F583CDC78737812.quest_desc: ["为&6权杖&r的效果带来增益"]
 	quest.1F7A24AEB647985A.quest_desc: ["第一道菜当然是&6包饺子&r了！"]
 	quest.1F7A24AEB647985A.title: "包饺子"
@@ -677,6 +696,7 @@
 		"只是别滥用了，不然玩的太爽也没意思。"
 	]
 	quest.1FF70223AEF1398F.title: "&e讨厌挂机！"
+	quest.200E3BAC591A288B.title: "锕系"
 	quest.201637458329640E.title: "常见的肉"
 	quest.203E3ADBF9C22E23.quest_desc: ["&b升级卡&r可以&6改变设备和机器的行为&r,例如&6提高它们的速度&r、&6增加过滤器容量&r、&6启用红石控制&r等。"]
 	quest.203E3ADBF9C22E23.title: "升级卡"
@@ -706,6 +726,8 @@
 		"你可以将物品给予&6悦灵&r，它会&6寻找附近相同类型的掉落物&r，然后把它们带回来。"
 	]
 	quest.2142CC80423B1288.title: "发现掠夺者前哨站"
+	quest.215B79F86DAFA5BF.quest_desc: ["烧制&6铂粉&r获得"]
+	quest.21920F2F7EC86762.quest_desc: ["活化&6六氟化铀&r获得"]
 	quest.22232A7CEC217A85.quest_desc: [
 		"&b全自动挖矿设备&r，使用前打开&6配置&r-&6新增过滤项&r-&6标签&r-输入&ec:ores/*&r匹配所有矿物。"
 		""
@@ -793,6 +815,7 @@
 	]
 	quest.253502740373D5CC.title: "彩虹"
 	quest.25395FC7CC110821.quest_desc: ["味道一般。可以拿来做菜。"]
+	quest.254D804F8C4B49DC.title: "手饰"
 	quest.2555D1F3ACD830B3.quest_subtitle: "粉碎&6闪长岩&r有概率得到&6石英"
 	quest.25A11BE1C8E02501.quest_desc: ["&b银狼&r：反正都是要挖的，何必那么费力呢"]
 	quest.25A11BE1C8E02501.title: "残骸挖掘机"
@@ -808,6 +831,7 @@
 		"&b无暇的赛特斯石英母岩&r会随时间长出&b赛特斯石英水晶簇&r，用于自动化生产&6赛特斯石英水晶&r。"
 	]
 	quest.2721F47A5B4EF134.title: "发现陨石"
+	quest.27531F74F38CD0CD.quest_desc: ["烧矿获得"]
 	quest.2764B1E3D33BBBA0.quest_desc: [
 		"&6原木加工为木板、木板加工为木棍&r的过程中都会得到&b锯末&r，&6木棍&r也可以加工为&b锯末&r。"
 		""
@@ -829,6 +853,7 @@
 		"&b绿宝石&r是&6交易的重要货币&r。"
 	]
 	quest.279612CD311A2C1A.title: "原生矿石"
+	quest.27DCCFB74AC5ED2D.quest_desc: ["&6矿石&r获得，也有多种&6转化&r获取方式"]
 	quest.27F135CAF313B574.quest_desc: ["2个&b粉碎轮&r&6转向相反&r时可用于磨碎物品。"]
 	quest.2808B2FADE4C7CF4.quest_desc: ["电解&6盐水&r获得"]
 	quest.2812302F6B9BA002.quest_desc: [
@@ -836,10 +861,13 @@
 		"{image:trailblazer:textures/quests/junglepyramid.png width:100 height:100 align:center}"
 	]
 	quest.2812302F6B9BA002.title: "丛林神庙"
-	quest.28F69D96AC59988E.quest_desc: ["高效的可再生能源，&6发电效率随放置高度而提升&r"]
+	quest.2898A3DBD2FE8E24.quest_desc: ["溶解&6凋灵骷髅头颅&r获得"]
+	quest.28F69D96AC59988E.quest_desc: ["&e24-192FE/t&r,高效的可再生能源，&6发电效率随放置高度而提升&r"]
 	quest.295DDCF9A45C4253.title: "猪灵堡垒"
+	quest.299F704B60D21747.quest_desc: ["&6深板岩&r成分之一"]
 	quest.2A375456697D875D.quest_desc: ["不知道咋用，交给杨叔研究吧"]
 	quest.2A375456697D875D.title: "天枢物质扭曲矩阵"
+	quest.2ACBCE9F308CA1E3.quest_desc: ["&6木炭块&r塑形而得"]
 	quest.2AEF7DB8D485EDE6.quest_desc: [
 		"&b沼泽&r的整体色调很暗淡，暗绿色的水面上有&6许多睡莲&r漂浮，在水底能找到&6粘土、沙子和泥土&r。"
 		""
@@ -880,6 +908,7 @@
 	quest.2CE857CE27F265C7.quest_desc: ["可以做装备呢"]
 	quest.2D4533A1C737F6AC.quest_desc: ["吃了会在肚子里发光。"]
 	quest.2D4D04931B36118D.quest_desc: ["主要通过溶解&6安山岩&r获得"]
+	quest.2D5A76F836F0E74B.quest_desc: ["可以抽取流体的机器，加入&6过滤升级&r后可从水中提取&6重水&r。"]
 	quest.2D90808CB71A7044.quest_desc: [
 		"将鼠标悬停在物品上时，按&bR&r查看配方，按&bU&r查看用途，&b长按tab&r搜索&6mcmod百科资料&r"
 		""
@@ -927,6 +956,7 @@
 		""
 		"运用&b流体通用动力工厂&r，可以更便捷地将&6充能赛特斯石英水晶&r转化为&b福鲁伊克斯水晶&r"
 	]
+	quest.2E731052D133D215.quest_desc: ["&6硫酸&r溶解&6绿宝石矿&r获得，用于制作&b中子源球&r。"]
 	quest.2E9B5F2814B902C4.quest_desc: ["富集&6煤或木炭&r获得"]
 	quest.2EC7A1569858EBC1.quest_desc: ["可以开烧烤摊了"]
 	quest.2ED9F98C64891212.quest_desc: [
@@ -945,6 +975,7 @@
 	]
 	quest.2EDED18B2212702B.title: "连锁采矿FTB ultimine"
 	quest.2F12C8728480D3F0.quest_desc: ["&b瓦尔特&r：没想到你一个人也能建立这么&6大型的自动化生产线&r。有了足够的工业材料，发展&b化学工业&r也事不宜迟了。"]
+	quest.2F12C8728480D3F0.title: "瓦尔特通讯2"
 	quest.2F277DEDA20A6698.title: "暮色茶"
 	quest.2F3FEC077CCD03E7.quest_desc: [
 		"&d失活灵核&r出现在&b末地城&r的宝藏箱中。将其投入&d苍穹转换核心&r加工即可激活，一次性分离出四种灵核各一"
@@ -964,12 +995,6 @@
 		""
 		"若历经万难后成功存活，便可在陵墓的最深处直面诅咒的来源，&b法老王&r。击败它，诅咒自会消散，财宝便可尽收囊中。"
 	]
-	quest.2F61DD2D8D153B8B.quest_desc: [
-		"&b三月七&r：&e美食家之路&r，开始吧！"
-		""
-		"不过，你一个人在那边会孤单吗？要不试试&6养小动物&r，比如&6小猫小狗&r什么的？"
-	]
-	quest.2F61DD2D8D153B8B.title: "&6三月七的建议"
 	quest.2F9A0A0D6C673C26.quest_desc: [
 		"在&6巫妖怪塔&r和&6中型空心矿山&r的宝箱中有几率获得。"
 		""
@@ -1005,8 +1030,6 @@
 	quest.31BB4486374B256F.title: "素食"
 	quest.31DD360274464B00.quest_desc: ["这是什么，尝一口？不对！"]
 	quest.31DD360274464B00.quest_subtitle: "别吃"
-	quest.31DF562D7DC47DEA.quest_desc: ["&b三月七&r：有一个&6舒适的家&r才能更好工作嘛！"]
-	quest.31DF562D7DC47DEA.title: "&6三月七的建议"
 	quest.323ABABE7DE8E315.quest_desc: [
 		"非常坚硬的方块，只有&6钻石级别&r以上的镐才能开采，可以用&6铁块&r和&6下界岩&r合成"
 		""
@@ -1031,11 +1054,14 @@
 	quest.32E31818D1EF2D96.title: "编外悬赏人员"
 	quest.32F8C299F5C73793.title: "击杀：5x恶魂"
 	quest.3361D2FE00FB87DA.quest_desc: ["&6更高级的机器元件&r，是时候该对我的机器们做一次&6全面升级&r了。"]
+	quest.338F3D3FCC1C1E84.quest_desc: ["&6深板岩&r的成分之一"]
 	quest.3396FD3D4CE3AF5D.quest_desc: ["充能&6紫水晶&r或者离心&6铂矿&r都能得到&b辐水晶&r，后者是加工&b辐镍晶&r的原料之一"]
 	quest.33C02F2DE064952C.quest_desc: ["比&b中级刷石机&r更进一步。有了它，&6岩石的生产速度又翻了番&r。"]
 	quest.33C515AA49EADF73.title: "木材厂"
 	quest.33C8AAC83A665112.quest_desc: ["尽管这个机器似乎需要&6依赖动力工作&r，但是跟我的&6通用动力工厂&r说去吧，更好用的自动合成来了。"]
 	quest.33E2C58B36E23617.title: "农场大亨"
+	quest.33F2D27033313BF5.quest_desc: ["接收大量能量使&6黑体辐射腔&r中的&b氘氚燃料&r形成等离子体，从而由&6核聚变反应&r进而产出大量&6能量、热量和蒸汽&r的聚变反应堆。&6氘氚&r分别稳定注入为&e20 MFE/t&r，&6氘氚燃料&r稳定注入时&e200 MFE/t&r"]
+	quest.33F2D27033313BF5.title: "聚变反应堆"
 	quest.3463F2AD31C2B2BA.quest_desc: [
 		"&b沙漠&r中的大部分是由沙子构成的&6平原和丘陵&r，上面点缀着一些&6仙人掌和枯萎的灌木&r，很难见到&6河流和湖泊&r。"
 		""
@@ -1067,6 +1093,7 @@
 	]
 	quest.34F1BC8478F12914.title: "流畅问题"
 	quest.34F54AF0052DEAAC.quest_desc: ["三文鱼好吃啊"]
+	quest.3514B02159F85006.title: "腰带"
 	quest.352C953654BD1E79.quest_desc: ["我圣诞老人呢"]
 	quest.355070A4285800E1.quest_desc: ["肉脯，好吃"]
 	quest.356F8B3657EEB396.quest_desc: ["我去，流星锤？！"]
@@ -1084,7 +1111,7 @@
 		""
 		"使用后会发出号角声，然后不断发出羊叫声，并转化一些方块，建筑方块主要为转化为对应裂纹方块。"
 	]
-	quest.3665FB88E5B3F64D.quest_desc: ["另一种&6燃烧生物质&r的发电机，各取所需即可。"]
+	quest.3665FB88E5B3F64D.quest_desc: ["&e64FE/t&r,另一种&6燃烧生物质&r的发电机，各取所需即可。"]
 	quest.36B6BE60426E3785.quest_desc: [
 		"通过&b化学溶解室&r，&6营养糊剂&r可以转化为&b营养液&r，从而让&6种植站&r能种植更多物品。"
 		""
@@ -1111,6 +1138,7 @@
 	]
 	quest.3A16FF58BE683458.quest_desc: ["蛙！味道还不错"]
 	quest.3A66D0689B3D6CB2.title: "茶"
+	quest.3A6FC4AB18CEE87B.title: "头饰"
 	quest.3A7B07F98FC282AD.title: "重生之下界探险"
 	quest.3A971015CC1CA376.quest_desc: [
 		"&6只要喂饲料就能下橡木的超强木鸡&r。这样一来，倒也省的砍树了。"
@@ -1132,6 +1160,7 @@
 		"除此之外，部分&6矿物粉末&r还可以继续被&6富集&r，其在工序中的&e利用效率是矿粉的8倍&r！"
 	]
 	quest.3BA20A7ECE89C2C1.title: "矿物加工"
+	quest.3BADBF1CBFEF6D54.quest_desc: ["哇，好亮眼的合金！"]
 	quest.3BB25C0C9FD2B499.title: "农产品市场"
 	quest.3C626E598CBB7E05.quest_desc: [
 		"&b丹恒&r：这个世界还有很多的未知。比如："
@@ -1139,7 +1168,7 @@
 		"&e这个世界的地理结构是什么样的？&r"
 		"&e是否还存在文明？&r"
 		""
-		"这些都需要你去一一探寻了。"
+		"期待你的勘察"
 	]
 	quest.3C626E598CBB7E05.title: "&6丹恒的建议&r"
 	quest.3C6A1A663F756686.quest_desc: ["手持&6下界石英&r右键&6纯种鸡&r即可得到。"]
@@ -1172,6 +1201,7 @@
 		"（&b刷石机&r）&6方解石&r（&b粉碎&r）→&6骨粉&r"
 	]
 	quest.3CF195FB988E33B3.title: "自动化产线二"
+	quest.3D12DAE8EBCFE594.quest_desc: ["烧矿获得"]
 	quest.3D5F0AB9AD93615E.quest_desc: [
 		"深海之下的&6大型建筑&r，主要由独特的&b海晶石、暗海晶石、海晶石砖和海晶灯&r构成，由&b守卫者&r所镇守。"
 		""
@@ -1192,18 +1222,9 @@
 	quest.3DC6B0F960296D18.quest_desc: ["鸡下的蛋。"]
 	quest.3DE47B13C353ED97.quest_subtitle: "都看一遍防止卡任务"
 	quest.3DE47B13C353ED97.title: "基础操作介绍"
-	quest.3DF6901C42EC2E14.quest_desc: [
-		"&b丹恒&r：没想到这个世界还存在&9暮色森林&r维度，让我想到&6无名客的信条&r："
-		""
-		"&e即使银河暮色苍茫，仍应将长夜照亮。&r"
-		""
-		"开拓者，我相信&9暮色&r一行会有不小的收获，如果你已准备好了，就动身前赴&9暮色森林&r，照亮长夜吧。"
-	]
-	quest.3DF6901C42EC2E14.title: "&6丹恒的建议&r"
 	quest.3DF8D983371C2295.title: "Greenhand！"
 	quest.3E27B1058203F967.quest_desc: ["用于两套存储元件&6互相在网络间传输&r，当&6更换磁盘&r或&6转移物品&r时可以用到。"]
 	quest.3E92598B6A96DC93.quest_desc: ["可以让机器&6运转的更快&r，但会消耗&6更多的能量&r，需要和&b能量升级&r搭配使用。"]
-	quest.3E9C89BA8F8D536C.quest_desc: ["这爆率高啊"]
 	quest.3EA128A6F26077E9.quest_desc: ["就咱这手艺，还轮不到吃这个"]
 	quest.3EA3076B087BCF82.quest_subtitle: "奖励抢夺10的附魔书"
 	quest.3EA3076B087BCF82.title: "现在谁才是掠夺者？"
@@ -1212,14 +1233,18 @@
 		""
 		"（&e注意，&r&6FE能量&r需通过放置&l&e任务屏幕&r&r，选择对应任务，并&6将能量导入任务屏幕&r完成）"
 	]
-	quest.3EACF2950EA484EC.title: "瓦尔特通讯"
+	quest.3EACF2950EA484EC.title: "瓦尔特通讯1"
+	quest.3EC1C3A084EF0C68.quest_desc: ["&6核废料&r转化，或&6粒子加速器&r转化&6铀&r获得"]
 	quest.3F30CB4330C6E176.quest_desc: [
 		"&b样板供应器&r自动合成时材料只能&6单面进单面出&r，而&b高级样板供应器&r能够指定&b输入面进行输入&r"
 		""
 		"需要搭配&b高级样板编码器&r使用。"
 	]
+	quest.3F69006D3356F4E1.title: "饰品出售"
+	quest.3FA2448C3BB800A3.quest_desc: ["烧矿获得"]
 	quest.3FDB12A75E04E8D4.quest_desc: ["此任务可无限领取"]
 	quest.3FDB12A75E04E8D4.title: "厨神在此！"
+	quest.40145321D5869A1B.quest_desc: ["神秘的工作台，能&6执行一些普通工作台无法执行的配方&r。"]
 	quest.407EC5D14140DEF9.quest_desc: [""]
 	quest.407EC5D14140DEF9.quest_subtitle: "&9我，便是救世主！"
 	quest.407EC5D14140DEF9.title: "&6他们说，若苦难终有尽头"
@@ -1233,6 +1258,7 @@
 	quest.40B2E7028072CFD7.title: "百味皆通"
 	quest.40BC12E1F269F631.title: "僵尸回收"
 	quest.410933B3D1FA3E02.quest_desc: ["&b熵变机械臂&r可分别加热和冷却物体。能进行诸如&6蒸发或冻结水&r、将&6熔岩固化为黑曜石&r、将&6原木熔炼成木炭&r、&6将圆石熔炼成石头&r等操作。"]
+	quest.4155272C703A8399.quest_desc: ["&6圆石、沙砾与岩浆&r塑形而得。"]
 	quest.41E1F70AD4D2AD90.quest_desc: ["不能吃，但可以做&6面粉&r和&6面包&r"]
 	quest.420DC9F8A555959E.quest_desc: [
 		"&b银狼&r：准备了一些&b创造马达&r，防止你搞不明白&6应力和转速&r，只要把&6创造马达&r放机器旁边，想让机器转多快转多快。"
@@ -1240,9 +1266,8 @@
 		"不过这&6思索界面&r展示的是啥啊"
 	]
 	quest.420DC9F8A555959E.title: "无限应力"
-	quest.421472ADA85B501E.quest_desc: ["燃煤发电机"]
+	quest.421472ADA85B501E.quest_desc: ["&e32FE/t&r, 燃煤发电机"]
 	quest.422AB4FBE0B639F5.quest_desc: ["有了塑料片就可以装配&b处理器&r，进一步制作&b磁通门&r了，后者是中期重要的工业配件，需要不少。"]
-	quest.4255B2DFCC571DCC.quest_desc: ["为&6烈焰人燃烧室&r提供更强力的燃烧以完成更多配方，如将&6圆石&r炼为&6熔岩&r，&6煤炭块&r压缩为&6钻石&r"]
 	quest.426FB73723755A72.quest_desc: ["&b锻造模板&r可以让盔甲更好看，&6探索获得&r。而&b锻造台&r是装备下一步升级的重要道具"]
 	quest.426FB73723755A72.title: "锻造台"
 	quest.42C3EB3A6171163D.quest_desc: ["烧炼&6氟矿石&r获得"]
@@ -1254,6 +1279,7 @@
 	quest.42D0AF89B45F204D.title: "调节界面大小"
 	quest.433127AE9DFAEF0E.quest_desc: ["&6末地外岛&r多了很多新鲜玩意儿，但在你到达之前，什么也不会发生。"]
 	quest.433127AE9DFAEF0E.title: "进入末地"
+	quest.435E29B4A71A0BEB.quest_desc: ["烧矿获得"]
 	quest.437D175F43F8A588.quest_desc: ["&b过充水晶&r是实现&6无限资源采集设备&r的最后一步，但在没有&b粒子对撞机&r前，还需要准备不少的&b超导体&r。"]
 	quest.44363FE04DE0481A.quest_desc: [
 		"&b瓦尔特&r：如果你对这个世界的&6科技&r感兴趣，我非常高兴你能为我&6收集资料&r。"
@@ -1312,6 +1338,7 @@
 		"&6400DP&r &b生命恢复II+饱和+速度I&r"
 		"&6500DP&r &b生命恢复II+饱和+速度I+主副手及装备每5秒恢复一点耐久。&r"
 	]
+	quest.459B881A86C0E6C9.quest_desc: ["溶解&6火珊瑚&r或挖掘&6下界钴矿石&r获得"]
 	quest.45D054683CBCEC73.quest_desc: [
 		"&2娜迦庭院&r是&b娜迦&r的居所，是一个具有迷宫特色的花园。"
 		""
@@ -1343,11 +1370,8 @@
 		"向机器内&6添加气体或液体&r。&b右键&r点击机器GUI装气体或液体的槽就可以把内容物添加进去。一次上限1000mB"
 	]
 	quest.46D21555024FCCD9.quest_subtitle: "我们不生产流体，我们只是流体的搬运工"
-	quest.471BD317E53B9858.quest_desc: [
-		"这个世界的&6稀缺资源&r，可用于合成比铁&6更强力的装备和工具&r。部分&6金质物品包裹钻石&r能进一步增强功能。"
-		""
-		"&b杨叔&r认为&6煤炭在高压下可以形成钻石&r，暂时还不知道它在说什么。"
-	]
+	quest.47071A7B4FDD2B29.quest_desc: ["溶解&6灵魂沙&r获得"]
+	quest.471BD317E53B9858.quest_desc: ["这个世界的&6稀缺资源&r，可用于合成比铁&6更强力的装备和工具&r。部分&6金质物品包裹钻石&r能进一步增强功能。"]
 	quest.47246CF301523E6D.quest_desc: [
 		"&e装配步骤：&r"
 		""
@@ -1365,8 +1389,6 @@
 		"书上说，它是&6ME网络&r的核心，给它供电才能维持网络。"
 		""
 		"但是&e规则，就是用来打破的！&r"
-		""
-		"书上也说，某种情况下并不需要它..."
 	]
 	quest.477F78F062B3C7D2.quest_desc: [
 		"&bEcho_projector&r再次放置后&6投影&r会重置，所以挖了之后就不能再看到剧情了，只有特定的&6echo&r才行。但是&6章节任务&r完成后依然会有&6主线剧情&r。"
@@ -1385,6 +1407,7 @@
 		""
 		"&b禁用&r：即关闭。"
 	]
+	quest.47CE54DEBE87764B.quest_desc: ["&6燧石&r塑形而得"]
 	quest.48141982F2492BD9.quest_desc: ["&6精致的家装会提供更多的家具点数&r。有的家具需要通过&6流浪商人或者村民&r交易获得。"]
 	quest.48141982F2492BD9.title: "精致家具"
 	quest.481E7E39BE55398A.quest_desc: ["讨厌牛头人，必须生吞活剥！"]
@@ -1393,7 +1416,17 @@
 		""
 		"&z&m工业核心&r&r"
 	]
+	quest.484C6BB4A211A42A.quest_desc: ["溶解&6下界合金&r获得"]
 	quest.487F150464EA8795.title: "天下肴馔"
+	quest.48C438C8DF423B69.quest_desc: [
+		"用&b导向环&r（弯道）和&b马达&r（直道）搭建一个环，通电，在环的&6内外侧分别&r放置&b粒子加速器&r。当插入的&6粒子达到一定速度&r后，在同一环中插入&6第二个粒子&r，&e砰！&r就会产生新的&6粒子&r。"
+		""
+		"&e产生的能量等于两个粒子速度之和&r。"
+		""
+		"&b粒子加速器传感器&r可测量加速器速度，通过&6红石比较器&r输出信号，可用于自动化粒子输入。"
+		""
+		"更高的速度&6做一个更大的环&r来实现。"
+	]
 	quest.49009B2285C7174A.quest_desc: [
 		"&6矿石&r在&6提纯仓&r中可以得到&b矿物碎块&r的三倍产出。看起来一开始可以先用&b燧石&r代替&b氧气&r，有了&6电解分离器&r之后就可以用&6氧&r来提纯了."
 		""
@@ -1423,6 +1456,7 @@
 	quest.4B083A0A5821D7AD.quest_desc: ["&b恶地&r像是一片荒凉的&6红沙漠&r，遍地是&6红沙、红砂岩、陶瓦&r，&6红、橙、黄、棕、白与浅灰&r的色调让这里显得千篇一律"]
 	quest.4B083A0A5821D7AD.quest_subtitle: "地如其名"
 	quest.4B083A0A5821D7AD.title: "恶地"
+	quest.4B38DB9B6CF50876.quest_desc: ["&6花岗岩&r的成分之一"]
 	quest.4C252756088BC488.quest_desc: ["手持&6下界岩&r右键&6纯种鸡&r即可得到。"]
 	quest.4C3B01CAD6DAE813.quest_desc: ["&b反应仓&r能够通过使用&6催化剂流体&r和&6大量能量&r来加速化学反应，大多数情况下能获得更高效的结果。"]
 	quest.4C3B01CAD6DAE813.quest_subtitle: "show them your craftline"
@@ -1484,6 +1518,7 @@
 		""
 		"尽管后续的酿造还需要&6烈焰粉&r，但是不用担心，用&b粉碎轮&r粉碎&6岩浆膏&r就可以获得&6烈焰粉&r，而&6岩浆膏&r可以用&6黏液球&r烧制而成。"
 	]
+	quest.4FCD2EBD3DCE3687.quest_desc: ["烧制&6石英&r获得"]
 	quest.4FD3A7C398580722.quest_desc: [
 		"&b咖啡&r需要&6酿造&r获得，首先需要一个&b酿造台&r。"
 		""
@@ -1503,18 +1538,32 @@
 	quest.4FE540CE2BF213D5.title: "冰棒"
 	quest.504F975AE6F9E178.quest_desc: ["一座巨大的&b迷宫&r，入口位于地表，地下&6有两层迷宫&r，其中会生成&b米诺陶&r和&b迷宫史莱姆&r，第二层是&bboss米诺菇&r的所在地"]
 	quest.504F975AE6F9E178.title: "迷宫"
-	quest.5060DE6A9381967E.quest_desc: ["传输资源的管道"]
+	quest.5060DE6A9381967E.quest_desc: [
+		"本模组的&6任意合金&r右键线缆可以升级与其连接的最近&6 8 个线缆&r的等级"
+		""
+		"也就是说，当机器已经连接线缆时，&6不必拆下后再合成&r。"
+		""
+		"线缆的&6连接处&r可以通过&b配置工具&r(配置模式)&bShift +右键&r改变模式："
+		""
+		"分为&6无、输入、抽出、正常&r四种模式，对应的管道连接处会有一定变化，可以借此隔离管道。"
+		""
+		"直接右键能调&6是否受红石控制&r。"
+		""
+		"线缆的中段可以使用&b配置工具&r&6改变颜色&r，不同颜色不相连。在连接容器的一段标上颜色可用&b物流整理机&r指定颜色分类放置"
+	]
 	quest.5060DE6A9381967E.title: "资源传输"
 	quest.50794173FEACDE53.quest_desc: [
 		"将任意一个&b被附魔的物品&r和一本&6书&r放在一个&b砂轮&r里，&6砂轮&r会将物品的&6全部魔咒&r转移至&6书&r上。"
 		""
 		"将一本&b附魔书&r和一本&6普通书&r放在&6砂轮&r里，&6砂轮&r会将附魔书中&6第一行&r的附魔转移至&6书&r上。"
 	]
+	quest.50B705D6091D1869.quest_desc: ["烧水的大炉子罢了"]
 	quest.50C9631573DF4C91.title: "芹菜"
 	quest.50E0D61793BAEE9E.quest_desc: ["&b银狼&r：这条是我加的，实在是不想你每次想搞点&6烈焰粉&r都要去折腾&6烈焰人&r。不过&6烈焰棒&r还得你亲力亲为"]
 	quest.50E0D61793BAEE9E.quest_subtitle: "粉碎&6岩浆膏&r获得&6烈焰粉&r"
 	quest.50EEB7B6019B1902.title: "盐"
 	quest.518B94DE8CBC6FD1.title: "合金装备"
+	quest.521F7D47C07326D0.quest_desc: ["有了加速器果然可以得到不少东西"]
 	quest.523500B93FF5FACE.title: "樱桃"
 	quest.52606458F1225270.title: "百炼成钢"
 	quest.5293F47A64FB2D2A.quest_desc: [""]
@@ -1523,6 +1572,7 @@
 	quest.52D6FE5D51CB4787.title: "云上小屋"
 	quest.52F7AD0C0EDA3D91.quest_desc: ["于&6荒冷的冰川&r之上，辉煌的宫殿高耸入云，作为&b冰雪女王&r的禁地，&6格外引人注目&r。殿内&6楼梯繁杂、物资颇丰&r，但也布满&b冰雪守卫&r和&b冰精灵&r，它们想必是&6女王的守卫&r。"]
 	quest.52F7AD0C0EDA3D91.title: "极光宫殿"
+	quest.52F7CE6A485B7A7F.quest_desc: ["&6下界岩&r的成分之一"]
 	quest.53126FABD2445FDA.quest_desc: [
 		"屏幕左上角图标为&6FTB队伍菜单&r,可借此将&6其他玩家&r加入你的队伍。彼时你们的&6任务进度&r方能同步。"
 		""
@@ -1570,6 +1620,7 @@
 	]
 	quest.54D53F1A8D6C6C7D.quest_subtitle: "Deep ♂ dark ♂ fantasies"
 	quest.54D53F1A8D6C6C7D.title: "进入深暗之域"
+	quest.54E47C73DAA971A2.quest_desc: ["&6闪长岩&r的成分之一"]
 	quest.550B52C5353010B6.quest_desc: ["溶解&6马铃薯&r获得"]
 	quest.552CEE81C1632104.quest_desc: ["&b摩拉&r可由&6金块&r切制而得，也可在战利品箱中获取"]
 	quest.55413B31AD6AFFF0.quest_desc: [
@@ -1614,6 +1665,7 @@
 		"将其放置在&6基岩层&r附近的合适位置，接入电力并配置&6末影激光器&r即可启动。矿机会向&6下方3*3区域&r的资源节点进行探测和钻取，持续开采节点产出资源。"
 	]
 	quest.5555E71AB0530DA7.quest_desc: ["将基片产线的副产物&6乙烯&r先用气液转换器冷凝为液态乙烯，在&6加压反应室&r中与氧一起，可以将&6基片&r加工为&b高密度聚乙烯球&r，进一步由&6富集仓&r加工为&b高密度聚乙烯纸&r。·"]
+	quest.559B7535292C3B43.quest_desc: ["&b加压反应室&r中由&6锶&r转化而得"]
 	quest.560FD5BCD7F2F4A7.title: "蒜"
 	quest.5610DDBBF5E81182.quest_desc: [
 		"提供&b应力&r的设备。"
@@ -1652,11 +1704,13 @@
 	quest.584B015B56F23365.quest_subtitle: "传奇耐活王"
 	quest.584B015B56F23365.title: "连续存活10个小时"
 	quest.585771DEBD7468DB.quest_desc: ["一碰就碎的神剑"]
-	quest.5864EAC57EE164BD.quest_desc: ["燃煤发电机"]
+	quest.5864EAC57EE164BD.quest_desc: ["燃煤发电机，发电效率取决于电容，无电容为&e20FE/t&r"]
 	quest.588256978C3194DF.quest_desc: ["可以转换生物的神奇粉末"]
 	quest.5924F4E78C2BAA72.quest_subtitle: "使用&6氢气&r作为燃料的飞行装备。"
+	quest.596082803A1C6220.quest_desc: ["烧矿获得"]
 	quest.5969A8B7D0D07EA6.quest_desc: ["在发展科技之前，需要先采集一些&b锇&r和&b铝&r，其中&b锇矿&r只能用&6钻石镐&r及更高等级的镐采集。"]
 	quest.597E234CA803FDE3.quest_desc: ["一个预制的农场，&6农民&r也卖这个。"]
+	quest.59C7C4B1F8483033.quest_desc: ["溶解&6绿宝石&r获得"]
 	quest.59D23433DD10933F.quest_desc: [
 		"&6村庄&r等很多结构都会生成&b书架&r，但破坏后只会掉落&6书本&r，重新把它们做成书架吧。"
 		""
@@ -1703,12 +1757,14 @@
 	quest.5A449F92945D7FF3.quest_desc: ["俗话说，不会做菜的农夫不是好开拓者。"]
 	quest.5A880F72946C2D6A.quest_desc: ["热力蒸馏&6盐水&r获得"]
 	quest.5A880F72946C2D6A.title: "锂"
+	quest.5AB4D0258E8F9ED0.title: "镧系"
 	quest.5AF1669DB6F37E0D.quest_desc: ["更高级的无限粉发电机"]
 	quest.5B3A23826FD8A9C6.quest_desc: [
 		"一只&6配备鞍的猪咪&r可以用&b胡萝卜钓竿&r牵引，作为交通工具使用。"
 		""
 		"在下界，&6炽足兽&r配备鞍之后也可以用&b诡异菌钓竿&r牵引，帮助跨越&6岩浆湖&r"
 	]
+	quest.5BADAAD16CAD65EF.quest_desc: ["烧矿获得"]
 	quest.5BCA9BCE3C5EB893.quest_desc: ["哈，当然你可以在前期利用&6末影接口&r的机器炼出&b钢锭&r，但...你不可能一直这么做的"]
 	quest.5BCA9BCE3C5EB893.quest_subtitle: "熔炼钢粉"
 	quest.5BF4000473ECB84F.quest_desc: [
@@ -1721,9 +1777,13 @@
 		"&m拉帝奥先生：一大片田都种同一种作物的期末给0分！&r"
 	]
 	quest.5BF4000473ECB84F.title: "《论耕作》"
-	quest.5C38B572AFE06070.quest_desc: ["燃烧&6石油或柴油等流体燃料&r来产出大量能量的机器。"]
+	quest.5C38B572AFE06070.quest_desc: [
+		"&e256FE/t&r,"
+		"燃烧&6石油或柴油等流体燃料&r来产出大量能量的机器。"
+	]
 	quest.5C643A465D3DFC98.quest_subtitle: "粉碎&6花岗岩&r获得&6红沙"
 	quest.5C99972856E89260.quest_desc: ["强力的&d模块化装备&r"]
+	quest.5C9FFD4938487CD1.quest_desc: ["&6用尽的核废料混合物&r转化获得"]
 	quest.5CD153FB51DDA626.quest_desc: [
 		"再记一遍boss和对应结构："
 		"{image:twilightforest:textures/map/decorations/naga_courtyard.png width:40 height:40 align:center}"
@@ -1756,8 +1816,11 @@
 	quest.5D3738A1192E6588.title: "食不厌精"
 	quest.5D8DF7A4BD0E1703.quest_desc: ["可以通过&6锇或其他物质&r实现压缩功能，但想必它目前最有用的功能是&b将木炭块压缩为钻石&r"]
 	quest.5DA2D7C2C7E14A6A.quest_desc: ["&6丛林特供&r，看来不得不做一回探险家了。"]
+	quest.5DA7FA3D2C192C3D.quest_desc: ["可以查到物品的标签，这就是它最大的作用了"]
+	quest.5DB3192B38A18269.quest_desc: ["溶解&6鱼类和海晶石&r获得"]
 	quest.5DDF0CCC940FDE78.quest_desc: ["野味儿，也好吃"]
 	quest.5DE8CB63EF17E02E.title: "寿司类"
+	quest.5EA8F60D8242B580.quest_desc: ["溶解&6海晶石&r获得"]
 	quest.5EF1546F21EC1557.quest_desc: [
 		"手动合成&6控制电路&r和&6钢制机壳&r什么的实在是太麻烦了，果然有&6用电自动合成&r的机器，这样就方便多啦。"
 		""
@@ -1776,6 +1839,7 @@
 	]
 	quest.5F37F34D4F22B532.quest_subtitle: "Sakura"
 	quest.5F37F34D4F22B532.title: "樱花树林"
+	quest.60198557314C807A.quest_desc: ["最大&e224FE/t&r，需要搭建多方块结构"]
 	quest.601B49CF7CF3B85A.quest_desc: ["用&b小刀&r可以将&6生肉&r切成碎块，在制作美食时可以减少消耗。"]
 	quest.601B49CF7CF3B85A.title: "第一件厨具"
 	quest.6081141D9290088B.quest_desc: [
@@ -1788,7 +1852,13 @@
 		""
 		"完成摆放后对机器本体&b右键&r即可展开机器，完成搭建。"
 	]
+	quest.6092D1341C302FD3.quest_desc: [
+		"准备好材料后就可以开始搭建&b裂变反应堆&r了。为了安全起见，就先搭一个小点的吧。"
+		""
+		"反应堆至少需要&6燃料&r和&b冷却剂&r。&6水、钠、氦、硝酸铵&r都可以作为&6冷却剂&r使用，但其中除了&b硝酸铵&r，都需要通过&b热力锅炉&r将其冷却，所得&6蒸汽&r都可以成为&b工业涡轮&r的燃料。"
+	]
 	quest.60CEFE7C0473037E.quest_desc: ["将&6充能赛特斯石英水晶&r、&6红石粉&r、&6下界石英&r丢入同一格水中即可将其转化为&b福鲁伊克斯水晶&r，是重要的加工材料"]
+	quest.60FFF8342B0D8C78.quest_desc: ["溶解&6龙息&r获得"]
 	quest.612CD89A632B5531.quest_desc: ["&b丹恒&r：击杀&6掠夺者前哨站&r佩戴&6灾厄之旗&r的&6掠夺者队长&r掉落。饮用后会获得&b不祥之兆&r，此时进入村庄会转变为&b袭击之兆&r，效果30秒倒计时结束后会触发&b袭击&r。如果你不想触发袭击，不用慌张，可以喝下牛奶消除效果。"]
 	quest.6132FFF68A490487.quest_desc: [
 		"&6森林&r是常见的繁茂生物群系，在其绵延的地形中有大量的&b橡树与白桦&r。"
@@ -1805,15 +1875,19 @@
 		"用于制造&6下界合金工具、武器和盔甲&r。"
 	]
 	quest.614EE062366DE8B0.quest_subtitle: "缠魂&6沙子&r获得&b灵魂沙&r"
-	quest.616E93FB41D71405.quest_desc: ["牛可以挤奶，这很正常。"]
 	quest.6171781D667BCACE.quest_subtitle: "银狼做的悬赏板，看看吧"
 	quest.6171781D667BCACE.title: "悬赏板"
+	quest.6184032A24E125E5.title: "脚饰"
+	quest.6191CB7CEFC5A503.quest_desc: ["溶解&6粉红色染料&r获得"]
+	quest.61C8002506FD238B.quest_desc: ["化合&6海水和氯&r获得"]
 	quest.622AE032E6BD9247.quest_desc: ["味甘，好吃。"]
 	quest.6241A346855CCC36.quest_desc: ["&6苔藓泥&r可用于制作&b精准采集&r附魔书"]
 	quest.6241A346855CCC36.quest_subtitle: "粉碎&6苔藓&r获得&6苔藓泥"
+	quest.626F569C5BD70EC5.title: "项链"
+	quest.6276EFB93F68002D.quest_desc: ["溶解&6绿宝石&r获得，&6橙色染料&r也可提取出&6重铬酸钾&r"]
 	quest.62CA7FE33ED39777.quest_subtitle: "在&6冶金灌注机&r中用煤炭灌注富集铁"
 	quest.62FF92426F8FEE99.quest_desc: ["&6自行酌情选择使用&r，&e只能领取一次&r"]
-	quest.62FF92426F8FEE99.title: "作弊道具"
+	quest.62FF92426F8FEE99.title: "以太编辑"
 	quest.632FCB7CEFC13783.quest_desc: [
 		"选项-&6资源包&r-选择&6Gothening_translation&r加入，等待片刻后，游戏内部分模组&6未汉化物品&r"
 		"就有&6中文翻译&r了，游玩过程中遇到其他没有翻译的情况加&6Q群&r：&n&e1106270676&r&r联系。"
@@ -1857,10 +1931,10 @@
 	quest.64DC596F058FA8B1.quest_subtitle: "高级农场里可以选刷怪塔"
 	quest.64E0AD4921A7C7E3.quest_desc: ["这不纯纯僵尸肉？"]
 	quest.64EA86F350D3F8EB.quest_desc: ["没毒就好"]
-	quest.6505B2B49E04CB64.quest_desc: ["通过&b生物燃料&r发电的机器，效率比&6太阳能和风力发电机要高&r。"]
+	quest.6505B2B49E04CB64.quest_desc: ["&e140FE/t&r,通过&b生物燃料&r发电的机器，效率比&6太阳能和风力发电机要高&r。"]
 	quest.65445032CF2B5938.quest_desc: ["电解&6水&r获得"]
 	quest.65445032CF2B5938.title: "氧"
-	quest.654A6D1B646AB054.quest_desc: ["由&6余烬面粉&r制作，用于制作&b烈焰蛋糕&r"]
+	quest.654A6D1B646AB054.quest_desc: ["由&6余烬面粉&r制作，用于制作&b烈焰蛋糕&r，为&6烈焰人燃烧室&r提供更强力的燃烧以完成更多配方，如将&6圆石&r炼为&6熔岩&r，&6煤炭块&r压缩为&6钻石&r"]
 	quest.656D017F942E81B9.quest_desc: ["手持&6末地石&r右键&6纯种鸡&r即可得到。"]
 	quest.65F4122ABFE7D71B.quest_desc: ["恭喜&6刷石机&r可以撑地了"]
 	quest.662CCE223014763B.quest_desc: ["这个倒是嚼的动"]
@@ -1912,6 +1986,7 @@
 	quest.68021E264E47D288.title: "蘑菇岛"
 	quest.681E559D3F2A5D4F.quest_desc: ["这个指令会再次召唤一个Echo，以防你找不到之前的。"]
 	quest.681E559D3F2A5D4F.title: "接收列车组消息"
+	quest.682088B09EE00FAE.quest_desc: ["烧矿获得"]
 	quest.689926C5D182D2A7.quest_desc: ["那天我晾干面包，发现干面包硬的能打人"]
 	quest.6934396CF6FC374C.quest_subtitle: "洗涤&6岩浆块&r获得&6黑曜石&r"
 	quest.6974EC11D4B31D86.quest_desc: ["&d迟早要有这一天...&r"]
@@ -1933,6 +2008,23 @@
 	quest.6B2A1352D441AB26.quest_desc: ["这是大腿？"]
 	quest.6BC4C10669E545BF.quest_subtitle: "是兄弟就来砍我"
 	quest.6C587C33EE0CBFC6.quest_desc: ["鳕鱼好吃啊"]
+	quest.6C6EABE0223705E7.quest_desc: ["当前阶段最高级的合金了，能制造&6高级机器&r、大幅提高&6机器并行能力&r、&6管道传输能力&r"]
+	quest.6CC4EC6612714FBD.quest_desc: ["&6石砖&r的成分之一"]
+	quest.6CE5C2AF2AB23186.quest_desc: [
+		"&b冲压&r"
+		""
+		"加工&6置物台&r上的物品。主要用于将金属锭加工为&6金属板&r。"
+		""
+		"&b塑形&r"
+		""
+		"加工&6工作盆&r内的物品。可用于将多种原料加工为成品。"
+		""
+		"&b自动压缩&r"
+		""
+		"将工作盆内单一物品压缩。"
+	]
+	quest.6CE5C2AF2AB23186.title: "动力冲压"
+	quest.6CF148EF09980A4E.quest_desc: ["溶解&6幻翼膜&r获得"]
 	quest.6CF91DBA4A19C8E3.title: "肉的加工"
 	quest.6D5FB80E0043E252.title: "其他动物的肉"
 	quest.6DEF672D4335457A.quest_desc: ["还行，烤熟了没啥膻味"]
@@ -1972,6 +2064,7 @@
 	quest.6F2522327024E05B.quest_desc: [""]
 	quest.6F2522327024E05B.title: "&b丹恒通讯"
 	quest.6F918F7C362BDD84.quest_desc: ["别忘了鹿"]
+	quest.6FBA640FE9B59FA9.quest_desc: ["烧矿获得"]
 	quest.6FD43E324F08ACE3.quest_desc: ["大概是碳水"]
 	quest.70128F8673F2448B.quest_desc: ["矿洞里有一些&6安山岩&r，它们与铁粒可以合成&e&l安山合金&r&r，可以制作一些&6基础工业设施&r，来适应前期发展。"]
 	quest.704E264ABDA69FBA.quest_desc: [
@@ -1983,6 +2076,8 @@
 	quest.70A620F3139CC50A.title: "深海"
 	quest.70A9A9963680AA94.quest_desc: ["这种就应该放烤架上"]
 	quest.70ACE87AC437C4D5.title: "其他饮品"
+	quest.70B197E61A2F44A5.quest_desc: ["使用&6蒸汽&r产生大量能量的大型机器，当前产出大约&e73，000FE/t&r，理论最大产出约&e44,000,000FE/t&r"]
+	quest.70B197E61A2F44A5.title: "工业蒸汽涡轮"
 	quest.70BDD1D7D6B91494.quest_desc: ["支持&6跨纬度扩展&r的ME控制器"]
 	quest.711A8992672BCAA9.quest_subtitle: "女巫把黏液球炼化了"
 	quest.718E21049D9912A9.quest_desc: ["在繁殖出&b末影鸡&r前，看来还是得&6杀末影人&r才能获得&6末影珍珠&r。这需要做一个小型的刷怪塔。好在我找到了一些可以使用的&6刷怪机器&r"]
@@ -2018,6 +2113,7 @@
 		""
 		"还有些村民会搞垄断，有的东西&6只能从村民手中买到&r。"
 	]
+	quest.759EBEC72BC1A884.quest_desc: ["&6石砖&r的成分之一"]
 	quest.75BF4F884FC9E0BC.quest_desc: ["&d过载样板供应器&r是&bME样板供应器&r的增强版本，拥有&b36&r个样板措位，并支持&6无线模式&r。"]
 	quest.75D569500F79FA1B.quest_desc: [
 		"&b丹恒&r：看起来这个世界存在文明，但&b螺丝咕姆先生&r也无法理解它们的语言，好在它们对你没有敌意，甚至会被&b绿宝石&r所吸引。"
@@ -2047,6 +2143,9 @@
 		"&e仙人掌可以在砧板中用斧头砍成线&r，虽然很离谱，但也为&6沙漠生存&r提供了&6\"一丝\"途径&r"
 	]
 	quest.7650FD8BE7B25404.title: "莲藕"
+	quest.76A6BEF471A1E09D.quest_desc: ["溶解&6石英&r获得"]
+	quest.76D5F5B6DEA6623D.quest_desc: ["更强力的合金！"]
+	quest.76D5F5B6DEA6623D.title: "热核合金"
 	quest.76DFEE9A3146BC39.quest_subtitle: "混合一些植物和水可以得到纸浆"
 	quest.76FD96DA4BB45B75.quest_desc: ["值得一提的是，将生物命名为&6Dinnerbone&r或者&6Grumm&r，可使其倒立，对任何可命名的生物都是如此。"]
 	quest.76FD96DA4BB45B75.title: "命名牌售货机"
@@ -2070,10 +2169,12 @@
 		"一个或多个&6无线接收器&r调谐到同一频率即可建立&d虚拟网格连接&r。"
 	]
 	quest.77771F8A4D28D955.quest_desc: ["住宅的&6装饰点数每积累100点&r后玩家会获得&b华丽物质&r。用于制作&b家装核心&r。"]
+	quest.778532C4D6B2C63C.quest_desc: ["挖掘获得"]
 	quest.778532C4D6B2C63C.title: "汞"
 	quest.778B43591FDEBF15.title: "凉菜"
 	quest.77FFFEBAB6D4AC34.quest_desc: ["味甘，好吃。"]
-	quest.7801F7E115E9034E.quest_desc: ["&b姬子&r说，激活&b信标&r产生的&6光束&r可能被列车接收到，具体来说，需要用&69个铁块&r，额，斑驳几块金块也行，放在信标底下，摆一个&63*3的方形&r"]
+	quest.781F267F4EBD9940.quest_desc: ["辐射加工的更高一级&6合金&r，可以开始全面升级&6管道和工厂&r了"]
+	quest.781F267F4EBD9940.title: "辐光合金"
 	quest.782BECB8F81B72B2.quest_desc: [
 		"&2骑士要塞&r位于&2黑暗森林&r，结构&6错综复杂且变化多样&r，有许多强大的敌对生物，探险得做好充分准备。"
 		""
@@ -2139,10 +2240,16 @@
 	quest.7A5C9CCEAC033453.title: "通用机械的开端:锇"
 	quest.7A721F7736E178EE.quest_subtitle: "八十一难之后..."
 	quest.7A721F7736E178EE.title: "死亡次数达到81次"
-	quest.7AC24ADECBC032BF.quest_desc: ["&b三月七&r：哈？你问我还有什么建议？当然是建议把&1Minecraft&r的所有美食带回&6星穹列车&r啦！"]
-	quest.7AC24ADECBC032BF.title: "享受生活"
 	quest.7AD686248C485E2D.quest_desc: ["吃了能跳的更高吗"]
-	quest.7AE51D1D68BA7A85.quest_desc: ["&b丹恒&r：做一个&62×2的水池&r，周围放上&6花草&r，往水里扔一颗&6钻石&r后，&b暮色传送门&r就开启了。"]
+	quest.7AE51D1D68BA7A85.quest_desc: [
+		"&b丹恒&r：螺丝咕姆先生说，这个世界还存在&9暮色森林&r维度，让我想到&6无名客的信条&r："
+		""
+		"&e即使银河暮色苍茫，仍应将长夜照亮。&r"
+		""
+		"开拓者，我相信&9暮色&r一行会有不小的收获，如果你已准备好了，就动身前赴&9暮色森林&r，照亮长夜吧。"
+		""
+		"做一个&62×2的水池&r，周围放上&6花草&r，往水里扔一颗&6钻石&r后，&b暮色传送门&r就开启了。"
+	]
 	quest.7AE51D1D68BA7A85.title: "前往暮色森林"
 	quest.7AE5E3E72F4F2B23.quest_desc: ["不知道咋用，交给杨叔研究吧"]
 	quest.7AE5E3E72F4F2B23.title: "天枢超算阵列"
@@ -2157,6 +2264,7 @@
 		"A:按&bF4&r解除定身"
 	]
 	quest.7BED63639BA10A4C.title: "FAQ"
+	quest.7C2875B7235CCC01.quest_desc: ["&6末地石&r的成分之一"]
 	quest.7C2992F5EDAF3620.title: "百炼成馔"
 	quest.7C349A4B201E6EC7.quest_desc: ["&6简易的磨粉机&r，可能会有&6副产物&r，&b无限粉块&r磨粉后可以借此增产。多余的&6无限粉&r可以拿来发电"]
 	quest.7C445C2D5C60544A.quest_desc: [
@@ -2165,11 +2273,12 @@
 		"部分矿物经过粉碎也会有&6副产物矿&r产出。"
 	]
 	quest.7C45F51C9E1EF8F3.title: "油"
+	quest.7CAA8E70C267A208.quest_desc: ["溶解&6末影珍珠&r等获得"]
 	quest.7CD5DE755A53C1DB.quest_desc: ["佩戴&b天使指环&r可以&6无条件&r实现创造飞行"]
 	quest.7CD5DE755A53C1DB.title: "农业专家"
 	quest.7CE3341F012F71E2.title: "下界及末地肉类"
 	quest.7D3F7052A7264CE4.title: "茄子"
-	quest.7D617D177844F994.quest_desc: ["记录一些机械动力的机器及产线"]
+	quest.7D617D177844F994.quest_desc: ["记录一些&6机械动力&r的机器及产线"]
 	quest.7D617D177844F994.title: "&b机械动力"
 	quest.7D81A421F7021179.title: "氯"
 	quest.7DC47FAE9D4025EF.quest_desc: [
@@ -2184,11 +2293,10 @@
 		""
 		"被攻击的生物会获得&6冻结&r效果"
 	]
-	quest.7E071FA2242E44BD.quest_desc: ["有机食物的重要组成部分，可溶解&6有机物&r获得"]
+	quest.7E071FA2242E44BD.quest_desc: ["分离&6压缩空气&r获得，重要化工材料"]
 	quest.7E61267C5D2BCB16.title: "奖励一览"
-	quest.7E6163D636BF2C62.quest_desc: ["&b姬子&r：这个世界同样有&b信标&r，激活后或许&6信标&r可以发出&6能被列车接收到的信号&r"]
-	quest.7E6163D636BF2C62.title: "&6姬子的建议"
 	quest.7E96AA062AD426AE.quest_desc: ["我黑椒酱呢"]
+	quest.7F114C04257F9A45.quest_desc: ["中子活化&6钚&r获得"]
 	quest.7F19A1A1402F9378.quest_desc: ["手持&6燧石&r右键&6纯种鸡&r即可得到。"]
 	quest.7F3AB49D6DC13C1B.quest_desc: [
 		"&b原子锻造器&r是一种用于制造&6高级工业配件&r、&6辅助倍矿处理&r或代替部分&6冶金灌注加工&r的机器。"
@@ -2206,20 +2314,6 @@
 		""
 		"不过我发现，其实&6酿造台&r还能酿造一些&6强力的药水&r，有机会可以试一试。"
 	]
-	quest.7F7E071B0F23A888.quest_desc: [
-		"本模组的&6任意合金&r右键线缆可以升级与其连接的最近&6 8 个线缆&r的等级"
-		""
-		"也就是说，当机器已经连接线缆时，&6不必拆下后再合成&r。"
-		""
-		"线缆的&6连接处&r可以通过&b配置工具&r(配置模式)&bShift +右键&r改变模式："
-		""
-		"分为&6无、输入、抽出、正常&r四种模式，对应的管道连接处会有一定变化，可以借此隔离管道。"
-		""
-		"直接右键能调&6是否受红石控制&r。"
-		""
-		"线缆的中段可以使用&b配置工具&r&6改变颜色&r，不同颜色不相连。在连接容器的一段标上颜色可用&b物流整理机&r指定颜色分类放置"
-	]
-	quest.7F7E071B0F23A888.quest_subtitle: "传输能量"
 	quest.7FAA4AA67EEAEA0C.quest_desc: [
 		"附近应该有一些树...用&6斧头&r破坏它们，用&b~&r键&6一次性破坏整棵树&r。一棵大树能一次收获很多&6原木&r。"
 		""
@@ -2246,6 +2340,7 @@
 	]
 	quest.7FEEDA36CB259B09.title: "巨魔洞窟"
 	reward.00A07950A251CDCA.title: "那天下雨了"
+	reward.07A7F64FC6A02E81.title: "无限石油"
 	reward.19C79065606B0A33.title: "&6开启&r死亡不掉落"
 	reward.1C85D8105C30003A.title: "无法破坏-附魔书"
 	reward.1D5F033259F14AEA.title: "强化耐久-附魔书"
@@ -2309,6 +2404,7 @@
 	task.30F3028FDF1C8DD0.title: "锻造模板"
 	task.311B9EA44F742CBB.title: "多功能工具"
 	task.34230B828E5A59B5.title: "水果"
+	task.34443CAA6C774580.title: "脚饰"
 	task.360A665A65FC3A1F.title: "物资回收"
 	task.36E233C018A242B8.title: "奖励一览"
 	task.39937F9D5F32CEA9.title: "羊毛"
@@ -2320,7 +2416,6 @@
 	task.404BFF22CCF4BABF.title: "护手"
 	task.40FE97218C0891AE.title: "饮品"
 	task.4148DD5E44351B65.title: "护腿"
-	task.42F2DF26BBCC4A5E.title: "Any #c:crops/bell_pepper"
 	task.44601DB4CD71DA31.title: "附魔说明"
 	task.46CF43030785A08B.title: "任务引导"
 	task.49D90A93F5F7FED4.title: "Any #c:cobblestones"
@@ -2329,7 +2424,9 @@
 	task.50D0E766708B8083.title: "清楚掉落物"
 	task.540C2A1AA7EB71E8.title: "下界"
 	task.5467754DEFAED893.title: "头盔"
+	task.57CBDD470DFEF67A.title: "头饰"
 	task.5873AB1A56CEA799.title: "Any #minecraft:bookshelf_books"
+	task.5991F591466B9220.title: "后期"
 	task.59DE9454988A8282.title: "元素晶石"
 	task.5DE687FD9F597664.title: "汤"
 	task.5F70BCF8B18C613E.title: "不祥之瓶"
@@ -2339,12 +2436,16 @@
 	task.667C5731EA67A376.title: "主菜"
 	task.6819A3355457AC1D.title: "Any #c:potions"
 	task.685F9C64B2CF4BED.title: "哦嚯"
+	task.6AA85324A5197CB0.title: "背包"
 	task.6AAA21CD6A25C6A0.title: "鱼类"
 	task.6BCABEF555933545.title: "优化介绍"
+	task.71688F3AB46D4985.title: "花生"
 	task.74D67892EC84CD42.title: "发现陨石"
 	task.7760A4895B9A3800.title: "马铠"
 	task.776EB75E5DFF9AFC.title: "开启开拓之旅"
 	task.78A25439FDBCF71D.title: "胸甲"
+	task.7A3481E34A153238.title: "Any #artifacts:artifacts"
 	task.7AE6F61276BFB5CD.title: "木板"
 	task.7BC0584E513FEC87.title: "拿取物品"
+	task.7DE0E563FC9350DC.title: "发现下界要塞"
 }

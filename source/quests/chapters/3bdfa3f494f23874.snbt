@@ -91,8 +91,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 4.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["323ABABE7DE8E315"]
@@ -131,7 +131,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -160,14 +160,11 @@
 				item: { count: 1, id: "minecraft:bookshelf" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4618332F651AB229"
-				"59D23433DD10933F"
-			]
+			dependencies: ["4618332F651AB229"]
 			entity_vis_size: 1.0f
 			id: "14FE441C50E8C23E"
 			rewards: [{
@@ -199,7 +196,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -225,11 +222,11 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 3.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["14FE441C50E8C23E"]
+			dependencies: ["59D23433DD10933F"]
 			entity_vis_size: 1.0f
 			id: "5A5E2EA88F371AC8"
 			optional: true
@@ -294,8 +291,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 5.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["079E04420F7DF2ED"]
@@ -312,15 +309,11 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(artifacts:artifacts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4FD3A7C398580722"
-				"5A5E2EA88F371AC8"
-				"426FB73723755A72"
-			]
+			dependencies: ["61462526151C9ED2"]
 			entity_vis_size: 1.0f
 			id: "0570A8D0AB556324"
 			rewards: [
@@ -343,13 +336,13 @@
 				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"74F616408A19CFA1"
-				"4FD3A7C398580722"
+				"0570A8D0AB556324"
 			]
 			entity_vis_size: 1.0f
 			id: "518B94DE8CBC6FD1"
@@ -390,14 +383,10 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 6.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"5A5E2EA88F371AC8"
-				"426FB73723755A72"
-			]
 			entity_vis_size: 1.0f
 			id: "0A40DAC704AAD4C7"
 			rewards: [
@@ -431,8 +420,8 @@
 				id: "3382C5FE99768ADC"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["14FE441C50E8C23E"]
@@ -448,8 +437,8 @@
 				item: { count: 1, id: "minecraft:grindstone" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["079E04420F7DF2ED"]
@@ -477,23 +466,14 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0A40DAC704AAD4C7"]
-			entity_vis_size: 1.0f
-			id: "18DCE8DA33F55177"
-			tasks: [{
-				id: "7F36B54326ACD7EF"
-				stage: "gothening_l1_himeko_complete"
-				type: "gamestage"
-			}]
-			x: 1.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["18DCE8DA33F55177"]
+			dependencies: [
+				"079E04420F7DF2ED"
+				"61462526151C9ED2"
+			]
 			entity_vis_size: 1.0f
 			id: "4FD3A7C398580722"
 			rewards: [
@@ -533,11 +513,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 12.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["4FD3A7C398580722"]
+			dependencies: ["5813553378DC04F1"]
 			entity_vis_size: 1.0f
 			id: "4FC7D9BAF743F689"
 			rewards: [{
@@ -551,8 +531,8 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 14.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4FC7D9BAF743F689"]
@@ -569,34 +549,8 @@
 				item: { count: 1, id: "minecraft:brewing_stand" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 15.0d
-		}
-		{
-			dependencies: ["18DCE8DA33F55177"]
-			entity_vis_size: 1.0f
-			id: "015AB347D1346267"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3418EDE1909BB667"
-				table_id: 3504009241940765542L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "74388260D3CB6913"
-					item: { count: 1, id: "rusticdelight:coffee_beans" }
-					type: "item"
-				}
-				{
-					id: "24209D836498951B"
-					item: { count: 1, id: "rusticdelight:roasted_coffee_beans" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: 12.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["772279A924C16F16"]
@@ -614,8 +568,8 @@
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:water" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 15.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4FD3A7C398580722"]
@@ -632,8 +586,8 @@
 				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 14.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -650,11 +604,11 @@
 			}]
 			tasks: [{
 				id: "17172B4C145301AB"
-				item: { count: 1, id: "rusticdelight:coffee" }
+				item: { components: { "ftbquests:missing_item": "rusticdelight:coffee" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4FD3A7C398580722"]
@@ -671,57 +625,8 @@
 				structure: "#minecraft:fortress"
 				type: "structure"
 			}]
-			x: 2.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["7F6CF8588FC6C718"]
-			entity_vis_size: 1.0f
-			id: "09912521746D8711"
-			rewards: [
-				{
-					command: "/ftbechoes gamestage @s add gothening_l2_himeko_unlocked"
-					id: "56B63221F2FCF55C"
-					type: "command"
-				}
-				{
-					id: "17DEFD01C0DCF89D"
-					item: {
-						components: {
-							"minecraft:block_entity_data": {
-								echo_id: "gothening:chapter_3_himeko"
-								id: "ftbechoes:core"
-								worker_id: [I;
-									-1498617130
-									-283360731
-									-1461699885
-									-992202777
-								]
-							}
-						}
-						count: 1
-						id: "ftbechoes:echo_projector"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6C456A57DFDC0F48"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 17.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "7E6163D636BF2C62"
-			tasks: [{
-				id: "1DBC3D897897AD1B"
-				stage: "gothening_l2_himeko_unlocked"
-				type: "gamestage"
-			}]
-			x: 1.5d
-			y: 18.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["02CD8D2648254A4D"]
@@ -738,8 +643,8 @@
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 21.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1DC42217CB4A70EE"]
@@ -773,11 +678,11 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 20.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7E6163D636BF2C62"]
+			dependencies: ["5813553378DC04F1"]
 			entity_vis_size: 1.0f
 			id: "1DC42217CB4A70EE"
 			rewards: [{
@@ -791,8 +696,8 @@
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 19.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -817,10 +722,11 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 7.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["02CD8D2648254A4D"]
 			entity_vis_size: 1.0f
 			id: "3B7C61FDB1F14F6C"
 			tasks: [{
@@ -828,8 +734,8 @@
 				item: { count: 1, id: "beyonddimensions:unstable_space_time_fragment" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.5d
+			x: 6.0d
+			y: -1.0d
 		}
 	]
 }

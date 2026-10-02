@@ -69,14 +69,6 @@
 		}
 		{
 			count: 64
-			id: "2B3E99CC5C81F72A"
-			item: {
-				count: 1
-				id: "minecraft:netherrack"
-			}
-		}
-		{
-			count: 64
 			id: "401D60691F16AF95"
 			item: {
 				count: 1

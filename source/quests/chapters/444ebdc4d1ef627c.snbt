@@ -105,8 +105,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -142,8 +142,8 @@
 				id: "66D9CD25C8CF1332"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["197DE26F7C31AA7E"]
@@ -166,7 +166,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -4.0d
 			y: 3.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: { count: 1, id: "primogemcraft:yuanshi" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
@@ -230,14 +230,11 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -6.0d
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"1D5715AFC173EAF1"
-				"3C626E598CBB7E05"
-			]
+			dependencies: ["3C626E598CBB7E05"]
 			entity_vis_size: 1.0f
 			id: "75D569500F79FA1B"
 			rewards: [{
@@ -379,19 +376,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6F2522327024E05B"]
-			entity_vis_size: 1.0f
-			id: "1D5715AFC173EAF1"
-			tasks: [{
-				id: "32F7D30943CDD125"
-				stage: "gothening_l1_danheng_complete"
-				type: "gamestage"
-			}]
-			x: -2.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["1D5715AFC173EAF1"]
+			dependencies: ["75D569500F79FA1B"]
 			entity_vis_size: 1.0f
 			id: "2142CC80423B1288"
 			rewards: [{
@@ -405,8 +390,8 @@
 				structure: "#minecraft:pillager_outpost"
 				type: "structure"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2142CC80423B1288"]
@@ -423,8 +408,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:drinks/ominous)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 13.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["612CD89A632B5531"]
@@ -442,8 +427,8 @@
 				id: "4AEBB90A384DE8A8"
 				type: "advancement"
 			}]
-			x: -2.0d
-			y: 14.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4EBF357EFAD55DE5"]
@@ -462,8 +447,8 @@
 				id: "0DEDB4A8C465708E"
 				type: "advancement"
 			}]
-			x: -2.0d
-			y: 15.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -499,22 +484,11 @@
 				id: "2A0CE4021F60165D"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 16.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "3DF6901C42EC2E14"
-			tasks: [{
-				id: "2905B957246D15E1"
-				stage: "gothening_l2_danheng_unlocked"
-				type: "gamestage"
-			}]
-			x: -2.0d
-			y: 18.0d
-		}
-		{
-			dependencies: ["3DF6901C42EC2E14"]
+			dependencies: ["3C626E598CBB7E05"]
 			entity_vis_size: 1.0f
 			id: "7AE51D1D68BA7A85"
 			rewards: [{
@@ -531,7 +505,7 @@
 				type: "dimension"
 			}]
 			x: -2.0d
-			y: 19.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7AE51D1D68BA7A85"]
@@ -549,37 +523,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 20.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0ACA15C580ED7727"]
-			entity_vis_size: 1.0f
-			icon: {
-				id: "minecraft:beacon"
-			}
-			id: "7801F7E115E9034E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2373BA048F4B4027"
-				table_id: 2766003341087500217L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "67A67CCD71E2B7CB"
-					item: { count: 1, id: "minecraft:beacon" }
-					type: "item"
-				}
-				{
-					id: "2C83AC40F40C2B6F"
-					item: { count: 1, id: "twilightforest:castle_brick" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 21.0d
-		}
-		{
+			dependencies: ["3C626E598CBB7E05"]
 			entity_vis_size: 1.0f
 			hide_dependency_lines: true
 			icon: {
@@ -610,7 +557,7 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: 9.0d
+			y: 1.0d
 		}
 	]
 }

@@ -37,7 +37,7 @@ test("reports missing dependencies and cross-chapter edges on real data", () => 
   const book = loadActualBook();
   const graph = book.dependencyGraph;
   assert.equal(graph.findMissingDependencies().length, 2);
-  assert.equal(graph.getCrossChapterDependencies().length, 12);
+  assert.equal(graph.getCrossChapterDependencies().length, 14);
   assert.equal(graph.getRootQuests().length > 0, true);
   assert.equal(graph.getLeafQuests().length > 0, true);
 });

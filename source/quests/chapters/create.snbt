@@ -9,7 +9,7 @@
 	}
 	id: "7BDCE01336938C8E"
 	images: [ ]
-	order_index: 1
+	order_index: 2
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -102,7 +102,7 @@
 				item: { count: 1, id: "create:super_glue" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -9.5d
 			y: -2.0d
 		}
 		{
@@ -116,7 +116,7 @@
 				item: { count: 1, id: "create:wheat_flour" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -11.5d
 			y: -2.0d
 		}
 		{
@@ -155,7 +155,7 @@
 				}
 			]
 			x: -12.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["08B0497D8B90E972"]
@@ -272,7 +272,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["76DFEE9A3146BC39"]
@@ -285,7 +285,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["08B0497D8B90E972"]
@@ -396,7 +396,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -409,7 +409,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -422,7 +422,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -435,7 +435,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -447,40 +447,35 @@
 				item: { count: 1, id: "create:cinder_flour" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["181EB4F03C9B336F"]
+			dependencies: ["5E497CE3E16C9474"]
 			entity_vis_size: 1.0f
 			id: "654A6D1B646AB054"
-			tasks: [{
-				id: "4FE1303DCE1B988E"
-				item: { count: 1, id: "create:blaze_cake_base" }
-				type: "item"
-			}]
-			x: -10.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["654A6D1B646AB054"]
-			entity_vis_size: 1.0f
-			id: "4255B2DFCC571DCC"
 			rewards: [{
-				id: "7655F8AE6C9F352E"
+				id: "5754B84757897F3C"
 				item: {
 					count: 1
-					id: "create:blaze_cake"
+					id: "create:creative_blaze_cake"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "4147C25A2C27198D"
-				item: { count: 1, id: "create:blaze_cake" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FE1303DCE1B988E"
+					item: { count: 1, id: "create:blaze_cake_base" }
+					type: "item"
+				}
+				{
+					id: "2476C53C91458508"
+					item: { count: 1, id: "create:blaze_cake" }
+					type: "item"
+				}
+			]
 			x: -9.5d
-			y: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -493,7 +488,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -510,7 +505,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -523,7 +518,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -536,7 +531,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27F135CAF313B574"]
@@ -549,7 +544,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["08B0497D8B90E972"]
@@ -565,6 +560,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["70128F8673F2448B"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "7D617D177844F994"
@@ -577,7 +573,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["7D617D177844F994"]
+			dependencies: [
+				"6AE16606B9E96224"
+				"7D617D177844F994"
+			]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "52ED416F493F1B20"
@@ -587,7 +586,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["52ED416F493F1B20"]
@@ -599,7 +598,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["52ED416F493F1B20"]
@@ -611,7 +610,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["52ED416F493F1B20"]
@@ -623,7 +622,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["52ED416F493F1B20"]
@@ -635,7 +634,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["52ED416F493F1B20"]
@@ -647,7 +646,166 @@
 				type: "item"
 			}]
 			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"33C8AAC83A665112"
+				"7D617D177844F994"
+			]
+			entity_vis_size: 1.0f
+			id: "7122EED1D85EA3E5"
+			tasks: [{
+				id: "3EFF48D61BD6EE8F"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6AB3248AC547EBD8"]
+			entity_vis_size: 1.0f
+			id: "69E77E6FB4D13E3C"
+			tasks: [{
+				id: "36621DCD5C3B9423"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7122EED1D85EA3E5"]
+			entity_vis_size: 1.0f
+			id: "4D089747F127090B"
+			tasks: [{
+				id: "16B54BDD062033A2"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7122EED1D85EA3E5"]
+			entity_vis_size: 1.0f
+			id: "0E198E2732888405"
+			tasks: [{
+				id: "415799D4CA639449"
+				item: { count: 1, id: "create:extendo_grip" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6CE5C2AF2AB23186"]
+			entity_vis_size: 1.0f
+			id: "5E497CE3E16C9474"
+			tasks: [{
+				id: "6917C8435A8E83B0"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -12.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "2ACBCE9F308CA1E3"
+			tasks: [{
+				id: "52FFBFB78C0FE14A"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "4155272C703A8399"
+			tasks: [{
+				id: "595361ADFA2DA8EA"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "1F33CB4E3D2F856F"
+			tasks: [{
+				id: "73E6C913AB92ABFA"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "47CE54DEBE87764B"
+			tasks: [{
+				id: "40EAB90E6F01059A"
+				item: { count: 1, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "1160EAF8E1707523"
+			tasks: [{
+				id: "446B656CB4F91116"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "5F56A8AA0CAAD0B3"
+			tasks: [{
+				id: "25A47173B2FD16FA"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "28311F1BDA99D36E"
+			tasks: [{
+				id: "57674517567A6B06"
+				item: { count: 1, id: "create:brass_sheet" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E497CE3E16C9474"]
+			entity_vis_size: 1.0f
+			id: "422300EEEC68C4DB"
+			tasks: [{
+				id: "6DEAA092857A108E"
+				item: { count: 1, id: "alltheores:electrum_plate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
 		}
 	]
 }

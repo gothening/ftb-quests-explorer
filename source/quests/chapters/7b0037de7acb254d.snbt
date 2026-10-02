@@ -123,7 +123,7 @@
 				}
 				{
 					id: "0B7DBC39DBAA8384"
-					item: { count: 1, id: "rusticdelight:fried_dumplings" }
+					item: { components: { "ftbquests:missing_item": "rusticdelight:fried_dumplings" }, count: 1, id: "ftbquests:missing_item" }
 					optional_task: true
 					type: "item"
 				}
@@ -2624,7 +2624,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -5497,18 +5497,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "32F045025BAF376A"
-					item: { count: 1, id: "flavor_immersed_daily:hotwater" }
-					type: "item"
-				}
-				{
-					id: "247FF731C7007324"
-					item: { count: 1, id: "flavor_immersed_daily:drinkingwater" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "247FF731C7007324"
+				item: { count: 1, id: "flavor_immersed_daily:drinkingwater" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.5d
 		}
@@ -5528,7 +5521,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:grenteamilkwithpearl" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 10.5d
 		}
 		{
@@ -5547,7 +5540,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:green_tea_lattes" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 10.5d
 		}
 		{
@@ -5566,7 +5559,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:redteamilkwithpearl" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 10.5d
 		}
 		{
@@ -5585,8 +5578,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:healthwalnutdew" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.5d
+			x: 4.0d
+			y: 10.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -5604,27 +5597,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:wheatmilk" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 11.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "1AB8D9558F47BE5E"
-			rewards: [{
-				id: "076A21A45A7C8703"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "63E81B3F155A5921"
-				item: { count: 1, id: "flavor_immersed_daily:milkbottle" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 10.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -5642,7 +5616,7 @@
 				item: { count: 1, id: "crabbersdelight:coconut_milk" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 11.5d
 		}
 		{
@@ -5661,7 +5635,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:kweichow_moutai" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 11.5d
 		}
 		{
@@ -5699,7 +5673,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:kaoliangwine" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 11.5d
 		}
 		{

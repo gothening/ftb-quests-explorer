@@ -15,12 +15,12 @@ test("source manifest records the real quest statistics without a local absolute
   assert.equal(manifest.sourceInstance, "[开拓者日志]As we trailblaze");
   assert.equal(manifest.statistics.snbtFiles, 62);
   assert.equal(manifest.statistics.chapters, 38);
-  assert.equal(manifest.statistics.quests, 1722);
-  assert.equal(manifest.statistics.tasks, 2126);
-  assert.equal(manifest.statistics.rewards, 1352);
+  assert.equal(manifest.statistics.quests, 1914);
+  assert.equal(manifest.statistics.tasks, 2356);
+  assert.equal(manifest.statistics.rewards, 1335);
   assert.equal(manifest.statistics.questLinks, 14);
   assert.equal(manifest.statistics.rewardTables, 20);
-  assert.equal(manifest.statistics.translations, 927);
+  assert.equal(manifest.statistics.translations, 1002);
   assert.equal(JSON.stringify(manifest).includes("D:\\\\"), false);
   assert.equal(manifest.files.some((file) => file.path === "quests/data.snbt"), true);
 });

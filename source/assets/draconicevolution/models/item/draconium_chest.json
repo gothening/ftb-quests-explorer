@@ -1,5 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "class": "com.brandon3055.draconicevolution.client.render.item.RenderItemDraconiumChest",
-  "loader": "codechickenlib:class"
-}

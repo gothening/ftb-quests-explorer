@@ -80,8 +80,11 @@
 			count: 64
 			id: "456A87181C5F214C"
 			item: {
+				components: {
+					"ftbquests:missing_item": "rusticdelight:cotton_seeds"
+				}
 				count: 1
-				id: "rusticdelight:cotton_seeds"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{
@@ -123,24 +126,33 @@
 			count: 64
 			id: "3C7D7AD5335877E6"
 			item: {
+				components: {
+					"ftbquests:missing_item": "culturaldelights:eggplant_seeds"
+				}
 				count: 1
-				id: "culturaldelights:eggplant_seeds"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{
 			count: 64
 			id: "45DB9E12CC6CBB57"
 			item: {
+				components: {
+					"ftbquests:missing_item": "culturaldelights:cucumber_seeds"
+				}
 				count: 1
-				id: "culturaldelights:cucumber_seeds"
+				id: "ftbquests:missing_item"
 			}
 		}
 		{
 			count: 64
 			id: "52DB49C9697EFE31"
 			item: {
+				components: {
+					"ftbquests:missing_item": "rusticdelight:bell_pepper_seeds"
+				}
 				count: 1
-				id: "rusticdelight:bell_pepper_seeds"
+				id: "ftbquests:missing_item"
 			}
 		}
 	]

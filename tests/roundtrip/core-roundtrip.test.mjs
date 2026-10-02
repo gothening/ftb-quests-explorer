@@ -78,9 +78,9 @@ test("full real QuestBook can be loaded and serialized without count loss", () =
     parseSnbt(text)
   ]);
   assert.equal(reparsed.length, 62);
-  assert.equal(book.quests.length, 1722);
-  assert.equal(book.tasks.length, 2126);
-  assert.equal(book.rewards.length, 1352);
+  assert.equal(book.quests.length, 1914);
+  assert.equal(book.tasks.length, 2356);
+  assert.equal(book.rewards.length, 1335);
 });
 
 test("synthetic unknown fields and item components survive model serialization", () => {

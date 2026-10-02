@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "oneiricconcept:item/heart_of_the_vast_sea"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "oneiricconcept:heartofthevastsea_itemmode": 0
+      },
+      "model": "oneiricconcept:item/heartofthevastsea_0"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:heartofthevastsea_itemmode": 1
+      },
+      "model": "oneiricconcept:item/heartofthevastsea_1"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:heartofthevastsea_itemmode": 2
+      },
+      "model": "oneiricconcept:item/heartofthevastsea_2"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:heartofthevastsea_itemmode": 3
+      },
+      "model": "oneiricconcept:item/heartofthevastsea_3"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:heartofthevastsea_itemmode": 4
+      },
+      "model": "oneiricconcept:item/heartofthevastsea_4"
+    }
+  ]
+}

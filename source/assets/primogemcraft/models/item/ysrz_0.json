@@ -1,0 +1,50 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "primogemcraft:item/yuansurongzhu"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 1
+      },
+      "model": "primogemcraft:item/ysrz_0_0"
+    },
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 2
+      },
+      "model": "primogemcraft:item/ysrz_0_1"
+    },
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 3
+      },
+      "model": "primogemcraft:item/ysrz_0_2"
+    },
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 4
+      },
+      "model": "primogemcraft:item/ysrz_0_3"
+    },
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 5
+      },
+      "model": "primogemcraft:item/ysrz_0_4"
+    },
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 6
+      },
+      "model": "primogemcraft:item/ysrz_0_5"
+    },
+    {
+      "predicate": {
+        "primogemcraft:ysrz_0_type": 7
+      },
+      "model": "primogemcraft:item/ysrz_0_6"
+    }
+  ]
+}

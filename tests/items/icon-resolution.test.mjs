@@ -32,7 +32,7 @@ test("resolves a block-backed mod item through its item and block model chain", 
 });
 
 test("reports a missing static texture for a runtime-rendered model", () => {
-  const resolved = resolveItemIconDetailed(resolver, "chemlib:argon");
+  const resolved = resolveItemIconDetailed(resolver, "chicken_roost:c_amethystshard");
   assert.equal(resolved.status, "missing");
   assert.equal(resolved.reason, "builtin model requires runtime rendering");
   assert.equal(resolved.texturePath, undefined);

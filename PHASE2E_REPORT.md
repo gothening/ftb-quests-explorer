@@ -66,12 +66,12 @@ The committed source tree preserves the original SNBT structure:
 ```text
 SNBT files       62
 chapters         38
-quests           1722
-tasks            2126
-rewards          1352
+quests           1914
+tasks            2356
+rewards          1335
 quest links      14
 reward tables    20
-translations     927
+translations     1002
 ```
 
 `source/manifest.json` records the source instance, relative file paths,
@@ -84,15 +84,15 @@ The source asset extraction tracks referenced items and their model/texture
 chains:
 
 ```text
-Referenced item entries       2007
-Unique item IDs               1980
-Resolved icons                1847
-Missing icons                  160
+Referenced item entries       2197
+Unique item IDs               2171
+Resolved icons                2119
+Missing icons                   78
 Invalid icons                    0
-Models resolved               1970
-Models missing                  37
-Textures resolved             1849
-Textures missing               158
+Models resolved               2161
+Models missing                  36
+Textures resolved             2121
+Textures missing                76
 ```
 
 Source assets are stored under `source/assets/<namespace>/...`.
@@ -136,20 +136,22 @@ trailblazer:chefs_certificate
 The largest referenced namespaces are:
 
 ```text
-flavor_immersed_daily   443
-minecraft               238
+flavor_immersed_daily   445
+minecraft               243
+primogemcraft           128
 gan_delight_reborn      119
-mekanism                105
-chicken_roost           101
+mekanism                114
+chicken_roost           100
 kaleidoscope_cookery     96
 ae2lt                    77
-farmersdelight            77
-twilightforest            74
+farmersdelight            75
+twilightforest            73
 ae2                       71
-oritech                   55
-create                    47
+chemlib                   70
+oritech                   58
+create                    52
 moderndelight             47
-rusticdelight             46
+artifacts                 45
 ```
 
 The complete namespace table and per-item status are in:
@@ -249,8 +251,7 @@ They are retained as `missing` with a reason.
 The largest groups are:
 
 ```text
-chicken_roost    84  builtin/entity runtime-rendered models
-chemlib          26  builtin/entity runtime-rendered models
+chicken_roost    28  builtin/entity runtime-rendered models
 oritech          16  runtime or non-static model assets
 fidworkblock     10  model assets not present in the extracted namespace
 mekanism         10  runtime or model-specific assets

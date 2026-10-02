@@ -512,7 +512,7 @@
 				}
 			]
 			x: -3.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -741,54 +741,6 @@
 			y: 3.0d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "3E9C89BA8F8D536C"
-			tasks: [
-				{
-					id: "232EBC538DA013B1"
-					item: { count: 1, id: "rusticdelight:calamari" }
-					type: "item"
-				}
-				{
-					id: "66FF0C5E159C1DDE"
-					item: { count: 1, id: "rusticdelight:cooked_calamari" }
-					type: "item"
-				}
-				{
-					id: "481172203DB22DA9"
-					item: { count: 1, id: "rusticdelight:calamari_slice" }
-					type: "item"
-				}
-				{
-					id: "24F5903C4075370F"
-					item: { count: 1, id: "rusticdelight:cooked_calamari_slice" }
-					type: "item"
-				}
-				{
-					id: "3BB26BE9C94B713C"
-					item: { count: 1, id: "culturaldelights:squid" }
-					type: "item"
-				}
-				{
-					id: "53E7EA2C0A65E02E"
-					item: { count: 1, id: "culturaldelights:cooked_squid" }
-					type: "item"
-				}
-				{
-					id: "4CBE301944B12322"
-					item: { count: 1, id: "culturaldelights:raw_calamari" }
-					type: "item"
-				}
-				{
-					id: "602CD4339A1ED0B8"
-					item: { count: 1, id: "culturaldelights:cooked_calamari" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 3.5d
-		}
-		{
 			dependencies: [
 				"583BB916C4EA6487"
 				"0BFA19EE785F036D"
@@ -843,8 +795,8 @@
 				"13AA8A0BC6159E89"
 				"0CFB67C16E9021CA"
 				"27C729A19B4AACB8"
-				"3E9C89BA8F8D536C"
 				"201637458329640E"
+				"6C715B929B46AF92"
 			]
 			entity_vis_size: 1.0f
 			id: "040F9CD3EB6C5228"
@@ -1213,6 +1165,17 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6C715B929B46AF92"
+			tasks: [{
+				id: "4CE2ABB6209F9973"
+				item: { count: 1, id: "crabbersdelight:raw_squid_tentacles" }
+				type: "item"
+			}]
+			x: -3.0d
 			y: 4.5d
 		}
 	]

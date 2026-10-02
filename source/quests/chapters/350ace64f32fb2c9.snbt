@@ -31,6 +31,7 @@
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
@@ -41,778 +42,197 @@
 			y: -2.5d
 		}
 		{
-			can_repeat: false
-			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "64DC596F058FA8B1"
-			rewards: [{
-				id: "610882DCBA5FA810"
-				item: {
-					count: 1
-					id: "prefab:item_farm_advanced"
+			icon: {
+				components: {
+					"ftbquests:icon": "chisel:block/warning/death"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:zombie"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "0ED5D17C443E12E9"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "56BC5195354C0B03"
+				id: "ftbquests:custom_icon"
+			}
+			id: "7A721F7736E178EE"
 			rewards: [
 				{
-					count: 3
-					id: "3300DF253F187FBF"
+					id: "4BC9F0EB32B5B1A4"
 					item: {
 						count: 1
-						id: "minecraft:skeleton_skull"
+						id: "minecraft:totem_of_undying"
 					}
 					type: "item"
 				}
 				{
-					count: 8
-					id: "315290CA595F5E22"
-					item: {
-						count: 1
-						id: "create:tree_fertilizer"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "5E3C6CBEE41A38E0"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "07BD81E87465AC6E"
-			rewards: [
-				{
-					count: 4
-					id: "477EAEDE3A852E96"
+					id: "4D10B527D160E7C8"
 					item: {
 						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:long_fire_resistance"
+							"minecraft:stored_enchantments": {
+								levels: {
+									"indestructible:indestructible": 1
+								}
 							}
 						}
 						count: 1
-						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6B2D4565F9058B39"
-					item: {
-						count: 1
-						id: "l2complements:strong_fire_charge"
+						id: "minecraft:enchanted_book"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				entity: "minecraft:creeper"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "39A0365A4C345F10"
-				type: "kill"
-				value: 20L
+				id: "45E9AD540D4905DC"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 81
 			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["56BC5195354C0B03"]
-			entity_vis_size: 1.0f
-			id: "0756EF6F859BF6D5"
-			rewards: [{
-				id: "2AEF4F2B7CB5AC08"
-				item: {
-					components: {
-						"minecraft:enchantments": {
-							levels: {
-								"minecraft:infinity": 1
-							}
-						}
-					}
-					count: 1
-					id: "minecraft:bow"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "23DC6CA28A7ED481"
-				type: "kill"
-				value: 50L
-			}]
-			x: 4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "6F67D6C7C07CF9A4"
-			rewards: [{
-				id: "32EEB9EA821DBFBF"
-				item: {
-					count: 1
-					id: "minecraft:trident"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:drowned"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "6D5337355F693227"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["64DC596F058FA8B1"]
-			entity_vis_size: 1.0f
-			id: "6B47E08C26D66D57"
-			rewards: [{
-				id: "41939F1C59D09359"
-				item: {
-					components: {
-						"minecraft:stored_enchantments": {
-							levels: {
-								"minecraft:smite": 5
-							}
-						}
-					}
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:zombie"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "246A5F3263DED83B"
-				type: "kill"
-				value: 50L
-			}]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "52798AC67EFE7FE8"
-			rewards: [{
-				id: "6462314C25703338"
-				item: {
-					count: 1
-					id: "twilightforest:ender_bow"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:enderman"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "5CBB3E5D6EEBB92B"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: 0.5d
-		}
-		{
-			can_repeat: false
-			dependencies: ["07BD81E87465AC6E"]
-			entity_vis_size: 1.0f
-			id: "6842D1412F5017EE"
-			rewards: [
-				{
-					count: 32
-					id: "08789C4EB03808BC"
-					item: {
-						components: {
-							"minecraft:fireworks": {
-								flight_duration: 3b
-							}
-						}
-						count: 1
-						id: "minecraft:firework_rocket"
-					}
-					random_bonus: 32
-					type: "item"
-				}
-				{
-					id: "6212B55015942FD6"
-					item: {
-						count: 1
-						id: "minecraft:creeper_head"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:creeper"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "457FB58C9055E6B2"
-				type: "kill"
-				value: 50L
-			}]
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			entity_vis_size: 1.0f
-			id: "114B5E1F75ADEDE7"
-			rewards: [{
-				id: "4F1943AEB6091966"
-				item: {
-					count: 1
-					id: "draconicevolution:draconium_chest"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "3C1C17092F08BC4C"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: -2.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "5013EB9D8A8A8E94"
-			rewards: [{
-				id: "6C8FB0F256ABF5CB"
-				item: {
-					count: 1
-					id: "minecraft:netherite_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:wither"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "0DF9E0E05810436C"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "61E34AD09DFD645B"
+			icon: {
+				id: "mekanismtools:steel_shield"
+			}
+			id: "52606458F1225270"
 			rewards: [{
-				count: 10
-				id: "03DA7AA27399483A"
+				id: "5136AB617F855C03"
 				item: {
 					count: 1
-					id: "minecraft:gold_ingot"
+					id: "mekanismtools:steel_shield"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				entity: "minecraft:zombified_piglin"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "12B295B03C28DA63"
-				type: "kill"
-				value: 20L
-			}]
-			x: 10.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "5645F436479424B6"
-			rewards: [{
-				count: 2
-				id: "7ABD34155F4E5CE9"
-				item: {
-					count: 1
-					id: "minecraft:netherite_scrap"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:piglin_brute"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "2D5E87C8B5735102"
-				type: "kill"
-				value: 10L
-			}]
-			x: 10.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "60D59CD34DAF5A12"
-			rewards: [{
-				count: 2
-				id: "60136CF3A868595B"
-				item: {
-					count: 1
-					id: "kaleidoscope_cookery:desert_style_sashimi"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:husk"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "3FC7B54422EE51A1"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "32F8C299F5C73793"
-			rewards: [{
-				count: 2
-				id: "7D362E231B5E22A6"
-				item: {
-					count: 1
-					id: "kaleidoscope_nether:ghast_pudding"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:ghast"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "2D52CD2FA4B2C334"
-				type: "kill"
-				value: 5L
-			}]
-			x: 10.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "0E80352501B3C40B"
-			rewards: [
+			tasks: [
 				{
-					count: 4
-					id: "2EB8CEB3536AE405"
-					item: {
-						count: 1
-						id: "minecraft:lava_bucket"
-					}
-					random_bonus: 4
-					type: "item"
+					id: "428C2A6DCD0801B2"
+					stat: "minecraft:damage_blocked_by_shield"
+					type: "stat"
+					value: 100
 				}
 				{
-					id: "58589D2CA1B7B881"
-					item: {
-						count: 1
-						id: "create:blaze_cake"
-					}
+					consume_items: true
+					id: "65891D8727429652"
+					item: { count: 1, id: "minecraft:shield" }
 					type: "item"
 				}
 			]
-			tasks: [{
-				entity: "minecraft:blaze"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "0E5E325B7DF99EBB"
-				type: "kill"
-				value: 20L
-			}]
-			x: 10.0d
-			y: -7.5d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6171781D667BCACE"]
+			dependencies: ["7B8111FDC343CC4F"]
 			entity_vis_size: 1.0f
-			id: "53DC7A302CD57B84"
+			id: "584B015B56F23365"
 			rewards: [{
-				count: 4
-				id: "6E0074B93ECC5A1E"
+				id: "43EC673338BC288E"
 				item: {
 					count: 1
-					id: "kaleidoscope_nether:lava_jelly"
+					id: "minecraft:enchanted_golden_apple"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				entity: "minecraft:magma_cube"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "5145877F81556949"
-				type: "kill"
-				value: 20L
-			}]
-			x: 10.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "42CFD57C4A9F45C1"
-			rewards: [
-				{
-					count: 3
-					id: "01369F1883C679D9"
-					item: {
-						count: 1
-						id: "minecraft:wither_skeleton_skull"
-					}
-					type: "item"
+				icon: {
+					id: "minecraft:clock"
 				}
-				{
-					id: "367DD9765853EF98"
-					item: {
-						count: 1
-						id: "kaleidoscope_nether:wither_bone_soup"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "3C1623AA66E644A9"
-				type: "kill"
-				value: 20L
+				id: "392EE0D9338ED12D"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 720000
 			}]
-			x: 10.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "2B230A166A4C0128"
-			rewards: [{
-				count: 20
-				id: "7AFAA91776B3290C"
-				item: {
-					count: 1
-					id: "minecraft:slime_ball"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:slime"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "27671D718E251A61"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "693A6EE4E79B5F37"
-			rewards: [{
-				count: 20
-				id: "42E1FB28AA3A322C"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
-				}
-				random_bonus: 10
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:pillager"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "22C1260D8548A96D"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "116EE3F76C0DB471"
-			rewards: [
-				{
-					count: 4
-					id: "21D4855935EDE600"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:strong_healing"
-							}
-						}
-						count: 1
-						id: "minecraft:splash_potion"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5970473131E901A1"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:strong_harming"
-							}
-						}
-						count: 1
-						id: "minecraft:splash_potion"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:witch"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "27E5FE8704588697"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "4980D0F0E9AA07DA"
-			rewards: [
-				{
-					count: 8
-					id: "71B30858C365259C"
-					item: {
-						count: 1
-						id: "minecraft:echo_shard"
-					}
-					random_bonus: 8
-					type: "item"
-				}
-				{
-					id: "22233DAF5CF53214"
-					item: {
-						count: 1
-						id: "alexsmobs:ghostly_pickaxe"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:warden"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "1E7024BBF27AE639"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["6171781D667BCACE"]
+			dependencies: ["368C4CE56E4F20BC"]
 			entity_vis_size: 1.0f
-			id: "258E0309D90FB450"
+			id: "7B8111FDC343CC4F"
 			rewards: [{
-				id: "530375875783626D"
+				id: "6FF560C91474F871"
 				item: {
 					count: 1
-					id: "minecraft:shulker_box"
+					id: "minecraft:golden_apple"
 				}
-				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
-				entity: "minecraft:shulker"
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "14ACB61DC91F4143"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 72000
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A721F7736E178EE"]
+			entity_vis_size: 1.0f
+			id: "407EC5D14140DEF9"
+			rewards: [
+				{
+					id: "6A1EA87B1B269E18"
+					item: {
+						components: {
+							"minecraft:max_damage": 33550336
+						}
+						count: 1
+						id: "avaritia:infinity_totem"
+					}
+					type: "item"
+				}
+				{
+					id: "28C9C0A33D07E15E"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"白厄的头（模型）\"}"
+							"minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"愿此行，终抵群星\"}"]
+							"minecraft:profile": {
+								id: [I;
+									840324790
+									121981138
+									-2058317167
+									-1345357906
+								]
+								name: "Gothening"
+								properties: [{
+									name: "textures"
+									signature: "Y3fnmdOCa7TpZTpZNulu+SeSOxHuAw7EbFkGgO84Iu1Et5ewOLum2xZjWa1ryo7SEjzwPaCpHpwNwA0uqSWufFcYww3yb/Aw6fM/MofPUmENH0RhExmDATvutLmJjGKWzUUJqET5mn3WhO/JCsyaArPAj9CGDG3BL9blSLvNu/5qKgqxPNc/Dcjh6UcCOjrixK9URQDXvYYM/q9kLmxX2fvwa3m+jPdpEwjRwaOn9Po4y+MU/l2AlPwul1/grRPVCtwwt+29kn3OmRWk35d7rxqeNqjqogwKeoSJ/dqawBxFyJKSaa2GBWZZkwiUeQ4C4NmYiUdXcQWckDnnv6WtfIet9xlogqm+gFi4PdPbeI5DjYr5gVEjcno4WHKQk52vEg7qQaA91dOWKyve3yshmBgb6AZYunWyOBQIAWyJEcgiXx7y25Is8m94PugO688obBCCH8nw1qN5QtqG5LwqIzCM+F61atyzjs/lJgEnM/Z+usizrCcEwvp0ID55U8swod7nz/SFev5AsFMUSoPsDtxYZaLK7rUKHlrHz5gLRLEXXrijWK1IqtHb0FhKh+jHMZ8FFIy26qkK5d8vuvtyyYqflD2WNIYgnRl9E1MblBNfYGT2iyzcDtaxhTlS2rfEXWWRgF+Rj2DcWOmGayKc+xTFg8fbth5UA9xBVZu/CHI="
+									value: "ewogICJ0aW1lc3RhbXAiIDogMTc4Njk1OTg3ODA0OSwKICAicHJvZmlsZUlkIiA6ICIzMjE2NTZiNjA3NDU0OGQyODU1MDkyOTFhZmNmNzdhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb3RoZW5pbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVjMDE4OWVjZGNjNTMzMzBhNTM0OWUwNjUyMTQ5YjllMGNkOWM1ZWQ3MjBiMzI5NWFjM2IxNWUwN2I5MjI5NiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B56D2410B173AE1"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 33550335
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4C38222AFA528FAF"
+				"12B9876BAD9EFAAF"
+			]
+			entity_vis_size: 1.0f
+			id: "11D9A358454C833F"
+			rewards: [{
+				id: "55AD5A749CDAB990"
+				item: {
+					count: 1
+					id: "alexsmobs:centipede_leggings"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:spider"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -822,28 +242,29 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "43FE355BF11CEE63"
+				id: "6A6E3110EFED2A9B"
 				type: "kill"
-				value: 10L
+				value: 100L
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "6D6CB3DFFAE51CE0"
+			id: "4C38222AFA528FAF"
 			rewards: [{
-				id: "3FF6A741D6D27A9E"
+				count: 3
+				id: "58A59A4BA2941852"
 				item: {
 					count: 1
-					id: "minecraft:totem_of_undying"
+					id: "minecraft:potion"
 				}
-				random_bonus: 2
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
-				entity: "minecraft:evoker"
+				entity: "minecraft:cave_spider"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -853,26 +274,58 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "1AEF18BBE7711DF0"
+				id: "2BF891132E946162"
 				type: "kill"
-				value: 10L
+				value: 20L
 			}]
 			x: 2.5d
-			y: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "6E6D52448102B4DC"
+			id: "12B9876BAD9EFAAF"
 			rewards: [{
-				count: 16
-				id: "176CB88E420EE1E2"
+				count: 64
+				id: "50517FA790EF490E"
 				item: {
 					count: 1
-					id: "minecraft:sponge"
+					id: "minecraft:string"
 				}
 				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:spider"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "583B56BC027C5BD9"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1BE9A5200C7E02B3"]
+			entity_vis_size: 1.0f
+			id: "0031AC01795E8E1D"
+			rewards: [{
+				id: "64CE035BBB70C13F"
+				item: {
+					count: 1
+					id: "prefab:item_aqua_base_improved"
+				}
+				type: "item"
+			}]
+			size: 2.0d
 			tasks: [{
 				entity: "minecraft:guardian"
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -884,27 +337,31 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "5571015D889BD832"
+				id: "4B0232C58E92BA5F"
 				type: "kill"
-				value: 10L
+				value: 100L
 			}]
-			x: 2.5d
-			y: 5.5d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["6171781D667BCACE"]
+			dependencies: [
+				"3CBE7D4673A99AA8"
+				"6E6D52448102B4DC"
+			]
 			entity_vis_size: 1.0f
-			id: "3CBE7D4673A99AA8"
+			id: "1BE9A5200C7E02B3"
 			rewards: [{
-				id: "60280E6552F15416"
+				id: "33958C3287894BDC"
 				item: {
 					count: 1
-					id: "minecraft:heart_of_the_sea"
+					id: "prefab:item_aqua_base"
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
-				entity: "minecraft:elder_guardian"
+				entity: "minecraft:guardian"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -914,71 +371,100 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "545833491A2B2B48"
+				id: "0F54061123287C31"
 				type: "kill"
-				value: 1L
+				value: 25L
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["6171781D667BCACE"]
+			dependencies: [
+				"2B230A166A4C0128"
+				"116EE3F76C0DB471"
+			]
 			entity_vis_size: 1.0f
-			id: "28152C13B449A3BA"
-			rewards: [{
-				id: "23A2987D848D38B3"
-				item: {
-					count: 1
-					id: "allthemodium:allthemodium_axe"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:vindicator"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "79B2668F037698FA"
-				type: "kill"
-				value: 20L
-			}]
-			x: 2.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["6171781D667BCACE"]
-			entity_vis_size: 1.0f
-			id: "795EAF88B27A4A3E"
+			id: "711A8992672BCAA9"
 			rewards: [
 				{
-					id: "6B6F6985D03C4F91"
+					count: 10
+					id: "7F5CB0A97AEEC838"
 					item: {
-						components: {
-							"minecraft:ominous_bottle_amplifier": 4
-						}
 						count: 1
-						id: "minecraft:ominous_bottle"
+						id: "mekanism:pellet_polonium"
 					}
 					type: "item"
 				}
 				{
-					count: 3
-					id: "4CBFA01FA7CCE7FB"
+					count: 320
+					id: "295AD5AEB6E29D76"
 					item: {
 						count: 1
-						id: "minecraft:ominous_bottle"
+						id: "minecraft:slime_ball"
 					}
 					type: "item"
 				}
 			]
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:slime"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "7600A8E0744826EA"
+					type: "kill"
+					value: 250L
+				}
+				{
+					entity: "minecraft:witch"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "03B5C215606B3E26"
+					type: "kill"
+					value: 50L
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["60D59CD34DAF5A12"]
+			entity_vis_size: 1.0f
+			id: "647BF1B49F23FEB2"
+			rewards: [{
+				count: 3
+				id: "52957CA12A8B39E4"
+				item: {
+					components: {
+						"quark:tome_enchantments": {
+							levels: {
+								"minecraft:smite": 5
+							}
+						}
+					}
+					count: 1
+					id: "quark:ancient_tome"
+				}
+				type: "item"
+			}]
+			size: 2.0d
 			tasks: [{
-				entity: "minecraft:ravager"
+				entity: "minecraft:husk"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -988,26 +474,63 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "0D59C241017ECC29"
+				id: "18AB1D39F41A3BC3"
 				type: "kill"
-				value: 5L
+				value: 50L
 			}]
-			x: 2.5d
-			y: -9.5d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["6171781D667BCACE"]
+			dependencies: ["42CFD57C4A9F45C1"]
 			entity_vis_size: 1.0f
-			id: "32E31818D1EF2D96"
-			rewards: [{
-				count: 10
-				id: "38D4E74D70C8E8C8"
-				item: {
-					count: 1
-					id: "minecraft:lead"
+			id: "6BC4C10669E545BF"
+			rewards: [
+				{
+					id: "612216D1ECB5261E"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
 				}
+				{
+					id: "56A6893B5302CF8D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				count: 64L
+				id: "081111BBFFAB40E0"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32E31818D1EF2D96"]
+			entity_vis_size: 1.0f
+			id: "4489EAD85CE50271"
+			rewards: [
+				{
+					id: "2B0E23BA5EA93081"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B8CF5EBA0E0E033"
+					table_id: 3504009241940765542L
+					type: "choice"
+				}
+			]
+			size: 2.0d
 			tasks: [{
 				entity: "minecraft:wandering_trader"
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -1019,92 +542,50 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "19D6B6186E736FF3"
+				id: "5CF10E509330AA30"
 				type: "kill"
-				value: 5L
+				value: 20L
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -10.5d
 		}
 		{
 			dependencies: [
-				"6D6CB3DFFAE51CE0"
-				"693A6EE4E79B5F37"
-				"28152C13B449A3BA"
-				"795EAF88B27A4A3E"
+				"38CF41D10424E8AB"
+				"4489EAD85CE50271"
 			]
 			entity_vis_size: 1.0f
-			id: "3EA3076B087BCF82"
-			rewards: [{
-				command: "/give @s minecraft:enchanted_book[minecraft:stored_enchantments={levels:{\"minecraft:looting\":10}}] 1"
-				id: "0DAFD0E0C69E300D"
-				type: "command"
-			}]
-			tasks: [
-				{
-					entity: "minecraft:pillager"
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
-					entity_vis_walk_mode: "USE_GLOBAL"
-					id: "7756E5598E8867F0"
-					type: "kill"
-					value: 50L
-				}
-				{
-					entity: "minecraft:ravager"
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
-					entity_vis_walk_mode: "USE_GLOBAL"
-					id: "3E15E872D07FF672"
-					type: "kill"
-					value: 20L
-				}
-			]
-			x: 4.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["3EA3076B087BCF82"]
-			entity_vis_size: 1.0f
-			id: "38CF41D10424E8AB"
+			id: "7A19BBEBADCF02B4"
 			rewards: [
 				{
-					id: "1A9ADEAF422A27FE"
+					id: "5F73F338C9F2731B"
 					item: {
+						components: {
+							"avaritia:singularity_id": "avaritia:emerald"
+						}
 						count: 1
-						id: "minecraft:villager_spawn_egg"
+						id: "avaritia:singularity"
 					}
 					type: "item"
 				}
 				{
-					id: "11E03A326B64A25D"
+					id: "6C76A1D361C399ED"
 					item: {
 						count: 1
-						id: "minecraft:spawner"
+						id: "chicken_roost:c_emerald"
 					}
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
-				id: "25E15DE82BFCADE5"
-				stat: "minecraft:raid_win"
+				id: "0A74EB0892E57865"
+				stat: "minecraft:traded_with_villager"
 				type: "stat"
-				value: 50
+				value: 1000
 			}]
-			x: 5.5d
-			y: -8.0d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0756EF6F859BF6D5"]
@@ -1118,6 +599,7 @@
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					entity: "minecraft:stray"
@@ -1169,59 +651,101 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"38CF41D10424E8AB"
-				"4489EAD85CE50271"
-			]
+			dependencies: ["3EA3076B087BCF82"]
 			entity_vis_size: 1.0f
-			id: "7A19BBEBADCF02B4"
+			id: "38CF41D10424E8AB"
 			rewards: [
 				{
-					id: "5F73F338C9F2731B"
+					id: "1A9ADEAF422A27FE"
 					item: {
-						components: {
-							"avaritia:singularity_id": "avaritia:emerald"
-						}
 						count: 1
-						id: "avaritia:singularity"
+						id: "minecraft:villager_spawn_egg"
 					}
 					type: "item"
 				}
 				{
-					id: "6C76A1D361C399ED"
+					id: "11E03A326B64A25D"
 					item: {
 						count: 1
-						id: "chicken_roost:c_emerald"
+						id: "minecraft:spawner"
 					}
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
-				id: "0A74EB0892E57865"
-				stat: "minecraft:traded_with_villager"
+				id: "25E15DE82BFCADE5"
+				stat: "minecraft:raid_win"
 				type: "stat"
-				value: 1000
+				value: 50
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 5.5d
+			y: -8.0d
 		}
 		{
-			dependencies: ["32E31818D1EF2D96"]
+			dependencies: [
+				"6D6CB3DFFAE51CE0"
+				"693A6EE4E79B5F37"
+				"28152C13B449A3BA"
+				"795EAF88B27A4A3E"
+			]
 			entity_vis_size: 1.0f
-			id: "4489EAD85CE50271"
-			rewards: [
+			id: "3EA3076B087BCF82"
+			rewards: [{
+				command: "/give @s minecraft:enchanted_book[minecraft:stored_enchantments={levels:{\"minecraft:looting\":10}}] 1"
+				id: "0DAFD0E0C69E300D"
+				type: "command"
+			}]
+			size: 2.0d
+			tasks: [
 				{
-					id: "2B0E23BA5EA93081"
-					type: "xp"
-					xp: 200
+					entity: "minecraft:pillager"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "7756E5598E8867F0"
+					type: "kill"
+					value: 50L
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4B8CF5EBA0E0E033"
-					table_id: 3504009241940765542L
-					type: "choice"
+					entity: "minecraft:ravager"
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "3E15E872D07FF672"
+					type: "kill"
+					value: 20L
 				}
 			]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "32E31818D1EF2D96"
+			rewards: [{
+				count: 10
+				id: "38D4E74D70C8E8C8"
+				item: {
+					count: 1
+					id: "minecraft:lead"
+				}
+				type: "item"
+			}]
+			size: 2.0d
 			tasks: [{
 				entity: "minecraft:wandering_trader"
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -1233,65 +757,542 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "5CF10E509330AA30"
+				id: "19D6B6186E736FF3"
 				type: "kill"
-				value: 20L
+				value: 5L
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -10.5d
 		}
 		{
-			dependencies: ["42CFD57C4A9F45C1"]
+			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "6BC4C10669E545BF"
+			id: "795EAF88B27A4A3E"
 			rewards: [
 				{
-					id: "612216D1ECB5261E"
+					id: "6B6F6985D03C4F91"
 					item: {
+						components: {
+							"minecraft:ominous_bottle_amplifier": 4
+						}
 						count: 1
-						id: "minecraft:nether_star"
+						id: "minecraft:ominous_bottle"
 					}
 					type: "item"
 				}
 				{
-					id: "56A6893B5302CF8D"
+					count: 3
+					id: "4CBFA01FA7CCE7FB"
 					item: {
 						count: 1
-						id: "minecraft:netherite_block"
+						id: "minecraft:ominous_bottle"
 					}
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
-				count: 64L
-				id: "081111BBFFAB40E0"
-				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
-				type: "item"
+				entity: "minecraft:ravager"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0D59C241017ECC29"
+				type: "kill"
+				value: 5L
 			}]
-			x: 11.5d
-			y: -5.5d
+			x: 2.5d
+			y: -9.5d
 		}
 		{
-			can_repeat: false
-			dependencies: ["60D59CD34DAF5A12"]
+			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "647BF1B49F23FEB2"
+			id: "28152C13B449A3BA"
 			rewards: [{
-				count: 3
-				id: "52957CA12A8B39E4"
+				id: "23A2987D848D38B3"
 				item: {
-					components: {
-						"quark:tome_enchantments": {
-							levels: {
-								"minecraft:smite": 5
-							}
-						}
-					}
 					count: 1
-					id: "quark:ancient_tome"
+					id: "allthemodium:allthemodium_axe"
 				}
 				type: "item"
 			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:vindicator"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "79B2668F037698FA"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "3CBE7D4673A99AA8"
+			rewards: [{
+				id: "60280E6552F15416"
+				item: {
+					count: 1
+					id: "minecraft:heart_of_the_sea"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "545833491A2B2B48"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "6E6D52448102B4DC"
+			rewards: [{
+				count: 16
+				id: "176CB88E420EE1E2"
+				item: {
+					count: 1
+					id: "minecraft:sponge"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:guardian"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5571015D889BD832"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "6D6CB3DFFAE51CE0"
+			rewards: [{
+				id: "3FF6A741D6D27A9E"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:evoker"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "1AEF18BBE7711DF0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "258E0309D90FB450"
+			rewards: [{
+				id: "530375875783626D"
+				item: {
+					count: 1
+					id: "minecraft:shulker_box"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:shulker"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "43FE355BF11CEE63"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "4980D0F0E9AA07DA"
+			rewards: [
+				{
+					count: 8
+					id: "71B30858C365259C"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "22233DAF5CF53214"
+					item: {
+						count: 1
+						id: "alexsmobs:ghostly_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "1E7024BBF27AE639"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "116EE3F76C0DB471"
+			rewards: [
+				{
+					count: 4
+					id: "21D4855935EDE600"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5970473131E901A1"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_harming"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:witch"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "27E5FE8704588697"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "693A6EE4E79B5F37"
+			rewards: [{
+				count: 20
+				id: "42E1FB28AA3A322C"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				random_bonus: 10
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:pillager"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "22C1260D8548A96D"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "2B230A166A4C0128"
+			rewards: [{
+				count: 20
+				id: "7AFAA91776B3290C"
+				item: {
+					count: 1
+					id: "minecraft:slime_ball"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:slime"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "27671D718E251A61"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "42CFD57C4A9F45C1"
+			rewards: [
+				{
+					count: 3
+					id: "01369F1883C679D9"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "367DD9765853EF98"
+					item: {
+						count: 1
+						id: "kaleidoscope_nether:wither_bone_soup"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3C1623AA66E644A9"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "53DC7A302CD57B84"
+			rewards: [{
+				count: 4
+				id: "6E0074B93ECC5A1E"
+				item: {
+					count: 1
+					id: "kaleidoscope_nether:lava_jelly"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5145877F81556949"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "0E80352501B3C40B"
+			rewards: [
+				{
+					count: 4
+					id: "2EB8CEB3536AE405"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "58589D2CA1B7B881"
+					item: {
+						count: 1
+						id: "create:blaze_cake"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:blaze"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0E5E325B7DF99EBB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "32F8C299F5C73793"
+			rewards: [{
+				count: 2
+				id: "7D362E231B5E22A6"
+				item: {
+					count: 1
+					id: "kaleidoscope_nether:ghast_pudding"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ghast"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "2D52CD2FA4B2C334"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "60D59CD34DAF5A12"
+			rewards: [{
+				count: 2
+				id: "60136CF3A868595B"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:desert_style_sashimi"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 2.0d
 			tasks: [{
 				entity: "minecraft:husk"
 				entity_vis_idle_mode: "USE_GLOBAL"
@@ -1303,153 +1304,208 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "18AB1D39F41A3BC3"
+				id: "3FC7B54422EE51A1"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "5645F436479424B6"
+			rewards: [{
+				count: 2
+				id: "7ABD34155F4E5CE9"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "2D5E87C8B5735102"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "61E34AD09DFD645B"
+			rewards: [{
+				count: 10
+				id: "03DA7AA27399483A"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "12B295B03C28DA63"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "5013EB9D8A8A8E94"
+			rewards: [{
+				id: "6C8FB0F256ABF5CB"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0DF9E0E05810436C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 2.0f
+			icon_scale: 2.0d
+			id: "114B5E1F75ADEDE7"
+			rewards: [{
+				count: 4
+				id: "709AB56AE359B6E9"
+				item: {
+					count: 1
+					id: "minecraft:dragon_breath"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3C1C17092F08BC4C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["07BD81E87465AC6E"]
+			entity_vis_size: 1.0f
+			id: "6842D1412F5017EE"
+			rewards: [
+				{
+					count: 32
+					id: "08789C4EB03808BC"
+					item: {
+						components: {
+							"minecraft:fireworks": {
+								flight_duration: 3b
+							}
+						}
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "6212B55015942FD6"
+					item: {
+						count: 1
+						id: "minecraft:creeper_head"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:creeper"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "457FB58C9055E6B2"
 				type: "kill"
 				value: 50L
 			}]
 			x: 4.0d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"2B230A166A4C0128"
-				"116EE3F76C0DB471"
-			]
-			entity_vis_size: 1.0f
-			id: "711A8992672BCAA9"
-			rewards: [
-				{
-					count: 10
-					id: "7F5CB0A97AEEC838"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
-					type: "item"
-				}
-				{
-					count: 320
-					id: "295AD5AEB6E29D76"
-					item: {
-						count: 1
-						id: "minecraft:slime_ball"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					entity: "minecraft:slime"
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
-					entity_vis_walk_mode: "USE_GLOBAL"
-					id: "7600A8E0744826EA"
-					type: "kill"
-					value: 250L
-				}
-				{
-					entity: "minecraft:witch"
-					entity_vis_idle_mode: "USE_GLOBAL"
-					entity_vis_offset_x: 0.0f
-					entity_vis_offset_y: 0.0f
-					entity_vis_rotation: 0.0f
-					entity_vis_silhouette_mode: "NONE"
-					entity_vis_size: 1.0f
-					entity_vis_spin_mode: "USE_GLOBAL"
-					entity_vis_use_as_quest_icon: false
-					entity_vis_walk_mode: "USE_GLOBAL"
-					id: "03B5C215606B3E26"
-					type: "kill"
-					value: 50L
-				}
-			]
-			x: 4.0d
-			y: -5.0d
-		}
-		{
-			dependencies: [
-				"3CBE7D4673A99AA8"
-				"6E6D52448102B4DC"
-			]
-			entity_vis_size: 1.0f
-			id: "1BE9A5200C7E02B3"
-			rewards: [{
-				id: "33958C3287894BDC"
-				item: {
-					count: 1
-					id: "prefab:item_aqua_base"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:guardian"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "0F54061123287C31"
-				type: "kill"
-				value: 25L
-			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1BE9A5200C7E02B3"]
-			entity_vis_size: 1.0f
-			id: "0031AC01795E8E1D"
-			rewards: [{
-				id: "64CE035BBB70C13F"
-				item: {
-					count: 1
-					id: "prefab:item_aqua_base_improved"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "minecraft:guardian"
-				entity_vis_idle_mode: "USE_GLOBAL"
-				entity_vis_offset_x: 0.0f
-				entity_vis_offset_y: 0.0f
-				entity_vis_rotation: 0.0f
-				entity_vis_silhouette_mode: "NONE"
-				entity_vis_size: 1.0f
-				entity_vis_spin_mode: "USE_GLOBAL"
-				entity_vis_use_as_quest_icon: false
-				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "4B0232C58E92BA5F"
-				type: "kill"
-				value: 100L
-			}]
-			x: 5.0d
-			y: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "12B9876BAD9EFAAF"
+			id: "52798AC67EFE7FE8"
 			rewards: [{
-				count: 64
-				id: "50517FA790EF490E"
+				id: "6462314C25703338"
 				item: {
 					count: 1
-					id: "minecraft:string"
+					id: "twilightforest:ender_bow"
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
-				entity: "minecraft:spider"
+				entity: "minecraft:enderman"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -1459,28 +1515,66 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "583B56BC027C5BD9"
+				id: "5CBB3E5D6EEBB92B"
 				type: "kill"
 				value: 20L
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64DC596F058FA8B1"]
+			entity_vis_size: 1.0f
+			id: "6B47E08C26D66D57"
+			rewards: [{
+				id: "41939F1C59D09359"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:smite": 5
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombie"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "246A5F3263DED83B"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			id: "4C38222AFA528FAF"
+			id: "6F67D6C7C07CF9A4"
 			rewards: [{
-				count: 3
-				id: "58A59A4BA2941852"
+				id: "32EEB9EA821DBFBF"
 				item: {
 					count: 1
-					id: "minecraft:potion"
+					id: "minecraft:trident"
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
-				entity: "minecraft:cave_spider"
+				entity: "minecraft:drowned"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -1490,30 +1584,35 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "2BF891132E946162"
+				id: "6D5337355F693227"
 				type: "kill"
 				value: 20L
 			}]
 			x: 2.5d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4C38222AFA528FAF"
-				"12B9876BAD9EFAAF"
-			]
+			dependencies: ["56BC5195354C0B03"]
 			entity_vis_size: 1.0f
-			id: "11D9A358454C833F"
+			id: "0756EF6F859BF6D5"
 			rewards: [{
-				id: "55AD5A749CDAB990"
+				id: "2AEF4F2B7CB5AC08"
 				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:infinity": 1
+							}
+						}
+					}
 					count: 1
-					id: "alexsmobs:centipede_leggings"
+					id: "minecraft:bow"
 				}
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
-				entity: "minecraft:spider"
+				entity: "minecraft:skeleton"
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
@@ -1523,186 +1622,135 @@
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				id: "6A6E3110EFED2A9B"
+				id: "23DC6CA28A7ED481"
 				type: "kill"
-				value: 100L
+				value: 50L
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			icon: {
-				components: {
-					"ftbquests:icon": "chisel:block/warning/death"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "7A721F7736E178EE"
+			id: "07BD81E87465AC6E"
 			rewards: [
 				{
-					id: "4BC9F0EB32B5B1A4"
-					item: {
-						count: 1
-						id: "minecraft:totem_of_undying"
-					}
-					type: "item"
-				}
-				{
-					id: "4D10B527D160E7C8"
+					count: 4
+					id: "477EAEDE3A852E96"
 					item: {
 						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"indestructible:indestructible": 1
-								}
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
 							}
 						}
 						count: 1
-						id: "minecraft:enchanted_book"
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B2D4565F9058B39"
+					item: {
+						count: 1
+						id: "l2complements:strong_fire_charge"
 					}
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
-				id: "45E9AD540D4905DC"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 81
+				entity: "minecraft:creeper"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "39A0365A4C345F10"
+				type: "kill"
+				value: 20L
 			}]
-			x: -7.0d
-			y: -4.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
-			icon: {
-				id: "mekanismtools:steel_shield"
-			}
-			id: "52606458F1225270"
-			rewards: [{
-				id: "5136AB617F855C03"
-				item: {
-					count: 1
-					id: "mekanismtools:steel_shield"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "428C2A6DCD0801B2"
-					stat: "minecraft:damage_blocked_by_shield"
-					type: "stat"
-					value: 100
-				}
-				{
-					consume_items: true
-					id: "65891D8727429652"
-					item: { count: 1, id: "minecraft:shield" }
-					type: "item"
-				}
-			]
-			x: -7.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7B8111FDC343CC4F"]
-			entity_vis_size: 1.0f
-			id: "584B015B56F23365"
-			rewards: [{
-				id: "43EC673338BC288E"
-				item: {
-					count: 1
-					id: "minecraft:enchanted_golden_apple"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:clock"
-				}
-				id: "392EE0D9338ED12D"
-				stat: "minecraft:time_since_death"
-				type: "stat"
-				value: 720000
-			}]
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["368C4CE56E4F20BC"]
-			entity_vis_size: 1.0f
-			id: "7B8111FDC343CC4F"
-			rewards: [{
-				id: "6FF560C91474F871"
-				item: {
-					count: 1
-					id: "minecraft:golden_apple"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:clock"
-				}
-				id: "14ACB61DC91F4143"
-				stat: "minecraft:time_since_death"
-				type: "stat"
-				value: 72000
-			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7A721F7736E178EE"]
-			entity_vis_size: 1.0f
-			id: "407EC5D14140DEF9"
+			id: "56BC5195354C0B03"
 			rewards: [
 				{
-					id: "6A1EA87B1B269E18"
+					count: 3
+					id: "3300DF253F187FBF"
 					item: {
-						components: {
-							"minecraft:max_damage": 33550336
-						}
 						count: 1
-						id: "avaritia:infinity_totem"
+						id: "minecraft:skeleton_skull"
 					}
 					type: "item"
 				}
 				{
-					id: "28C9C0A33D07E15E"
+					count: 8
+					id: "315290CA595F5E22"
 					item: {
-						components: {
-							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"白厄的头（模型）\"}"
-							"minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"愿此行，终抵群星\"}"]
-							"minecraft:profile": {
-								id: [I;
-									840324790
-									121981138
-									-2058317167
-									-1345357906
-								]
-								name: "Gothening"
-								properties: [{
-									name: "textures"
-									signature: "Y3fnmdOCa7TpZTpZNulu+SeSOxHuAw7EbFkGgO84Iu1Et5ewOLum2xZjWa1ryo7SEjzwPaCpHpwNwA0uqSWufFcYww3yb/Aw6fM/MofPUmENH0RhExmDATvutLmJjGKWzUUJqET5mn3WhO/JCsyaArPAj9CGDG3BL9blSLvNu/5qKgqxPNc/Dcjh6UcCOjrixK9URQDXvYYM/q9kLmxX2fvwa3m+jPdpEwjRwaOn9Po4y+MU/l2AlPwul1/grRPVCtwwt+29kn3OmRWk35d7rxqeNqjqogwKeoSJ/dqawBxFyJKSaa2GBWZZkwiUeQ4C4NmYiUdXcQWckDnnv6WtfIet9xlogqm+gFi4PdPbeI5DjYr5gVEjcno4WHKQk52vEg7qQaA91dOWKyve3yshmBgb6AZYunWyOBQIAWyJEcgiXx7y25Is8m94PugO688obBCCH8nw1qN5QtqG5LwqIzCM+F61atyzjs/lJgEnM/Z+usizrCcEwvp0ID55U8swod7nz/SFev5AsFMUSoPsDtxYZaLK7rUKHlrHz5gLRLEXXrijWK1IqtHb0FhKh+jHMZ8FFIy26qkK5d8vuvtyyYqflD2WNIYgnRl9E1MblBNfYGT2iyzcDtaxhTlS2rfEXWWRgF+Rj2DcWOmGayKc+xTFg8fbth5UA9xBVZu/CHI="
-									value: "ewogICJ0aW1lc3RhbXAiIDogMTc4Njk1OTg3ODA0OSwKICAicHJvZmlsZUlkIiA6ICIzMjE2NTZiNjA3NDU0OGQyODU1MDkyOTFhZmNmNzdhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb3RoZW5pbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVjMDE4OWVjZGNjNTMzMzBhNTM0OWUwNjUyMTQ5YjllMGNkOWM1ZWQ3MjBiMzI5NWFjM2IxNWUwN2I5MjI5NiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
-								}]
-							}
-						}
 						count: 1
-						id: "minecraft:player_head"
+						id: "create:tree_fertilizer"
 					}
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
-				id: "3B56D2410B173AE1"
-				stat: "minecraft:deaths"
-				type: "stat"
-				value: 33550335
+				entity: "minecraft:skeleton"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5E3C6CBEE41A38E0"
+				type: "kill"
+				value: 20L
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "64DC596F058FA8B1"
+			rewards: [{
+				id: "610882DCBA5FA810"
+				item: {
+					count: 1
+					id: "prefab:item_farm_advanced"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:zombie"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0ED5D17C443E12E9"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -2.5d
 		}
 	]
 }

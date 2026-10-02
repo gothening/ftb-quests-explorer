@@ -5,7 +5,7 @@
 	group: "512B54981EE0D939"
 	id: "2DE810FE1B840DBF"
 	images: [ ]
-	order_index: 10
+	order_index: 1
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -162,7 +162,7 @@
 				item: { count: 1, id: "oritech:bio_generator_block" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -188,8 +188,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -4.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -200,7 +200,7 @@
 				item: { count: 1, id: "oritech:fuel_generator_block" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -259,7 +259,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 10.0d
 			y: -4.0d
 		}
 		{
@@ -271,8 +271,138 @@
 				item: { count: 1, id: "oritech:big_solar_panel_block" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "36BF29D6E59EB1CB"
+			size: 2.0d
+			tasks: [{
+				id: "5991F591466B9220"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanismgenerators:turbine_valve"
+			}
+			id: "70B197E61A2F44A5"
+			size: 2.0d
+			tasks: [
+				{
+					count: 44L
+					id: "700F61C7138EF5BA"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5F45C74D725511E2"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "009ACD2176F3BC60"
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0193572945C29F42"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					id: "093425C8F020ECDE"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					id: "3A8358E7B35B265F"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "768CB7D8C5149B67"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "48E25BEAF7C30901"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "426797C1DB905F17"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "2B37FD27977F7DDB"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_logic_adapter"
+			}
+			id: "33F2D27033313BF5"
+			size: 2.0d
+			tasks: [
+				{
+					count: 36L
+					id: "545E86FFBC0D582E"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					id: "21C4791487BED8B8"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7870A3D223DB6CAE"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "0B4914818A40118C"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_logic_adapter" }
+					type: "item"
+				}
+				{
+					id: "090D676C16B8C3F8"
+					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "5BAA86495C808CEB"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "409F77D7976D2ED0"
+					item: { count: 1, id: "mekanismgenerators:hohlraum" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 }

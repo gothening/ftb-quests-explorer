@@ -682,8 +682,8 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -729,8 +729,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -745,8 +745,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -756,29 +756,8 @@
 				item: { count: 1, id: "dummmmmmy:target_dummy" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "ae2:sky_stone_block"
-			}
-			id: "53DACBF954D1330E"
-			rewards: [{
-				id: "519E59AEC69636C0"
-				item: {
-					count: 1
-					id: "ae2:meteorite_compass"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "15D137448DEDCEFF"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: 3.5d
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 }

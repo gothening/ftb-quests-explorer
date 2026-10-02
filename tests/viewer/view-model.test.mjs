@@ -13,19 +13,19 @@ test("builds a read-only view model from the live quest book", () => {
   const viewer = model();
   assert.equal(viewer.readonly, true);
   assert.equal(viewer.metadata.counts.chapters, 38);
-  assert.equal(viewer.metadata.counts.quests, 1722);
-  assert.equal(viewer.metadata.counts.tasks, 2126);
-  assert.equal(viewer.metadata.counts.rewards, 1352);
+  assert.equal(viewer.metadata.counts.quests, 1914);
+  assert.equal(viewer.metadata.counts.tasks, 2356);
+  assert.equal(viewer.metadata.counts.rewards, 1335);
   assert.equal(viewer.metadata.counts.questLinks, 14);
   assert.equal(viewer.metadata.counts.rewardTables, 20);
-  assert.equal(viewer.metadata.counts.translations, 927);
+  assert.equal(viewer.metadata.counts.translations, 1002);
 });
 
 test("keeps chapter groups, translated chapters, and detail data", () => {
   const viewer = model();
   const chapter = viewer.chapters.find((entry) => entry.id === "0B07EB66101F01B1");
   assert.equal(chapter.title.plainText, "元素周期表");
-  assert.equal(chapter.questCount, 47);
+  assert.equal(chapter.questCount, 106);
   assert.equal(viewer.groups.length >= 5, true);
   assert.equal(viewer.quests.some((quest) => quest.title.plainText === "进入末地"), true);
 });

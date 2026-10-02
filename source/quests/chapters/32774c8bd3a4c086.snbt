@@ -150,7 +150,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2C883A969A95CA01"]
+			dependencies: ["2F12C8728480D3F0"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			icon: {
@@ -225,12 +225,30 @@
 			entity_vis_size: 1.0f
 			id: "473F5368CC717AB5"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C1A25F2FA1EFAD0"
-				table_id: 3270814232773299018L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C1A25F2FA1EFAD0"
+					table_id: 3270814232773299018L
+					type: "loot"
+				}
+				{
+					id: "1F6E4C40F9F0D77A"
+					item: {
+						count: 1
+						id: "ae2lt:advanced_wireless_overloaded_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "71DEE9E962597C34"
+					item: {
+						count: 1
+						id: "ae2lt:overloaded_frequency_card"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "63428924810E7BDC"
 				item: { count: 1, id: "ae2:controller" }

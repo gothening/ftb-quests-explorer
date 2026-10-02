@@ -23,7 +23,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5BF4000473ECB84F"]
+			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
 			id: "601B49CF7CF3B85A"
 			rewards: [
@@ -46,8 +46,8 @@
 				item: { count: 1, id: "farmersdelight:cutting_board" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["601B49CF7CF3B85A"]
@@ -111,8 +111,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 4.0d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
@@ -176,8 +176,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 3.0d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
@@ -193,7 +193,7 @@
 				id: "4DF6EDFA96D908F4"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 2.0d
 		}
 		{
@@ -223,8 +223,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 5.0d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["601B49CF7CF3B85A"]
@@ -258,13 +258,13 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 4.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1F7A24AEB647985A"]
+			dependencies: ["04A9BEA98B998F92"]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "3DA8FA48438B8BD8"
 			rewards: [
 				{
@@ -293,61 +293,11 @@
 				item: { count: 1, id: "minecraft:netherite_hoe" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.0d
+			x: -10.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1F7A24AEB647985A"]
-			entity_vis_size: 1.0f
-			id: "194E3C9C0F41F22B"
-			rewards: [
-				{
-					command: "/ftbechoes gamestage @s add gothening_l1_march7_unlocked"
-					id: "22E68D16AF168FF4"
-					type: "command"
-				}
-				{
-					id: "3D38392F8564803E"
-					item: {
-						components: {
-							"minecraft:block_entity_data": {
-								echo_id: "gothening:chapter_2_march7"
-								id: "ftbechoes:core"
-								worker_id: [I;
-									1307484398
-									-488944141
-									-1928602316
-									-571554784
-								]
-							}
-						}
-						count: 1
-						id: "ftbechoes:echo_projector"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "520003B812230E9C"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["194E3C9C0F41F22B"]
-			entity_vis_size: 1.0f
-			id: "31DF562D7DC47DEA"
-			tasks: [{
-				id: "7D2A571F654044B9"
-				stage: "gothening_l1_march7_complete"
-				type: "gamestage"
-			}]
-			x: -5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["31DF562D7DC47DEA"]
+			dependencies: ["15164F73E6B331EF"]
 			dependency_requirement: "all_started"
 			entity_vis_size: 1.0f
 			id: "597E234CA803FDE3"
@@ -372,8 +322,8 @@
 				item: { count: 1, id: "prefab:item_farm" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 8.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["597E234CA803FDE3"]
@@ -402,8 +352,8 @@
 				item: { count: 1, id: "prefab:item_farm_improved" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.5d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["72B15D7199D95C6D"]
@@ -432,11 +382,11 @@
 				item: { count: 1, id: "prefab:item_farm_advanced" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["31DF562D7DC47DEA"]
+			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
 			id: "458FA20937056886"
 			rewards: [{
@@ -451,7 +401,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["458FA20937056886"]
@@ -468,8 +418,8 @@
 				item: { count: 1, id: "more_than_decoration:decoratium" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["77771F8A4D28D955"]
@@ -486,8 +436,8 @@
 				item: { count: 1, id: "more_than_decoration:decor_core" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["78D44652A420ACC9"]
@@ -513,11 +463,11 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 11.5d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["48141982F2492BD9"]
+			dependencies: ["78D44652A420ACC9"]
 			entity_vis_size: 1.0f
 			id: "253502740373D5CC"
 			optional: true
@@ -638,68 +588,11 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 12.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["48141982F2492BD9"]
-			entity_vis_size: 1.0f
-			id: "0F4CCE4C50022D25"
-			rewards: [
-				{
-					command: "/ftbechoes gamestage @s add gothening_l2_march7_unlocked"
-					id: "27ADCF4746FE875D"
-					type: "command"
-				}
-				{
-					id: "421C943DCB47BF86"
-					item: {
-						count: 1
-						id: "primogemcraft:sanyueqidiaoxiang_01"
-					}
-					type: "item"
-				}
-				{
-					id: "6ADD3F2167CFF063"
-					item: {
-						components: {
-							"minecraft:block_entity_data": {
-								echo_id: "gothening:chapter_3_march7"
-								id: "ftbechoes:core"
-								worker_id: [I;
-									743992228
-									-820428295
-									-2040329736
-									249517784
-								]
-							}
-						}
-						count: 1
-						id: "ftbechoes:echo_projector"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "04F9E73E7F57C392"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 13.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "2F61DD2D8D153B8B"
-			tasks: [{
-				id: "0A5A76AF576F0F63"
-				stage: "gothening_l2_march7_unlocked"
-				type: "gamestage"
-			}]
-			x: -6.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["2F61DD2D8D153B8B"]
+			dependencies: ["5BF4000473ECB84F"]
 			entity_vis_size: 1.0f
 			id: "04A9BEA98B998F92"
 			rewards: [{
@@ -713,11 +606,11 @@
 				item: { count: 1, id: "trailblazer:token_of_abundance" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 15.5d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2F61DD2D8D153B8B"]
+			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
 			id: "23195CC25B930AFA"
 			rewards: [{
@@ -739,8 +632,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 15.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["23195CC25B930AFA"]
@@ -768,8 +661,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 16.5d
+			x: -8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23195CC25B930AFA"]
@@ -788,11 +681,11 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:armors/horse)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 16.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["2F61DD2D8D153B8B"]
+			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
 			id: "648436B48BE1C372"
 			rewards: [{
@@ -818,11 +711,11 @@
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 15.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["04A9BEA98B998F92"]
+			dependencies: ["7A2BD3CDB2491C81"]
 			entity_vis_size: 1.0f
 			id: "5A449F92945D7FF3"
 			rewards: [{
@@ -836,8 +729,8 @@
 				item: { count: 1, id: "trailblazer:chefs_certificate" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 16.5d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["648436B48BE1C372"]
@@ -864,6 +757,14 @@
 						}
 						count: 1
 						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "084AC78B47C4488E"
+					item: {
+						count: 1
+						id: "minecraft:turtle_helmet"
 					}
 					type: "item"
 				}
@@ -894,51 +795,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 16.5d
-		}
-		{
-			dependencies: [
-				"24B76D397BE02B1E"
-				"5A449F92945D7FF3"
-				"5B3A23826FD8A9C6"
-				"1950641C3564CD8A"
-			]
-			entity_vis_size: 1.0f
-			icon: {
-				components: {
-					"ftbquests:icon": "cataclysm:textures/gui/boss_bar/life_remain.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "7AC24ADECBC032BF"
-			rewards: [{
-				description: "三月七章节已结束！"
-				id: "4F7EED7B87F74F8B"
-				type: "toast"
-			}]
-			tasks: [
-				{
-					count: 500L
-					id: "62EEBDFD3B7151BE"
-					item: { count: 1, id: "trailblazer:chefs_certificate" }
-					type: "item"
-				}
-				{
-					count: 100L
-					id: "42169B1848CEE083"
-					item: { count: 1, id: "trailblazer:token_of_abundance" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "11D6CB93A81A7D8D"
-					item: { count: 1, id: "more_than_decoration:decoratium" }
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 18.5d
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 }

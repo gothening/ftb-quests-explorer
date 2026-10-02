@@ -1,0 +1,1754 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "14675c2c463a709a"
+	group: "7E18D2B281281CE2"
+	id: "14675C2C463A709A"
+	images: [ ]
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:heartofthefrozensea"
+			}
+			id: "3A8529DF782B10E3"
+			tasks: [{
+				consume_items: false
+				id: "6DDF3FCB1B919A40"
+				item: { count: 1, id: "oneiricconcept:heartofthefrozensea" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:heartoftheskysea"
+			}
+			id: "5AEBE619B5BFB569"
+			tasks: [{
+				consume_items: false
+				id: "07145649EF4A7353"
+				item: { count: 1, id: "oneiricconcept:heartoftheskysea" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:heartofthevastsea"
+			}
+			id: "22F39C0A067960B6"
+			tasks: [{
+				consume_items: false
+				id: "61C9D63F876175E8"
+				item: { count: 1, id: "oneiricconcept:heartofthevastsea" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:sun_start_can"
+			}
+			id: "528DE8C4072FCCB9"
+			tasks: [{
+				consume_items: false
+				id: "01E0215A50CFD112"
+				item: { count: 1, id: "oneiricconcept:sun_start_can" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:cebuzhunxia"
+			}
+			id: "1A0DE94BEC8ED7AB"
+			tasks: [{
+				consume_items: false
+				id: "725ED4E05CE48A24"
+				item: { count: 1, id: "primogemcraft:cebuzhunxia" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:chunmeizhipao"
+			}
+			id: "5D62421588915586"
+			tasks: [{
+				consume_items: false
+				id: "5ACB307970501562"
+				item: { count: 1, id: "primogemcraft:chunmeizhipao" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:diamondlottery"
+			}
+			id: "617DE01F5E9753EE"
+			tasks: [{
+				consume_items: false
+				id: "7B6AED0C21081851"
+				item: { count: 1, id: "primogemcraft:diamondlottery" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:fenliejinbi"
+			}
+			id: "0C9E12B2CD6C4963"
+			tasks: [{
+				consume_items: false
+				id: "4796FEEA66E1220D"
+				item: { count: 1, id: "primogemcraft:fenliejinbi" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:fulinjiao"
+			}
+			id: "2F394B75A5EF9AB9"
+			tasks: [{
+				consume_items: false
+				id: "6537004649CC9365"
+				item: { count: 1, id: "primogemcraft:fulinjiao" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:gongsideguguzhong"
+			}
+			id: "1CFB17491EE1779B"
+			tasks: [{
+				consume_items: false
+				id: "294F724DE80B023D"
+				item: { count: 1, id: "primogemcraft:gongsideguguzhong" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqbing"
+			}
+			id: "7C9AD57D895AE5E3"
+			tasks: [{
+				consume_items: false
+				id: "42D1CDF03E07D403"
+				item: { count: 1, id: "primogemcraft:hqbing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqcao"
+			}
+			id: "65E8C8C983A58C93"
+			tasks: [{
+				consume_items: false
+				id: "51DB0F2D2867A7FE"
+				item: { count: 1, id: "primogemcraft:hqcao" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqfeng"
+			}
+			id: "7C2C7E4114DC3A09"
+			tasks: [{
+				consume_items: false
+				id: "4526335D17F0FADF"
+				item: { count: 1, id: "primogemcraft:hqfeng" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqhuo"
+			}
+			id: "199A7FC2766C65FB"
+			tasks: [{
+				consume_items: false
+				id: "7BF25E4BE2E75BA7"
+				item: { count: 1, id: "primogemcraft:hqhuo" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqlei"
+			}
+			id: "15C07B1C22A3445F"
+			tasks: [{
+				consume_items: false
+				id: "032BCEBA37E39D5D"
+				item: { count: 1, id: "primogemcraft:hqlei" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqshui"
+			}
+			id: "51258436F7A3D195"
+			tasks: [{
+				consume_items: false
+				id: "0B39D70B0E284C62"
+				item: { count: 1, id: "primogemcraft:hqshui" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hqyan"
+			}
+			id: "2959D89BD6507C1C"
+			tasks: [{
+				consume_items: false
+				id: "791B496186239CB6"
+				item: { count: 1, id: "primogemcraft:hqyan" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jdsbcf_0"
+			}
+			id: "40D444537AC32E40"
+			tasks: [{
+				consume_items: false
+				id: "62CC84E1ED2454F4"
+				item: { count: 1, id: "primogemcraft:jdsbcf_0" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jdsbcf_1"
+			}
+			id: "1279A2D7AD4D62D1"
+			tasks: [{
+				consume_items: false
+				id: "3ACE675D8A66637C"
+				item: { count: 1, id: "primogemcraft:jdsbcf_1" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jdsbcf_2"
+			}
+			id: "36C5AED7F592EDE0"
+			tasks: [{
+				consume_items: false
+				id: "72D0A309816D9523"
+				item: { count: 1, id: "primogemcraft:jdsbcf_2" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jingqueyouyadaima"
+			}
+			id: "7C5D68357DEC631C"
+			tasks: [{
+				consume_items: false
+				id: "27F877720481EA7E"
+				item: { count: 1, id: "primogemcraft:jingqueyouyadaima" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jlbj"
+			}
+			id: "6F1D52F5B8414D81"
+			tasks: [{
+				consume_items: false
+				id: "779E42CCB3DAC991"
+				item: { count: 1, id: "primogemcraft:jlbj" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:luanqibazaodedaima"
+			}
+			id: "67E538E2AA040BEE"
+			tasks: [{
+				consume_items: false
+				id: "62164330AA1D0105"
+				item: { count: 1, id: "primogemcraft:luanqibazaodedaima" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:meiyouzhushidaima"
+			}
+			id: "6C91779164882751"
+			tasks: [{
+				consume_items: false
+				id: "087DFBA051D0E34B"
+				item: { count: 1, id: "primogemcraft:meiyouzhushidaima" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:mysterylottery"
+			}
+			id: "4853BDDCCD8F31ED"
+			tasks: [{
+				consume_items: false
+				id: "1386244D4BC25558"
+				item: { count: 1, id: "primogemcraft:mysterylottery" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:pengkeluodejingshen"
+			}
+			id: "1235B5219A85CFC5"
+			tasks: [{
+				consume_items: false
+				id: "4D964C9CA760B03D"
+				item: { count: 1, id: "primogemcraft:pengkeluodejingshen" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qiwuchongwang"
+			}
+			id: "4FDF097CC1C02FE2"
+			tasks: [{
+				consume_items: false
+				id: "7FC4DA2751D42BBA"
+				item: { count: 1, id: "primogemcraft:qiwuchongwang" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qiwuheisenlinggz"
+			}
+			id: "2CD33841A99252A9"
+			tasks: [{
+				consume_items: false
+				id: "34FF26AD76165338"
+				item: { count: 1, id: "primogemcraft:qiwuheisenlinggz" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:quxgjibing"
+			}
+			id: "57218760570479D7"
+			tasks: [{
+				consume_items: false
+				id: "244B1148E8847F1D"
+				item: { count: 1, id: "primogemcraft:quxgjibing" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwcbzg"
+			}
+			id: "5AA24FD9AC477BE2"
+			tasks: [{
+				consume_items: false
+				id: "5082024122922146"
+				item: { count: 1, id: "primogemcraft:qwcbzg" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwclgs"
+			}
+			id: "273F88559BEF2541"
+			tasks: [{
+				consume_items: false
+				id: "31BE1A6316BB7AE5"
+				item: { count: 1, id: "primogemcraft:qwclgs" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwclhy"
+			}
+			id: "056D604EC74C6C9F"
+			tasks: [{
+				consume_items: false
+				id: "27CD35A58CC628D0"
+				item: { count: 1, id: "primogemcraft:qwclhy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwflb"
+			}
+			id: "46EA5F21FC7F0B8A"
+			tasks: [{
+				consume_items: false
+				id: "28380CB486CCE393"
+				item: { count: 1, id: "primogemcraft:qwflb" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwfldyhdlb"
+			}
+			id: "6C8FD6990BAF3CFB"
+			tasks: [{
+				consume_items: false
+				id: "466B6028BF8CF549"
+				item: { count: 1, id: "primogemcraft:qwfldyhdlb" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwflyb"
+			}
+			id: "4B97CD8A9E95A40B"
+			tasks: [{
+				consume_items: false
+				id: "1A2063F2D998F28A"
+				item: { count: 1, id: "primogemcraft:qwflyb" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwggzfenlie_a"
+			}
+			id: "326030E654DA091D"
+			tasks: [{
+				consume_items: false
+				id: "33E9741ED4088B27"
+				item: { count: 1, id: "primogemcraft:qwggzfenlie_a" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwggzfenlie_b"
+			}
+			id: "1D9A1005A2975DE9"
+			tasks: [{
+				consume_items: false
+				id: "3F6E9E071B18BCFA"
+				item: { count: 1, id: "primogemcraft:qwggzfenlie_b" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwhdlz"
+			}
+			id: "1DF60632BDDF6173"
+			tasks: [{
+				consume_items: false
+				id: "6E9A17BCC8E375E0"
+				item: { count: 1, id: "primogemcraft:qwhdlz" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwhydlt"
+			}
+			id: "3CBCA727F22ADD63"
+			tasks: [{
+				consume_items: false
+				id: "2FA8BE766A42D380"
+				item: { count: 1, id: "primogemcraft:qwhydlt" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwhygzq"
+			}
+			id: "5BDF2109382485DA"
+			tasks: [{
+				consume_items: false
+				id: "4AB62AE85D7F8CD0"
+				item: { count: 1, id: "primogemcraft:qwhygzq" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwjcdm"
+			}
+			id: "6DBA8C4629B7FF14"
+			tasks: [{
+				consume_items: false
+				id: "0BC8ABBCFF115A1D"
+				item: { count: 1, id: "primogemcraft:qwjcdm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwjlbhy"
+			}
+			id: "6278A5A282E57AE2"
+			tasks: [{
+				consume_items: false
+				id: "268AB7BBC83EE7C2"
+				item: { count: 1, id: "primogemcraft:qwjlbhy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwjlbxyq"
+			}
+			id: "54A0438171C7DE4F"
+			tasks: [{
+				consume_items: false
+				id: "4BD278B39A55AC31"
+				item: { count: 1, id: "primogemcraft:qwjlbxyq" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwjzyj"
+			}
+			id: "4A3E149F8054C672"
+			tasks: [{
+				consume_items: false
+				id: "5A54894648D3F149"
+				item: { count: 1, id: "primogemcraft:qwjzyj" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwkwgl"
+			}
+			id: "146B70E595C02EB5"
+			tasks: [{
+				consume_items: false
+				id: "43D257A8DE825C4A"
+				item: { count: 1, id: "primogemcraft:qwkwgl" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwkwzg"
+			}
+			id: "7FCC86CB40CBC745"
+			tasks: [{
+				consume_items: false
+				id: "2187B6B96D05DB9D"
+				item: { count: 1, id: "primogemcraft:qwkwzg" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwkwzj"
+			}
+			id: "4DCAD10982DE0B8D"
+			tasks: [{
+				consume_items: false
+				id: "693778E54D274063"
+				item: { count: 1, id: "primogemcraft:qwkwzj" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwkwzt"
+			}
+			id: "11450E653D478DD6"
+			tasks: [{
+				consume_items: false
+				id: "6A44D622269C290B"
+				item: { count: 1, id: "primogemcraft:qwkwzt" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwkwzw"
+			}
+			id: "56DF6FDA4F326508"
+			tasks: [{
+				consume_items: false
+				id: "2E4C7DD3C7F10CD3"
+				item: { count: 1, id: "primogemcraft:qwkwzw" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwkzhy"
+			}
+			id: "5A6B87179DD7CB50"
+			tasks: [{
+				consume_items: false
+				id: "283FC1B66B7F5797"
+				item: { count: 1, id: "primogemcraft:qwkzhy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwlbtdgcl"
+			}
+			id: "282EC83144444C59"
+			tasks: [{
+				consume_items: false
+				id: "10D469D5E97BB3D8"
+				item: { count: 1, id: "primogemcraft:qwlbtdgcl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwlzdlt"
+			}
+			id: "7C3F58498C99CA52"
+			tasks: [{
+				consume_items: false
+				id: "3168A5D8A34BB361"
+				item: { count: 1, id: "primogemcraft:qwlzdlt" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwmhs"
+			}
+			id: "73678C23C27FE1FC"
+			tasks: [{
+				consume_items: false
+				id: "2BD49191BD0611D7"
+				item: { count: 1, id: "primogemcraft:qwmhs" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwqcxxmx"
+			}
+			id: "6B981580ECAC72BF"
+			tasks: [{
+				consume_items: false
+				id: "48605D5E70A4747E"
+				item: { count: 1, id: "primogemcraft:qwqcxxmx" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwqskxjxt"
+			}
+			id: "14ACC641E0B4B6A5"
+			tasks: [{
+				consume_items: false
+				id: "23B9A4CF76AC780C"
+				item: { count: 1, id: "primogemcraft:qwqskxjxt" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsbmb"
+			}
+			id: "0D9D19EBCF27BE8E"
+			tasks: [{
+				consume_items: false
+				id: "04D3A3CDB503A10E"
+				item: { count: 1, id: "primogemcraft:qwsbmb" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsjgzq"
+			}
+			id: "64656C41F4BA0827"
+			tasks: [{
+				consume_items: false
+				id: "21604E3D3FF6098B"
+				item: { count: 1, id: "primogemcraft:qwsjgzq" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsklj"
+			}
+			id: "176F54558F4B64F1"
+			tasks: [{
+				consume_items: false
+				id: "627AE9D06151DB74"
+				item: { count: 1, id: "primogemcraft:qwsklj" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsksj"
+			}
+			id: "69CB3310FD1B88BA"
+			tasks: [{
+				consume_items: false
+				id: "795D5C4304739E30"
+				item: { count: 1, id: "primogemcraft:qwsksj" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsmcd"
+			}
+			id: "2303213096163441"
+			tasks: [{
+				consume_items: false
+				id: "6D0EE8D34283E137"
+				item: { count: 1, id: "primogemcraft:qwsmcd" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsmcl"
+			}
+			id: "1D8500C12B96115E"
+			tasks: [{
+				consume_items: false
+				id: "19E0EA4402DA6A8D"
+				item: { count: 1, id: "primogemcraft:qwsmcl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwsss"
+			}
+			id: "6F602B677644EC64"
+			tasks: [{
+				consume_items: false
+				id: "118A67B05C09D14A"
+				item: { count: 1, id: "primogemcraft:qwsss" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwtcjlbptbg"
+			}
+			id: "180FF056D23C9C70"
+			tasks: [{
+				consume_items: false
+				id: "79EA5AA6119DF653"
+				item: { count: 1, id: "primogemcraft:qwtcjlbptbg" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwthhj"
+			}
+			id: "0A88BD1B02E443F2"
+			tasks: [{
+				consume_items: false
+				id: "1A674D620FAE5BE3"
+				item: { count: 1, id: "primogemcraft:qwthhj" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwthhjiii"
+			}
+			id: "17DC1B6297624CB2"
+			tasks: [{
+				consume_items: false
+				id: "0FAAC68AA61765DD"
+				item: { count: 1, id: "primogemcraft:qwthhjiii" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwtldgs"
+			}
+			id: "327CC9D8C3E4C63B"
+			tasks: [{
+				consume_items: false
+				id: "670D31F87CC304A5"
+				item: { count: 1, id: "primogemcraft:qwtldgs" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwtldhy"
+			}
+			id: "7E1ECB51708FA348"
+			tasks: [{
+				consume_items: false
+				id: "5EA5EB45340CA37A"
+				item: { count: 1, id: "primogemcraft:qwtldhy" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwtxzp"
+			}
+			id: "78D50D38DBF442CA"
+			tasks: [{
+				consume_items: false
+				id: "6D883128572F30BC"
+				item: { count: 1, id: "primogemcraft:qwtxzp" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwcn"
+			}
+			id: "1D0E69C9B37AE9CF"
+			tasks: [{
+				consume_items: false
+				id: "2EFFBF9D75C2F75A"
+				item: { count: 1, id: "primogemcraft:qwwcn" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwsg"
+			}
+			id: "1F3310E414FB1B7C"
+			tasks: [{
+				consume_items: false
+				id: "3FA6DD1BEC6BAF9A"
+				item: { count: 1, id: "primogemcraft:qwwsg" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwsgl"
+			}
+			id: "18CFDEE15CFED475"
+			tasks: [{
+				consume_items: false
+				id: "4BA2809C99F4472A"
+				item: { count: 1, id: "primogemcraft:qwwsgl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwshy"
+			}
+			id: "5571B4BCA31888E3"
+			tasks: [{
+				consume_items: false
+				id: "025DCC1DC1508C24"
+				item: { count: 1, id: "primogemcraft:qwwshy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwswct"
+			}
+			id: "4551D08D4E7E71BF"
+			tasks: [{
+				consume_items: false
+				id: "078EF5408CB3BD51"
+				item: { count: 1, id: "primogemcraft:qwwswct" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwsx"
+			}
+			id: "5BFAF32703645BBC"
+			tasks: [{
+				consume_items: false
+				id: "259F3E2FCE026565"
+				item: { count: 1, id: "primogemcraft:qwwsx" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwszj"
+			}
+			id: "2D0DFCCA7021A9C5"
+			tasks: [{
+				consume_items: false
+				id: "4D9075E015A929E2"
+				item: { count: 1, id: "primogemcraft:qwwszj" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwxntdmj"
+			}
+			id: "0184F9B0103A447D"
+			tasks: [{
+				consume_items: false
+				id: "354A39121ADA0340"
+				item: { count: 1, id: "primogemcraft:qwwxntdmj" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwxwcx"
+			}
+			id: "7BF95F74A94A2930"
+			tasks: [{
+				consume_items: false
+				id: "2B2B5A77D05529F1"
+				item: { count: 1, id: "primogemcraft:qwwxwcx" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwwzsw"
+			}
+			id: "3F0A59E6A69BED19"
+			tasks: [{
+				consume_items: false
+				id: "305CCAC217B4ACB7"
+				item: { count: 1, id: "primogemcraft:qwwzsw" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxbzsq"
+			}
+			id: "4E74BCB537020B59"
+			tasks: [{
+				consume_items: false
+				id: "1A9063A9AA47A99C"
+				item: { count: 1, id: "primogemcraft:qwxbzsq" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxgdbmt"
+			}
+			id: "5217CD13536E532F"
+			tasks: [{
+				consume_items: false
+				id: "4BA0C54531666D33"
+				item: { count: 1, id: "primogemcraft:qwxgdbmt" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxgjb"
+			}
+			id: "38D6956194D1E142"
+			tasks: [{
+				consume_items: false
+				id: "4311946FBAC8D4B7"
+				item: { count: 1, id: "primogemcraft:qwxgjb" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxxgg"
+			}
+			id: "2F6E33DD6DC9B396"
+			tasks: [{
+				consume_items: false
+				id: "4BE4BFC4EE0BEC20"
+				item: { count: 1, id: "primogemcraft:qwxxgg" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxydd"
+			}
+			id: "484C9E4D9DE8E5A9"
+			tasks: [{
+				consume_items: false
+				id: "218C723FDA7E6797"
+				item: { count: 1, id: "primogemcraft:qwxydd" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxydlt"
+			}
+			id: "7A97C6409B252DBF"
+			tasks: [{
+				consume_items: false
+				id: "2C259B99DF858809"
+				item: { count: 1, id: "primogemcraft:qwxydlt" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxydsw"
+			}
+			id: "5716D964A9508CCA"
+			tasks: [{
+				consume_items: false
+				id: "122C15D2EC72BC67"
+				item: { count: 1, id: "primogemcraft:qwxydsw" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwxyzq"
+			}
+			id: "72D3ACEA88099A94"
+			tasks: [{
+				consume_items: false
+				id: "10C8A7EDAEDD4E29"
+				item: { count: 1, id: "primogemcraft:qwxyzq" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwybtzdypj"
+			}
+			id: "7C42B7B2FDDE377D"
+			tasks: [{
+				consume_items: false
+				id: "5E4C951EF6A218F1"
+				item: { count: 1, id: "primogemcraft:qwybtzdypj" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwyhjb"
+			}
+			id: "0A2694E8C987E035"
+			tasks: [{
+				consume_items: false
+				id: "37F92FD69ECB3ED3"
+				item: { count: 1, id: "primogemcraft:qwyhjb" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwyhnj"
+			}
+			id: "3402FE1A57D4CB7E"
+			tasks: [{
+				consume_items: false
+				id: "2D5D39A366CA07BF"
+				item: { count: 1, id: "primogemcraft:qwyhnj" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwymwct"
+			}
+			id: "47F03D447759274C"
+			tasks: [{
+				consume_items: false
+				id: "21A0039892FD5880"
+				item: { count: 1, id: "primogemcraft:qwymwct" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwymzj"
+			}
+			id: "6A0DF868BA1420AA"
+			tasks: [{
+				consume_items: false
+				id: "073E701C016487FC"
+				item: { count: 1, id: "primogemcraft:qwymzj" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwypzgs"
+			}
+			id: "125E93F5DF50204E"
+			tasks: [{
+				consume_items: false
+				id: "6DC7894FD28CB49B"
+				item: { count: 1, id: "primogemcraft:qwypzgs" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwyznj"
+			}
+			id: "4BA7ACB412AE7137"
+			tasks: [{
+				consume_items: false
+				id: "29E25FC9DE5E1134"
+				item: { count: 1, id: "primogemcraft:qwyznj" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwyzzm"
+			}
+			id: "573C06E025035605"
+			tasks: [{
+				consume_items: false
+				id: "1AA8E79B4C9E257D"
+				item: { count: 1, id: "primogemcraft:qwyzzm" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwzcgl"
+			}
+			id: "1518FF45C008C6CA"
+			tasks: [{
+				consume_items: false
+				id: "03A91CA87730D3A9"
+				item: { count: 1, id: "primogemcraft:qwzcgl" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwzcgs"
+			}
+			id: "461E264E315B9BEF"
+			tasks: [{
+				consume_items: false
+				id: "6F6E395E26750165"
+				item: { count: 1, id: "primogemcraft:qwzcgs" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qwzjxxmx"
+			}
+			id: "10BD5A605CD0EB9A"
+			tasks: [{
+				consume_items: false
+				id: "4617489B62EE5548"
+				item: { count: 1, id: "primogemcraft:qwzjxxmx" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:shcbzx"
+			}
+			id: "5E8539D7382922D0"
+			tasks: [{
+				consume_items: false
+				id: "4B8ECC26C06B1FCA"
+				item: { count: 1, id: "primogemcraft:shcbzx" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:shenmilihe"
+			}
+			id: "127C9478467BC7D7"
+			tasks: [{
+				consume_items: false
+				id: "412909E5432EC353"
+				item: { count: 1, id: "primogemcraft:shenmilihe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:shqwfnj"
+			}
+			id: "470947A93383F17F"
+			tasks: [{
+				consume_items: false
+				id: "5684A26BF92C0E80"
+				item: { count: 1, id: "primogemcraft:shqwfnj" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:shqwyhdlt"
+			}
+			id: "25F5CCA03829F5EB"
+			tasks: [{
+				consume_items: false
+				id: "03F10F3636ADE735"
+				item: { count: 1, id: "primogemcraft:shqwyhdlt" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:shxjdlt"
+			}
+			id: "553C4B8EECF4EC65"
+			tasks: [{
+				consume_items: false
+				id: "5CA33FBE419C8843"
+				item: { count: 1, id: "primogemcraft:shxjdlt" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:skjinb"
+			}
+			id: "6ABDFC7826F62A19"
+			tasks: [{
+				consume_items: false
+				id: "3DFF4FA6C436B68F"
+				item: { count: 1, id: "primogemcraft:skjinb" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:ssanbamiantou"
+			}
+			id: "03E080C4EAF088A2"
+			tasks: [{
+				consume_items: false
+				id: "18C6485E2ABBE887"
+				item: { count: 1, id: "primogemcraft:ssanbamiantou" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:wanshinang"
+			}
+			id: "14F6FD56E1583D92"
+			tasks: [{
+				consume_items: false
+				id: "4ECCED236FDFCC61"
+				item: { count: 1, id: "primogemcraft:wanshinang" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:wawanxiangwuchangtou"
+			}
+			id: "4205995E614596A9"
+			tasks: [{
+				consume_items: false
+				id: "732C04DC60BA0DDB"
+				item: { count: 1, id: "primogemcraft:wawanxiangwuchangtou" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:wuxiandiguidedaima"
+			}
+			id: "4C74931C05AD5533"
+			tasks: [{
+				consume_items: false
+				id: "40C0F44AC1B348A7"
+				item: { count: 1, id: "primogemcraft:wuxiandiguidedaima" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xiangdanganlao"
+			}
+			id: "696D18E14A8A621B"
+			tasks: [{
+				consume_items: false
+				id: "0137513DA2A8EC80"
+				item: { count: 1, id: "primogemcraft:xiangdanganlao" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xingjidaletou"
+			}
+			id: "5CA0FF7576F5987C"
+			tasks: [{
+				consume_items: false
+				id: "38C8A0695DD46560"
+				item: { count: 1, id: "primogemcraft:xingjidaletou" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xyzp"
+			}
+			id: "19995A6934ADB731"
+			tasks: [{
+				consume_items: false
+				id: "01842B157C55C622"
+				item: { count: 1, id: "primogemcraft:xyzp" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:ydggz"
+			}
+			id: "724E2445D57677D9"
+			tasks: [{
+				consume_items: false
+				id: "5A1CBCA75FE0BE68"
+				item: { count: 1, id: "primogemcraft:ydggz" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:yiyimuguoshi"
+			}
+			id: "755F50ED6AC5F0C4"
+			tasks: [{
+				consume_items: false
+				id: "458F40E18FCEE77B"
+				item: { count: 1, id: "primogemcraft:yiyimuguoshi" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:yiyinhedaletou"
+			}
+			id: "7F72B9C6D99DD2F8"
+			tasks: [{
+				consume_items: false
+				id: "30369F9B0D1E46D2"
+				item: { count: 1, id: "primogemcraft:yiyinhedaletou" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:youdianqiqiaodedaima"
+			}
+			id: "659ED92C38FCDE94"
+			tasks: [{
+				consume_items: false
+				id: "5A77C3A19921BD99"
+				item: { count: 1, id: "primogemcraft:youdianqiqiaodedaima" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:ysrz_0"
+			}
+			id: "22CA21F5DFFE1C43"
+			tasks: [{
+				consume_items: false
+				id: "3A521D4AF215B9CD"
+				item: { count: 1, id: "primogemcraft:ysrz_0" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:zhongguizhongjudedaima"
+			}
+			id: "472EEDC45866E70E"
+			tasks: [{
+				consume_items: false
+				id: "117CB855E4EEBF1D"
+				item: { count: 1, id: "primogemcraft:zhongguizhongjudedaima" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.0d
+		}
+	]
+}

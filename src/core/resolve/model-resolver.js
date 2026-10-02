@@ -152,10 +152,39 @@ export function resolveModelTexture(assetResolver, graph) {
 }
 
 function directTexture(assetResolver, namespace, itemPath) {
-  const candidates = [
-    `textures/item/${itemPath}.png`,
-    `textures/block/${itemPath}.png`
-  ];
+  const stems = [itemPath];
+  for (const prefix of ["c_", "chicken_"]) {
+    if (itemPath.startsWith(prefix) && itemPath.length > prefix.length) {
+      stems.push(itemPath.slice(prefix.length));
+    }
+  }
+  for (const suffix of [
+    "_ingot",
+    "_dust",
+    "_nugget",
+    "_plate",
+    "_metal_block",
+    "_oxide",
+    "_block"
+  ]) {
+    if (itemPath.endsWith(suffix)) stems.push(itemPath.slice(0, -suffix.length));
+  }
+  const candidates = [];
+  for (const stem of [...new Set(stems)]) {
+    candidates.push(
+      `textures/item/${stem}.png`,
+      `textures/block/${stem}.png`,
+      `textures/gui/elements/${stem}_tooltip.png`,
+      `textures/gui/elements/${stem}.png`,
+      `textures/gui/sprites/elements/${stem}.png`,
+      `textures/gui/sprites/${stem}.png`,
+      `textures/gui/${stem}.png`,
+      `textures/entity/${stem}.png`,
+      `textures/entities/${stem}.png`,
+      `textures/entity/${stem}chicken.png`,
+      `textures/entities/${stem}chicken.png`
+    );
+  }
   for (const candidate of candidates) {
     const asset = assetResolver.resolveAsset(namespace, candidate);
     if (asset) return { path: candidate, asset };

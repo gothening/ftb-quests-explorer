@@ -16,7 +16,7 @@
 			id: "7358B856E688E8BC"
 			stat: "minecraft:walk_one_cm"
 			type: "stat"
-			value: 10000
+			value: 10000000
 		}]
 		x: 0.0d
 		y: 0.0d

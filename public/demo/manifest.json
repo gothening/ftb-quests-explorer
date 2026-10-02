@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:04:53.068Z",
+  "generatedAt": "2026-10-02T16:03:45.140Z",
   "dataVersion": 13,
   "ftbQuestsVersion": "2101.1.34",
   "minecraftVersion": "1.21.1",
@@ -8,17 +8,17 @@
   "locale": "zh_cn",
   "snbtFiles": 62,
   "chapters": 38,
-  "quests": 1722,
-  "tasks": 2126,
-  "rewards": 1352,
+  "quests": 1914,
+  "tasks": 2356,
+  "rewards": 1335,
   "questLinks": 14,
   "rewardTables": 20,
-  "translations": 927,
-  "assets": 2055,
+  "translations": 1002,
+  "assets": 2245,
   "itemResolution": {
-    "items": 2007,
-    "resolved": 1847,
-    "missing": 160,
+    "items": 2197,
+    "resolved": 2119,
+    "missing": 78,
     "invalid": 0
   },
   "validation": {

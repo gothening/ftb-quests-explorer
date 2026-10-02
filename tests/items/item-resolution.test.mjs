@@ -57,9 +57,9 @@ test("resolves component-backed FTB Quests custom icons without treating them as
   assert.equal(resolved.iconRef, "minecraft:block/iron_ore");
 });
 
-test("keeps a builtin-entity item missing instead of inventing an approximate icon", () => {
+test("keeps a runtime-rendered item missing instead of inventing an approximate icon", () => {
   const { resolver } = resolverForSource();
-  const resolved = resolver.resolve("chemlib:argon");
+  const resolved = resolver.resolve("chicken_roost:c_amethystshard");
   assert.equal(resolved.status, "missing");
   assert.equal(resolved.reason, "builtin model requires runtime rendering");
   assert.equal(resolved.texturePath, null);

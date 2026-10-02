@@ -39,9 +39,9 @@ test("read-only dev server exposes load and search APIs", async () => {
     const model = await loadResponse.json();
     assert.equal(model.readonly, true);
     assert.equal(model.chapters.length, 38);
-    assert.equal(model.quests.length, 1722);
-    assert.equal(model.tasks.length, 2126);
-    assert.equal(model.rewards.length, 1352);
+    assert.equal(model.quests.length, 1914);
+    assert.equal(model.tasks.length, 2356);
+    assert.equal(model.rewards.length, 1335);
 
     const instanceResponse = await fetch(`${baseUrl}/api/load`, {
       method: "POST",

@@ -27,7 +27,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -38,19 +38,8 @@
 				item: { count: 1, id: "minecraft:egg" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "616E93FB41D71405"
-			tasks: [{
-				id: "1E19A62D1EC2D8A4"
-				item: { count: 1, id: "minecraft:milk_bucket" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -92,20 +81,12 @@
 		{
 			entity_vis_size: 1.0f
 			id: "7C45F51C9E1EF8F3"
-			tasks: [
-				{
-					id: "71CDA3D09E11C8A5"
-					item: { count: 1, id: "gan_delight_reborn:cook_oil" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6AF558D5156491D4"
-					item: { count: 1, id: "rusticdelight:cooking_oil" }
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "71CDA3D09E11C8A5"
+				item: { count: 1, id: "gan_delight_reborn:cook_oil" }
+				optional_task: true
+				type: "item"
+			}]
 			x: -0.5d
 			y: 1.5d
 		}
@@ -251,7 +232,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -271,7 +252,7 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -291,7 +272,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -302,7 +283,7 @@
 				item: { count: 1, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -313,7 +294,7 @@
 				item: { count: 1, id: "moderndelight:sea_salt" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -324,7 +305,7 @@
 				item: { count: 1, id: "moderndelight:cheese" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -356,13 +337,12 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: [
 				"571B455129172C99"
-				"616E93FB41D71405"
 				"08B7D6748FADEC17"
 				"5DA2D7C2C7E14A6A"
 				"38C5107E3D85AFC5"
@@ -373,7 +353,6 @@
 				"3DC6B0F960296D18"
 				"559533C6B5446843"
 				"37EEA0EF781C3B28"
-				"7C840F43630B264B"
 				"6EF4AC62CD5485AD"
 			]
 			entity_vis_size: 1.0f
@@ -619,7 +598,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:sesame" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -630,7 +609,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:curry" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -641,7 +620,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:cocoapowder" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -654,17 +633,6 @@
 			}]
 			x: 2.5d
 			y: 4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "7C840F43630B264B"
-			tasks: [{
-				id: "5D535749DD9F0160"
-				item: { count: 1, id: "rusticdelight:batter" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -730,6 +698,36 @@
 				type: "item"
 			}]
 			x: 2.5d
+			y: 5.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "139A68B14496C3C0"
+			tasks: [{
+				id: "63B8764C0B4F8F22"
+				item: { count: 1, id: "gan_delight_reborn:salt_and_pepper" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "34374854B148775D"
+			rewards: [{
+				id: "0B2B9963A974EEF2"
+				item: {
+					count: 1
+					id: "trailblazer:token_of_abundance"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "450AB046E2F1B5CE"
+				item: { count: 1, id: "flavor_immersed_daily:cumin" }
+				type: "item"
+			}]
+			x: 3.5d
 			y: 5.5d
 		}
 	]
