@@ -54,7 +54,7 @@ test("synthetic fixture files pass semantic roundtrip", () => {
 });
 
 test("full real quest directory passes semantic roundtrip", () => {
-  assert.equal(assertFileRoundtrip(actualQuestRoot), 62);
+  assert.equal(assertFileRoundtrip(actualQuestRoot), 59);
 });
 
 test("QuestBook serializer preserves every loaded AST semantically", () => {
@@ -72,15 +72,15 @@ test("QuestBook serializer preserves every loaded AST semantically", () => {
 test("full real QuestBook can be loaded and serialized without count loss", () => {
   const book = loadActualBook();
   const output = serializeQuestBook(book);
-  assert.equal(output.size, 62);
+  assert.equal(output.size, 59);
   const reparsed = [...output.entries()].map(([relativePath, text]) => [
     relativePath,
     parseSnbt(text)
   ]);
-  assert.equal(reparsed.length, 62);
-  assert.equal(book.quests.length, 1914);
-  assert.equal(book.tasks.length, 2356);
-  assert.equal(book.rewards.length, 1335);
+  assert.equal(reparsed.length, 59);
+  assert.equal(book.quests.length, 3064);
+  assert.equal(book.tasks.length, 3529);
+  assert.equal(book.rewards.length, 1307);
 });
 
 test("synthetic unknown fields and item components survive model serialization", () => {

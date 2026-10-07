@@ -82,23 +82,12 @@
 		{
 			entity_vis_size: 1.0f
 			id: "477F78F062B3C7D2"
+			ignore_reward_blocking: true
 			rewards: [{
-				id: "4180E0EDD9A7FEC1"
+				id: "65FB6830DBB12A59"
 				item: {
-					components: {
-						"minecraft:block_entity_data": {
-							echo_id: "gothening:l0_enter_world"
-							id: "ftbechoes:core"
-							worker_id: [I;
-								970673775
-								46613981
-								-1713842410
-								657797865
-							]
-						}
-					}
 					count: 1
-					id: "ftbechoes:echo_projector"
+					id: "ftbquests:book"
 				}
 				type: "item"
 			}]
@@ -168,11 +157,6 @@
 			}]
 			tasks: [
 				{
-					id: "311B9EA44F742CBB"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/paxel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
 					id: "78A25439FDBCF71D"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:chest_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -195,12 +179,6 @@
 				{
 					id: "3CEA7BA04FCA6A0C"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:foot_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "404BFF22CCF4BABF"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aether:accessories_gloves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -318,11 +296,6 @@
 					type: "command"
 				}
 				{
-					description: ""
-					id: "41204BC5E6D407BE"
-					type: "toast"
-				}
-				{
 					id: "5D4EA2DAE62EAC87"
 					item: {
 						components: {
@@ -372,8 +345,9 @@
 					type: "item"
 				}
 				{
-					id: "20272EAE662EAAF8"
+					id: "2BE5B9F6F81C1075"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]

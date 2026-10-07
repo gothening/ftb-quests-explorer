@@ -1,65 +1,15 @@
 {
   "itemGroup.tab.Integration": "Avaritia: Integration",
-
-  "item.avaritia_integration.blaze_cube_bolt": "Blaze Cube Bolt",
-  "item.avaritia_integration.blaze_cube_dense_plate": "Blaze Cube Dense Plate",
-  "item.avaritia_integration.blaze_cube_double_plate": "Blaze Cube Double Plate",
-  "item.avaritia_integration.blaze_cube_dust": "Blaze Cube Dust",
   "item.avaritia_integration.blaze_cube_gear": "Blaze Cube Gear",
-  "item.avaritia_integration.blaze_cube_long_rod": "Blaze Cube Long Rod",
   "item.avaritia_integration.blaze_cube_nugget": "Blaze Cube Nugget",
-  "item.avaritia_integration.blaze_cube_plate": "Blaze Cube Plate",
-  "item.avaritia_integration.blaze_cube_ring": "Blaze Cube Ring",
-  "item.avaritia_integration.blaze_cube_rod": "Blaze Cube Rod",
-  "item.avaritia_integration.blaze_cube_screw": "Blaze Cube Screw",
-  "item.avaritia_integration.blaze_cube_spring": "Blaze Cube Spring",
-  "item.avaritia_integration.blaze_cube_wire": "Blaze Cube Wire",
-
-  "item.avaritia_integration.crystal_matrix_bolt": "Crystal Matrix Bolt",
-  "item.avaritia_integration.crystal_matrix_dense_plate": "Crystal Matrix Dense Plate",
-  "item.avaritia_integration.crystal_matrix_double_plate": "Crystal Matrix Double Plate",
-  "item.avaritia_integration.crystal_matrix_dust": "Crystal Matrix Dust",
   "item.avaritia_integration.crystal_matrix_gear": "Crystal Matrix Gear",
-  "item.avaritia_integration.crystal_matrix_long_rod": "Crystal Matrix Long Rod",
   "item.avaritia_integration.crystal_matrix_nugget": "Crystal Matrix Nugget",
-  "item.avaritia_integration.crystal_matrix_plate": "Crystal Matrix Plate",
-  "item.avaritia_integration.crystal_matrix_ring": "Crystal Matrix Ring",
-  "item.avaritia_integration.crystal_matrix_rod": "Crystal Matrix Rod",
-  "item.avaritia_integration.crystal_matrix_screw": "Crystal Matrix Screw",
-  "item.avaritia_integration.crystal_matrix_spring": "Crystal Matrix Spring",
-  "item.avaritia_integration.crystal_matrix_wire": "Crystal Matrix Wire",
-
-  "item.avaritia_integration.infinity_bolt": "Infinity Bolt",
-  "item.avaritia_integration.infinity_dense_plate": "Infinity Dense Plate",
-  "item.avaritia_integration.infinity_double_plate": "Infinity Double Plate",
-  "item.avaritia_integration.infinity_dust": "Infinity Dust",
   "item.avaritia_integration.infinity_gear": "Infinity Gear",
-  "item.avaritia_integration.infinity_long_rod": "Infinity Long Rod",
-  "item.avaritia_integration.infinity_plate": "Infinity Plate",
-  "item.avaritia_integration.infinity_ring": "Infinity Ring",
-  "item.avaritia_integration.infinity_rod": "Infinity Rod",
-  "item.avaritia_integration.infinity_screw": "Infinity Screw",
-  "item.avaritia_integration.infinity_spring": "Infinity Spring",
-  "item.avaritia_integration.infinity_wire": "Infinity Wire",
-
-  "item.avaritia_integration.neutron_bolt": "Neutron Bolt",
-  "item.avaritia_integration.neutron_dense_plate": "Neutron Dense Plate",
-  "item.avaritia_integration.neutron_double_plate": "Neutron Double Plate",
   "item.avaritia_integration.neutron_dust": "Neutron Dust",
-  "item.avaritia_integration.neutron_long_rod": "Neutron Long Rod",
-  "item.avaritia_integration.neutron_plate": "Neutron Plate",
-  "item.avaritia_integration.neutron_ring": "Neutron Ring",
-  "item.avaritia_integration.neutron_rod": "Neutron Rod",
-  "item.avaritia_integration.neutron_screw": "Neutron Screw",
-  "item.avaritia_integration.neutron_spring": "Neutron Spring",
-  "item.avaritia_integration.neutron_wire": "Neutron Wire",
-
   "item.avaritia_integration.blood_orb_of_armok": "Blood Orb of Armok",
-
   "item.avaritia_integration.infinity_capacitor": "Infinity Capacitor",
   "item.avaritia_integration.infinity_grinding_ball": "Infinity Grinding Ball",
   "item.avaritia_integration.neutron_grinding_ball": "Neutron Grinding Ball",
-
   "item.avaritia_integration.infinity_energy_tablet": "Infinity Energy Tablet",
   "item.avaritia_integration.neutron_energy_tablet": "Neutron Energy Tablet",
   "item.avaritia_integration.infinity_control_circuit": "Infinity Control Circuit",
@@ -70,7 +20,6 @@
   "item.avaritia_integration.enriched_neutron": "Enriched Neutron",
   "item.avaritia_integration.infinity_solar_panel": "Infinity Solar Panel",
   "item.avaritia_integration.neutron_solar_panel": "Neutron Solar Panel",
-
   "block.avaritia_integration.asgard_dandelion": "§cAsgard Dandelion",
   "block.avaritia_integration.potted_asgard_dandelion": "§cPotted Asgard Dandelion",
   "block.avaritia_integration.soarleander": "§cSoarleander",
@@ -82,7 +31,6 @@
   "item.avaritia_integration.alpha_spark": "Alpha Spark",
   "entity.avaritia_integration.alpha_spark": "Alpha Spark",
   "tooltip.avaritia_integration.infinity_pool": "Infinity Mana Pool, has infinite capacity",
-
   "block.avaritia_integration.neutron_collector": "Neutron Collector",
   "block.avaritia_integration.basic_neutron_collecting_factory": "Basic Neutron Collecting Factory",
   "block.avaritia_integration.advanced_neutron_collecting_factory": "Advanced Neutron Collecting Factory",
@@ -107,7 +55,6 @@
   "block.avaritia_integration.neutron_solar_generator": "Neutron SolarGenerator",
   "block.avaritia_integration.infinity_advanced_solar_generator": "Infinity Advanced Solar Generator",
   "block.avaritia_integration.neutron_advanced_solar_generator": "Neutron Advanced SolarGenerator",
-
   "item.avaritia_integration.stredgeuniverse": "§cThe §6Strongest §eBlade §2in §bthe §3Universe §1[End of All Things · Boundless Starry Sky]",
   "item.avaritia_integration.stredgeuniverse.tooltip1": "§5§o“Liberated here, the mightiest power in the universe“",
   "item.avaritia_integration.stredgeuniverse.tooltip2": "§5§o“This is the end for Blade Swords“",
@@ -116,24 +63,17 @@
   "item.avaritia_integration.stredgeuniverse.tooltip5": "§5§o“You will never imagine what you will become beneath this blade.“",
   "slash_art.avaritia_integration.meteorite_sword": "§cExtreme · §6Meteorite Sword",
   "enchantment.level.100": "§cMax",
-
   "item.avaritia_integration.creative_mechanism": "Creative Mechanism",
   "item.avaritia_integration.creative_compound": "Creative Compound",
-
   "item.avaritia_integration.infinity_me_storage_component": "Infinity ME Storage Component",
   "item.avaritia_integration.infinity_me_storage_cell": "Infinity ME Storage Cell",
   "item.avaritia_integration.infinity_me_storage_cell_big": "Ultimate Infinity Storage Cell",
-
   "item.avaritia_integration.creative_augment_base": "Creative Augment Base",
   "item.avaritia_integration.creative_integral_components": "Creative Integral Components",
-
   "item.avaritia_integration.creative_compressed_iron": "Creative Compressed Iron",
-
   "item.avaritia_integration.infinity_storage_part": "Infinity Storage Part",
-
   "item.avaritia_integration.heaven_arrow": "AoE Arrow",
   "item.avaritia_integration.trace_arrow": "Trace Arrow",
-
   "tooltip.avaritia_integration.cooldown_amount": "Cooldown Amount",
   "tooltip.avaritia_integration.cooldown_time": "Cooldown Time",
   "addon.avaritia_integration.neutron": "§eNeutron",
@@ -150,7 +90,6 @@
   "item.avaritia_integration.energy_addon_crystal_matrix": "Addon: Energy Tier §bCrystal Matrix",
   "item.avaritia_integration.energy_addon_neutron": "Addon: Energy Tier §eNeutron",
   "item.avaritia_integration.energy_addon_infinity": "Addon: Energy Tier §dInfinity",
-
   "block.avaritia_integration.molten_blaze_fluid": "Molten Blaze",
   "fluid.avaritia_integration.molten_blaze": "Molten Blaze",
   "fluid.avaritia_integration.flowing_molten_blaze": "Flowing Molten Blaze",
@@ -176,68 +115,52 @@
   "fluid.avaritia_integration.flowing_molten_star": "Flowing Star Fuel",
   "item.avaritia_integration.molten_star_bucket": "Star Fuel Bucket",
   "fluid.avaritia_integration.molten_star.fluid_effect": "Unstable Star Fuel is prone to exploding and generating flames",
-
   "chemical.avaritia_integration.infinity": "Infinity",
   "chemical.avaritia_integration.neutron": "Neutron",
-
   "material.avaritia_integration.infinity": "Infinity",
   "material.avaritia_integration.infinity.flavor": "The fury of the universe in the palm of your hand",
   "material.avaritia_integration.infinity.encyclopedia": "Melee weapons can one-hit kill targets; Mining tools can break Bedrock and End Portals; Grants Fortune X and Looting X",
   "material.avaritia_integration.infinity.ranged": "+6.5 Projectile Power; Fires AoE arrow of Longbow of the Heavens when out of arrows (swaps to trace arrow while sneaking)",
   "material.avaritia_integration.infinity.armor": "Gains the following effects based on the number of armor pieces with this trait equipped: 1—Immunity to negative effects; 2—Infinite Night Vision, Oxygen, and Hunger; 3—Flight; 4—Invincibility; 5—Speed Boost",
-
   "material.avaritia_integration.blaze_cube": "Blaze Cube",
   "material.avaritia_integration.blaze_cube.flavor": "Blaze Storm",
   "material.avaritia_integration.blaze_cube.encyclopedia": "Extends target's burning duration by 15 seconds per level; Automatically smelts dropped items; Drops Wither Skeleton Skulls when killing any Skeleton type",
-
   "material.avaritia_integration.crystal_matrix": "Crystal Matrix",
   "material.avaritia_integration.crystal_matrix.flavor": "This isn't even its final form",
   "material.avaritia_integration.crystal_matrix.encyclopedia": "At full durability: 18% chance to negate durability loss, +60% Mining Speed and Projectile Velocity per level; Mining tools can break Bedrock and End Portals",
-
   "material.avaritia_integration.neutronium": "Neutronium",
   "material.avaritia_integration.neutronium.flavor": "The dense heart of a star in convenient ingot form",
   "material.avaritia_integration.neutronium.encyclopedia": "+5% Gravity; Chance to generate Neutronium Dust on melee hits, block mining, or projectile impacts—probability equals the percentage of Gravity attribute increased",
-
   "modifier.avaritia_integration.infinitum": "Infinitum",
   "modifier.avaritia_integration.infinitum.flavor": "Stars and tombstones—symbols of eternity",
   "modifier.avaritia_integration.infinitum.description": "Ignores most durability loss and regenerates durability quickly; Immune to external damage such as fire; Gains an ability slot",
-
   "modifier.avaritia_integration.rule_over": "Rule Over",
   "modifier.avaritia_integration.rule_over.flavor": "Dominate all creation!",
   "modifier.avaritia_integration.rule_over.description": "Melee weapons can one-hit kill targets; Mining tools can break Bedrock and End Portals; Grants Fortune X and Looting X",
-
   "modifier.avaritia_integration.vault_split": "Vault Split",
   "modifier.avaritia_integration.vault_split.flavor": "Rend the heavens!",
   "modifier.avaritia_integration.vault_split.description": "Increases Projectile Power; Fires AoE arrow of Longbow of the Heavens when out of arrows (swaps to trace arrows while sneaking)",
-
   "modifier.avaritia_integration.eternity": "Eternity",
   "modifier.avaritia_integration.eternity.flavor": "Immortal and unyielding!",
   "modifier.avaritia_integration.eternity.description": "Gains partial effects of the Infinity Armor based on the number of armor pieces with this trait equipped; Unlocks Invincibility with 4 pieces",
-
   "modifier.avaritia_integration.blaze_crown": "Blaze Crown",
   "modifier.avaritia_integration.blaze_crown.flavor": "Beheads skeletons and scorches them black",
   "modifier.avaritia_integration.blaze_crown.description": "Greatly extends target's burning duration; Automatically smelts dropped items; Drops Wither Skeleton Skulls when killing any Skeleton type",
-
   "modifier.avaritia_integration.crystalshine": "Crystalshine",
   "modifier.avaritia_integration.crystalshine.flavor": "The shine of crystal lies in its purity",
   "modifier.avaritia_integration.crystalshine.description": "At full durability: Increases Mining Speed and Projectile Velocity; Reduces chance of durability loss; Mining tools can break Bedrock and End Portals",
-
   "modifier.avaritia_integration.condensing": "Condensing",
   "modifier.avaritia_integration.condensing.flavor": "As dust settles",
   "modifier.avaritia_integration.condensing.description": "Slightly increases gravity; Chance to generate Neutronium Dust on melee hits, block mining, or projectile impacts; Probability equals the percentage of gravity attribute increased",
-
   "modifier.avaritia_integration.crystaluix": "Crystaluix",
   "modifier.avaritia_integration.crystaluix.flavor": "If it absorbs, so do I",
   "modifier.avaritia_integration.crystaluix.description": "Absorbs energy from nearby End Crystals to restore health",
-
   "modifier.avaritia_integration.star_dash": "Star Dash",
   "modifier.avaritia_integration.star_dash.flavor": "Shining Star!",
   "modifier.avaritia_integration.star_dash.description": "Increases damage on attack and has a chance to explode or fire projectiles; the higher the temperature, the higher the damage and explosion chance, and the lower the chance to fire additional projectiles",
-
   "modifier.avaritia_integration.superheat": "Superheat",
   "modifier.avaritia_integration.superheat.flavor": "Superheated Scorch",
   "modifier.avaritia_integration.superheat.description": "Increases damage dealt to burning targets",
-
   "container.avaritia_integration.neutron_collector": "Neutron Collector",
   "container.avaritia_integration.basic_neutron_collecting_factory": "Basic Neutron Collecting Factory",
   "container.avaritia_integration.advanced_neutron_collecting_factory": "Advanced Neutron Collecting Factory",
@@ -262,7 +185,6 @@
   "container.avaritia_integration.neutron_solar_generator": "Neutron SolarGenerator",
   "container.avaritia_integration.infinity_advanced_solar_generator": "Infinity Advanced Solar Generator",
   "container.avaritia_integration.neutron_advanced_solar_generator": "Neutron Advanced SolarGenerator",
-
   "screen.avaritia_integration.module.title": "Avaritia: Integration Modules",
   "screen.avaritia_integration.module.warning": "All changes make here need to restart game to take effect",
   "screen.avaritia_integration.module.back": "Back",

@@ -36,55 +36,6 @@
 			dependencies: ["7D617D177844F994"]
 			entity_vis_size: 1.0f
 			id: "08B0497D8B90E972"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "25270C748AF9BD6E"
-					table_id: 9081288768631775962L
-					type: "loot"
-				}
-				{
-					id: "58AE1CC8689F7661"
-					item: {
-						count: 1
-						id: "create_connected:fan_blasting_catalyst"
-					}
-					type: "item"
-				}
-				{
-					id: "59F3253283D776B2"
-					item: {
-						count: 1
-						id: "create_connected:fan_smoking_catalyst"
-					}
-					type: "item"
-				}
-				{
-					id: "4FBFCFA07C0F6F0E"
-					item: {
-						count: 1
-						id: "create_connected:fan_splashing_catalyst"
-					}
-					type: "item"
-				}
-				{
-					id: "6754BDBEDDB9C4EB"
-					item: {
-						count: 1
-						id: "create_connected:fan_haunting_catalyst"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6FC688D1E087EEDD"
-					item: {
-						count: 1
-						id: "create_connected:empty_fan_catalyst"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "1C2DD120F71148A6"
 				item: { count: 1, id: "create:encased_fan" }
@@ -272,7 +223,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["76DFEE9A3146BC39"]
@@ -285,7 +236,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["08B0497D8B90E972"]
@@ -664,18 +615,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["6AB3248AC547EBD8"]
-			entity_vis_size: 1.0f
-			id: "69E77E6FB4D13E3C"
-			tasks: [{
-				id: "36621DCD5C3B9423"
-				item: { count: 1, id: "minecraft:ender_pearl" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -5.0d
-		}
-		{
 			dependencies: ["7122EED1D85EA3E5"]
 			entity_vis_size: 1.0f
 			id: "4D089747F127090B"
@@ -700,7 +639,10 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["6CE5C2AF2AB23186"]
+			dependencies: [
+				"6CE5C2AF2AB23186"
+				"7D617D177844F994"
+			]
 			entity_vis_size: 1.0f
 			id: "5E497CE3E16C9474"
 			tasks: [{

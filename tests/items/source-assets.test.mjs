@@ -12,15 +12,15 @@ const assetManifestPath = path.join(sourceRoot, "assets", "manifest.json");
 
 test("source manifest records the real quest statistics without a local absolute path", () => {
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-  assert.equal(manifest.sourceInstance, "[开拓者日志]As we trailblaze");
-  assert.equal(manifest.statistics.snbtFiles, 62);
-  assert.equal(manifest.statistics.chapters, 38);
-  assert.equal(manifest.statistics.quests, 1914);
-  assert.equal(manifest.statistics.tasks, 2356);
-  assert.equal(manifest.statistics.rewards, 1335);
+  assert.equal(manifest.sourceInstance, "[开拓者日志]As we trailblaze0.0.3");
+  assert.equal(manifest.statistics.snbtFiles, 59);
+  assert.equal(manifest.statistics.chapters, 35);
+  assert.equal(manifest.statistics.quests, 3048);
+  assert.equal(manifest.statistics.tasks, 3515);
+  assert.equal(manifest.statistics.rewards, 1306);
   assert.equal(manifest.statistics.questLinks, 14);
   assert.equal(manifest.statistics.rewardTables, 20);
-  assert.equal(manifest.statistics.translations, 1002);
+  assert.equal(manifest.statistics.translations, 1100);
   assert.equal(JSON.stringify(manifest).includes("D:\\\\"), false);
   assert.equal(manifest.files.some((file) => file.path === "quests/data.snbt"), true);
 });
@@ -28,7 +28,7 @@ test("source manifest records the real quest statistics without a local absolute
 test("source asset manifest records resolved and missing item provenance", () => {
   const manifest = JSON.parse(fs.readFileSync(assetManifestPath, "utf8"));
   assert.equal(Array.isArray(manifest.items), true);
-  assert.equal(manifest.items.length >= 1900, true);
+  assert.equal(manifest.items.length >= 3000, true);
 
   const iron = manifest.items.find((item) => item.itemId === "minecraft:iron_ingot");
   assert.equal(iron.status, "resolved");

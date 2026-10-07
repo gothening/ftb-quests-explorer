@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kaleidoscope_twilight:item/hot_tear_sword"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "oneiricconcept:custom/spirtbranch_of_ture_law",
+  "textures": {
+    "1": "oneiricconcept:block/spirtbranch_of_ture_law",
+    "particle": "oneiricconcept:item/spirtbranch_of_ture_law"
+  }
+}

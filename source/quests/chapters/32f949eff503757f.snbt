@@ -796,7 +796,6 @@
 				"0CFB67C16E9021CA"
 				"27C729A19B4AACB8"
 				"201637458329640E"
-				"6C715B929B46AF92"
 			]
 			entity_vis_size: 1.0f
 			id: "040F9CD3EB6C5228"
@@ -912,8 +911,11 @@
 				{
 					id: "720096912B0F2A35"
 					item: {
+						components: {
+							"ftbquests:missing_item": "mekanismtools:diamond_paxel"
+						}
 						count: 1
-						id: "mekanismtools:diamond_paxel"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1165,17 +1167,6 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "6C715B929B46AF92"
-			tasks: [{
-				id: "4CE2ABB6209F9973"
-				item: { count: 1, id: "crabbersdelight:raw_squid_tentacles" }
-				type: "item"
-			}]
-			x: -3.0d
 			y: 4.5d
 		}
 	]

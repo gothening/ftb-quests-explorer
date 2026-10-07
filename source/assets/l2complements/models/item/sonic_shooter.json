@@ -1,0 +1,32 @@
+{
+  "parent": "l2complements:item/gun",
+  "overrides": [
+    {
+      "model": "l2complements:item/sonic_shooter_0",
+      "predicate": {
+        "l2complements:shoot": 0.2
+      }
+    },
+    {
+      "model": "l2complements:item/sonic_shooter_1",
+      "predicate": {
+        "l2complements:shoot": 0.4
+      }
+    },
+    {
+      "model": "l2complements:item/sonic_shooter_2",
+      "predicate": {
+        "l2complements:shoot": 0.6
+      }
+    },
+    {
+      "model": "l2complements:item/sonic_shooter_3",
+      "predicate": {
+        "l2complements:shoot": 0.8
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "l2complements:item/sonic_shooter"
+  }
+}

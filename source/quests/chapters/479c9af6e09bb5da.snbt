@@ -12,6 +12,14 @@
 	quests: [{
 		entity_vis_size: 1.0f
 		id: "3DE72B757C86305A"
+		rewards: [{
+			id: "448CEAE80C4E4858"
+			item: {
+				count: 1
+				id: "projecte:arcana_ring"
+			}
+			type: "item"
+		}]
 		tasks: [{
 			id: "7358B856E688E8BC"
 			stat: "minecraft:walk_one_cm"

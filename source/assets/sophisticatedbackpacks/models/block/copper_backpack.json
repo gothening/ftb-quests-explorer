@@ -1,0 +1,6 @@
+{
+  "parent": "sophisticatedbackpacks:block/backpack",
+  "textures": {
+    "clips": "sophisticatedbackpacks:block/copper_clips"
+  }
+}

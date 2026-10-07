@@ -1,0 +1,96 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "oneiricconcept:item/molagong_0"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -80,
+        260,
+        -40
+      ],
+      "translation": [
+        -1,
+        -2,
+        2.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -80,
+        -280,
+        40
+      ],
+      "translation": [
+        -1,
+        -2,
+        2.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "oneiricconcept:mora_bow_pull": 2
+      },
+      "model": "oneiricconcept:item/mora_bow_0"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:mora_bow_pull": 14
+      },
+      "model": "oneiricconcept:item/mora_bow_1"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:mora_bow_pull": 21
+      },
+      "model": "oneiricconcept:item/mora_bow_2"
+    }
+  ]
+}

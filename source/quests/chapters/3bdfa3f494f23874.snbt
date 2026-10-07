@@ -16,10 +16,10 @@
 			id: "079E04420F7DF2ED"
 			tasks: [{
 				id: "78AE60863097D732"
-				stage: "1"
+				stage: "gothening_l0_stage_2"
 				type: "gamestage"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -47,52 +47,8 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["471BD317E53B9858"]
-			entity_vis_size: 1.0f
-			id: "74F616408A19CFA1"
-			rewards: [{
-				id: "28D46086C324D7CD"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "2D80C70F324E767E"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:scrap_diamond_large)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0570DAFB6E8FD2BA"
-					item: { count: 1, id: "mekanismtools:osmium_helmet" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6C27E233E08EF4AC"
-					item: { count: 1, id: "mekanismtools:osmium_chestplate" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "549A1878DC6C67F3"
-					item: { count: 1, id: "mekanismtools:osmium_leggings" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "026F5CF8306A6E19"
-					item: { count: 1, id: "mekanismtools:osmium_boots" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -1.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["323ABABE7DE8E315"]
@@ -131,8 +87,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["323ABABE7DE8E315"]
@@ -160,12 +116,15 @@
 				item: { count: 1, id: "minecraft:bookshelf" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4618332F651AB229"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:anvil"
+			}
 			id: "14FE441C50E8C23E"
 			rewards: [{
 				id: "36B0735242D1F9F0"
@@ -197,11 +156,14 @@
 				}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14FE441C50E8C23E"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:smithing_table"
+			}
 			id: "426FB73723755A72"
 			optional: true
 			rewards: [{
@@ -223,7 +185,7 @@
 				}
 			]
 			x: 3.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["59D23433DD10933F"]
@@ -291,8 +253,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 4.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["079E04420F7DF2ED"]
@@ -309,7 +271,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(artifacts:artifacts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -337,12 +299,12 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"74F616408A19CFA1"
 				"0570A8D0AB556324"
+				"471BD317E53B9858"
 			]
 			entity_vis_size: 1.0f
 			id: "518B94DE8CBC6FD1"
@@ -383,8 +345,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -2.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -420,8 +382,8 @@
 				id: "3382C5FE99768ADC"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["14FE441C50E8C23E"]
@@ -438,7 +400,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["079E04420F7DF2ED"]
@@ -461,13 +423,20 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "48D3E29098F8841C"
-				item: { count: 1, id: "minecraft:diamond" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "48D3E29098F8841C"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "059E2737019F4596"
+					item: { count: 1, id: "minecraft:diamond_chestplate" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -513,7 +482,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -531,7 +500,7 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -568,7 +537,7 @@
 				item: { components: { "minecraft:potion_contents": { potion: "minecraft:water" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -586,29 +555,8 @@
 				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 2.0d
-		}
-		{
-			dependencies: [
-				"2F5ED1BEC685BA99"
-				"3A12AA3BE3746C63"
-			]
-			entity_vis_size: 1.0f
-			id: "7F6CF8588FC6C718"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7670CE2DAB60AED9"
-				table_id: 3504009241940765542L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "17172B4C145301AB"
-				item: { components: { "ftbquests:missing_item": "rusticdelight:coffee" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["4FD3A7C398580722"]
@@ -625,7 +573,7 @@
 				structure: "#minecraft:fortress"
 				type: "structure"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -643,7 +591,7 @@
 				item: { count: 1, id: "minecraft:beacon" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -678,7 +626,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -696,7 +644,7 @@
 				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -722,7 +670,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -734,8 +682,28 @@
 				item: { count: 1, id: "beyonddimensions:unstable_space_time_fragment" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3A12AA3BE3746C63"
+				"2F5ED1BEC685BA99"
+			]
+			entity_vis_size: 1.0f
+			id: "013D01573A814BB0"
+			rewards: [{
+				id: "2130AA9BD03F1F90"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FBE8415F27E6C5C"
+				item: { count: 1, id: "flavor_immersed_daily:cafe_americano" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
 		}
 	]
 }

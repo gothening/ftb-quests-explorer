@@ -38,10 +38,10 @@ test("read-only dev server exposes load and search APIs", async () => {
     assert.equal(loadResponse.status, 200);
     const model = await loadResponse.json();
     assert.equal(model.readonly, true);
-    assert.equal(model.chapters.length, 38);
-    assert.equal(model.quests.length, 1914);
-    assert.equal(model.tasks.length, 2356);
-    assert.equal(model.rewards.length, 1335);
+    assert.equal(model.chapters.length, 35);
+    assert.equal(model.quests.length, 3064);
+    assert.equal(model.tasks.length, 3529);
+    assert.equal(model.rewards.length, 1307);
 
     const instanceResponse = await fetch(`${baseUrl}/api/load`, {
       method: "POST",
@@ -49,7 +49,7 @@ test("read-only dev server exposes load and search APIs", async () => {
       body: JSON.stringify({ path: path.resolve(projectRoot, ".."), locale: "zh_cn" })
     });
     assert.equal(instanceResponse.status, 200);
-    assert.equal((await instanceResponse.json()).chapters.length, 38);
+    assert.equal((await instanceResponse.json()).chapters.length, 35);
 
     const searchResponse = await fetch(`${baseUrl}/api/search`, {
       method: "POST",

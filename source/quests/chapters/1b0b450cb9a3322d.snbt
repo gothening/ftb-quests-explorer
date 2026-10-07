@@ -15,8 +15,8 @@
 			hide_until_deps_complete: true
 			id: "6AD1C9188DA92969"
 			tasks: [{
-				id: "30BB23766F64222B"
-				stage: "1"
+				id: "048190C0795E7B81"
+				stage: "gothening_l0_stage_2"
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -596,10 +596,9 @@
 			entity_vis_size: 1.0f
 			id: "04A9BEA98B998F92"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "28DADA56734DA58E"
-				table_id: 4058379649542455179L
-				type: "loot"
+				id: "4DF44A72F8BC8C5C"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "59377F8F2FE3F98E"

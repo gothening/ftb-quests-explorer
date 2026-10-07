@@ -130,5 +130,13 @@
 			}
 			weight: 0.5f
 		}
+		{
+			count: 2
+			id: "0B86656315EDCE36"
+			item: {
+				count: 1
+				id: "projecte:alchemical_chest"
+			}
+		}
 	]
 }

@@ -15,19 +15,17 @@
 			entity_vis_size: 1.0f
 			id: "6171781D667BCACE"
 			rewards: [{
-				id: "2CDC0EC7D7B0AA5B"
+				id: "295DB3EFAF4318B4"
 				item: {
 					components: {
-						"minecraft:enchantments": {
+						"minecraft:stored_enchantments": {
 							levels: {
 								"jlme:supreme_sharpness": 5
-								"tombstone:ruthless_strike": 3
 							}
 						}
-						"minecraft:repair_cost": 3
 					}
 					count: 1
-					id: "minecraft:iron_sword"
+					id: "minecraft:enchanted_book"
 				}
 				type: "item"
 			}]
@@ -83,37 +81,6 @@
 			}]
 			x: -4.5d
 			y: -3.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "mekanismtools:steel_shield"
-			}
-			id: "52606458F1225270"
-			rewards: [{
-				id: "5136AB617F855C03"
-				item: {
-					count: 1
-					id: "mekanismtools:steel_shield"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "428C2A6DCD0801B2"
-					stat: "minecraft:damage_blocked_by_shield"
-					type: "stat"
-					value: 100
-				}
-				{
-					consume_items: true
-					id: "65891D8727429652"
-					item: { count: 1, id: "minecraft:shield" }
-					type: "item"
-				}
-			]
-			x: -4.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["7B8111FDC343CC4F"]
@@ -971,26 +938,16 @@
 			dependencies: ["6171781D667BCACE"]
 			entity_vis_size: 1.0f
 			id: "4980D0F0E9AA07DA"
-			rewards: [
-				{
-					count: 8
-					id: "71B30858C365259C"
-					item: {
-						count: 1
-						id: "minecraft:echo_shard"
-					}
-					random_bonus: 8
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "71B30858C365259C"
+				item: {
+					count: 1
+					id: "minecraft:echo_shard"
 				}
-				{
-					id: "22233DAF5CF53214"
-					item: {
-						count: 1
-						id: "alexsmobs:ghostly_pickaxe"
-					}
-					type: "item"
-				}
-			]
+				random_bonus: 8
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:warden"
@@ -1008,7 +965,7 @@
 				value: 1L
 			}]
 			x: 10.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6171781D667BCACE"]

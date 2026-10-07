@@ -12,25 +12,9700 @@
 	quests: [
 		{
 			entity_vis_size: 1.0f
-			id: "0A8A7D3B30478F1F"
+			icon: {
+				id: "ad_astra:zip_gun"
+			}
+			id: "0CF233E734392B56"
 			tasks: [{
-				id: "61B216E0380B3C47"
-				item: { count: 1, id: "minecraft:wooden_sword" }
+				consume_items: false
+				id: "4531248B14E8D982"
+				item: { count: 1, id: "ad_astra:zip_gun" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 28.0d
 			y: 0.0d
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "6DB8C62B0E9A3ADB"
+			icon: {
+				id: "ae2:certus_quartz_axe"
+			}
+			id: "6170706034B76116"
 			tasks: [{
-				id: "5478DDBBEA988F3D"
+				consume_items: false
+				id: "4D0870BE1CE6B9A3"
+				item: { count: 1, id: "ae2:certus_quartz_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:certus_quartz_sword"
+			}
+			id: "57C6C40C3519574E"
+			tasks: [{
+				consume_items: false
+				id: "0CAA26E4413CFC15"
+				item: { count: 1, id: "ae2:certus_quartz_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:fluix_axe"
+			}
+			id: "77B12859D1BE4544"
+			tasks: [{
+				consume_items: false
+				id: "1362EA6EB514942F"
+				item: { count: 1, id: "ae2:fluix_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:fluix_sword"
+			}
+			id: "32ABD947B1A52ED3"
+			tasks: [{
+				consume_items: false
+				id: "173D7FE580484FF2"
+				item: { count: 1, id: "ae2:fluix_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:matter_cannon"
+			}
+			id: "2E12464409DE70B4"
+			tasks: [{
+				consume_items: false
+				id: "356D0A378FAC1125"
+				item: { count: 1, id: "ae2:matter_cannon" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:nether_quartz_axe"
+			}
+			id: "0DAB706B4B95AA06"
+			tasks: [{
+				consume_items: false
+				id: "485294A20DEEC54B"
+				item: { count: 1, id: "ae2:nether_quartz_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2:nether_quartz_sword"
+			}
+			id: "4B9638D6EA5A6D36"
+			tasks: [{
+				consume_items: false
+				id: "095FAD19461D18ED"
+				item: { count: 1, id: "ae2:nether_quartz_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ae2lt:electromagnetic_railgun"
+			}
+			id: "7CD3C8F70D54D7D6"
+			tasks: [{
+				consume_items: false
+				id: "532DC72BE0AABAFB"
+				item: { count: 1, id: "ae2lt:electromagnetic_railgun" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:ancient_dart"
+			}
+			id: "7E5C7C043B368218"
+			tasks: [{
+				consume_items: false
+				id: "4B593A2C6F8DEF81"
+				item: { count: 1, id: "alexsmobs:ancient_dart" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:dropbear_claw"
+			}
+			id: "4E8489DE980B4FB7"
+			tasks: [{
+				consume_items: false
+				id: "5EE41857F787EA30"
+				item: { count: 1, id: "alexsmobs:dropbear_claw" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:hemolymph_blaster"
+			}
+			id: "0E8D3325488407F0"
+			tasks: [{
+				consume_items: false
+				id: "55DA08620556E2CB"
+				item: { count: 1, id: "alexsmobs:hemolymph_blaster" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:skelewag_sword"
+			}
+			id: "1DAF96996F4289AA"
+			tasks: [{
+				consume_items: false
+				id: "721FD715DFDFD27B"
+				item: { count: 1, id: "alexsmobs:skelewag_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:stink_ray"
+			}
+			id: "36C345E761A54FFF"
+			tasks: [{
+				consume_items: false
+				id: "4DF93B886BD18CBC"
+				item: { count: 1, id: "alexsmobs:stink_ray" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:tendon_whip"
+			}
+			id: "17CC08702ED79316"
+			tasks: [{
+				consume_items: false
+				id: "227502C73D5CF404"
+				item: { count: 1, id: "alexsmobs:tendon_whip" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:alloy_axe"
+			}
+			id: "09B0C651669BC7E1"
+			tasks: [{
+				consume_items: false
+				id: "780664B91ED631B8"
+				item: { count: 1, id: "allthemodium:alloy_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:alloy_sword"
+			}
+			id: "316D151094D8F832"
+			tasks: [{
+				consume_items: false
+				id: "0371FA9541C9A790"
+				item: { count: 1, id: "allthemodium:alloy_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:alloy_trident"
+			}
+			id: "2C400B3F50FCB30D"
+			tasks: [{
+				consume_items: false
+				id: "4C26BD2555B52C22"
+				item: { count: 1, id: "allthemodium:alloy_trident" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_axe"
+			}
+			id: "471C045D71B00290"
+			tasks: [{
+				consume_items: false
+				id: "09DAC082E30C1BC4"
+				item: { count: 1, id: "allthemodium:allthemodium_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_mace"
+			}
+			id: "3217DB92DA9CF4B1"
+			tasks: [{
+				consume_items: false
+				id: "3119C154B3863E2E"
+				item: { count: 1, id: "allthemodium:allthemodium_mace" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_sword"
+			}
+			id: "0E3FA93672CCA0F6"
+			tasks: [{
+				consume_items: false
+				id: "712F44E485409AAA"
+				item: { count: 1, id: "allthemodium:allthemodium_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_axe"
+			}
+			id: "468174A75F6DA1C1"
+			tasks: [{
+				consume_items: false
+				id: "1A092DD2769C0D38"
+				item: { count: 1, id: "allthemodium:unobtainium_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_mace"
+			}
+			id: "37F9CE013C13D420"
+			tasks: [{
+				consume_items: false
+				id: "6EA53E2E4CF0FE09"
+				item: { count: 1, id: "allthemodium:unobtainium_mace" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_sword"
+			}
+			id: "56678B0D469912C5"
+			tasks: [{
+				consume_items: false
+				id: "6CC7B849FF34F17E"
+				item: { count: 1, id: "allthemodium:unobtainium_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_axe"
+			}
+			id: "73E864890A7F491C"
+			tasks: [{
+				consume_items: false
+				id: "4D4642A77BEFC469"
+				item: { count: 1, id: "allthemodium:vibranium_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_mace"
+			}
+			id: "16D55AF64C97546F"
+			tasks: [{
+				consume_items: false
+				id: "3DAA6962177E8A0D"
+				item: { count: 1, id: "allthemodium:vibranium_mace" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_sword"
+			}
+			id: "11027C313C6AF5E3"
+			tasks: [{
+				consume_items: false
+				id: "450B2BF31FA3582B"
+				item: { count: 1, id: "allthemodium:vibranium_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:abominator"
+			}
+			id: "24B6EC647576EF0A"
+			tasks: [{
+				consume_items: false
+				id: "1DBB83234A488E23"
+				item: { count: 1, id: "aoa3:abominator" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:abyssro"
+			}
+			id: "7E3351331D9CE7EB"
+			tasks: [{
+				consume_items: false
+				id: "2A08FBB13C492F36"
+				item: { count: 1, id: "aoa3:abyssro" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:alacrity_bow"
+			}
+			id: "21D048046269A29D"
+			tasks: [{
+				consume_items: false
+				id: "549082418323BA6F"
+				item: { count: 1, id: "aoa3:alacrity_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:amber_staff"
+			}
+			id: "6E63D99252E1B4E2"
+			tasks: [{
+				consume_items: false
+				id: "6BDE6701E1DD5C40"
+				item: { count: 1, id: "aoa3:amber_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:amplifier"
+			}
+			id: "3ECD5C5AA2E4C48D"
+			tasks: [{
+				consume_items: false
+				id: "1DE24D766B335D1A"
+				item: { count: 1, id: "aoa3:amplifier" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ancient_bomber"
+			}
+			id: "697BD7B3083285C2"
+			tasks: [{
+				consume_items: false
+				id: "780B5F4ABA536554"
+				item: { count: 1, id: "aoa3:ancient_bomber" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ancient_bow"
+			}
+			id: "67E0A07427944612"
+			tasks: [{
+				consume_items: false
+				id: "609860E9BA45D86B"
+				item: { count: 1, id: "aoa3:ancient_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ancient_discharger"
+			}
+			id: "6A40103A5C288736"
+			tasks: [{
+				consume_items: false
+				id: "5311FDEBC5BDE91D"
+				item: { count: 1, id: "aoa3:ancient_discharger" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:apoco_assault_rifle"
+			}
+			id: "07C01F9309608FB3"
+			tasks: [{
+				consume_items: false
+				id: "58AFA25C7F042B37"
+				item: { count: 1, id: "aoa3:apoco_assault_rifle" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:apoco_rifle"
+			}
+			id: "5F284CC43F9EB7FB"
+			tasks: [{
+				consume_items: false
+				id: "0303B27D924EF372"
+				item: { count: 1, id: "aoa3:apoco_rifle" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:apoco_shower"
+			}
+			id: "320D1456DF7CA956"
+			tasks: [{
+				consume_items: false
+				id: "25A5E4CF60AD280C"
+				item: { count: 1, id: "aoa3:apoco_shower" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:aqua_cannon"
+			}
+			id: "4E3096B43D1EBE2E"
+			tasks: [{
+				consume_items: false
+				id: "4A02D8B85CC5EF0B"
+				item: { count: 1, id: "aoa3:aqua_cannon" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:aqua_magnum"
+			}
+			id: "0A210FE1A0A4FCBA"
+			tasks: [{
+				consume_items: false
+				id: "1487418EED5CDFF3"
+				item: { count: 1, id: "aoa3:aqua_magnum" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:aquatic_staff"
+			}
+			id: "09E6D901CAE1EF30"
+			tasks: [{
+				consume_items: false
+				id: "6F28C7482F53383E"
+				item: { count: 1, id: "aoa3:aquatic_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:artifact"
+			}
+			id: "065CBBEE31FD2720"
+			tasks: [{
+				consume_items: false
+				id: "5DCEF30CA368D8B8"
+				item: { count: 1, id: "aoa3:artifact" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:atlantic_bow"
+			}
+			id: "56B3C9C9042D2845"
+			tasks: [{
+				consume_items: false
+				id: "0562EB158528272A"
+				item: { count: 1, id: "aoa3:atlantic_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:atlantic_staff"
+			}
+			id: "420154F85DD0F51D"
+			tasks: [{
+				consume_items: false
+				id: "652A144DC5CE38FF"
+				item: { count: 1, id: "aoa3:atlantic_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:atomizer"
+			}
+			id: "137E5205D5B8A48C"
+			tasks: [{
+				consume_items: false
+				id: "1BD2543565FFE90B"
+				item: { count: 1, id: "aoa3:atomizer" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:balloon_bomber"
+			}
+			id: "459B83E49E2101FB"
+			tasks: [{
+				consume_items: false
+				id: "3BB7CC6A822432C0"
+				item: { count: 1, id: "aoa3:balloon_bomber" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_bow"
+			}
+			id: "3F4D7025429AFE9E"
+			tasks: [{
+				consume_items: false
+				id: "39001C051874658A"
+				item: { count: 1, id: "aoa3:baron_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_greatblade"
+			}
+			id: "602E821579F31293"
+			tasks: [{
+				consume_items: false
+				id: "36AC1EA92E906785"
+				item: { count: 1, id: "aoa3:baron_greatblade" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_ssr"
+			}
+			id: "3293612865526BDD"
+			tasks: [{
+				consume_items: false
+				id: "6BCB27AD45FA1ED6"
+				item: { count: 1, id: "aoa3:baron_ssr" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_staff"
+			}
+			id: "3CC61AD90328D758"
+			tasks: [{
+				consume_items: false
+				id: "6A79A73EADD9197C"
+				item: { count: 1, id: "aoa3:baron_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_sword"
+			}
+			id: "399B198635F20C39"
+			tasks: [{
+				consume_items: false
+				id: "069EFE50CD328476"
+				item: { count: 1, id: "aoa3:baron_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baronator"
+			}
+			id: "52B34B6D96606AB8"
+			tasks: [{
+				consume_items: false
+				id: "581FFDC6FF20651E"
+				item: { count: 1, id: "aoa3:baronator" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:battle_vulcane"
+			}
+			id: "2B6C721CE65C3034"
+			tasks: [{
+				consume_items: false
+				id: "60EE102158DA38EC"
+				item: { count: 1, id: "aoa3:battle_vulcane" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bayonette_rifle"
+			}
+			id: "10627A6352A2AD04"
+			tasks: [{
+				consume_items: false
+				id: "64598BA8F1B03E73"
+				item: { count: 1, id: "aoa3:bayonette_rifle" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bayonette_sr"
+			}
+			id: "310AE6A41BC14B8B"
+			tasks: [{
+				consume_items: false
+				id: "510EFEDA2FBB010D"
+				item: { count: 1, id: "aoa3:bayonette_sr" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:beamer"
+			}
+			id: "6D088DB221F46633"
+			tasks: [{
+				consume_items: false
+				id: "2DA6FA725BDC36DC"
+				item: { count: 1, id: "aoa3:beamer" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:big_blast"
+			}
+			id: "19F3068885814CF3"
+			tasks: [{
+				consume_items: false
+				id: "102E165C501251E7"
+				item: { count: 1, id: "aoa3:big_blast" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:big_top"
+			}
+			id: "3F30DD46D46FC77F"
+			tasks: [{
+				consume_items: false
+				id: "24BE80309F59BF63"
+				item: { count: 1, id: "aoa3:big_top" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blast_barrel"
+			}
+			id: "7263CFB9DA1A3F26"
+			tasks: [{
+				consume_items: false
+				id: "0B6D60AD54012BD6"
+				item: { count: 1, id: "aoa3:blast_barrel" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blast_cannon"
+			}
+			id: "1105F64421BD126D"
+			tasks: [{
+				consume_items: false
+				id: "75B19B7C058D5BF0"
+				item: { count: 1, id: "aoa3:blast_cannon" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blast_chiller"
+			}
+			id: "5D8602CD1BF21CF5"
+			tasks: [{
+				consume_items: false
+				id: "77585D2A5E30AA20"
+				item: { count: 1, id: "aoa3:blast_chiller" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blissful_blast"
+			}
+			id: "221F668731915CC2"
+			tasks: [{
+				consume_items: false
+				id: "22DAE74A73717359"
+				item: { count: 1, id: "aoa3:blissful_blast" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blood_drainer"
+			}
+			id: "21A59EBB3948F5B7"
+			tasks: [{
+				consume_items: false
+				id: "3E5819246B472C18"
+				item: { count: 1, id: "aoa3:blood_drainer" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blood_iron"
+			}
+			id: "1C033906661F116A"
+			tasks: [{
+				consume_items: false
+				id: "478A8686C7FE7001"
+				item: { count: 1, id: "aoa3:blood_iron" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bloodfury"
+			}
+			id: "10395CB135A38F92"
+			tasks: [{
+				consume_items: false
+				id: "140E5F3928B33F03"
+				item: { count: 1, id: "aoa3:bloodfury" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bloodlurker"
+			}
+			id: "7BCCCC547019BBB2"
+			tasks: [{
+				consume_items: false
+				id: "6B1993C124055030"
+				item: { count: 1, id: "aoa3:bloodlurker" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bloodstone_sword"
+			}
+			id: "0F298C15EC734FC1"
+			tasks: [{
+				consume_items: false
+				id: "2D4864223D92A976"
+				item: { count: 1, id: "aoa3:bloodstone_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:blue_barrel"
+			}
+			id: "46348CA3AC19A5D1"
+			tasks: [{
+				consume_items: false
+				id: "42BC3676EC71A92D"
+				item: { count: 1, id: "aoa3:blue_barrel" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bolt_rifle"
+			}
+			id: "098809679E959830"
+			tasks: [{
+				consume_items: false
+				id: "76772FA343F147A5"
+				item: { count: 1, id: "aoa3:bolt_rifle" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bomb_launcher"
+			}
+			id: "16E846AECA099C87"
+			tasks: [{
+				consume_items: false
+				id: "5A26E27F87C1FFB6"
+				item: { count: 1, id: "aoa3:bomb_launcher" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bone_blaster"
+			}
+			id: "2F7D95D9378E4A77"
+			tasks: [{
+				consume_items: false
+				id: "6EE760F1B834E829"
+				item: { count: 1, id: "aoa3:bone_blaster" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boom_boom"
+			}
+			id: "3384B4E73C5B30EE"
+			tasks: [{
+				consume_items: false
+				id: "520CED81CF3CE21E"
+				item: { count: 1, id: "aoa3:boom_boom" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boom_cannon"
+			}
+			id: "2BAFAD0746BD7014"
+			tasks: [{
+				consume_items: false
+				id: "0ED8B2EF3363BC63"
+				item: { count: 1, id: "aoa3:boom_cannon" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boreic_bow"
+			}
+			id: "79BB2C9092CEC69B"
+			tasks: [{
+				consume_items: false
+				id: "76BE15CB1AC2CD2F"
+				item: { count: 1, id: "aoa3:boreic_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boulder"
+			}
+			id: "3493094690B01B89"
+			tasks: [{
+				consume_items: false
+				id: "152F6C29E47004C2"
+				item: { count: 1, id: "aoa3:boulder" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boulder_bomber"
+			}
+			id: "559CD905CD55DC0D"
+			tasks: [{
+				consume_items: false
+				id: "19B8D7DFF95BEBBB"
+				item: { count: 1, id: "aoa3:boulder_bomber" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bozo_blaster"
+			}
+			id: "0104D814CC81EFE9"
+			tasks: [{
+				consume_items: false
+				id: "3FD0F7F6C7A392DA"
+				item: { count: 1, id: "aoa3:bozo_blaster" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:brown_blaster"
+			}
+			id: "265601AE6D39B5E3"
+			tasks: [{
+				consume_items: false
+				id: "684D2CD25C5B8E7F"
+				item: { count: 1, id: "aoa3:brown_blaster" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bubble_horn"
+			}
+			id: "205DA10691F00AE8"
+			tasks: [{
+				consume_items: false
+				id: "02179619B5306C08"
+				item: { count: 1, id: "aoa3:bubble_horn" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:bulb_cannon"
+			}
+			id: "0F0638D81FF6EEFE"
+			tasks: [{
+				consume_items: false
+				id: "1FFFCB836193A06B"
+				item: { count: 1, id: "aoa3:bulb_cannon" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:camo_rifle"
+			}
+			id: "0347C9CBFC596679"
+			tasks: [{
+				consume_items: false
+				id: "63FCA1F677DDFC3C"
+				item: { count: 1, id: "aoa3:camo_rifle" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candlefire_sword"
+			}
+			id: "167F8F951665D8BD"
+			tasks: [{
+				consume_items: false
+				id: "24633B317E438DD1"
+				item: { count: 1, id: "aoa3:candlefire_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candy_blade"
+			}
+			id: "4E71837F47343BA0"
+			tasks: [{
+				consume_items: false
+				id: "4C1462266F0F4633"
+				item: { count: 1, id: "aoa3:candy_blade" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candy_staff"
+			}
+			id: "1FF4038E06C36672"
+			tasks: [{
+				consume_items: false
+				id: "50FBF1B80D78ABEF"
+				item: { count: 1, id: "aoa3:candy_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:caramel_carver"
+			}
+			id: "1C6FDE48EB5C75FD"
+			tasks: [{
+				consume_items: false
+				id: "1C0BEDA5E188A037"
+				item: { count: 1, id: "aoa3:caramel_carver" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:carrot_cannon"
+			}
+			id: "5E9590E1F1E5B4F4"
+			tasks: [{
+				consume_items: false
+				id: "1FD771B77B0259E7"
+				item: { count: 1, id: "aoa3:carrot_cannon" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:celestial_staff"
+			}
+			id: "5B94A0F412210B28"
+			tasks: [{
+				consume_items: false
+				id: "3C1F21115226E02E"
+				item: { count: 1, id: "aoa3:celestial_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:chain_wrecker"
+			}
+			id: "74EFCBE196FFC18D"
+			tasks: [{
+				consume_items: false
+				id: "4BCB2CDBF307996D"
+				item: { count: 1, id: "aoa3:chain_wrecker" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:chakram"
+			}
+			id: "7192B212EE5111AD"
+			tasks: [{
+				consume_items: false
+				id: "4898A0656A4019C8"
+				item: { count: 1, id: "aoa3:chakram" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:chilli_chugger"
+			}
+			id: "513D1830EBD326CC"
+			tasks: [{
+				consume_items: false
+				id: "19C86977830F236C"
+				item: { count: 1, id: "aoa3:chilli_chugger" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:clown_cannon"
+			}
+			id: "7F8A5B3487B8EE3B"
+			tasks: [{
+				consume_items: false
+				id: "166527C43D7140A6"
+				item: { count: 1, id: "aoa3:clown_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:clown_cracker"
+			}
+			id: "66A9B661C79C3F13"
+			tasks: [{
+				consume_items: false
+				id: "5F360D314512E27F"
+				item: { count: 1, id: "aoa3:clown_cracker" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:clownershot"
+			}
+			id: "495EC80ADA79770D"
+			tasks: [{
+				consume_items: false
+				id: "2B7C4A6246C36E38"
+				item: { count: 1, id: "aoa3:clownershot" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:clownimator"
+			}
+			id: "6B6A3C6B9E58E8B7"
+			tasks: [{
+				consume_items: false
+				id: "1432806650C3D5A2"
+				item: { count: 1, id: "aoa3:clownimator" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:clowno_pulse"
+			}
+			id: "71BFC2BFAEAF45EE"
+			tasks: [{
+				consume_items: false
+				id: "122248FD43D38812"
+				item: { count: 1, id: "aoa3:clowno_pulse" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:colour_cannon"
+			}
+			id: "042AC01ADC89B302"
+			tasks: [{
+				consume_items: false
+				id: "7B56831B811948AE"
+				item: { count: 1, id: "aoa3:colour_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:concussion_staff"
+			}
+			id: "3877CD6F00C4E181"
+			tasks: [{
+				consume_items: false
+				id: "7FB21D79285848F5"
+				item: { count: 1, id: "aoa3:concussion_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:confetti_cannon"
+			}
+			id: "47D22030CA80BB4D"
+			tasks: [{
+				consume_items: false
+				id: "02A88E2ED59544E4"
+				item: { count: 1, id: "aoa3:confetti_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:confetti_cluster"
+			}
+			id: "4E0FFC68064B36A1"
+			tasks: [{
+				consume_items: false
+				id: "4F6541A736CD40AA"
+				item: { count: 1, id: "aoa3:confetti_cluster" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:construct"
+			}
+			id: "7CAAF6D8ACE4CDBD"
+			tasks: [{
+				consume_items: false
+				id: "503BC2236BF52D8D"
+				item: { count: 1, id: "aoa3:construct" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coral_cannon"
+			}
+			id: "1DA62809290FC2F3"
+			tasks: [{
+				consume_items: false
+				id: "16E68C832E65ADF2"
+				item: { count: 1, id: "aoa3:coral_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coral_clogger"
+			}
+			id: "16EA2912C76D2C53"
+			tasks: [{
+				consume_items: false
+				id: "4B46E105E7402B4D"
+				item: { count: 1, id: "aoa3:coral_clogger" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coral_crossbow"
+			}
+			id: "177394E87050BA06"
+			tasks: [{
+				consume_items: false
+				id: "371B0DAC89DFA6AD"
+				item: { count: 1, id: "aoa3:coral_crossbow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coral_greatblade"
+			}
+			id: "763196B316F25A89"
+			tasks: [{
+				consume_items: false
+				id: "1A2B196BA7553A79"
+				item: { count: 1, id: "aoa3:coral_greatblade" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coral_staff"
+			}
+			id: "0B17469B436EE7F1"
+			tasks: [{
+				consume_items: false
+				id: "028FEF2A941F552E"
+				item: { count: 1, id: "aoa3:coral_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coralstone_maul"
+			}
+			id: "7A78132E80615714"
+			tasks: [{
+				consume_items: false
+				id: "6E67A3B6E5C79DE2"
+				item: { count: 1, id: "aoa3:coralstone_maul" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:coralstorm_sword"
+			}
+			id: "5DCC5D02FD61AD8F"
+			tasks: [{
+				consume_items: false
+				id: "31C0FB0D3B4101C9"
+				item: { count: 1, id: "aoa3:coralstorm_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:core_rifle"
+			}
+			id: "3ED938B39B116137"
+			tasks: [{
+				consume_items: false
+				id: "5583B5170291C896"
+				item: { count: 1, id: "aoa3:core_rifle" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:cotton_crusher"
+			}
+			id: "13AD5724EB2E034B"
+			tasks: [{
+				consume_items: false
+				id: "608E783369F4B729"
+				item: { count: 1, id: "aoa3:cotton_crusher" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:creepified_sword"
+			}
+			id: "6697CBB8D1A64BCF"
+			tasks: [{
+				consume_items: false
+				id: "1773E044CC591B75"
+				item: { count: 1, id: "aoa3:creepified_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:creepoid_greataxe"
+			}
+			id: "7066C3C1D2A6970D"
+			tasks: [{
+				consume_items: false
+				id: "7B54A406C0E742ED"
+				item: { count: 1, id: "aoa3:creepoid_greataxe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystal_carver"
+			}
+			id: "1FEDAD5435ED242A"
+			tasks: [{
+				consume_items: false
+				id: "30279F98D5AE5F3C"
+				item: { count: 1, id: "aoa3:crystal_carver" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystal_greatblade"
+			}
+			id: "5D6A9119F08EF236"
+			tasks: [{
+				consume_items: false
+				id: "233FEB6C5ECDB762"
+				item: { count: 1, id: "aoa3:crystal_greatblade" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystal_maul"
+			}
+			id: "63C739EACB1462A0"
+			tasks: [{
+				consume_items: false
+				id: "08EE03617C1EFADD"
+				item: { count: 1, id: "aoa3:crystal_maul" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystal_staff"
+			}
+			id: "4E6C01CAC2934B6B"
+			tasks: [{
+				consume_items: false
+				id: "35F2B4E80CA41009"
+				item: { count: 1, id: "aoa3:crystal_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystallite_sword"
+			}
+			id: "20BC4EE187F472C6"
+			tasks: [{
+				consume_items: false
+				id: "420C6C715E55A9F1"
+				item: { count: 1, id: "aoa3:crystallite_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystaneer"
+			}
+			id: "74B0AAED7665BFC2"
+			tasks: [{
+				consume_items: false
+				id: "4E1BEFC5DD22BD47"
+				item: { count: 1, id: "aoa3:crystaneer" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystik_staff"
+			}
+			id: "3C25497183858265"
+			tasks: [{
+				consume_items: false
+				id: "7B3BE90E947091C9"
+				item: { count: 1, id: "aoa3:crystik_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:cryston_staff"
+			}
+			id: "635D6B5FDB299428"
+			tasks: [{
+				consume_items: false
+				id: "22EDDA73D771B3B8"
+				item: { count: 1, id: "aoa3:cryston_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:cyclone"
+			}
+			id: "7D63C398FAE0E77B"
+			tasks: [{
+				consume_items: false
+				id: "0CAE32C0DAD434F5"
+				item: { count: 1, id: "aoa3:cyclone" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:dark_beast"
+			}
+			id: "7F7C095CE64580FD"
+			tasks: [{
+				consume_items: false
+				id: "5EFB81278FFA0E8C"
+				item: { count: 1, id: "aoa3:dark_beast" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:dark_destroyer"
+			}
+			id: "4C7E7A98E0E4B3F5"
+			tasks: [{
+				consume_items: false
+				id: "6D9B9EFAFEDEFDA5"
+				item: { count: 1, id: "aoa3:dark_destroyer" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:darkener"
+			}
+			id: "1858F253C4E61189"
+			tasks: [{
+				consume_items: false
+				id: "56EB404E13C85A9B"
+				item: { count: 1, id: "aoa3:darkener" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:darkly_guster"
+			}
+			id: "47A22711CCA3EEA5"
+			tasks: [{
+				consume_items: false
+				id: "7AFB380530D2D867"
+				item: { count: 1, id: "aoa3:darkly_guster" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:dart_gun"
+			}
+			id: "7EBC42E275348566"
+			tasks: [{
+				consume_items: false
+				id: "781844890D4EAB9F"
+				item: { count: 1, id: "aoa3:dart_gun" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:daybreaker_bow"
+			}
+			id: "0668F1F1F07D8052"
+			tasks: [{
+				consume_items: false
+				id: "78DC64E181AC338B"
+				item: { count: 1, id: "aoa3:daybreaker_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:deadlock"
+			}
+			id: "168A77D4D44D1C15"
+			tasks: [{
+				consume_items: false
+				id: "166083F865073791"
+				item: { count: 1, id: "aoa3:deadlock" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:death_ray"
+			}
+			id: "2618A2847797D25D"
+			tasks: [{
+				consume_items: false
+				id: "5AD6F7CAFEE8884A"
+				item: { count: 1, id: "aoa3:death_ray" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:decimator"
+			}
+			id: "6D1F54F513391C7C"
+			tasks: [{
+				consume_items: false
+				id: "216D95A625767743"
+				item: { count: 1, id: "aoa3:decimator" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:deep_bow"
+			}
+			id: "61084C42E0CC7BC6"
+			tasks: [{
+				consume_items: false
+				id: "06349914AA5F89F6"
+				item: { count: 1, id: "aoa3:deep_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:demolisher"
+			}
+			id: "7CB3095DFA7E099E"
+			tasks: [{
+				consume_items: false
+				id: "334361395E389EA4"
+				item: { count: 1, id: "aoa3:demolisher" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:destruction_rifle"
+			}
+			id: "1C858BA65DB27029"
+			tasks: [{
+				consume_items: false
+				id: "6CCD73C0AB11C6F3"
+				item: { count: 1, id: "aoa3:destruction_rifle" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:destruction_shotgun"
+			}
+			id: "0C7A34200042FC3F"
+			tasks: [{
+				consume_items: false
+				id: "4F47810D64B5DF75"
+				item: { count: 1, id: "aoa3:destruction_shotgun" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:destruction_staff"
+			}
+			id: "7E1BE26FA5610B5A"
+			tasks: [{
+				consume_items: false
+				id: "4BDF7B11FD79E50C"
+				item: { count: 1, id: "aoa3:destruction_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:discharge_cannon"
+			}
+			id: "7DDF7A9683E3D527"
+			tasks: [{
+				consume_items: false
+				id: "132AF70412A0111C"
+				item: { count: 1, id: "aoa3:discharge_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:discharge_rifle"
+			}
+			id: "22963CD5146DAFEA"
+			tasks: [{
+				consume_items: false
+				id: "0677063E92CED84B"
+				item: { count: 1, id: "aoa3:discharge_rifle" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:discharge_shotgun"
+			}
+			id: "2AB72D81A50101DF"
+			tasks: [{
+				consume_items: false
+				id: "0F3EA043E8D15F68"
+				item: { count: 1, id: "aoa3:discharge_shotgun" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:discharge_sniper"
+			}
+			id: "43CCC6746B510E41"
+			tasks: [{
+				consume_items: false
+				id: "2E899280C83CBAD6"
+				item: { count: 1, id: "aoa3:discharge_sniper" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:doom_bringer"
+			}
+			id: "74D7610F9C8E7431"
+			tasks: [{
+				consume_items: false
+				id: "089C269073E3FF3D"
+				item: { count: 1, id: "aoa3:doom_bringer" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:draco"
+			}
+			id: "7D8B8510F6BEDD37"
+			tasks: [{
+				consume_items: false
+				id: "0A1D78CF826BE7BC"
+				item: { count: 1, id: "aoa3:draco" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:dragilator"
+			}
+			id: "74CE9A2C85F5FDE6"
+			tasks: [{
+				consume_items: false
+				id: "28AE4CDFF83F2DDC"
+				item: { count: 1, id: "aoa3:dragilator" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:dual_sight"
+			}
+			id: "7D5516C2192CCDEF"
+			tasks: [{
+				consume_items: false
+				id: "29E493735C51866E"
+				item: { count: 1, id: "aoa3:dual_sight" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:duster"
+			}
+			id: "0464810B91A977E9"
+			tasks: [{
+				consume_items: false
+				id: "4D8E276A76A33C19"
+				item: { count: 1, id: "aoa3:duster" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:dustometer"
+			}
+			id: "5CB88D10A2C12BD8"
+			tasks: [{
+				consume_items: false
+				id: "07D26DAC280CFA70"
+				item: { count: 1, id: "aoa3:dustometer" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:echo_gull"
+			}
+			id: "2F319ECC771DFEE4"
+			tasks: [{
+				consume_items: false
+				id: "3891023158A4D3DE"
+				item: { count: 1, id: "aoa3:echo_gull" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:electinator"
+			}
+			id: "0BA3422655225A5D"
+			tasks: [{
+				consume_items: false
+				id: "1E1F69B1C38791F2"
+				item: { count: 1, id: "aoa3:electinator" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:electron_maul"
+			}
+			id: "31C15089C5CD2DB6"
+			tasks: [{
+				consume_items: false
+				id: "01BD84BFCE9A91ED"
+				item: { count: 1, id: "aoa3:electron_maul" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ember_staff"
+			}
+			id: "5C6DB84082B1B133"
+			tasks: [{
+				consume_items: false
+				id: "52E8617DA5AA2EC9"
+				item: { count: 1, id: "aoa3:ember_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:emberstone_axe"
+			}
+			id: "61E2EFD612F81312"
+			tasks: [{
+				consume_items: false
+				id: "40D0CB13396261F2"
+				item: { count: 1, id: "aoa3:emberstone_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:emberstone_sword"
+			}
+			id: "667AC6FC0BCA2AD4"
+			tasks: [{
+				consume_items: false
+				id: "5198E789350D4B37"
+				item: { count: 1, id: "aoa3:emberstone_sword" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:energistic_axe"
+			}
+			id: "4B4F65754E75BFEC"
+			tasks: [{
+				consume_items: false
+				id: "3235495CEA682588"
+				item: { count: 1, id: "aoa3:energistic_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:energy_cannon"
+			}
+			id: "64C22B339FBA8612"
+			tasks: [{
+				consume_items: false
+				id: "0FBEDEC4A3F4A247"
+				item: { count: 1, id: "aoa3:energy_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:equality_vulcane"
+			}
+			id: "209F8ACE72D0A854"
+			tasks: [{
+				consume_items: false
+				id: "5DB7F99ABDB1B540"
+				item: { count: 1, id: "aoa3:equality_vulcane" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:eradicator"
+			}
+			id: "5726B623ECD99698"
+			tasks: [{
+				consume_items: false
+				id: "5E246065B9DEE3CF"
+				item: { count: 1, id: "aoa3:eradicator" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:erebon_scythe"
+			}
+			id: "615892284BDE2950"
+			tasks: [{
+				consume_items: false
+				id: "554BB7B39D1A52F6"
+				item: { count: 1, id: "aoa3:erebon_scythe" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:erebon_stickler"
+			}
+			id: "06B0FD02CA230892"
+			tasks: [{
+				consume_items: false
+				id: "6623BC45C1DC5CDD"
+				item: { count: 1, id: "aoa3:erebon_stickler" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:everfight_staff"
+			}
+			id: "07CB71FE1AA65B76"
+			tasks: [{
+				consume_items: false
+				id: "7E7D8A2DD3871D6D"
+				item: { count: 1, id: "aoa3:everfight_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:evermight_staff"
+			}
+			id: "5D451452295B12DB"
+			tasks: [{
+				consume_items: false
+				id: "4F3DAF5E53129643"
+				item: { count: 1, id: "aoa3:evermight_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:experiment_w_801"
+			}
+			id: "3DCDED41F3FC59F3"
+			tasks: [{
+				consume_items: false
+				id: "000F5496F9292F0E"
+				item: { count: 1, id: "aoa3:experiment_w_801" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:explochron_sword"
+			}
+			id: "01C02D84F2DCCDFA"
+			tasks: [{
+				consume_items: false
+				id: "6B5B5DF3C675CEBE"
+				item: { count: 1, id: "aoa3:explochron_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:explosive_bow"
+			}
+			id: "37E8E7C7EE89CE09"
+			tasks: [{
+				consume_items: false
+				id: "1A4056F29FF59588"
+				item: { count: 1, id: "aoa3:explosive_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:faunamancers_blade"
+			}
+			id: "7F075D8BCF73F55D"
+			tasks: [{
+				consume_items: false
+				id: "256976282FA4A9A1"
+				item: { count: 1, id: "aoa3:faunamancers_blade" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fire_staff"
+			}
+			id: "6DFE1C02E629A2F5"
+			tasks: [{
+				consume_items: false
+				id: "0EEA212ABF02802E"
+				item: { count: 1, id: "aoa3:fire_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fire_vulcane"
+			}
+			id: "5DD46B45DF4EEA94"
+			tasks: [{
+				consume_items: false
+				id: "6848C3A385135E89"
+				item: { count: 1, id: "aoa3:fire_vulcane" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fireborne_sword"
+			}
+			id: "79F70D6E3603C906"
+			tasks: [{
+				consume_items: false
+				id: "5B0E69F4A20D6C46"
+				item: { count: 1, id: "aoa3:fireborne_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:firefly_staff"
+			}
+			id: "274F2F45EEE21280"
+			tasks: [{
+				consume_items: false
+				id: "2AFB4D8E9CF0D20C"
+				item: { count: 1, id: "aoa3:firefly_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:firestorm_staff"
+			}
+			id: "490FBE8DCE6EA50B"
+			tasks: [{
+				consume_items: false
+				id: "7B993F6DD27175EB"
+				item: { count: 1, id: "aoa3:firestorm_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:flame_wrecker"
+			}
+			id: "054552CDDBFF0D69"
+			tasks: [{
+				consume_items: false
+				id: "602EFD7ED021751B"
+				item: { count: 1, id: "aoa3:flame_wrecker" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:flaming_fury"
+			}
+			id: "5D45F03C2F5C6E2A"
+			tasks: [{
+				consume_items: false
+				id: "4F8A535FAC3728E7"
+				item: { count: 1, id: "aoa3:flaming_fury" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:floro500"
+			}
+			id: "1EF945F8B99F9A46"
+			tasks: [{
+				consume_items: false
+				id: "1EE98D037FD07022"
+				item: { count: 1, id: "aoa3:floro500" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:floro_rifle"
+			}
+			id: "612817F6721A4F82"
+			tasks: [{
+				consume_items: false
+				id: "0DC5FE05D34CD9C2"
+				item: { count: 1, id: "aoa3:floro_rifle" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:floro_rpg"
+			}
+			id: "62461D2B7AA6B648"
+			tasks: [{
+				consume_items: false
+				id: "541BA09F10DB1E38"
+				item: { count: 1, id: "aoa3:floro_rpg" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:flower_cannon"
+			}
+			id: "6BB10147B0A71390"
+			tasks: [{
+				consume_items: false
+				id: "50F6D31793E2286D"
+				item: { count: 1, id: "aoa3:flower_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:flowercorne"
+			}
+			id: "016BD12E11891E50"
+			tasks: [{
+				consume_items: false
+				id: "40ACF98E2C87519F"
+				item: { count: 1, id: "aoa3:flowercorne" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:flowers_fury"
+			}
+			id: "48C7DC0ACA17746A"
+			tasks: [{
+				consume_items: false
+				id: "388C89AD5600793E"
+				item: { count: 1, id: "aoa3:flowers_fury" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fragment"
+			}
+			id: "187E2A016A3D4CB8"
+			tasks: [{
+				consume_items: false
+				id: "5D937D3AE10AA169"
+				item: { count: 1, id: "aoa3:fragment" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:froster"
+			}
+			id: "10BDCE30F9367B67"
+			tasks: [{
+				consume_items: false
+				id: "41D3ADBD0D940C73"
+				item: { count: 1, id: "aoa3:froster" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:frosticator"
+			}
+			id: "7765FB8FEBA0F509"
+			tasks: [{
+				consume_items: false
+				id: "093916B71D2688AB"
+				item: { count: 1, id: "aoa3:frosticator" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fungal_cannon"
+			}
+			id: "79263BC0F486A058"
+			tasks: [{
+				consume_items: false
+				id: "4655F53BA5838967"
+				item: { count: 1, id: "aoa3:fungal_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fungal_staff"
+			}
+			id: "7939B70F1EE521D9"
+			tasks: [{
+				consume_items: false
+				id: "1BD03033D8BD458A"
+				item: { count: 1, id: "aoa3:fungal_staff" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gardener"
+			}
+			id: "4F2831B850A6CFB4"
+			tasks: [{
+				consume_items: false
+				id: "634B07B42E03D216"
+				item: { count: 1, id: "aoa3:gardener" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gas_blaster"
+			}
+			id: "34840EE7D907F332"
+			tasks: [{
+				consume_items: false
+				id: "5D9CB73907602298"
+				item: { count: 1, id: "aoa3:gas_blaster" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gauge_rifle"
+			}
+			id: "47C386F890A1281F"
+			tasks: [{
+				consume_items: false
+				id: "0590A3F2B5755EBB"
+				item: { count: 1, id: "aoa3:gauge_rifle" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:germinator"
+			}
+			id: "706B74AB7C0D9D2F"
+			tasks: [{
+				consume_items: false
+				id: "4A93FE9768D3749C"
+				item: { count: 1, id: "aoa3:germinator" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghast_blaster"
+			}
+			id: "3D940C321964518E"
+			tasks: [{
+				consume_items: false
+				id: "4FDEAD133587EA4C"
+				item: { count: 1, id: "aoa3:ghast_blaster" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghoul_cannon"
+			}
+			id: "272CFB611526EF7A"
+			tasks: [{
+				consume_items: false
+				id: "659D104E72F8602C"
+				item: { count: 1, id: "aoa3:ghoul_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghoul_gasser"
+			}
+			id: "39F15C103F872041"
+			tasks: [{
+				consume_items: false
+				id: "1C1405B71AF95D78"
+				item: { count: 1, id: "aoa3:ghoul_gasser" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghoul_staff"
+			}
+			id: "4C6370A792A732D0"
+			tasks: [{
+				consume_items: false
+				id: "758EB2A2F7C0DB95"
+				item: { count: 1, id: "aoa3:ghoul_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:giga_cannon"
+			}
+			id: "5A17A54F03D3636E"
+			tasks: [{
+				consume_items: false
+				id: "2843A51B1CA7D3F9"
+				item: { count: 1, id: "aoa3:giga_cannon" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gimmick"
+			}
+			id: "0FD142D6FCA4A21F"
+			tasks: [{
+				consume_items: false
+				id: "6CB082B31F77F12F"
+				item: { count: 1, id: "aoa3:gimmick" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ginger_blaster"
+			}
+			id: "0D05272534336C24"
+			tasks: [{
+				consume_items: false
+				id: "051AAF3D5CAC4B23"
+				item: { count: 1, id: "aoa3:ginger_blaster" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gods_greatblade"
+			}
+			id: "50039635D9F7959F"
+			tasks: [{
+				consume_items: false
+				id: "48378080377E5FEC"
+				item: { count: 1, id: "aoa3:gods_greatblade" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gold_bringer"
+			}
+			id: "4422BC61F47B2C43"
+			tasks: [{
+				consume_items: false
+				id: "16A58FBC9FE03DF7"
+				item: { count: 1, id: "aoa3:gold_bringer" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:golden_fury"
+			}
+			id: "1415C9922BE43A30"
+			tasks: [{
+				consume_items: false
+				id: "5802EAC194D03922"
+				item: { count: 1, id: "aoa3:golden_fury" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:golder_bomber"
+			}
+			id: "2771F234C901A2B1"
+			tasks: [{
+				consume_items: false
+				id: "690B5EC3F0C8206C"
+				item: { count: 1, id: "aoa3:golder_bomber" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:goo_ball"
+			}
+			id: "3190AE2BA1AD645D"
+			tasks: [{
+				consume_items: false
+				id: "4B038C3D39E25A67"
+				item: { count: 1, id: "aoa3:goo_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:goofy_axe"
+			}
+			id: "7B0DF402893D8499"
+			tasks: [{
+				consume_items: false
+				id: "006DBDCF9BDB02B8"
+				item: { count: 1, id: "aoa3:goofy_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:goofy_greatblade"
+			}
+			id: "4E7BE8EA99823714"
+			tasks: [{
+				consume_items: false
+				id: "7C92B3535D884DBD"
+				item: { count: 1, id: "aoa3:goofy_greatblade" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:gravity_blaster"
+			}
+			id: "760DE5EF6A04D28E"
+			tasks: [{
+				consume_items: false
+				id: "7516C8DA0E971D7F"
+				item: { count: 1, id: "aoa3:gravity_blaster" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:grenade"
+			}
+			id: "12685969E0829060"
+			tasks: [{
+				consume_items: false
+				id: "4D38E2AFE9B47A73"
+				item: { count: 1, id: "aoa3:grenade" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:guardians_sword"
+			}
+			id: "350FB81D5D55DB94"
+			tasks: [{
+				consume_items: false
+				id: "3CAA5E06CBA3BFE9"
+				item: { count: 1, id: "aoa3:guardians_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:happy_haunter"
+			}
+			id: "63A92B83EAE433D8"
+			tasks: [{
+				consume_items: false
+				id: "4FD2788BA4A64E9F"
+				item: { count: 1, id: "aoa3:happy_haunter" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hardened_parapiranha"
+			}
+			id: "5FDE88725F5E2652"
+			tasks: [{
+				consume_items: false
+				id: "44E85C41D33E0847"
+				item: { count: 1, id: "aoa3:hardened_parapiranha" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:harvester_sword"
+			}
+			id: "3C450DA2160F3772"
+			tasks: [{
+				consume_items: false
+				id: "3DB8A808C6B5C9F2"
+				item: { count: 1, id: "aoa3:harvester_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:haunted_bow"
+			}
+			id: "7E625558A5F73081"
+			tasks: [{
+				consume_items: false
+				id: "1D8D4FD4C4E02216"
+				item: { count: 1, id: "aoa3:haunted_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:haunted_greatblade"
+			}
+			id: "60175F0105C428FF"
+			tasks: [{
+				consume_items: false
+				id: "32B821FFA2C58311"
+				item: { count: 1, id: "aoa3:haunted_greatblade" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:haunter_rifle"
+			}
+			id: "400FFD35CB6056AD"
+			tasks: [{
+				consume_items: false
+				id: "0615A588CE654232"
+				item: { count: 1, id: "aoa3:haunter_rifle" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:haunters_staff"
+			}
+			id: "1CE8AC5C9F603A5E"
+			tasks: [{
+				consume_items: false
+				id: "05E1EFB02509F75A"
+				item: { count: 1, id: "aoa3:haunters_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:head_hunter"
+			}
+			id: "6C0BAF13A1D3CE03"
+			tasks: [{
+				consume_items: false
+				id: "5A382FA305A552F4"
+				item: { count: 1, id: "aoa3:head_hunter" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:heat_wave"
+			}
+			id: "6540BEDD6B853222"
+			tasks: [{
+				consume_items: false
+				id: "2B2F0724239318A9"
+				item: { count: 1, id: "aoa3:heat_wave" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hell_horn"
+			}
+			id: "6B8F498C0EF6A1FD"
+			tasks: [{
+				consume_items: false
+				id: "7C150F323AE308E4"
+				item: { count: 1, id: "aoa3:hell_horn" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hellfire"
+			}
+			id: "7BA536BEA82AF9EE"
+			tasks: [{
+				consume_items: false
+				id: "3DD23B04273B70D3"
+				item: { count: 1, id: "aoa3:hellfire" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hive_blaster"
+			}
+			id: "66DA770FB41DE2F8"
+			tasks: [{
+				consume_items: false
+				id: "785F4E764065CE3A"
+				item: { count: 1, id: "aoa3:hive_blaster" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hive_cracker"
+			}
+			id: "54CE3E8689F1637B"
+			tasks: [{
+				consume_items: false
+				id: "4EE1F4B3186034C4"
+				item: { count: 1, id: "aoa3:hive_cracker" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hive_howitzer"
+			}
+			id: "3296FB0C32DF85E2"
+			tasks: [{
+				consume_items: false
+				id: "7256E923CA27150F"
+				item: { count: 1, id: "aoa3:hive_howitzer" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hive_staff"
+			}
+			id: "04E163F0A6B1306B"
+			tasks: [{
+				consume_items: false
+				id: "32205ACC75A2DD89"
+				item: { count: 1, id: "aoa3:hive_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hiver"
+			}
+			id: "7DD408CC7E2507C1"
+			tasks: [{
+				consume_items: false
+				id: "0EAE3C2390DA70E1"
+				item: { count: 1, id: "aoa3:hiver" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:holy_sword"
+			}
+			id: "4C8024A2E3469663"
+			tasks: [{
+				consume_items: false
+				id: "60EF04414AB23B33"
+				item: { count: 1, id: "aoa3:holy_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:horizon_maul"
+			}
+			id: "47A34762C1F368DB"
+			tasks: [{
+				consume_items: false
+				id: "0E210D66BB873310"
+				item: { count: 1, id: "aoa3:horizon_maul" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hot_shot"
+			}
+			id: "6B29C15354F861A1"
+			tasks: [{
+				consume_items: false
+				id: "675C8AEA04532B09"
+				item: { count: 1, id: "aoa3:hot_shot" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hunters_rifle"
+			}
+			id: "7925358DC4CB4063"
+			tasks: [{
+				consume_items: false
+				id: "3A25617A0BF9A73F"
+				item: { count: 1, id: "aoa3:hunters_rifle" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ice_bow"
+			}
+			id: "0E2AD63B0945392E"
+			tasks: [{
+				consume_items: false
+				id: "5D41E69531FCDF9E"
+				item: { count: 1, id: "aoa3:ice_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:illusion_revolver"
+			}
+			id: "34FBC9BFD15FBE07"
+			tasks: [{
+				consume_items: false
+				id: "3F703A618D4E1F1A"
+				item: { count: 1, id: "aoa3:illusion_revolver" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:illusion_smg"
+			}
+			id: "6AA327B62AA9DB3E"
+			tasks: [{
+				consume_items: false
+				id: "513B45707A772DC6"
+				item: { count: 1, id: "aoa3:illusion_smg" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:illusion_sword"
+			}
+			id: "45EF641D0BCF33D8"
+			tasks: [{
+				consume_items: false
+				id: "49CC93690E1CF8CF"
+				item: { count: 1, id: "aoa3:illusion_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:impairment_vulcane"
+			}
+			id: "6CA01928AEBF4F1B"
+			tasks: [{
+				consume_items: false
+				id: "3F4A0E11D6A167CB"
+				item: { count: 1, id: "aoa3:impairment_vulcane" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:infernal_bow"
+			}
+			id: "0B8F257B750F8482"
+			tasks: [{
+				consume_items: false
+				id: "07BDA4171A30442B"
+				item: { count: 1, id: "aoa3:infernal_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:iominator"
+			}
+			id: "4988D78AD62CA43E"
+			tasks: [{
+				consume_items: false
+				id: "4B3981C26B0A76B6"
+				item: { count: 1, id: "aoa3:iominator" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ion_blaster"
+			}
+			id: "708EC382408DAC23"
+			tasks: [{
+				consume_items: false
+				id: "4058B29A1F0FB7B4"
+				item: { count: 1, id: "aoa3:ion_blaster" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ion_revolver"
+			}
+			id: "1ECB9D1C59C3E06D"
+			tasks: [{
+				consume_items: false
+				id: "4B4A08096831B9B9"
+				item: { count: 1, id: "aoa3:ion_revolver" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:iro_cannon"
+			}
+			id: "434C733F390A6D97"
+			tasks: [{
+				consume_items: false
+				id: "4266AE3049B53027"
+				item: { count: 1, id: "aoa3:iro_cannon" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:iro_miner"
+			}
+			id: "66B15AFD8150602A"
+			tasks: [{
+				consume_items: false
+				id: "68525C47240D8314"
+				item: { count: 1, id: "aoa3:iro_miner" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:iro_rifle"
+			}
+			id: "36CF9A2DD7165DE7"
+			tasks: [{
+				consume_items: false
+				id: "23B42FE5F58A6986"
+				item: { count: 1, id: "aoa3:iro_rifle" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:jack_funger"
+			}
+			id: "4B98F3BA49F44DF8"
+			tasks: [{
+				consume_items: false
+				id: "729B4FC924245E42"
+				item: { count: 1, id: "aoa3:jack_funger" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:jack_rocker"
+			}
+			id: "281A4A05D36E24CB"
+			tasks: [{
+				consume_items: false
+				id: "208DA9D7C499F27A"
+				item: { count: 1, id: "aoa3:jack_rocker" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:jade_axe"
+			}
+			id: "60B2F0BDFFDFE451"
+			tasks: [{
+				consume_items: false
+				id: "2C44EF17468E0FDA"
+				item: { count: 1, id: "aoa3:jade_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:jade_sword"
+			}
+			id: "7F41B842EB376742"
+			tasks: [{
+				consume_items: false
+				id: "4FAEAB0A56F446E2"
+				item: { count: 1, id: "aoa3:jade_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:joker_staff"
+			}
+			id: "6D7D2D214317CB88"
+			tasks: [{
+				consume_items: false
+				id: "6C59419636EF3814"
+				item: { count: 1, id: "aoa3:joker_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:justice_bow"
+			}
+			id: "08CBC94DA551D246"
+			tasks: [{
+				consume_items: false
+				id: "427D356DE24F91D6"
+				item: { count: 1, id: "aoa3:justice_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ka_500"
+			}
+			id: "6488744BADDBEE0D"
+			tasks: [{
+				consume_items: false
+				id: "709E1C8CE2461299"
+				item: { count: 1, id: "aoa3:ka_500" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:knights_guard"
+			}
+			id: "4CD7BD3F7040712F"
+			tasks: [{
+				consume_items: false
+				id: "3703B7BD689A0F95"
+				item: { count: 1, id: "aoa3:knights_guard" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:krilinator"
+			}
+			id: "1EF2A1C5F39E8C3E"
+			tasks: [{
+				consume_items: false
+				id: "773C31684DB2AE72"
+				item: { count: 1, id: "aoa3:krilinator" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:laser_blaster"
+			}
+			id: "1C5B8E9ABF3043DD"
+			tasks: [{
+				consume_items: false
+				id: "66CCB6C45DB2695E"
+				item: { count: 1, id: "aoa3:laser_blaster" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:legbone_sword"
+			}
+			id: "6DBE08952C11A4B0"
+			tasks: [{
+				consume_items: false
+				id: "0241A882FD187965"
+				item: { count: 1, id: "aoa3:legbone_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lelyetian_ranseur"
+			}
+			id: "3D498F206ABFB211"
+			tasks: [{
+				consume_items: false
+				id: "1027F03AFBEDA88F"
+				item: { count: 1, id: "aoa3:lelyetian_ranseur" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:light_blaster"
+			}
+			id: "4370EF9F689BE43F"
+			tasks: [{
+				consume_items: false
+				id: "2F3542B1BCE2C485"
+				item: { count: 1, id: "aoa3:light_blaster" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:light_iron"
+			}
+			id: "0E597EA526C84CC8"
+			tasks: [{
+				consume_items: false
+				id: "05CA3E75CC27D02D"
+				item: { count: 1, id: "aoa3:light_iron" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:light_spark"
+			}
+			id: "7EC0A95360009835"
+			tasks: [{
+				consume_items: false
+				id: "7A694BF1847CED95"
+				item: { count: 1, id: "aoa3:light_spark" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lightning_staff"
+			}
+			id: "0DE74CB699C55BB8"
+			tasks: [{
+				consume_items: false
+				id: "69CD557D7E0F3F91"
+				item: { count: 1, id: "aoa3:lightning_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lights_way"
+			}
+			id: "2268166033ACE123"
+			tasks: [{
+				consume_items: false
+				id: "6F1E0809A09F8778"
+				item: { count: 1, id: "aoa3:lights_way" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lightshine"
+			}
+			id: "0C5DD9ECFACEEBE0"
+			tasks: [{
+				consume_items: false
+				id: "23BD815E83513D09"
+				item: { count: 1, id: "aoa3:lightshine" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:limonite_axe"
+			}
+			id: "2E4478469D494A6C"
+			tasks: [{
+				consume_items: false
+				id: "53C59965456D0E64"
+				item: { count: 1, id: "aoa3:limonite_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:limonite_sword"
+			}
+			id: "52D6FC952ADE24C0"
+			tasks: [{
+				consume_items: false
+				id: "7855FD5E66DCB4A0"
+				item: { count: 1, id: "aoa3:limonite_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:long_shot"
+			}
+			id: "0C7E4EA24CEBC08C"
+			tasks: [{
+				consume_items: false
+				id: "400BEF06A9597E43"
+				item: { count: 1, id: "aoa3:long_shot" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:luna_blaster"
+			}
+			id: "7359CAD201359F3F"
+			tasks: [{
+				consume_items: false
+				id: "2212FB92DEAF9098"
+				item: { count: 1, id: "aoa3:luna_blaster" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_assault_rifle"
+			}
+			id: "3406C0153C178896"
+			tasks: [{
+				consume_items: false
+				id: "4567B33B7C8DDBDB"
+				item: { count: 1, id: "aoa3:lunar_assault_rifle" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_bow"
+			}
+			id: "3130537693C5AD6F"
+			tasks: [{
+				consume_items: false
+				id: "6DDD11DD437F354D"
+				item: { count: 1, id: "aoa3:lunar_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_crossbow"
+			}
+			id: "67A117BDD50E5204"
+			tasks: [{
+				consume_items: false
+				id: "788CB04777C40C1F"
+				item: { count: 1, id: "aoa3:lunar_crossbow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_greatblade"
+			}
+			id: "34BE90704BF5C6D1"
+			tasks: [{
+				consume_items: false
+				id: "50C3DA18C4020A41"
+				item: { count: 1, id: "aoa3:lunar_greatblade" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_staff"
+			}
+			id: "257829E240722674"
+			tasks: [{
+				consume_items: false
+				id: "2D8A581384CF903A"
+				item: { count: 1, id: "aoa3:lunar_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:luxon_scythe"
+			}
+			id: "7DE0EF2C60A42EE7"
+			tasks: [{
+				consume_items: false
+				id: "0BCBCF31C92AB245"
+				item: { count: 1, id: "aoa3:luxon_scythe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:luxon_stickler"
+			}
+			id: "396404D6228F8BC8"
+			tasks: [{
+				consume_items: false
+				id: "479C82BCAC6DE1D5"
+				item: { count: 1, id: "aoa3:luxon_stickler" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyonic_bardiche"
+			}
+			id: "72DB537DE576E88F"
+			tasks: [{
+				consume_items: false
+				id: "4ADFEF0F36594063"
+				item: { count: 1, id: "aoa3:lyonic_bardiche" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyonic_staff"
+			}
+			id: "72B2899FFB33E15F"
+			tasks: [{
+				consume_items: false
+				id: "41E9B59B5E31FB79"
+				item: { count: 1, id: "aoa3:lyonic_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mark_maker"
+			}
+			id: "5C2A1095ED5EBAA7"
+			tasks: [{
+				consume_items: false
+				id: "59C78078BF36DC48"
+				item: { count: 1, id: "aoa3:mark_maker" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mecha_blaster"
+			}
+			id: "2AD1A6F6FA414313"
+			tasks: [{
+				consume_items: false
+				id: "28F384C47264B4B2"
+				item: { count: 1, id: "aoa3:mecha_blaster" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mecha_bow"
+			}
+			id: "57A5500AA503723E"
+			tasks: [{
+				consume_items: false
+				id: "217C05A569C4C253"
+				item: { count: 1, id: "aoa3:mecha_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mecha_cannon"
+			}
+			id: "5FE8EF8DF6FC01C2"
+			tasks: [{
+				consume_items: false
+				id: "081C0F047D36D764"
+				item: { count: 1, id: "aoa3:mecha_cannon" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mecha_crossbow"
+			}
+			id: "0033C87C30FE3914"
+			tasks: [{
+				consume_items: false
+				id: "6A037334B228CE45"
+				item: { count: 1, id: "aoa3:mecha_crossbow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mecha_staff"
+			}
+			id: "1A59B0E969670161"
+			tasks: [{
+				consume_items: false
+				id: "0C244E606CDEFF3A"
+				item: { count: 1, id: "aoa3:mecha_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mechanical_assault_rifle"
+			}
+			id: "6823C83DF0F7FC96"
+			tasks: [{
+				consume_items: false
+				id: "5D8F6CD5E2E22B4D"
+				item: { count: 1, id: "aoa3:mechanical_assault_rifle" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mechyro"
+			}
+			id: "3A8B303E903FCD6E"
+			tasks: [{
+				consume_items: false
+				id: "5E1752885B61EA7C"
+				item: { count: 1, id: "aoa3:mechyro" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:megagun"
+			}
+			id: "75DF36910CE7C3E2"
+			tasks: [{
+				consume_items: false
+				id: "28E172C62BBEBE69"
+				item: { count: 1, id: "aoa3:megagun" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:meteor_staff"
+			}
+			id: "2E6D6503AA2C7B89"
+			tasks: [{
+				consume_items: false
+				id: "7C9DC0FA4127516A"
+				item: { count: 1, id: "aoa3:meteor_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:miasma"
+			}
+			id: "75F2B380F78DC476"
+			tasks: [{
+				consume_items: false
+				id: "7A2752FD90E03BF1"
+				item: { count: 1, id: "aoa3:miasma" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:millennium_greatblade"
+			}
+			id: "491D4B6B3F219643"
+			tasks: [{
+				consume_items: false
+				id: "0F7DA0BD9FDDEFE5"
+				item: { count: 1, id: "aoa3:millennium_greatblade" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mind_blaster"
+			}
+			id: "49BA9B83B1C0F303"
+			tasks: [{
+				consume_items: false
+				id: "4725D288CF1B0606"
+				item: { count: 1, id: "aoa3:mind_blaster" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mineral"
+			}
+			id: "7FEA2388D31AC448"
+			tasks: [{
+				consume_items: false
+				id: "36CA834C9F48BB71"
+				item: { count: 1, id: "aoa3:mineral" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mini_cannon"
+			}
+			id: "3DDF750049EA88D8"
+			tasks: [{
+				consume_items: false
+				id: "370776E36CB7DC87"
+				item: { count: 1, id: "aoa3:mini_cannon" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:minigun"
+			}
+			id: "758D5D6369AA488D"
+			tasks: [{
+				consume_items: false
+				id: "3AE0A93DF244306C"
+				item: { count: 1, id: "aoa3:minigun" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mint_magnum"
+			}
+			id: "7D335C15C03CFB2F"
+			tasks: [{
+				consume_items: false
+				id: "63503AF3279A5A1E"
+				item: { count: 1, id: "aoa3:mint_magnum" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:missile_maker"
+			}
+			id: "72BE207F160923E5"
+			tasks: [{
+				consume_items: false
+				id: "1F1ECAD3000A3F0B"
+				item: { count: 1, id: "aoa3:missile_maker" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mk"
+			}
+			id: "3967998019DFA619"
+			tasks: [{
+				consume_items: false
+				id: "10FB89A3010FAFC0"
+				item: { count: 1, id: "aoa3:mk" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mk_fung"
+			}
+			id: "2AB153DFFEC67735"
+			tasks: [{
+				consume_items: false
+				id: "07BCB2ACE482008C"
+				item: { count: 1, id: "aoa3:mk_fung" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:monster"
+			}
+			id: "6A8AE836B76A60E6"
+			tasks: [{
+				consume_items: false
+				id: "04C6B3412BC59ECC"
+				item: { count: 1, id: "aoa3:monster" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:moon_cannon"
+			}
+			id: "7EC5C06B5E0615AB"
+			tasks: [{
+				consume_items: false
+				id: "39E889E73D10D970"
+				item: { count: 1, id: "aoa3:moon_cannon" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:moon_destroyer"
+			}
+			id: "620EE0FCA3AEAF4B"
+			tasks: [{
+				consume_items: false
+				id: "29F9D20F90593A1B"
+				item: { count: 1, id: "aoa3:moon_destroyer" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:moon_maker"
+			}
+			id: "3596FD5F2BCF104B"
+			tasks: [{
+				consume_items: false
+				id: "78B06EBAE810E2C3"
+				item: { count: 1, id: "aoa3:moon_maker" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:moon_shiner"
+			}
+			id: "43C9FEF26700BA15"
+			tasks: [{
+				consume_items: false
+				id: "3F338D65685D5EA1"
+				item: { count: 1, id: "aoa3:moon_shiner" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:moonlight_staff"
+			}
+			id: "40AFB4277ABC830D"
+			tasks: [{
+				consume_items: false
+				id: "79CCA60261DE38DA"
+				item: { count: 1, id: "aoa3:moonlight_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nature_staff"
+			}
+			id: "21C73B41134EA2E6"
+			tasks: [{
+				consume_items: false
+				id: "734E01674A4B1E19"
+				item: { count: 1, id: "aoa3:nature_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethenette_rifle"
+			}
+			id: "19816858F612D125"
+			tasks: [{
+				consume_items: false
+				id: "738705FFC6830A93"
+				item: { count: 1, id: "aoa3:nethenette_rifle" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethengeic_slugger"
+			}
+			id: "582A6CC665C50C6D"
+			tasks: [{
+				consume_items: false
+				id: "74DCDB609706D29B"
+				item: { count: 1, id: "aoa3:nethengeic_slugger" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethengeic_sword"
+			}
+			id: "716F7F03F436410B"
+			tasks: [{
+				consume_items: false
+				id: "416A6B8E79E75169"
+				item: { count: 1, id: "aoa3:nethengeic_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nightmare_bow"
+			}
+			id: "053AE5118F2F922B"
+			tasks: [{
+				consume_items: false
+				id: "4796CE2E675B4D62"
+				item: { count: 1, id: "aoa3:nightmare_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nightmare_staff"
+			}
+			id: "0FAA330DFD7B77A3"
+			tasks: [{
+				consume_items: false
+				id: "3B49A823382BB539"
+				item: { count: 1, id: "aoa3:nightmare_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:noxious_partizan"
+			}
+			id: "4DC978A12D0363E1"
+			tasks: [{
+				consume_items: false
+				id: "7107D8A89E3C0497"
+				item: { count: 1, id: "aoa3:noxious_partizan" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:noxious_staff"
+			}
+			id: "4719407808813183"
+			tasks: [{
+				consume_items: false
+				id: "70D61FACC6C8428B"
+				item: { count: 1, id: "aoa3:noxious_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:occult_axe"
+			}
+			id: "557AC92DC3360597"
+			tasks: [{
+				consume_items: false
+				id: "6CC2158572F2AA11"
+				item: { count: 1, id: "aoa3:occult_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:odious"
+			}
+			id: "2DB4A7214513C746"
+			tasks: [{
+				consume_items: false
+				id: "3D8116EF046BA66D"
+				item: { count: 1, id: "aoa3:odious" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:orbocron"
+			}
+			id: "75B7F1FF46409AA3"
+			tasks: [{
+				consume_items: false
+				id: "257957B45A7E6715"
+				item: { count: 1, id: "aoa3:orbocron" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ornamyte_axe"
+			}
+			id: "41BA1C83679A636A"
+			tasks: [{
+				consume_items: false
+				id: "010C65122184AC51"
+				item: { count: 1, id: "aoa3:ornamyte_axe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:overshot"
+			}
+			id: "1C7B96AC750AD5BE"
+			tasks: [{
+				consume_items: false
+				id: "2EEA71013DD36A60"
+				item: { count: 1, id: "aoa3:overshot" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:paralyzer"
+			}
+			id: "562E63AD9AC84B53"
+			tasks: [{
+				consume_items: false
+				id: "73B4C380EAD2C553"
+				item: { count: 1, id: "aoa3:paralyzer" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:party_popper"
+			}
+			id: "7842E8C32B996632"
+			tasks: [{
+				consume_items: false
+				id: "0E56F7E0F51CC751"
+				item: { count: 1, id: "aoa3:party_popper" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:phantom_staff"
+			}
+			id: "14E0681F16898452"
+			tasks: [{
+				consume_items: false
+				id: "3DADDD0739EF1A2F"
+				item: { count: 1, id: "aoa3:phantom_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:pluton_scythe"
+			}
+			id: "45F8ECAA38FBFD39"
+			tasks: [{
+				consume_items: false
+				id: "20513BCC3D799FE9"
+				item: { count: 1, id: "aoa3:pluton_scythe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:pluton_stickler"
+			}
+			id: "40A322CA8562936D"
+			tasks: [{
+				consume_items: false
+				id: "57ADB680F1DB5FDB"
+				item: { count: 1, id: "aoa3:pluton_stickler" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_bow"
+			}
+			id: "58239763A16E6D54"
+			tasks: [{
+				consume_items: false
+				id: "3BD67472B2B43CD4"
+				item: { count: 1, id: "aoa3:poison_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_plunger"
+			}
+			id: "049340DACB0C8C40"
+			tasks: [{
+				consume_items: false
+				id: "38A35B95544367EF"
+				item: { count: 1, id: "aoa3:poison_plunger" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_staff"
+			}
+			id: "566CB63354269D4A"
+			tasks: [{
+				consume_items: false
+				id: "5A62DBF0073F8B5D"
+				item: { count: 1, id: "aoa3:poison_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_vulcane"
+			}
+			id: "56D924AFF6083DA5"
+			tasks: [{
+				consume_items: false
+				id: "54A04451A0B0B0CC"
+				item: { count: 1, id: "aoa3:poison_vulcane" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:power_ray"
+			}
+			id: "5AD73C6B0EF8DC27"
+			tasks: [{
+				consume_items: false
+				id: "79812456CFA906AE"
+				item: { count: 1, id: "aoa3:power_ray" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:power_staff"
+			}
+			id: "03A83B8741DE3922"
+			tasks: [{
+				consume_items: false
+				id: "24621A7D7F20F36C"
+				item: { count: 1, id: "aoa3:power_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:power_vulcane"
+			}
+			id: "73285F75D1C03D3F"
+			tasks: [{
+				consume_items: false
+				id: "65219FE72071F8CB"
+				item: { count: 1, id: "aoa3:power_vulcane" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:precasian_slugger"
+			}
+			id: "4E9B91A6284C9811"
+			tasks: [{
+				consume_items: false
+				id: "18DC6A49C5BF69AC"
+				item: { count: 1, id: "aoa3:precasian_slugger" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predatious_bow"
+			}
+			id: "2B00FED5BEBC5F59"
+			tasks: [{
+				consume_items: false
+				id: "6F28D864AFE219A9"
+				item: { count: 1, id: "aoa3:predatious_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predator"
+			}
+			id: "546A8DE0A7C6500D"
+			tasks: [{
+				consume_items: false
+				id: "0C87EFDF4F40C896"
+				item: { count: 1, id: "aoa3:predator" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predatorian_blaster"
+			}
+			id: "2FE181D1CB235DAF"
+			tasks: [{
+				consume_items: false
+				id: "46C8D41077DFDA3B"
+				item: { count: 1, id: "aoa3:predatorian_blaster" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predigun"
+			}
+			id: "697291C086F9179E"
+			tasks: [{
+				consume_items: false
+				id: "6DF8781533A3D115"
+				item: { count: 1, id: "aoa3:predigun" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primal_sword"
+			}
+			id: "35260CA6CE9ED9B2"
+			tasks: [{
+				consume_items: false
+				id: "45726294ABE3D57C"
+				item: { count: 1, id: "aoa3:primal_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_bow"
+			}
+			id: "0326B4A8C667A867"
+			tasks: [{
+				consume_items: false
+				id: "734853A2B4F52135"
+				item: { count: 1, id: "aoa3:primordial_bow" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_glaive"
+			}
+			id: "642D28AE5D4A86FB"
+			tasks: [{
+				consume_items: false
+				id: "4CD10ACDDDBDFAE6"
+				item: { count: 1, id: "aoa3:primordial_glaive" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_staff"
+			}
+			id: "6A03E59FC7B2ABAC"
+			tasks: [{
+				consume_items: false
+				id: "21A2E57282731487"
+				item: { count: 1, id: "aoa3:primordial_staff" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:proton"
+			}
+			id: "420A9EB9F9B62900"
+			tasks: [{
+				consume_items: false
+				id: "2D91E575D2A3F05D"
+				item: { count: 1, id: "aoa3:proton" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:pulsator"
+			}
+			id: "2F5E93F28F0B8756"
+			tasks: [{
+				consume_items: false
+				id: "5FD03931C91B9FCB"
+				item: { count: 1, id: "aoa3:pulsator" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:pulse_cannon"
+			}
+			id: "7F50EDA944D207CC"
+			tasks: [{
+				consume_items: false
+				id: "6CD28E115F19C9BC"
+				item: { count: 1, id: "aoa3:pulse_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purity_rifle"
+			}
+			id: "7F7CBCFB87178777"
+			tasks: [{
+				consume_items: false
+				id: "26623881A2070504"
+				item: { count: 1, id: "aoa3:purity_rifle" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purity_shotgun"
+			}
+			id: "68C2D0CF47477947"
+			tasks: [{
+				consume_items: false
+				id: "273C9A936B0C0BC0"
+				item: { count: 1, id: "aoa3:purity_shotgun" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purple_punisher"
+			}
+			id: "6B7B966D10C32FBF"
+			tasks: [{
+				consume_items: false
+				id: "3723FB48FD4ADDC3"
+				item: { count: 1, id: "aoa3:purple_punisher" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:pyro_crossbow"
+			}
+			id: "54D9F3B37DDAA1B1"
+			tasks: [{
+				consume_items: false
+				id: "28876C73FAA21F82"
+				item: { count: 1, id: "aoa3:pyro_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:red_rocket"
+			}
+			id: "1CC4696AB93A08EC"
+			tasks: [{
+				consume_items: false
+				id: "66E2E8E191A066D2"
+				item: { count: 1, id: "aoa3:red_rocket" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:reef_staff"
+			}
+			id: "6678A2DCDA07B1DB"
+			tasks: [{
+				consume_items: false
+				id: "34EF9BABEFE44BFC"
+				item: { count: 1, id: "aoa3:reef_staff" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:reefer"
+			}
+			id: "1F12094369C3322E"
+			tasks: [{
+				consume_items: false
+				id: "48F4DA6836E5B5AB"
+				item: { count: 1, id: "aoa3:reefer" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rejuvenation_staff"
+			}
+			id: "7E6A6C9BC50E57CA"
+			tasks: [{
+				consume_items: false
+				id: "11047387054F9EE1"
+				item: { count: 1, id: "aoa3:rejuvenation_staff" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:revolution"
+			}
+			id: "5D291292635BE5F5"
+			tasks: [{
+				consume_items: false
+				id: "084FB8867722107E"
+				item: { count: 1, id: "aoa3:revolution" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rock_pick_sword"
+			}
+			id: "3A757E00AECBD946"
+			tasks: [{
+				consume_items: false
+				id: "5DB518468BF347BD"
+				item: { count: 1, id: "aoa3:rock_pick_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rockbasher_sword"
+			}
+			id: "627EA8D141D955B8"
+			tasks: [{
+				consume_items: false
+				id: "34FF4FB9BF81CC54"
+				item: { count: 1, id: "aoa3:rockbasher_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rocker_rifle"
+			}
+			id: "000445B7604F32A3"
+			tasks: [{
+				consume_items: false
+				id: "7212BE63CE0E415B"
+				item: { count: 1, id: "aoa3:rocker_rifle" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosid_rifle"
+			}
+			id: "79316B91BBAA4E69"
+			tasks: [{
+				consume_items: false
+				id: "2F6BA9C91ADD128C"
+				item: { count: 1, id: "aoa3:rosid_rifle" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_bow"
+			}
+			id: "7CAF0D668D36FEBD"
+			tasks: [{
+				consume_items: false
+				id: "0ECD1AB9A868F0AD"
+				item: { count: 1, id: "aoa3:rosidian_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_crossbow"
+			}
+			id: "5BFDC8886DBF1DA3"
+			tasks: [{
+				consume_items: false
+				id: "3281AD93CF1B0278"
+				item: { count: 1, id: "aoa3:rosidian_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_greatblade"
+			}
+			id: "672CF69178054B6D"
+			tasks: [{
+				consume_items: false
+				id: "36A1A0650FE2D768"
+				item: { count: 1, id: "aoa3:rosidian_greatblade" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_staff"
+			}
+			id: "682EFCF07B3E1283"
+			tasks: [{
+				consume_items: false
+				id: "6DDBCA6B7AE6CBD4"
+				item: { count: 1, id: "aoa3:rosidian_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_sword"
+			}
+			id: "71AB0174D96C1509"
+			tasks: [{
+				consume_items: false
+				id: "22FBC22ECF757F2F"
+				item: { count: 1, id: "aoa3:rosidian_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:roulette"
+			}
+			id: "758F5DF389A627F3"
+			tasks: [{
+				consume_items: false
+				id: "601E908B5B0ED8F7"
+				item: { count: 1, id: "aoa3:roulette" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:royal_greatblade"
+			}
+			id: "62F34FE51ED2FC02"
+			tasks: [{
+				consume_items: false
+				id: "601611CB5EE31A7D"
+				item: { count: 1, id: "aoa3:royal_greatblade" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rpg"
+			}
+			id: "36ECFE96A6ED2B11"
+			tasks: [{
+				consume_items: false
+				id: "38EE1C3F232713E9"
+				item: { count: 1, id: "aoa3:rpg" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_bomb"
+			}
+			id: "1138EC2B99563580"
+			tasks: [{
+				consume_items: false
+				id: "71344C96E024D52E"
+				item: { count: 1, id: "aoa3:runic_bomb" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_bow"
+			}
+			id: "7C7E4B082E1DECD2"
+			tasks: [{
+				consume_items: false
+				id: "651ACCD59981CF99"
+				item: { count: 1, id: "aoa3:runic_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_greatblade"
+			}
+			id: "63D17119804B6B08"
+			tasks: [{
+				consume_items: false
+				id: "64F225210E3A0ED8"
+				item: { count: 1, id: "aoa3:runic_greatblade" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_staff"
+			}
+			id: "7DF6A2A914F2FDA5"
+			tasks: [{
+				consume_items: false
+				id: "3DBAB79709B13195"
+				item: { count: 1, id: "aoa3:runic_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_sword"
+			}
+			id: "26D48DBCB772271D"
+			tasks: [{
+				consume_items: false
+				id: "12527BB23173EA3D"
+				item: { count: 1, id: "aoa3:runic_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sabbath"
+			}
+			id: "6A5494709E20DB8C"
+			tasks: [{
+				consume_items: false
+				id: "05E77E67C017F6B9"
+				item: { count: 1, id: "aoa3:sabbath" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:screamer_bow"
+			}
+			id: "5540C3ABB4082215"
+			tasks: [{
+				consume_items: false
+				id: "3762A4DA3083A07E"
+				item: { count: 1, id: "aoa3:screamer_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:seaocron"
+			}
+			id: "5EE6570C455AEAE2"
+			tasks: [{
+				consume_items: false
+				id: "4C9CD745732E9C71"
+				item: { count: 1, id: "aoa3:seaocron" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:selyan_scythe"
+			}
+			id: "4CE527BD1A0B64FD"
+			tasks: [{
+				consume_items: false
+				id: "3E34AC6B3E4B1E4D"
+				item: { count: 1, id: "aoa3:selyan_scythe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:selyan_stickler"
+			}
+			id: "409D3AFF4A23689E"
+			tasks: [{
+				consume_items: false
+				id: "4B8DEE948FFDA9B4"
+				item: { count: 1, id: "aoa3:selyan_stickler" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shadow_blaster"
+			}
+			id: "683D8873E901C538"
+			tasks: [{
+				consume_items: false
+				id: "37F9DE82B632FCDC"
+				item: { count: 1, id: "aoa3:shadow_blaster" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shadow_sword"
+			}
+			id: "782BB1228177954E"
+			tasks: [{
+				consume_items: false
+				id: "52D23A4BECDFC885"
+				item: { count: 1, id: "aoa3:shadow_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shadowlord_staff"
+			}
+			id: "08FFD611CFD7C041"
+			tasks: [{
+				consume_items: false
+				id: "2EA6A4723E4DAB74"
+				item: { count: 1, id: "aoa3:shadowlord_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shoe_flinger"
+			}
+			id: "43EE5D624E4DACED"
+			tasks: [{
+				consume_items: false
+				id: "3E4D703C9FA9FFE4"
+				item: { count: 1, id: "aoa3:shoe_flinger" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:show_staff"
+			}
+			id: "693A24EE46D935D9"
+			tasks: [{
+				consume_items: false
+				id: "2447B54D45148526"
+				item: { count: 1, id: "aoa3:show_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shroomic_bardiche"
+			}
+			id: "7F12E2E4FC241876"
+			tasks: [{
+				consume_items: false
+				id: "6C19FA4279D7AA14"
+				item: { count: 1, id: "aoa3:shroomic_bardiche" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shroomus_sword"
+			}
+			id: "163369BD1610AD63"
+			tasks: [{
+				consume_items: false
+				id: "760882F3A76F4AA4"
+				item: { count: 1, id: "aoa3:shroomus_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shyre_blaster"
+			}
+			id: "07697209DC9CD02E"
+			tasks: [{
+				consume_items: false
+				id: "2C708D68DDCAF706"
+				item: { count: 1, id: "aoa3:shyre_blaster" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shyre_staff"
+			}
+			id: "582176D2D05BD25E"
+			tasks: [{
+				consume_items: false
+				id: "445569E4F48F6DA9"
+				item: { count: 1, id: "aoa3:shyre_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shyre_sword"
+			}
+			id: "7CBAEF94F936FF48"
+			tasks: [{
+				consume_items: false
+				id: "457287F2009E5030"
+				item: { count: 1, id: "aoa3:shyre_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:shyregem_bow"
+			}
+			id: "3BBA580B54911F31"
+			tasks: [{
+				consume_items: false
+				id: "03CF6DD738B04EF5"
+				item: { count: 1, id: "aoa3:shyregem_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_axe"
+			}
+			id: "3E687C23CD0400A4"
+			tasks: [{
+				consume_items: false
+				id: "13117847EDEC92A5"
+				item: { count: 1, id: "aoa3:skeletal_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_bow"
+			}
+			id: "687D2968DC6F829C"
+			tasks: [{
+				consume_items: false
+				id: "47488C832C4561E7"
+				item: { count: 1, id: "aoa3:skeletal_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_crossbow"
+			}
+			id: "6399E6D399EE4F19"
+			tasks: [{
+				consume_items: false
+				id: "1303DD0AE1EB83F3"
+				item: { count: 1, id: "aoa3:skeletal_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_sword"
+			}
+			id: "6271CB6B5621C296"
+			tasks: [{
+				consume_items: false
+				id: "2C8A7D47E27DA919"
+				item: { count: 1, id: "aoa3:skeletal_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skullette"
+			}
+			id: "68758FE9CAC8F894"
+			tasks: [{
+				consume_items: false
+				id: "33D472D0B9E0BC8D"
+				item: { count: 1, id: "aoa3:skullette" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skullifact"
+			}
+			id: "5A4234FDE0AE3CAB"
+			tasks: [{
+				consume_items: false
+				id: "4701FEF84907ACC6"
+				item: { count: 1, id: "aoa3:skullifact" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skullo_blaster"
+			}
+			id: "36F8624ADAAA06ED"
+			tasks: [{
+				consume_items: false
+				id: "479C3C60457CA6E6"
+				item: { count: 1, id: "aoa3:skullo_blaster" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sky_staff"
+			}
+			id: "4DBB518345505F78"
+			tasks: [{
+				consume_items: false
+				id: "345ECC4C90831131"
+				item: { count: 1, id: "aoa3:sky_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skydriver_bow"
+			}
+			id: "36A47A7C14C72780"
+			tasks: [{
+				consume_items: false
+				id: "5EDBFDEB71D34E8C"
+				item: { count: 1, id: "aoa3:skydriver_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:slice_star"
+			}
+			id: "0E953629F1659B7E"
+			tasks: [{
+				consume_items: false
+				id: "336302FAE88B81EF"
+				item: { count: 1, id: "aoa3:slice_star" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:slingshot"
+			}
+			id: "57539F759E9828C8"
+			tasks: [{
+				consume_items: false
+				id: "40A10CD0A3A705D2"
+				item: { count: 1, id: "aoa3:slingshot" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sludge_sniper"
+			}
+			id: "032F2FC341227CF5"
+			tasks: [{
+				consume_items: false
+				id: "2CB0D9C555B39A45"
+				item: { count: 1, id: "aoa3:sludge_sniper" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:smile_blaster"
+			}
+			id: "06A07C0D3F6C4B25"
+			tasks: [{
+				consume_items: false
+				id: "3639F1EF30DD60EB"
+				item: { count: 1, id: "aoa3:smile_blaster" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:soul_drainer"
+			}
+			id: "307CD4BD08284744"
+			tasks: [{
+				consume_items: false
+				id: "052F98C3AD59617A"
+				item: { count: 1, id: "aoa3:soul_drainer" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:soul_spark"
+			}
+			id: "655D2FD738EB5BE2"
+			tasks: [{
+				consume_items: false
+				id: "40B60CF05755C5DD"
+				item: { count: 1, id: "aoa3:soul_spark" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:soul_storm"
+			}
+			id: "5683DA7E070465F0"
+			tasks: [{
+				consume_items: false
+				id: "40B0DFCD3C3B4459"
+				item: { count: 1, id: "aoa3:soul_storm" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:soulfire_bow"
+			}
+			id: "0AC9E1074652DDBB"
+			tasks: [{
+				consume_items: false
+				id: "62A2C809837815D3"
+				item: { count: 1, id: "aoa3:soulfire_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:soulstone_axe"
+			}
+			id: "1A73F7F6792B8775"
+			tasks: [{
+				consume_items: false
+				id: "2F2DFFA44D482D64"
+				item: { count: 1, id: "aoa3:soulstone_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spectacle"
+			}
+			id: "66D1C826F616BCDF"
+			tasks: [{
+				consume_items: false
+				id: "7CE5AEA7DA1D658D"
+				item: { count: 1, id: "aoa3:spectacle" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spectral_bow"
+			}
+			id: "0E96BD3F2F47CF14"
+			tasks: [{
+				consume_items: false
+				id: "543FBABA87835D6C"
+				item: { count: 1, id: "aoa3:spectral_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spectral_crossbow"
+			}
+			id: "30853713E6DD03DA"
+			tasks: [{
+				consume_items: false
+				id: "60D0850B8CB60E59"
+				item: { count: 1, id: "aoa3:spectral_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:speed_bow"
+			}
+			id: "5E477BE66C75AA0F"
+			tasks: [{
+				consume_items: false
+				id: "1AA8C4C31060BC7F"
+				item: { count: 1, id: "aoa3:speed_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spine_gun"
+			}
+			id: "40E1768843190789"
+			tasks: [{
+				consume_items: false
+				id: "5A687AD3822DE905"
+				item: { count: 1, id: "aoa3:spine_gun" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spirit_shower"
+			}
+			id: "2C07259AC42E21F2"
+			tasks: [{
+				consume_items: false
+				id: "3B558F666D940F64"
+				item: { count: 1, id: "aoa3:spirit_shower" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:squad_gun"
+			}
+			id: "78BC594812D7D174"
+			tasks: [{
+				consume_items: false
+				id: "73FFCD6896185DFE"
+				item: { count: 1, id: "aoa3:squad_gun" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:stampede"
+			}
+			id: "08BD675D40C5FB5F"
+			tasks: [{
+				consume_items: false
+				id: "6FAA27D09F73660B"
+				item: { count: 1, id: "aoa3:stampede" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:stormer"
+			}
+			id: "7B88527AE8A3408C"
+			tasks: [{
+				consume_items: false
+				id: "079584C765D00262"
+				item: { count: 1, id: "aoa3:stormer" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:striker_staff"
+			}
+			id: "5E3DA3FD17BEA1D8"
+			tasks: [{
+				consume_items: false
+				id: "148268046BBF86E4"
+				item: { count: 1, id: "aoa3:striker_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sublimus"
+			}
+			id: "41ADC4580F530052"
+			tasks: [{
+				consume_items: false
+				id: "1B3998B70823EC00"
+				item: { count: 1, id: "aoa3:sublimus" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:subterranean_greatblade"
+			}
+			id: "377491AA7B938D56"
+			tasks: [{
+				consume_items: false
+				id: "108435B08FB119BB"
+				item: { count: 1, id: "aoa3:subterranean_greatblade" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sun_staff"
+			}
+			id: "16F2617AECE0622F"
+			tasks: [{
+				consume_items: false
+				id: "366A6ECB404EDC93"
+				item: { count: 1, id: "aoa3:sun_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sunshine_bow"
+			}
+			id: "0069DC3A487DA869"
+			tasks: [{
+				consume_items: false
+				id: "72C92ECE49EE2DEA"
+				item: { count: 1, id: "aoa3:sunshine_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:super_cannon"
+			}
+			id: "10C343F6A32F312A"
+			tasks: [{
+				consume_items: false
+				id: "41E27679BFE3B3CE"
+				item: { count: 1, id: "aoa3:super_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:supremacy_sword"
+			}
+			id: "38B05F6F8D3E77EA"
+			tasks: [{
+				consume_items: false
+				id: "2FB69AE34C3C0ED8"
+				item: { count: 1, id: "aoa3:supremacy_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:surge_staff"
+			}
+			id: "4B701948DDAA3D23"
+			tasks: [{
+				consume_items: false
+				id: "372FACF04CCE81B1"
+				item: { count: 1, id: "aoa3:surge_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:swarmotron"
+			}
+			id: "180B99535BB9127B"
+			tasks: [{
+				consume_items: false
+				id: "04D2309EDD29D85C"
+				item: { count: 1, id: "aoa3:swarmotron" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sweet_sword"
+			}
+			id: "06D79BE300EABBB6"
+			tasks: [{
+				consume_items: false
+				id: "4AC6716125054A4B"
+				item: { count: 1, id: "aoa3:sweet_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sweet_tooth"
+			}
+			id: "6533EBE93E040AE6"
+			tasks: [{
+				consume_items: false
+				id: "152EF18A98D1769F"
+				item: { count: 1, id: "aoa3:sweet_tooth" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:tangle_staff"
+			}
+			id: "23A6E4ACBAFB2BD1"
+			tasks: [{
+				consume_items: false
+				id: "116B92C2B1BCD03E"
+				item: { count: 1, id: "aoa3:tangle_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:terminator"
+			}
+			id: "7102EC91BE474302"
+			tasks: [{
+				consume_items: false
+				id: "6EFCDA20B03C1309"
+				item: { count: 1, id: "aoa3:terminator" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:tidal_greatblade"
+			}
+			id: "2835D0D557D4C0D3"
+			tasks: [{
+				consume_items: false
+				id: "33E13BE3710F9B1E"
+				item: { count: 1, id: "aoa3:tidal_greatblade" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:tiger_tommy"
+			}
+			id: "5A5A75258F646D94"
+			tasks: [{
+				consume_items: false
+				id: "68C6862FB929AB45"
+				item: { count: 1, id: "aoa3:tiger_tommy" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:tommy"
+			}
+			id: "34FC07734A607848"
+			tasks: [{
+				consume_items: false
+				id: "4C8DCA73BE739035"
+				item: { count: 1, id: "aoa3:tommy" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:toxic_terrorizer"
+			}
+			id: "31B1AF0C77A2A5FA"
+			tasks: [{
+				consume_items: false
+				id: "0E79F3CC628545F6"
+				item: { count: 1, id: "aoa3:toxic_terrorizer" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:toxin_bow"
+			}
+			id: "7597B5F436DDF329"
+			tasks: [{
+				consume_items: false
+				id: "1AEB1DBA1E6E25A5"
+				item: { count: 1, id: "aoa3:toxin_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:troll_basher_axe"
+			}
+			id: "6741A19F40E6726E"
+			tasks: [{
+				consume_items: false
+				id: "1050A3E2BCEAFC19"
+				item: { count: 1, id: "aoa3:troll_basher_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:trolls_crossbow"
+			}
+			id: "30379CAC87554618"
+			tasks: [{
+				consume_items: false
+				id: "0225581A03D4B195"
+				item: { count: 1, id: "aoa3:trolls_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ultimatum_staff"
+			}
+			id: "37E263D851474B99"
+			tasks: [{
+				consume_items: false
+				id: "22F6CFB4B4DDD86C"
+				item: { count: 1, id: "aoa3:ultimatum_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ultra_cannon"
+			}
+			id: "63F5DA5FAC58B84D"
+			tasks: [{
+				consume_items: false
+				id: "0691FA61C723F61A"
+				item: { count: 1, id: "aoa3:ultra_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ultraflame"
+			}
+			id: "398E5F210F782714"
+			tasks: [{
+				consume_items: false
+				id: "7FB069088EDAEDE9"
+				item: { count: 1, id: "aoa3:ultraflame" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:underworld_glaive"
+			}
+			id: "6EFD2B706D715A75"
+			tasks: [{
+				consume_items: false
+				id: "7C9604C3AB9CC0E5"
+				item: { count: 1, id: "aoa3:underworld_glaive" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:underworld_staff"
+			}
+			id: "784F4F75CA04A095"
+			tasks: [{
+				consume_items: false
+				id: "6D24E2D16FCF3ED1"
+				item: { count: 1, id: "aoa3:underworld_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vile_vanquisher"
+			}
+			id: "46BC27D5BE4CD555"
+			tasks: [{
+				consume_items: false
+				id: "457CCD1070B3E489"
+				item: { count: 1, id: "aoa3:vile_vanquisher" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:viper_1"
+			}
+			id: "1C371147DD02CB6E"
+			tasks: [{
+				consume_items: false
+				id: "7295C9BEE13D9BF7"
+				item: { count: 1, id: "aoa3:viper_1" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:viral_crossbow"
+			}
+			id: "36A3D9EA23F296F2"
+			tasks: [{
+				consume_items: false
+				id: "046CF16F9CA50F58"
+				item: { count: 1, id: "aoa3:viral_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vivo"
+			}
+			id: "50CA2FD3B68682B9"
+			tasks: [{
+				consume_items: false
+				id: "6B59E9DF08E6FD78"
+				item: { count: 1, id: "aoa3:vivo" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:void_bow"
+			}
+			id: "0D6BB3D4635EA6E6"
+			tasks: [{
+				consume_items: false
+				id: "0A2B5EA3DEE4C5A4"
+				item: { count: 1, id: "aoa3:void_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:void_sword"
+			}
+			id: "72F6E6E81A9FC285"
+			tasks: [{
+				consume_items: false
+				id: "29B325DFFB5E253F"
+				item: { count: 1, id: "aoa3:void_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vortex_blaster"
+			}
+			id: "363FF59798F7775C"
+			tasks: [{
+				consume_items: false
+				id: "7BEB8961308E3900"
+				item: { count: 1, id: "aoa3:vortex_blaster" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vox_cannon"
+			}
+			id: "327727E7AEEA4CF1"
+			tasks: [{
+				consume_items: false
+				id: "52883E61C1A09DE7"
+				item: { count: 1, id: "aoa3:vox_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vulcammer_maul"
+			}
+			id: "30D6BC5128F5A5F8"
+			tasks: [{
+				consume_items: false
+				id: "24BB0A9DD3272EFE"
+				item: { count: 1, id: "aoa3:vulcammer_maul" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vulcane"
+			}
+			id: "4DE8579A476C5759"
+			tasks: [{
+				consume_items: false
+				id: "0E5DE2B29A035FA4"
+				item: { count: 1, id: "aoa3:vulcane" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:vulkram"
+			}
+			id: "4D7ACE8C26D47B80"
+			tasks: [{
+				consume_items: false
+				id: "5360717DA166249A"
+				item: { count: 1, id: "aoa3:vulkram" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:warlock_staff"
+			}
+			id: "222EC8D8311A9CDD"
+			tasks: [{
+				consume_items: false
+				id: "5F7EFDD05EC90358"
+				item: { count: 1, id: "aoa3:warlock_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wart_gun"
+			}
+			id: "63C889E8D940863E"
+			tasks: [{
+				consume_items: false
+				id: "170B3899BF733D70"
+				item: { count: 1, id: "aoa3:wart_gun" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:water_balloon_bomber"
+			}
+			id: "5F5D9BF5A45C9962"
+			tasks: [{
+				consume_items: false
+				id: "28BE6EC05F805139"
+				item: { count: 1, id: "aoa3:water_balloon_bomber" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:water_staff"
+			}
+			id: "2760CF0EF8412665"
+			tasks: [{
+				consume_items: false
+				id: "2C561475AFB63CCE"
+				item: { count: 1, id: "aoa3:water_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:waterlogged_aqua_cannon"
+			}
+			id: "30253F690BC71A08"
+			tasks: [{
+				consume_items: false
+				id: "4F15B8470E93F5E9"
+				item: { count: 1, id: "aoa3:waterlogged_aqua_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:waterlogged_coral_cannon"
+			}
+			id: "7E70876982B05037"
+			tasks: [{
+				consume_items: false
+				id: "4B24E18377544479"
+				item: { count: 1, id: "aoa3:waterlogged_coral_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:waterlogged_coral_clogger"
+			}
+			id: "37E8CC66ACAB8694"
+			tasks: [{
+				consume_items: false
+				id: "0EDE8261DCB1D559"
+				item: { count: 1, id: "aoa3:waterlogged_coral_clogger" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:waterlogged_coral_crossbow"
+			}
+			id: "53F1409BC0E28B32"
+			tasks: [{
+				consume_items: false
+				id: "185CA6F228BBA212"
+				item: { count: 1, id: "aoa3:waterlogged_coral_crossbow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:waterlogged_reefer"
+			}
+			id: "5A91B52ABFF7F612"
+			tasks: [{
+				consume_items: false
+				id: "0F6CCA229B94D047"
+				item: { count: 1, id: "aoa3:waterlogged_reefer" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:weaken_bow"
+			}
+			id: "74A8E172C5359947"
+			tasks: [{
+				consume_items: false
+				id: "2C94EA9B757EAD29"
+				item: { count: 1, id: "aoa3:weaken_bow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:web_staff"
+			}
+			id: "68B7E2FC08E2C84C"
+			tasks: [{
+				consume_items: false
+				id: "31B2E521187EE5A7"
+				item: { count: 1, id: "aoa3:web_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:whimsy_winder"
+			}
+			id: "029DB37ADDBA0102"
+			tasks: [{
+				consume_items: false
+				id: "42520DEBD35A0D5D"
+				item: { count: 1, id: "aoa3:whimsy_winder" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wind_staff"
+			}
+			id: "413A58C85CEC8378"
+			tasks: [{
+				consume_items: false
+				id: "46CB12A625876B04"
+				item: { count: 1, id: "aoa3:wind_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_bow"
+			}
+			id: "7B1655874E5A652F"
+			tasks: [{
+				consume_items: false
+				id: "3D564F97E8FEA4BE"
+				item: { count: 1, id: "aoa3:wither_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_cannon"
+			}
+			id: "3393F59AAD0B3477"
+			tasks: [{
+				consume_items: false
+				id: "300A4F01E214BF05"
+				item: { count: 1, id: "aoa3:wither_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_staff"
+			}
+			id: "68E0D03E25B0BD6A"
+			tasks: [{
+				consume_items: false
+				id: "020E28F56440845D"
+				item: { count: 1, id: "aoa3:wither_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_vulcane"
+			}
+			id: "0E4345E68D150184"
+			tasks: [{
+				consume_items: false
+				id: "4C4C0E23F05EAAF0"
+				item: { count: 1, id: "aoa3:wither_vulcane" }
+				type: "item"
+			}]
+			x: 38.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:withers_wrath"
+			}
+			id: "71F96E12AC46A2B6"
+			tasks: [{
+				consume_items: false
+				id: "6B700E746DDC210B"
+				item: { count: 1, id: "aoa3:withers_wrath" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wizards_staff"
+			}
+			id: "05EE86AD05F1825B"
+			tasks: [{
+				consume_items: false
+				id: "7EF2147C691F90E3"
+				item: { count: 1, id: "aoa3:wizards_staff" }
+				type: "item"
+			}]
+			x: 39.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wrecker"
+			}
+			id: "3EFFBDA41980D3D9"
+			tasks: [{
+				consume_items: false
+				id: "1DEF4209626E1387"
+				item: { count: 1, id: "aoa3:wrecker" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:blaze_axe"
+			}
+			id: "76E2304A6B268AB5"
+			tasks: [{
+				consume_items: false
+				id: "3BA258243A42200A"
+				item: { count: 1, id: "avaritia:blaze_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:blaze_bow"
+			}
+			id: "33086083E9A460A4"
+			tasks: [{
+				consume_items: false
+				id: "72896D173E1C5699"
+				item: { count: 1, id: "avaritia:blaze_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:blaze_sword"
+			}
+			id: "21F6AF983CB5C4F6"
+			tasks: [{
+				consume_items: false
+				id: "7C2F77A89EDD4B76"
+				item: { count: 1, id: "avaritia:blaze_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:crystal_axe"
+			}
+			id: "43D04C280F2BC40E"
+			tasks: [{
+				consume_items: false
+				id: "6E1FA549B352E5AC"
+				item: { count: 1, id: "avaritia:crystal_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:crystal_bow"
+			}
+			id: "61602604ECCFAE31"
+			tasks: [{
+				consume_items: false
+				id: "54A5F977E2260FC0"
+				item: { count: 1, id: "avaritia:crystal_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:crystal_sword"
+			}
+			id: "6AFA6A9D307796CB"
+			tasks: [{
+				consume_items: false
+				id: "0D2132DF3BD6D657"
+				item: { count: 1, id: "avaritia:crystal_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_axe"
+			}
+			id: "13F87B88A1FC1337"
+			tasks: [{
+				consume_items: false
+				id: "7856E60CA4610517"
+				item: { count: 1, id: "avaritia:infinity_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_bow"
+			}
+			id: "40C8AEEBA74C34B6"
+			tasks: [{
+				consume_items: false
+				id: "00845D1A0C3C08F8"
+				item: { count: 1, id: "avaritia:infinity_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_crossbow"
+			}
+			id: "00EC073B088DB4DD"
+			tasks: [{
+				consume_items: false
+				id: "06553A0054264737"
+				item: { count: 1, id: "avaritia:infinity_crossbow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_mace"
+			}
+			id: "29781E557CED6BA6"
+			tasks: [{
+				consume_items: false
+				id: "2512D74B9FF1E785"
+				item: { count: 1, id: "avaritia:infinity_mace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_sword"
+			}
+			id: "69BB7B7CEB6A5461"
+			tasks: [{
+				consume_items: false
+				id: "0A2EF516A66B30D3"
+				item: { count: 1, id: "avaritia:infinity_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_trident"
+			}
+			id: "69D7827A11EB4161"
+			tasks: [{
+				consume_items: false
+				id: "2EC638B8D667DEDF"
+				item: { count: 1, id: "avaritia:infinity_trident" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "create:cardboard_sword"
+			}
+			id: "5E2C4223CA28EB87"
+			tasks: [{
+				consume_items: false
+				id: "74B085FFB0CC6CC2"
+				item: { count: 1, id: "create:cardboard_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "create:potato_cannon"
+			}
+			id: "354320D2130FEA68"
+			tasks: [{
+				consume_items: false
+				id: "35FF974CB0D27467"
+				item: { count: 1, id: "create:potato_cannon" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:resonarium_axe"
+			}
+			id: "7A185AAD53FDB58A"
+			tasks: [{
+				consume_items: false
+				id: "5A973D50CA45D85E"
+				item: { count: 1, id: "deeperdarker:resonarium_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:resonarium_sword"
+			}
+			id: "18FF77DD97D2E163"
+			tasks: [{
+				consume_items: false
+				id: "5CC91AD9A6B08F28"
+				item: { count: 1, id: "deeperdarker:resonarium_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:sonorous_staff"
+			}
+			id: "4940ECFBEEAAAB56"
+			tasks: [{
+				consume_items: false
+				id: "69699D00022D70A5"
+				item: { count: 1, id: "deeperdarker:sonorous_staff" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:warden_axe"
+			}
+			id: "7B8A0FC09427BEDD"
+			tasks: [{
+				consume_items: false
+				id: "346DBCE7E6A5234D"
+				item: { count: 1, id: "deeperdarker:warden_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:warden_sword"
+			}
+			id: "6BB477B7ED5EEAD4"
+			tasks: [{
+				consume_items: false
+				id: "438A87545FEF0269"
+				item: { count: 1, id: "deeperdarker:warden_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:chaotic_axe"
+			}
+			id: "0701CE5D55337677"
+			tasks: [{
+				consume_items: false
+				id: "6F39503DDD5E507B"
+				item: { count: 1, id: "draconicevolution:chaotic_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:chaotic_bow"
+			}
+			id: "2292402B50BF2AAD"
+			tasks: [{
+				consume_items: false
+				id: "1B4D07CB498DD7BE"
+				item: { count: 1, id: "draconicevolution:chaotic_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:chaotic_staff"
+			}
+			id: "405508F724A1F2B5"
+			tasks: [{
+				consume_items: false
+				id: "601983C6F35A4A17"
+				item: { count: 1, id: "draconicevolution:chaotic_staff" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:chaotic_sword"
+			}
+			id: "209C989660E5713A"
+			tasks: [{
+				consume_items: false
+				id: "076199F1078BB17A"
+				item: { count: 1, id: "draconicevolution:chaotic_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:draconic_axe"
+			}
+			id: "4BFB63A99F146D08"
+			tasks: [{
+				consume_items: false
+				id: "3FF8700B15CD69F2"
+				item: { count: 1, id: "draconicevolution:draconic_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:draconic_bow"
+			}
+			id: "774045AD3A44C926"
+			tasks: [{
+				consume_items: false
+				id: "2BCE2348059398AD"
+				item: { count: 1, id: "draconicevolution:draconic_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:draconic_staff"
+			}
+			id: "2BA8D849F94E14B4"
+			tasks: [{
+				consume_items: false
+				id: "51AD0586ACFF510D"
+				item: { count: 1, id: "draconicevolution:draconic_staff" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:draconic_sword"
+			}
+			id: "14E87EF7B8117D0C"
+			tasks: [{
+				consume_items: false
+				id: "14D1C41A6C061732"
+				item: { count: 1, id: "draconicevolution:draconic_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:wyvern_axe"
+			}
+			id: "4E3C40E0DDA77CB4"
+			tasks: [{
+				consume_items: false
+				id: "7D4986CB49B59437"
+				item: { count: 1, id: "draconicevolution:wyvern_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:wyvern_bow"
+			}
+			id: "29AD2E0E6DBD35BF"
+			tasks: [{
+				consume_items: false
+				id: "0098399B6B98E36B"
+				item: { count: 1, id: "draconicevolution:wyvern_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:wyvern_sword"
+			}
+			id: "42AD1B71C43A8345"
+			tasks: [{
+				consume_items: false
+				id: "75BE4EE51625075C"
+				item: { count: 1, id: "draconicevolution:wyvern_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "enderio:dark_steel_sword"
+			}
+			id: "5D9DD69C26A9F314"
+			tasks: [{
+				consume_items: false
+				id: "6E66F15996757519"
+				item: { count: 1, id: "enderio:dark_steel_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "enderio:staff_of_levity"
+			}
+			id: "60BE8097A291965B"
+			tasks: [{
+				consume_items: false
+				id: "31EEA0CB1E859D8C"
+				item: { count: 1, id: "enderio:staff_of_levity" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "excessive_utilities:compound_bow"
+			}
+			id: "1D1BC29040ACE6B1"
+			tasks: [{
+				consume_items: false
+				id: "64619F9D80289558"
+				item: { count: 1, id: "excessive_utilities:compound_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "excessive_utilities:etheric_sword"
+			}
+			id: "02089FC9E9D72E1C"
+			tasks: [{
+				consume_items: false
+				id: "2024AD1D0788DA68"
+				item: { count: 1, id: "excessive_utilities:etheric_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "excessive_utilities:fire_axe"
+			}
+			id: "7A6468B22C8AF0AB"
+			tasks: [{
+				consume_items: false
+				id: "1D3C4F9EAD348F81"
+				item: { count: 1, id: "excessive_utilities:fire_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "excessive_utilities:healing_axe"
+			}
+			id: "6E4E95F3B2E6A2DF"
+			tasks: [{
+				consume_items: false
+				id: "6F053F7F1F2D08E6"
+				item: { count: 1, id: "excessive_utilities:healing_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "excessive_utilities:magical_boomerang"
+			}
+			id: "7FB223264862335B"
+			tasks: [{
+				consume_items: false
+				id: "76DB589B661BF529"
+				item: { count: 1, id: "excessive_utilities:magical_boomerang" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"flavor_immersed_daily:infinite_logging": 3
+						}
+					}
+				}
+				id: "flavor_immersed_daily:wugang_axe"
+			}
+			id: "32383D60A94697A1"
+			tasks: [{
+				consume_items: false
+				id: "5AA35509214CF3B6"
+				item: { components: { "minecraft:enchantments": { levels: { "flavor_immersed_daily:infinite_logging": 3 } } }, count: 1, id: "flavor_immersed_daily:wugang_axe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:iron_kitchen_knife"
+			}
+			id: "652F82FEFA52FCA0"
+			tasks: [{
+				consume_items: false
+				id: "46ABDDE70C52C569"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kaleidoscope_cookery:kitchen_knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_end:dragon_tooth_knife"
+			}
+			id: "48F3FD5B5364326B"
+			tasks: [{
+				consume_items: false
+				id: "000046043A9E1BCD"
+				item: { count: 1, id: "kaleidoscope_end:dragon_tooth_knife" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_nether:primitive_machete"
+			}
+			id: "5904E5427D32C87A"
+			tasks: [{
+				consume_items: false
+				id: "252E7497C0D195DD"
+				item: { count: 1, id: "kaleidoscope_nether:primitive_machete" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_twilight:hot_tear_sword"
+			}
+			id: "43766998D28840C7"
+			tasks: [{
+				consume_items: false
+				id: "453BE0756E2C8AE7"
+				item: { count: 1, id: "kaleidoscope_twilight:hot_tear_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:eagle_bow"
+			}
+			id: "446AC616ACF81092"
+			tasks: [{
+				consume_items: false
+				id: "23F6C93C04DB7AE4"
+				item: { count: 1, id: "l2archery:eagle_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:earth_bow"
+			}
+			id: "7E3D7C52D795A175"
+			tasks: [{
+				consume_items: false
+				id: "230F71685BA1B389"
+				item: { count: 1, id: "l2archery:earth_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:ender_aim_bow"
+			}
+			id: "783D52BDC7A66636"
+			tasks: [{
+				consume_items: false
+				id: "1A43E9270EE0BF00"
+				item: { count: 1, id: "l2archery:ender_aim_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:explosion_bow"
+			}
+			id: "574095E8A33B6B57"
+			tasks: [{
+				consume_items: false
+				id: "361EDEA9BE6CEECF"
+				item: { count: 1, id: "l2archery:explosion_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:flame_bow"
+			}
+			id: "718EEB540E4F41FE"
+			tasks: [{
+				consume_items: false
+				id: "4D6E29CCFA3499DD"
+				item: { count: 1, id: "l2archery:flame_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:froze_bow"
+			}
+			id: "5C88B77E782CB27E"
+			tasks: [{
+				consume_items: false
+				id: "66B14859B0A18D03"
+				item: { count: 1, id: "l2archery:froze_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:gaia_bow"
+			}
+			id: "31BC9C22A6EFEC1E"
+			tasks: [{
+				consume_items: false
+				id: "73A35DCD56BA18AA"
+				item: { count: 1, id: "l2archery:gaia_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:glow_aim_bow"
+			}
+			id: "50317B5DC43E7BF3"
+			tasks: [{
+				consume_items: false
+				id: "4083583486082959"
+				item: { count: 1, id: "l2archery:glow_aim_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:iron_bow"
+			}
+			id: "6EF3D04FCAC16956"
+			tasks: [{
+				consume_items: false
+				id: "38F0D164338087BB"
+				item: { count: 1, id: "l2archery:iron_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:magnify_bow"
+			}
+			id: "3DEAF082CB4B9C6D"
+			tasks: [{
+				consume_items: false
+				id: "32B2F6247F204847"
+				item: { count: 1, id: "l2archery:magnify_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:master_bow"
+			}
+			id: "5A5CDDBDCFE66507"
+			tasks: [{
+				consume_items: false
+				id: "6456A252675D5D3B"
+				item: { count: 1, id: "l2archery:master_bow" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:slow_bow"
+			}
+			id: "4C5ABBAF8CEA6CD9"
+			tasks: [{
+				consume_items: false
+				id: "13E6037F57A79FD3"
+				item: { count: 1, id: "l2archery:slow_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:starter_bow"
+			}
+			id: "4C7D72260C06A513"
+			tasks: [{
+				consume_items: false
+				id: "6278AADD02F9F28F"
+				item: { count: 1, id: "l2archery:starter_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:storm_bow"
+			}
+			id: "24262FD6A2212FD6"
+			tasks: [{
+				consume_items: false
+				id: "483B87466E873DBF"
+				item: { count: 1, id: "l2archery:storm_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:turtle_bow"
+			}
+			id: "22A131CDE50E728F"
+			tasks: [{
+				consume_items: false
+				id: "45829E380C791539"
+				item: { count: 1, id: "l2archery:turtle_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:void_bow"
+			}
+			id: "748CB3D33349B440"
+			tasks: [{
+				consume_items: false
+				id: "7C0AEEEFF6D727A6"
+				item: { count: 1, id: "l2archery:void_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:wind_bow"
+			}
+			id: "330D8A5BFC1776A7"
+			tasks: [{
+				consume_items: false
+				id: "5ADA00D5A91E71C3"
+				item: { count: 1, id: "l2archery:wind_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:winter_bow"
+			}
+			id: "4323AA3D5F68D2EC"
+			tasks: [{
+				consume_items: false
+				id: "6FC60648658E3CA3"
+				item: { count: 1, id: "l2archery:winter_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:diffusion_wand"
+			}
+			id: "1DA4DB5D281A3582"
+			tasks: [{
+				consume_items: false
+				id: "426ED8B5403C07CC"
+				item: { count: 1, id: "l2complements:diffusion_wand" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:eternium_axe"
+			}
+			id: "4451946489E48E26"
+			tasks: [{
+				consume_items: false
+				id: "03373A4582DF18EF"
+				item: { count: 1, id: "l2complements:eternium_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:eternium_sword"
+			}
+			id: "20C6C0E5A9F2F692"
+			tasks: [{
+				consume_items: false
+				id: "0710D3E3EAAE60BC"
+				item: { count: 1, id: "l2complements:eternium_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:hellfire_wand"
+			}
+			id: "0E8D70347C078A34"
+			tasks: [{
+				consume_items: false
+				id: "31E96B187561FB58"
+				item: { count: 1, id: "l2complements:hellfire_wand" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:poseidite_axe"
+			}
+			id: "4BCE4623A86EFE33"
+			tasks: [{
+				consume_items: false
+				id: "5BDA42AAE79E9A69"
+				item: { count: 1, id: "l2complements:poseidite_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:poseidite_sword"
+			}
+			id: "03810EB637E6019E"
+			tasks: [{
+				consume_items: false
+				id: "63C590CF6007B18C"
+				item: { count: 1, id: "l2complements:poseidite_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:scepter_of_boreas"
+			}
+			id: "462C715A8FC126AB"
+			tasks: [{
+				consume_items: false
+				id: "1E0868FC683B5E7F"
+				item: { count: 1, id: "l2complements:scepter_of_boreas" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:scepter_of_helios"
+			}
+			id: "61D4FFA788CBF511"
+			tasks: [{
+				consume_items: false
+				id: "42EABE819A582160"
+				item: { count: 1, id: "l2complements:scepter_of_helios" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sculkium_axe"
+			}
+			id: "4571F96A9A819F7C"
+			tasks: [{
+				consume_items: false
+				id: "7BF9417288AA7195"
+				item: { count: 1, id: "l2complements:sculkium_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sculkium_sword"
+			}
+			id: "47E5DE8D5FCEB414"
+			tasks: [{
+				consume_items: false
+				id: "246E51E8529FC6F9"
+				item: { count: 1, id: "l2complements:sculkium_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:shulkerate_axe"
+			}
+			id: "67CFFBAC81F1A506"
+			tasks: [{
+				consume_items: false
+				id: "7AA52D5DCEF3C529"
+				item: { count: 1, id: "l2complements:shulkerate_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:shulkerate_sword"
+			}
+			id: "030807EB34A817E6"
+			tasks: [{
+				consume_items: false
+				id: "582354ED2C51F947"
+				item: { count: 1, id: "l2complements:shulkerate_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sonic_shooter"
+			}
+			id: "6CF3B322D817C3D6"
+			tasks: [{
+				consume_items: false
+				id: "37DEE166C3677F2D"
+				item: { count: 1, id: "l2complements:sonic_shooter" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:totemic_gold_axe"
+			}
+			id: "619831003D68AA9D"
+			tasks: [{
+				consume_items: false
+				id: "137EDBE668A0F589"
+				item: { count: 1, id: "l2complements:totemic_gold_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:totemic_gold_sword"
+			}
+			id: "71B96D16299C05EA"
+			tasks: [{
+				consume_items: false
+				id: "3511764EF9EFC3D4"
+				item: { count: 1, id: "l2complements:totemic_gold_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:winterstorm_wand"
+			}
+			id: "0D05CED8B428B954"
+			tasks: [{
+				consume_items: false
+				id: "5C4BF8804A806796"
+				item: { count: 1, id: "l2complements:winterstorm_wand" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:electric_bow"
+			}
+			id: "38676AD776D6BB7D"
+			tasks: [{
+				consume_items: false
+				id: "77991EEDEDB190BA"
+				item: { count: 1, id: "mekanism:electric_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:flamethrower"
+			}
+			id: "16433E24BB0FD52C"
+			tasks: [{
+				consume_items: false
+				id: "256D67EFFDB6A181"
+				item: { count: 1, id: "mekanism:flamethrower" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:byzantine_axe"
+			}
+			id: "2E7B55493640317B"
+			tasks: [{
+				consume_items: false
+				id: "5D4E8ACC7E0BAF73"
+				item: { count: 1, id: "millenaire:byzantine_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:byzantine_mace"
+			}
+			id: "68355136E94515E2"
+			tasks: [{
+				consume_items: false
+				id: "3EE4499F0E7FC337"
+				item: { count: 1, id: "millenaire:byzantine_mace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:inuitbow"
+			}
+			id: "0D68EDC00A1BA117"
+			tasks: [{
+				consume_items: false
+				id: "60F75C07CDA90BA3"
+				item: { count: 1, id: "millenaire:inuitbow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:inuittrident"
+			}
+			id: "6EF4E059ABFE2B33"
+			tasks: [{
+				consume_items: false
+				id: "6072321A56C065F6"
+				item: { count: 1, id: "millenaire:inuittrident" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japanese_tachi"
+			}
+			id: "2F7C6DCE20B539FB"
+			tasks: [{
+				consume_items: false
+				id: "6F1B11ED3E99CB63"
+				item: { count: 1, id: "millenaire:japanese_tachi" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:mayan_axe"
+			}
+			id: "735CD6A96E915631"
+			tasks: [{
+				consume_items: false
+				id: "51CFADF04E3F958F"
+				item: { count: 1, id: "millenaire:mayan_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:mayan_mace"
+			}
+			id: "29598E36BC5F0FC2"
+			tasks: [{
+				consume_items: false
+				id: "11B31A350EED158F"
+				item: { count: 1, id: "millenaire:mayan_mace" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:negation_wand"
+			}
+			id: "452B9586005BE4D7"
+			tasks: [{
+				consume_items: false
+				id: "46931A7151EE8F48"
+				item: { count: 1, id: "millenaire:negation_wand" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:norman_axe"
+			}
+			id: "6B166E203774AB8A"
+			tasks: [{
+				consume_items: false
+				id: "0117EA2CB0540A94"
+				item: { count: 1, id: "millenaire:norman_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:norman_sword"
+			}
+			id: "43B2B3360EA8C03E"
+			tasks: [{
+				consume_items: false
+				id: "742755E74053636F"
+				item: { count: 1, id: "millenaire:norman_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:seljuk_bow"
+			}
+			id: "5EE1DBF75DDE3863"
+			tasks: [{
+				consume_items: false
+				id: "6B152C911E8ADC29"
+				item: { count: 1, id: "millenaire:seljuk_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:seljuk_scimitar"
+			}
+			id: "0EAB2951369A5423"
+			tasks: [{
+				consume_items: false
+				id: "0BC93E9F25FA31B6"
+				item: { count: 1, id: "millenaire:seljuk_scimitar" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:summoning_wand"
+			}
+			id: "12FDC07DA57B5EEB"
+			tasks: [{
+				consume_items: false
+				id: "7AA4FAC9ABDFFA17"
+				item: { count: 1, id: "millenaire:summoning_wand" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:yumibow"
+			}
+			id: "0798F350B3044234"
+			tasks: [{
+				consume_items: false
+				id: "49A5E944F862C3E1"
+				item: { count: 1, id: "millenaire:yumibow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "15D872DA563F4705"
+			tasks: [{
+				consume_items: false
+				id: "3C80ECF1F0CD6998"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "038987890D6880E2"
+			tasks: [{
+				consume_items: false
+				id: "21008268DB95B524"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_axe"
+			}
+			id: "7C24DAFDD7EB5E5C"
+			tasks: [{
+				consume_items: false
+				id: "4615FEE797FCB89A"
+				item: { count: 1, id: "minecraft:diamond_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "0988F415B8AF2435"
+			tasks: [{
+				consume_items: false
+				id: "322DFD3573112470"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:golden_axe"
+			}
+			id: "0E42636E94C9D1B5"
+			tasks: [{
+				consume_items: false
+				id: "46EC801FBB0910D6"
+				item: { count: 1, id: "minecraft:golden_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "64845A0B92200EBB"
+			tasks: [{
+				consume_items: false
+				id: "0BACBABAF4FE337C"
+				item: { count: 1, id: "minecraft:golden_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "548A9B9D3398FF2E"
+			tasks: [{
+				consume_items: false
+				id: "0C6EBEBDE1A98C16"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:mace"
+			}
+			id: "622DA567CEE9F330"
+			tasks: [{
+				consume_items: false
+				id: "5F07799C557BC6C3"
+				item: { count: 1, id: "minecraft:mace" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherite_axe"
+			}
+			id: "46AD08C9ED09D6D7"
+			tasks: [{
+				consume_items: false
+				id: "2236484F3BCC53C9"
+				item: { count: 1, id: "minecraft:netherite_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "2DD3490F3B931067"
+			tasks: [{
+				consume_items: false
+				id: "1DDA84D87CBBA787"
+				item: { count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:stone_axe"
+			}
+			id: "05D1568CF0EFAE18"
+			tasks: [{
+				consume_items: false
+				id: "4E2C73CA2891F168"
+				item: { count: 1, id: "minecraft:stone_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "44502C70208A1284"
+			tasks: [{
+				consume_items: false
+				id: "2986E82A5568B838"
 				item: { count: 1, id: "minecraft:stone_sword" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 17.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "078CF4BB7D332F04"
+			tasks: [{
+				consume_items: false
+				id: "72BB90FA61543B1B"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:wooden_axe"
+			}
+			id: "7F664A1E3FF01682"
+			tasks: [{
+				consume_items: false
+				id: "4ACDC04BC9BD770C"
+				item: { count: 1, id: "minecraft:wooden_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
+			id: "5EFA7119E9759885"
+			tasks: [{
+				consume_items: false
+				id: "28B46AF85E49820F"
+				item: { count: 1, id: "minecraft:wooden_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:adeptus_gun"
+			}
+			id: "1EB2E1CA6682A6B5"
+			tasks: [{
+				consume_items: false
+				id: "3D268C90B099A4EB"
+				item: { count: 1, id: "oneiricconcept:adeptus_gun" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:adeptustool"
+			}
+			id: "2DD5427A61274E07"
+			tasks: [{
+				consume_items: false
+				id: "3FEB4238B4A6FEF1"
+				item: { count: 1, id: "oneiricconcept:adeptustool" }
+				type: "item"
+			}]
+			x: 5.5d
 			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:aureliae_axe"
+			}
+			id: "0A8AE06B3A12EB04"
+			tasks: [{
+				consume_items: false
+				id: "526E20701003F4A1"
+				item: { count: 1, id: "oneiricconcept:aureliae_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:aureliae_sword"
+			}
+			id: "2C49C24127A3C315"
+			tasks: [{
+				consume_items: false
+				id: "4EEF966BF51FE3FB"
+				item: { count: 1, id: "oneiricconcept:aureliae_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:boss_stone_coin_gun"
+			}
+			id: "34E895A64C408124"
+			tasks: [{
+				consume_items: false
+				id: "5AB1FF8DB1D67BFC"
+				item: { count: 1, id: "oneiricconcept:boss_stone_coin_gun" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:boss_stone_coin_gun_plus"
+			}
+			id: "0278B60108891DE1"
+			tasks: [{
+				consume_items: false
+				id: "26837B62FB5877B5"
+				item: { count: 1, id: "oneiricconcept:boss_stone_coin_gun_plus" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:d_xuanyuan"
+			}
+			id: "567AE14EDCBDC261"
+			tasks: [{
+				consume_items: false
+				id: "50375FBA805C491A"
+				item: { count: 1, id: "oneiricconcept:d_xuanyuan" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:dark_xuanyuan_sword"
+			}
+			id: "57FDA4A5F1B0008A"
+			tasks: [{
+				consume_items: false
+				id: "13EC0B1B7CD9DAC5"
+				item: { count: 1, id: "oneiricconcept:dark_xuanyuan_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:mora_bow"
+			}
+			id: "5E1FFA39BAEBDC82"
+			tasks: [{
+				consume_items: false
+				id: "2D640951B896A059"
+				item: { count: 1, id: "oneiricconcept:mora_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:spirtbranchof_ture_law"
+			}
+			id: "6C5E83C22D4FA470"
+			tasks: [{
+				consume_items: false
+				id: "1DFA1B12BB3DC257"
+				item: { count: 1, id: "oneiricconcept:spirtbranchof_ture_law" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:sword_of_brilliant_valor"
+			}
+			id: "1BCF61491BD38EA7"
+			tasks: [{
+				consume_items: false
+				id: "341FBB7CB3D98DC7"
+				item: { count: 1, id: "oneiricconcept:sword_of_brilliant_valor" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oneiricconcept:xuanyuan_sword"
+			}
+			id: "0BB9FB50581F61CD"
+			tasks: [{
+				consume_items: false
+				id: "6D9CBB43DA6F56AF"
+				item: { count: 1, id: "oneiricconcept:xuanyuan_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:chainsaw"
+			}
+			id: "21BB6504C93ABBDE"
+			tasks: [{
+				consume_items: false
+				id: "243B45DF5A995347"
+				item: { count: 1, id: "oritech:chainsaw" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:electric_mace"
+			}
+			id: "251AC9BDB02488FA"
+			tasks: [{
+				consume_items: false
+				id: "6F6A2C668E982F80"
+				item: { count: 1, id: "oritech:electric_mace" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:portable_laser"
+			}
+			id: "471D387751E81011"
+			tasks: [{
+				consume_items: false
+				id: "4F8E50F7E4ECC40D"
+				item: { count: 1, id: "oritech:portable_laser" }
+				type: "item"
+			}]
+			x: 45.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:promethium_axe"
+			}
+			id: "12B47F2FD20736F4"
+			tasks: [{
+				consume_items: false
+				id: "0450BFC59172A048"
+				item: { count: 1, id: "oritech:promethium_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_bronze"
+			}
+			id: "203E5079FC571483"
+			tasks: [{
+				consume_items: false
+				id: "4AE563D0166B7666"
+				item: { count: 1, id: "prefab:item_swift_blade_bronze" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_copper"
+			}
+			id: "1F894E40A6936574"
+			tasks: [{
+				consume_items: false
+				id: "60CF8A162B9E1D19"
+				item: { count: 1, id: "prefab:item_swift_blade_copper" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_diamond"
+			}
+			id: "6A691431230DF31C"
+			tasks: [{
+				consume_items: false
+				id: "4F82EC547CA794DF"
+				item: { count: 1, id: "prefab:item_swift_blade_diamond" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_gold"
+			}
+			id: "13CC602ACB107B3A"
+			tasks: [{
+				consume_items: false
+				id: "351E0FE1902426FE"
+				item: { count: 1, id: "prefab:item_swift_blade_gold" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_iron"
+			}
+			id: "096CF72FF864E0DA"
+			tasks: [{
+				consume_items: false
+				id: "1F8B33A8A44E7586"
+				item: { count: 1, id: "prefab:item_swift_blade_iron" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_netherite"
+			}
+			id: "5C4CC007C950992C"
+			tasks: [{
+				consume_items: false
+				id: "34E0013C22E71E1A"
+				item: { count: 1, id: "prefab:item_swift_blade_netherite" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_obsidian"
+			}
+			id: "6091DFED9CC602B1"
+			tasks: [{
+				consume_items: false
+				id: "4FCF3206CE0CF4E0"
+				item: { count: 1, id: "prefab:item_swift_blade_obsidian" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_osmium"
+			}
+			id: "047DB11DF39F88C2"
+			tasks: [{
+				consume_items: false
+				id: "2AB8B24D6A7C3452"
+				item: { count: 1, id: "prefab:item_swift_blade_osmium" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_steel"
+			}
+			id: "530D435A25B398E0"
+			tasks: [{
+				consume_items: false
+				id: "563DB8121F49F31D"
+				item: { count: 1, id: "prefab:item_swift_blade_steel" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_stone"
+			}
+			id: "58961FA1B0F8B07E"
+			tasks: [{
+				consume_items: false
+				id: "2730B7747A3FD253"
+				item: { count: 1, id: "prefab:item_swift_blade_stone" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "prefab:item_swift_blade_wood"
+			}
+			id: "7D609BCF27C7965D"
+			tasks: [{
+				consume_items: false
+				id: "5F6C9E678AF1C066"
+				item: { count: 1, id: "prefab:item_swift_blade_wood" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:axf"
+			}
+			id: "7E8EF0B6374C630D"
+			tasks: [{
+				consume_items: false
+				id: "6300A03F9D1A0109"
+				item: { count: 1, id: "primogemcraft:axf" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:dijian"
+			}
+			id: "0B60B735D7A3BBBE"
+			tasks: [{
+				consume_items: false
+				id: "4C991C264CB8B652"
+				item: { count: 1, id: "primogemcraft:dijian" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:djf"
+			}
+			id: "0F7A2990380E2669"
+			tasks: [{
+				consume_items: false
+				id: "14981B53C1BFF40E"
+				item: { count: 1, id: "primogemcraft:djf" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:ffanrongdezhexue"
+			}
+			id: "4D13A8868BD0FD23"
+			tasks: [{
+				consume_items: false
+				id: "6F4E3FBDA99BF5C2"
+				item: { count: 1, id: "primogemcraft:ffanrongdezhexue" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:ftyj"
+			}
+			id: "24BB6EF36168E4D9"
+			tasks: [{
+				consume_items: false
+				id: "55B4EB4F46B3E624"
+				item: { count: 1, id: "primogemcraft:ftyj" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:heijian"
+			}
+			id: "61C52A30BBF2728D"
+			tasks: [{
+				consume_items: false
+				id: "5AFAD676AE110EA2"
+				item: { count: 1, id: "primogemcraft:heijian" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:heiyinq"
+			}
+			id: "5268F603A3495336"
+			tasks: [{
+				consume_items: false
+				id: "41DEE8C386708F77"
+				item: { count: 1, id: "primogemcraft:heiyinq" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hmzz"
+			}
+			id: "30BD64AA6497D41C"
+			tasks: [{
+				consume_items: false
+				id: "122682DB855436A6"
+				item: { count: 1, id: "primogemcraft:hmzz" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hpy"
+			}
+			id: "5D07ADAD03340063"
+			tasks: [{
+				consume_items: false
+				id: "7DA8C8CA7C5E759D"
+				item: { count: 1, id: "primogemcraft:hpy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jdzq"
+			}
+			id: "32AA7C8F33660231"
+			tasks: [{
+				consume_items: false
+				id: "66492B78C184E2E6"
+				item: { count: 1, id: "primogemcraft:jdzq" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jlf"
+			}
+			id: "2E0E98F71DF7B160"
+			tasks: [{
+				consume_items: false
+				id: "6F4FFCCE0077C208"
+				item: { count: 1, id: "primogemcraft:jlf" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:lmsj"
+			}
+			id: "2B4AB2E4421E4BDD"
+			tasks: [{
+				consume_items: false
+				id: "59B25BE91D1714F9"
+				item: { count: 1, id: "primogemcraft:lmsj" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:mmolafu"
+			}
+			id: "4586772DE1AE0136"
+			tasks: [{
+				consume_items: false
+				id: "69EED8EF4504F71C"
+				item: { count: 1, id: "primogemcraft:mmolafu" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:mmolajian"
+			}
+			id: "6F17D459F206B1EE"
+			tasks: [{
+				consume_items: false
+				id: "694B856937DD3CB3"
+				item: { count: 1, id: "primogemcraft:mmolajian" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:qgdysj"
+			}
+			id: "4CFCB86A3DD6413D"
+			tasks: [{
+				consume_items: false
+				id: "2623B3D426CF10A0"
+				item: { count: 1, id: "primogemcraft:qgdysj" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:ryf"
+			}
+			id: "5FFB01155030F049"
+			tasks: [{
+				consume_items: false
+				id: "6AFB7E1C0CA31979"
+				item: { count: 1, id: "primogemcraft:ryf" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:szf"
+			}
+			id: "30CDC4241E594795"
+			tasks: [{
+				consume_items: false
+				id: "54694065E91E8417"
+				item: { count: 1, id: "primogemcraft:szf" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:tiaoguozhang"
+			}
+			id: "6ACE579A8FAE8210"
+			tasks: [{
+				consume_items: false
+				id: "7CD4A0E3B8EA294D"
+				item: { count: 1, id: "primogemcraft:tiaoguozhang" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:tkzr"
+			}
+			id: "4398E5EA3D49BB57"
+			tasks: [{
+				consume_items: false
+				id: "5BE6A03C179C34F5"
+				item: { count: 1, id: "primogemcraft:tkzr" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:wufengjian"
+			}
+			id: "62885B320C81A110"
+			tasks: [{
+				consume_items: false
+				id: "76385B5B790ADD9B"
+				item: { count: 1, id: "primogemcraft:wufengjian" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xfcq"
+			}
+			id: "080ED9771E79B815"
+			tasks: [{
+				consume_items: false
+				id: "69B0DED2214076C0"
+				item: { count: 1, id: "primogemcraft:xfcq" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xinshoucq"
+			}
+			id: "2FD7ED506ACDC409"
+			tasks: [{
+				consume_items: false
+				id: "4A2CB4D37A8B6E90"
+				item: { count: 1, id: "primogemcraft:xinshoucq" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xldj"
+			}
+			id: "5C88A6CEA7361785"
+			tasks: [{
+				consume_items: false
+				id: "196FCF5973E9E232"
+				item: { count: 1, id: "primogemcraft:xldj" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:yuanshifu"
+			}
+			id: "5B6A71F61DF8CDAD"
+			tasks: [{
+				consume_items: false
+				id: "2F527DA34C4141BB"
+				item: { count: 1, id: "primogemcraft:yuanshifu" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:yuanshijian"
+			}
+			id: "4ECB1E5EBAF7B566"
+			tasks: [{
+				consume_items: false
+				id: "568219523B9CE61A"
+				item: { count: 1, id: "primogemcraft:yuanshijian" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:zfzr"
+			}
+			id: "187BBEE45D8BC236"
+			tasks: [{
+				consume_items: false
+				id: "0109914EF6B93166"
+				item: { count: 1, id: "primogemcraft:zfzr" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:zizaifu"
+			}
+			id: "26B840C604125293"
+			tasks: [{
+				consume_items: false
+				id: "46D120702BC4BF7E"
+				item: { count: 1, id: "primogemcraft:zizaifu" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:zsf"
+			}
+			id: "4FE75A5063072828"
+			tasks: [{
+				consume_items: false
+				id: "3F2B78DB75BAD369"
+				item: { count: 1, id: "primogemcraft:zsf" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "projecte:dm_sword"
+			}
+			id: "7157458C6B423674"
+			tasks: [{
+				consume_items: false
+				id: "0C5D3A8A276F7485"
+				item: { count: 1, id: "projecte:dm_sword" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "projecte:rm_katar"
+			}
+			id: "0243A686164F7B18"
+			tasks: [{
+				consume_items: false
+				id: "410B5B71BF88A1B2"
+				item: { count: 1, id: "projecte:rm_katar" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "quark:flamerang"
+			}
+			id: "299A72EFEB5A9D0B"
+			tasks: [{
+				consume_items: false
+				id: "55A342C711FEDE15"
+				item: { count: 1, id: "quark:flamerang" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "quark:pickarang"
+			}
+			id: "3457D658BAF457BA"
+			tasks: [{
+				consume_items: false
+				id: "62C08D05B68B2BB5"
+				item: { count: 1, id: "quark:pickarang" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "supplementaries:bomb"
+			}
+			id: "0A31D85E81E10224"
+			tasks: [{
+				consume_items: false
+				id: "60674A26B343BBBC"
+				item: { count: 1, id: "supplementaries:bomb" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "supplementaries:bomb_blue"
+			}
+			id: "07A54416F7BC5D88"
+			tasks: [{
+				consume_items: false
+				id: "17A0249E747B0305"
+				item: { count: 1, id: "supplementaries:bomb_blue" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "supplementaries:slingshot"
+			}
+			id: "1A5FC392FEF64754"
+			tasks: [{
+				consume_items: false
+				id: "4BED83B07838936C"
+				item: { count: 1, id: "supplementaries:slingshot" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:block_and_chain"
+			}
+			id: "2B24FF4847585C7C"
+			tasks: [{
+				consume_items: false
+				id: "645F879E38D24145"
+				item: { count: 1, id: "twilightforest:block_and_chain" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:diamond_minotaur_axe"
+			}
+			id: "5EB92057F77FD5CE"
+			tasks: [{
+				consume_items: false
+				id: "7186ADAE0F367032"
+				item: { count: 1, id: "twilightforest:diamond_minotaur_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ender_bow"
+			}
+			id: "2E2189CE819C7D9F"
+			tasks: [{
+				consume_items: false
+				id: "465ED58B168AB43A"
+				item: { count: 1, id: "twilightforest:ender_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:fiery_sword"
+			}
+			id: "755913AF3CED142D"
+			tasks: [{
+				consume_items: false
+				id: "669F2ADBC20E76F6"
+				item: { count: 1, id: "twilightforest:fiery_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:fortification_scepter"
+			}
+			id: "57252C5022B417CA"
+			tasks: [{
+				consume_items: false
+				id: "049096AD66B8E8D8"
+				item: { count: 1, id: "twilightforest:fortification_scepter" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:giant_sword"
+			}
+			id: "6BC84D09572BBDEB"
+			tasks: [{
+				consume_items: false
+				id: "7B3108A440271DA6"
+				item: { count: 1, id: "twilightforest:giant_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:glass_sword"
+			}
+			id: "6F65C6CF11C41827"
+			tasks: [{
+				consume_items: false
+				id: "19C2A39B4F2A73AA"
+				item: { count: 1, id: "twilightforest:glass_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:gold_minotaur_axe"
+			}
+			id: "77ED7CDDC15F8A33"
+			tasks: [{
+				consume_items: false
+				id: "043ED31B5DEF8672"
+				item: { count: 1, id: "twilightforest:gold_minotaur_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ice_bomb"
+			}
+			id: "25D4520931833F91"
+			tasks: [{
+				consume_items: false
+				id: "400FC6D265E97522"
+				item: { count: 1, id: "twilightforest:ice_bomb" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ice_bow"
+			}
+			id: "1A1F2D03C221D2B7"
+			tasks: [{
+				consume_items: false
+				id: "63986B7A84976234"
+				item: { count: 1, id: "twilightforest:ice_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ice_sword"
+			}
+			id: "63E4B69DC804A9B9"
+			tasks: [{
+				consume_items: false
+				id: "25CE3DE3E7C934D9"
+				item: { count: 1, id: "twilightforest:ice_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ironwood_axe"
+			}
+			id: "1B395CE0AB614A17"
+			tasks: [{
+				consume_items: false
+				id: "71A824BEC5AE113C"
+				item: { count: 1, id: "twilightforest:ironwood_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ironwood_sword"
+			}
+			id: "10114F5FFC4B59FD"
+			tasks: [{
+				consume_items: false
+				id: "788A37F9A2A55B37"
+				item: { count: 1, id: "twilightforest:ironwood_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:knightmetal_axe"
+			}
+			id: "480177CFC3A256DA"
+			tasks: [{
+				consume_items: false
+				id: "1C36405BE5FD8674"
+				item: { count: 1, id: "twilightforest:knightmetal_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:knightmetal_sword"
+			}
+			id: "1F85EF9233ED4B22"
+			tasks: [{
+				consume_items: false
+				id: "3DACDAD7835196A5"
+				item: { count: 1, id: "twilightforest:knightmetal_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:lifedrain_scepter"
+			}
+			id: "792FBA5CE471F189"
+			tasks: [{
+				consume_items: false
+				id: "0E2C3E1BD18ECA38"
+				item: { count: 1, id: "twilightforest:lifedrain_scepter" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:seeker_bow"
+			}
+			id: "0EA31BF9E1B11B44"
+			tasks: [{
+				consume_items: false
+				id: "70D85E82FF67F5B3"
+				item: { count: 1, id: "twilightforest:seeker_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:steeleaf_axe"
+			}
+			id: "71B8B3CE011E7B6E"
+			tasks: [{
+				consume_items: false
+				id: "6A390B5D0EF01825"
+				item: { count: 1, id: "twilightforest:steeleaf_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:steeleaf_sword"
+			}
+			id: "49CA69DC239C9535"
+			tasks: [{
+				consume_items: false
+				id: "4E6F143D13B6626A"
+				item: { count: 1, id: "twilightforest:steeleaf_sword" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:triple_bow"
+			}
+			id: "037650652BA8E43A"
+			tasks: [{
+				consume_items: false
+				id: "7D155BB690D2EA6C"
+				item: { count: 1, id: "twilightforest:triple_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:twilight_scepter"
+			}
+			id: "795A5BC5D9E68027"
+			tasks: [{
+				consume_items: false
+				id: "6F4A495092F38ADC"
+				item: { count: 1, id: "twilightforest:twilight_scepter" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:zombie_scepter"
+			}
+			id: "5E4F0776AED262C6"
+			tasks: [{
+				consume_items: false
+				id: "6FBE249DCBACBE12"
+				item: { count: 1, id: "twilightforest:zombie_scepter" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ultramarine:blue_and_white_porcelain_axe"
+			}
+			id: "2917FCBB6630F3CD"
+			tasks: [{
+				consume_items: false
+				id: "5C08D55DBD5F19AA"
+				item: { count: 1, id: "ultramarine:blue_and_white_porcelain_axe" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ultramarine:blue_and_white_porcelain_sword"
+			}
+			id: "555061B5B55B6B0B"
+			tasks: [{
+				consume_items: false
+				id: "32AD6D089C1166BB"
+				item: { count: 1, id: "ultramarine:blue_and_white_porcelain_sword" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2archery:sun_bow"
+			}
+			id: "5AE0C24F2205644A"
+			tasks: [{
+				consume_items: false
+				id: "7956B0550A30F050"
+				item: { count: 1, id: "l2archery:sun_bow" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.0d
 		}
 	]
 }

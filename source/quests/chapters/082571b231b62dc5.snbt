@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "082571b231b62dc5"
+	group: "512B54981EE0D939"
+	id: "082571B231B62DC5"
+	images: [ ]
+	order_index: 8
+	quest_enhance_chapter_quest_prerequisites: [6288980993359470712L]
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5746F2E49C5FE078"]
+			entity_vis_size: 1.0f
+			id: "74002A4704E264C4"
+			tasks: [{
+				id: "3C13555B961D7A28"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74002A4704E264C4"]
+			entity_vis_size: 1.0f
+			id: "207FC3F3CC4ED6EB"
+			tasks: [{
+				id: "6143F82EA42F2F5E"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "36A9240738D68E5F"
+			tasks: [{
+				id: "2C9D0A53FDE9C796"
+				item: { count: 1, id: "mekanism:creative_bin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "3A6F50A9E9C4ADBE"
+			tasks: [{
+				id: "4D0CD179F9B98198"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "1382BAFD55482193"
+			tasks: [{
+				id: "58B4E5201868937D"
+				item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "5E172A831ADED5A8"
+			tasks: [{
+				id: "7008CAA1698D8822"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "63CA62F24FD0C4F1"
+			tasks: [{
+				id: "640A1C3756405865"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "58DF1699878606B1"
+			tasks: [{
+				id: "77F935DE726B47CD"
+				item: { count: 1, id: "enderio:creative_power" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "50E14EBE3A208B4D"
+			tasks: [{
+				id: "6629415EA9C863AD"
+				item: { count: 1, id: "draconicevolution:creative_op_capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "2B033A58B58163A7"
+			tasks: [{
+				id: "533628A41D050CF0"
+				item: { components: { "draconicevolution:config_properties": [ [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_held_item", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_armor", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_hot_bar", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_main", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_curios", show_on_hud: 1b, value: 0b } ] ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; -2088547243, 1716406842, -1320152548, 1476823154 ] }, count: 1, id: "draconicevolution:creative_capacitor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["207FC3F3CC4ED6EB"]
+			entity_vis_size: 1.0f
+			id: "21A69EEBE3AA6950"
+			tasks: [{
+				id: "251FAED73412B221"
+				item: { count: 1, id: "avaritia_integration:infinity_me_storage_component" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

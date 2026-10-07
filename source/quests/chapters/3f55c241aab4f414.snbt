@@ -12,10 +12,1379 @@
 	quests: [
 		{
 			entity_vis_size: 1.0f
-			id: "19B7315905803466"
+			icon: {
+				id: "ad_astra:jet_suit"
+			}
+			id: "3833C5ECB60F8F6A"
 			tasks: [{
-				id: "0FC1BBCCB61CB554"
-				item: { count: 1, id: "minecraft:iron_helmet" }
+				consume_items: false
+				id: "6974A765DD69B710"
+				item: { count: 1, id: "ad_astra:jet_suit" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:jet_suit_boots"
+			}
+			id: "7613AEAD90322E4C"
+			tasks: [{
+				consume_items: false
+				id: "3D4F10B3A520B1BE"
+				item: { count: 1, id: "ad_astra:jet_suit_boots" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:jet_suit_helmet"
+			}
+			id: "0976C01946F63859"
+			tasks: [{
+				consume_items: false
+				id: "3F990D450311C014"
+				item: { count: 1, id: "ad_astra:jet_suit_helmet" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:jet_suit_pants"
+			}
+			id: "32E78E941E297638"
+			tasks: [{
+				consume_items: false
+				id: "0364328940CFD928"
+				item: { count: 1, id: "ad_astra:jet_suit_pants" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:netherite_space_boots"
+			}
+			id: "04EBB2717F5DB75D"
+			tasks: [{
+				consume_items: false
+				id: "2DD469E4EC2A9524"
+				item: { count: 1, id: "ad_astra:netherite_space_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:netherite_space_helmet"
+			}
+			id: "078DA23AED273B3E"
+			tasks: [{
+				consume_items: false
+				id: "77FA54114D900733"
+				item: { count: 1, id: "ad_astra:netherite_space_helmet" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:netherite_space_pants"
+			}
+			id: "6F5B5DF5FFAE92A8"
+			tasks: [{
+				consume_items: false
+				id: "43F9F86E31376E6A"
+				item: { count: 1, id: "ad_astra:netherite_space_pants" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:netherite_space_suit"
+			}
+			id: "3BA5B092F583AD6F"
+			tasks: [{
+				consume_items: false
+				id: "7F4BC2DF574DD1D2"
+				item: { count: 1, id: "ad_astra:netherite_space_suit" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:space_boots"
+			}
+			id: "18AB44A4B87A66A4"
+			tasks: [{
+				consume_items: false
+				id: "5B5232F1871EFD70"
+				item: { count: 1, id: "ad_astra:space_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:space_helmet"
+			}
+			id: "2771EA074B074DC7"
+			tasks: [{
+				consume_items: false
+				id: "038942E3B9BDB6CF"
+				item: { count: 1, id: "ad_astra:space_helmet" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:space_pants"
+			}
+			id: "3B9B6058ADB0F30C"
+			tasks: [{
+				consume_items: false
+				id: "42B4A881C0EF4CA4"
+				item: { count: 1, id: "ad_astra:space_pants" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ad_astra:space_suit"
+			}
+			id: "3627F27252B71FC5"
+			tasks: [{
+				consume_items: false
+				id: "46EDBA0AD01D906C"
+				item: { count: 1, id: "ad_astra:space_suit" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "advanced_ae:quantum_boots"
+			}
+			id: "47E95467C2490234"
+			tasks: [{
+				consume_items: false
+				id: "30CBC1AC19956DDA"
+				item: { count: 1, id: "advanced_ae:quantum_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "advanced_ae:quantum_chestplate"
+			}
+			id: "43F08F8E8C45ECA1"
+			tasks: [{
+				consume_items: false
+				id: "0AA19CD67610154B"
+				item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "advanced_ae:quantum_helmet"
+			}
+			id: "1AC3647AC524C7E8"
+			tasks: [{
+				consume_items: false
+				id: "0814098D481AA1C8"
+				item: { count: 1, id: "advanced_ae:quantum_helmet" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "advanced_ae:quantum_leggings"
+			}
+			id: "21992E0D76BE3950"
+			tasks: [{
+				consume_items: false
+				id: "1FB2E8AAD6E971B3"
+				item: { count: 1, id: "advanced_ae:quantum_leggings" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:centipede_leggings"
+			}
+			id: "2871C34B3BA4A374"
+			tasks: [{
+				consume_items: false
+				id: "55ACA403DADBDA06"
+				item: { count: 1, id: "alexsmobs:centipede_leggings" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:crocodile_chestplate"
+			}
+			id: "547E6DBB57BA14B6"
+			tasks: [{
+				consume_items: false
+				id: "1D661AD9EC34927E"
+				item: { count: 1, id: "alexsmobs:crocodile_chestplate" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:emu_leggings"
+			}
+			id: "30F238FBB1C36241"
+			tasks: [{
+				consume_items: false
+				id: "1E8BFAE268CCF357"
+				item: { count: 1, id: "alexsmobs:emu_leggings" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:falconry_glove"
+			}
+			id: "55C46095E40C7505"
+			tasks: [{
+				consume_items: false
+				id: "2C6EC69A400E64B9"
+				item: { count: 1, id: "alexsmobs:falconry_glove" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:falconry_hood"
+			}
+			id: "0DC3D7D85BC64005"
+			tasks: [{
+				consume_items: false
+				id: "7FB19385D6D470F8"
+				item: { count: 1, id: "alexsmobs:falconry_hood" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:fedora"
+			}
+			id: "504F283D4ED8E655"
+			tasks: [{
+				consume_items: false
+				id: "2F8D74F262F5137D"
+				item: { count: 1, id: "alexsmobs:fedora" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:flying_fish_boots"
+			}
+			id: "1C746C3FD2AB70F0"
+			tasks: [{
+				consume_items: false
+				id: "0443840E3A8E41F0"
+				item: { count: 1, id: "alexsmobs:flying_fish_boots" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:frontier_cap"
+			}
+			id: "480F774C2BB30556"
+			tasks: [{
+				consume_items: false
+				id: "2EEC163D469DD7D0"
+				item: { count: 1, id: "alexsmobs:frontier_cap" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:froststalker_helmet"
+			}
+			id: "365EC964677634B6"
+			tasks: [{
+				consume_items: false
+				id: "55803525ECFC2D72"
+				item: { count: 1, id: "alexsmobs:froststalker_helmet" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:moose_headgear"
+			}
+			id: "00A75B42CBF9C58E"
+			tasks: [{
+				consume_items: false
+				id: "4049778259B64909"
+				item: { count: 1, id: "alexsmobs:moose_headgear" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:novelty_hat"
+			}
+			id: "212C658ABC7DA943"
+			tasks: [{
+				consume_items: false
+				id: "6988DCF79FBC22DA"
+				item: { count: 1, id: "alexsmobs:novelty_hat" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:pigshoes"
+			}
+			id: "5509F8681DBCFDC8"
+			tasks: [{
+				consume_items: false
+				id: "0300F60D5F3009CD"
+				item: { count: 1, id: "alexsmobs:pigshoes" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:roadrunner_boots"
+			}
+			id: "20DC662843FB2D52"
+			tasks: [{
+				consume_items: false
+				id: "7FEF1FCF1179C6D0"
+				item: { count: 1, id: "alexsmobs:roadrunner_boots" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:rocky_chestplate"
+			}
+			id: "69EEBB09CF376A1D"
+			tasks: [{
+				consume_items: false
+				id: "7564B1E8FA577A96"
+				item: { count: 1, id: "alexsmobs:rocky_chestplate" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:sombrero"
+			}
+			id: "38094C0551255FA0"
+			tasks: [{
+				consume_items: false
+				id: "535F29D437D6F441"
+				item: { count: 1, id: "alexsmobs:sombrero" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:straddle_helmet"
+			}
+			id: "1649C71F38F70142"
+			tasks: [{
+				consume_items: false
+				id: "701F686711FEC548"
+				item: { count: 1, id: "alexsmobs:straddle_helmet" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "alexsmobs:tarantula_hawk_elytra"
+			}
+			id: "5970E6B9734C1E2E"
+			tasks: [{
+				consume_items: false
+				id: "455708FDDC7A0924"
+				item: { count: 1, id: "alexsmobs:tarantula_hawk_elytra" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:achelos_helmet"
+			}
+			id: "3E256B1F2F0B6E12"
+			tasks: [{
+				consume_items: false
+				id: "42318C01A2CCECBD"
+				item: { count: 1, id: "aoa3:achelos_helmet" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:alacrity_boots"
+			}
+			id: "20DD1BB385311FA0"
+			tasks: [{
+				consume_items: false
+				id: "15533CA33251F7FA"
+				item: { count: 1, id: "aoa3:alacrity_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:alacrity_chestplate"
+			}
+			id: "4BE701AF87588CC6"
+			tasks: [{
+				consume_items: false
+				id: "3842C979893C27BF"
+				item: { count: 1, id: "aoa3:alacrity_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:alacrity_helmet"
+			}
+			id: "321627A5850512B8"
+			tasks: [{
+				consume_items: false
+				id: "411678768AE7896F"
+				item: { count: 1, id: "aoa3:alacrity_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:alacrity_leggings"
+			}
+			id: "51112B69A4A38DDC"
+			tasks: [{
+				consume_items: false
+				id: "0AF121A9E71C986A"
+				item: { count: 1, id: "aoa3:alacrity_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:archaic_boots"
+			}
+			id: "67BE5A18B3167BD0"
+			tasks: [{
+				consume_items: false
+				id: "22B2CB36CB298623"
+				item: { count: 1, id: "aoa3:archaic_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:archaic_chestplate"
+			}
+			id: "14D319D0DC2FA570"
+			tasks: [{
+				consume_items: false
+				id: "0541E160F44EC650"
+				item: { count: 1, id: "aoa3:archaic_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:archaic_helmet"
+			}
+			id: "2C01DD968E71B2C9"
+			tasks: [{
+				consume_items: false
+				id: "2516DBDC1A94447C"
+				item: { count: 1, id: "aoa3:archaic_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:archaic_leggings"
+			}
+			id: "2C634F7383CBC1EC"
+			tasks: [{
+				consume_items: false
+				id: "42CE884D06E81D03"
+				item: { count: 1, id: "aoa3:archaic_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_boots"
+			}
+			id: "1C6226156D211D90"
+			tasks: [{
+				consume_items: false
+				id: "66DF9E0659884CC1"
+				item: { count: 1, id: "aoa3:baron_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_chestplate"
+			}
+			id: "4C1826DFBDF24984"
+			tasks: [{
+				consume_items: false
+				id: "503F332CD84C179F"
+				item: { count: 1, id: "aoa3:baron_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_helmet"
+			}
+			id: "139A9C9167825298"
+			tasks: [{
+				consume_items: false
+				id: "78C65B31113FE486"
+				item: { count: 1, id: "aoa3:baron_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:biogenic_boots"
+			}
+			id: "6A0A3E2D11DE1308"
+			tasks: [{
+				consume_items: false
+				id: "00352B1BC1AB2B06"
+				item: { count: 1, id: "aoa3:biogenic_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:biogenic_chestplate"
+			}
+			id: "49D47500FBDA67FE"
+			tasks: [{
+				consume_items: false
+				id: "7B65003A89CB92F4"
+				item: { count: 1, id: "aoa3:biogenic_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:biogenic_helmet"
+			}
+			id: "2E97CD4E1C8E5E05"
+			tasks: [{
+				consume_items: false
+				id: "4ADC4B67D595DF12"
+				item: { count: 1, id: "aoa3:biogenic_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:biogenic_leggings"
+			}
+			id: "29748B1B37F96440"
+			tasks: [{
+				consume_items: false
+				id: "5DB58058FAAA6B1C"
+				item: { count: 1, id: "aoa3:biogenic_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boreic_boots"
+			}
+			id: "7B6781CE632E1CF7"
+			tasks: [{
+				consume_items: false
+				id: "195DE303EC413DBC"
+				item: { count: 1, id: "aoa3:boreic_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boreic_chestplate"
+			}
+			id: "3664C1985ECC5715"
+			tasks: [{
+				consume_items: false
+				id: "25D057BD06A62A7D"
+				item: { count: 1, id: "aoa3:boreic_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boreic_helmet"
+			}
+			id: "21508AB79C17CC01"
+			tasks: [{
+				consume_items: false
+				id: "7B657C40614B8A3E"
+				item: { count: 1, id: "aoa3:boreic_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:boreic_leggings"
+			}
+			id: "6C8128F1B50B1FEF"
+			tasks: [{
+				consume_items: false
+				id: "14F9E49E8EA52F22"
+				item: { count: 1, id: "aoa3:boreic_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candy_boots"
+			}
+			id: "0843F5D8F85BA3D2"
+			tasks: [{
+				consume_items: false
+				id: "49CF4904AE0A28C5"
+				item: { count: 1, id: "aoa3:candy_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candy_chestplate"
+			}
+			id: "60CA115C56C15F27"
+			tasks: [{
+				consume_items: false
+				id: "713F63B9CE9A4CBC"
+				item: { count: 1, id: "aoa3:candy_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candy_helmet"
+			}
+			id: "2DE2EF33F916D16E"
+			tasks: [{
+				consume_items: false
+				id: "5C5AF13E94E99C76"
+				item: { count: 1, id: "aoa3:candy_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:candy_leggings"
+			}
+			id: "2E9695F534C6CAB6"
+			tasks: [{
+				consume_items: false
+				id: "37FC83A22FB4DEAD"
+				item: { count: 1, id: "aoa3:candy_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:chroma_goggles"
+			}
+			id: "00AB78CBEBC0A664"
+			tasks: [{
+				consume_items: false
+				id: "1A95813105A8C2ED"
+				item: { count: 1, id: "aoa3:chroma_goggles" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:commander_boots"
+			}
+			id: "39E22A7E41D261FB"
+			tasks: [{
+				consume_items: false
+				id: "496CD395AA0E8716"
+				item: { count: 1, id: "aoa3:commander_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:commander_chestplate"
+			}
+			id: "3BD15638B30BAC51"
+			tasks: [{
+				consume_items: false
+				id: "59F012EA2C473A49"
+				item: { count: 1, id: "aoa3:commander_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:commander_helmet"
+			}
+			id: "6C0571D83E938BE6"
+			tasks: [{
+				consume_items: false
+				id: "2A8B360D42B79E82"
+				item: { count: 1, id: "aoa3:commander_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:commander_leggings"
+			}
+			id: "49906F6640DEE610"
+			tasks: [{
+				consume_items: false
+				id: "2FBE5F98C5383028"
+				item: { count: 1, id: "aoa3:commander_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystallis_boots"
+			}
+			id: "1DF9819C167E09C6"
+			tasks: [{
+				consume_items: false
+				id: "72B035B824F0B85A"
+				item: { count: 1, id: "aoa3:crystallis_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystallis_chestplate"
+			}
+			id: "3568BAE85D099F0D"
+			tasks: [{
+				consume_items: false
+				id: "488D855FB5E66900"
+				item: { count: 1, id: "aoa3:crystallis_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystallis_helmet"
+			}
+			id: "06F73133468292E1"
+			tasks: [{
+				consume_items: false
+				id: "1827AB23947E6615"
+				item: { count: 1, id: "aoa3:crystallis_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:crystallis_leggings"
+			}
+			id: "1EE6D6A00E520480"
+			tasks: [{
+				consume_items: false
+				id: "182571317BFA3EC4"
+				item: { count: 1, id: "aoa3:crystallis_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:elecanyte_boots"
+			}
+			id: "1074CA83AF4F8F6E"
+			tasks: [{
+				consume_items: false
+				id: "015F2F1808D01227"
+				item: { count: 1, id: "aoa3:elecanyte_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:elecanyte_chestplate"
+			}
+			id: "1E06F798B89F0D94"
+			tasks: [{
+				consume_items: false
+				id: "7C3C1A7CDA2BB86E"
+				item: { count: 1, id: "aoa3:elecanyte_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:elecanyte_helmet"
+			}
+			id: "2A27E18C2D906BA2"
+			tasks: [{
+				consume_items: false
+				id: "3A3975C1CB12BCC3"
+				item: { count: 1, id: "aoa3:elecanyte_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:elecanyte_leggings"
+			}
+			id: "013CDBCBA9491B98"
+			tasks: [{
+				consume_items: false
+				id: "1C39B12DE5427307"
+				item: { count: 1, id: "aoa3:elecanyte_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:embrodium_boots"
+			}
+			id: "6C05CE1BCE3C81BC"
+			tasks: [{
+				consume_items: false
+				id: "22CCA15059EC14D7"
+				item: { count: 1, id: "aoa3:embrodium_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:embrodium_chestplate"
+			}
+			id: "7B792D4639198439"
+			tasks: [{
+				consume_items: false
+				id: "48DED93C405F2237"
+				item: { count: 1, id: "aoa3:embrodium_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:embrodium_helmet"
+			}
+			id: "03827AA5F9E4B043"
+			tasks: [{
+				consume_items: false
+				id: "271A444ED15DC3DA"
+				item: { count: 1, id: "aoa3:embrodium_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:embrodium_leggings"
+			}
+			id: "52F528446CD03583"
+			tasks: [{
+				consume_items: false
+				id: "77142B95C3D496E3"
+				item: { count: 1, id: "aoa3:embrodium_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:exoplate_boots"
+			}
+			id: "4D3907ECA87FE65C"
+			tasks: [{
+				consume_items: false
+				id: "0E5B92827F34D0E1"
+				item: { count: 1, id: "aoa3:exoplate_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:exoplate_chestplate"
+			}
+			id: "18AD1A8E1F7EFA62"
+			tasks: [{
+				consume_items: false
+				id: "6583647BBFBAC710"
+				item: { count: 1, id: "aoa3:exoplate_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:exoplate_helmet"
+			}
+			id: "2ACFAEF5F97A5996"
+			tasks: [{
+				consume_items: false
+				id: "61321C853BBC1A49"
+				item: { count: 1, id: "aoa3:exoplate_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:exoplate_leggings"
+			}
+			id: "62C2943239434FA8"
+			tasks: [{
+				consume_items: false
+				id: "7FEF9F9AE90FFE35"
+				item: { count: 1, id: "aoa3:exoplate_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:explosive_boots"
+			}
+			id: "3C7EB742777E6D1E"
+			tasks: [{
+				consume_items: false
+				id: "53E9DEC3BA3C721F"
+				item: { count: 1, id: "aoa3:explosive_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:explosive_chestplate"
+			}
+			id: "081A7B87AE43953B"
+			tasks: [{
+				consume_items: false
+				id: "505402852E43B3B9"
+				item: { count: 1, id: "aoa3:explosive_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:explosive_helmet"
+			}
+			id: "3CAAA9EBF58FF7F2"
+			tasks: [{
+				consume_items: false
+				id: "1AB9A9711AE175A8"
+				item: { count: 1, id: "aoa3:explosive_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:explosive_leggings"
+			}
+			id: "6287F7B97FF1FD80"
+			tasks: [{
+				consume_items: false
+				id: "656B7675EA3A0F3E"
+				item: { count: 1, id: "aoa3:explosive_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:face_mask"
+			}
+			id: "352A03490525C424"
+			tasks: [{
+				consume_items: false
+				id: "3C95AC4B60405896"
+				item: { count: 1, id: "aoa3:face_mask" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fungal_boots"
+			}
+			id: "1308B127D41BBEC6"
+			tasks: [{
+				consume_items: false
+				id: "5A6228E24339CD39"
+				item: { count: 1, id: "aoa3:fungal_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fungal_chestplate"
+			}
+			id: "667A1FD655119DAA"
+			tasks: [{
+				consume_items: false
+				id: "29CDC4D76FF829E6"
+				item: { count: 1, id: "aoa3:fungal_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fungal_helmet"
+			}
+			id: "58F83F9C6C40AD67"
+			tasks: [{
+				consume_items: false
+				id: "75E45217D27F1103"
+				item: { count: 1, id: "aoa3:fungal_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:fungal_leggings"
+			}
+			id: "2E0B7B2415A2AFD4"
+			tasks: [{
+				consume_items: false
+				id: "5C21425B559FB2DB"
+				item: { count: 1, id: "aoa3:fungal_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghastly_boots"
+			}
+			id: "46B09DEE07055E6E"
+			tasks: [{
+				consume_items: false
+				id: "361E1E7CFDCB9E81"
+				item: { count: 1, id: "aoa3:ghastly_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghastly_chestplate"
+			}
+			id: "7BBF04353B104B48"
+			tasks: [{
+				consume_items: false
+				id: "01A946DCD4A53AD3"
+				item: { count: 1, id: "aoa3:ghastly_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghastly_helmet"
+			}
+			id: "5B8BAEFA0F5C4AAA"
+			tasks: [{
+				consume_items: false
+				id: "2A018B812B32EB40"
+				item: { count: 1, id: "aoa3:ghastly_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghastly_leggings"
+			}
+			id: "0502D5F4590554E4"
+			tasks: [{
+				consume_items: false
+				id: "386CF0E70FDCCFDE"
+				item: { count: 1, id: "aoa3:ghastly_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ghoulish_boots"
+			}
+			id: "434B19D8A5CA27C9"
+			tasks: [{
+				consume_items: false
+				id: "56EA4F9DC4040B7C"
+				item: { count: 1, id: "aoa3:ghoulish_boots" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -23,10 +1392,14 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "49DEA09201A65D7D"
+			icon: {
+				id: "aoa3:ghoulish_chestplate"
+			}
+			id: "52CBBA940AF7B6AC"
 			tasks: [{
-				id: "1BD4FAC7800E1313"
-				item: { count: 1, id: "minecraft:iron_chestplate" }
+				consume_items: false
+				id: "19A77BC824AC56AC"
+				item: { count: 1, id: "aoa3:ghoulish_chestplate" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -34,10 +1407,14 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "00ACF900BAF010B9"
+			icon: {
+				id: "aoa3:ghoulish_helmet"
+			}
+			id: "70A3DCECCF6794D1"
 			tasks: [{
-				id: "39CF6D03141603D7"
-				item: { count: 1, id: "minecraft:iron_leggings" }
+				consume_items: false
+				id: "27A934D0E6D6F6FA"
+				item: { count: 1, id: "aoa3:ghoulish_helmet" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -45,14 +1422,4656 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "2D6881F7B10DB255"
+			icon: {
+				id: "aoa3:ghoulish_leggings"
+			}
+			id: "1E63816E4022E573"
 			tasks: [{
-				id: "371614C4180806CC"
-				item: { count: 1, id: "minecraft:iron_boots" }
+				consume_items: false
+				id: "19DC3FFC379C8F18"
+				item: { count: 1, id: "aoa3:ghoulish_leggings" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hazmat_boots"
+			}
+			id: "0D518AB566DAD43E"
+			tasks: [{
+				consume_items: false
+				id: "077E8175DEA65B58"
+				item: { count: 1, id: "aoa3:hazmat_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hazmat_chestplate"
+			}
+			id: "28AE28975DA6FA3D"
+			tasks: [{
+				consume_items: false
+				id: "00941CF5AAF8AA2F"
+				item: { count: 1, id: "aoa3:hazmat_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hazmat_helmet"
+			}
+			id: "4A97F4CB176D318D"
+			tasks: [{
+				consume_items: false
+				id: "6901DD815904B1FA"
+				item: { count: 1, id: "aoa3:hazmat_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hazmat_leggings"
+			}
+			id: "2B9220142EDB24FA"
+			tasks: [{
+				consume_items: false
+				id: "38654030CB694602"
+				item: { count: 1, id: "aoa3:hazmat_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:helm_of_the_dextrous"
+			}
+			id: "11BF55A248B88070"
+			tasks: [{
+				consume_items: false
+				id: "1FCA322024BCDD1C"
+				item: { count: 1, id: "aoa3:helm_of_the_dextrous" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:helm_of_the_dryad"
+			}
+			id: "1BEBCD443D3F442C"
+			tasks: [{
+				consume_items: false
+				id: "7DEBDB87DE817F2B"
+				item: { count: 1, id: "aoa3:helm_of_the_dryad" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:helm_of_the_ritualist"
+			}
+			id: "44481B5FF4716722"
+			tasks: [{
+				consume_items: false
+				id: "1B0A6281359AFA5A"
+				item: { count: 1, id: "aoa3:helm_of_the_ritualist" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:helm_of_the_trawler"
+			}
+			id: "73301845D1EC29FE"
+			tasks: [{
+				consume_items: false
+				id: "5764B330497F4490"
+				item: { count: 1, id: "aoa3:helm_of_the_trawler" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:helm_of_the_treasurer"
+			}
+			id: "54EC1C31EF7544FB"
+			tasks: [{
+				consume_items: false
+				id: "7708CE4908AADA99"
+				item: { count: 1, id: "aoa3:helm_of_the_treasurer" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:helm_of_the_warrior"
+			}
+			id: "662C2C7252653555"
+			tasks: [{
+				consume_items: false
+				id: "5DB2C38B6BED0BC2"
+				item: { count: 1, id: "aoa3:helm_of_the_warrior" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydrangic_boots"
+			}
+			id: "01342784C5E50B1F"
+			tasks: [{
+				consume_items: false
+				id: "54C370382EA75BC7"
+				item: { count: 1, id: "aoa3:hydrangic_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydrangic_chestplate"
+			}
+			id: "4353135E5D52A546"
+			tasks: [{
+				consume_items: false
+				id: "59CDDC60544BF2DE"
+				item: { count: 1, id: "aoa3:hydrangic_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydrangic_helmet"
+			}
+			id: "699B46296981D991"
+			tasks: [{
+				consume_items: false
+				id: "3FAFB5E04EB85DC9"
+				item: { count: 1, id: "aoa3:hydrangic_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydrangic_leggings"
+			}
+			id: "36CC7AB941DF4B37"
+			tasks: [{
+				consume_items: false
+				id: "43B9EDBF6933EE15"
+				item: { count: 1, id: "aoa3:hydrangic_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydroplate_boots"
+			}
+			id: "0C7FDE2AE31CB725"
+			tasks: [{
+				consume_items: false
+				id: "71911A295E92D98F"
+				item: { count: 1, id: "aoa3:hydroplate_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydroplate_chestplate"
+			}
+			id: "63DAF70B594207D5"
+			tasks: [{
+				consume_items: false
+				id: "091316EE2254D7CA"
+				item: { count: 1, id: "aoa3:hydroplate_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydroplate_helmet"
+			}
+			id: "2943F9667A203E8D"
+			tasks: [{
+				consume_items: false
+				id: "1BF8FCC609DD4DDC"
+				item: { count: 1, id: "aoa3:hydroplate_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:hydroplate_leggings"
+			}
+			id: "3C0BD59B052DF208"
+			tasks: [{
+				consume_items: false
+				id: "420711DB98DAC031"
+				item: { count: 1, id: "aoa3:hydroplate_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ice_boots"
+			}
+			id: "265F90B0E5DE8682"
+			tasks: [{
+				consume_items: false
+				id: "1B4E68A756D85E5F"
+				item: { count: 1, id: "aoa3:ice_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ice_chestplate"
+			}
+			id: "618D77FAD1D694CC"
+			tasks: [{
+				consume_items: false
+				id: "49EEEFFF04B89D3C"
+				item: { count: 1, id: "aoa3:ice_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ice_helmet"
+			}
+			id: "557B1C16F7E9B70E"
+			tasks: [{
+				consume_items: false
+				id: "782152FBD3890E90"
+				item: { count: 1, id: "aoa3:ice_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:ice_leggings"
+			}
+			id: "58FB03E426A3D056"
+			tasks: [{
+				consume_items: false
+				id: "5322D69C14C3D51A"
+				item: { count: 1, id: "aoa3:ice_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:infernal_boots"
+			}
+			id: "5C6ABD78BCDC837F"
+			tasks: [{
+				consume_items: false
+				id: "5844373844403CF5"
+				item: { count: 1, id: "aoa3:infernal_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:infernal_chestplate"
+			}
+			id: "6908AB7E2A2C5FFB"
+			tasks: [{
+				consume_items: false
+				id: "515F02CA2A349A72"
+				item: { count: 1, id: "aoa3:infernal_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:infernal_helmet"
+			}
+			id: "6AC689A93684699F"
+			tasks: [{
+				consume_items: false
+				id: "318DAA406ED8939C"
+				item: { count: 1, id: "aoa3:infernal_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:infernal_leggings"
+			}
+			id: "46A1BF1F38DE2A70"
+			tasks: [{
+				consume_items: false
+				id: "2BB5DF271EF39262"
+				item: { count: 1, id: "aoa3:infernal_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:knight_boots"
+			}
+			id: "19A6AD96D73DE14F"
+			tasks: [{
+				consume_items: false
+				id: "3E13685E2FD3FB4A"
+				item: { count: 1, id: "aoa3:knight_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:knight_chestplate"
+			}
+			id: "4DB824D527B97491"
+			tasks: [{
+				consume_items: false
+				id: "79C50C55443226CB"
+				item: { count: 1, id: "aoa3:knight_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:knight_helmet"
+			}
+			id: "5B90E37B0E1318E2"
+			tasks: [{
+				consume_items: false
+				id: "20B92BA5DD5B6FB5"
+				item: { count: 1, id: "aoa3:knight_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:knight_leggings"
+			}
+			id: "10E95E19C6B10C49"
+			tasks: [{
+				consume_items: false
+				id: "2F85CC35B6A9A640"
+				item: { count: 1, id: "aoa3:knight_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_boots"
+			}
+			id: "1B3ABF18146F6BF7"
+			tasks: [{
+				consume_items: false
+				id: "797EEE5C1CC10BEB"
+				item: { count: 1, id: "aoa3:lunar_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_chestplate"
+			}
+			id: "5B5D246A596DE767"
+			tasks: [{
+				consume_items: false
+				id: "511D0D238E2D2AC9"
+				item: { count: 1, id: "aoa3:lunar_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_helmet"
+			}
+			id: "5782EC9717FA3183"
+			tasks: [{
+				consume_items: false
+				id: "2FA0F29FD3E47A15"
+				item: { count: 1, id: "aoa3:lunar_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lunar_leggings"
+			}
+			id: "243C3E2FC41EA3E9"
+			tasks: [{
+				consume_items: false
+				id: "6EE6E00C0782F859"
+				item: { count: 1, id: "aoa3:lunar_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyndamyte_boots"
+			}
+			id: "09585490756E3795"
+			tasks: [{
+				consume_items: false
+				id: "514979BCB2DA242B"
+				item: { count: 1, id: "aoa3:lyndamyte_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyndamyte_chestplate"
+			}
+			id: "481533D4C7B09426"
+			tasks: [{
+				consume_items: false
+				id: "6982C3360841B4E9"
+				item: { count: 1, id: "aoa3:lyndamyte_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyndamyte_helmet"
+			}
+			id: "047DBF372B432037"
+			tasks: [{
+				consume_items: false
+				id: "4EB9BFC7B3A13942"
+				item: { count: 1, id: "aoa3:lyndamyte_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyndamyte_leggings"
+			}
+			id: "5C2B9BC8B2CD2D83"
+			tasks: [{
+				consume_items: false
+				id: "49E69344BCDB1038"
+				item: { count: 1, id: "aoa3:lyndamyte_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyonic_boots"
+			}
+			id: "2C24A5AA32CABDAA"
+			tasks: [{
+				consume_items: false
+				id: "05919566BE2EEDB5"
+				item: { count: 1, id: "aoa3:lyonic_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyonic_chestplate"
+			}
+			id: "59827FB9FDD124D3"
+			tasks: [{
+				consume_items: false
+				id: "6F69CA16B7BC2139"
+				item: { count: 1, id: "aoa3:lyonic_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyonic_helmet"
+			}
+			id: "251A61774B86B7A0"
+			tasks: [{
+				consume_items: false
+				id: "3F9EE323403E2E40"
+				item: { count: 1, id: "aoa3:lyonic_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:lyonic_leggings"
+			}
+			id: "3837091B684E9DFE"
+			tasks: [{
+				consume_items: false
+				id: "57CAC1AA57A9801D"
+				item: { count: 1, id: "aoa3:lyonic_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mercurial_boots"
+			}
+			id: "4C5BD263A6E010A6"
+			tasks: [{
+				consume_items: false
+				id: "03C79A6EAF796425"
+				item: { count: 1, id: "aoa3:mercurial_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mercurial_chestplate"
+			}
+			id: "1A34B378E6F848EB"
+			tasks: [{
+				consume_items: false
+				id: "1F3A82D86229806B"
+				item: { count: 1, id: "aoa3:mercurial_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mercurial_helmet"
+			}
+			id: "04D23C9DB0A6CB2F"
+			tasks: [{
+				consume_items: false
+				id: "1B9421EEA473D7F2"
+				item: { count: 1, id: "aoa3:mercurial_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:mercurial_leggings"
+			}
+			id: "6D3CCA3D397D2DC8"
+			tasks: [{
+				consume_items: false
+				id: "39F97440FBE2311C"
+				item: { count: 1, id: "aoa3:mercurial_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:necro_boots"
+			}
+			id: "4DB1680D1838237C"
+			tasks: [{
+				consume_items: false
+				id: "573C2C32D77121A5"
+				item: { count: 1, id: "aoa3:necro_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:necro_chestplate"
+			}
+			id: "456EB1CBB1B63F7C"
+			tasks: [{
+				consume_items: false
+				id: "0367C9E934FA395C"
+				item: { count: 1, id: "aoa3:necro_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:necro_helmet"
+			}
+			id: "4E9EEF67D04585B5"
+			tasks: [{
+				consume_items: false
+				id: "1521667D643C4304"
+				item: { count: 1, id: "aoa3:necro_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:necro_leggings"
+			}
+			id: "52C75A389EAE60E3"
+			tasks: [{
+				consume_items: false
+				id: "421A6411F7C375F4"
+				item: { count: 1, id: "aoa3:necro_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethengeic_boots"
+			}
+			id: "60DED6A9B2B5937F"
+			tasks: [{
+				consume_items: false
+				id: "2F573AA5E0533950"
+				item: { count: 1, id: "aoa3:nethengeic_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethengeic_chestplate"
+			}
+			id: "0B99F81227FC700E"
+			tasks: [{
+				consume_items: false
+				id: "79BBDA2A42292413"
+				item: { count: 1, id: "aoa3:nethengeic_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethengeic_helmet"
+			}
+			id: "31F7F2E5D34DDCB8"
+			tasks: [{
+				consume_items: false
+				id: "3AFFDB9B947CF3C5"
+				item: { count: 1, id: "aoa3:nethengeic_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nethengeic_leggings"
+			}
+			id: "3C0DF437B0FDCA87"
+			tasks: [{
+				consume_items: false
+				id: "419EBF76B10020AA"
+				item: { count: 1, id: "aoa3:nethengeic_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nightmare_boots"
+			}
+			id: "54D9EE84B65DE51E"
+			tasks: [{
+				consume_items: false
+				id: "5F60C54EC6D25885"
+				item: { count: 1, id: "aoa3:nightmare_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nightmare_chestplate"
+			}
+			id: "23E232C47ADDC651"
+			tasks: [{
+				consume_items: false
+				id: "31CE77A0BBB93CDD"
+				item: { count: 1, id: "aoa3:nightmare_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nightmare_helmet"
+			}
+			id: "3743C0BF2603B2AD"
+			tasks: [{
+				consume_items: false
+				id: "4A9FB7513AEAD8C2"
+				item: { count: 1, id: "aoa3:nightmare_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:nightmare_leggings"
+			}
+			id: "0A66335BD6D3272D"
+			tasks: [{
+				consume_items: false
+				id: "2D501D620604561C"
+				item: { count: 1, id: "aoa3:nightmare_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:oceanus_helmet"
+			}
+			id: "24E61911265BB32D"
+			tasks: [{
+				consume_items: false
+				id: "6EEE6C3DCACB5743"
+				item: { count: 1, id: "aoa3:oceanus_helmet" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:omni_boots"
+			}
+			id: "32632BE03CEA66EA"
+			tasks: [{
+				consume_items: false
+				id: "2394D74BEBB68ED1"
+				item: { count: 1, id: "aoa3:omni_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:omni_chestplate"
+			}
+			id: "121B1BF72FC2949D"
+			tasks: [{
+				consume_items: false
+				id: "2E84E668A13BCE42"
+				item: { count: 1, id: "aoa3:omni_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:omni_helmet"
+			}
+			id: "1D597F9F36651D15"
+			tasks: [{
+				consume_items: false
+				id: "7F7BA96F8C55CCAB"
+				item: { count: 1, id: "aoa3:omni_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:omni_leggings"
+			}
+			id: "485EB76D5078E991"
+			tasks: [{
+				consume_items: false
+				id: "3D226D6EA92D06BB"
+				item: { count: 1, id: "aoa3:omni_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:phantasm_boots"
+			}
+			id: "460734911D04A54D"
+			tasks: [{
+				consume_items: false
+				id: "036682E6BF9B4FBC"
+				item: { count: 1, id: "aoa3:phantasm_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:phantasm_chestplate"
+			}
+			id: "0B0BBA83EA3DB1D1"
+			tasks: [{
+				consume_items: false
+				id: "5E4FDF3A826F1541"
+				item: { count: 1, id: "aoa3:phantasm_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:phantasm_helmet"
+			}
+			id: "76D2B3D3811EB536"
+			tasks: [{
+				consume_items: false
+				id: "718ECB236A3CC050"
+				item: { count: 1, id: "aoa3:phantasm_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:phantasm_leggings"
+			}
+			id: "7E52C582B50FE365"
+			tasks: [{
+				consume_items: false
+				id: "35AA6EC40132A421"
+				item: { count: 1, id: "aoa3:phantasm_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_boots"
+			}
+			id: "71F8FAAC9FBF9B6E"
+			tasks: [{
+				consume_items: false
+				id: "0695C728196A8FF5"
+				item: { count: 1, id: "aoa3:poison_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_chestplate"
+			}
+			id: "3FB9F882762AD1B6"
+			tasks: [{
+				consume_items: false
+				id: "2F9FDB9800D38FBF"
+				item: { count: 1, id: "aoa3:poison_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_helmet"
+			}
+			id: "46CE366D81580BBB"
+			tasks: [{
+				consume_items: false
+				id: "1A44D6C1607BB33D"
+				item: { count: 1, id: "aoa3:poison_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:poison_leggings"
+			}
+			id: "5D22886A3AA21534"
+			tasks: [{
+				consume_items: false
+				id: "01F573E80D81EB6A"
+				item: { count: 1, id: "aoa3:poison_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predatious_boots"
+			}
+			id: "2991B22CACB993E7"
+			tasks: [{
+				consume_items: false
+				id: "4DA256D48A2D1CCE"
+				item: { count: 1, id: "aoa3:predatious_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predatious_chestplate"
+			}
+			id: "2B1E1BDD50396FEA"
+			tasks: [{
+				consume_items: false
+				id: "35454C8DEAFCB048"
+				item: { count: 1, id: "aoa3:predatious_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predatious_helmet"
+			}
+			id: "7101CE92938574C1"
+			tasks: [{
+				consume_items: false
+				id: "6BF66747DEB6578F"
+				item: { count: 1, id: "aoa3:predatious_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:predatious_leggings"
+			}
+			id: "624DF131DEA2847A"
+			tasks: [{
+				consume_items: false
+				id: "150581561971C4F7"
+				item: { count: 1, id: "aoa3:predatious_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_boots"
+			}
+			id: "3BCB434A75EA7208"
+			tasks: [{
+				consume_items: false
+				id: "636570646307F824"
+				item: { count: 1, id: "aoa3:primordial_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_chestplate"
+			}
+			id: "7BC0F30A9B913360"
+			tasks: [{
+				consume_items: false
+				id: "5539731D6DFE2181"
+				item: { count: 1, id: "aoa3:primordial_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_helmet"
+			}
+			id: "0F3C9797034B8327"
+			tasks: [{
+				consume_items: false
+				id: "5B35ECF39C447461"
+				item: { count: 1, id: "aoa3:primordial_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:primordial_leggings"
+			}
+			id: "77263188900CBE3C"
+			tasks: [{
+				consume_items: false
+				id: "0C619CD825F8E56F"
+				item: { count: 1, id: "aoa3:primordial_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purity_boots"
+			}
+			id: "272D37C3F708C771"
+			tasks: [{
+				consume_items: false
+				id: "2DF0BA71EB37A13D"
+				item: { count: 1, id: "aoa3:purity_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purity_chestplate"
+			}
+			id: "564D755779E3C2F7"
+			tasks: [{
+				consume_items: false
+				id: "1A0309C18DFAAF8A"
+				item: { count: 1, id: "aoa3:purity_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purity_helmet"
+			}
+			id: "26823CB3A1715431"
+			tasks: [{
+				consume_items: false
+				id: "57B5023D4631EFD6"
+				item: { count: 1, id: "aoa3:purity_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:purity_leggings"
+			}
+			id: "3A08CCC3AD7C4B0A"
+			tasks: [{
+				consume_items: false
+				id: "46E636C2BC60B3C8"
+				item: { count: 1, id: "aoa3:purity_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rockbone_boots"
+			}
+			id: "2CD4F2C9CDF3E914"
+			tasks: [{
+				consume_items: false
+				id: "641FD52EBF052AF9"
+				item: { count: 1, id: "aoa3:rockbone_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rockbone_chestplate"
+			}
+			id: "7EE1F770C00F89E1"
+			tasks: [{
+				consume_items: false
+				id: "613B4EEC4D006F49"
+				item: { count: 1, id: "aoa3:rockbone_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rockbone_helmet"
+			}
+			id: "7578FCB3062230D0"
+			tasks: [{
+				consume_items: false
+				id: "0AA6016796128B9F"
+				item: { count: 1, id: "aoa3:rockbone_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rockbone_leggings"
+			}
+			id: "1292A4DDBF6DC92E"
+			tasks: [{
+				consume_items: false
+				id: "22D5442CE576EE43"
+				item: { count: 1, id: "aoa3:rockbone_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_boots"
+			}
+			id: "4AD0EBB0F173AF4B"
+			tasks: [{
+				consume_items: false
+				id: "7FC29B59E518E5EA"
+				item: { count: 1, id: "aoa3:rosidian_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_chestplate"
+			}
+			id: "7501916CB4987E61"
+			tasks: [{
+				consume_items: false
+				id: "684D1119893E0C47"
+				item: { count: 1, id: "aoa3:rosidian_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_helmet"
+			}
+			id: "14E64A95150DFDA9"
+			tasks: [{
+				consume_items: false
+				id: "60B777850A9D57B2"
+				item: { count: 1, id: "aoa3:rosidian_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:rosidian_leggings"
+			}
+			id: "1E363F212AE75564"
+			tasks: [{
+				consume_items: false
+				id: "07747F7EF599E4B2"
+				item: { count: 1, id: "aoa3:rosidian_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_boots"
+			}
+			id: "1FBF8F31C72DEF20"
+			tasks: [{
+				consume_items: false
+				id: "2BA95AC2FA41EAEC"
+				item: { count: 1, id: "aoa3:runic_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_chestplate"
+			}
+			id: "36444FE20FBE18AD"
+			tasks: [{
+				consume_items: false
+				id: "4A6C740F571D4FA9"
+				item: { count: 1, id: "aoa3:runic_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_helmet"
+			}
+			id: "3319B8F8907CF6E7"
+			tasks: [{
+				consume_items: false
+				id: "59152E263D157E20"
+				item: { count: 1, id: "aoa3:runic_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:runic_leggings"
+			}
+			id: "50C4AA69FF6A5F1C"
+			tasks: [{
+				consume_items: false
+				id: "341EC5B71D2D2C1E"
+				item: { count: 1, id: "aoa3:runic_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sealord_helmet"
+			}
+			id: "11A2BB34D73C2905"
+			tasks: [{
+				consume_items: false
+				id: "1EABA2F110F6B6A8"
+				item: { count: 1, id: "aoa3:sealord_helmet" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sharpshot_boots"
+			}
+			id: "68F0B5FFE42862B2"
+			tasks: [{
+				consume_items: false
+				id: "293DD2117D481D65"
+				item: { count: 1, id: "aoa3:sharpshot_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sharpshot_chestplate"
+			}
+			id: "00AE80CAEAAB205E"
+			tasks: [{
+				consume_items: false
+				id: "383544B96F3B2EB4"
+				item: { count: 1, id: "aoa3:sharpshot_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sharpshot_helmet"
+			}
+			id: "49FB9943DF541466"
+			tasks: [{
+				consume_items: false
+				id: "6377DF3EC9640A89"
+				item: { count: 1, id: "aoa3:sharpshot_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:sharpshot_leggings"
+			}
+			id: "2069B8A4BF6F3E2A"
+			tasks: [{
+				consume_items: false
+				id: "5519ABFD33BCFE34"
+				item: { count: 1, id: "aoa3:sharpshot_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_boots"
+			}
+			id: "577A41B562D8BC33"
+			tasks: [{
+				consume_items: false
+				id: "6533509D2C7B851E"
+				item: { count: 1, id: "aoa3:skeletal_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_chestplate"
+			}
+			id: "645959A69540D08C"
+			tasks: [{
+				consume_items: false
+				id: "5CB51C260814EEED"
+				item: { count: 1, id: "aoa3:skeletal_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_helmet"
+			}
+			id: "756D804F9CB8E7C9"
+			tasks: [{
+				consume_items: false
+				id: "136CDC772FB6BD98"
+				item: { count: 1, id: "aoa3:skeletal_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:skeletal_leggings"
+			}
+			id: "6BB7254C6300AC60"
+			tasks: [{
+				consume_items: false
+				id: "6DF9D6D37813DB54"
+				item: { count: 1, id: "aoa3:skeletal_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spaceking_boots"
+			}
+			id: "5EB478A964D8D4EE"
+			tasks: [{
+				consume_items: false
+				id: "6F6E54AC1A310D39"
+				item: { count: 1, id: "aoa3:spaceking_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spaceking_chestplate"
+			}
+			id: "4C69CF624C4DAC72"
+			tasks: [{
+				consume_items: false
+				id: "0134255B472FA441"
+				item: { count: 1, id: "aoa3:spaceking_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spaceking_helmet"
+			}
+			id: "4FAAA4DA71C8E5B4"
+			tasks: [{
+				consume_items: false
+				id: "07B4D0E17F5D44D2"
+				item: { count: 1, id: "aoa3:spaceking_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:spaceking_leggings"
+			}
+			id: "719C7295251F5941"
+			tasks: [{
+				consume_items: false
+				id: "37C1F59E30C531EC"
+				item: { count: 1, id: "aoa3:spaceking_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:speed_boots"
+			}
+			id: "1999E585230D8F6C"
+			tasks: [{
+				consume_items: false
+				id: "59E7F43D7A28724D"
+				item: { count: 1, id: "aoa3:speed_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:speed_chestplate"
+			}
+			id: "50355DCE85FB3A20"
+			tasks: [{
+				consume_items: false
+				id: "22FC0634CAE31FA1"
+				item: { count: 1, id: "aoa3:speed_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:speed_helmet"
+			}
+			id: "32BD8797B876E2F2"
+			tasks: [{
+				consume_items: false
+				id: "6CB92C74A46F3BEE"
+				item: { count: 1, id: "aoa3:speed_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:speed_leggings"
+			}
+			id: "1109041E406C14D2"
+			tasks: [{
+				consume_items: false
+				id: "17B6A330251050D5"
+				item: { count: 1, id: "aoa3:speed_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:subterranean_boots"
+			}
+			id: "1D4B0272E2FBFBD7"
+			tasks: [{
+				consume_items: false
+				id: "1581FA8AACA7C243"
+				item: { count: 1, id: "aoa3:subterranean_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:subterranean_chestplate"
+			}
+			id: "34A9779B2D8D1F08"
+			tasks: [{
+				consume_items: false
+				id: "77D73C77D81263C1"
+				item: { count: 1, id: "aoa3:subterranean_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:subterranean_helmet"
+			}
+			id: "32EE2CA8EDA09012"
+			tasks: [{
+				consume_items: false
+				id: "16DEC94CD1770AD3"
+				item: { count: 1, id: "aoa3:subterranean_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:subterranean_leggings"
+			}
+			id: "634DE3D2A98A238D"
+			tasks: [{
+				consume_items: false
+				id: "6083F5CAB2369D1B"
+				item: { count: 1, id: "aoa3:subterranean_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:utopian_boots"
+			}
+			id: "3AC7E8E816B1A289"
+			tasks: [{
+				consume_items: false
+				id: "509E95A46F8AEAA9"
+				item: { count: 1, id: "aoa3:utopian_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:utopian_chestplate"
+			}
+			id: "6A3C7AA9895EAA5F"
+			tasks: [{
+				consume_items: false
+				id: "2AF74BE12A6BA991"
+				item: { count: 1, id: "aoa3:utopian_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:utopian_helmet"
+			}
+			id: "506582C72072EB06"
+			tasks: [{
+				consume_items: false
+				id: "42D7A3B73C32BE03"
+				item: { count: 1, id: "aoa3:utopian_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:utopian_leggings"
+			}
+			id: "71CBE6830AC70E07"
+			tasks: [{
+				consume_items: false
+				id: "071AF0C5478996F8"
+				item: { count: 1, id: "aoa3:utopian_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:void_boots"
+			}
+			id: "33C2A27E7724BB94"
+			tasks: [{
+				consume_items: false
+				id: "7C889C29A76FE414"
+				item: { count: 1, id: "aoa3:void_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:void_chestplate"
+			}
+			id: "6628C9A695511D8F"
+			tasks: [{
+				consume_items: false
+				id: "79B4C376E8513447"
+				item: { count: 1, id: "aoa3:void_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:void_helmet"
+			}
+			id: "18DCEC5B72D896CD"
+			tasks: [{
+				consume_items: false
+				id: "6B8C66B11759C245"
+				item: { count: 1, id: "aoa3:void_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:void_leggings"
+			}
+			id: "621180F5ED9C9D7A"
+			tasks: [{
+				consume_items: false
+				id: "53DDA508CF52F98B"
+				item: { count: 1, id: "aoa3:void_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:weaken_boots"
+			}
+			id: "108D85C4475F70B6"
+			tasks: [{
+				consume_items: false
+				id: "6A111078F7F16B96"
+				item: { count: 1, id: "aoa3:weaken_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:weaken_chestplate"
+			}
+			id: "4B8D71D59D9CB56F"
+			tasks: [{
+				consume_items: false
+				id: "0C712134C7907B92"
+				item: { count: 1, id: "aoa3:weaken_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:weaken_helmet"
+			}
+			id: "5FFD4B6A8B80F2C9"
+			tasks: [{
+				consume_items: false
+				id: "74BD7386C600D498"
+				item: { count: 1, id: "aoa3:weaken_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:weaken_leggings"
+			}
+			id: "12BE89E6CDB7EE2A"
+			tasks: [{
+				consume_items: false
+				id: "1B53299A454E7BB0"
+				item: { count: 1, id: "aoa3:weaken_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_boots"
+			}
+			id: "766CDA87D640501E"
+			tasks: [{
+				consume_items: false
+				id: "60F488C8F9CE5956"
+				item: { count: 1, id: "aoa3:wither_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_chestplate"
+			}
+			id: "5377C563B4DEBDAE"
+			tasks: [{
+				consume_items: false
+				id: "0087A4DFE90E51D2"
+				item: { count: 1, id: "aoa3:wither_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_helmet"
+			}
+			id: "0BBC769FBBE449A9"
+			tasks: [{
+				consume_items: false
+				id: "42359CDEAAD82F78"
+				item: { count: 1, id: "aoa3:wither_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:wither_leggings"
+			}
+			id: "65220A135CA64D2B"
+			tasks: [{
+				consume_items: false
+				id: "591C531F576ADEBF"
+				item: { count: 1, id: "aoa3:wither_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:zargonite_boots"
+			}
+			id: "331D7452F2A7C24C"
+			tasks: [{
+				consume_items: false
+				id: "3F2A7336555B30F8"
+				item: { count: 1, id: "aoa3:zargonite_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:zargonite_chestplate"
+			}
+			id: "65F02AF4DF27B879"
+			tasks: [{
+				consume_items: false
+				id: "4979A0664E4C4FFC"
+				item: { count: 1, id: "aoa3:zargonite_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:zargonite_helmet"
+			}
+			id: "5A83F410C8AA45B6"
+			tasks: [{
+				consume_items: false
+				id: "2AED15DEB1516EAE"
+				item: { count: 1, id: "aoa3:zargonite_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:zargonite_leggings"
+			}
+			id: "16757D01E7F64733"
+			tasks: [{
+				consume_items: false
+				id: "32B85FD01ED665C5"
+				item: { count: 1, id: "aoa3:zargonite_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_boots"
+			}
+			id: "5DCBC066B271C293"
+			tasks: [{
+				consume_items: false
+				id: "208D3ABAEDC2A324"
+				item: { count: 1, id: "avaritia:infinity_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_chestplate"
+			}
+			id: "5249FFB5595C4918"
+			tasks: [{
+				consume_items: false
+				id: "6B50E9F2C2A07E69"
+				item: { count: 1, id: "avaritia:infinity_chestplate" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_helmet"
+			}
+			id: "46341D0D5020CE1D"
+			tasks: [{
+				consume_items: false
+				id: "3EB7F59F31551B30"
+				item: { count: 1, id: "avaritia:infinity_helmet" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_pants"
+			}
+			id: "45EE07B72F636554"
+			tasks: [{
+				consume_items: false
+				id: "7DC4740F40D41019"
+				item: { count: 1, id: "avaritia:infinity_pants" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "create:cardboard_boots"
+			}
+			id: "340EC2E30FBBD16A"
+			tasks: [{
+				consume_items: false
+				id: "4B3AA0B9942B9346"
+				item: { count: 1, id: "create:cardboard_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "create:cardboard_chestplate"
+			}
+			id: "3C595F981B71D468"
+			tasks: [{
+				consume_items: false
+				id: "59308E7A27219238"
+				item: { count: 1, id: "create:cardboard_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "create:cardboard_helmet"
+			}
+			id: "3CE1037423532D45"
+			tasks: [{
+				consume_items: false
+				id: "4AC7811EDE98B259"
+				item: { count: 1, id: "create:cardboard_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "create:cardboard_leggings"
+			}
+			id: "09FA027F89EA1EAD"
+			tasks: [{
+				consume_items: false
+				id: "3FA93F3F46D0C00F"
+				item: { count: 1, id: "create:cardboard_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:resonarium_boots"
+			}
+			id: "209EF6BE07C88CFD"
+			tasks: [{
+				consume_items: false
+				id: "57BB440C7F9EA0D8"
+				item: { count: 1, id: "deeperdarker:resonarium_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:resonarium_chestplate"
+			}
+			id: "0D3FC72EDEA673E4"
+			tasks: [{
+				consume_items: false
+				id: "5A53BA7AFA187943"
+				item: { count: 1, id: "deeperdarker:resonarium_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:resonarium_helmet"
+			}
+			id: "0D0AECF11DD35466"
+			tasks: [{
+				consume_items: false
+				id: "0504A98294FDAB74"
+				item: { count: 1, id: "deeperdarker:resonarium_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:resonarium_leggings"
+			}
+			id: "090377FAE8C4AFA4"
+			tasks: [{
+				consume_items: false
+				id: "120435F935427B03"
+				item: { count: 1, id: "deeperdarker:resonarium_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:chaotic_chestpiece"
+			}
+			id: "3F705B9C60471D7E"
+			tasks: [{
+				consume_items: false
+				id: "703DAA5BF7111A41"
+				item: { count: 1, id: "draconicevolution:chaotic_chestpiece" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:draconic_chestpiece"
+			}
+			id: "521C67C7EDE03D01"
+			tasks: [{
+				consume_items: false
+				id: "017D4F69E950C909"
+				item: { count: 1, id: "draconicevolution:draconic_chestpiece" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "draconicevolution:wyvern_chestpiece"
+			}
+			id: "4699FA6A9AD2748F"
+			tasks: [{
+				consume_items: false
+				id: "0335A21AF96D8AA6"
+				item: { count: 1, id: "draconicevolution:wyvern_chestpiece" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:farmer_boots"
+			}
+			id: "7ED1267D8406ED1E"
+			tasks: [{
+				consume_items: false
+				id: "0C970AD90695F356"
+				item: { count: 1, id: "kaleidoscope_cookery:farmer_boots" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:farmer_chest_plate"
+			}
+			id: "3CFEBCC91953AEBB"
+			tasks: [{
+				consume_items: false
+				id: "3416E82236744146"
+				item: { count: 1, id: "kaleidoscope_cookery:farmer_chest_plate" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:farmer_leggings"
+			}
+			id: "34E94B85D73E3848"
+			tasks: [{
+				consume_items: false
+				id: "626AA5CF2811C584"
+				item: { count: 1, id: "kaleidoscope_cookery:farmer_leggings" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:straw_hat"
+			}
+			id: "59285F9E602FACB1"
+			tasks: [{
+				consume_items: false
+				id: "3B831E79052EB852"
+				item: { count: 1, id: "kaleidoscope_cookery:straw_hat" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:straw_hat_flower"
+			}
+			id: "006DAE3F79C4B01F"
+			tasks: [{
+				consume_items: false
+				id: "521EF9CAB53B38D9"
+				item: { count: 1, id: "kaleidoscope_cookery:straw_hat_flower" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:eternium_boots"
+			}
+			id: "4A282D78FFD02F2F"
+			tasks: [{
+				consume_items: false
+				id: "14716EFF167900CA"
+				item: { count: 1, id: "l2complements:eternium_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:eternium_chestplate"
+			}
+			id: "55B7CFDD6767E58D"
+			tasks: [{
+				consume_items: false
+				id: "2CDFC8BA471EABFD"
+				item: { count: 1, id: "l2complements:eternium_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:eternium_helmet"
+			}
+			id: "034A1B18FF648BAC"
+			tasks: [{
+				consume_items: false
+				id: "0680D5C2D2783D0A"
+				item: { count: 1, id: "l2complements:eternium_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:eternium_leggings"
+			}
+			id: "0539D866054E37B3"
+			tasks: [{
+				consume_items: false
+				id: "3695B117B2A344BB"
+				item: { count: 1, id: "l2complements:eternium_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sculkium_boots"
+			}
+			id: "620ECFCEB5F98B66"
+			tasks: [{
+				consume_items: false
+				id: "08CBB5DEDDDFD88E"
+				item: { count: 1, id: "l2complements:sculkium_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sculkium_chestplate"
+			}
+			id: "21C27AA535401723"
+			tasks: [{
+				consume_items: false
+				id: "24BF61931A0055EB"
+				item: { count: 1, id: "l2complements:sculkium_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sculkium_helmet"
+			}
+			id: "787DFBD26ACCF13C"
+			tasks: [{
+				consume_items: false
+				id: "7902CACF1A30127E"
+				item: { count: 1, id: "l2complements:sculkium_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:sculkium_leggings"
+			}
+			id: "01BE9E62FEE5BE76"
+			tasks: [{
+				consume_items: false
+				id: "47CBFFCA39163325"
+				item: { count: 1, id: "l2complements:sculkium_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:shulkerate_boots"
+			}
+			id: "1296D51E5951E01B"
+			tasks: [{
+				consume_items: false
+				id: "0306644B1245B6E5"
+				item: { count: 1, id: "l2complements:shulkerate_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:shulkerate_chestplate"
+			}
+			id: "30DA531435FC9773"
+			tasks: [{
+				consume_items: false
+				id: "62453980087E7CEC"
+				item: { count: 1, id: "l2complements:shulkerate_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:shulkerate_helmet"
+			}
+			id: "15BDE1087758E2F1"
+			tasks: [{
+				consume_items: false
+				id: "2A00F97C3DF4F636"
+				item: { count: 1, id: "l2complements:shulkerate_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:shulkerate_leggings"
+			}
+			id: "63A4D24321D59F66"
+			tasks: [{
+				consume_items: false
+				id: "34E7D5502514D711"
+				item: { count: 1, id: "l2complements:shulkerate_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:totemic_gold_boots"
+			}
+			id: "209E8A78CC1677E1"
+			tasks: [{
+				consume_items: false
+				id: "6D2F935AC4686BE4"
+				item: { count: 1, id: "l2complements:totemic_gold_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:totemic_gold_helmet"
+			}
+			id: "504B762581D3E7EA"
+			tasks: [{
+				consume_items: false
+				id: "53D195A11A9A0437"
+				item: { count: 1, id: "l2complements:totemic_gold_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:totemic_gold_leggings"
+			}
+			id: "05E97E3F62262DAB"
+			tasks: [{
+				consume_items: false
+				id: "4B00B6350C848C2B"
+				item: { count: 1, id: "l2complements:totemic_gold_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:hazmat_boots"
+			}
+			id: "4B512151326572D9"
+			tasks: [{
+				consume_items: false
+				id: "542AD599DDBE4CF7"
+				item: { count: 1, id: "mekanism:hazmat_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:hazmat_gown"
+			}
+			id: "7046041DF3142653"
+			tasks: [{
+				consume_items: false
+				id: "709BA3D84010CF7B"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:hazmat_mask"
+			}
+			id: "592E3A2D7D9381DD"
+			tasks: [{
+				consume_items: false
+				id: "57ADA640F15E5B9A"
+				item: { count: 1, id: "mekanism:hazmat_mask" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:hazmat_pants"
+			}
+			id: "3464E3291885EF0E"
+			tasks: [{
+				consume_items: false
+				id: "0BB0D3D76B562C4E"
+				item: { count: 1, id: "mekanism:hazmat_pants" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+			}
+			id: "550511EF6BE7A7F0"
+			tasks: [{
+				consume_items: false
+				id: "54E6E50870A274D3"
+				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:mekasuit_boots"
+			}
+			id: "54B8EF9EAE893A87"
+			tasks: [{
+				consume_items: false
+				id: "161B556DBCBCEE4F"
+				item: { count: 1, id: "mekanism:mekasuit_boots" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:mekasuit_helmet"
+			}
+			id: "4A24F0B89B6017B7"
+			tasks: [{
+				consume_items: false
+				id: "71F6F88722456323"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism:mekasuit_pants"
+			}
+			id: "329F91AA25858923"
+			tasks: [{
+				consume_items: false
+				id: "4D043F08DE8091CC"
+				item: { count: 1, id: "mekanism:mekasuit_pants" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:byzantine_boots"
+			}
+			id: "16940747E16284E8"
+			tasks: [{
+				consume_items: false
+				id: "31BD1D14BCE7D916"
+				item: { count: 1, id: "millenaire:byzantine_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:byzantine_chestplate"
+			}
+			id: "69BE5711E02ED802"
+			tasks: [{
+				consume_items: false
+				id: "1E21575275276E05"
+				item: { count: 1, id: "millenaire:byzantine_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:byzantine_helmet"
+			}
+			id: "131BE4A5AC7E4D48"
+			tasks: [{
+				consume_items: false
+				id: "6B77504A0732BF62"
+				item: { count: 1, id: "millenaire:byzantine_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:byzantine_leggings"
+			}
+			id: "47BD283A549B5181"
+			tasks: [{
+				consume_items: false
+				id: "3D3ED70F87EF437E"
+				item: { count: 1, id: "millenaire:byzantine_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:furboots"
+			}
+			id: "15D703880598EFBD"
+			tasks: [{
+				consume_items: false
+				id: "073396BAB2D49222"
+				item: { count: 1, id: "millenaire:furboots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:furhelmet"
+			}
+			id: "0BACCED80DD2FD66"
+			tasks: [{
+				consume_items: false
+				id: "0F61090A9EC7E2C5"
+				item: { count: 1, id: "millenaire:furhelmet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:furlegs"
+			}
+			id: "4F1F560D45EAF460"
+			tasks: [{
+				consume_items: false
+				id: "5A0AF5792ECD7AAD"
+				item: { count: 1, id: "millenaire:furlegs" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:furplate"
+			}
+			id: "4246882C32B7FEC0"
+			tasks: [{
+				consume_items: false
+				id: "1E87CBCCBA399762"
+				item: { count: 1, id: "millenaire:furplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseblueboots"
+			}
+			id: "506703F2D403806F"
+			tasks: [{
+				consume_items: false
+				id: "26ED2DEDD6616E6F"
+				item: { count: 1, id: "millenaire:japaneseblueboots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japanesebluehelmet"
+			}
+			id: "72D83891847D2035"
+			tasks: [{
+				consume_items: false
+				id: "7189AC2243227376"
+				item: { count: 1, id: "millenaire:japanesebluehelmet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japanesebluelegs"
+			}
+			id: "35F728431D68F46D"
+			tasks: [{
+				consume_items: false
+				id: "26D7B96D06610B2F"
+				item: { count: 1, id: "millenaire:japanesebluelegs" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseblueplate"
+			}
+			id: "6C703B386B65A6B8"
+			tasks: [{
+				consume_items: false
+				id: "0D5FE1C8CCF7850E"
+				item: { count: 1, id: "millenaire:japaneseblueplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseguardboots"
+			}
+			id: "61A2593E34BD6617"
+			tasks: [{
+				consume_items: false
+				id: "293BB45D202F77ED"
+				item: { count: 1, id: "millenaire:japaneseguardboots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseguardhelmet"
+			}
+			id: "0A36D70D46E91558"
+			tasks: [{
+				consume_items: false
+				id: "419057854102E18F"
+				item: { count: 1, id: "millenaire:japaneseguardhelmet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseguardlegs"
+			}
+			id: "6B218DE87453DDE8"
+			tasks: [{
+				consume_items: false
+				id: "45AC4F1049D901B6"
+				item: { count: 1, id: "millenaire:japaneseguardlegs" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseguardplate"
+			}
+			id: "347885E893767D7D"
+			tasks: [{
+				consume_items: false
+				id: "00295A6D9B0A0C51"
+				item: { count: 1, id: "millenaire:japaneseguardplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseredboots"
+			}
+			id: "18C497DBE662FBAA"
+			tasks: [{
+				consume_items: false
+				id: "59F557C929263338"
+				item: { count: 1, id: "millenaire:japaneseredboots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseredhelmet"
+			}
+			id: "28A8E2226B124532"
+			tasks: [{
+				consume_items: false
+				id: "7E71CC413DC26132"
+				item: { count: 1, id: "millenaire:japaneseredhelmet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseredlegs"
+			}
+			id: "7FF00009264B597B"
+			tasks: [{
+				consume_items: false
+				id: "35888B74C9ECDB86"
+				item: { count: 1, id: "millenaire:japaneseredlegs" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:japaneseredplate"
+			}
+			id: "5C6FBD461F45E586"
+			tasks: [{
+				consume_items: false
+				id: "2ABD6BEC07ACA14F"
+				item: { count: 1, id: "millenaire:japaneseredplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 19.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:norman_boots"
+			}
+			id: "442AEC3216E4C48D"
+			tasks: [{
+				consume_items: false
+				id: "131F9D166E65D595"
+				item: { count: 1, id: "millenaire:norman_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:norman_chestplate"
+			}
+			id: "2DF58A196BEBF83C"
+			tasks: [{
+				consume_items: false
+				id: "2F23CAB1F91FA3EB"
+				item: { count: 1, id: "millenaire:norman_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:norman_helmet"
+			}
+			id: "698582016FF72041"
+			tasks: [{
+				consume_items: false
+				id: "7A6970CE80D8FD90"
+				item: { count: 1, id: "millenaire:norman_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:norman_leggings"
+			}
+			id: "2F618C7A02959909"
+			tasks: [{
+				consume_items: false
+				id: "663F74216641AFD0"
+				item: { count: 1, id: "millenaire:norman_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:seljuk_boots"
+			}
+			id: "0E7D6C70AD6D9571"
+			tasks: [{
+				consume_items: false
+				id: "73EAB6B8367FB8BC"
+				item: { count: 1, id: "millenaire:seljuk_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:seljuk_chestplate"
+			}
+			id: "00A582185048F53C"
+			tasks: [{
+				consume_items: false
+				id: "629D7ACED881CB0B"
+				item: { count: 1, id: "millenaire:seljuk_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:seljuk_helmet"
+			}
+			id: "304EE96A184B3BB7"
+			tasks: [{
+				consume_items: false
+				id: "0C24A610DFD4D744"
+				item: { count: 1, id: "millenaire:seljuk_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "millenaire:seljuk_leggings"
+			}
+			id: "1EBD1C7F64C47CB7"
+			tasks: [{
+				consume_items: false
+				id: "420A1A6F37DE015F"
+				item: { count: 1, id: "millenaire:seljuk_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 21.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:chainmail_boots"
+			}
+			id: "0398C6140B08A707"
+			tasks: [{
+				consume_items: false
+				id: "731D515B27C1C0A5"
+				item: { count: 1, id: "minecraft:chainmail_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+			}
+			id: "139DF7D89B32DB70"
+			tasks: [{
+				consume_items: false
+				id: "4299990AA3C4D7F2"
+				item: { count: 1, id: "minecraft:chainmail_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:chainmail_helmet"
+			}
+			id: "7C229E8E0E34438F"
+			tasks: [{
+				consume_items: false
+				id: "03C94F3A3AC4F1A6"
+				item: { count: 1, id: "minecraft:chainmail_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:chainmail_leggings"
+			}
+			id: "0682B71255F27646"
+			tasks: [{
+				consume_items: false
+				id: "1E9B7165F5696671"
+				item: { count: 1, id: "minecraft:chainmail_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_boots"
+			}
+			id: "089CBF919F6EB3D4"
+			tasks: [{
+				consume_items: false
+				id: "5D9DDDE090DEE623"
+				item: { count: 1, id: "minecraft:diamond_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "4952857DD7FB4034"
+			tasks: [{
+				consume_items: false
+				id: "5C6995D4CF67C0F1"
+				item: { count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_helmet"
+			}
+			id: "2E18E10D952CF4EC"
+			tasks: [{
+				consume_items: false
+				id: "44A305E360FF4962"
+				item: { count: 1, id: "minecraft:diamond_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:diamond_leggings"
+			}
+			id: "4CB1DD11E2F2F186"
+			tasks: [{
+				consume_items: false
+				id: "38FF52CDB9971EF8"
+				item: { count: 1, id: "minecraft:diamond_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:golden_boots"
+			}
+			id: "28572B48464856F4"
+			tasks: [{
+				consume_items: false
+				id: "6F5FF3D6D7C085E9"
+				item: { count: 1, id: "minecraft:golden_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:golden_chestplate"
+			}
+			id: "63B5FF51438A2FE3"
+			tasks: [{
+				consume_items: false
+				id: "51E1E4D536AAE748"
+				item: { count: 1, id: "minecraft:golden_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:golden_helmet"
+			}
+			id: "5275DE6EB0928CA3"
+			tasks: [{
+				consume_items: false
+				id: "1A13617B7B06A196"
+				item: { count: 1, id: "minecraft:golden_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:golden_leggings"
+			}
+			id: "3ED1E2F5B1D0D1D0"
+			tasks: [{
+				consume_items: false
+				id: "6E5556DF3E111978"
+				item: { count: 1, id: "minecraft:golden_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_boots"
+			}
+			id: "410371A102B07222"
+			tasks: [{
+				consume_items: false
+				id: "4201641E837A885E"
+				item: { count: 1, id: "minecraft:iron_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "5AE9967B0E44AA96"
+			tasks: [{
+				consume_items: false
+				id: "7204155C63724748"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_helmet"
+			}
+			id: "31203C06BF1FFC88"
+			tasks: [{
+				consume_items: false
+				id: "5B21531E5B6C3833"
+				item: { count: 1, id: "minecraft:iron_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_leggings"
+			}
+			id: "29B20E524310A93F"
+			tasks: [{
+				consume_items: false
+				id: "4279B75C18087B4B"
+				item: { count: 1, id: "minecraft:iron_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:leather_boots"
+			}
+			id: "35261C9F0E6F91A3"
+			tasks: [{
+				consume_items: false
+				id: "6289B82F07A45209"
+				item: { count: 1, id: "minecraft:leather_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "4B34EA319C8EB4DE"
+			tasks: [{
+				consume_items: false
+				id: "6F6A6ACBAD67471B"
+				item: { count: 1, id: "minecraft:leather_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:leather_helmet"
+			}
+			id: "2EDF3F08B24E3C19"
+			tasks: [{
+				consume_items: false
+				id: "1990C679DF6D2592"
+				item: { count: 1, id: "minecraft:leather_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:leather_leggings"
+			}
+			id: "48258C504569F9E3"
+			tasks: [{
+				consume_items: false
+				id: "6BCB9023C6414CE4"
+				item: { count: 1, id: "minecraft:leather_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherite_boots"
+			}
+			id: "7DC6D23E72F47D59"
+			tasks: [{
+				consume_items: false
+				id: "6AA764C0BDDB65B2"
+				item: { count: 1, id: "minecraft:netherite_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "75571347904EAC06"
+			tasks: [{
+				consume_items: false
+				id: "4CE35D92FBF5C8F4"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherite_helmet"
+			}
+			id: "3C18D364E5BA9452"
+			tasks: [{
+				consume_items: false
+				id: "030E369F4E75D6FD"
+				item: { count: 1, id: "minecraft:netherite_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:netherite_leggings"
+			}
+			id: "6A39C22EA5226082"
+			tasks: [{
+				consume_items: false
+				id: "5589E60085837477"
+				item: { count: 1, id: "minecraft:netherite_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:exo_boots"
+			}
+			id: "15881EDB138B40AD"
+			tasks: [{
+				consume_items: false
+				id: "230094DE90D6A8B7"
+				item: { count: 1, id: "oritech:exo_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:exo_chestplate"
+			}
+			id: "4ABBE18D5A1227B3"
+			tasks: [{
+				consume_items: false
+				id: "42DE8FA1224CEE27"
+				item: { count: 1, id: "oritech:exo_chestplate" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:exo_helmet"
+			}
+			id: "2CCD9927D7AA1428"
+			tasks: [{
+				consume_items: false
+				id: "12A458327D9201C7"
+				item: { count: 1, id: "oritech:exo_helmet" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "oritech:exo_leggings"
+			}
+			id: "233B370F8CB8DE90"
+			tasks: [{
+				consume_items: false
+				id: "4580F4A0E35DC36F"
+				item: { count: 1, id: "oritech:exo_leggings" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:kkuijiaceshi_boots"
+			}
+			id: "7575081F0D4E1A88"
+			tasks: [{
+				consume_items: false
+				id: "57F5C4134522ECE4"
+				item: { count: 1, id: "primogemcraft:kkuijiaceshi_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:kkuijiaceshi_chestplate"
+			}
+			id: "5677F39184BE1254"
+			tasks: [{
+				consume_items: false
+				id: "488A371B9BE01FA1"
+				item: { count: 1, id: "primogemcraft:kkuijiaceshi_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:kkuijiaceshi_helmet"
+			}
+			id: "331510908707FCC9"
+			tasks: [{
+				consume_items: false
+				id: "2D07D789C703A1C7"
+				item: { count: 1, id: "primogemcraft:kkuijiaceshi_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "projecte:gem_boots"
+			}
+			id: "43241D3971578003"
+			tasks: [{
+				consume_items: false
+				id: "06D8FF0F1B9953BE"
+				item: { count: 1, id: "projecte:gem_boots" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "projecte:gem_chestplate"
+			}
+			id: "2BEC4A3691F55675"
+			tasks: [{
+				consume_items: false
+				id: "68C29A57515C29F0"
+				item: { count: 1, id: "projecte:gem_chestplate" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "projecte:gem_helmet"
+			}
+			id: "7359262CAFD943E3"
+			tasks: [{
+				consume_items: false
+				id: "238C50E0834F1C68"
+				item: { count: 1, id: "projecte:gem_helmet" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "projecte:gem_leggings"
+			}
+			id: "01100695CA6ACB4D"
+			tasks: [{
+				consume_items: false
+				id: "339CEF04BC1D4C4F"
+				item: { count: 1, id: "projecte:gem_leggings" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:arctic_boots"
+			}
+			id: "41D03D63DE9728C5"
+			tasks: [{
+				consume_items: false
+				id: "0DD7124BA7036D95"
+				item: { count: 1, id: "twilightforest:arctic_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:arctic_chestplate"
+			}
+			id: "0EACE342A6B8364A"
+			tasks: [{
+				consume_items: false
+				id: "53F8E51CA4140207"
+				item: { count: 1, id: "twilightforest:arctic_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:arctic_helmet"
+			}
+			id: "34549AF6DBBC1D2F"
+			tasks: [{
+				consume_items: false
+				id: "6BA17937A27877F2"
+				item: { count: 1, id: "twilightforest:arctic_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:arctic_leggings"
+			}
+			id: "34C682D5D6BC1CB8"
+			tasks: [{
+				consume_items: false
+				id: "0987C5843F53CAA6"
+				item: { count: 1, id: "twilightforest:arctic_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:fiery_boots"
+			}
+			id: "3B35A968666011A8"
+			tasks: [{
+				consume_items: false
+				id: "62FECFBB90E52F1F"
+				item: { count: 1, id: "twilightforest:fiery_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:fiery_chestplate"
+			}
+			id: "347EB23B227A4A30"
+			tasks: [{
+				consume_items: false
+				id: "51608B06A734FCC5"
+				item: { count: 1, id: "twilightforest:fiery_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:fiery_helmet"
+			}
+			id: "0F0DD8A5CED29E34"
+			tasks: [{
+				consume_items: false
+				id: "0CEB2DAC20D1A8DD"
+				item: { count: 1, id: "twilightforest:fiery_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:fiery_leggings"
+			}
+			id: "43FEE81633E3A489"
+			tasks: [{
+				consume_items: false
+				id: "65F785B4C3EFAF70"
+				item: { count: 1, id: "twilightforest:fiery_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ironwood_boots"
+			}
+			id: "0CB84F5DCF64129A"
+			tasks: [{
+				consume_items: false
+				id: "152E4DB7CDDD86CE"
+				item: { count: 1, id: "twilightforest:ironwood_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ironwood_chestplate"
+			}
+			id: "4D6E5F10C77D590F"
+			tasks: [{
+				consume_items: false
+				id: "06344103839433EB"
+				item: { count: 1, id: "twilightforest:ironwood_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ironwood_helmet"
+			}
+			id: "6A4B221F9117308C"
+			tasks: [{
+				consume_items: false
+				id: "4F380F23E7D73632"
+				item: { count: 1, id: "twilightforest:ironwood_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:ironwood_leggings"
+			}
+			id: "4A57D2AF4E26AC7D"
+			tasks: [{
+				consume_items: false
+				id: "7D88D865B00CF8D3"
+				item: { count: 1, id: "twilightforest:ironwood_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:knightmetal_boots"
+			}
+			id: "3C1F1898D1F0F1E4"
+			tasks: [{
+				consume_items: false
+				id: "51EB09688FB2CB01"
+				item: { count: 1, id: "twilightforest:knightmetal_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:knightmetal_chestplate"
+			}
+			id: "6D6C5F2BC4BFD4E4"
+			tasks: [{
+				consume_items: false
+				id: "13FD081D61182481"
+				item: { count: 1, id: "twilightforest:knightmetal_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:knightmetal_helmet"
+			}
+			id: "29980B4976E9FB07"
+			tasks: [{
+				consume_items: false
+				id: "04C5DD4AECABA1FF"
+				item: { count: 1, id: "twilightforest:knightmetal_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:knightmetal_leggings"
+			}
+			id: "445926D5064AB8CA"
+			tasks: [{
+				consume_items: false
+				id: "535772EC792E2C6B"
+				item: { count: 1, id: "twilightforest:knightmetal_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:naga_chestplate"
+			}
+			id: "3B26C1FC29761825"
+			tasks: [{
+				consume_items: false
+				id: "4B399F6E8C37BDA7"
+				item: { count: 1, id: "twilightforest:naga_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:naga_leggings"
+			}
+			id: "250AB3A162C134AB"
+			tasks: [{
+				consume_items: false
+				id: "15997A83B72CA424"
+				item: { count: 1, id: "twilightforest:naga_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:phantom_chestplate"
+			}
+			id: "2BDA34393E92E9B0"
+			tasks: [{
+				consume_items: false
+				id: "0BC3EAEC93C98553"
+				item: { count: 1, id: "twilightforest:phantom_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:phantom_helmet"
+			}
+			id: "7E886E31CB3BDF9B"
+			tasks: [{
+				consume_items: false
+				id: "4634FB09EE4AB79D"
+				item: { count: 1, id: "twilightforest:phantom_helmet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:steeleaf_boots"
+			}
+			id: "79E26CCE75D155F1"
+			tasks: [{
+				consume_items: false
+				id: "6BFFF62921382A20"
+				item: { count: 1, id: "twilightforest:steeleaf_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:steeleaf_chestplate"
+			}
+			id: "59B1ABD5B65BCA00"
+			tasks: [{
+				consume_items: false
+				id: "4CBA3D97EF5C1B01"
+				item: { count: 1, id: "twilightforest:steeleaf_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:steeleaf_helmet"
+			}
+			id: "56F9BF50B6AED8A9"
+			tasks: [{
+				consume_items: false
+				id: "21EFD1A5233B1F43"
+				item: { count: 1, id: "twilightforest:steeleaf_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:steeleaf_leggings"
+			}
+			id: "74E4B9C9CD39D2C5"
+			tasks: [{
+				consume_items: false
+				id: "18C8D3C2E3FF7A8D"
+				item: { count: 1, id: "twilightforest:steeleaf_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:travellers_belt"
+			}
+			id: "2DDDBFCF4053006B"
+			tasks: [{
+				consume_items: false
+				id: "1549E75748254178"
+				item: { count: 1, id: "twilightforest:travellers_belt" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:travellers_boots"
+			}
+			id: "3A8FA0F735C81B39"
+			tasks: [{
+				consume_items: false
+				id: "040AF0C6009F100A"
+				item: { count: 1, id: "twilightforest:travellers_boots" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:travellers_gloves"
+			}
+			id: "3E1C9722C4F11C1A"
+			tasks: [{
+				consume_items: false
+				id: "0DA66D68E82F124C"
+				item: { count: 1, id: "twilightforest:travellers_gloves" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:travellers_goggles"
+			}
+			id: "03ED7598A5DB365C"
+			tasks: [{
+				consume_items: false
+				id: "7C10CD1B53197761"
+				item: { count: 1, id: "twilightforest:travellers_goggles" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:travellers_vest"
+			}
+			id: "0088C08D13FA39BB"
+			tasks: [{
+				consume_items: false
+				id: "4DFFB116523C53A1"
+				item: { count: 1, id: "twilightforest:travellers_vest" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:travellers_wings"
+			}
+			id: "1065C01FDBF5F6A0"
+			tasks: [{
+				consume_items: false
+				id: "2E8E7C3F4AAE58C3"
+				item: { count: 1, id: "twilightforest:travellers_wings" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:yeti_boots"
+			}
+			id: "28B75EF92B13489F"
+			tasks: [{
+				consume_items: false
+				id: "17D37FBA81623404"
+				item: { count: 1, id: "twilightforest:yeti_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:yeti_chestplate"
+			}
+			id: "1276D636FC9B37C4"
+			tasks: [{
+				consume_items: false
+				id: "474B49BA6600A6FB"
+				item: { count: 1, id: "twilightforest:yeti_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:yeti_helmet"
+			}
+			id: "08B56B505A481819"
+			tasks: [{
+				consume_items: false
+				id: "4508EF3A7623D1A3"
+				item: { count: 1, id: "twilightforest:yeti_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:battleborn_leggings"
+			}
+			id: "3C1330512B383E13"
+			tasks: [{
+				consume_items: false
+				id: "05DE539BB2860241"
+				item: { count: 1, id: "aoa3:battleborn_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:baron_leggings"
+			}
+			id: "17BA533788FECAED"
+			tasks: [{
+				consume_items: false
+				id: "152BBEFF0AE34306"
+				item: { count: 1, id: "aoa3:baron_leggings" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:battleborn_boots"
+			}
+			id: "7C212F2EA8CEDD14"
+			tasks: [{
+				consume_items: false
+				id: "4FDAA8F4825B8EDB"
+				item: { count: 1, id: "aoa3:battleborn_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:battleborn_chestplate"
+			}
+			id: "302B7D66A47D50A1"
+			tasks: [{
+				consume_items: false
+				id: "20AD1ADB6BD51E93"
+				item: { count: 1, id: "aoa3:battleborn_chestplate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "aoa3:battleborn_helmet"
+			}
+			id: "46EDBE991B14E2BD"
+			tasks: [{
+				consume_items: false
+				id: "2805EE5CEA9BBA89"
+				item: { count: 1, id: "aoa3:battleborn_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_helmet"
+			}
+			id: "19797AAA6F5F200E"
+			tasks: [{
+				consume_items: false
+				id: "26F8BF77E9801AAC"
+				item: { count: 1, id: "allthemodium:unobtainium_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_chestplate"
+			}
+			id: "042894622A171B54"
+			tasks: [{
+				consume_items: false
+				id: "320C868A907D877E"
+				item: { count: 1, id: "allthemodium:unobtainium_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_boots"
+			}
+			id: "5453358252BF6949"
+			tasks: [{
+				consume_items: false
+				id: "415F6C959E98AA30"
+				item: { count: 1, id: "allthemodium:unobtainium_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:unobtainium_leggings"
+			}
+			id: "11005476B7C15058"
+			tasks: [{
+				consume_items: false
+				id: "5CD5FC6E4076F607"
+				item: { count: 1, id: "allthemodium:unobtainium_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_leggings"
+			}
+			id: "687895B53C4F52BD"
+			tasks: [{
+				consume_items: false
+				id: "63F9C221F1EA0919"
+				item: { count: 1, id: "allthemodium:vibranium_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_helmet"
+			}
+			id: "167076E6EDC7E657"
+			tasks: [{
+				consume_items: false
+				id: "5EDC3E04B7173ECB"
+				item: { count: 1, id: "allthemodium:vibranium_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_chestplate"
+			}
+			id: "28C1E2351C3D6697"
+			tasks: [{
+				consume_items: false
+				id: "53EB6D290F2CFCCA"
+				item: { count: 1, id: "allthemodium:vibranium_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:vibranium_boots"
+			}
+			id: "6520320376B860A1"
+			tasks: [{
+				consume_items: false
+				id: "5DA9B202470F9CB1"
+				item: { count: 1, id: "allthemodium:vibranium_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_chestplate"
+			}
+			id: "493E1B189B1B566E"
+			tasks: [{
+				consume_items: false
+				id: "6CC0009127FD09B6"
+				item: { count: 1, id: "allthemodium:allthemodium_chestplate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_leggings"
+			}
+			id: "5F3249FEC307297B"
+			tasks: [{
+				consume_items: false
+				id: "6C71AA1BEE645A22"
+				item: { count: 1, id: "allthemodium:allthemodium_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_helmet"
+			}
+			id: "2A7E7E06338D6D0C"
+			tasks: [{
+				consume_items: false
+				id: "50FDFFF61CD6EF4B"
+				item: { count: 1, id: "allthemodium:allthemodium_helmet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "allthemodium:allthemodium_boots"
+			}
+			id: "0947A0E5D5AB50C7"
+			tasks: [{
+				consume_items: false
+				id: "6754324644DA129F"
+				item: { count: 1, id: "allthemodium:allthemodium_boots" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "twilightforest:yeti_leggings"
+			}
+			id: "66A5519EC264B0C8"
+			tasks: [{
+				consume_items: false
+				id: "3B26ABC50E3BA879"
+				item: { count: 1, id: "twilightforest:yeti_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:kkuijiaceshi_leggings"
+			}
+			id: "379F2A198ED68408"
+			tasks: [{
+				consume_items: false
+				id: "73985E4FB73B8404"
+				item: { count: 1, id: "primogemcraft:kkuijiaceshi_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:warden_leggings"
+			}
+			id: "74778B0C8090BBD4"
+			tasks: [{
+				consume_items: false
+				id: "7B40A88D15725636"
+				item: { count: 1, id: "deeperdarker:warden_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:warden_helmet"
+			}
+			id: "258FE15D0886B25D"
+			tasks: [{
+				consume_items: false
+				id: "4DB469DB08D45165"
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:warden_chestplate"
+			}
+			id: "2FFB523388D8F1F2"
+			tasks: [
+				{
+					consume_items: false
+					id: "1AEBC4025CA8996E"
+					item: { count: 1, id: "deeperdarker:warden_chestplate" }
+					type: "item"
+				}
+				{
+					id: "22AB2D33DCA3ABB5"
+					item: { count: 1, id: "deeperdarker:soul_elytra" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "deeperdarker:warden_boots"
+			}
+			id: "358FB43A5BC987BA"
+			tasks: [{
+				consume_items: false
+				id: "7C7B654B93B36602"
+				item: { count: 1, id: "deeperdarker:warden_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:totemic_gold_chestplate"
+			}
+			id: "28E8187E55886F19"
+			tasks: [{
+				consume_items: false
+				id: "4B3ABFACAB90DFCF"
+				item: { count: 1, id: "l2complements:totemic_gold_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:poseidite_leggings"
+			}
+			id: "4BC5A2788C349650"
+			tasks: [{
+				consume_items: false
+				id: "09227F6157D94321"
+				item: { count: 1, id: "l2complements:poseidite_leggings" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:poseidite_helmet"
+			}
+			id: "2034738B0175C41E"
+			tasks: [{
+				consume_items: false
+				id: "38DADF1015618A33"
+				item: { count: 1, id: "l2complements:poseidite_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:poseidite_chestplate"
+			}
+			id: "2A1CB3F5D255AAE4"
+			tasks: [{
+				consume_items: false
+				id: "59EEF1F3C871B81F"
+				item: { count: 1, id: "l2complements:poseidite_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "l2complements:poseidite_boots"
+			}
+			id: "331ADD19DF2F2FD0"
+			tasks: [{
+				consume_items: false
+				id: "5C89F1B4C8583E87"
+				item: { count: 1, id: "l2complements:poseidite_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "enderscape:drift_leggings"
+			}
+			id: "504AAEE15F90D0EB"
+			tasks: [{
+				consume_items: false
+				id: "032CDE2570BE98EE"
+				item: { count: 1, id: "enderscape:drift_leggings" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F4C065822985C41"
+			tasks: [{
+				id: "680D1AB10A96770A"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "23FAE1E366204A79"
+			tasks: [{
+				id: "25A9046850F1C555"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3A5022176FAE7181"
+			tasks: [{
+				id: "0E9E68DDF99EFDF5"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "508CDE38FF1F9E77"
+			tasks: [{
+				id: "17609F7148373778"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2306303673878355"
+			tasks: [{
+				id: "387B2C53E42743A4"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1E41B4CFBEB61AE3"
+			tasks: [{
+				id: "2999A38D76F24BE0"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2999F6393EDBF952"
+			tasks: [{
+				id: "65B3BCF59DBB021D"
+				item: { count: 1, id: "ae2lt:pigmee_fumo" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
 		}
 	]
 }

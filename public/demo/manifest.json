@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-02T16:03:45.140Z",
+  "generatedAt": "2026-10-07T14:01:18.370Z",
   "dataVersion": 13,
   "ftbQuestsVersion": "2101.1.34",
   "minecraftVersion": "1.21.1",
-  "sourceInstance": "[开拓者日志]As we trailblaze",
+  "sourceInstance": "[开拓者日志]As we trailblaze0.0.3",
   "sourceQuestRoot": "source/quests",
   "locale": "zh_cn",
-  "snbtFiles": 62,
-  "chapters": 38,
-  "quests": 1914,
-  "tasks": 2356,
-  "rewards": 1335,
+  "snbtFiles": 59,
+  "chapters": 35,
+  "quests": 3048,
+  "tasks": 3515,
+  "rewards": 1306,
   "questLinks": 14,
   "rewardTables": 20,
-  "translations": 1002,
-  "assets": 2245,
+  "translations": 1100,
+  "assets": 3363,
   "itemResolution": {
-    "items": 2197,
-    "resolved": 2119,
-    "missing": 78,
+    "items": 3313,
+    "resolved": 3181,
+    "missing": 132,
     "invalid": 0
   },
   "validation": {
     "errors": 2,
-    "warnings": 3,
+    "warnings": 4,
     "infos": 1
   }
 }

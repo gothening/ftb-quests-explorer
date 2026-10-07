@@ -23,17 +23,37 @@
 			id: "07443A3474907A5A"
 			rewards: [
 				{
-					id: "2802E00E4ACB9B4F"
+					command: "/curios add back @s 2"
+					id: "78AA52EE5F8BA429"
+					type: "command"
+				}
+				{
+					id: "6B78E251BBEA3085"
 					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								echo_id: "gothening:l0_enter_world"
+								id: "ftbechoes:core"
+								worker_id: [I;
+									-1811825932
+									1111965902
+									-2049022759
+									1754941967
+								]
+							}
+						}
 						count: 1
-						id: "umapyoi:baseball_bat"
+						id: "ftbechoes:echo_projector"
 					}
 					type: "item"
 				}
 				{
-					command: "/curios add back @s 2"
-					id: "78AA52EE5F8BA429"
-					type: "command"
+					id: "3295380B71497444"
+					item: {
+						count: 1
+						id: "oneiricconcept:stardust_baseballer"
+					}
+					type: "item"
 				}
 			]
 			shape: "none"

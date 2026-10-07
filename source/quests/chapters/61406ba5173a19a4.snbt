@@ -5,7 +5,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "amendments:block/music_discs/cataclysm/music_disc_ender_guardian"
+			"ftbquests:icon": "ftbquests:textures/gui/shop.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -512,8 +512,11 @@
 				{
 					id: "03E5C0FCBE42DA45"
 					item: {
+						components: {
+							"ftbquests:missing_item": "mekanismtools:iron_paxel"
+						}
 						count: 1
-						id: "mekanismtools:iron_paxel"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -661,78 +664,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7FAA4AA67EEAEA0C"]
-			entity_vis_size: 1.0f
-			id: "10DFBD5B6B30327E"
-			rewards: [{
-				id: "3072F4E9B9CD64A7"
-				item: {
-					components: {
-						"sophisticatedcore:number_of_inventory_slots": 144
-						"sophisticatedcore:number_of_upgrade_slots": 10
-					}
-					count: 1
-					id: "sophisticatedbackpacks:netherite_backpack"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6AA85324A5197CB0"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(accessories:back)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "4D5503B95CE012EE"
-			rewards: [
-				{
-					count: 4
-					id: "4C8364D3103351BC"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:upgrade_base"
-					}
-					random_bonus: 4
-					type: "item"
-				}
-				{
-					id: "4AFA75CC61DD213D"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
-					}
-					type: "item"
-				}
-				{
-					id: "78B207FE579FC77B"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:feeding_upgrade"
-					}
-					type: "item"
-				}
-				{
-					id: "0C78D8DC28EDA677"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:smelting_upgrade"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3D17576CD45E08FD"
-				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
 			entity_vis_size: 1.0f
 			id: "139410888EDAEB44"
 			rewards: [{
@@ -745,18 +676,50 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "1779C1F4BA3DE045"
-			tasks: [{
-				id: "1893FAA99BBD69B5"
-				item: { count: 1, id: "dummmmmmy:target_dummy" }
+			icon: {
+				id: "ae2:creative_energy_cell"
+			}
+			id: "41FBBD77B6BA24C1"
+			rewards: [{
+				id: "51899ABDC33E53C1"
+				item: {
+					count: 1
+					id: "ae2:creative_energy_cell"
+				}
 				type: "item"
 			}]
-			x: -2.0d
+			tasks: [{
+				id: "6C259B5FA35A7D3C"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62FF92426F8FEE99"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "avaritia:infinity_chest"
+			}
+			id: "7F89214A8A292CCE"
+			rewards: [{
+				id: "181F05F1CE285575"
+				item: {
+					count: 1
+					id: "avaritia:infinity_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47FDE9FEBC422F6B"
+				type: "checkmark"
+			}]
+			x: -4.5d
 			y: 3.0d
 		}
 	]

@@ -198,11 +198,6 @@
 			id: "76BAF45B6964E32D"
 			tasks: [
 				{
-					id: "5036956332DC4E98"
-					item: { count: 1, id: "cookingforblockheads:cutting_board" }
-					type: "item"
-				}
-				{
 					id: "517E25E4D980B7E3"
 					item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
 					type: "item"
@@ -313,11 +308,18 @@
 		{
 			entity_vis_size: 1.0f
 			id: "65B36E6E5491A1EB"
-			tasks: [{
-				id: "5D1A0979FF194940"
-				item: { count: 1, id: "farmersdelight:stove" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D1A0979FF194940"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+				{
+					id: "0DD437E9FE9CD4FA"
+					item: { count: 1, id: "kaleidoscope_cookery:stove" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 4.0d
 		}

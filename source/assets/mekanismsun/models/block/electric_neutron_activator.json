@@ -1,0 +1,12 @@
+{
+  "parent": "mekanism:block/machine",
+  "textures": {
+    "sides": "mekanismsun:block/electric_neutron_activator/side",
+    "front": "mekanismsun:block/electric_neutron_activator/front",
+    "west": "mekanismsun:block/electric_neutron_activator/side",
+    "east": "mekanismsun:block/electric_neutron_activator/side",
+    "south": "mekanismsun:block/electric_neutron_activator/back",
+    "up": "mekanismsun:block/electric_neutron_activator/top",
+    "down": "mekanismsun:block/electric_neutron_activator/bottom"
+  }
+}

@@ -27,7 +27,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -45,7 +45,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:oakporridge" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: -16.5d
 		}
 		{
@@ -64,7 +64,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:currystewedchicken" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -16.5d
 		}
 		{
@@ -84,7 +84,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -103,7 +103,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -122,7 +122,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -141,7 +141,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -160,7 +160,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -179,7 +179,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -198,7 +198,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -217,7 +217,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -236,7 +236,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -274,7 +274,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -293,7 +293,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -312,7 +312,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -331,7 +331,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -406,8 +406,8 @@
 				item: { count: 1, id: "farmersdelight:barbecue_stick" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -425,7 +425,7 @@
 				item: { count: 1, id: "farmersdelight:beef_stew" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -16.5d
 		}
 		{
@@ -445,7 +445,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -464,7 +464,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -483,7 +483,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -502,7 +502,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -653,7 +653,7 @@
 				item: { count: 1, id: "farmersdelight:fish_stew" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -16.5d
 		}
 		{
@@ -672,8 +672,8 @@
 				item: { count: 1, id: "farmersdelight:bacon_and_eggs" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -6.0d
+			x: 18.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -692,7 +692,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -730,7 +730,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -748,8 +748,8 @@
 				item: { count: 1, id: "moderndelight:cheese_baked_potato" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: -6.0d
+			x: 19.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -768,7 +768,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -786,7 +786,7 @@
 				item: { count: 1, id: "moderndelight:french_onion_soup" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -16.5d
 		}
 		{
@@ -805,8 +805,8 @@
 				item: { count: 1, id: "moderndelight:squid_tentacle_kebabs" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -825,7 +825,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -844,7 +844,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -862,8 +862,8 @@
 				item: { count: 1, id: "moderndelight:roasted_squid" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -881,8 +881,8 @@
 				item: { count: 1, id: "moderndelight:braised_shrimp_ball" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -901,7 +901,7 @@
 				type: "item"
 			}]
 			x: 21.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -920,7 +920,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -939,7 +939,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -958,7 +958,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -976,8 +976,8 @@
 				item: { count: 1, id: "moderndelight:chocolate_donut" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -9.0d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -996,7 +996,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1014,8 +1014,8 @@
 				item: { count: 1, id: "moderndelight:deep_fried_shrimp_cake" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1033,8 +1033,8 @@
 				item: { count: 1, id: "moderndelight:chicken_fillet" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -4.5d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1053,7 +1053,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1071,7 +1071,7 @@
 				item: { count: 1, id: "moderndelight:cream_of_mushroom_soup" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: -16.5d
 		}
 		{
@@ -1091,7 +1091,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1110,7 +1110,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1128,8 +1128,8 @@
 				item: { count: 1, id: "moderndelight:fish_and_chips" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.5d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1148,7 +1148,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1167,7 +1167,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1185,8 +1185,8 @@
 				item: { count: 1, id: "moderndelight:seaweed_fried_shrimp_cake" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -4.5d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1205,7 +1205,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1223,8 +1223,8 @@
 				item: { count: 1, id: "moderndelight:fried_cod_nugget" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -4.5d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1262,7 +1262,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1281,7 +1281,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1300,7 +1300,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1318,8 +1318,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:driedmilk" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1337,8 +1337,8 @@
 				item: { count: 1, id: "moderndelight:fried_salmon" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1356,8 +1356,8 @@
 				item: { count: 1, id: "moderndelight:fried_cod" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1375,8 +1375,8 @@
 				item: { count: 1, id: "moderndelight:onion_ring" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1395,7 +1395,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1414,7 +1414,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1433,7 +1433,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1452,7 +1452,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1471,7 +1471,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1489,8 +1489,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:stargazy_pie" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -9.0d
+			x: 18.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1509,7 +1509,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1546,8 +1546,8 @@
 				item: { count: 1, id: "farmersdelight:apple_pie" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -9.0d
+			x: 12.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1565,8 +1565,8 @@
 				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -9.0d
+			x: 13.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1584,8 +1584,8 @@
 				item: { count: 1, id: "farmersdelight:chocolate_pie" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -9.0d
+			x: 14.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1633,7 +1633,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1651,8 +1651,8 @@
 				item: { count: 1, id: "farmersdelight:honey_cookie" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -9.0d
+			x: 15.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1670,274 +1670,8 @@
 				item: { count: 1, id: "farmersdelight:sweet_berry_cookie" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -9.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "58D1EC5D5D051B3A"
-			rewards: [{
-				id: "0CAA59FCE11DA64D"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "62261585B6937C51"
-				item: { count: 1, id: "crabbersdelight:seafood_gumbo" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -16.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "1DD6C1AC6586EB38"
-			rewards: [{
-				id: "76AA0075EC0721BA"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "498C67974B850DD9"
-				item: { count: 1, id: "crabbersdelight:surf_and_turf" }
-				type: "item"
-			}]
-			x: 21.0d
-			y: -6.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "6B7DCE606BB01D08"
-			rewards: [{
-				id: "4E89F2D8458785CB"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4AB85C5D9275E4C5"
-				item: { count: 1, id: "crabbersdelight:fish_stick" }
-				type: "item"
-			}]
-			x: 21.0d
-			y: -4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "499699CAC2D2BC24"
-			rewards: [{
-				id: "10239FBB4A733538"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "551C0894EA554CE0"
-				item: { count: 1, id: "crabbersdelight:shrimp_skewer" }
-				type: "item"
-			}]
-			x: 22.0d
-			y: -4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "7D680678B85AB440"
-			rewards: [{
-				id: "4962F4A6C44165A2"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3166F22685DEF71A"
-				item: { count: 1, id: "crabbersdelight:clam_bake" }
-				type: "item"
-			}]
-			x: 18.0d
-			y: -6.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "58C124DAD96AC1FB"
-			rewards: [{
-				id: "08D148C9C4722E87"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0AFD167D6F4055E3"
-				item: { count: 1, id: "crabbersdelight:stuffed_nautilus_shell" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -13.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "1C1851C789E1C340"
-			rewards: [{
-				id: "40113361EC1F1ABE"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "70DC88946D19CF92"
-				item: { count: 1, id: "crabbersdelight:squid_kebab" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "2122A7CC63780005"
-			rewards: [{
-				id: "3598930E365B2CE7"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "742C409502C0C3C7"
-				item: { count: 1, id: "crabbersdelight:frog_leg_kebab" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "7EA31B6F8E0E8DAB"
-			rewards: [{
-				id: "4366506E06785138"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "79B8FA2EEB11C91B"
-				item: { count: 1, id: "crabbersdelight:jar_of_pickles" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -15.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "1D6029276605DFAC"
-			rewards: [{
-				id: "6D939C87A6A15FF6"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E4616772785BF07"
-				item: { count: 1, id: "crabbersdelight:kelp_shake" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -15.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "4ACB10EBB8266FBE"
-			rewards: [{
-				id: "292229D3DEF9A77A"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3D440F9B47E86640"
-				item: { count: 1, id: "crabbersdelight:sea_pickle_juice" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -15.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "16D61083A5342E65"
-			rewards: [{
-				id: "358BF18D3B7E5626"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "691585F8DF30AF76"
-				item: { count: 1, id: "crabbersdelight:bisque" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -16.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "525A43AB949B0DB4"
-			rewards: [{
-				id: "4990C1BA06193417"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7FD458D97FBB14E7"
-				item: { count: 1, id: "crabbersdelight:clam_chowder" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -16.5d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "23763D114E07617E"
-			rewards: [{
-				id: "23509631EFF43FA9"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D45DD98637167F1"
-				item: { count: 1, id: "crabbersdelight:shrimp_fried_rice" }
-				type: "item"
-			}]
-			x: 19.0d
-			y: -6.0d
+			x: 16.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1956,7 +1690,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1974,7 +1708,7 @@
 				item: { count: 1, id: "farmersdelight:hot_cocoa" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.0d
 			y: -15.0d
 		}
 		{
@@ -1993,7 +1727,7 @@
 				item: { count: 1, id: "farmersdelight:apple_cider" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: -15.0d
 		}
 		{
@@ -2013,7 +1747,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2032,7 +1766,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2051,7 +1785,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2070,7 +1804,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2089,7 +1823,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2108,7 +1842,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2127,7 +1861,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2146,7 +1880,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2165,7 +1899,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2184,7 +1918,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2203,7 +1937,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2221,8 +1955,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:mangosteenpopsicle" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -10.5d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2240,8 +1974,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:pawpawpopsicle" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -10.5d
+			x: 2.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2259,8 +1993,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:pineapplepopsicle" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -10.5d
+			x: 3.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2278,8 +2012,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:strawberrypopsicle" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: -10.5d
+			x: 4.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2297,8 +2031,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:greengrapepopsicle" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -10.5d
+			x: 5.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2316,8 +2050,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:hamimelonpopsicle" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -10.5d
+			x: 6.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2335,8 +2069,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:lemonpopsicle" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: -10.5d
+			x: 7.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2354,8 +2088,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:lycheepopsicle" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: -10.5d
+			x: 8.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2602,7 +2336,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -12.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2620,8 +2354,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:pawpawicecream" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -12.0d
+			x: 1.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2639,8 +2373,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:mangosteenicecream" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -12.0d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2658,8 +2392,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:mangoicecream" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -12.0d
+			x: 3.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2677,8 +2411,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:plumicecream" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -12.0d
+			x: 4.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2696,8 +2430,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:lycheeicecream" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -12.0d
+			x: 5.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2715,8 +2449,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:lemonicecream" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: -12.0d
+			x: 6.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2734,8 +2468,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:appleicecream" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -12.0d
+			x: 7.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2753,8 +2487,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:nectarineicecream" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -12.0d
+			x: 8.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2772,8 +2506,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:grapeicecream" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: -12.0d
+			x: 9.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2791,8 +2525,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:durianicecream" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: -12.0d
+			x: 10.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2810,8 +2544,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:watermelonicecream" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: -12.0d
+			x: 11.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2829,8 +2563,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:greenplumicecream" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: -12.0d
+			x: 12.0d
+			y: -11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2849,7 +2583,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2868,7 +2602,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2887,7 +2621,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2905,8 +2639,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:chocolatebean" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -9.0d
+			x: 19.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2924,8 +2658,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:chocolate" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: -9.0d
+			x: 20.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2944,7 +2678,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2962,8 +2696,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:friedmushroom" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.5d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -2981,8 +2715,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:friedchickenchop" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: -4.5d
+			x: 17.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3001,7 +2735,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3020,7 +2754,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3039,7 +2773,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3057,8 +2791,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:friedsausage" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.5d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3076,8 +2810,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:redbeanstuffingdorayaki" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: -9.0d
+			x: 17.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3095,8 +2829,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:strawberrycakeroll" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -9.0d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3115,7 +2849,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3134,7 +2868,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3153,7 +2887,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3171,8 +2905,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:friedgizzard" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -4.5d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3190,8 +2924,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:roasteddicedfish" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -4.5d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3210,7 +2944,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3229,7 +2963,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3247,8 +2981,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:coconutpopsicle" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: -10.5d
+			x: 9.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3266,8 +3000,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:chocolatepopsicle" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: -10.5d
+			x: 10.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3285,8 +3019,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:cherrypopsicle" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: -10.5d
+			x: 11.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3304,8 +3038,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:carambolapopsicle" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: -10.5d
+			x: 12.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3323,8 +3057,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:blueberrypopsicle" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: -10.5d
+			x: 13.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3342,8 +3076,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:bananapopsicle" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: -10.5d
+			x: 14.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3361,8 +3095,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:apricotpopsicle" }
 				type: "item"
 			}]
-			x: 30.0d
-			y: -10.5d
+			x: 15.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3380,8 +3114,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:applepopsicle" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: -10.5d
+			x: 16.0d
+			y: -8.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3399,8 +3133,8 @@
 				item: { count: 1, id: "flavor_immersed_daily:coffeepopsicle" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: -10.5d
+			x: 16.0d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3418,8 +3152,8 @@
 				item: { count: 1, id: "minecraft:pumpkin_pie" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -9.0d
+			x: 11.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3438,45 +3172,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -9.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "161E1102F38D4035"
-			rewards: [{
-				id: "770D02FC58FF5AC4"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "032B3EDA13F4E08D"
-				item: { count: 1, id: "umapyoi:cupcake" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -9.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "3B863EBC955509B5"
-			rewards: [{
-				id: "47E7A9345BD5F707"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "29A8275969E672FC"
-				item: { count: 1, id: "umapyoi:sweet_cupcake" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3536,7 +3232,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3546,7 +3242,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3556,7 +3252,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3566,7 +3262,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3576,7 +3272,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3586,7 +3282,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -2.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3596,7 +3292,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: -7.5d
+			y: -5.5d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -3702,7 +3398,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -3.0d
+			y: -1.0d
 		}
 	]
 }

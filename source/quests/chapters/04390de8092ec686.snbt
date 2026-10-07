@@ -14,6 +14,7 @@
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["4FD3A7C398580722"]
 		entity_vis_size: 1.0f
 		id: "433127AE9DFAEF0E"
 		tasks: [{

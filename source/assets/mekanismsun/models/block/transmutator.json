@@ -1,0 +1,12 @@
+{
+  "parent": "mekanism:block/machine",
+  "textures": {
+    "sides": "mekanismsun:block/transmutator/side",
+    "front": "mekanismsun:block/transmutator/front",
+    "west": "mekanismsun:block/transmutator/side",
+    "east": "mekanismsun:block/transmutator/side",
+    "south": "mekanismsun:block/transmutator/back",
+    "up": "mekanismsun:block/transmutator/top",
+    "down": "mekanismsun:block/transmutator/bottom"
+  }
+}

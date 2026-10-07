@@ -8,7 +8,13 @@
 	order_index: 1
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [ ]
+	quest_links: [{
+		id: "73E2E726E60EE7F4"
+		linked_quest: "06EA48FC479DD1C0"
+		size: 2.0d
+		x: 4.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			entity_vis_size: 1.0f
@@ -30,7 +36,7 @@
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -42,7 +48,7 @@
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -201,18 +207,6 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "5AF1669DB6F37E0D"
-			size: 2.0d
-			tasks: [{
-				id: "1C851ECADD70FC07"
-				item: { count: 1, id: "enderio_evolution:crystalline_infinity_generator" }
-				type: "item"
-			}]
-			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -402,6 +396,52 @@
 				}
 			]
 			x: 0.0d
+			y: 0.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "mekanism_extras:naquadah_reactor_port"
+			}
+			id: "3E07FA0DA532032A"
+			size: 2.0d
+			tasks: [
+				{
+					count: 117L
+					id: "59D2D2D46E79EB07"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "7DFAE73E742FC7D1"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "798CC12787FAA0E4"
+					item: { count: 1, id: "mekanism_extras:naquadah_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 218L
+					id: "7E70C0985DB54C6F"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "160702E969BB8E3C"
+					item: { count: 1, id: "mekanism_extras:lead_coated_laser_focus_matrix" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C4EF09B93186FA7"
+					item: { count: 1, id: "mekanism_extras:naquadah_hohlraum" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 0.0d
 		}
 	]

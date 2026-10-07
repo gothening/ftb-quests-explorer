@@ -368,7 +368,7 @@
 			shape: "none"
 			size: 5.0d
 			tasks: [{
-				count: 600L
+				count: 500L
 				id: "2724E2FD7C52D10F"
 				item: { count: 1, id: "trailblazer:chefs_certificate" }
 				type: "item"

@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "oneiricconcept:item/stardust_baseballer"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "oneiricconcept:stardust_baseballer_textures": 0
+      },
+      "model": "oneiricconcept:item/stardust_baseballer_0"
+    },
+    {
+      "predicate": {
+        "oneiricconcept:stardust_baseballer_textures": 1
+      },
+      "model": "oneiricconcept:item/stardust_baseballer_1"
+    }
+  ]
+}

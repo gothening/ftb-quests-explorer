@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "kaleidoscope_end:item/dragon_tooth_knife"
+  }
+}

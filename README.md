@@ -53,7 +53,7 @@ local `/api/load` service, so it must be opened through `npm run dev`.
 The Online Demo is a completely static, read-only build. End users only need a
 browser; they do not need Node.js, Minecraft, project source, or a local path.
 This is a read-only online preview of the current
-`[开拓者日志]As we trailblaze` FTB Quests data.
+`[开拓者日志]As we trailblaze0.0.3` FTB Quests data.
 
 Generate the demo data from the live quest directory:
 
@@ -86,8 +86,10 @@ FTB Quests API. The static build also works under a non-root base path such as
 
 The generated manifest records the source instance, source quest root,
 generation time, data version, FTB Quests version, Minecraft version, locale,
-and all model counts. The current demo is generated from
-`[开拓者日志]As we trailblaze`, not the older `Gothening modpack dev` instance.
+and all model counts. The current demo is generated from the
+`[开拓者日志]As we trailblaze0.0.3` release instance; set `FTBQ_INSTANCE_ROOT` to
+that instance before running `npm run sync:source` to reproduce the published
+snapshot.
 
 ## Verification
 

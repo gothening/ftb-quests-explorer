@@ -12,13 +12,13 @@ function model() {
 test("builds a read-only view model from the live quest book", () => {
   const viewer = model();
   assert.equal(viewer.readonly, true);
-  assert.equal(viewer.metadata.counts.chapters, 38);
-  assert.equal(viewer.metadata.counts.quests, 1914);
-  assert.equal(viewer.metadata.counts.tasks, 2356);
-  assert.equal(viewer.metadata.counts.rewards, 1335);
+  assert.equal(viewer.metadata.counts.chapters, 35);
+  assert.equal(viewer.metadata.counts.quests, 3064);
+  assert.equal(viewer.metadata.counts.tasks, 3529);
+  assert.equal(viewer.metadata.counts.rewards, 1307);
   assert.equal(viewer.metadata.counts.questLinks, 14);
   assert.equal(viewer.metadata.counts.rewardTables, 20);
-  assert.equal(viewer.metadata.counts.translations, 1002);
+  assert.equal(viewer.metadata.counts.translations, 1103);
 });
 
 test("keeps chapter groups, translated chapters, and detail data", () => {

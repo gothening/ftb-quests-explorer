@@ -122,12 +122,6 @@
 					type: "item"
 				}
 				{
-					id: "0B7DBC39DBAA8384"
-					item: { components: { "ftbquests:missing_item": "rusticdelight:fried_dumplings" }, count: 1, id: "ftbquests:missing_item" }
-					optional_task: true
-					type: "item"
-				}
-				{
 					id: "71760D562E9065D3"
 					item: { count: 1, id: "kaleidoscope_cookery:dumpling" }
 					type: "item"
@@ -5602,25 +5596,6 @@
 		}
 		{
 			entity_vis_size: 1.0f
-			id: "391466BC8D8DD2B4"
-			rewards: [{
-				id: "224077BC2B24C633"
-				item: {
-					count: 1
-					id: "trailblazer:chefs_certificate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "136767872668F505"
-				item: { count: 1, id: "crabbersdelight:coconut_milk" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.5d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "31A24CD9FEB0CD9B"
 			rewards: [{
 				id: "7B879BC584945597"
@@ -5635,7 +5610,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:kweichow_moutai" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 11.5d
 		}
 		{
@@ -5673,7 +5648,7 @@
 				item: { count: 1, id: "flavor_immersed_daily:kaoliangwine" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 11.5d
 		}
 		{

@@ -78,32 +78,10 @@
 		}
 		{
 			count: 64
-			id: "456A87181C5F214C"
-			item: {
-				components: {
-					"ftbquests:missing_item": "rusticdelight:cotton_seeds"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
-		}
-		{
-			count: 64
 			id: "1D7921BCD1DD6FDB"
 			item: {
 				count: 1
 				id: "farmersdelight:cabbage_seeds"
-			}
-		}
-		{
-			count: 64
-			id: "0A0F593BA7DDD1C0"
-			item: {
-				components: {
-					"ftbquests:missing_item": "deep_aether:squash_seeds"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
 			}
 		}
 		{
@@ -120,39 +98,6 @@
 			item: {
 				count: 1
 				id: "kaleidoscope_cookery:chili_seed"
-			}
-		}
-		{
-			count: 64
-			id: "3C7D7AD5335877E6"
-			item: {
-				components: {
-					"ftbquests:missing_item": "culturaldelights:eggplant_seeds"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
-		}
-		{
-			count: 64
-			id: "45DB9E12CC6CBB57"
-			item: {
-				components: {
-					"ftbquests:missing_item": "culturaldelights:cucumber_seeds"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
-		}
-		{
-			count: 64
-			id: "52DB49C9697EFE31"
-			item: {
-				components: {
-					"ftbquests:missing_item": "rusticdelight:bell_pepper_seeds"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
 			}
 		}
 	]
