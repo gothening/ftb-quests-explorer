@@ -127,7 +127,7 @@ function init() {
   document.addEventListener("keydown", handleShortcut);
   document.addEventListener("click", handleDelegatedClick);
   window.addEventListener("resize", () => {
-    if (!viewerState?.__viewAdjusted) fitQuestPanel();
+    if (!viewerState?.__viewAdjusted) focusQuestView();
     else applyTransform();
   });
 
@@ -232,7 +232,7 @@ function attachViewerState(payload) {
     else if (reason === "reward-table") renderRewardDialog();
     else {
       renderAll();
-      if (reason === "chapter") fitQuestPanel();
+      if (reason === "chapter") focusQuestView();
     }
   });
   renderAll();
@@ -343,7 +343,7 @@ function renderAll() {
   renderRewardDialog();
   if (!viewerState.__initialFitDone) {
     viewerState.__initialFitDone = true;
-    fitQuestPanel();
+    focusQuestView();
   }
 }
 
@@ -906,6 +906,52 @@ function fitQuestPanel() {
     (width - currentLayout.worldWidth * zoom) / 2,
     (height - currentLayout.worldHeight * zoom) / 2
   );
+}
+
+// 进章节时按游戏内 100% 比例落位，从章节内容左上角开始看，不把整章缩进屏幕
+function focusQuestView() {
+  if (!viewerState || !currentLayout) return;
+  viewerState.__viewAdjusted = false;
+  const width = Math.max(1, el.questViewport.clientWidth);
+  const height = Math.max(1, el.questViewport.clientHeight);
+  let left = Number.POSITIVE_INFINITY;
+  let top = Number.POSITIVE_INFINITY;
+  let right = Number.NEGATIVE_INFINITY;
+  let bottom = Number.NEGATIVE_INFINITY;
+  for (const box of currentLayout.questPositions.values()) {
+    left = Math.min(left, box.x);
+    top = Math.min(top, box.y);
+    right = Math.max(right, box.x + box.width);
+    bottom = Math.max(bottom, box.y + box.height);
+  }
+  if (!Number.isFinite(left)) {
+    left = 0;
+    top = 0;
+    right = currentLayout.worldWidth;
+    bottom = currentLayout.worldHeight;
+  }
+  const first = viewerState.visibleQuests.reduce(
+    (best, quest) => (!best || quest.y < best.y || (quest.y === best.y && quest.x < best.x) ? quest : best),
+    null
+  );
+  const anchor = first ? currentLayout.questPositions.get(first.id) : null;
+  // 最多缩到游戏内 100%，小章节仍然放大，大章节不再缩成一团
+  const fitZoom = Math.min(
+    (width - 24) / currentLayout.worldWidth,
+    (height - 24) / currentLayout.worldHeight
+  ) * 0.98;
+  const zoom = Math.min(1.75, Math.max(1, fitZoom));
+  const contentWidth = (right - left) * zoom;
+  const contentHeight = (bottom - top) * zoom;
+  // 内容比视口小时居中，比视口大时把章节第一个任务放到左上角
+  const panX = anchor && contentWidth > width - 64
+    ? 32 - anchor.centerX * zoom
+    : (width - contentWidth) / 2 - left * zoom;
+  const panY = anchor && contentHeight > height - 64
+    ? 32 - anchor.centerY * zoom
+    : (height - contentHeight) / 2 - top * zoom;
+  viewerState.setZoom(zoom);
+  viewerState.setPan(panX, panY);
 }
 
 function beginPan(event) {
