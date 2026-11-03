@@ -1,47 +1,168 @@
 {
+	autofocus_id: "0A91639C2E12C47A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2de810fe1b840dbf"
 	group: "512B54981EE0D939"
+	icon: {
+		id: "minecraft:furnace"
+	}
 	id: "2DE810FE1B840DBF"
-	images: [ ]
-	order_index: 1
+	images: [
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "712616F876ED3CB2"
+			image: "trailblazer:textures/quests/title_and_chapter/earlygame.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "2877B32A498BF073"
+			image: "trailblazer:textures/quests/title_and_chapter/midgame.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "79F9CF96A9CCD6A4"
+			image: "trailblazer:textures/quests/title_and_chapter/lategame.png"
+			rotation: 0.0d
+			width: 4.2d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "0E71FBACC223F689"
+			image: "trailblazer:textures/quests/title_and_chapter/endgame.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:quest_enhance:text_v3:1.0:17:minecraft:default 人造太阳（需推进任务解锁）"
+			color: 16777045
+			height: 0.4583333333333333d
+			id: "68E15B96CFAA4438"
+			image: ""
+			rotation: 0.0d
+			width: 5.625d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 6.0d
+			id: "7BAAEEEAC2AC131F"
+			image: "chemlib:item/compound_liquid_layer_1"
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			alpha: 125
+			click_action: "none:"
+			height: 6.0d
+			id: "13045FF5EECCD395"
+			image: "chicken_roost:block/hay_floor"
+			rotation: 0.0d
+			width: 6.0d
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			alpha: 100
+			click_action: "none:"
+			height: 15.0d
+			id: "7A5770CBA0DBD125"
+			image: "excessive_utilities:block/power_overload"
+			position_locked: 1b
+			rotation: 0.0d
+			width: 15.0d
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_enhance_chapter_quest_prerequisites: [4915186275933243418L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [{
 		id: "73E2E726E60EE7F4"
 		linked_quest: "06EA48FC479DD1C0"
 		size: 2.0d
-		x: 4.0d
-		y: 0.0d
+		x: 0.0d
+		y: 1.0d
 	}]
 	quests: [
 		{
 			entity_vis_size: 1.0f
-			id: "73702D1E44DE0E56"
-			size: 2.0d
-			tasks: [{
-				id: "14426697164B9436"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			entity_vis_size: 1.0f
 			id: "28F69D96AC59988E"
-			size: 2.0d
-			tasks: [{
-				id: "1E4AB670BE9DEBAA"
-				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+			rewards: [{
+				id: "4D263C75879335A3"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
 				type: "item"
 			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1E4AB670BE9DEBAA"
+					item: { count: 1, id: "mekanismgenerators:wind_generator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "503E6D9C4F16AD0A"
+					item: { count: 1, id: "mek_ex:basic_wind_generator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D165F80BD3DB64F"
+					item: { count: 1, id: "mek_ex:advanced_wind_generator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42BF4FA8DB762343"
+					item: { count: 1, id: "mek_ex:elite_wind_generator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07A9CBA2300F8214"
+					item: { count: 1, id: "mek_ex:ultimate_wind_generator" }
+					type: "item"
+				}
+			]
 			x: 0.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "0A91639C2E12C47A"
+			rewards: [{
+				id: "7B4A19C4E15B4518"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "3E12EC5A13771116"
@@ -49,11 +170,19 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "19A1243D173C9C97"
+			rewards: [{
+				id: "798BC48D951F22BB"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -68,11 +197,19 @@
 				}
 			]
 			x: 2.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "5864EAC57EE164BD"
+			rewards: [{
+				id: "718F29981387EDDE"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -87,11 +224,19 @@
 				}
 			]
 			x: 4.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "53CBA338FDE0E78D"
+			rewards: [{
+				id: "2672638C3CF4F312"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "7B965DFD59B74201"
@@ -99,11 +244,19 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
 			id: "421472ADA85B501E"
+			rewards: [{
+				id: "03E00332017EB407"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "3D2C4DE19B366B5A"
@@ -111,18 +264,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -4.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "7485601FF02DCA8B"
-			size: 2.0d
-			tasks: [{
-				id: "397C5DC90C15666D"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -134,7 +276,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -144,32 +286,13 @@
 			}
 			id: "1603966B172C8EEB"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0C3E1A91442698CE"
-					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
-					type: "item"
-				}
-				{
-					id: "175AFF76F828E79F"
-					item: { count: 1, id: "mekmm:large_gas_burning_generator" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "3665FB88E5B3F64D"
-			size: 2.0d
 			tasks: [{
-				id: "1BDE242534C667D6"
-				item: { count: 1, id: "oritech:bio_generator_block" }
+				id: "0C3E1A91442698CE"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -179,6 +302,11 @@
 				{
 					id: "03CC57AB71D9FE31"
 					item: { count: 1, id: "oritech:lava_generator_block" }
+					type: "item"
+				}
+				{
+					id: "42035F5400F05C02"
+					item: { count: 1, id: "oritech:bio_generator_block" }
 					type: "item"
 				}
 				{
@@ -194,8 +322,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -206,55 +334,8 @@
 				item: { count: 1, id: "oritech:fuel_generator_block" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			hide_dependency_lines: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
-			id: "5610DDBBF5E81182"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "010872E0DB0E36C4"
-				table_id: 9081288768631775962L
-				type: "loot"
-			}]
-			shape: "none"
-			size: 2.0d
-			tasks: [
-				{
-					id: "2843B49759EAF5A5"
-					item: { count: 1, id: "create:windmill_bearing" }
-					type: "item"
-				}
-				{
-					id: "250EE2345BAA220C"
-					item: { count: 1, id: "create:white_sail" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "60812C3530CB5751"
-					item: { count: 1, id: "create:sail_frame" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "406FF5FE0000C5EA"
-					item: { count: 1, id: "create:large_water_wheel" }
-					type: "item"
-				}
-				{
-					id: "1CC211A2D0D50B68"
-					item: { count: 1, id: "create:water_wheel" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: -4.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -265,19 +346,8 @@
 				item: { count: 1, id: "oritech:big_solar_panel_block" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "36BF29D6E59EB1CB"
-			size: 2.0d
-			tasks: [{
-				id: "5991F591466B9220"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 0.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -345,8 +415,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -395,8 +465,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -441,8 +511,506 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "074EA21EADF52034"
+			size: 2.0d
+			tasks: [{
+				id: "06BADDFB42966FC8"
+				item: { count: 1, id: "mekmm:large_gas_burning_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62650436C55F78DE"
+			size: 2.0d
+			tasks: [{
+				id: "228574316B6BF414"
+				item: { count: 1, id: "mekmm:large_heat_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: false
+			id: "67911E9D59BABBB9"
+			quest_enhance_quest_background: "chicken_roost:textures/bh_ru_logo.png"
+			rewards: [{
+				id: "0DF52E05AF639613"
+				item: {
+					count: 1
+					id: "chicken_roost:c_vanilla"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C02C21636DD20EB"
+				item: { count: 1, id: "chicken_roost:chicken_stick" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5790CB3A7DE2E4E7"
+			rewards: [{
+				count: 5
+				id: "71DBE765FFC8DB06"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D8746A3E3BB5C46"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_1" }
+					type: "item"
+				}
+				{
+					id: "033EA5F60E2480A9"
+					item: { count: 1, id: "chicken_roost:c_oakwood" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5790CB3A7DE2E4E7"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			id: "3F670E65ABF78CDD"
+			rewards: [{
+				count: 10
+				id: "67EC1C13ADD1F360"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D9D26ECF47134F4"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_2" }
+					type: "item"
+				}
+				{
+					id: "1F34AFABA31F3C19"
+					item: { count: 1, id: "chicken_roost:c_iron" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F670E65ABF78CDD"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			id: "18B12260F07FD592"
+			rewards: [{
+				count: 15
+				id: "3064D54B3668EE11"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "57BB603215D1B594"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_3" }
+					type: "item"
+				}
+				{
+					id: "3658B82383380941"
+					item: { count: 1, id: "chicken_roost:c_steel" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["18B12260F07FD592"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "58109B687CC970DB"
+			rewards: [{
+				count: 20
+				id: "568C5A410905FA45"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "267F7A3539275EA0"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_4" }
+					type: "item"
+				}
+				{
+					id: "0802788F9357B0B8"
+					item: { count: 1, id: "chicken_roost:c_diamond" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58109B687CC970DB"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "3B1E0BBF46825B2B"
+			rewards: [{
+				count: 25
+				id: "0E3E56B0D9B122A9"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07BE48AC227A6D01"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_5" }
+					type: "item"
+				}
+				{
+					id: "7FDD3862A752E936"
+					item: { count: 1, id: "chicken_roost:c_enderpearl" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3B1E0BBF46825B2B"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "1C7224DC042DCBFB"
+			rewards: [{
+				count: 30
+				id: "1CDFF7BC6AFCC31B"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E5476D416E081D3"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_6" }
+					type: "item"
+				}
+				{
+					id: "2FECB6FAFF61FA81"
+					item: { count: 1, id: "chicken_roost:c_uranium" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C7224DC042DCBFB"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "4AC412BEA324D333"
+			rewards: [{
+				count: 40
+				id: "3D326249281AC56F"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D9D3D214B30C88E"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_7" }
+					type: "item"
+				}
+				{
+					id: "24027DAAA47A5A20"
+					item: { count: 1, id: "chicken_roost:c_netherstar" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4AC412BEA324D333"]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "4264DCA923668E12"
+			rewards: [{
+				count: 50
+				id: "0A9F8CB662D0F0B6"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0EB78F7CC17A7EF5"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_8" }
+					type: "item"
+				}
+				{
+					id: "3E94D6DC85E7B304"
+					item: { count: 1, id: "chicken_roost:c_draconium" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4264DCA923668E12"]
+			entity_vis_size: 1.0f
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			id: "7FA6698FA7E0C59E"
+			rewards: [{
+				id: "218A0D432E8B16B9"
+				item: {
+					count: 1
+					id: "primogemcraft:jijiuchanzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71365E6897B8B6A5"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_9" }
+					type: "item"
+				}
+				{
+					id: "187A2D588145AAF9"
+					item: { count: 1, id: "chicken_roost:c_unobtainium" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: false
+			id: "29086B11CED05F74"
+			rewards: [{
+				count: 5
+				id: "64866735FF01CD5E"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7540E77F461B7746"
+					item: { count: 1, id: "chicken_roost:feeder" }
+					type: "item"
+				}
+				{
+					id: "528ED2EFA38E0486"
+					item: { count: 1, id: "chicken_roost:collector" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67911E9D59BABBB9"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: false
+			icon: {
+				id: "chicken_roost:breeder"
+			}
+			id: "11CB96507D16CF66"
+			rewards: [{
+				id: "19D9DAE087E966AB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "none"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4C99524907AEAE82"
+					item: { count: 1, id: "chicken_roost:breeder" }
+					type: "item"
+				}
+				{
+					id: "40321D8954E6A477"
+					item: { count: 1, id: "chicken_roost:soul_extractor" }
+					type: "item"
+				}
+				{
+					id: "04FDA59635E0D32C"
+					item: { count: 1, id: "chicken_roost:trainer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0975818E7FAC3C54"
+				"67911E9D59BABBB9"
+			]
+			entity_vis_size: 1.0f
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "chicken_roost:roost"
+			}
+			id: "3A971015CC1CA376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F1DC46A41D7F75E"
+				table_id: 3504009241940765542L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5F39F08A918735D6"
+					item: { count: 1, id: "chicken_roost:chicken_stick" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "68C52DF31EF73036"
+					item: { count: 1, id: "chicken_roost:c_vanilla" }
+					type: "item"
+				}
+				{
+					id: "3DE7DECE5633DFCE"
+					item: { count: 1, id: "chicken_roost:chicken_food_tier_1" }
+					type: "item"
+				}
+				{
+					id: "0840D2202114B2B7"
+					item: { count: 1, id: "chicken_roost:roost" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6844BD873CC87052"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "12D366290B80F884"
+				item: { count: 1, id: "alchemistry:atomizer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0CAB3137F8266C41"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7C72F8C747EE3762"
+				item: { count: 1, id: "alchemistry:compactor" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "10977BBEAE6C0682"
+			shape: "hexagon"
+			tasks: [{
+				id: "148AF00B2AC2FFAC"
+				item: { count: 1, id: "alchemistry:combiner" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6482BE3421D4AEC7"
+			shape: "hexagon"
+			tasks: [{
+				id: "4670E8A66DDDD91F"
+				item: { count: 1, id: "alchemistry:dissolver" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2EF6F85944B245B3"
+			shape: "hexagon"
+			tasks: [{
+				id: "73A3283D3EC5ED3C"
+				item: { count: 1, id: "alchemistry:liquifier" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4AFC7D328976055B"
+			tasks: [{
+				id: "6F3839D8136CA481"
+				item: { count: 1, id: "chemlib:periodic_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
 		}
 	]
 }

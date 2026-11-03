@@ -52,11 +52,6 @@
 			id: "1E1F83DDCEB714B5"
 			rewards: [
 				{
-					description: "商店已解锁！可查看任务书！"
-					id: "7B5409F427C370A0"
-					type: "toast"
-				}
-				{
 					id: "2EDAAD1A60CA5B38"
 					item: {
 						count: 1
@@ -70,6 +65,11 @@
 					stage: "1"
 					type: "gamestage"
 				}
+				{
+					description: ""
+					id: "569604C6E6F80EED"
+					type: "toast"
+				}
 			]
 			tasks: [{
 				id: "1499D9617E715207"
@@ -80,34 +80,20 @@
 			y: -1.5d
 		}
 		{
-			entity_vis_size: 1.0f
-			id: "477F78F062B3C7D2"
-			ignore_reward_blocking: true
-			rewards: [{
-				id: "65FB6830DBB12A59"
-				item: {
-					count: 1
-					id: "ftbquests:book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "12A037699ABEEDE9"
-				item: { count: 1, id: "ftbechoes:echo_projector" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["7FAA4AA67EEAEA0C"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
 			id: "31320B9CE61A7177"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3A64F4D21EC36134"
-				table_id: 342224790532069426L
-				type: "loot"
+				count: 32
+				id: "677885DCE329A904"
+				item: {
+					count: 1
+					id: "minecraft:iron_ore"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -135,7 +121,6 @@
 					type: "observation"
 				}
 				{
-					count: 4L
 					id: "78B10F1FA98A5D25"
 					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
@@ -147,15 +132,23 @@
 		{
 			dependencies: ["31320B9CE61A7177"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:shield"
+			}
 			id: "1F3414BD8C65AEBF"
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3AF55D218893F010"
+				id: "41698E91E3F8C358"
 				table_id: 342224790532069426L
-				type: "loot"
+				type: "choice"
 			}]
 			tasks: [
+				{
+					id: "5467754DEFAED893"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:head_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
 				{
 					id: "78A25439FDBCF71D"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:chest_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -164,11 +157,6 @@
 				{
 					id: "1DA2D63831090F48"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/shield)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "5467754DEFAED893"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:head_armor)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -182,42 +170,41 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["31320B9CE61A7177"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:wheat"
+			}
 			id: "22F1F5F59DD38D29"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3289D49E58E66209"
+				id: "064D260A57F654D3"
 				table_id: 342224790532069426L
-				type: "loot"
+				type: "choice"
 			}]
 			tasks: [
 				{
 					id: "4C79BC16850BA636"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2F5FE4C424BDF560"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_meats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "34230B828E5A59B5"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/fruit)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "01E93003516F53BE"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -227,7 +214,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
@@ -274,71 +261,19 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"1F3414BD8C65AEBF"
-				"7641C28434802B50"
-				"22F1F5F59DD38D29"
-			]
-			entity_vis_size: 1.0f
-			icon: {
-				components: {
-					"ftbquests:icon": "create:block/train_door_top"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "681E559D3F2A5D4F"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/ftbechoes gamestage @s add gothening_l0_stage_2"
-					id: "323E8550DD0F47EE"
-					silent: true
-					type: "command"
-				}
-				{
-					id: "5D4EA2DAE62EAC87"
-					item: {
-						components: {
-							"minecraft:block_entity_data": {
-								echo_id: "gothening:chapter_1_end"
-								id: "ftbechoes:core"
-								worker_id: [I;
-									1307484398
-									-488944141
-									-1928602316
-									-571554784
-								]
-							}
-						}
-						count: 1
-						id: "ftbechoes:echo_projector"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0828E6EEDD943D39"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["31320B9CE61A7177"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
 			id: "7641C28434802B50"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "27D9EEFB9D8C1778"
+				id: "6F74FB2A182FEBCD"
 				table_id: 342224790532069426L
-				type: "loot"
+				type: "choice"
 			}]
 			tasks: [
-				{
-					id: "4F73FC6A08EC8E7B"
-					item: { count: 1, id: "minecraft:shears" }
-					type: "item"
-				}
 				{
 					id: "39937F9D5F32CEA9"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:wools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -350,8 +285,19 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "64758878F61D95BF"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+				{
+					id: "34A3A0C06BAE7B7C"
+					item: { count: 1, id: "travelerscompass:travelerscompass" }
+					optional_task: true
+					type: "item"
+				}
 			]
-			x: 1.0d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -365,8 +311,10 @@
 				type: "loot"
 			}]
 			tasks: [{
+				count: 4L
 				id: "34B6F057213A8A21"
 				item: { count: 1, id: "minecraft:torch" }
+				optional_task: true
 				type: "item"
 			}]
 			x: 1.0d
@@ -375,6 +323,9 @@
 		{
 			dependencies: ["7FAA4AA67EEAEA0C"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
 			id: "6E4E24DA3C08689C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -399,26 +350,20 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1E1F83DDCEB714B5"]
 			entity_vis_size: 1.0f
 			id: "4D87F8C0C7CE8475"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "069EDB2F0D2FE483"
-				table_id: 342224790532069426L
-				type: "loot"
+				id: "77580DE82342AC94"
+				item: {
+					count: 1
+					id: "prefab:item_house"
+				}
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "3B1A0DE4876256DE"
-					item: { components: { "minecraft:custom_data": { biologydictionary: "1.2.1" }, "minecraft:custom_model_data": 14489768, "minecraft:item_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"title.biologydictionary\"}", "minecraft:lore": ["{\"bold\":false,\"color\":\"dark_aqua\",\"italic\":false,\"translate\":\"description.biologydictionary\"}"], "minecraft:writable_book_content": { pages: [{ raw: "§ltext.biologydictionary.mod_name_is§2§lbiologydictionary\n\n§r§0text.biologydictionary.mod_not_installed\n\nModrinth: §9§nhttps://modrinth.com/mod/biology-dictionary\n\nCurseForge: §9§nhttps://www.curseforge.com/minecraft/mc-mods/biology-dictionary\n\nGitHub: §9§nhttps://github.com/xienaoban/minecraft-biology-dictionary\n" }] } }, count: 1, id: "minecraft:writable_book" }
-					type: "item"
-				}
-				{
-					id: "5BC4D520B7140564"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5BC4D520B7140564"
+				type: "checkmark"
+			}]
 			x: 1.0d
 			y: -1.0d
 		}
@@ -441,7 +386,29 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31320B9CE61A7177"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "0CF26E789AD4563A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "221386EC9CE770D8"
+				table_id: 342224790532069426L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 2L
+				id: "504649822009B4E9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:chests)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
 		}
 	]
 }

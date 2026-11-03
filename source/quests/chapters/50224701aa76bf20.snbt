@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "50224701aa76bf20"
+	group: "7E18D2B281281CE2"
+	id: "50224701AA76BF20"
+	images: [ ]
+	order_index: 6
+	quest_enhance_chapter_quest_prerequisites: [548880886360044269L]
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		entity_vis_size: 1.0f
+		id: "4BD8594452561867"
+		rewards: [{
+			count: 5
+			id: "128E3EC916E61BC6"
+			item: {
+				count: 1
+				id: "primogemcraft:xingqiong"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "0949EE22C85A473E"
+			item: { count: 1, id: "quark:abacus" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

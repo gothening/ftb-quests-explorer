@@ -11,8 +11,8 @@
 		{ id: "3DADEB14EC54DB92", item: { components: { "minecraft:potion_contents": { potion: "minecraft:invisibility" } }, count: 1, id: "minecraft:potion" } }
 		{ id: "5F5B6AFD3286E2EF", item: { components: { "minecraft:potion_contents": { potion: "minecraft:night_vision" } }, count: 1, id: "minecraft:potion" } }
 		{ id: "69A0A7BE559824CC", item: { count: 1, id: "minecraft:potion" } }
-		{ id: "4D0CB4CBFBBD5FF3", item: { components: { "minecraft:potion_contents": { potion: "alexsmobs:speed_iii" } }, count: 1, id: "minecraft:potion" } }
-		{ id: "34010E05E0E17A6B", item: { components: { "minecraft:potion_contents": { potion: "alexsmobs:knockback_resistance" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "4D0CB4CBFBBD5FF3", item: { count: 1, id: "minecraft:potion" } }
+		{ id: "34010E05E0E17A6B", item: { count: 1, id: "minecraft:potion" } }
 		{ id: "32A56A5F903AE810", item: { count: 1, id: "minecraft:potion" } }
 		{ id: "2198E4B3FD8B1179", item: { components: { "minecraft:potion_contents": { potion: "minecraft:slow_falling" } }, count: 1, id: "minecraft:potion" } }
 		{ id: "25D9863EE0DF7A2D", item: { components: { "minecraft:potion_contents": { potion: "minecraft:luck" } }, count: 1, id: "minecraft:potion" } }

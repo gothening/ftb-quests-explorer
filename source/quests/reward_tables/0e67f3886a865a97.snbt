@@ -28,14 +28,6 @@
 			}
 			weight: 5.0f
 		}
-		{
-			id: "6EC6384BAFAA493E"
-			item: {
-				count: 1
-				id: "twilightforest:uncrafting_table"
-			}
-			weight: 1.0E-7f
-		}
 		{ id: "1948E1AB572EBBF1", item: { count: 1, id: "twilightforest:block_and_chain" } }
 		{ id: "5E65E3F8D73B343D", item: { components: { "minecraft:stored_enchantments": { levels: { "twilightforest:destruction": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
 		{ id: "73DCB813BC6B8802", item: { count: 1, id: "twilightforest:stale_bread" } }

@@ -1,0 +1,9 @@
+{
+  "parent": "primogemcraft:custom/dangao",
+  "textures": {
+    "all": "primogemcraft:block/moladangao",
+    "particle": "primogemcraft:block/moladangao",
+    "6": "primogemcraft:block/moladangao"
+  },
+  "render_type": "solid"
+}

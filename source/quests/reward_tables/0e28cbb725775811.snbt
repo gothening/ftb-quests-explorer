@@ -165,26 +165,10 @@
 		}
 		{
 			count: 64
-			id: "292C5C0980703BA9"
-			item: {
-				count: 1
-				id: "minecraft:end_stone"
-			}
-		}
-		{
-			count: 64
 			id: "7D1C79559B14275A"
 			item: {
 				count: 1
 				id: "minecraft:basalt"
-			}
-		}
-		{
-			count: 64
-			id: "3EDB37EA16A4A16B"
-			item: {
-				count: 1
-				id: "minecraft:purpur_block"
 			}
 		}
 	]

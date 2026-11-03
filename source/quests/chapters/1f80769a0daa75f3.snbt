@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1f80769a0daa75f3"
+	group: "374F9CF3808ED22B"
+	icon: {
+		components: {
+			"ftbquests:icon": "excessive_utilities:block/depths_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1F80769A0DAA75F3"
+	images: [ ]
+	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [{
+		entity_vis_size: 1.0f
+		id: "7B866F7C4C7240A2"
+		tasks: [{
+			id: "7E12AD9EEB70E1B5"
+			item: { components: { "gateways:gateway": "gateways:emerald_grove" }, count: 1, id: "gateways:gate_pearl" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

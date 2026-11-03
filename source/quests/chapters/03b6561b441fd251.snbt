@@ -3,9 +3,16 @@
 	default_quest_shape: ""
 	filename: "03b6561b441fd251"
 	group: "7E18D2B281281CE2"
+	icon: {
+		components: {
+			"ftbquests:icon": "l2tabs:textures/gui/sprites/curios.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "03B6561B441FD251"
 	images: [ ]
 	order_index: 3
+	quest_enhance_chapter_quest_prerequisites: [548880886360044269L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -761,31 +768,6 @@
 			}]
 			x: 0.0d
 			y: 3.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "38487BC60BA7BC8C"
-			tasks: [{
-				id: "6BA11F6FA6000285"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 9.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "magic_coins:prosperity_amulet"
-			}
-			id: "65F8049D5C874B99"
-			tasks: [{
-				consume_items: false
-				id: "320CAB1D6F8565D1"
-				item: { count: 1, id: "magic_coins:prosperity_amulet" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 9.0d
 		}
 	]
 }

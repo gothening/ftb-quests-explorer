@@ -78,22 +78,6 @@
 		}
 		{
 			count: 64
-			id: "1D7921BCD1DD6FDB"
-			item: {
-				count: 1
-				id: "farmersdelight:cabbage_seeds"
-			}
-		}
-		{
-			count: 64
-			id: "15013A25D4E793AE"
-			item: {
-				count: 1
-				id: "farmersdelight:tomato_seeds"
-			}
-		}
-		{
-			count: 64
 			id: "5D9A47FDF6AC2BFF"
 			item: {
 				count: 1

@@ -2,6 +2,7 @@
   "advancements.quark.tatami_gaeshi.description": "用榻榻米席击打某个东西",
   "advancements.quark.tatami_gaeshi.title": "榻榻米返！",
   "config.jade.plugin_quark.oretoise_eating_cooldown": "矿石龟进食冷却",
+  "entity.quark.crab": "螃蟹",
   "entity.quark.torch_arrow": "火把箭",
   "item.quark.backpack.warning.line_1": "警告",
   "item.quark.backpack.warning.line_2": "此背包内有物品，如果在生存模式下未装备，其中的物品将被清除。",

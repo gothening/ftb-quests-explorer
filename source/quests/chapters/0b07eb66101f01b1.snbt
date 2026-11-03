@@ -3,9 +3,13 @@
 	default_quest_shape: ""
 	filename: "0b07eb66101f01b1"
 	group: "512B54981EE0D939"
+	icon: {
+		id: "chemlib:periodic_table"
+	}
 	id: "0B07EB66101F01B1"
 	images: [ ]
-	order_index: 7
+	order_index: 5
+	quest_enhance_chapter_quest_prerequisites: [4915186275933243418L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -463,14 +467,6 @@
 		{
 			entity_vis_size: 1.0f
 			id: "6FBA640FE9B59FA9"
-			rewards: [{
-				id: "12C867D9CE94AD35"
-				item: {
-					count: 1
-					id: "chemlib:gold"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "626CE7A2C89143DC"
 				item: { count: 1, id: "minecraft:gold_ingot" }
@@ -596,56 +592,6 @@
 			}]
 			x: 3.5d
 			y: 1.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "chemlib:strontium"
-			}
-			id: "21920F2F7EC86762"
-			rewards: [{
-				id: "443B522D8CE5843F"
-				item: {
-					count: 1
-					id: "chemlib:strontium"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				fluid: {
-					amount: 1000
-					id: "mekanismelements:strontium"
-				}
-				id: "6800E953EB8830E6"
-				type: "fluid"
-			}]
-			x: 3.5d
-			y: 4.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "chemlib:yttrium"
-			}
-			id: "559B7535292C3B43"
-			rewards: [{
-				id: "02A18D8A86DE7A0D"
-				item: {
-					count: 1
-					id: "chemlib:yttrium"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				fluid: {
-					amount: 1000
-					id: "mekanismelements:yttrium"
-				}
-				id: "752154BDDC0FDAAE"
-				type: "fluid"
-			}]
-			x: 4.5d
-			y: 4.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -816,14 +762,6 @@
 		{
 			entity_vis_size: 1.0f
 			id: "5AB4D0258E8F9ED0"
-			rewards: [{
-				id: "763C16410AE8DBC8"
-				item: {
-					count: 1
-					id: "chemlib:lanthanum"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "67CFF3E9AF266CD1"
 				type: "checkmark"
@@ -834,6 +772,14 @@
 		{
 			entity_vis_size: 1.0f
 			id: "33EC0D2E4DDC76DA"
+			rewards: [{
+				id: "70234866BE2C55BE"
+				item: {
+					count: 1
+					id: "chemlib:hafnium"
+				}
+				type: "item"
+			}]
 			shape: "none"
 			tasks: [{
 				id: "5A79ADA00D8802F0"
@@ -935,18 +881,6 @@
 			}]
 			x: 19.5d
 			y: 5.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "60FFF8342B0D8C78"
-			shape: "none"
-			tasks: [{
-				id: "0CF62E41CBCDAA34"
-				item: { count: 1, id: "chemlib:oganesson" }
-				type: "item"
-			}]
-			x: 19.5d
-			y: 6.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1371,6 +1305,50 @@
 				type: "fluid"
 			}]
 			x: 19.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "424F451BA91AB6CC"
+			rewards: [{
+				id: "64D7B89B0A3149AB"
+				item: {
+					count: 1
+					id: "chemlib:strontium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "mekanismelements:strontium"
+				}
+				id: "08EE9868382A4611"
+				type: "fluid"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "707B2B089BAB50CA"
+			rewards: [{
+				id: "6705B4CA4A748AE0"
+				item: {
+					count: 1
+					id: "chemlib:yttrium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "mekanismelements:yttrium"
+				}
+				id: "26BEE26D20CFB333"
+				type: "fluid"
+			}]
+			x: 4.5d
 			y: 4.0d
 		}
 	]

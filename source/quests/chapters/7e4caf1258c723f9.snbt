@@ -8,7 +8,8 @@
 	}
 	id: "7E4CAF1258C723F9"
 	images: [ ]
-	order_index: 3
+	order_index: 2
+	quest_enhance_chapter_quest_prerequisites: [8855516254442257029L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -28,6 +29,12 @@
 		{
 			dependencies: ["5CD153FB51DDA626"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/naga_courtyard.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "45D054683CBCEC73"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -46,6 +53,12 @@
 		{
 			dependencies: ["45D054683CBCEC73"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/lich_tower.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "2AF8925C9151EF83"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -65,6 +78,12 @@
 			dependencies: ["2AF8925C9151EF83"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/labyrinth.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "504F975AE6F9E178"
 			rewards: [
 				{
@@ -84,6 +103,12 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "twilightforest:textures/map/decorations/hedge_maze.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "3A3F835E7B8A6B9F"
 				structure: "twilightforest:labyrinth"
 				type: "structure"
@@ -94,6 +119,12 @@
 		{
 			dependencies: ["504F975AE6F9E178"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/hydra_lair.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "1ED7A9A05846632E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -113,6 +144,12 @@
 			dependencies: ["2AF8925C9151EF83"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/knight_stronghold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "782BECB8F81B72B2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -131,6 +168,12 @@
 		{
 			dependencies: ["782BECB8F81B72B2"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/dark_tower.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "545EB96CDAA87F7E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -150,6 +193,12 @@
 			dependencies: ["2AF8925C9151EF83"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/yeti_lair.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "5721AEE086A7D905"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -168,6 +217,12 @@
 		{
 			dependencies: ["5721AEE086A7D905"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/aurora_palace.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "52F7AD0C0EDA3D91"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -187,24 +242,14 @@
 			dependencies: ["45D054683CBCEC73"]
 			entity_vis_size: 1.0f
 			id: "206EFB413D836500"
-			rewards: [
-				{
-					id: "7CF2F1C3A915A871"
-					item: {
-						count: 1
-						id: "kaleidoscope_twilight:salt_baked_naga"
-					}
-					type: "item"
+			rewards: [{
+				id: "1E09DBB69D0B366D"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
 				}
-				{
-					id: "1E09DBB69D0B366D"
-					item: {
-						count: 1
-						id: "trailblazer:adventurers_certificate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "72EFF91080DF94F2"
 				item: { count: 1, id: "twilightforest:naga_trophy" }
@@ -217,24 +262,14 @@
 			dependencies: ["2AF8925C9151EF83"]
 			entity_vis_size: 1.0f
 			id: "25C7E6C4C954F758"
-			rewards: [
-				{
-					id: "59E823ADB513FFC5"
-					item: {
-						count: 1
-						id: "kaleidoscope_twilight:witchcraft_croissant"
-					}
-					type: "item"
+			rewards: [{
+				id: "406EC082D70295A4"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
 				}
-				{
-					id: "406EC082D70295A4"
-					item: {
-						count: 1
-						id: "trailblazer:adventurers_certificate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "351F6DAF9D31EB77"
 				item: { count: 1, id: "twilightforest:lich_trophy" }
@@ -247,24 +282,14 @@
 			dependencies: ["1ED7A9A05846632E"]
 			entity_vis_size: 1.0f
 			id: "6FFB8EF8012265D0"
-			rewards: [
-				{
-					id: "678ED68B021C490C"
-					item: {
-						count: 1
-						id: "kaleidoscope_twilight:hydra_bolognese"
-					}
-					type: "item"
+			rewards: [{
+				id: "65BA728D83BE1C67"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
 				}
-				{
-					id: "65BA728D83BE1C67"
-					item: {
-						count: 1
-						id: "trailblazer:adventurers_certificate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5807C8BFB1022379"
 				item: { count: 1, id: "twilightforest:hydra_trophy" }
@@ -277,24 +302,14 @@
 			dependencies: ["504F975AE6F9E178"]
 			entity_vis_size: 1.0f
 			id: "64BAB04C54CBB706"
-			rewards: [
-				{
-					id: "63B87081B97809BD"
-					item: {
-						count: 1
-						id: "kaleidoscope_twilight:minotaur_salad_pasta"
-					}
-					type: "item"
+			rewards: [{
+				id: "1DB9418A4AFEB1DE"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
 				}
-				{
-					id: "1DB9418A4AFEB1DE"
-					item: {
-						count: 1
-						id: "trailblazer:adventurers_certificate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "68930EB86D438B7B"
 				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
@@ -367,24 +382,14 @@
 			dependencies: ["545EB96CDAA87F7E"]
 			entity_vis_size: 1.0f
 			id: "74BB53AB078E8AC3"
-			rewards: [
-				{
-					id: "059F79CF7F05106A"
-					item: {
-						count: 1
-						id: "kaleidoscope_twilight:twilight_ghost_pasta"
-					}
-					type: "item"
+			rewards: [{
+				id: "60ED99E3D4973A33"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
 				}
-				{
-					id: "60ED99E3D4973A33"
-					item: {
-						count: 1
-						id: "trailblazer:adventurers_certificate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1345051A9BCE717F"
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
@@ -397,24 +402,14 @@
 			dependencies: ["52F7AD0C0EDA3D91"]
 			entity_vis_size: 1.0f
 			id: "1FED1A140914F0EE"
-			rewards: [
-				{
-					id: "309F6BE5806D3DFA"
-					item: {
-						count: 1
-						id: "kaleidoscope_twilight:ice_crystal_mousse"
-					}
-					type: "item"
+			rewards: [{
+				id: "39C3FC8F7349D802"
+				item: {
+					count: 1
+					id: "trailblazer:adventurers_certificate"
 				}
-				{
-					id: "39C3FC8F7349D802"
-					item: {
-						count: 1
-						id: "trailblazer:adventurers_certificate"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "50F8EA760FFD8452"
 				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
@@ -491,6 +486,12 @@
 		{
 			dependencies: ["0A35255F1D2ABE78"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/final_castle.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "754765A0F030757E"
 			rewards: [
 				{
@@ -522,6 +523,12 @@
 			dependencies: ["0DFCE38C783B8266"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/troll_caves.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "7FEEDA36CB259B09"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -558,6 +565,12 @@
 		{
 			dependencies: ["77120796CFF558F3"]
 			entity_vis_size: 1.0f
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/troll_caves.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "52D6FE5D51CB4787"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -589,7 +602,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["504F975AE6F9E178"]
@@ -832,24 +845,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1FED1A140914F0EE"]
-			entity_vis_size: 1.0f
-			id: "10125F225D443243"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3FB46E19AD7A0154"
-				table_id: 1038066006360480407L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "66D4BCD039447066"
-				item: { count: 1, id: "kaleidoscope_twilight:four_leaf_ice_crystal" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["52D6FE5D51CB4787"]
 			entity_vis_size: 1.0f
 			id: "01CEDE90BEB65288"
@@ -901,7 +896,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0DFCE38C783B8266"]

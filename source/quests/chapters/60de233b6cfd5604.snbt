@@ -3,21 +3,639 @@
 	default_quest_shape: ""
 	filename: "60de233b6cfd5604"
 	group: "512B54981EE0D939"
+	icon: {
+		id: "mekanism:basic_logistical_transporter"
+	}
 	id: "60DE233B6CFD5604"
 	images: [ ]
-	order_index: 6
+	order_index: 4
+	quest_enhance_chapter_quest_prerequisites: [4915186275933243418L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
-	quest_links: [ ]
-	quests: [{
-		entity_vis_size: 1.0f
-		id: "04D1326FABE92613"
-		tasks: [{
-			id: "16A0470565B7306A"
-			item: { count: 1, id: "mekanism:logistical_sorter" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
+	quest_links: [{
+		id: "3FD8E54872114A85"
+		linked_quest: "774B6CAEC799233C"
+		x: 3.0d
+		y: -3.0d
 	}]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "1CC93F88708C72A7"
+			tasks: [
+				{
+					id: "133831672896D1FC"
+					item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+					type: "item"
+				}
+				{
+					id: "2156D00C96297C47"
+					item: { count: 1, id: "mekanism:advanced_logistical_transporter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CD85A10D0F7C775"
+					item: { count: 1, id: "mekanism:elite_logistical_transporter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4884420D0321653F"
+					item: { count: 1, id: "mekanism:ultimate_logistical_transporter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14AD199C931951ED"
+					item: { count: 1, id: "mekanism_extras:absolute_logistical_transporter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A7A2ACFB533A89C"
+					item: { count: 1, id: "mekanism_extras:supreme_logistical_transporter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CB17D7A6AE26E7C"
+					item: { count: 1, id: "mekanism_extras:cosmic_logistical_transporter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4AFF53E7F84209B9"
+					item: { count: 1, id: "mekanism_extras:infinite_logistical_transporter" }
+					match_components: "fuzzy"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "293E03AEC603314F"
+			tasks: [{
+				id: "3D7C43F05926679C"
+				item: { count: 1, id: "oritech:superconductor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "16E99FBC1C199E44"
+			tasks: [
+				{
+					id: "2C1E5CB07B4570D7"
+					item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+					type: "item"
+				}
+				{
+					id: "0881D919EF2EAF7D"
+					item: { count: 1, id: "mekanism:advanced_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41CEA19F358A5CC9"
+					item: { count: 1, id: "mekanism:elite_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C311E4F3F001F39"
+					item: { count: 1, id: "mekanism:ultimate_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11D2F73F94A3F34F"
+					item: { count: 1, id: "mekanism_extras:absolute_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "064D163DC334ADBE"
+					item: { count: 1, id: "mekanism_extras:supreme_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BC9CE0A864350F5"
+					item: { count: 1, id: "mekanism_extras:cosmic_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B31910762B35840"
+					item: { count: 1, id: "mekanism_extras:infinite_mechanical_pipe" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E0310D8E9A20DB6"
+			tasks: [
+				{
+					id: "65754800A0E57F2F"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "5C5F2ADA992951DF"
+					item: { count: 1, id: "mekanism:advanced_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A06DE89AB9E5AB9"
+					item: { count: 1, id: "mekanism:elite_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10D0C5113D2A3091"
+					item: { count: 1, id: "mekanism:ultimate_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "075E74208F379355"
+					item: { count: 1, id: "mekanism_extras:absolute_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E00191D3DAE7F29"
+					item: { count: 1, id: "mekanism_extras:supreme_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "793C866848576CCA"
+					item: { count: 1, id: "mekanism_extras:cosmic_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "15C07ABA83245E21"
+					item: { count: 1, id: "mekanism_extras:infinite_universal_cable" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7B354559781A0101"
+			tasks: [{
+				id: "4CAA50207744C087"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "008CEF65E0896550"
+			tasks: [{
+				id: "467AF8568BC99285"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4E17D11EA6925C30"
+			tasks: [{
+				id: "74BF3625323E4F47"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F8153BDB50DB383"
+			tasks: [{
+				id: "55FDD5A2DA470316"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: false
+			id: "34857A474205468B"
+			size: 1.0d
+			tasks: [
+				{
+					id: "44FB4A3EEBE4F691"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "517D7FA2D12D6283"
+					item: { count: 1, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+				{
+					id: "24AFD70C1DA3579B"
+					item: { count: 1, id: "mekanism:portable_teleporter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "443A639C60D80AEE"
+			tasks: [
+				{
+					id: "4D85B45DAC6B117D"
+					item: { count: 1, id: "mekanism:quantum_entangloporter" }
+					type: "item"
+				}
+				{
+					id: "7DB6BA3FD2E6CFFB"
+					item: { count: 1, id: "mekmm:wireless_transmission_station" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			icon: {
+				id: "modularrouters:modular_router"
+			}
+			id: "3713BFE0E44E3F3A"
+			tasks: [
+				{
+					id: "3A1F4A07FE749B72"
+					item: { count: 1, id: "modularrouters:modular_router" }
+					type: "item"
+				}
+				{
+					id: "3457E076A8F84AD1"
+					item: { count: 1, id: "modularrouters:puller_module_2" }
+					type: "item"
+				}
+				{
+					id: "0614F142BA50422D"
+					item: { count: 1, id: "modularrouters:sender_module_3" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "13A9058B50CDF010"
+			tasks: [
+				{
+					id: "1B0C4B2404016D0C"
+					item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "5078908113A5E5CE"
+					item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "48C43E18C06954B9"
+					item: { components: { "enderio:conduit": "enderio:ender_fluid" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "5D70C372D78EA22C"
+					item: { components: { "enderio:conduit": "enderio_evolution:melodic_fluid_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "56A820636BEF8BFC"
+					item: { components: { "enderio:conduit": "enderio_evolution:stellar_fluid_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "75875F0F2035F312"
+			tasks: [
+				{
+					id: "1FDBA84882110BB8"
+					item: { components: { "enderio:conduit": "enderio_evolution:speedy_item_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "4E1F8AF4DFEBE607"
+					item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "1CA5E97EA51DE2A5"
+					item: { components: { "enderio:conduit": "enderio:enhanced_item" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "2CB7398CDE53EB79"
+					item: { components: { "enderio:conduit": "enderio:ender_item" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "0E459C2E02F018F1"
+					item: { components: { "enderio:conduit": "enderio_evolution:melodic_item_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "0AB4C0BC4397E7B0"
+					item: { components: { "enderio:conduit": "enderio_evolution:stellar_item_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "47EDFCA3B0C3E5FE"
+			tasks: [
+				{
+					id: "1E144F30E173C700"
+					item: { components: { "enderio:conduit": "enderio_evolution:crude_energy_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "2AB0AF5B869044EA"
+					item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "22202072F38C5494"
+					item: { components: { "enderio:conduit": "enderio_evolution:construction_alloy_energy_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "3E23F0FA7AF64E20"
+					item: { components: { "enderio:conduit": "enderio:enhanced_energy" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "5B50DDAE9578C9E0"
+					item: { components: { "enderio:conduit": "enderio_evolution:energetic_silver_energy_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "64DD451AE5A19AC3"
+					item: { components: { "enderio:conduit": "enderio:ender_energy" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "52246C292BD96A25"
+					item: { components: { "enderio:conduit": "enderio_evolution:crystalline_energy_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "7F12402501B78EC4"
+					item: { components: { "enderio:conduit": "enderio_evolution:melodic_energy_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "63CE2B1E27DEDCC3"
+					item: { components: { "enderio:conduit": "enderio_evolution:stellar_energy_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1F642C0D981CF6D0"
+			tasks: [{
+				id: "2351A0E10F6A53BE"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65E5B8C90AD953B4"
+			tasks: [
+				{
+					id: "2CDF9B8C1631981E"
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+					type: "item"
+				}
+				{
+					id: "4B945160E2736241"
+					item: { count: 1, id: "mekanism:advanced_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5AF0382F6F8748AA"
+					item: { count: 1, id: "mekanism:elite_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A2E982AF2730084"
+					item: { count: 1, id: "mekanism:ultimate_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "542ABC62A9C2B7B3"
+					item: { count: 1, id: "mekanism_extras:absolute_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C38150106CDC9FA"
+					item: { count: 1, id: "mekanism_extras:supreme_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F403379877945D8"
+					item: { count: 1, id: "mekanism_extras:cosmic_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E305812515BB021"
+					item: { count: 1, id: "mekanism_extras:infinite_pressurized_tube" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2F917674A8B495F2"
+			tasks: [
+				{
+					id: "4F76F73DA469223D"
+					item: { components: { "enderio:conduit": "enderio:chemical" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "04C87673D9E99A33"
+					item: { components: { "enderio:conduit": "enderio:pressurized_chemical" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "6B2C069DAD4D9C46"
+					item: { components: { "enderio:conduit": "enderio:ender_chemical" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "23C3BF19485CA1F6"
+					item: { components: { "enderio:conduit": "enderio_evolution:melodic_chemical_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+				{
+					id: "34CD4B149598A432"
+					item: { components: { "enderio:conduit": "enderio_evolution:stellar_chemical_conduit" }, count: 1, id: "enderio:conduit" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "14A725D4BC3C004C"
+			tasks: [
+				{
+					id: "7268854F398B17B4"
+					item: { count: 1, id: "draconicevolution:basic_io_crystal" }
+					type: "item"
+				}
+				{
+					id: "3C9E750E9E5E3B2A"
+					item: { count: 1, id: "draconicevolution:basic_relay_crystal" }
+					type: "item"
+				}
+				{
+					id: "0050B06BF9A7D5CC"
+					item: { count: 1, id: "draconicevolution:basic_wireless_crystal" }
+					type: "item"
+				}
+				{
+					id: "59D934B061B5E8C4"
+					item: { count: 1, id: "draconicevolution:wyvern_io_crystal" }
+					type: "item"
+				}
+				{
+					id: "4CB2A96AB19C7888"
+					item: { count: 1, id: "draconicevolution:wyvern_relay_crystal" }
+					type: "item"
+				}
+				{
+					id: "57785FD79A9F432E"
+					item: { count: 1, id: "draconicevolution:wyvern_wireless_crystal" }
+					type: "item"
+				}
+				{
+					id: "61D6939B2CD1B10E"
+					item: { count: 1, id: "draconicevolution:draconic_io_crystal" }
+					type: "item"
+				}
+				{
+					id: "70C539B1285987CF"
+					item: { count: 1, id: "draconicevolution:draconic_relay_crystal" }
+					type: "item"
+				}
+				{
+					id: "0452E287353CB341"
+					item: { count: 1, id: "draconicevolution:draconic_wireless_crystal" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4833B7A7C00B4F2E"
+			tasks: [{
+				id: "318808A0986BFBD9"
+				item: { count: 1, id: "appflux:flux_accessor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2DF389488C6163DB"
+			rewards: [
+				{
+					count: 128
+					id: "5020B48CC9C08D6E"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2046ED7A0F8D32DF"
+					item: {
+						count: 1
+						id: "minecraft:powered_rail"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2FA278471DF0A96E"
+					item: { count: 1, id: "minecraft:rail" }
+					type: "item"
+				}
+				{
+					id: "4F8372D7BAF2FAC8"
+					item: { count: 1, id: "minecraft:powered_rail" }
+					type: "item"
+				}
+				{
+					id: "64C2D7E7B9556A4E"
+					item: { count: 1, id: "minecraft:chest_minecart" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
 }

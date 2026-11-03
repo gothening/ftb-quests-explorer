@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "mek_ex:block/multiblocks_builder_base",
+    "front": "mek_ex:block/multiblocks_builder_front",
+    "side": "mek_ex:block/multiblocks_builder_base"
+  }
+}

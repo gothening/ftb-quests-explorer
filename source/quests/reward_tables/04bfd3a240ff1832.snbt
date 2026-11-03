@@ -73,13 +73,12 @@
 			}
 		}
 		{
-			count: 10
+			count: 2
 			id: "21C0889D8C5A5A07"
 			item: {
 				count: 1
 				id: "minecraft:emerald"
 			}
-			weight: 1.4901161E-8f
 		}
 		{
 			count: 4
@@ -98,6 +97,16 @@
 				id: "minecraft:copper_ingot"
 			}
 			random_bonus: 8
+		}
+		{ id: "469EE1A8F4892829", item: { count: 1, id: "waystones:waystone" } }
+		{ id: "3A6EBEBE1FCC3287", item: { count: 1, id: "minecraft:name_tag" } }
+		{
+			count: 8
+			id: "2A1B3E272AF6C27D"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
 		}
 	]
 }

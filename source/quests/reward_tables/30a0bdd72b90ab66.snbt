@@ -112,17 +112,6 @@
 			}
 		}
 		{
-			count: 2
-			id: "12957D5230EF68BD"
-			item: {
-				components: {
-					"sophisticatedstorage:wood_type": "oak"
-				}
-				count: 1
-				id: "sophisticatedstorage:netherite_barrel"
-			}
-		}
-		{
 			id: "4C345D7C3B3A92D1"
 			item: {
 				count: 1
@@ -138,5 +127,46 @@
 				id: "projecte:alchemical_chest"
 			}
 		}
+		{
+			count: 2
+			id: "286DAB100C3747B6"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 4
+			id: "537C361E8DF029FC"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 8
+			id: "684E18D905D191A1"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 10
+			id: "75187B92DA2452DB"
+			item: {
+				count: 1
+				id: "modularrouters:puller_module_2"
+			}
+		}
+		{
+			count: 10
+			id: "2F8577689FF2E3DE"
+			item: {
+				count: 1
+				id: "modularrouters:sender_module_3"
+			}
+		}
+		{ id: "1DAC646DEB0493BC", item: { count: 1, id: "mek_ex:basic_wind_generator" } }
 	]
 }

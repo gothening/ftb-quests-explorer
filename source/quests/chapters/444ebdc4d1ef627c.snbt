@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "444ebdc4d1ef627c"
 	group: "387494013EF92831"
+	icon: {
+		components: {
+			"ftbquests:icon": "twilightforest:item/filled_magic_map"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "444EBDC4D1EF627C"
 	images: [ ]
 	order_index: 0
@@ -11,14 +17,21 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7641C28434802B50"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "3C626E598CBB7E05"
-			tasks: [{
-				id: "125E7FCC30655AF7"
-				stage: "gothening_l0_stage_2"
-				type: "gamestage"
-			}]
+			tasks: [
+				{
+					id: "125E7FCC30655AF7"
+					stage: "1"
+					type: "gamestage"
+				}
+				{
+					id: "514B31D04250D2A8"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
 			y: 1.0d
 		}
@@ -26,22 +39,15 @@
 			dependencies: ["3C626E598CBB7E05"]
 			entity_vis_size: 1.0f
 			id: "197DE26F7C31AA7E"
-			rewards: [
-				{
-					count: 10
-					id: "3B3213E75F1961C9"
-					item: {
-						count: 1
-						id: "primogemcraft:xingqiong"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3B3213E75F1961C9"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
 				}
-				{
-					id: "459598678807B42A"
-					type: "xp"
-					xp: 100
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "59DE9454988A8282"
@@ -62,7 +68,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -70,9 +76,13 @@
 			entity_vis_size: 1.0f
 			id: "279612CD311A2C1A"
 			rewards: [{
-				id: "4F5D0DA751883FDC"
-				type: "xp"
-				xp: 100
+				count: 5
+				id: "0F8C7F1D46978DF7"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -105,55 +115,32 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -2.5d
 			y: 3.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "6F2522327024E05B"
-			rewards: [
-				{
-					command: "/ftbechoes gamestage @s add gothening_l1_danheng_unlocked"
-					id: "6FAA39DD94EB96BC"
-					type: "command"
-				}
-				{
-					id: "541CB313CCF57C72"
-					item: {
-						components: {
-							"minecraft:block_entity_data": {
-								echo_id: "gothening:chapter_2_danheng"
-								id: "ftbechoes:core"
-								worker_id: [I;
-									1307484398
-									-488944141
-									-1928602316
-									-571554784
-								]
-							}
-						}
-						count: 1
-						id: "ftbechoes:echo_projector"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "66D9CD25C8CF1332"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["197DE26F7C31AA7E"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:mmola_01"
+			}
 			id: "552CEE81C1632104"
-			rewards: [{
-				id: "04ECAB00FF1659EB"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "04ECAB00FF1659EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 5
+					id: "0B12D73C346CBA94"
+					item: {
+						count: 1
+						id: "primogemcraft:xingqiong"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3390FB8BBEDE8A24"
@@ -166,44 +153,21 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["552CEE81C1632104"]
 			entity_vis_size: 1.0f
-			id: "5A14314F9CE54D35"
-			rewards: [
-				{
-					id: "3F27570D335F333E"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "5AF8994C931EC053"
-					item: {
-						count: 1
-						id: "primogemcraft:jijiuchanzhiyuan"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "43C82BFEC6824866"
-				item: { count: 1, id: "primogemcraft:yuanshi" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5A14314F9CE54D35"]
-			entity_vis_size: 1.0f
 			id: "39FE3F84E6E33F75"
 			rewards: [{
-				id: "00D2D9E568CDFCD1"
-				type: "xp"
-				xp: 100
+				count: 5
+				id: "460FC158DD727B2D"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -230,22 +194,38 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 5.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3C626E598CBB7E05"]
 			entity_vis_size: 1.0f
 			id: "75D569500F79FA1B"
 			rewards: [{
-				id: "64F42FCDCE61435A"
-				type: "xp"
-				xp: 100
+				count: 5
+				id: "0EA10CEF82B40DF4"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [{
-				id: "06CA651564D8D2C8"
-				structure: "#minecraft:village"
-				type: "structure"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "2CEED18A24DB3F8A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
 			}]
 			x: -1.0d
 			y: 2.0d
@@ -255,113 +235,36 @@
 			entity_vis_size: 1.0f
 			id: "17E47CF1DC3748B4"
 			rewards: [{
-				id: "021255E43F88D23D"
-				type: "xp"
-				xp: 100
+				count: 5
+				id: "3B96A3E84DCF2CAB"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2444CA4D7E9CDEF3"
-					item: { count: 1, id: "minecraft:blast_furnace" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3B7DA6D09E4F1D10"
-					item: { count: 1, id: "minecraft:smoker" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "425D084ED5CCCACF"
-					item: { count: 1, id: "minecraft:cartography_table" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2AD0235C3F4A00ED"
-					item: { count: 1, id: "minecraft:brewing_stand" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "54C4D51FAB64E207"
-					item: { count: 1, id: "minecraft:composter" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3A23FD03E46408ED"
-					item: { count: 1, id: "minecraft:barrel" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "234B53B96FEFAA99"
-					item: { count: 1, id: "minecraft:fletching_table" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "160691C59E477F25"
-					item: { count: 1, id: "minecraft:cauldron" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6CAE16EA82BEBF58"
-					item: { count: 1, id: "minecraft:lectern" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1DFD697E1A96D8BF"
-					item: { count: 1, id: "minecraft:stonecutter" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0FD7F1B98214739F"
-					item: { count: 1, id: "minecraft:loom" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "56CE82DB20F721E7"
-					item: { count: 1, id: "minecraft:smithing_table" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3A32AD39ADB48771"
-					item: { count: 1, id: "minecraft:grindstone" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4DA0F40AA3909F09"
-					item: { count: 1, id: "farmersdelight:skillet" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4B35EC763459B8BB"
-					item: { count: 1, id: "farmersdelight:cooking_pot" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -1.0d
+			tasks: [{
+				id: "3A32AD39ADB48771"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:villager_job_sites)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["17E47CF1DC3748B4"]
 			entity_vis_size: 1.0f
 			id: "756B119D5990ABC6"
+			optional: true
 			rewards: [{
-				id: "30487918A08F9B25"
-				type: "xp"
-				xp: 100
+				count: 20
+				id: "1C786EA5562BCB1D"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				icon: {
@@ -385,12 +288,32 @@
 				table_id: 3504009241940765542L
 				type: "loot"
 			}]
-			tasks: [{
-				id: "7557D70703FA63A7"
-				structure: "#minecraft:pillager_outpost"
-				type: "structure"
-			}]
-			x: 0.0d
+			tasks: [
+				{
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					id: "26B4CDA5EB745671"
+					observation_type: "entity_type"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:pillager"
+					type: "observation"
+				}
+				{
+					id: "7557D70703FA63A7"
+					optional_task: true
+					structure: "#minecraft:pillager_outpost"
+					type: "structure"
+				}
+			]
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -408,7 +331,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:drinks/ominous)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -427,65 +350,8 @@
 				id: "4AEBB90A384DE8A8"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["4EBF357EFAD55DE5"]
-			entity_vis_size: 1.0f
-			id: "7F5D223553FEF566"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E91803804458DC2"
-				table_id: 3504009241940765542L
-				type: "loot"
-			}]
-			tasks: [{
-				advancement: "tombstone:adventure/village_defender"
-				criterion: ""
-				id: "0DEDB4A8C465708E"
-				type: "advancement"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			id: "2FDB6F4DFF9ACC5B"
-			rewards: [
-				{
-					command: "/ftbechoes gamestage @s add gothening_l2_danheng_unlocked"
-					id: "156BFFB65DC6CA6F"
-					type: "command"
-				}
-				{
-					id: "1C38830B4387B3CD"
-					item: {
-						components: {
-							"minecraft:block_entity_data": {
-								echo_id: "gothening:chapter_3_danheng"
-								id: "ftbechoes:core"
-								worker_id: [I;
-									-572680791
-									1148208447
-									-1592501322
-									745013722
-								]
-							}
-						}
-						count: 1
-						id: "ftbechoes:echo_projector"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2A0CE4021F60165D"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["3C626E598CBB7E05"]
@@ -505,7 +371,7 @@
 				type: "dimension"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7AE51D1D68BA7A85"]
@@ -523,41 +389,101 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3C626E598CBB7E05"]
+			dependencies: ["756B119D5990ABC6"]
 			entity_vis_size: 1.0f
-			hide_dependency_lines: true
-			icon: {
-				id: "explorerscompass:explorerscompass"
-			}
-			id: "3B95FFFFB48A4587"
-			rewards: [
+			id: "0D9C34A7FA4BE5B9"
+			rewards: [{
+				count: 20
+				id: "6C2860BAA445098A"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "4D4B1A89688D5E25"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["17E47CF1DC3748B4"]
+			entity_vis_size: 1.0f
+			id: "42CAD58B6D89A5D1"
+			rewards: [{
+				count: 5
+				id: "48A1CBCCCCBE162B"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
 				{
-					id: "5DE419DCB98FE83F"
-					item: {
-						count: 1
-						id: "explorerscompass:explorerscompass"
-					}
+					id: "0C0DBB9E2AAC53F3"
+					item: { count: 1, id: "utilitarian:white_soliciting_carpet" }
 					type: "item"
 				}
 				{
-					id: "1ACF010E08607608"
-					item: {
-						count: 1
-						id: "naturescompass:naturescompass"
-					}
+					id: "30EEA83106720740"
+					item: { count: 1, id: "utilitarian:white_trapped_soliciting_carpet" }
 					type: "item"
 				}
 			]
-			shape: "none"
-			tasks: [{
-				id: "3B5B9B3D7B4B34A5"
-				type: "checkmark"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["197DE26F7C31AA7E"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:hualiduanzao"
+			}
+			id: "0330982B7FC0891B"
+			rewards: [{
+				count: 5
+				id: "1EE0B9AB35C89C40"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			tasks: [
+				{
+					id: "68B9810B4244650F"
+					item: { count: 1, id: "primogemcraft:hualiduanzao" }
+					type: "item"
+				}
+				{
+					id: "028EC12F39B43257"
+					item: { count: 1, id: "primogemcraft:jlza" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3836462F89165F98"
+					item: { count: 1, id: "primogemcraft:jlliang" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C9D50AECB4518F5"
+					item: { count: 1, id: "primogemcraft:jlmo" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
 		}
 	]
 }

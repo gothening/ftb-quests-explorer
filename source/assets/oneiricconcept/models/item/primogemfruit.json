@@ -1,0 +1,7 @@
+{
+  "parent": "oneiricconcept:custom/primogemfruititem",
+  "textures": {
+    "0": "oneiricconcept:block/shizuoyuanshikuai",
+    "particle": "oneiricconcept:item/shizuoyuanshikuai"
+  }
+}

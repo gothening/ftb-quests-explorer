@@ -1,0 +1,27 @@
+{
+	id: "071A21EAD881DA3E"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			command: "/gamerule keepInventory true"
+			id: "7F03CA364C8B5CE8"
+			type: "command"
+		}
+		{
+			command: "/gamerule lavaSourceConversion true"
+			id: "16498976568FBA3C"
+			type: "command"
+		}
+		{
+			command: "/gamerule disableElytraMovementCheck true"
+			id: "4D3437F4F4AC0E32"
+			type: "command"
+		}
+		{
+			command: "/curios add curio @p 3"
+			id: "21AD2742AE46AC69"
+			type: "command"
+		}
+	]
+}

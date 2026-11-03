@@ -3,21 +3,80 @@
 	default_quest_shape: ""
 	filename: "67d40010185daeb6"
 	group: "64455473278BA5BB"
+	icon: {
+		id: "primogemcraft:shenmiwanou"
+	}
 	id: "67D40010185DAEB6"
-	images: [ ]
-	order_index: 8
+	images: [{
+		click_action: "none:"
+		height: 6.0d
+		id: "4C27EA9AB080E8B9"
+		image: "touhou_little_maid:textures/chat_bubble/maid_emoji/emoji_05.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.0d
+		y: -4.5d
+	}]
+	order_index: 4
+	quest_enhance_chapter_quest_prerequisites: [7697154345445960041L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [{
-		entity_vis_size: 1.0f
-		id: "6D2D3419998E7746"
-		tasks: [{
-			id: "057CBBEC7190CB32"
-			item: { count: 1, id: "minecraft:jukebox" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "6D2D3419998E7746"
+			tasks: [{
+				id: "057CBBEC7190CB32"
+				item: { count: 1, id: "minecraft:jukebox" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4EA29ACB783F9E02"
+			tasks: [{
+				id: "309C68FF87FE1BBF"
+				item: { count: 1, id: "flavor_immersed_daily:fairy_sparkler" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4D4A46E44E5DF2BD"
+			tasks: [{
+				id: "614283D8187DCE53"
+				item: { count: 1, id: "excessive_utilities:magical_snow_globe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "13DE537819ACD8FF"
+			tasks: [{
+				id: "72F8B003D52D6C8E"
+				item: { components: { "touhou_little_maid:maid_info": { IsYsmModel: 0b, id: "touhou_little_maid:maid", model_id: "geckolib:winefox_magical_a12dc19190c076d8d24aff8714515c8e" } }, count: 1, id: "touhou_little_maid:garage_kit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "326FCE9A8054EECB"
+			tasks: [{
+				id: "7C448F101162137C"
+				item: { count: 1, id: "primogemcraft:shenmiwanou" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
 }

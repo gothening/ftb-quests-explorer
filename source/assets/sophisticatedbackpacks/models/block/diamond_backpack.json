@@ -1,6 +1,0 @@
-{
-  "parent": "sophisticatedbackpacks:block/backpack",
-  "textures": {
-    "clips": "sophisticatedbackpacks:block/diamond_clips"
-  }
-}

@@ -1,0 +1,1609 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4145788e27675b06"
+	group: "64455473278BA5BB"
+	icon: {
+		id: "flavor_immersed_daily:icedblacktea"
+	}
+	id: "4145788E27675B06"
+	images: [ ]
+	order_index: 3
+	quest_enhance_chapter_quest_prerequisites: [7697154345445960041L]
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "549F136BCC4417C9"
+			rewards: [{
+				id: "4FE32E0875BDF251"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FAB51C466F8CB7B"
+				item: { count: 1, id: "flavor_immersed_daily:soyamilk" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3291662B15A7EA15"
+			rewards: [{
+				id: "76AF511B7942F569"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A7BC87724205CD"
+				item: { count: 1, id: "flavor_immersed_daily:sweetmilk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "205C16D88044F9DB"
+			tasks: [{
+				id: "53B2767E0C521CDC"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3C1571B743AC38C2"
+			rewards: [{
+				id: "392CC98F08D1D8CA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04D5EA67C158328B"
+				item: { count: 1, id: "flavor_immersed_daily:lemonredtea" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01B7F5F85295E50B"
+			rewards: [{
+				id: "514899A3124EFCBB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BAE0EE148D21B0C"
+				item: { count: 1, id: "flavor_immersed_daily:lemonteawithglutinousriceflavor" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1B43C8C3917F0A8A"
+			rewards: [{
+				id: "576135A6E5F8380D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6032095CD077AF42"
+				item: { count: 1, id: "flavor_immersed_daily:redtea" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "282651543B197745"
+			rewards: [{
+				id: "78BD1713E33829FF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2ECE81C80681A292"
+				item: { count: 1, id: "flavor_immersed_daily:greentea" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "59FF43185F5F7E53"
+			rewards: [{
+				id: "72FB9E4F18ECAA66"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E8A1E64516BB438"
+				item: { count: 1, id: "flavor_immersed_daily:buckwheattea" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "796367045BEEFA61"
+			rewards: [{
+				id: "7F8400C9C822D3A3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "084E487A5DAE5D60"
+				item: { count: 1, id: "flavor_immersed_daily:assammilk_tea" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "790ED80AF5147685"
+			rewards: [{
+				id: "1A263D556891DA91"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15310D2D31F6A9FD"
+				item: { count: 1, id: "flavor_immersed_daily:greenplumtea" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1602F4A30543683E"
+			rewards: [{
+				id: "3039CC9A3DDBDF07"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CFD536E8EAF665"
+				item: { count: 1, id: "flavor_immersed_daily:icedblackteablue" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "15A05F9EF548ECA5"
+			rewards: [{
+				id: "5EE6347BF557C519"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60727855444258A9"
+				item: { count: 1, id: "flavor_immersed_daily:sugarfreicedtea" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7E80B470F99F3DD8"
+			rewards: [{
+				id: "48BFB2DADE6CEBBA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "152C3A1B33A64DEB"
+				item: { count: 1, id: "flavor_immersed_daily:icedblacktea" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "350F758C1921B59D"
+			rewards: [{
+				id: "3A322A3DDAA0DB7C"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4409626CC06AA4CC"
+				item: { count: 1, id: "kaleidoscope_chinesefood:hk_milk_tea" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4529E92B67E95A51"
+			rewards: [{
+				id: "3E111B809A7747B4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1823EAB46865993A"
+				item: { count: 1, id: "kaleidoscope_cookery:barley_tea" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1BDA1549750F17E6"
+			rewards: [{
+				id: "2F35575939F80D9A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6FA6934281D8D0"
+				item: { count: 1, id: "kaleidoscope_cookery:oolong" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1029E0918FF3DBE1"
+			rewards: [{
+				id: "0DEBAF64EB70A31F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03BD9CE98EFB2739"
+				item: { count: 1, id: "kaleidoscope_cookery:flower_tea" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "58D9EBC7A23CAC1F"
+			rewards: [
+				{
+					id: "244DDCE33B8F185A"
+					item: {
+						count: 1
+						id: "trailblazer:chefs_certificate"
+					}
+					type: "item"
+				}
+				{
+					id: "43B2ED862460ABDD"
+					item: {
+						count: 1
+						id: "trailblazer:chefs_certificate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21E7D38AFA7B9628"
+				item: { count: 1, id: "kaleidoscope_cookery:tieguanyin" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7DBF303DCF9E1BF1"
+			rewards: [{
+				id: "26F72904DB5F55F0"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "445DBF1B6E356AC9"
+				item: { count: 1, id: "kaleidoscope_cookery:biluochun" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4B0EDDF25C564D6E"
+			rewards: [{
+				id: "4FA7CF51A40FF9DC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5382A270A3B838F2"
+				item: { count: 1, id: "kaleidoscope_cookery:sakura_fubuki" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1137CE7C9D0A816B"
+			rewards: [{
+				id: "62D695D0B4050480"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0878EC5C87841EC2"
+				item: { count: 1, id: "kaleidoscope_chinesefood:lapsang" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "70ACE87AC437C4D5"
+			tasks: [{
+				id: "40ADE47F8B198578"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6E70486C8D6AA2A7"
+			rewards: [{
+				id: "1B27B564298870CA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "001AEC9F01DDEA7C"
+				item: { count: 1, id: "flavor_immersed_daily:healthpeanutmilk" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6A4BCF77CEEE39B2"
+			rewards: [{
+				id: "27DB72C52BCE91ED"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2581B119E2A3F67F"
+				item: { count: 1, id: "flavor_immersed_daily:healthloquatcream" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "34C3C9545A4A4145"
+			rewards: [{
+				id: "33EC27F7068956F3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD88CDB2FAC93EC"
+				item: { count: 1, id: "flavor_immersed_daily:electrolytebeverage" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4AC9430D99FB84C8"
+			rewards: [{
+				id: "4902715871D543E5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70EAE6F82CF5C053"
+				item: { count: 1, id: "flavor_immersed_daily:sprite" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5770816B4EB568D6"
+			rewards: [{
+				id: "63E946A2E8E3DD8B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE320377E24B19B"
+				item: { count: 1, id: "flavor_immersed_daily:blue_cola" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6ABF470C391C1808"
+			rewards: [{
+				id: "2FCA41DA11B0DA2B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A7362EBE9E9DB0"
+				item: { count: 1, id: "flavor_immersed_daily:cola" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "781CE341415C93EB"
+			rewards: [{
+				id: "42706D1140629790"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AED05DEEAC1FBAC"
+				item: { count: 1, id: "flavor_immersed_daily:yogurt" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "00155C2BE3949A11"
+			rewards: [{
+				id: "5AC20EA1E297A49D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "353DE0FDF6052799"
+				item: { count: 1, id: "flavor_immersed_daily:grenteamilkwithpearl" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "326EEC7F214BBE46"
+			rewards: [{
+				id: "4825630826E6DE45"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50149BE841120611"
+				item: { count: 1, id: "flavor_immersed_daily:green_tea_lattes" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "424E767798D5DD64"
+			rewards: [{
+				id: "03D729B672316EF9"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6326D80C3C6FCD61"
+				item: { count: 1, id: "flavor_immersed_daily:redteamilkwithpearl" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5E15C5504F404F16"
+			rewards: [{
+				id: "7390BB11BD44B77D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15462844C10DCDF2"
+				item: { count: 1, id: "flavor_immersed_daily:healthwalnutdew" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4C866E77E9537CE3"
+			rewards: [{
+				id: "4970183047EA95DE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F32DDC5FB25DBB"
+				item: { count: 1, id: "flavor_immersed_daily:wheatmilk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "31A24CD9FEB0CD9B"
+			rewards: [{
+				id: "7B879BC584945597"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20599398143BD3B1"
+				item: { count: 1, id: "flavor_immersed_daily:kweichow_moutai" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6EC3528E70A33F6D"
+			rewards: [{
+				id: "23CA2658A66735A5"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "423CA4FE2C53FC7D"
+				item: { count: 1, id: "flavor_immersed_daily:tsingtao_beer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7579EFA0A26F185D"
+			rewards: [{
+				id: "71A7F55775899CBB"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30C3617144089B76"
+				item: { count: 1, id: "flavor_immersed_daily:kaoliangwine" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2A1D3C3311876F9B"
+			rewards: [{
+				id: "11F0E759AE10CA78"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28608868DA32132C"
+				item: { count: 1, id: "oneiricconcept:energy_drink" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62A7F04FDC69FB08"
+			rewards: [{
+				id: "507CFB50D245760B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AACA26BDD43178D"
+				item: { count: 1, id: "oneiricconcept:punitive_energy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "50C3F04E080579A3"
+			rewards: [{
+				id: "2FB3F534310B0F79"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD2904E9B04747F"
+				item: { count: 1, id: "oneiricconcept:energy_drink_sugar_free" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "02B83A1586FF0185"
+			rewards: [{
+				id: "1D12F49DDCA373FA"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19F8AA9F8E400208"
+				item: { count: 1, id: "oneiricconcept:energy_drink_primogem" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5150D3E8F728FD86"
+			tasks: [{
+				id: "1325DA5F3BD2827F"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:madame_shexiang" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "333D30A1B0FDABF5"
+			rewards: [{
+				id: "04B603AADCA4D3F8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ACACA38E52046A5"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:sunset_glow" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "69E4BF9264B3B0B4"
+			rewards: [{
+				id: "3DB269910C2E5B5F"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "372E3E91B413007A"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:sauvignon_blanc_dry_white" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1243AD377E7BB301"
+			rewards: [{
+				id: "587DF8FFFA2AD4CC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "173167BE21C9BD35"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:riesling_dry_white" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "3ACE31F7E442B31B"
+			rewards: [{
+				id: "64B85E75371B6ED7"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "698AC57C5B0A187E"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:luminous_bride" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7F09F55B00862C07"
+			rewards: [{
+				id: "0BDFF0C6A2BB345A"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2809D70E11E8AA7E"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:glowflower_brew" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "62B1955CB77A6C55"
+			rewards: [{
+				id: "0ED4E038B7F4C726"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "524FDA18EF342F10"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:plum_wine" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "697EDCCAA50F8FBB"
+			rewards: [{
+				id: "4F1E1557D1FD1AAC"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "547D33265EC1FC56"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:sweet_berry_wine" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "729907EF2E391D4C"
+			rewards: [{
+				id: "562EE1CC06D0CB04"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49227AA055855DE4"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:red_queen" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2D593CA4BD13AA61"
+			rewards: [{
+				id: "129DF6FEC5C72DBF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C91396F85AE1E90"
+				item: { count: 1, id: "kaleidoscope_tavern:watermelon_juice" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4A223803079D6651"
+			rewards: [{
+				id: "578D2F3607508F75"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE5E4B44ACF78A1"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:vinegar" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5B1E85E8E8D86D6E"
+			rewards: [{
+				id: "6FCEEFABEC6ED126"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "573F109567041623"
+					item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:wine" }
+					type: "item"
+				}
+				{
+					id: "5BB4C7BDC3ACB6BE"
+					item: { count: 1, id: "flavor_immersed_daily:grapewine" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "79AD8A8FB3EDE39B"
+			rewards: [{
+				id: "253EE8AC1826741D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "617347B0A4100F4F"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:sakura_wine" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0E10BB5CB66CA5C6"
+			rewards: [{
+				id: "4248668A18788D3D"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0317CFD0566426CD"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:champagne" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "65F3F0FE3FF08000"
+			rewards: [{
+				id: "4E99823340E81250"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AFB08E90A75922D"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:brandy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "7338E1E2C50015EC"
+			rewards: [{
+				id: "074F00FBA4D8280E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "647274B8D51B4CB6"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:carignan" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "244B6F82451E20D8"
+			rewards: [{
+				id: "1CAFE98744C7A607"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B171EFB4FD08028"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:ice_wine" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5F560AC5FD8354A0"
+			rewards: [{
+				id: "5E3D25CD64F54291"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CCF543A5E09C5B0"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:polaris_sweet_white" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4AF9D7149267241C"
+			rewards: [{
+				id: "517709345D27DA93"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3047EFE965595DB8"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:sherry" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "539DE950994179AB"
+			rewards: [{
+				id: "23D12E72D4D64FDE"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14232CA75E92F8B1"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:miners_star" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4A851624B20118D4"
+			rewards: [{
+				id: "65DFF16061764878"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000CB3305CB8122"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:mother_snow" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1170B20E6CF86700"
+			rewards: [{
+				id: "72DA8E544E064FEF"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0260D3EA29F28113"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:honey_wine" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "181A2DB7093D62C1"
+			rewards: [{
+				id: "0F107D1D04BEF387"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "190AE2ADD3770008"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:vodka" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6CE66E412DE58FC1"
+			rewards: [{
+				id: "7C7FECF460689F5B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51AC112A7BCA4B41"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:whiskey" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "56C804B90C25164E"
+			rewards: [{
+				id: "6634C66B7E92ADE3"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2788933E953ECC98"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:rum" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "605AE041AFC66BF9"
+			rewards: [{
+				id: "59B48E5A17577085"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A6E90DBE8A2D79"
+				item: { count: 1, id: "kaleidoscope_tavern:signature_cocktail" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "132CA7119B6CB419"
+			rewards: [{
+				id: "4ED3449E0A22A8C4"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "722FD2141E20FC55"
+				item: { count: 1, id: "kaleidoscope_tavern:mystery_cocktail" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "70278451D11A8CE1"
+			rewards: [{
+				id: "4DAE420B0C7EFA5B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30F202833BD9E3B5"
+				item: { count: 1, id: "kaleidoscope_tavern:white_lady" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1D666D76A50F8055"
+			rewards: [{
+				id: "18AFE53417826D25"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "705245C6A98769A5"
+				item: { count: 1, id: "kaleidoscope_tavern:emerald" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "77EEF4AAEA481C5D"
+			rewards: [{
+				id: "62D687D12A5B4F2E"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "435E26F494F4AC77"
+				item: { count: 1, id: "kaleidoscope_tavern:brass_heart" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "42007993AB07A9D0"
+			rewards: [{
+				id: "0F58F62616515DC1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C737E3C2FAA184A"
+				item: { count: 1, id: "kaleidoscope_tavern:godfather" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "01EE64E2BA21387F"
+			rewards: [{
+				id: "51D359FACB9455DD"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37E4696D091F847F"
+				item: { count: 1, id: "kaleidoscope_tavern:grasshopper" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "020F7D0437B3C861"
+			rewards: [{
+				id: "5BAC2F57322BDEA8"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32C156CE2871A3DB"
+				item: { count: 1, id: "kaleidoscope_tavern:screwdriver" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "6DDCF16ADE65CD01"
+			rewards: [{
+				id: "2630C145C5091072"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D4E963509056A93"
+				item: { count: 1, id: "kaleidoscope_tavern:mojito" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5500090ECB8419F7"
+			rewards: [{
+				id: "1803B54F39F4B6A1"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0A65756B003DF0"
+				item: { count: 1, id: "kaleidoscope_tavern:allium_garden" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "5C6AA0EE0DE8E333"
+			rewards: [{
+				id: "7B6BDA647738BC55"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59C19C314FF780B5"
+				item: { count: 1, id: "kaleidoscope_tavern:depth_charge" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "73E2EBFDB2CADC38"
+			rewards: [{
+				id: "1365585D57DAC718"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3198EBA59FC154B1"
+				item: { count: 1, id: "kaleidoscope_tavern:nether_special" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "4997B57F47DD0489"
+			rewards: [{
+				id: "4B3629B5E5054F79"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7625690B0AFDCCB5"
+				item: { count: 1, id: "kaleidoscope_tavern:bloody_mary" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "13884D935C104767"
+			rewards: [{
+				id: "094EE2DBE3C7C819"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3454AEDE8C1B09F9"
+				item: { count: 1, id: "kaleidoscope_tavern:sculk_special" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "2E1C7686ADC73715"
+			tasks: [{
+				id: "40FE97218C0891AE"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "697B941E14AD5E33"
+			tasks: [{
+				id: "5EB934FE715CB66A"
+				item: { count: 1, id: "flavor_immersed_daily:cafe_americano" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0944972BE6FB0C11"
+			rewards: [{
+				id: "4D311CA78F410C6B"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AD0A71E2C2283D"
+				item: { count: 1, id: "flavor_immersed_daily:cafelatte" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "1FD1F1008131808A"
+			rewards: [{
+				id: "56AFB0EFD1FCA429"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EDB8FD7F15870A5"
+				item: { count: 1, id: "flavor_immersed_daily:mochacafe" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "735BBF0C57F42AB6"
+			rewards: [{
+				id: "76FCE72E03E46A69"
+				item: {
+					count: 1
+					id: "trailblazer:chefs_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C4DF718877D280"
+				item: { count: 1, id: "flavor_immersed_daily:cappuccino" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+	]
+}

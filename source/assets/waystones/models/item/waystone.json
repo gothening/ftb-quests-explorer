@@ -1,0 +1,129 @@
+{
+  "loader": "neoforge:composite",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "waystones:block/realm_anchor"
+  },
+  "item_render_order": [
+    "base",
+    "core"
+  ],
+  "children": {
+    "base": {
+      "loader": "neoforge:obj",
+      "model": "waystones:models/block/realm_anchor_full_base.obj",
+      "mtl_override": "waystones:models/block/realm_anchor.mtl",
+      "automatic_culling": false,
+      "shade_quads": true,
+      "flip_v": true,
+      "emissive_ambient": true,
+      "ambientocclusion": false,
+      "render_type": "minecraft:cutout",
+      "textures": {
+        "particle": "waystones:block/realm_anchor"
+      }
+    },
+    "core": {
+      "loader": "neoforge:obj",
+      "model": "waystones:models/block/realm_anchor_full_core.obj",
+      "mtl_override": "waystones:models/block/realm_anchor.mtl",
+      "automatic_culling": false,
+      "shade_quads": true,
+      "flip_v": true,
+      "emissive_ambient": true,
+      "ambientocclusion": false,
+      "render_type": "minecraft:solid",
+      "textures": {
+        "particle": "waystones:block/realm_anchor_core"
+      }
+    }
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -2.4,
+        0
+      ],
+      "scale": [
+        0.435,
+        0.435,
+        0.435
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -4,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.82,
+        1.25
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

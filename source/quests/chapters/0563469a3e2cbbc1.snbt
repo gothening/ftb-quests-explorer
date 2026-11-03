@@ -1,0 +1,471 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0563469a3e2cbbc1"
+	group: "374F9CF3808ED22B"
+	icon: {
+		id: "primogemcraft:jijiuchanzhiyuan"
+	}
+	id: "0563469A3E2CBBC1"
+	images: [ ]
+	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["494DA4E86CDD34E1"]
+			entity_vis_size: 1.0f
+			id: "56FB8C92FA01DAEF"
+			rewards: [{
+				id: "7B6ABD85A829834A"
+				item: {
+					count: 1
+					id: "primogemcraft:qycx"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39EA93EA332C21FF"
+				item: { count: 1, id: "touhou_little_maid:smart_slab_init" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xixiangyuzhiyuan"
+			}
+			id: "078FB2E3A9CDEF28"
+			repeat_cooldown: 36000
+			rewards: [{
+				count: 5
+				id: "1C423EB76EEE1AA6"
+				item: {
+					count: 1
+					id: "primogemcraft:xixiangyuzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "235E07F1B69B52F9"
+				item: { count: 1, id: "primogemcraft:xingchen" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jijiuchanzhiyuan"
+			}
+			id: "5E43D55108D35143"
+			repeat_cooldown: 36000
+			rewards: [{
+				count: 5
+				id: "1E0308DB7E0B6584"
+				item: {
+					count: 1
+					id: "primogemcraft:jijiuchanzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "5505202AE9996A12"
+				item: { count: 1, id: "primogemcraft:xingchen" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xixiangyuzhiyuan"
+			}
+			id: "716B961CB88EEA59"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "736BB68267A84CEA"
+				ignore_reward_blocking: true
+				item: {
+					count: 1
+					id: "primogemcraft:xixiangyuzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4C4ADC64F5150D0E"
+				item: { count: 1, id: "primogemcraft:xinghui" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jijiuchanzhiyuan"
+			}
+			id: "674F1659A29B592F"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFB664EB19B3843"
+				ignore_reward_blocking: true
+				item: {
+					count: 1
+					id: "primogemcraft:jijiuchanzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "629EA759902DBE05"
+				item: { count: 1, id: "primogemcraft:xinghui" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "494DA4E86CDD34E1"
+			rewards: [{
+				id: "01D8CD01883431D6"
+				item: {
+					count: 1
+					id: "primogemcraft:jijiuchanzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "308AADDD5A9CCA44"
+					item: { count: 1, id: "primogemcraft:xingqiong" }
+					type: "item"
+				}
+				{
+					id: "3ECD21B3F79C52F2"
+					item: { count: 1, id: "primogemcraft:yuanshi" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jlmo"
+			}
+			id: "594758CFF25522CA"
+			rewards: [{
+				id: "24B7751837480653"
+				item: {
+					count: 1
+					id: "primogemcraft:jlmo"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3F4AA9CE46D35901"
+				item: { count: 1, id: "primogemcraft:xingchen" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jianglimaoxianjiajingyan"
+			}
+			id: "272CD7E4582BCCAF"
+			rewards: [{
+				id: "1FDF4443323BF429"
+				item: {
+					count: 1
+					id: "primogemcraft:jianglimaoxianjiajingyan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2A10D29E30E87FCC"
+				item: { count: 1, id: "primogemcraft:xingchen" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:shanbianzhichen"
+			}
+			id: "7FFCB9AAD972A45B"
+			repeat_cooldown: 36000
+			rewards: [{
+				count: 10
+				id: "41BE53F513EB101C"
+				item: {
+					count: 1
+					id: "primogemcraft:shanbianzhichen"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2FD8B317CB0E6EA3"
+				item: { count: 1, id: "primogemcraft:xingchen" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: false
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:jinguangbaodi_01"
+			}
+			id: "5F5FF281F9D0C374"
+			rewards: [{
+				id: "2E55160CAEF48250"
+				item: {
+					count: 1
+					id: "primogemcraft:jinguangbaodi_01"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "332BC4EDEA067C98"
+				item: { count: 1, id: "primogemcraft:shilianchou" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:wufengjian"
+			}
+			id: "3455880CDEC9328D"
+			rewards: [{
+				id: "0BE4208922349978"
+				item: {
+					count: 1
+					id: "primogemcraft:wufengjian"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "725F4E0FEA0E13F8"
+					item: { count: 1, id: "primogemcraft:mmola_01" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "40C13F21BE0FCFE1"
+					item: { count: 1, id: "primogemcraft:xingchen" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:mmola_01"
+			}
+			id: "3C8D872C11310B24"
+			rewards: [{
+				count: 5
+				id: "4BB7DB645DF2E48F"
+				item: {
+					count: 1
+					id: "primogemcraft:mmola_01"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "40B5ECCD9D0586E3"
+				item: { count: 1, id: "primogemcraft:xingchen" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xldj"
+			}
+			id: "48F76BD1411C9F13"
+			rewards: [{
+				id: "7C44078AFAF35F01"
+				item: {
+					count: 1
+					id: "primogemcraft:xldj"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "2FAA31F46F4F46CC"
+					item: { count: 1, id: "primogemcraft:mmola_01" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1922F0025B70184A"
+					item: { count: 1, id: "primogemcraft:xingchen" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			disable_toast: true
+			entity_vis_size: 1.0f
+			icon: {
+				id: "primogemcraft:xinshoucq"
+			}
+			id: "40C834774CBB7C96"
+			rewards: [{
+				id: "61C0FB43A8BCE0E6"
+				item: {
+					count: 1
+					id: "primogemcraft:xinshoucq"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "07F59348AAA076D2"
+					item: { count: 1, id: "primogemcraft:mmola_01" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "007E156EF68C22B6"
+					item: { count: 1, id: "primogemcraft:xingchen" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "407EC5D14140DEF9"
+			invisible: true
+			rewards: [
+				{
+					id: "6A1EA87B1B269E18"
+					item: {
+						components: {
+							"minecraft:max_damage": 33550336
+						}
+						count: 1
+						id: "avaritia:infinity_totem"
+					}
+					type: "item"
+				}
+				{
+					id: "28C9C0A33D07E15E"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"白厄的头（模型）\"}"
+							"minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"text\":\"愿此行，终抵群星\"}"]
+							"minecraft:profile": {
+								id: [I;
+									840324790
+									121981138
+									-2058317167
+									-1345357906
+								]
+								name: "Gothening"
+								properties: [{
+									name: "textures"
+									signature: "Y3fnmdOCa7TpZTpZNulu+SeSOxHuAw7EbFkGgO84Iu1Et5ewOLum2xZjWa1ryo7SEjzwPaCpHpwNwA0uqSWufFcYww3yb/Aw6fM/MofPUmENH0RhExmDATvutLmJjGKWzUUJqET5mn3WhO/JCsyaArPAj9CGDG3BL9blSLvNu/5qKgqxPNc/Dcjh6UcCOjrixK9URQDXvYYM/q9kLmxX2fvwa3m+jPdpEwjRwaOn9Po4y+MU/l2AlPwul1/grRPVCtwwt+29kn3OmRWk35d7rxqeNqjqogwKeoSJ/dqawBxFyJKSaa2GBWZZkwiUeQ4C4NmYiUdXcQWckDnnv6WtfIet9xlogqm+gFi4PdPbeI5DjYr5gVEjcno4WHKQk52vEg7qQaA91dOWKyve3yshmBgb6AZYunWyOBQIAWyJEcgiXx7y25Is8m94PugO688obBCCH8nw1qN5QtqG5LwqIzCM+F61atyzjs/lJgEnM/Z+usizrCcEwvp0ID55U8swod7nz/SFev5AsFMUSoPsDtxYZaLK7rUKHlrHz5gLRLEXXrijWK1IqtHb0FhKh+jHMZ8FFIy26qkK5d8vuvtyyYqflD2WNIYgnRl9E1MblBNfYGT2iyzcDtaxhTlS2rfEXWWRgF+Rj2DcWOmGayKc+xTFg8fbth5UA9xBVZu/CHI="
+									value: "ewogICJ0aW1lc3RhbXAiIDogMTc4Njk1OTg3ODA0OSwKICAicHJvZmlsZUlkIiA6ICIzMjE2NTZiNjA3NDU0OGQyODU1MDkyOTFhZmNmNzdhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb3RoZW5pbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVjMDE4OWVjZGNjNTMzMzBhNTM0OWUwNjUyMTQ5YjllMGNkOWM1ZWQ3MjBiMzI5NWFjM2IxNWUwN2I5MjI5NiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+						count: 1
+						id: "minecraft:player_head"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B56D2410B173AE1"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 33550335
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56FB8C92FA01DAEF"]
+			entity_vis_size: 1.0f
+			id: "451D6D8F4E887676"
+			tasks: [{
+				id: "2D8A11381A884D5E"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+	]
+}

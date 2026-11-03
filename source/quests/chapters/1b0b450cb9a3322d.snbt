@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "1b0b450cb9a3322d"
 	group: "64455473278BA5BB"
+	icon: {
+		id: "excessive_utilities:paintbrush"
+	}
 	id: "1B0B450CB9A3322D"
 	images: [ ]
 	order_index: 0
@@ -11,91 +14,78 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["22F1F5F59DD38D29"]
 			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:wooden_hoe"
+			}
 			id: "6AD1C9188DA92969"
-			tasks: [{
-				id: "048190C0795E7B81"
-				stage: "gothening_l0_stage_2"
-				type: "gamestage"
-			}]
-			x: -6.0d
-			y: 1.0d
+			tasks: [
+				{
+					advancement: "minecraft:story/root"
+					criterion: ""
+					id: "4E2D8B76D4B1286B"
+					type: "advancement"
+				}
+				{
+					id: "5D2653C3DB93F22B"
+					type: "checkmark"
+				}
+			]
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:choppingboard"
+			}
 			id: "601B49CF7CF3B85A"
-			rewards: [
-				{
-					id: "3CC7A611DD4B9B8E"
-					item: {
-						count: 1
-						id: "farmersdelight:iron_knife"
-					}
-					type: "item"
+			rewards: [{
+				id: "355F14F8041540F4"
+				item: {
+					count: 1
+					id: "flavor_immersed_daily:kitchenknife"
 				}
-				{
-					id: "7098F45627A62C6A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "68494903973271EB"
-				item: { count: 1, id: "farmersdelight:cutting_board" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["601B49CF7CF3B85A"]
-			entity_vis_size: 1.0f
-			icon: {
-				id: "farmersdelight:stove"
-			}
-			id: "7A2BD3CDB2491C81"
-			rewards: [
-				{
-					count: 10
-					id: "5B81680A4FED00FF"
-					item: {
-						count: 1
-						id: "minecraft:bowl"
-					}
-					type: "item"
-				}
-				{
-					id: "6BF0B43C75B3943F"
-					type: "xp"
-					xp: 100
-				}
-			]
 			tasks: [
 				{
-					id: "581CE36F7123B9C8"
-					item: { count: 1, id: "farmersdelight:stove" }
-					optional_task: true
+					id: "497C985CC678D2BE"
+					item: { count: 1, id: "fidworkblock:choppingboard" }
 					type: "item"
 				}
 				{
-					consume_items: false
-					id: "757452305C688052"
-					item: { count: 1, id: "farmersdelight:cooking_pot" }
-					optional_task: true
+					id: "5C0B0475A2313B05"
+					item: { components: { "ftbquests:missing_item": "cuttingdelight:cutting_board" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
-				{
-					id: "6F9B8C0272E6DCAB"
-					item: { count: 1, id: "minecraft:campfire" }
-					optional_task: true
-					type: "item"
+			]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD1C9188DA92969"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:stove"
+			}
+			id: "7A2BD3CDB2491C81"
+			rewards: [{
+				count: 5
+				id: "354EABC1D34CE52D"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
 				}
+				type: "item"
+			}]
+			tasks: [
 				{
-					id: "04E3C818975C8F79"
-					item: { count: 1, id: "kaleidoscope_cookery:pot" }
-					optional_task: true
+					id: "6969629517E4634F"
+					item: { count: 1, id: "kaleidoscope_cookery:stove" }
 					type: "item"
 				}
 				{
@@ -111,8 +101,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 3.0d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
@@ -121,350 +111,140 @@
 				id: "minecraft:lead"
 			}
 			id: "15164F73E6B331EF"
-			rewards: [
-				{
-					count: 64
-					id: "7F4AB64ACB081CC9"
-					item: {
-						count: 1
-						id: "minecraft:oak_fence"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "7F4AB64ACB081CC9"
+				item: {
+					count: 1
+					id: "minecraft:oak_fence"
 				}
-				{
-					id: "07A141B0FA4127F5"
-					type: "xp"
-					xp: 100
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B6FE80F6AE612BF"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -7.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["5BF4000473ECB84F"]
+			dependencies: ["2442F382B50B4571"]
 			entity_vis_size: 1.0f
-			id: "7FE4BFF42DF45F7B"
-			optional: true
-			rewards: [{
-				id: "3CD93305766AB89D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "176051C8DA2A3814"
-					item: { count: 1, id: "farmersdelight:straw" }
-					type: "item"
-				}
-				{
-					id: "734D742326E54658"
-					item: { count: 1, id: "farmersdelight:tree_bark" }
-					type: "item"
-				}
-				{
-					id: "6599C15D8DFEF8B4"
-					item: { count: 1, id: "farmersdelight:organic_compost" }
-					type: "item"
-				}
-				{
-					id: "13935CC085A6E038"
-					item: { count: 1, id: "farmersdelight:rich_soil" }
-					type: "item"
-				}
-			]
-			x: -8.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6AD1C9188DA92969"]
-			entity_vis_size: 1.0f
+			icon: {
+				id: "minecraft:farmland"
+			}
 			id: "5BF4000473ECB84F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2BC6976EE89CB438"
-				table_id: 4058379649542455179L
-				type: "choice"
-			}]
 			tasks: [{
 				id: "4DF6EDFA96D908F4"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7A2BD3CDB2491C81"]
-			entity_vis_size: 1.0f
-			id: "1F7A24AEB647985A"
-			rewards: [{
-				count: 20
-				id: "333D0906C633D39A"
-				item: {
-					count: 1
-					id: "kaleidoscope_cookery:dumpling"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7B74FB9FC320A20C"
-					item: { count: 1, id: "kaleidoscope_cookery:dumpling" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "037494E8945F6C4D"
-					item: { count: 1, id: "farmersdelight:dumplings" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -8.0d
-			y: 4.5d
+			x: -8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["601B49CF7CF3B85A"]
 			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:mortar"
+			}
 			id: "73C4EAD7FC743883"
 			optional: true
 			rewards: [{
-				id: "4E8B15DDAC125739"
+				count: 5
+				id: "6492F361FC1EABF8"
 				item: {
 					count: 1
-					id: "minecraft:donkey_spawn_egg"
+					id: "primogemcraft:xingqiong"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "22316F55BE39DB40"
-					item: { count: 1, id: "kaleidoscope_cookery:millstone" }
+					id: "193157AC39C586F0"
+					item: { count: 1, id: "fidworkblock:mortar" }
 					type: "item"
 				}
 				{
 					id: "2E4DFB70C449A658"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:flour)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
 					type: "item"
 				}
 				{
-					id: "1F3E17A51B027B61"
-					item: { count: 1, id: "create:wheat_flour" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["04A9BEA98B998F92"]
-			entity_vis_size: 1.0f
-			hide_dependency_lines: false
-			id: "3DA8FA48438B8BD8"
-			rewards: [
-				{
-					id: "4E782AFB31537680"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"indestructible:indestructible": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
+					id: "6D0DA62D520D7474"
+					item: { count: 1, id: "flavor_immersed_daily:saltpiece" }
 					type: "item"
 				}
 				{
-					id: "24FE059B48756BC9"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "318E6FF81AAF47BA"
-				item: { count: 1, id: "minecraft:netherite_hoe" }
-				type: "item"
-			}]
-			x: -10.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["15164F73E6B331EF"]
-			dependency_requirement: "all_started"
-			entity_vis_size: 1.0f
-			id: "597E234CA803FDE3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "21CFD39EB6F3CFF8"
-					table_id: 3504009241940765542L
-					type: "loot"
-				}
-				{
-					id: "4D66D7B719414736"
-					item: {
-						count: 1
-						id: "prefab:item_farm"
-					}
+					id: "562F52F76B93EAC4"
+					item: { count: 1, id: "flavor_immersed_daily:paddygrain" }
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "6C6E39BDF7FE5E3B"
-				item: { count: 1, id: "prefab:item_farm" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["597E234CA803FDE3"]
-			dependency_requirement: "all_started"
-			entity_vis_size: 1.0f
-			id: "72B15D7199D95C6D"
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2FDF8BF3094C464A"
-					table_id: 3504009241940765542L
-					type: "loot"
-				}
-				{
-					id: "2F625F27713BF3C4"
-					item: {
-						count: 1
-						id: "prefab:item_farm_improved"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6C3529FC7DE6AFB4"
-				item: { count: 1, id: "prefab:item_farm_improved" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["72B15D7199D95C6D"]
-			dependency_requirement: "all_started"
-			entity_vis_size: 1.0f
-			id: "043C016D19708AB6"
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "153DF8FE9A88548B"
-					table_id: 3504009241940765542L
-					type: "loot"
-				}
-				{
-					id: "467724A3D391C75C"
-					item: {
-						count: 1
-						id: "prefab:item_farm_advanced"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4ABCBFA3BFD59297"
-				item: { count: 1, id: "prefab:item_farm_advanced" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
+			x: -8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
 			id: "458FA20937056886"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E6A61EC500662A6"
-				table_id: 3504009241940765542L
-				type: "loot"
+				count: 5
+				id: "37729103F9ED747E"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "5050F5A0141A3B2B"
 				item: { count: 1, id: "more_than_decoration:homestead_wand" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["458FA20937056886"]
 			entity_vis_size: 1.0f
 			id: "77771F8A4D28D955"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "23818D9878614EBD"
-				table_id: 3504009241940765542L
-				type: "loot"
+				count: 10
+				id: "62A45F64CF715938"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "1BAE32C097C0399B"
 				item: { count: 1, id: "more_than_decoration:decoratium" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["77771F8A4D28D955"]
 			entity_vis_size: 1.0f
 			id: "78D44652A420ACC9"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "30F9B407BF2216F0"
-				table_id: 3504009241940765542L
-				type: "loot"
+				count: 10
+				id: "624B2B8C46828E0F"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "7582B7153DECD96B"
 				item: { count: 1, id: "more_than_decoration:decor_core" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["78D44652A420ACC9"]
-			entity_vis_size: 1.0f
-			id: "48141982F2492BD9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5008ABBBCF3F7EF7"
-				table_id: 3504009241940765542L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					id: "7A78A897AC7099CF"
-					item: { count: 1, id: "supplementaries:globe" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1B1FF4A06CDCB139"
-					item: { count: 1, id: "excessive_utilities:chandelier" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 0.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["78D44652A420ACC9"]
@@ -500,10 +280,13 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "53719C5018BDC37B"
-					table_id: 3504009241940765542L
-					type: "loot"
+					count: 20
+					id: "655143DEBA3547D6"
+					item: {
+						count: 1
+						id: "primogemcraft:xingqiong"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -588,35 +371,21 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5BF4000473ECB84F"]
-			entity_vis_size: 1.0f
-			id: "04A9BEA98B998F92"
-			rewards: [{
-				id: "4DF44A72F8BC8C5C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "59377F8F2FE3F98E"
-				item: { count: 1, id: "trailblazer:token_of_abundance" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: 3.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
 			entity_vis_size: 1.0f
 			id: "23195CC25B930AFA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "39FE9287AF516A7C"
-				table_id: 192768075916963873L
-				type: "loot"
+				count: 5
+				id: "3BE9B5F40EB8CD3D"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -631,8 +400,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 1.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["23195CC25B930AFA"]
@@ -660,8 +429,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 0.0d
+			x: -4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["23195CC25B930AFA"]
@@ -676,12 +445,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7760A4895B9A3800"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:armors/horse)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "06C31014EB400B59"
+				item: { count: 1, id: "minecraft:diamond_horse_armor" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.0d
+			x: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6AD1C9188DA92969"]
@@ -710,64 +479,22 @@
 				item: { count: 1, id: "minecraft:fishing_rod" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7A2BD3CDB2491C81"]
-			entity_vis_size: 1.0f
-			id: "5A449F92945D7FF3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7AC2A7E9E82D55DD"
-				table_id: 4058379649542455179L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "25A1DD1404CEAD43"
-				item: { count: 1, id: "trailblazer:chefs_certificate" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 4.0d
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["648436B48BE1C372"]
 			entity_vis_size: 1.0f
 			id: "24B76D397BE02B1E"
-			rewards: [
-				{
-					id: "1DBD3D18FD82C67B"
-					item: {
-						count: 1
-						id: "alexsmobs:flying_fish_boots"
-					}
-					type: "item"
+			rewards: [{
+				count: 20
+				id: "3533201416C3A4F9"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
 				}
-				{
-					id: "47AF42B408A55740"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"indestructible:indestructible": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					id: "084AC78B47C4488E"
-					item: {
-						count: 1
-						id: "minecraft:turtle_helmet"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 64L
@@ -794,8 +521,1193 @@
 					type: "item"
 				}
 			]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6AD1C9188DA92969"]
+			entity_vis_size: 1.0f
+			id: "15038EFF53A21A78"
+			rewards: [{
+				count: 5
+				id: "49751E282FF932EE"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A8481546C8919CB"
+				item: { count: 1, id: "chisel:iron_chisel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15038EFF53A21A78"]
+			entity_vis_size: 1.0f
+			id: "61EE85C9A7119E38"
+			rewards: [{
+				count: 5
+				id: "15D192404BC994BB"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "61A4FCEEFA229872"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:terracotta)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2638DD16ED818D3C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:brick_blocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD1C9188DA92969"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:agriculturalappraisalmachine"
+			}
+			id: "2442F382B50B4571"
+			rewards: [{
+				count: 5
+				id: "6FF629A6A79F28DA"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "55D6562A0A653C2D"
+					item: { count: 1, id: "flavor_immersed_daily:agriculturalappraisalmachine" }
+					type: "item"
+				}
+				{
+					id: "3D9C81069537D370"
+					item: { count: 1, id: "flavor_immersed_daily:kitchenscissor" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["78D44652A420ACC9"]
+			entity_vis_size: 1.0f
+			id: "48141982F2492BD9"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "07A853824330A643"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B1FF4A06CDCB139"
+				item: { count: 1, id: "excessive_utilities:chandelier" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5BF4000473ECB84F"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:trellis"
+			}
+			id: "5E85952034B5748B"
+			rewards: [{
+				count: 5
+				id: "3A38836A8D818D74"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5FA3164E7DF8081E"
+					item: { count: 1, id: "flavor_immersed_daily:trellis" }
+					type: "item"
+				}
+				{
+					id: "5297D56D8B1201E4"
+					item: { count: 1, id: "flavor_immersed_daily:grape" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AD1C9188DA92969"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "ultramarine:cyan_bricks"
+			}
+			id: "776D09DAB6F122E0"
+			rewards: [{
+				count: 5
+				id: "286598855F4ACE62"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "085A7FEB087AC01E"
+					item: { count: 1, id: "ultramarine:unfired_clay_brick" }
+					type: "item"
+				}
+				{
+					id: "52FC113FD46AE776"
+					item: { count: 1, id: "ultramarine:unfired_cyan_brick" }
+					type: "item"
+				}
+				{
+					id: "609BA68B3E3EAE72"
+					item: { count: 1, id: "ultramarine:cyan_bricks" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["776D09DAB6F122E0"]
+			entity_vis_size: 1.0f
+			id: "34AB4303D4295B44"
+			rewards: [
+				{
+					count: 16
+					id: "3C8A2FB7BAB1F49E"
+					item: {
+						count: 1
+						id: "ultramarine:blue_and_white_glaze_powder"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "74EDD917F8B8EDB3"
+					item: {
+						count: 1
+						id: "primogemcraft:xingqiong"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C1148D56E8B0EAE"
+					item: { count: 1, id: "ultramarine:brick_kiln" }
+					type: "item"
+				}
+				{
+					id: "04701B31C39A534C"
+					item: { count: 1, id: "ultramarine:blue_and_white_glaze_powder" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15038EFF53A21A78"]
+			entity_vis_size: 1.0f
+			id: "05A446D3B8B1333F"
+			rewards: [{
+				count: 5
+				id: "1A5D2CCC2FF37231"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "0D21DA2DD7800A95"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:concrete_powders)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66E7BE0F4AF2F86D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:concrete)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "0A0ACC7815C2A339"
+			rewards: [{
+				count: 5
+				id: "17E8F4AC1AEBBC39"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F322566DAFC910D"
+				item: { count: 1, id: "ultramarine:blue_and_white_porcelain_vase" }
+				type: "item"
+			}]
 			x: -3.0d
-			y: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "01829F92EA70FF84"
+			rewards: [{
+				count: 5
+				id: "5025588269EF3A00"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "039442DAA353702A"
+				item: { count: 1, id: "ultramarine:large_blue_and_white_porcelain_vase" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "1225099D740A5769"
+			rewards: [{
+				count: 5
+				id: "43581BD499E3038D"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AFC25C59CFA3AC8"
+				item: { count: 1, id: "ultramarine:short_blue_and_white_porcelain_pot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "3C51991B4A51300F"
+			rewards: [{
+				count: 5
+				id: "4DBD7DFA983D703A"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D3450109D79B6DF"
+				item: { count: 1, id: "ultramarine:tall_blue_and_white_porcelain_pot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "0871B9644F0F640F"
+			rewards: [{
+				count: 5
+				id: "29D9A6EC577661DB"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42E1AC2218AE2DB3"
+				item: { count: 1, id: "ultramarine:blue_and_white_porcelain_bowl" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "116B8BA846629D0F"
+			rewards: [{
+				count: 5
+				id: "05E47D197CA27F46"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6899CE737C79AE52"
+				item: { count: 1, id: "ultramarine:blue_and_white_porcelain_flowerpot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34AB4303D4295B44"]
+			entity_vis_size: 1.0f
+			id: "4E53B2DAC3D75A3E"
+			rewards: [{
+				count: 5
+				id: "2D101A714A5BE232"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52AA857B1F6FBFE4"
+				item: { count: 1, id: "ultramarine:tall_blue_and_white_porcelain_bonsai" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73C4EAD7FC743883"]
+			entity_vis_size: 1.0f
+			hide_until_deps_complete: false
+			icon: {
+				id: "flavor_immersed_daily:coarsecloth"
+			}
+			id: "023157A1D158FDBF"
+			rewards: [
+				{
+					count: 5
+					id: "47A0DF635F7688E5"
+					item: {
+						count: 1
+						id: "primogemcraft:xingqiong"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2E56BF31942FE3E9"
+					item: {
+						count: 1
+						id: "flavor_immersed_daily:tidywater"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "149B837EB36A3C38"
+					item: { count: 1, id: "flavor_immersed_daily:coarsecloth" }
+					type: "item"
+				}
+				{
+					id: "0415BB4E17C97681"
+					item: { count: 1, id: "flavor_immersed_daily:filtervat" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["601B49CF7CF3B85A"]
+			entity_vis_size: 1.0f
+			id: "3A6323F4921B1F09"
+			rewards: [{
+				count: 5
+				id: "46CC9093B0584C41"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CA4D7D6EA5F4289"
+				item: { count: 1, id: "fidworkblock:dryer" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["601B49CF7CF3B85A"]
+			entity_vis_size: 1.0f
+			id: "0ED564ECCC5481C7"
+			rewards: [{
+				count: 5
+				id: "36121BE1BEC51263"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CB885ECA6FEA399"
+				item: { count: 1, id: "fidworkblock:squeezingmachine" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0ED564ECCC5481C7"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:cookingoil"
+			}
+			id: "727897A0BB737C3F"
+			rewards: [{
+				count: 5
+				id: "3E18E31703F1229E"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B9A012D566B5916"
+					item: { count: 1, id: "flavor_immersed_daily:bran" }
+					type: "item"
+				}
+				{
+					id: "2ECDF8E1CF29E200"
+					item: { count: 1, id: "flavor_immersed_daily:cookingoil" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"727897A0BB737C3F"
+				"3A6323F4921B1F09"
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:fryingpan"
+			}
+			id: "3E4661EE95CCBE36"
+			rewards: [{
+				count: 5
+				id: "6966839C072C02B4"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10A45B7FB35079A3"
+					item: { count: 1, id: "fidworkblock:fryingpan" }
+					type: "item"
+				}
+				{
+					id: "5BBE3E1594AA39B7"
+					item: { count: 1, id: "flavor_immersed_daily:frenchfries" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["023157A1D158FDBF"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:wok"
+			}
+			id: "255E7093D9EB22C0"
+			rewards: [{
+				count: 5
+				id: "1198F02FFE21040D"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "23B92E277DF7B488"
+					item: { count: 1, id: "fidworkblock:wok" }
+					type: "item"
+				}
+				{
+					id: "2BA8CE16AEE2B3AF"
+					item: { count: 1, id: "flavor_immersed_daily:panadapancake" }
+					type: "item"
+				}
+				{
+					id: "7C1960A229AE523E"
+					item: { count: 1, id: "flavor_immersed_daily:spatula" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73C4EAD7FC743883"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:eggbreakingmachine"
+			}
+			id: "5DE1FACAA93DA1AE"
+			tasks: [
+				{
+					id: "681450CF661CE2DC"
+					item: { count: 1, id: "flavor_immersed_daily:eggbreakingmachine" }
+					type: "item"
+				}
+				{
+					id: "08F5D3640F62AFD3"
+					item: { count: 1, id: "flavor_immersed_daily:eggdough" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DE1FACAA93DA1AE"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:steambox"
+			}
+			id: "57D34669E02D5253"
+			rewards: [{
+				count: 5
+				id: "0C39A6C383FC1D65"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49404D3CA618EC5B"
+					item: { count: 1, id: "fidworkblock:steambox" }
+					type: "item"
+				}
+				{
+					id: "6FD918E5AC3AE475"
+					item: { count: 1, id: "flavor_immersed_daily:eggcake" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DE1FACAA93DA1AE"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:mallet"
+			}
+			id: "4691186778A2FFF9"
+			tasks: [
+				{
+					id: "2BF81AE9BE063D9C"
+					item: { count: 1, id: "flavor_immersed_daily:mallet" }
+					type: "item"
+				}
+				{
+					id: "7E809CF1E0BE622B"
+					item: { count: 1, id: "flavor_immersed_daily:beatglutinousriceflourpaste" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73C4EAD7FC743883"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:pressurecooker"
+			}
+			id: "3CDD75FFD7246D47"
+			rewards: [{
+				count: 5
+				id: "3A80B16CA31C4E26"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C73347CD7C44FE6"
+					item: { count: 1, id: "fidworkblock:pressurecooker" }
+					type: "item"
+				}
+				{
+					id: "6AECD8BE78240997"
+					item: { count: 1, id: "flavor_immersed_daily:rice" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A63B558557F4843"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:meatmincer"
+			}
+			id: "719433533580F326"
+			rewards: [{
+				count: 5
+				id: "63B88D8E2A095AB4"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42A3232FACD78A05"
+					item: { count: 1, id: "fidworkblock:meatmincer" }
+					type: "item"
+				}
+				{
+					id: "0BCB646F666B8E6B"
+					item: { count: 1, id: "flavor_immersed_daily:meatpaste" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3A6323F4921B1F09"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:teapot"
+			}
+			id: "2D3254A0A309548C"
+			rewards: [{
+				count: 5
+				id: "060F03507836F0A8"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61BE7FC738C9E752"
+					item: { count: 1, id: "fidworkblock:teapot" }
+					type: "item"
+				}
+				{
+					id: "3AD1028BF46E0F47"
+					item: { count: 1, id: "flavor_immersed_daily:greentea" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["023157A1D158FDBF"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:jar"
+			}
+			id: "185ECFEA156481DD"
+			rewards: [{
+				count: 5
+				id: "3F8DDCB59A128F8F"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F767AEFDBAFF1C2"
+					item: { count: 1, id: "fidworkblock:jar" }
+					type: "item"
+				}
+				{
+					id: "20BC378126F91471"
+					item: { count: 1, id: "flavor_immersed_daily:soy" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15164F73E6B331EF"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:bonecutterknife"
+			}
+			id: "1B4073C386BFDCB5"
+			rewards: [{
+				count: 5
+				id: "067BA93C5BDFA8C9"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78EFAB58AB8682FF"
+					item: { count: 1, id: "flavor_immersed_daily:bonecutterknife" }
+					type: "item"
+				}
+				{
+					id: "3B0D3EA8E1BDB381"
+					item: { count: 1, id: "flavor_immersed_daily:deadcattle" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43AB31358B8A8AE2"
+					item: { count: 1, id: "flavor_immersed_daily:deadsheep" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3EAA6F0D829007A0"
+					item: { count: 1, id: "flavor_immersed_daily:deadpig" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "747F0ED2879484B1"
+					item: { count: 1, id: "flavor_immersed_daily:deadchicken" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A63B558557F4843"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "flavor_immersed_daily:fridge"
+			}
+			id: "4F348B0585340882"
+			rewards: [{
+				count: 5
+				id: "62ABCABBC8733F85"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78BE2426A403E2A3"
+				item: { count: 1, id: "flavor_immersed_daily:fridge" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4691186778A2FFF9"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "fidworkblock:pot"
+			}
+			id: "1147807A61947003"
+			rewards: [{
+				count: 5
+				id: "2EB4EAC0C7087758"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42724387A2B5D4A1"
+					item: { count: 1, id: "fidworkblock:pot" }
+					type: "item"
+				}
+				{
+					id: "4452CAC8AC903BC8"
+					item: { count: 1, id: "flavor_immersed_daily:newyearcake" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B4073C386BFDCB5"]
+			entity_vis_size: 1.0f
+			id: "3A63B558557F4843"
+			rewards: [{
+				count: 5
+				id: "1459CD820862C196"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BA2CA252AA0A5BD"
+					item: { count: 1, id: "flavor_immersed_daily:bighook" }
+					type: "item"
+				}
+				{
+					id: "51FFB559A2BB89D7"
+					item: { count: 1, id: "flavor_immersed_daily:woodbasin" }
+					type: "item"
+				}
+				{
+					id: "23ED698778A3BA04"
+					item: { count: 1, id: "flavor_immersed_daily:wideedgedknife" }
+					type: "item"
+				}
+				{
+					id: "20C5FF3A4584E142"
+					item: { count: 1, id: "flavor_immersed_daily:sharpknife" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7B88FBF973BFC09B"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_tavern:barrel"
+			}
+			id: "25753FE21E12E0C5"
+			rewards: [{
+				count: 5
+				id: "58D6EB3B268D8A2A"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FA699DB82BBA8B6"
+					item: { count: 1, id: "kaleidoscope_tavern:barrel" }
+					type: "item"
+				}
+				{
+					id: "7C99BD6A1D0EB8F1"
+					item: { count: 1, id: "kaleidoscope_tavern:tap" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AD1C9188DA92969"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_tavern:pressing_tub"
+			}
+			id: "7B88FBF973BFC09B"
+			rewards: [{
+				count: 5
+				id: "2522019238461AE7"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "621DFEAB84B46834"
+					item: { count: 1, id: "kaleidoscope_tavern:pressing_tub" }
+					type: "item"
+				}
+				{
+					id: "7A1EE09822EC84BA"
+					item: { count: 1, id: "kaleidoscope_tavern:grape_bucket" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25753FE21E12E0C5"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_tavern:shaker"
+			}
+			id: "602529BDCAE70D86"
+			rewards: [{
+				count: 5
+				id: "194AB2ACBFAE21E2"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7273CDBF0AAB60DB"
+					item: { count: 1, id: "kaleidoscope_tavern:shaker" }
+					type: "item"
+				}
+				{
+					id: "7C6FA4C4806AE77D"
+					item: { count: 1, id: "kaleidoscope_tavern:empty_glassware" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25753FE21E12E0C5"]
+			entity_vis_size: 1.0f
+			id: "34E9A4A33C3C9275"
+			tasks: [{
+				id: "1DDC37770909166C"
+				item: { components: { "kaleidoscope_tavern:brew_level": 6 }, count: 1, id: "kaleidoscope_tavern:vinegar" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A2BD3CDB2491C81"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_grilling:grill"
+			}
+			id: "14C695371441D20D"
+			rewards: [{
+				count: 5
+				id: "3814693878A44619"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "238C4700A78559F0"
+					item: { count: 1, id: "kaleidoscope_grilling:grill" }
+					type: "item"
+				}
+				{
+					id: "64B5D5ED2C02E331"
+					item: { components: { "minecraft:custom_data": { SeasoningIngredients: [ "kaleidoscope_grilling:green_chili_powder", "kaleidoscope_grilling:sichuan_pepper", "kaleidoscope_grilling:onion_powder" ] } }, count: 1, id: "kaleidoscope_grilling:special_seasoning" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A2BD3CDB2491C81"]
+			entity_vis_size: 1.0f
+			icon: {
+				id: "kaleidoscope_cookery:oil_pot"
+			}
+			id: "18A8B1B319C225E1"
+			rewards: [{
+				count: 5
+				id: "3C2C72D05455DC62"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "659E9862E757EBA3"
+					item: { count: 1, id: "kaleidoscope_cookery:oil_pot" }
+					type: "item"
+				}
+				{
+					id: "7022003A680737E1"
+					item: { count: 1, id: "kaleidoscope_cookery:oil" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"14C695371441D20D"
+				"18A8B1B319C225E1"
+			]
+			entity_vis_size: 1.0f
+			id: "0F09CFFCFDDDEA4E"
+			rewards: [{
+				count: 5
+				id: "36679D56F28C1048"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D4DF37AC856716"
+				item: { components: { "minecraft:custom_data": { Cooked: 1b, CookedIngredientStacks: [ { count: 1, id: "minecraft:apple" }, { count: 1, id: "kaleidoscope_grilling:beef_chunks" }, { count: 1, id: "minecraft:brown_mushroom" } ], CreativeSkewerPreview: 1b, HotUntil: 811100L, SeasoningIngredients: [ "kaleidoscope_grilling:green_chili_powder", "kaleidoscope_grilling:sichuan_pepper", "kaleidoscope_grilling:onion_powder" ], SkewerIngredients: [ "minecraft:apple", "kaleidoscope_grilling:beef_chunks", "minecraft:brown_mushroom" ], SkewerModelVariants: [I; 4, 8, 6 ] } }, count: 1, id: "kaleidoscope_grilling:secret_skewer" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["185ECFEA156481DD"]
+			entity_vis_size: 1.0f
+			id: "02CB6D3FECA7A222"
+			rewards: [{
+				count: 5
+				id: "7BA538A3994367E0"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6338C56AA0618EF7"
+				item: { count: 1, id: "flavor_immersed_daily:vinegar" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D3254A0A309548C"]
+			entity_vis_size: 1.0f
+			id: "5F9080179DACC4A6"
+			rewards: [{
+				count: 10
+				id: "24A6901CFE4ED533"
+				item: {
+					count: 1
+					id: "primogemcraft:xingqiong"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39D2048CED1858C5"
+				item: { count: 1, id: "flavor_immersed_daily:icedblacktea" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["601B49CF7CF3B85A"]
+			entity_vis_size: 1.0f
+			id: "4BA28CB8425D7D79"
+			tasks: [{
+				id: "0FABF3FCC0CF478B"
+				item: { count: 1, id: "kaleidoscope_cookery:millstone" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BF4000473ECB84F"]
+			entity_vis_size: 1.0f
+			id: "5AB07642D822B24B"
+			rewards: [{
+				id: "3E8B25E2ED624F0F"
+				item: {
+					count: 1
+					id: "primogemcraft:jijiuchanzhiyuan"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72E0688918BC093F"
+				item: { count: 1, id: "avaritia:soul_farmland" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
 		}
 	]
 }

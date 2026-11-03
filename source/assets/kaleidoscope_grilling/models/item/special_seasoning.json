@@ -1,0 +1,453 @@
+{
+  "parent": "kaleidoscope_grilling:item/seasoning_special_states/remaining_0",
+  "overrides": [
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_0"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.14285714285714285,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.2857142857142857,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.42857142857142855,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.5714285714285714,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_4"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.7142857142857143,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_5"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 0.8571428571428571,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_6"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_1_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_2_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_3_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_4_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_5_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_6_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_7_variant_7"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:seasoning_variant": 1,
+        "kaleidoscope_grilling:seasoning_remaining": 1
+      },
+      "model": "kaleidoscope_grilling:item/seasoning_special_states/remaining_8_variant_7"
+    }
+  ]
+}

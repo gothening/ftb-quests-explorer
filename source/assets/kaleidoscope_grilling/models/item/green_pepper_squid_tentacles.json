@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kaleidoscope_grilling:item/green_pepper_squid_tentacles"
+  }
+}

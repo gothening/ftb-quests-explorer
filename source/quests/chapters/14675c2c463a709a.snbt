@@ -3,9 +3,16 @@
 	default_quest_shape: ""
 	filename: "14675c2c463a709a"
 	group: "7E18D2B281281CE2"
+	icon: {
+		components: {
+			"ftbquests:icon": "primogemcraft:textures/011.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "14675C2C463A709A"
 	images: [ ]
 	order_index: 4
+	quest_enhance_chapter_quest_prerequisites: [548880886360044269L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
@@ -22,8 +29,8 @@
 				item: { count: 1, id: "oneiricconcept:heartofthefrozensea" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -37,8 +44,8 @@
 				item: { count: 1, id: "oneiricconcept:heartoftheskysea" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -52,8 +59,8 @@
 				item: { count: 1, id: "oneiricconcept:heartofthevastsea" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -67,8 +74,8 @@
 				item: { count: 1, id: "oneiricconcept:sun_start_can" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 5.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -82,8 +89,8 @@
 				item: { count: 1, id: "primogemcraft:cebuzhunxia" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 6.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -97,8 +104,8 @@
 				item: { count: 1, id: "primogemcraft:chunmeizhipao" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 9.0d
+			x: 4.0d
+			y: 21.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -112,8 +119,8 @@
 				item: { count: 1, id: "primogemcraft:diamondlottery" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -127,8 +134,8 @@
 				item: { count: 1, id: "primogemcraft:fenliejinbi" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -142,8 +149,8 @@
 				item: { count: 1, id: "primogemcraft:fulinjiao" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 3.0d
+			y: 24.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -157,8 +164,8 @@
 				item: { count: 1, id: "primogemcraft:gongsideguguzhong" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.0d
+			x: 4.0d
+			y: 23.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -173,7 +180,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -188,7 +195,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -203,7 +210,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -218,7 +225,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -233,7 +240,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -248,7 +255,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -263,7 +270,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -277,8 +284,8 @@
 				item: { count: 1, id: "primogemcraft:jdsbcf_0" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 10.0d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -292,8 +299,8 @@
 				item: { count: 1, id: "primogemcraft:jdsbcf_1" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 10.0d
+			x: 1.0d
+			y: 22.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -307,8 +314,8 @@
 				item: { count: 1, id: "primogemcraft:jdsbcf_2" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 10.0d
+			x: 2.0d
+			y: 22.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -322,8 +329,8 @@
 				item: { count: 1, id: "primogemcraft:jingqueyouyadaima" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -337,8 +344,8 @@
 				item: { count: 1, id: "primogemcraft:jlbj" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 11.0d
+			x: 11.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -353,7 +360,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -367,8 +374,8 @@
 				item: { count: 1, id: "primogemcraft:meiyouzhushidaima" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 1.0d
+			y: 12.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -382,8 +389,8 @@
 				item: { count: 1, id: "primogemcraft:mysterylottery" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -397,8 +404,8 @@
 				item: { count: 1, id: "primogemcraft:pengkeluodejingshen" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.0d
+			x: 2.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -412,8 +419,8 @@
 				item: { count: 1, id: "primogemcraft:qiwuchongwang" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 2.0d
+			y: 21.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -427,8 +434,8 @@
 				item: { count: 1, id: "primogemcraft:qiwuheisenlinggz" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 11.0d
+			x: 3.0d
+			y: 23.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -442,8 +449,8 @@
 				item: { count: 1, id: "primogemcraft:quxgjibing" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.0d
+			x: 3.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -457,8 +464,8 @@
 				item: { count: 1, id: "primogemcraft:qwcbzg" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 11.0d
+			x: 8.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -472,8 +479,8 @@
 				item: { count: 1, id: "primogemcraft:qwclgs" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: 5.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -487,8 +494,8 @@
 				item: { count: 1, id: "primogemcraft:qwclhy" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 12.0d
+			x: 3.0d
+			y: 18.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -503,7 +510,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.0d
+			y: 14.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -518,7 +525,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 12.0d
+			y: 14.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -533,7 +540,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 12.0d
+			y: 14.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -547,8 +554,8 @@
 				item: { count: 1, id: "primogemcraft:qwggzfenlie_a" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 1.0d
+			y: 23.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -562,8 +569,8 @@
 				item: { count: 1, id: "primogemcraft:qwggzfenlie_b" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 0.0d
+			y: 23.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -577,8 +584,8 @@
 				item: { count: 1, id: "primogemcraft:qwhdlz" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.0d
+			x: 8.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -593,7 +600,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -607,8 +614,8 @@
 				item: { count: 1, id: "primogemcraft:qwhygzq" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.0d
+			x: 1.0d
+			y: 17.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -622,8 +629,8 @@
 				item: { count: 1, id: "primogemcraft:qwjcdm" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -637,8 +644,8 @@
 				item: { count: 1, id: "primogemcraft:qwjlbhy" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 13.0d
+			x: 4.0d
+			y: 18.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -652,7 +659,7 @@
 				item: { count: 1, id: "primogemcraft:qwjlbxyq" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 10.0d
 			y: 13.0d
 		}
 		{
@@ -667,8 +674,8 @@
 				item: { count: 1, id: "primogemcraft:qwjzyj" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 13.0d
+			x: 1.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -682,8 +689,8 @@
 				item: { count: 1, id: "primogemcraft:qwkwgl" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.0d
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -697,8 +704,8 @@
 				item: { count: 1, id: "primogemcraft:qwkwzg" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 13.0d
+			x: 2.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -712,8 +719,8 @@
 				item: { count: 1, id: "primogemcraft:qwkwzj" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 0.0d
+			y: 20.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -727,8 +734,8 @@
 				item: { count: 1, id: "primogemcraft:qwkwzt" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.0d
+			x: 6.0d
+			y: 19.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -742,8 +749,8 @@
 				item: { count: 1, id: "primogemcraft:qwkwzw" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.0d
+			x: 3.0d
+			y: 21.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -757,8 +764,8 @@
 				item: { count: 1, id: "primogemcraft:qwkzhy" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 13.0d
+			x: 2.0d
+			y: 18.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -773,7 +780,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 14.0d
+			y: 27.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -787,8 +794,8 @@
 				item: { count: 1, id: "primogemcraft:qwlzdlt" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.0d
+			x: 7.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -802,8 +809,8 @@
 				item: { count: 1, id: "primogemcraft:qwmhs" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.0d
+			x: 5.0d
+			y: 17.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -817,8 +824,8 @@
 				item: { count: 1, id: "primogemcraft:qwqcxxmx" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 14.0d
+			x: 4.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -832,8 +839,8 @@
 				item: { count: 1, id: "primogemcraft:qwqskxjxt" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 14.0d
+			x: 3.0d
+			y: 22.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -862,8 +869,8 @@
 				item: { count: 1, id: "primogemcraft:qwsjgzq" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.0d
+			x: 2.0d
+			y: 17.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -877,8 +884,8 @@
 				item: { count: 1, id: "primogemcraft:qwsklj" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.0d
+			x: 1.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -892,8 +899,8 @@
 				item: { count: 1, id: "primogemcraft:qwsksj" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 14.0d
+			x: 0.0d
+			y: 17.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -907,8 +914,8 @@
 				item: { count: 1, id: "primogemcraft:qwsmcd" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 14.0d
+			x: 3.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -923,7 +930,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -937,8 +944,8 @@
 				item: { count: 1, id: "primogemcraft:qwsss" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 15.0d
+			x: 3.0d
+			y: 17.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -952,8 +959,8 @@
 				item: { count: 1, id: "primogemcraft:qwtcjlbptbg" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 1.0d
+			y: 27.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -967,8 +974,8 @@
 				item: { count: 1, id: "primogemcraft:qwthhj" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 15.0d
+			x: 2.0d
+			y: 27.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -982,8 +989,8 @@
 				item: { count: 1, id: "primogemcraft:qwthhjiii" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 15.0d
+			x: 3.0d
+			y: 27.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -997,7 +1004,7 @@
 				item: { count: 1, id: "primogemcraft:qwtldgs" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 15.0d
 		}
 		{
@@ -1012,8 +1019,8 @@
 				item: { count: 1, id: "primogemcraft:qwtldhy" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 15.0d
+			x: 1.0d
+			y: 18.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1027,8 +1034,8 @@
 				item: { count: 1, id: "primogemcraft:qwtxzp" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 15.0d
+			x: 5.0d
+			y: 21.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1042,8 +1049,8 @@
 				item: { count: 1, id: "primogemcraft:qwwcn" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 1.0d
+			y: 21.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1057,7 +1064,7 @@
 				item: { count: 1, id: "primogemcraft:qwwsg" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 4.0d
 			y: 15.0d
 		}
 		{
@@ -1072,7 +1079,7 @@
 				item: { count: 1, id: "primogemcraft:qwwsgl" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 16.0d
 		}
 		{
@@ -1087,8 +1094,8 @@
 				item: { count: 1, id: "primogemcraft:qwwshy" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 16.0d
+			x: 0.0d
+			y: 18.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1102,8 +1109,8 @@
 				item: { count: 1, id: "primogemcraft:qwwswct" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: 0.0d
+			y: 19.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1117,8 +1124,8 @@
 				item: { count: 1, id: "primogemcraft:qwwsx" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 16.0d
+			x: 6.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1132,8 +1139,8 @@
 				item: { count: 1, id: "primogemcraft:qwwszj" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 16.0d
+			x: 1.0d
+			y: 20.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1147,8 +1154,8 @@
 				item: { count: 1, id: "primogemcraft:qwwxntdmj" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 16.0d
+			x: 4.0d
+			y: 22.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1162,8 +1169,8 @@
 				item: { count: 1, id: "primogemcraft:qwwxwcx" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.0d
+			x: 3.0d
+			y: 19.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1178,7 +1185,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 16.0d
+			y: 25.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1192,8 +1199,8 @@
 				item: { count: 1, id: "primogemcraft:qwxbzsq" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 16.0d
+			x: 0.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1207,8 +1214,8 @@
 				item: { count: 1, id: "primogemcraft:qwxgdbmt" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 16.0d
+			x: 1.0d
+			y: 19.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1223,7 +1230,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.0d
+			y: 14.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1237,8 +1244,8 @@
 				item: { count: 1, id: "primogemcraft:qwxxgg" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 17.0d
+			x: 7.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1252,7 +1259,7 @@
 				item: { count: 1, id: "primogemcraft:qwxydd" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 17.0d
 		}
 		{
@@ -1267,8 +1274,8 @@
 				item: { count: 1, id: "primogemcraft:qwxydlt" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 17.0d
+			x: 5.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1282,8 +1289,8 @@
 				item: { count: 1, id: "primogemcraft:qwxydsw" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 17.0d
+			x: 2.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1297,8 +1304,8 @@
 				item: { count: 1, id: "primogemcraft:qwxyzq" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 17.0d
+			x: 4.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1312,8 +1319,8 @@
 				item: { count: 1, id: "primogemcraft:qwybtzdypj" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 17.0d
+			x: 5.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1327,8 +1334,8 @@
 				item: { count: 1, id: "primogemcraft:qwyhjb" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 17.0d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1342,8 +1349,8 @@
 				item: { count: 1, id: "primogemcraft:qwyhnj" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.0d
+			x: 1.0d
+			y: 24.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1357,8 +1364,8 @@
 				item: { count: 1, id: "primogemcraft:qwymwct" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 17.0d
+			x: 2.0d
+			y: 19.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1372,8 +1379,8 @@
 				item: { count: 1, id: "primogemcraft:qwymzj" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 18.0d
+			x: 2.0d
+			y: 20.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1387,8 +1394,8 @@
 				item: { count: 1, id: "primogemcraft:qwypzgs" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 18.0d
+			x: 6.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1403,7 +1410,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 18.0d
+			y: 24.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1417,8 +1424,8 @@
 				item: { count: 1, id: "primogemcraft:qwyzzm" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 18.0d
+			x: 7.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1432,8 +1439,8 @@
 				item: { count: 1, id: "primogemcraft:qwzcgl" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 18.0d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1447,8 +1454,8 @@
 				item: { count: 1, id: "primogemcraft:qwzcgs" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 18.0d
+			x: 1.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1462,8 +1469,8 @@
 				item: { count: 1, id: "primogemcraft:qwzjxxmx" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 18.0d
+			x: 3.0d
+			y: 20.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1477,8 +1484,8 @@
 				item: { count: 1, id: "primogemcraft:shcbzx" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 18.0d
+			x: 4.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1493,7 +1500,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 18.0d
+			y: 26.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1507,38 +1514,8 @@
 				item: { count: 1, id: "primogemcraft:shqwfnj" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 18.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "primogemcraft:shqwyhdlt"
-			}
-			id: "25F5CCA03829F5EB"
-			tasks: [{
-				consume_items: false
-				id: "03F10F3636ADE735"
-				item: { count: 1, id: "primogemcraft:shqwyhdlt" }
-				type: "item"
-			}]
 			x: 0.0d
-			y: 19.0d
-		}
-		{
-			entity_vis_size: 1.0f
-			icon: {
-				id: "primogemcraft:shxjdlt"
-			}
-			id: "553C4B8EECF4EC65"
-			tasks: [{
-				consume_items: false
-				id: "5CA33FBE419C8843"
-				item: { count: 1, id: "primogemcraft:shxjdlt" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 19.0d
+			y: 24.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1552,8 +1529,8 @@
 				item: { count: 1, id: "primogemcraft:skjinb" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 19.0d
+			x: 1.0d
+			y: 14.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1567,7 +1544,7 @@
 				item: { count: 1, id: "primogemcraft:ssanbamiantou" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 19.0d
 		}
 		{
@@ -1582,8 +1559,8 @@
 				item: { count: 1, id: "primogemcraft:wanshinang" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 19.0d
+			x: 0.0d
+			y: 21.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1597,7 +1574,7 @@
 				item: { count: 1, id: "primogemcraft:wawanxiangwuchangtou" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 19.0d
 		}
 		{
@@ -1612,8 +1589,8 @@
 				item: { count: 1, id: "primogemcraft:wuxiandiguidedaima" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 19.0d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1627,8 +1604,8 @@
 				item: { count: 1, id: "primogemcraft:xiangdanganlao" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 19.0d
+			x: 3.0d
+			y: 16.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1642,8 +1619,8 @@
 				item: { count: 1, id: "primogemcraft:xingjidaletou" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.0d
+			x: 3.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1658,7 +1635,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 19.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1672,8 +1649,8 @@
 				item: { count: 1, id: "primogemcraft:ydggz" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 20.0d
+			x: 2.0d
+			y: 23.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1687,8 +1664,8 @@
 				item: { count: 1, id: "primogemcraft:yiyimuguoshi" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 20.0d
+			x: 0.0d
+			y: 15.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1703,7 +1680,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 20.0d
+			y: 13.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1717,8 +1694,8 @@
 				item: { count: 1, id: "primogemcraft:youdianqiqiaodedaima" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 20.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1732,8 +1709,8 @@
 				item: { count: 1, id: "primogemcraft:ysrz_0" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 20.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -1747,8 +1724,8 @@
 				item: { count: 1, id: "primogemcraft:zhongguizhongjudedaima" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 20.0d
+			x: 4.0d
+			y: 12.0d
 		}
 	]
 }

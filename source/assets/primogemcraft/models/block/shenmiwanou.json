@@ -1,0 +1,9 @@
+{
+  "parent": "primogemcraft:custom/huahuo0",
+  "textures": {
+    "all": "primogemcraft:block/huahuo0",
+    "particle": "primogemcraft:block/huahuo0",
+    "2": "primogemcraft:block/huahuo0"
+  },
+  "render_type": "cutout"
+}

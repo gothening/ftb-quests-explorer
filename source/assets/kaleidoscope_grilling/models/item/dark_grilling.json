@@ -1,0 +1,1469 @@
+{
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "stick": "kaleidoscope_grilling:item/secret_skewer_stick",
+    "food": "minecraft:item/charcoal",
+    "particle": "#stick"
+  },
+  "elements": [
+    {
+      "name": "wood",
+      "from": [
+        7.75,
+        0.75,
+        0
+      ],
+      "to": [
+        8.25,
+        1.25,
+        12.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          1,
+          6
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            7,
+            10,
+            8
+          ],
+          "texture": "#stick"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13,
+            1
+          ],
+          "texture": "#stick"
+        },
+        "south": {
+          "uv": [
+            10,
+            7,
+            11,
+            8
+          ],
+          "texture": "#stick"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            13,
+            2
+          ],
+          "texture": "#stick"
+        },
+        "up": {
+          "uv": [
+            1,
+            15,
+            0,
+            2
+          ],
+          "texture": "#stick"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            1,
+            15
+          ],
+          "texture": "#stick"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -98.57,
+        1.45,
+        -174.51
+      ],
+      "translation": [
+        0.75,
+        6.25,
+        5.5
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -98.57,
+        1.45,
+        -174.51
+      ],
+      "translation": [
+        0.75,
+        6.25,
+        5.5
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -95,
+        -7,
+        -163
+      ],
+      "translation": [
+        -1,
+        7.75,
+        7.25
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -94,
+        0,
+        -165
+      ],
+      "translation": [
+        -1.5,
+        7.25,
+        7
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        90,
+        135,
+        0
+      ],
+      "translation": [
+        1.75,
+        1.75,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        14.5,
+        -2
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        -180
+      ],
+      "translation": [
+        0,
+        2.25,
+        9.75
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        -90,
+        0,
+        -180
+      ],
+      "translation": [
+        0,
+        14.25,
+        6.5
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_16"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.3125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_20"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.328125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_21"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.34375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_22"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.359375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_23"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_24"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.390625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_25"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.40625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_26"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.421875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_27"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.4375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_28"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.453125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_29"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.46875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_30"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.484375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_31"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_32"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.5625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_36"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.578125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_37"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.59375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_38"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.609375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_39"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_40"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.640625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_41"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.65625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_42"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.671875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_43"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.6875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_44"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.703125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_45"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.71875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_46"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.734375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_47"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_48"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.8125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_52"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.828125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_53"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.84375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_54"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.859375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_55"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_56"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.890625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_57"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.90625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_58"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.921875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_59"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.9375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_60"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.953125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_61"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.96875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_62"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.984375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewer_states/dark_state_63"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.03125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_beef_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.0625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_pork_belly_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.09375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_chicken_skin_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_mid_wing_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.15625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_squid_tentacle_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.1875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_fish_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.21875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_sweet_potato_sheet_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_potato_slice_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.28125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_caterpillar_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.3125
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_mushroom_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.34375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_bun_slice_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_ender_pearl_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.40625
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_meatball_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.4375
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_slime_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.46875
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_meat_and_bone_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/failure_skewers/dark_raw_fried_egg_skewer"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.328125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_21_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.328125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_21_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.328125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_21_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.34375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_22_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.34375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_22_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.34375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_22_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.359375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_23_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.359375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_23_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.359375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_23_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.390625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_25_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.390625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_25_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.390625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_25_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.40625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_26_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.40625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_26_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.40625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_26_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.421875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_27_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.421875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_27_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.421875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_27_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.453125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_29_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.453125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_29_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.453125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_29_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.46875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_30_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.46875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_30_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.46875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_30_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.484375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_31_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.484375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_31_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.484375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_31_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.578125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_37_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.578125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_37_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.578125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_37_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.59375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_38_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.59375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_38_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.59375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_38_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.609375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_39_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.609375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_39_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.609375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_39_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.640625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_41_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.640625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_41_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.640625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_41_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.65625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_42_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.65625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_42_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.65625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_42_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.671875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_43_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.671875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_43_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.671875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_43_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.703125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_45_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.703125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_45_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.703125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_45_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.71875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_46_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.71875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_46_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.71875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_46_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.734375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_47_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.734375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_47_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.734375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_47_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.828125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_53_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.828125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_53_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.828125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_53_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.84375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_54_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.84375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_54_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.84375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_54_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.859375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_55_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.859375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_55_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.859375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_55_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.890625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_57_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.890625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_57_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.890625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_57_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.90625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_58_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.90625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_58_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.90625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_58_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.921875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_59_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.921875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_59_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.921875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_59_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.953125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_61_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.953125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_61_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.953125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_61_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.96875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_62_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.96875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_62_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.96875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_62_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.984375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_63_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.984375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_63_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:skewer_state": 0.984375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewer_states_dark_state_63_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.03125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_beef_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.03125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_beef_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.03125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_beef_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.0625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_pork_belly_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.0625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_pork_belly_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.0625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_pork_belly_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.09375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_chicken_skin_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.09375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_chicken_skin_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.09375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_chicken_skin_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_mid_wing_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_mid_wing_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_mid_wing_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.15625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_squid_tentacle_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.15625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_squid_tentacle_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.15625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_squid_tentacle_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.1875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_fish_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.1875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_fish_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.1875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_fish_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.21875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_sweet_potato_sheet_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.21875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_sweet_potato_sheet_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.21875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_sweet_potato_sheet_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.25,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_potato_slice_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.25,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_potato_slice_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.25,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_potato_slice_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.28125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_caterpillar_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.28125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_caterpillar_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.28125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_caterpillar_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.3125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_mushroom_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.3125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_mushroom_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.3125,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_mushroom_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.34375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_bun_slice_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.34375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_bun_slice_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.34375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_bun_slice_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_ender_pearl_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_ender_pearl_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_ender_pearl_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.40625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_meatball_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.40625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_meatball_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.40625,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_meatball_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.4375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_slime_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.4375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_slime_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.4375,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_slime_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.46875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_meat_and_bone_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.46875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_meat_and_bone_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.46875,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_meat_and_bone_skewer_bite_3"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.5,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.25
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_fried_egg_skewer_bite_1"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.5,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.5
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_fried_egg_skewer_bite_2"
+    },
+    {
+      "predicate": {
+        "kaleidoscope_grilling:failed_skewer_source": 0.5,
+        "kaleidoscope_grilling:skewer_bite_stage": 0.75
+      },
+      "model": "kaleidoscope_grilling:item/bite_stages/failure_skewers_dark_raw_fried_egg_skewer_bite_3"
+    }
+  ]
+}

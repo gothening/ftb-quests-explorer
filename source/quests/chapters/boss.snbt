@@ -3,11 +3,141 @@
 	default_quest_shape: ""
 	filename: "boss"
 	group: "7E18D2B281281CE2"
+	icon: {
+		components: {
+			"ftbquests:icon": "ftblibrary:textures/faces/minecraft/ender_dragon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "67D5783CC3627A67"
 	images: [ ]
 	order_index: 5
+	quest_enhance_chapter_quest_prerequisites: [548880886360044269L]
 	quest_enhance_decorative_lines: [ ]
 	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "4980D0F0E9AA07DA"
+			rewards: [{
+				count: 8
+				id: "71B30858C365259C"
+				item: {
+					count: 1
+					id: "minecraft:echo_shard"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "1E7024BBF27AE639"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 1.0f
+			id: "5013EB9D8A8A8E94"
+			rewards: [{
+				id: "2DD4FE5BF88A11A3"
+				item: {
+					count: 1
+					id: "allthemodium:allthemodium_ingot"
+				}
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "0DF9E0E05810436C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6171781D667BCACE"]
+			entity_vis_size: 2.0f
+			icon_scale: 2.0d
+			id: "114B5E1F75ADEDE7"
+			rewards: [{
+				count: 8
+				id: "3F6DBF93E5004868"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_block"
+				}
+				type: "item"
+			}]
+			size: 6.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3C1C17092F08BC4C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "38CF662EFBBAF017"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "5F51B9DB544D4E03"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+	]
 }

@@ -72,13 +72,6 @@
 		{
 			id: "1C85D8105C30003A"
 			item: {
-				components: {
-					"minecraft:stored_enchantments": {
-						levels: {
-							"indestructible:indestructible": 1
-						}
-					}
-				}
 				count: 1
 				id: "minecraft:enchanted_book"
 			}
@@ -177,6 +170,14 @@
 				id: "mekanism:creative_fluid_tank"
 			}
 			weight: 0.05f
+		}
+		{
+			id: "4B4FC019E1B2EB1E"
+			item: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
+			weight: 0.2f
 		}
 	]
 }
